@@ -1,0 +1,1273 @@
+0001|Bulbasaur|friend lure great|friend nest
+0002|Ivysaur|friend lure great|nest friend
+0003|Venusaur*|friend lure great|nest friend
+0004|Charmander|repeat|level repeat
+0005|Charmeleon|repeat poke|level repeat
+0006|Charizard|repeat|luxury timer
+0007|Squirtle|dive moon|dive safari
+0008|Wartortle|dive moon|nest safari dream
+0009|Blastoise|dive moon heavy|nest safari dream
+0010|Caterpie|nest friend|level luxury
+0011|Metapod|nest friend|repeat sport poke
+0012|Butterfree*|timer master heal|timer dream heal
+0013|Weedle|nest ultra luxury|ultra luxury
+0014|Kakuna|ultra level|dusk nest friend
+0015|Beedrill|level ultra|dusk moon friend
+0016|Pidgey|nest luxury safari|ultra luxury safari
+0017|Pidgeotto|level fast repeat|ultra luxury
+0018|Pidgeot|level fast repeat|ultra luxury
+0019|Rattata*|heal dream master|nest safari
+0019|Rattata (Alola)|ultra luxury timer|poke timer
+0020|Raticate*|nest safari ultra|poke fast premier
+0020|Raticate (Alola)|ultra luxury timer|poke timer
+0021|Spearow|nest safari level|nest level
+0022|Fearow|nest safari level|nest safari level
+0023|Ekans|heal master dream|nest safari
+0024|Arbok|heal master dream|ultra level luxury
+0025|Pikachu*|level ultra fast|level ultra fast
+0026|Raichu*|level ultra fast|fast level repeat
+0026|Raichu (Alola)|quick ultra|luxury ultra level
+0027|Sandshrew|ultra|nest friend
+0027|Sandshrew (Alola)|dive premier|dive
+0028|Sandslash|ultra luxury nest|level luxury
+0028|Sandslash (Alola)|dive|dive
+0029|Nidoran♀|dive great|heal dream love
+0030|Nidorina|dive great|heal dream love
+0031|Nidoqueen|quick great moon|heal nest
+0032|Nidoran♂|dream heal master|great dive
+0033|Nidorino|dream heal master|great dive
+0034|Nidoking|dream heal master|great dive moon
+0035|Clefairy|love heal moon|love heal moon
+0036|Clefable|love heal moon|love heal moon
+0037|Vulpix|repeat|ultra level
+0037|Vulpix (Alola)|dive premier|premier dive
+0038|Ninetales|ultra level|premier heavy
+0038|Ninetales (Alola)|dive premier|premier dive
+0039|Jigglypuff|dream heal moon|dream heal moon
+0040|Wigglytuff|dream heal moon|dream heal moon
+0041|Zubat*|great moon|dusk nest friend
+0042|Golbat*|great moon|dusk nest friend
+0043|Oddish|great nest friend|friend nest dusk
+0044|Gloom*|great lure|friend nest dusk
+0045|Vileplume*|great lure|friend nest dusk
+0046|Paras|repeat sport poke|repeat sport poke
+0047|Parasect|repeat sport poke|level repeat ultra
+0048|Venonat|dream heal master|heavy great
+0049|Venomoth|dream heal love|dive
+0050|Diglett|nest luxury safari|heavy nest great
+0050|Diglett (Alola)|luxury ultra|lure great
+0051|Dugtrio|nest luxury safari|heavy nest great
+0051|Dugtrio (Alola)|luxury ultra|lure moon ultra
+0052|Meowth|luxury ultra|luxury ultra premier
+0052|Meowth (Alola)|moon luxury|moon luxury
+0052|Meowth (Galar)|ultra luxury|ultra luxury
+0053|Persian|luxury ultra|luxury premier ultra
+0053|Persian (Alola)|moon luxury dive|moon luxury
+0054|Psyduck|ultra|dive strange
+0055|Golduck|lure quick dive|lure great dive
+0056|Mankey|nest safari|nest safari
+0057|Primeape|nest safari|nest safari
+0058|Growlithe|repeat fast|ultra level
+0058|Growlithe (Hisui)|repeat|ultra level
+0059|Arcanine|repeat fast|ultra level
+0059|Arcanine (Hisui)|repeat|ultra level
+0060|Poliwag|dive|dive
+0061|Poliwhirl|dive|dive
+0062|Poliwrath|dive|friend nest
+0063|Abra|ultra level luxury|ultra
+0064|Kadabra*|ultra level luxury|ultra
+0065|Alakazam*|ultra level luxury|heal ultra
+0066|Machop|great dive strange|luxury nest
+0067|Machoke|great heavy moon|friend nest
+0068|Machamp|great heavy moon|friend nest
+0069|Bellsprout|nest ultra|ultra safari luxury
+0070|Weepinbell|nest ultra|nest friend safari
+0071|Victreebel|nest ultra|nest safari moon
+0072|Tentacool|great lure|net friend
+0073|Tentacruel|great lure|net quick moon
+0074|Geodude|heavy safari nest|level ultra
+0074|Geodude (Alola)|heavy ultra|repeat luxury
+0075|Graveler|heavy safari nest|repeat safari
+0075|Graveler (Alola)|heavy ultra|repeat luxury
+0076|Golem|nest safari heavy|repeat safari
+0076|Golem (Alola)|heavy ultra luxury|ultra luxury
+0077|Ponyta|fast repeat|quick great dive
+0077|Ponyta (Galar)|dream heal premier|premier dive friend
+0078|078 - Rapidash|fast repeat|heal dream
+0078|Rapidash (Galar)|dream heal premier|premier dive friend
+0079|Slowpoke|heal dream love|love dream premier
+0079|Slowpoke (Galar)|heal|quick level ultra
+0080|Slowbro|heal dream love|heal dream
+0080|Slowbro (Galar)|dream heal|heal quick
+0081|Magnemite|great heavy|luxury
+0082|Magneton|great heavy|luxury
+0083|Farfetch'd|nest safari|nest safari
+0083|Farfetch'd (Galar)|nest safari|nest safari
+0084|Doduo*|nest safari|nest safari ultra
+0085|Dodrio*|nest safari timer|nest safari ultra
+0086|Seel|premier|premier
+0087|Dewgong|premier|premier
+0088|Grimer|dream master dusk|nest friend dusk
+0088|Grimer (Alola)|friend nest|heal dream master
+0089|Muk|dream master dusk|nest friend dusk
+0089|Muk (Alola)|heal dusk|heal dream
+0090|Shellder|dream timer dusk|repeat level
+0091|Cloyster|dream heavy dusk|dive great heavy
+0092|Gastly|dream dusk master|dream dusk
+0093|Haunter|dream dusk master|dream dusk
+0094|Gengar|dream dusk master|dream dusk
+0095|Onix|heavy ultra|nest safari luxury
+0096|Drowzee|ultra|dream love heal
+0097|Hypno*|ultra|dream love heal
+0098|Krabby|repeat poke|level ultra
+0099|Kingler|repeat poke|nest friend
+0100|Voltorb|poke sport|great dive
+0100|Voltorb (Hisui)|poke sport|ultra
+0101|Electrode|poke sport|great dive
+0101|Electrode (Hisui)|poke sport|ultra
+0102|Exeggcute|heal love|luxury level
+0103|Exeggutor|nest safari|luxury level
+0103|Exeggutor (Alola)|nest safari|luxury level
+0104|Cubone|nest safari|nest safari
+0105|Marowak|nest safari|nest safari
+0105|Marowak (Alola)|dusk|dusk moon
+0106|Hitmonlee|luxury ultra nest|nest safari
+0107|Hitmonchan|luxury ultra dream|great nest safari
+0108|Lickitung|heal love|heal luxury
+0109|Koffing|dream dusk master|dream dusk master
+0110|Weezing|dream dusk master|dream dusk master
+0110|Weezing (Galar)|dusk|nest safari
+0111|Rhyhorn*|heavy timer|level luxury
+0112|Rhydon*|heavy timer|level luxury
+0113|Chansey|love heal|nest friend
+0114|Tangela|great net lure|friend dusk nest
+0115|Kangaskhan|safari nest ultra|safari nest ultra
+0116|Horsea|dive|net
+0117|Seadra|dive|dream great
+0118|Goldeen*|timer|repeat level
+0119|Seaking*|timer|repeat level
+0120|Staryu|luxury level|quick premier
+0121|Starmie|heal luxury level|lure great
+0122|Mr. Mime|heal dream premier|nest friend
+0122|Mr. Mime (Galar)|dive net moon|dive net moon
+0123|Scyther*|nest friend|friend nest
+0124|Jynx|level luxury dream|heal love dream
+0125|Electabuzz|ultra level|repeat level fast
+0126|Magmar|repeat level|love heal dream
+0127|Pinsir|nest safari|heal quick
+0128|Tauros|safari nest|nest safari
+0128|Tauros (Combat Breed)|luxury|luxury
+0128|Tauros (Blaze Breed)|luxury repeat|luxury repeat
+0128|Tauros (Aqua Breed)|luxury dive heavy|luxury dive heavy
+0129|Magikarp|repeat poke sport|luxury ultra repeat
+0130|Gyarados|dive quick|poke timer sport
+0131|Lapras|dive|dream heal master
+0132|Ditto|heal dream love|dive great
+0133|Eevee*|nest safari|premier dive
+0134|Vaporeon|dive net|dream heal master
+0135|Jolteon|ultra|nest friend ultra
+0136|Flareon|repeat fast|repeat fast level
+0137|Porygon|lure great|heal great dream
+0138|Omanyte|dive quick|heal
+0139|Omastar|dive quick|heal
+0140|Kabuto|luxury nest|nest
+0141|Kabutops|luxury nest|nest
+0142|Aerodactyl|dream heal master|heal dream master
+0143|Snorlax|net heavy moon|heavy moon great
+0144|Articuno|dive|dive premier
+0144|Articuno (Galar)|dream dusk|great cherish
+0145|Zapdos|ultra level|ultra level
+0145|Zapdos (Galar)|repeat luxury ultra|ultra cherish
+0146|Moltres|repeat|repeat fast heal
+0146|Moltres (Galar)|timer dusk luxury|poke ultra cherish
+0147|Dratini|dive|love heal dream
+0148|Dragonair|dive|love heal dream
+0149|Dragonite|fast repeat level|friend nest
+0150|Mewtwo|master|friend nest
+0151|Mew|cherish poke premier|dive great poke
+0152|Chikorita|friend nest|luxury ultra
+0153|Bayleef|friend nest|luxury ultra
+0154|Meganium*|friend nest love|luxury ultra
+0155|Cyndaquil|repeat level|luxury level
+0156|Quilava|repeat level|luxury level
+0157|Typhlosion|repeat level|luxury level
+0157|Typhlosion (Hisui)|dream great master|dream great moon
+0158|Totodile|lure quick great|dive quick
+0159|Croconaw|lure quick great|dive quick
+0160|Feraligatr|lure quick great|dive quick
+0161|Sentret|nest|nest level luxury
+0162|Furret|nest|love heal
+0163|Hoothoot|timer luxury nest|luxury level
+0164|Noctowl|timer luxury nest|luxury level
+0165|Ledyba*|timer level poke|level repeat
+0166|Ledian*|timer level poke|level repeat
+0167|Spinarak|friend nest|great heal dive
+0168|Ariados|repeat level|heal quick moon
+0169|Crobat|moon dream dusk|heal
+0170|Chinchou|quick dive|quick dive
+0171|Lanturn|quick dive|quick dive heal
+0172|Pichu|ultra level|ultra level
+0173|Cleffa|love heal moon|love heal moon
+0174|Igglybuff|dream love heal|dream love heal
+0175|Togepi|premier great|premier great
+0176|Togetic|premier great|premier great
+0177|Natu|friend timer dusk|friend luxury dusk
+0178|Xatu*|timer friend dusk|friend timer dusk
+0179|Mareep|quick ultra|heal
+0180|Flaaffy|love heal|love heal
+0181|Ampharos|ultra level fast|love heal dream
+0182|Bellossom|friend nest|heal dream
+0183|Marill|dive great|friend nest
+0184|Azumarill|dive great|level luxury
+0185|Sudowoodo*|nest safari|level luxury friend
+0186|Politoed*|nest friend|heal great
+0187|Hoppip|heal|nest friend
+0188|Skiploom|nest friend|heal love
+0189|Jumpluff|great|love dream heal
+0190|Aipom*|heal dream|love heal
+0191|Sunkern|ultra nest|ultra nest
+0192|Sunflora|nest ultra|nest
+0193|Yanma|friend dusk|net great
+0194|Wooper*|dive|heal love
+0194|Wooper (Paldea)|safari nest|dream heal master
+0195|Quagsire*|dive|dream heal love
+0196|Espeon|dream heal|friend nest
+0197|Umbreon|moon ultra luxury|moon net
+0198|Murkrow*|moon ultra|heal dream master
+0199|Slowking|heal love dream|heal dream great
+0199|Slowking (Galar)|dream heal|dream heal master
+0200|Misdreavus|great moon dusk|dusk friend luxury
+0201|Unown (All)|luxury ultra|great
+0202|Wobbuffet*|net great|love heal dream
+0203|Girafarig*|ultra level luxury|quick ultra
+0204|Pineco|net|luxury level ultra
+0205|Forretress|timer dream|luxury level ultra
+0206|Dunsparce|quick moon|heal level
+0207|Gligar*|heal dream|great dream
+0208|Steelix*|heavy|luxury level ultra
+0209|Snubbull|heal|heal dream
+0210|Granbull|dream love heal|heal luxury
+0211|Qwilfish|net quick|dream love heal
+0211|Qwilfish (Hisui)|master dusk luxury|heavy dive
+0212|Scizor*|timer sport poke|nest friend
+0213|Shuckle|repeat fast|quick
+0214|Heracross*|net great|dream heal love
+0215|Sneasel*|luxury moon dusk|heal
+0215|Sneasel* (Hisui)|heavy dream luxury|luxury quick
+0216|Teddiursa|moon nest safari|nest moon strange
+0217|Ursaring*|moon nest safari|nest friend moon
+0218|Slugma|repeat|premier
+0219|Magcargo|repeat|heal
+0220|Swinub|safari nest|nest
+0221|Piloswine*|safari nest|ultra luxury
+0222|Corsola|love heal|dive
+0222|Corsola (Galar)|premier timer|premier timer
+0223|Remoraid|dive|dream heal master
+0224|Octillery*|timer sport poke|luxury
+0225|Delibird|poke premier sport|love dream heal
+0226|Mantine|net dive|dive
+0227|Skarmory|timer heavy|luxury nest friend
+0228|Houndour|repeat luxury|moon quick net
+0229|Houndoom*|repeat luxury|moon quick net
+0230|Kingdra|dive quick|heal dream master
+0231|Phanpy|great|great
+0232|Donphan*|heavy timer|repeat level nest
+0233|Porygon2|lure great|heal great
+0234|Stantler|nest ultra|nest friend
+0235|Smeargle|nest safari|heal luxury
+0236|Tyrogue|dream heal|great heavy
+0237|Hitmontop|great|heal dream
+0238|Smoochum|heal love|heal love
+0239|Elekid|ultra fast|ultra fast
+0240|Magby|repeat fast|level repeat
+0241|Miltank|heal love|dive quick
+0242|Blissey|love premier|love premier
+0243|Raikou|ultra quick moon|fast level ultra
+0244|Entei|luxury repeat nest|ultra nest
+0245|Suicune|dive|dive
+0246|Larvitar|friend nest dusk|friend nest dusk
+0247|Pupitar|net great|dream dusk master
+0248|Tyranitar|friend nest dusk|luxury dusk safari
+0249|Lugia|dive|premier love
+0250|Ho-Oh|repeat fast|level fast repeat
+0251|Celebi|poke cherish|poke cherish
+0252|Treecko|friend nest|lure moon great
+0253|Grovyle|friend nest|lure moon great
+0254|Sceptile|friend nest|lure moon great
+0255|Torchic*|fast repeat|fast repeat level
+0256|Combusken*|fast repeat|level repeat fast
+0257|Blaziken*|fast repeat sport|level repeat sport
+0258|Mudkip|lure net great|dream master heal
+0259|Marshtomp|lure net great|dream master heal
+0260|Swampert|lure net great|dream master heal
+0261|Poochyena|ultra heavy luxury|level luxury safari
+0262|Mightyena|ultra heavy luxury|level luxury safari
+0263|Zigzagoon|safari nest|repeat sport poke
+0263|Zigzagoon (Galar)|timer luxury level|lure great sport
+0264|Linoone|safari nest|repeat sport poke
+0264|Linoone (Galar)|timer luxury level|lure great sport
+0265|Wurmple|sport poke premier|heal dream master
+0266|Silcoon|premier sport|quick moon
+0267|Beautifly*|level moon ultra|level moon ultra
+0268|Cascoon|dream love heal|friend nest
+0269|Dustox*|friend dream nest|heal luxury
+0270|Lotad|friend quick nest|lure net
+0271|Lombre|friend lure nest|net lure friend
+0272|Ludicolo*|nest friend ultra|net nest moon
+0273|Seedot|ultra safari nest|level repeat ultra
+0274|Nuzleaf*|nest safari|nest safari friend
+0275|Shiftry*|nest safari|nest safari friend
+0276|Taillow|great lure|friend dusk lure
+0277|Swellow|great lure|friend dusk lure
+0278|Wingull|dive premier|friend premier nest
+0279|Pelipper|dive quick|friend nest
+0280|Ralts|friend premier|great lure premier
+0281|Kirlia|friend premier|great lure premier
+0282|Gardevoir|friend premier|great lure premier
+0283|Surskit|quick moon|ultra moon
+0284|Masquerain|timer heal sport|friend dusk
+0285|Shroomish|nest safari|fast poke sport
+0286|Breloom|nest friend safari|fast poke sport
+0287|Slakoth|safari nest|dream love heal
+0288|Vigoroth|timer premier sport|timer premier fast
+0289|Slaking|safari nest|safari nest
+0290|Nincada|nest premier|ultra level luxury
+0291|Ninjask|level ultra luxury|level ultra luxury
+0292|Shedinja|nest safari ultra|nest safari ultra
+0293|Whismur|heal level|dusk friend heal
+0294|Loudred|heal dream level|heal dream master
+0295|Exploud|heal dream level|heal dream master
+0296|Makuhita|level ultra|fast level repeat
+0297|Hariyama|repeat level ultra|dream heal master
+0298|Azurill|great dive net|friend nest net
+0299|Nosepass|great lure net|level luxury repeat
+0300|Skitty|heal love|heal fast
+0301|Delcatty|heal love|heal fast
+0302|Sableye|dusk master dream|luxury nest friend
+0303|Mawile|ultra level luxury|level heal luxury
+0304|Aron|heavy timer|timer premier heavy
+0305|Lairon|heavy timer|timer premier heavy
+0306|Aggron|heavy timer|timer premier heavy
+0307|Meditite*|dive great lure|premier heal sport
+0308|Medicham*|love premier heal|moon dive quick
+0309|Electrike|friend moon nest|quick moon
+0310|Manectric|quick moon|ultra moon
+0311|Plusle|fast level sport|fast level sport
+0312|Minun|quick moon|quick friend nest
+0313|Volbeat|moon lure net|moon heal net
+0314|Illumise|moon heal net|moon quick net
+0315|Roselia*|friend great nest|nest luxury dusk
+0316|Gulpin*|nest friend ultra|moon quick net
+0317|Swalot*|master dream ultra|moon quick net
+0318|Carvanha|lure great quick|quick friend nest
+0319|Sharpedo|quick lure moon|master dream heal
+0320|Wailmer|dive net great|master dream heal
+0321|Wailord|dive net great|master dream heal
+0322|Numel*|friend nest repeat|repeat moon ultra
+0323|Camerupt*|repeat lure|ultra moon luxury
+0324|Torkoal|repeat level ultra|fast level luxury
+0325|Spoink|luxury dream heal|luxury heal moon
+0326|Grumpig|luxury dream heal|luxury heal moon
+0327|Spinda|poke timer|nest safari friend
+0328|Trapinch|repeat dusk|net moon nest
+0329|Vibrava|nest dusk friend|safari level ultra
+0330|Flygon|friend dusk nest|friend quick nest
+0331|Cacnea|nest friend dusk|safari level repeat
+0332|Cacturne*|nest friend dusk|safari level repeat
+0333|Swablu|premier dive moon|premier level moon
+0334|Altaria|premier dive moon|premier level moon
+0335|Zangoose|premier timer sport|great dive lure
+0336|Seviper|level moon ultra|dusk moon net
+0337|Lunatone|moon level timer|moon net
+0338|Solrock|repeat level fast|level repeat fast
+0339|Barboach|dive net moon|ultra level moon
+0340|Whiscash|net moon quick|net lure great
+0341|Corphish|poke sport|love dream poke
+0342|Crawdaunt|lure great sport|repeat level timer
+0343|Baltoy|level luxury timer|nest friend moon
+0344|Claydol|level luxury timer|ultra luxury moon
+0345|Lileep|dream heal|nest friend dusk
+0346|Cradily|nest friend dusk|love heal
+0347|Anorith|timer sport poke|level repeat sport
+0348|Armaldo|quick lure net|level repeat sport
+0349|Feebas|net heal moon|dream heal master
+0350|Milotic*|lure great moon|level heal lure
+0351|Castform|premier dive|heal premier dream
+0352|Kecleon|safari friend nest|safari moon nest
+0353|Shuppet|moon dusk quick|moon dusk quick
+0354|Banette|luxury level dusk|moon level dusk
+0355|Duskull|timer heavy dusk|sport timer dusk
+0356|Dusclops|timer heavy dusk|sport timer dusk
+0357|Tropius|safari nest friend|safari nest friend
+0358|Chimecho|premier level sport|level quick strange
+0359|Absol|timer moon great|premier timer poke
+0360|Wynaut|net great moon|love heal dream
+0361|Snorunt|level ultra repeat|moon quick strange
+0362|Glalie|dive moon net|timer sport premier
+0363|Spheal|dive moon strange|dream love heal
+0364|Sealeo|dive moon strange|dream love heal
+0365|Walrein|dive moon strange|dream love heal
+0366|Clamperl|dive heal|heal dream
+0367|Huntail|dive lure|dusk lure quick
+0368|Gorebyss|dream love heal|heal level
+0369|Relicanth*|timer safari|net dive lure
+0370|Luvdisc|love heal|luxury love heal
+0371|Bagon|heavy moon quick|friend dusk nest
+0372|Shelgon|heavy timer|friend dusk nest
+0373|Salamence|great|friend dusk nest
+0374|Beldum|great net heavy|heavy luxury
+0375|Metang|great net heavy|heavy luxury
+0376|Metagross|great net heavy|heavy luxury
+0377|Regirock|timer repeat sport|nest timer safari
+0378|Regice|dive quick moon|dive quick moon
+0379|Registeel|heavy timer|heavy timer net
+0380|Latias|poke premier sport|level fast quick
+0381|Latios|great premier dive|friend moon quick
+0382|Kyogre|great dive|master heal luxury
+0383|Groudon|timer sport poke|ultra level luxury
+0384|Rayquaza|friend dusk nest|level ultra luxury
+0385|Jirachi|cherish ultra poke|cherish ultra poke
+0386|Deoxys (Normal)|repeat great master|ultra repeat master
+0386|Deoxys (Attack)|repeat great master|ultra repeat master
+0386|Deoxys (Defense)|repeat great master|ultra repeat master
+0386|Deoxys (Speed)|repeat great master|ultra repeat master
+0387|Turtwig|nest safari|nest quick strange
+0388|Grotle|nest safari|nest quick strange
+0389|Torterra|nest safari|nest quick
+0390|Chimchar|fast repeat|heal love
+0391|Monferno|fast repeat|heal love
+0392|Infernape|fast repeat level|heal love
+0393|Piplup|dive quick|dive quick strange
+0394|Prinplup|dive quick|dive quick strange
+0395|Empoleon|moon ultra heavy|dive quick strange
+0396|Starly*|ultra level|safari luxury nest
+0397|Staravia*|ultra level|safari luxury nest
+0398|Staraptor*|timer level ultra|safari luxury nest
+0399|Bidoof*|safari nest luxury|safari luxury nest
+0400|Bibarel*|safari nest luxury|safari luxury nest
+0401|Kricketot*|luxury repeat sport|level luxury
+0402|Kricketune*|luxury repeat sport|level luxury
+0403|Shinx*|quick moon strange|ultra level
+0404|Luxio*|quick moon strange|ultra level
+0405|Luxray*|quick moon strange|ultra level
+0406|Budew|nest|nest dream
+0407|Roserade*|friend great nest|nest luxury dusk
+0408|Cranidos|great net heavy|timer luxury sport
+0409|Rampardos|great net heavy|timer luxury sport
+0410|Shieldon|ultra heavy|ultra moon heavy
+0411|Bastiodon|ultra heavy|ultra moon heavy
+0412|Burmy (Plant)|nest friend dusk|nest friend dusk
+0412|Burmy (Sandy)|ultra level|ultra level
+0412|Burmy (Trash)|heal love|heal love
+0413|Wormadam (Plant)|nest friend dusk|nest friend dusk
+0413|Wormadam (Sandy)|ultra level repeat|ultra level repeat
+0413|Wormadam (Trash)|heal love|heal love
+0414|Mothim|repeat level|quick moon
+0415|Combee*|level ultra|luxury repeat sport
+0416|Vespiquen|level ultra|luxury repeat sport
+0417|Pachirisu*|dive quick|heal love
+0418|Buizel*|quick repeat|quick
+0419|Floatzel*|quick repeat|quick
+0420|Cherubi|friend heal|heal friend luxury
+0421|Cherrim|friend dream heal|friend dream heal
+0422|Shellos (West)|heal|heal
+0422|Shellos (East)|quick strange|quick strange
+0423|Gastrodon (West)|heal|heal
+0423|Gastrodon (East)|quick strange|quick strange
+0424|Ambipom*|heal dream|love heal
+0425|Drifloon|heal dusk|quick strange
+0426|Drifblim|heal dusk|quick strange
+0427|Buneary|nest luxury|love heal
+0428|Lopunny|nest luxury|love heal
+0429|Mismagius|dream master dusk|level luxury
+0430|Honchkrow|luxury moon|dream heal master
+0431|Glameow|timer luxury heal|dream love heal
+0432|Purugly|timer luxury heal|dream love heal
+0433|Chingling|level premier luxury|level premier luxury
+0434|Stunky|dream dusk master|timer poke sport
+0435|Skuntank|dream dusk master|timer poke sport
+0436|Bronzor|moon quick net|friend nest dusk
+0437|Bronzong|great net|friend nest dusk
+0438|Bonsly|nest safari|heal luxury level
+0439|Mime Jr.|heal dream|heal dream friend
+0440|Happiny|love heal dream|love heal dream
+0441|Chatot|quick luxury moon|luxury level moon
+0442|Spiritomb|dusk|great lure strange
+0443|Gible*|great lure strange|quick beast strange
+0444|Gabite*|great lure|great lure
+0445|Garchomp*|great lure level|great moon level
+0446|Munchlax|moon heavy nest|moon heavy great
+0447|Riolu|moon heavy great|level ultra luxury
+0448|Lucario|moon heavy great|level ultra luxury
+0449|Hippopotas*|safari nest ultra|safari nest ultra
+0450|Hippowdon*|ultra luxury|safari luxury ultra
+0451|Skorupi|net great|lure great
+0452|Drapion|heal dream|lure great
+0453|Croagunk*|great net moon|moon net strange
+0454|Toxicroak*|great net moon|moon net strange
+0455|Carnivine|nest safari friend|level nest friend
+0456|Finneon*|dive net strange|level heal
+0457|Lumineon*|dive net strange|level heal
+0458|Mantyke|dive strange|dive strange
+0459|Snover*|nest premier|dive premier strange
+0460|Abomasnow*|premier nest|dive premier strange
+0461|Weavile*|luxury moon|heal
+0462|Magnezone|heavy luxury great|heavy luxury great
+0463|Lickilicky|heal|heal luxury
+0464|Rhyperior*|repeat|ultra repeat
+0465|Tangrowth*|great net|friend dusk
+0466|Electivire|ultra fast|ultra
+0467|Magmortar|repeat fast|love dream heal
+0468|Togekiss|premier great|premier great
+0469|Yanmega|dusk friend nest|great net
+0470|Leafeon|nest|nest
+0471|Glaceon|dive strange|dive strange
+0472|Gliscor|moon dusk luxury|moon quick
+0473|Mamoswine*|safari nest dive|nest friend safari
+0474|Porygon-Z|lure great heal|heal great
+0475|Gallade|friend premier|great lure premier
+0476|Probopass|great lure|level luxury
+0477|Dusknoir|luxury dusk|moon dusk
+0478|Froslass|premier dive|premier dive
+0479|Rotom|quick fast|fast heal
+0479|Rotom (Heat)|repeat fast|fast heal
+0479|Rotom (Wash)|dive fast|fast heal
+0479|Rotom (Frost)|dream dusk fast|fast heal
+0479|Rotom (Fan)|ultra fast|fast heal
+0479|Rotom (Mow)|nest fast|fast heal
+0480|Uxie|level quick dive|level repeat luxury
+0481|Mesprit|love heal dive|love heal luxury
+0482|Azelf|lure great dive|lure quick luxury
+0483|Dialga|heavy timer dive|quick timer
+0483|Dialga (Origin)|heavy timer dive|quick timer
+0484|Palkia|heal premier love|love heal
+0484|Palkia (Origin)|heal premier love|love heal
+0485|Heatran|repeat heavy|repeat heavy fast
+0486|Regigigas|ultra nest|heavy nest net
+0487|Giratina|level luxury dusk|moon heavy quick
+0487|Giratina (Origin)|level luxury dusk|moon heavy quick
+0488|Cresselia|heal moon|moon heal
+0489|Phione|poke strange dive|poke dive net
+0490|Manaphy|cherish poke strange|cherish poke
+0491|Darkrai|moon dusk luxury|master dusk luxury
+0492|Shaymin (Land)|nest premier strange|premier heal nest
+0492|Shaymin (Sky)|premier strange|premier
+0493|Arceus (No Plate)|ultra luxury premier|luxury ultra quick
+0493|Arceus (Plates)||
+0494|Victini|poke cherish|
+0495|Snivy|friend nest level|moon quick net
+0496|Servine|friend nest level|moon quick net
+0497|Serperior|friend nest level|moon quick net
+0498|Tepig|level|level luxury
+0499|Pignite|level|
+0500|Emboar|level|heavy net
+0501|Oshawott|dive quick|dive quick
+0502|Dewott|moon net dive|dive net
+0503|Samurott|moon dive quick|quick dive moon
+0503|Samurott (Hisui)|timer great lure|dive great net
+0504|Patrat|level nest|moon quick nest
+0505|Watchog|level ultra|dusk friend nest
+0506|Lillipup|luxury nest|luxury nest
+0507|Herdier|luxury great|luxury nest
+0508|Stoutland|luxury|luxury
+0509|Purrloin|heal dream master|moon great
+0510|Liepard|heal dream master|luxury level safari
+0511|Pansage|friend nest|friend nest
+0512|Simisage|friend nest|friend nest
+0513|Pansear|fast level|fast level
+0514|Simisear|fast level|fast level
+0515|Panpour|lure moon dive|lure moon dive
+0516|Simipour|lure moon dive|lure moon dive
+0517|Munna|dream heal|heal luxury
+0518|Musharna|dream heal|dream heal
+0519|Pidove|luxury heavy|luxury heavy
+0520|Tranquill|luxury heavy|nest friend
+0521|Unfezant (Male)|luxury heavy dusk|luxury dusk
+0521|Unfezant (Female)|luxury heavy|luxury
+0522|Blitzle|ultra quick|quick ultra
+0523|Zebstrika|ultra quick|ultra quick premier
+0524|Roggenrola|quick moon|great dusk dream
+0525|Boldore|great|great dusk moon
+0526|Gigalith|great|great dusk moon
+0527|Woobat|heal net love|friend dusk love
+0528|Swoobat|heal net love|luxury heal love
+0529|Drilbur|heavy great net|heal love great
+0530|Excadrill|timer luxury|great heal
+0531|Audino|heal love|dream love heal
+0532|Timburr|heal love|luxury
+0533|Gurdurr|heal love|luxury
+0534|Conkeldurr|heal love|luxury
+0535|Tympole|net dive heavy|ultra luxury level
+0536|Palpitoed|net dive heavy|ultra luxury quick
+0537|Seismitoed|net dive heavy|dusk net quick
+0538|Throh|timer|timer
+0539|Sawk|net|net
+0540|Sewaddle|nest friend safari|friend nest safari
+0541|Swadloon|nest friend safari|nest friend safari
+0542|Leavanny|nest friend safari|nest friend safari
+0543|Venipede|dusk sport poke|dusk safari
+0544|Whirlipede|dusk luxury|dusk
+0545|Scolipede|dusk sport poke|great lure timer
+0546|Cottonee|nest safari|premier safari
+0547|Whimsicott|nest safari|moon safari dive
+0548|Petilil|friend nest|nest friend
+0549|Lilligant|friend nest|heal nest quick
+0549|Lilligant (Hisui)|heal nest|heal nest quick
+0550|Basculin (Red-Striped)|dusk nest friend|dusk nest friend
+0550|Basculin (Blue-Striped)|net nest moon|net nest moon
+0550|Basculin (White-Striped)|timer nest moon|timer nest moon
+0551|Sandile|ultra luxury|moon ultra quick
+0552|Krokorok|ultra luxury|moon quick safari
+0553|Krookodile|timer sport poke|ultra nest safari
+0554|Darumaka||heal
+0554|Darumaka (Galar)|dive|dive
+0555|Darmanitan||luxury
+0555|Darmanitan (Galar)|dive premier|dive premier
+0556|Maractus|friend nest heal|friend nest heal
+0557|Dwebble|safari|safari
+0558|Crustle|safari|nest safari
+0559|Scraggy|fast|fast
+0560|Scrafty|fast|dusk friend
+0561|Sigilyph|ultra quick luxury|ultra friend luxury
+0562|Yamask|luxury ultra dusk|moon luxury dusk
+0562|Yamask (Galar)|timer dusk|timer dusk
+0563|Cofagrigus|luxury ultra moon|heal dream dusk
+0564|Tirtouga|dive net|net dive
+0565|Carracosta|dive net|net dive
+0566|Archen|great quick lure|friend quick
+0567|Archeops|great quick lure|lure great quick
+0568|Trubbish|nest|moon heavy net
+0569|Garbodor|nest|moon heavy net
+0570|Zorua|luxury dusk|moon dusk great
+0570|Zorua (Hisui)|premier|moon premier dive
+0571|Zoroark|luxury dusk|dream dusk moon
+0571|Zoroark (Hisui)|premier|dive premier dream
+0572|Minccino|premier|heal premier
+0573|Cinccino|premier|heal premier level
+0574|Gothita|luxury timer|luxury timer dream
+0575|Gothorita|luxury timer|luxury timer dream
+0576|Gothitelle|luxury timer|luxury timer dream
+0577|Solosis|friend nest|dive
+0578|Duosion|friend nest|dive
+0579|Reuniclus|friend nest|dive
+0580|Ducklett|dive quick|heal dream
+0581|Swanna|dive|love dive dream
+0582|Vanillite|dive|premier dive
+0583|Vanillish|dive|dive
+0584|Vanilluxe|dive|dive
+0585|Deerling (Spring)|heal love|heal love
+0585|Deerling (Summer)|nest friend|nest friend
+0585|Deerling (Autumn)|fast|fast
+0585|Deerling (Winter)|luxury nest|luxury nest
+0586|Sawsbuck (Spring)|heal love|heal love
+0586|Sawsbuck (Summer)|nest friend|nest friend
+0586|Sawsbuck (Autumn)|timer poke|timer poke
+0586|Sawsbuck (Winter)|premier dive|premier dive
+0587|Emolga|ultra level|premier ultra luxury
+0588|Karrablast|moon quick net|moon quick net
+0589|Escavalier|timer poke sport|love heal
+0590|Foongus|poke|great master
+0591|Amoonguss|poke|great master
+0592|Frillish (Male)|dive|dive friend
+0592|Frillish (Female)|love dream heal|love dream heal
+0593|Jellicent (Male)|dive|dive friend
+0593|Jellicent (Female)|love dream heal|love dream heal
+0594|Alomomola|love heal|love heal dream
+0595|Joltik|quick net|quick net ultra
+0596|Galvantula|quick net|quick net ultra
+0597|Ferroseed|friend nest|heavy quick
+0598|Ferrothorn|friend nest|level luxury
+0599|Klink|heavy net|nest safari luxury
+0600|Klang|heavy net|nest safari luxury
+0601|Klinklang|heavy net|nest safari luxury
+0602|Tynamo|premier|premier
+0603|Eelektrik|quick moon lure|quick moon lure
+0604|Eelektross|quick moon lure|friend nest lure
+0605|Elgyem|dive quick friend|heal dive
+0606|Beheeyem|nest heal friend|heal
+0607|Litwick|premier moon dusk|premier moon net
+0608|Lampent|moon ultra dusk|moon net dusk
+0609|Chandelure|moon ultra dusk|dusk net
+0610|Axew|dusk nest friend|luxury dusk
+0611|Fraxure|dusk nest friend|net moon dusk
+0612|Haxorus|level luxury ultra|luxury dusk
+0613|Cubchoo|dive premier|dive premier
+0614|Beartic|dive premier|dive premier
+0615|Cryogonal|dive|dive quick
+0616|Shelmet|heal|ultra heal luxury
+0617|Accelgor|heal|heal ultra luxury
+0618|Stunfisk|ultra quick safari|quick moon safari
+0618|Stunfisk (Galar)|nest dusk safari|ultra level safari
+0619|Mienfoo|level love heal|dream heal master
+0620|Mienshao|heal dream master|love heal
+0621|Druddigon|lure great quick|friend nest dusk
+0622|Golett|moon quick|heavy moon dusk
+0623|Golurk|moon quick|heavy moon dusk
+0624|Pawniard|timer luxury sport|heavy quick moon
+0625|Bisharp|timer luxury sport|heavy quick moon
+0626|Bouffalant|luxury ultra|luxury ultra
+0627|Rufflet|premier timer luxury|premier timer luxury
+0628|Braviary|great quick luxury|great quick moon
+0628|Braviary (Hisui)|premier timer luxury|heavy moon quick
+0629|Vullaby|timer nest heal|timer dream nest
+0630|Mandibuzz|timer nest heal|timer dream nest
+0631|Heatmor||luxury
+0632|Durant|timer|nest dusk
+0633|Deino|heavy great dusk|dusk friend
+0634|Zweilous|heavy great dusk|dusk friend
+0635|Hydreigon|great heavy dusk|dusk friend master
+0636|Larvesta|timer premier|ultra level premier
+0637|Volcarona|timer premier|ultra level premier
+0638|Cobalion|net quick|quick moon
+0639|Terrakion|heavy|safari luxury
+0640|Virizion|friend nest|heal love
+0641|Tornadus (Incarnate)|dusk friend master|dusk friend master
+0641|Tornadus (Therian)|dusk friend master|dusk friend master
+0642|Thundurus (Incarnate)|net moon quick|net moon master
+0642|Thundurus (Therian)|net moon quick|net moon master
+0643|Reshiram|premier fast|premier level
+0644|Zekrom|luxury net|luxury dusk
+0645|Landorus (Incarnate)|poke|fast
+0645|Landorus (Therian)|poke|fast
+0646|Kyurem|dive heavy beast|heavy dive beast
+0646|Kyurem (White)|dive heavy beast|heavy dive beast
+0646|Kyurem (Black)|dive heavy beast|heavy dive beast
+0647|Keldeo (Both)|lure great beast|cherish
+0648|Meloetta|moon friend net|cherish
+0649|Genesect (All Drives)|master dream dusk|cherish premier poke
+0650|Chespin|nest safari|luxury
+0651|Quilladin|nest safari|luxury
+0652|Chesnaught|nest safari|nest safari dusk
+0653|Fennekin|fast|timer dusk
+0654|Braixen|level|timer dusk master
+0655|Delphox|fast|timer dusk master
+0656|Froakie|dive|dive beast
+0657|Frogadier|dive|dive
+0658|Greninja|dive moon lure|luxury moon
+0659|Bunnelby|nest|timer heavy premier
+0660|Diggersby|nest|timer heavy premier
+0661|Fletchling|timer|level luxury fast
+0662|Fletchinder|level timer|level luxury fast
+0663|Talonflame|level timer|level luxury fast
+0664|Scatterbug|ultra luxury|premier ultra
+0665|Spewpa|ultra timer premier|ultra timer premier
+0666|Vivillon||
+0667|Litleo|luxury level|premier fast
+0668|Pyroar (Male)|fast level|fast level
+0668|Pyroar (Female)|fast level|fast level
+0669|Flabébé (Red)|poke premier|poke premier
+0669|Flabébé (Yellow)|ultra premier|ultra premier
+0669|Flabébé (Orange)|premier|premier
+0669|Flabébé (Blue)|great premier|great premier
+0669|Flabébé (White)|premier|premier
+0670|Floette (Red)|poke premier|poke premier
+0670|Floette (Yellow)|ultra premier|ultra premier
+0670|Floette (Orange)|premier|premier
+0670|Floette (Blue)|great premier|great premier
+0670|Floette (White)|premier|premier
+0671|Florges (Red)|poke|poke dream master
+0671|Florges (Yellow)|ultra|ultra dream master
+0671|Florges (Orange)||dream master
+0671|Florges (Blue)|great|great dream master
+0671|Florges (White)|premier|premier dream master
+0672|Skiddo|nest safari friend|friend nest
+0673|Gogoat|nest safari friend|friend nest safari
+0674|Pancham|timer ultra nest|nest safari
+0675|Pangoro|timer ultra nest|timer safari nest
+0676|Furfrou|premier|luxury
+0676|Furfrou (Heart)|love heal poke|love heal poke
+0676|Furfrou (Star)|moon net great|moon net great
+0676|Furfrou (Diamond)|luxury ultra|luxury ultra
+0676|Furfrou (Debutante)|level ultra|level ultra
+0676|Furfrou (Matron)|dream heal poke|dream heal poke
+0676|Furfrou (Dandy)|friend dusk ultra|dusk friend ultra
+0676|Furfrou (La Reine)|beast dive great|beast dive great
+0676|Furfrou (Kabuki)|sport timer poke|sport timer poke
+0676|Furfrou (Pharoah)|great net|great net
+0677|Espurr|heal dream|love dream heal
+0678|Meowstic (Male)|great dive|level premier
+0678|Meowstic (Female)|great dive premier|premier level
+0679|Honedge|heavy luxury|luxury lure
+0680|Doublade|love luxury dusk|luxury level
+0681|Aegislash|luxury dusk master|luxury level
+0682|Spritzee|love dream heal|dream heal master
+0683|Aromatisse|love dream heal|dream heal master
+0684|Swirlix|love premier|luxury safari
+0685|Slurpuff|love premier|luxury safari
+0686|Inkay|heal premier|heal premier
+0687|Malamar|heal premier|level luxury premier
+0688|Binacle|sport dive timer|friend love dusk
+0689|Barbaracle|sport dive timer|friend love dusk
+0690|Skrelp|dream heal master|heal dive dream
+0691|Dragalge|dream heal master|heal dive dusk
+0692|Clauncher|quick dive|sport lure great
+0693|Clawitzer|quick dive|sport lure great
+0694|Helioptile|ultra|level luxury
+0695|Heliolisk|ultra|level luxury
+0696|Tyrunt|luxury timer safari|dive great
+0697|Tyrantrum|luxury timer level|dive great
+0698|Amaura|quick dive beast|dive quick premier
+0699|Aurorus|quick dive beast|dive quick premier
+0700|Sylveon|heal love premier|heal dive great
+0701|Hawlucha|sport luxury dusk|dusk luxury
+0702|Dedenne|ultra level|ultra level safari
+0703|Carbink|heavy dive|heavy net
+0704|Goomy|dream dusk master|heal
+0705|Sliggoo|dream dusk master|heal
+0705|Sliggoo (Hisui)|heavy dusk dream|safari luxury dream
+0706|Goodra|dream dusk master|heal
+0706|Goodra (Hisui)|heavy dusk dream|safari luxury dream
+0707|Klefki|heavy timer luxury|luxury quick ultra
+0708|Phantump|dusk nest safari|timer premier
+0709|Trevenant|dusk nest safari|timer premier
+0710|Pumpkaboo (All)|dusk|dusk ultra master
+0711|Gourgeist (All)|dusk|dusk ultra master
+0712|Bergmite|dive|quick dive beast
+0713|Avalugg|dive|quick dive beast
+0713|Avalugg (Hisui)|dive|timer level dive
+0714|Noibat|dream heal master|moon dusk
+0715|Noivern|moon dream dusk|dusk moon friend
+0716|Xerneas|moon heavy net|dive net
+0717|Yveltal|timer luxury|premier timer luxury
+0718|Zygarde (50%)|dusk friend|friend premier net
+0718|Zygarde (10%)|dusk friend|friend premier net
+0719|Diancie|love dream heal|cherish
+0720|Hoopa (Confined)|cherish poke ultra|
+0720|Hoopa (Unbound)|cherish poke ultra|
+0721|Volcanion|luxury lure|cherish
+0722|Rowlet|nest friend|great lure premier
+0723|Dartrix|nest friend|great lure premier
+0724|Decidueye|safari dusk friend|great lure moon
+0724|Decidueye (Hisui)|luxury level|dusk friend
+0725|Litten|luxury|sport premier fast
+0726|Torracat|luxury|sport premier fast
+0727|Incineroar|luxury sport|sport premier timer
+0728|Popplio|dive|dive dream
+0729|Brionne|dive|dream heal master
+0730|Primarina|dive heal love|heal premier love
+0731|Pikipek|timer luxury|timer premier luxury
+0732|Trumbeak|timer luxury|timer luxury
+0733|Toucannon|luxury timer|great heal luxury
+0734|Yungoos|heal nest ultra|heal love
+0735|Gumshoos|heal nest ultra|heal love
+0736|Grubbin|fast|poke sport
+0737|Charjabug|nest friend|sport poke great
+0738|Vikavolt|net quick|friend premier
+0739|Crabrawler|quick heal|fast poke heal
+0740|Crabominable|dive quick premier|premier poke great
+0741|Oricorio (Baile)|poke sport timer|luxury sport timer
+0741|Oricorio (Pom-Pom)|ultra quick|level ultra quick
+0741|Oricorio (Pa'u)|love heal|love heal
+0741|Oricorio (Sensu)|dream dive heal|dive dream heal
+0742|Cutiefly|ultra level|love heal
+0743|Ribombee|ultra level|love heal
+0744|Rockruff|safari nest|quick dive net
+0745|Lycanroc (Midday)|safari nest|quick dive net
+0745|Lycanroc (Midnight)|timer poke sport|moon dive great
+0745|Lycanroc (Dusk)|fast|moon dive net
+0746|Wishiwashi|dive|quick dive
+0747|Mareanie|heal dive|love heal dream
+0748|Toxapex|heal dive|luxury heal love
+0749|Mudbray|nest safari|level safari
+0750|Mudsdale|timer|level
+0751|Dewpider|net dive|timer master dive
+0752|Araquanid|net dive|timer master dive
+0753|Fomantis|friend nest|nest friend
+0754|Lurantis|poke sport love|nest friend
+0755|Morelull|love premier heal|level
+0756|Shiinotic|love heal dream|ultra level
+0757|Salandit|luxury dusk|timer premier
+0758|Salazzle|luxury dream dusk|dream premier love
+0759|Stufful|love heal dream|level luxury
+0760|Bewear|love heal dream|level luxury
+0761|Bounsweet|friend love nest|dream heal
+0762|Steenee|friend love nest|dream heal
+0763|Tsareena|friend love nest|dream heal
+0764|Comfey|heal level|heal lure quick
+0765|Oranguru|premier heal|dream love heal
+0766|Passimian|timer nest ultra|net ultra moon
+0767|Wimpod|dive heal net|premier poke dive
+0768|Golisopod|dive heal net|premier great dive
+0769|Sandygast|poke luxury|ultra luxury dusk
+0770|Palossand|poke luxury ultra|ultra luxury dusk
+0771|Pyukumuku|timer luxury love|nest friend
+0772|Type: Null|poke|poke
+0773|Silvally (All)|poke|poke cherish
+0774|Minior (Red)|poke sport|luxury
+0774|Minior (Orange)|fast|luxury
+0774|Minior (Yellow)|ultra level|luxury
+0774|Minior (Green)|nest friend|luxury
+0774|Minior (Blue)|dive beast|luxury
+0774|Minior (Indigo)|great lure|luxury
+0774|Minior (Violet)|dream master heal|luxury
+0775|Komala|dive moon|love dive moon
+0776|Turtonator|level ultra|ultra luxury
+0777|Togedemaru|ultra premier|premier ultra
+0778|Mimikyu|ultra love|timer love premier
+0779|Bruxish|heal|friend
+0780|Drampa|nest premier friend|ultra
+0781|Dhelmise|net ultra friend|level poke sport
+0782|Jangmo-o|luxury level ultra|heal love
+0783|Hakamo-o|luxury level ultra|heal love
+0784|Kommo-o|luxury level ultra|heal love
+0785|Tapu Koko|fast ultra|luxury
+0786|Tapu Lele|love heal|luxury love
+0787|Tapu Bulu|luxury level ultra|luxury ultra
+0788|Tapu Fini|dive master dream|luxury dive
+0789|Cosmog|poke|
+0790|Cosmoem|poke|
+0791|Solgaleo|timer premier beast|cherish luxury level
+0792|Lunala|moon beast|cherish luxury moon
+0793|Nihilego|dive beast|level beast
+0794|Buzzwole|luxury beast|dusk beast
+0795|Pheromosa|premier beast|luxury beast
+0796|Xurkitree|ultra beast|dive beast
+0797|Celesteela|nest beast|premier beast
+0798|Kartana|fast beast|timer beast
+0799|Guzzlord|ultra beast|beast
+0800|Necrozma|luxury beast|great beast
+0800|Necrozma (Dusk Mane)|ultra beast|great beast cherish
+0800|Necrozma (Dawn Wings)|moon beast|great beast cherish
+0801|Magearna|cherish poke|
+0801|Magearna (Original)|cherish|
+0802|Marshadow|dusk luxury ultra|
+0803|Poipole|master beast poke|poke cherish
+0804|Naganadel|master beast poke|poke cherish
+0805|Stakataka|heavy beast|quick beast
+0806|Blacephalon|heal beast|heal beast
+0807|Zeraora|moon quick beast|cherish
+0808|Meltan|heavy luxury ultra|ultra cherish
+0809|Melmetal|ultra cherish poke|ultra
+0810|Grookey|friend nest safari|friend nest safari
+0811|Thwackey|friend nest safari|friend nest safari
+0812|Rillaboom|dusk nest safari|friend nest safari
+0813|Scorbunny|fast premier|fast premier
+0814|Raboot|level luxury|fast premier
+0815|Cinderace|level luxury|fast premier
+0816|Sobble|quick moon|great lure heal
+0817|Drizzile|quick|great lure heal
+0818|Inteleon|moon quick ultra|great lure heal
+0819|Skwovet|nest safari|love heal
+0820|Greedent|safari nest|love heal
+0821|Rookidee|great moon quick|luxury level
+0822|Corvisquire|great moon|luxury level heavy
+0823|Corviknight|luxury moon dusk|luxury heavy level
+0824|Blipbug|ultra quick|ultra quick
+0825|Dottler|quick ultra|quick ultra
+0826|Orbeetle|level great ultra|dream great master
+0827|Nickit|luxury safari|moon heavy net
+0828|Thievul|luxury safari|moon heavy net
+0829|Gossifleur|fast level|love premier heal
+0830|Eldegoss|nest premier friend|premier love heal
+0831|Wooloo|premier ultra|luxury ultra
+0832|Dubwool|premier ultra heavy|luxury ultra heavy
+0833|Chewtle|quick lure moon|friend nest safari
+0834|Drednaw|quick lure moon|friend nest safari
+0835|Yamper|level ultra|level ultra heal
+0836|Boltund|level ultra|level ultra
+0837|Rolycoly|luxury ultra|heavy net luxury
+0838|Carkol|luxury ultra|heavy net luxury
+0839|Coalossal|luxury ultra|heavy net luxury
+0840|Applin|sport friend poke|nest friend safari
+0841|Flapple|sport friend poke|nest friend safari
+0842|Appletun|friend nest safari|nest friend safari
+0843|Silicobra|safari nest dusk|ultra safari heavy
+0844|Sandaconda|safari nest dusk|ultra safari heavy
+0845|Cramorant|dive moon quick|fast
+0846|Arrokuda|level|dream heal timer
+0847|Barraskewda|level|timer dusk
+0848|Toxel|dream heal master|dream heal love
+0849|Toxtricity (Amped)|quick dream master|dream quick master
+0849|Toxtricity (Low Key)|quick dream master|dream quick master
+0850|Sizzlipede|fast luxury|fast luxury
+0851|Centiskorch|fast luxury|fast luxury
+0852|Clobbopus|poke dusk|lure heavy
+0853|Grapploct|quick moon net|level fast
+0854|Sinistea (Both)|heal quick master|dream heal master
+0855|Polteageist (Both)|heal quick master|dream heal master
+0856|Hatenna|heal dream|love premier dream
+0857|Hattrem|heal dream|love premier dream
+0858|Hatterene|heal dream|love premier dream
+0859|Impidimp|dream love dusk|great lure premier
+0860|Morgrem|dusk dream|great lure premier
+0861|Grimmsnarl|dusk friend|premier love dream
+0862|Obstagoon|timer luxury level|lure great sport
+0863|Perrserker|timer heavy luxury|ultra level luxury
+0864|Cursola|premier timer|premier timer
+0865|Sirfetch'd|nest premier|nest ultra
+0866|Mr. Rime|lure dive great|moon timer heavy
+0867|Runerigus|timer premier|premier timer dream
+0868|Milcery|premier heal|premier
+0869|Alcremie||
+0870|Falinks|level fast|ultra
+0871|Pincurchin|ultra level|level
+0872|Snom|premier dive|premier dive
+0873|Frosmoth|premier dive|premier dive
+0874|Stonjourner|heavy timer|heavy timer
+0875|Eiscue|dive net premier|love dream premier
+0876|Indeedee (Male)|dream premier master|great dream moon
+0876|Indeedee (Female)|dream premier master|great dream moon
+0877|Morpeko|ultra level|ultra level
+0878|Cufant|level|level
+0879|Copperajah|heavy dusk|ultra dusk
+0880|Dracozolt|level ultra|timer heavy
+0881|Arctozolt|quick dive moon|timer heavy
+0882|Dracovish|great moon|timer heavy
+0883|Arctovish|dive|timer heavy
+0884|Duraludon|timer heavy premier|heavy premier
+0885|Dreepy|dusk moon|moon quick
+0886|Drakloak|dusk moon|moon quick
+0887|Dragapult|dusk moon|moon quick ultra
+0888|Zacian (Both)|great lure|cherish premier great
+0889|Zamazenta (Both)|great poke sport|cherish premier poke
+0890|Eternatus|great|cherish
+0891|Kubfu|premier ultra|
+0892|Urshifu (Single Strike)|ultra luxury|
+0892|Urshifu (Rapid Strike)|ultra luxury|
+0893|Zarude (Both)|cherish|
+0894|Regieleki|quick|ultra quick
+0895|Regidrago|timer luxury|great
+0896|Glastrier|premier dive|
+0897|Spectrier|dusk luxury|
+0898|Calyrex|premier dive luxury|
+0898|Calyrex (Ice Rider)|premier dive|
+0898|Calyrex (Shadow Rider)|dusk luxury|
+0899|Wyrdeer|premier ultra|ultra luxury level
+0900|Kleavor|ultra safari|dusk nest ultra
+0901|Ursaluna|moon luxury ultra|moon luxury ultra
+0901|Ursaluna (Bloodmoon)|luxury moon dream|
+0902|Basculegion (Male)|timer dusk|dusk
+0902|Basculegion (Female)|dive moon|ultra friend moon
+0903|Sneasler|luxury dive|ultra luxury
+0904|Overqwil|master dusk luxury|heavy dive
+0905|Enamorus (Incarnate)|premier strange|cherish
+0905|Enamorus (Therian)|premier strange|cherish
+0906|Sprigatito|friend dusk|dusk friend
+0907|Floragato|friend dusk|dusk friend
+0908|Meowscarada|friend dusk|dusk friend
+0909|Fuecoco|sport fast|heal love
+0910|Crocalor|sport fast|heal love
+0911|Skeledirge|sport fast|love dream heal
+0912|Quaxly|dive quick|dive quick
+0913|Quaxwell|dive quick|dive quick
+0914|Quaquaval|great lure dive|lure dive great
+0915|Lechonk|luxury|love heal
+0916|Oinkologne (Male)|luxury|love premier heal
+0916|Oinkologne (Female)|luxury|love premier heal
+0917|Tarountula|nest safari|sport dusk timer
+0918|Spidops|nest safari|sport dusk timer
+0919|Nymble|ultra moon|ultra luxury level
+0920|Lokix|ultra moon|ultra luxury level
+0921|Pawmi|fast level|love heal
+0922|Pawmo|fast level ultra|heal love
+0923|Pawmot|fast level|love heal
+0924|Tandemaus|premier love|premier love
+0925|Maushold (Both)|premier love|premier love
+0926|Fidough|ultra premier|luxury safari
+0927|Dachsbun|luxury ultra timer|luxury safari timer
+0928|Smoliv|nest friend|ultra friend nest
+0929|Dolliv|nest friend|ultra friend nest
+0930|Arboliva|nest friend|ultra friend nest
+0931|Squawkabilly (Green)|friend dusk|friend nest
+0931|Squawkabilly (Blue)|moon great|lure great
+0931|Squawkabilly (Yellow)|ultra level|level ultra
+0931|Squawkabilly (White)|timer premier|premier love
+0932|Nacli|premier timer|luxury level
+0933|Naclstack|premier timer|luxury level
+0934|Garganacl|premier timer|luxury level
+0935|Charcadet|dusk level|dusk level
+0936|Armarouge|level fast|level fast
+0937|Ceruledge|dream master dusk|dream master dusk
+0938|Tadbulb|ultra level|level ultra
+0939|Bellibolt|friend dusk net|level ultra
+0940|Wattrel|ultra level|level ultra
+0941|Kilowattrel|ultra level|level ultra
+0942|Maschiff|luxury ultra|luxury ultra moon
+0943|Mabosstiff|luxury ultra|luxury ultra moon
+0944|Shroodle|timer dusk|timer dream
+0945|Grafaiai|timer great dusk|timer level moon
+0946|Bramblin|level dusk nest|nest dusk level
+0947|Brambleghast|level dusk nest|nest dusk level
+0948|Toedscool|fast ultra level|premier
+0949|Toedscruel|level ultra fast|timer dream master
+0950|Klawf|fast dusk|lure dive great
+0951|Capsakid|friend dusk nest|ultra level quick
+0952|Scovillain|friend dusk|friend dusk quick
+0953|Rellor|luxury safari|luxury level
+0954|Rabsca|great dive master|luxury level master
+0955|Flittle|heal level|ultra level
+0956|Espathra|heal level|safari dream luxury
+0957|Tinkatink|love dream heal|love heal luxury
+0958|Tinkatuff|love dream heal|love heal luxury
+0959|Tinkaton|love dream heal|love heal luxury
+0960|Wiglett|premier timer sport|moon ultra quick
+0961|Wugtrio|sport timer poke|moon heavy quick
+0962|Bombirdier|timer premier|timer premier
+0963|Finizen|dive great|dream dive
+0964|Palafin|dive love great|dream love dive
+0965|Varoom|heavy luxury|luxury level ultra
+0966|Revavroom|heavy luxury|luxury level ultra
+0967|Cyclizar|dusk friend|quick moon nest
+0968|Orthworm|poke timer sport|heavy dive
+0969|Glimmet|moon quick beast|moon net beast
+0970|Glimmora|moon quick beast|moon net beast
+0971|Greavard|premier dive friend|level luxury friend
+0972|Houndstone|premier moon timer|level moon timer
+0973|Flamigo|love heal|premier heal
+0974|Cetoddle|premier love|luxury timer dusk
+0975|Cetitan|premier love|luxury timer dusk
+0976|Veluza|heavy timer master|nest dusk heavy
+0977|Dondozo|dive heavy beast|level premier
+0978|Tatsugiri (Curly)|fast|safari
+0978|Tatsugiri (Droopy)|poke timer sport|premier
+0978|Tatsugiri (Stretchy)|ultra quick|fast
+0979|Annihilape|timer heavy moon|moon heavy timer
+0980|Clodsire|safari nest|master net dusk
+0981|Farigiraf|level safari|level safari
+0982|Dudunsparce|quick moon|heal level dream
+0983|Kingambit|luxury level|luxury moon great
+0984|Great Tusk|master dream timer|safari friend dusk
+0985|Scream Tail|heal love level|dream love heal
+0986|Brute Bonnet|poke friend dusk|great master net
+0987|Flutter Mane|timer dusk dream|dusk friend safari
+0988|Slither Wing|fast level|level ultra
+0989|Sandy Shocks|ultra heavy luxury|ultra luxury
+0990|Iron Treads|timer sport|timer sport
+0991|Iron Bundle|poke timer premier|heavy dive
+0992|Iron Hands|ultra level|ultra level
+0993|Iron Jugulis|heavy great net|heavy great net
+0994|Iron Moth|level timer|level luxury
+0995|Iron Thorns|nest dusk friend|heavy net dusk
+0996|Frigibax|heavy dive moon|dive net beast
+0997|Arctibax|heavy dive moon|dive net beast
+0998|Baxcalibur|heavy dive moon|dive net beast
+0999|Gimmighoul (Chest)|luxury level|luxury level
+0999|Gimmighoul (Roaming)|ultra|ultra
+1000|Gholdengo|luxury level|luxury level
+1001|Wo-Chien|nest safari dusk|cherish
+1002|Chien-Pao|dive premier beast|cherish
+1003|Ting-Lu|dusk net safari|cherish
+1004|Chi-Yu|level fast|cherish
+1005|Roaring Moon|great moon lure|level moon friend
+1006|Iron Valiant|friend premier love|love premier timer
+1007|Koraidon|timer sport dream|cherish
+1008|Miraidon|master quick beast|cherish
+1009|Walking Wake|dive dream master|
+1010|Iron Leaves|friend nest|
+1011|Dipplin|sport friend poke|level luxury friend
+1012|Poltchageist (Both)|dusk nest friend|dusk nest friend
+1013|Sinistcha (Both)|dusk nest friend|dusk nest friend
+1014|Okidogi|dusk luxury friend|
+1015|Munkidori|moon net luxury|
+1016|Fezandipiti|luxury timer dream|
+1017|Ogerpon (Teal Mask)|friend dusk nest|
+1017|Ogerpon (Wellspring)|dive net lure|
+1017|Ogerpon (Hearthflame)|fast level|
+1017|Ogerpon (Cornerstone)|heavy moon net|
+1018|Archaludon|great heavy net|heavy net moon
+1019|Hydrapple|sport friend poke|level luxury friend
+1020|Gouging Fire|level friend|
+1021|Raging Bolt|level fast ultra|
+1022|Iron Boulder|ultra level|
+1023|Iron Crown|quick moon net|
+1024|Terapagos|beast lure dive|
+1025|Pecharunt|master dream dusk|
+VIV|Archipelago|dusk|
+VIV|Elegant|dream|
+VIV|Garden|friend|
+VIV|High Plains|nest|
+VIV|Icy Snow|premier|
+VIV|Jungle|safari|
+VIV|Marine|net|
+VIV|Meadow|love|
+VIV|Modern|lure|
+VIV|Monsoon|heavy|
+VIV|Ocean|level|
+VIV|Polar|great|
+VIV|River|moon|
+VIV|Sandstorm|ultra|
+VIV|Savanna|quick|
+VIV|Sun|fast|
+VIV|Tundra|dive|
+VIV|Poké Ball|poke cherish|
+VIV|Fancy|heal timer cherish|
+ALC|Vanilla Cream/2||
+ALC|Vanilla Cream/Strawberry Sweet|poke poke|
+ALC|Vanilla Cream/Flower Sweet|poke|
+ALC|Vanilla Cream/Star Sweet|poke moon|
+ALC|Vanilla Cream/Clover Sweet|poke nest|
+ALC|Vanilla Cream/Berry Sweet|poke great|
+ALC|Vanilla Cream/Ribbon Sweet|poke dream|
+ALC|Vanilla Cream/Love Sweet|poke love|
+ALC|Ruby Cream/2||
+ALC|Ruby Cream/Strawberry Sweet|dream poke|
+ALC|Ruby Cream/Flower Sweet|dream|
+ALC|Ruby Cream/Star Sweet|dream moon|
+ALC|Ruby Cream/Clover Sweet|dream nest|
+ALC|Ruby Cream/Berry Sweet|dream great|
+ALC|Ruby Cream/Ribbon Sweet|dream dream|
+ALC|Ruby Cream/Love Sweet|dream love|
+ALC|Matcha Cream/2||
+ALC|Matcha Cream/Strawberry Sweet|friend poke|
+ALC|Matcha Cream/Flower Sweet|friend|
+ALC|Matcha Cream/Star Sweet|friend moon|
+ALC|Matcha Cream/Clover Sweet|friend nest|
+ALC|Matcha Cream/Berry Sweet|friend great|
+ALC|Matcha Cream/Ribbon Sweet|friend dream|
+ALC|Matcha Cream/Love Sweet|friend love|
+ALC|Mint Cream/2||
+ALC|Mint Cream/Strawberry Sweet|dive poke|
+ALC|Mint Cream/Flower Sweet|dive|
+ALC|Mint Cream/Star Sweet|dive moon|
+ALC|Mint Cream/Clover Sweet|dive nest|
+ALC|Mint Cream/Berry Sweet|dive great|
+ALC|Mint Cream/Ribbon Sweet|dive dream|
+ALC|Mint Cream/Love Sweet|dive love|
+ALC|Lemon Cream/2||
+ALC|Lemon Cream/Strawberry Sweet|moon poke|
+ALC|Lemon Cream/Flower Sweet|moon|
+ALC|Lemon Cream/Star Sweet|moon moon|
+ALC|Lemon Cream/Clover Sweet|moon nest|
+ALC|Lemon Cream/Berry Sweet|moon great|
+ALC|Lemon Cream/Ribbon Sweet|moon dream|
+ALC|Lemon Cream/Love Sweet|moon love|
+ALC|Salted Cream/2||
+ALC|Salted Cream/Strawberry Sweet|premier poke|
+ALC|Salted Cream/Flower Sweet|premier|
+ALC|Salted Cream/Star Sweet|premier moon|
+ALC|Salted Cream/Clover Sweet|premier nest|
+ALC|Salted Cream/Berry Sweet|premier great|
+ALC|Salted Cream/Ribbon Sweet|premier dream|
+ALC|Salted Cream/Love Sweet|premier love|
+ALC|Ruby Swirl/2||
+ALC|Ruby Swirl/Strawberry Sweet|love poke|
+ALC|Ruby Swirl/Flower Sweet|love|
+ALC|Ruby Swirl/Star Sweet|love moon|
+ALC|Ruby Swirl/Clover Sweet|love nest|
+ALC|Ruby Swirl/Berry Sweet|love great|
+ALC|Ruby Swirl/Ribbon Sweet|love dream|
+ALC|Ruby Swirl/Love Sweet|love love|
+ALC|Caramel Swirl/2||
+ALC|Caramel Swirl/Strawberry Sweet|nest poke|
+ALC|Caramel Swirl/Flower Sweet|nest|
+ALC|Caramel Swirl/Star Sweet|nest moon|
+ALC|Caramel Swirl/Clover Sweet|nest nest|
+ALC|Caramel Swirl/Berry Sweet|nest great|
+ALC|Caramel Swirl/Ribbon Sweet|nest dream|
+ALC|Caramel Swirl/Love Sweet|nest love|
+ALC|Rainbow Swirl/2||
+ALC|Rainbow Swirl/Strawberry Sweet|heal poke|
+ALC|Rainbow Swirl/Flower Sweet|heal|
+ALC|Rainbow Swirl/Star Sweet|heal moon|
+ALC|Rainbow Swirl/Clover Sweet|heal nest|
+ALC|Rainbow Swirl/Berry Sweet|heal great|
+ALC|Rainbow Swirl/Ribbon Sweet|heal dream|
+ALC|Rainbow Swirl/Love Sweet|heal love|
+ALC|★ Shiny/2||
+ALC|★ Shiny/Strawberry Sweet|luxury poke|
+ALC|★ Shiny/Flower Sweet|luxury|
+ALC|★ Shiny/Star Sweet|luxury moon|
+ALC|★ Shiny/Clover Sweet|luxury nest|
+ALC|★ Shiny/Berry Sweet|luxury great|
+ALC|★ Shiny/Ribbon Sweet|luxury dream|
+ALC|★ Shiny/Love Sweet|luxury love|

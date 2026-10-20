@@ -1,0 +1,135 @@
+{
+ "_info": "Généré par tools/import_bulba.py (Légendes Z-A : distributions et échanges).",
+ "families": [
+  "za"
+ ],
+ "segments": [],
+ "methodMinSegment": {},
+ "methodNotes": {},
+ "itemSegment": {},
+ "itemNotes": {},
+ "locationNames": {},
+ "npcTrades": {},
+ "overrides": {},
+ "choiceGroups": {
+  "47": [
+   {
+    "label": "Starter (un seul au choix)",
+    "species": [
+     152,
+     498,
+     158
+    ]
+   }
+  ]
+ },
+ "special": {
+  "47": {
+   "383": {
+    "status": "event",
+    "note": "Pas de capture en jeu : échange ou transfert uniquement"
+   },
+   "382": {
+    "status": "event",
+    "note": "Pas de capture en jeu : échange ou transfert uniquement"
+   },
+   "381": {
+    "status": "event",
+    "note": "Pas de capture en jeu : échange ou transfert uniquement"
+   },
+   "380": {
+    "status": "event",
+    "note": "Pas de capture en jeu : échange ou transfert uniquement"
+   },
+   "491": {
+    "status": "event",
+    "note": "Pas de capture en jeu : échange ou transfert uniquement"
+   },
+   "485": {
+    "status": "event",
+    "note": "Pas de capture en jeu : échange ou transfert uniquement"
+   },
+   "649": {
+    "status": "event",
+    "note": "Pas de capture en jeu : échange ou transfert uniquement"
+   },
+   "647": {
+    "status": "event",
+    "note": "Pas de capture en jeu : échange ou transfert uniquement"
+   },
+   "638": {
+    "status": "event",
+    "note": "Pas de capture en jeu : échange ou transfert uniquement"
+   },
+   "719": {
+    "status": "event",
+    "note": "Cadeau Mystère (distribution)"
+   },
+   "720": {
+    "status": "event",
+    "note": "Pas de capture en jeu : échange ou transfert uniquement"
+   },
+   "801": {
+    "status": "event",
+    "note": "Pas de capture en jeu : échange ou transfert uniquement"
+   },
+   "802": {
+    "status": "event",
+    "note": "Pas de capture en jeu : échange ou transfert uniquement"
+   },
+   "150": {
+    "status": "event",
+    "note": "Cadeau Mystère (distribution)"
+   },
+   "384": {
+    "status": "event",
+    "note": "Pas de capture en jeu : échange ou transfert uniquement"
+   },
+   "648": {
+    "status": "event",
+    "note": "Pas de capture en jeu : échange ou transfert uniquement"
+   },
+   "640": {
+    "status": "event",
+    "note": "Pas de capture en jeu : échange ou transfert uniquement"
+   },
+   "639": {
+    "status": "event",
+    "note": "Pas de capture en jeu : échange ou transfert uniquement"
+   },
+   "808": {
+    "status": "event",
+    "note": "Pas de capture en jeu : échange ou transfert uniquement"
+   },
+   "809": {
+    "status": "event",
+    "note": "Pas de capture en jeu : échange ou transfert uniquement"
+   },
+   "721": {
+    "status": "event",
+    "note": "Pas de capture en jeu : échange ou transfert uniquement"
+   },
+   "807": {
+    "status": "event",
+    "note": "Pas de capture en jeu : échange ou transfert uniquement"
+   }
+  },
+  "48": {
+   "807": {
+    "status": "event",
+    "note": "Cadeau Mystère (distribution)"
+   },
+   "721": {
+    "status": "unique",
+    "label": "Fabuleux",
+    "note": "Volcanion — mission secondaire 194 « Volcanion Unleashed », Labo Pokémon du secteur Vert (un seul exemplaire)"
+   }
+  }
+ },
+ "notes": {
+  "47": [
+   "Lieux d'après les tables de capture et les fiches Pokémon de Bulbapedia. Les Pokémon non listés sont marqués « Données manquantes »."
+  ],
+  "48": "@47"
+ }
+}

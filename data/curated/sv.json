@@ -1,0 +1,308 @@
+{
+ "_info": "Écarlate / Violet saisis à la main : ordre conseillé (monde ouvert, par niveau des arènes), légendaires absents des tables de Bulbapedia, choix exclusifs.",
+ "families": [
+  "ev"
+ ],
+ "segments": [
+  {
+   "id": 1,
+   "name": "Cuchalaga → Mesaledo",
+   "badge": "Début de l'aventure",
+   "locs": [
+    "sv-cabo-poco",
+    "sv-poco-path",
+    "sv-inlet-grotto",
+    "sv-south-province-area-one",
+    "sv-mesagoza",
+    "sv-naranja-academy",
+    "sv-uva-academy"
+   ]
+  },
+  {
+   "id": 2,
+   "name": "Zone Sud n° 2 à 4 · Sevaro, Cuencia",
+   "badge": "Arènes de Sevaro et Cuencia (≈ niv. 15-17)",
+   "locs": [
+    "sv-south-province-area-two",
+    "sv-los-platos",
+    "sv-south-province-area-three",
+    "sv-cortondo",
+    "sv-south-province-area-four",
+    "sv-artazon"
+   ]
+  },
+  {
+   "id": 3,
+   "name": "Zone Ouest n° 1, Zone Sud n° 5 · Levalendura",
+   "badge": "Arène de Levalendura (≈ niv. 24)",
+   "locs": [
+    "sv-west-province-area-one",
+    "sv-south-province-area-five",
+    "sv-levincia",
+    "sv-east-province-area-three",
+    "sv-south-paldean-sea"
+   ]
+  },
+  {
+   "id": 4,
+   "name": "Jarramanca, Désert Rôtissable, Porto Marinada",
+   "badge": "Arène de Jarramanca (≈ niv. 30)",
+   "locs": [
+    "sv-west-province-area-two",
+    "sv-cascarrafa",
+    "sv-asado-desert",
+    "sv-porto-marinada",
+    "sv-west-paldean-sea"
+   ]
+  },
+  {
+   "id": 5,
+   "name": "Mezclamora · Zones Est n° 1 et 2",
+   "badge": "Arène de Mezclamora (≈ niv. 36)",
+   "locs": [
+    "sv-medali",
+    "sv-west-province-area-three",
+    "sv-east-province-area-one",
+    "sv-east-province-area-two",
+    "sv-tagtree-thicket",
+    "sv-socarrat-trail",
+    "sv-colonnade-hollow",
+    "sv-zapapico",
+    "sv-east-paldean-sea"
+   ]
+  },
+  {
+   "id": 6,
+   "name": "Frigao, Alforneira, Zone Sud n° 6",
+   "badge": "Arènes de Frigao et Alforneira (≈ niv. 42-45)",
+   "locs": [
+    "sv-montenevera",
+    "sv-north-province-area-three",
+    "sv-south-province-area-six",
+    "sv-alfornada",
+    "sv-alfornada-cavern",
+    "sv-dalizapa-passage"
+   ]
+  },
+  {
+   "id": 7,
+   "name": "Mont Nappé, Zones Nord, Lac Asrol",
+   "badge": "Arène du Mont Nappé (≈ niv. 48)",
+   "locs": [
+    "sv-glaseado-mountain",
+    "sv-north-province-area-one",
+    "sv-north-province-area-two",
+    "sv-casseroya-lake",
+    "sv-north-paldean-sea"
+   ]
+  },
+  {
+   "id": 8,
+   "name": "Ligue Pokémon",
+   "badge": "Conseil 4 et Maître",
+   "locs": [
+    "sv-pok-mon-league-paldea"
+   ]
+  },
+  {
+   "id": 9,
+   "name": "Après la ligue : Zone Zéro",
+   "badge": "La Voie du retour",
+   "locs": [
+    "sv-great-crater-of-paldea",
+    "sv-area-zero",
+    "sv-zero-lab",
+    "sv-zero-gate"
+   ],
+   "postgame": true
+  },
+  {
+   "id": 10,
+   "name": "DLC : Le Masque Turquoise (Septentria)",
+   "badge": "",
+   "locs": [
+    "sv-mossui-town",
+    "sv-kitakami-road",
+    "sv-loyalty-plaza",
+    "sv-kitakami-hall",
+    "sv-apple-hills",
+    "sv-reveler-s-road",
+    "sv-oni-mountain",
+    "sv-oni-s-maw",
+    "sv-chilling-waterhead",
+    "sv-crystal-pool",
+    "sv-paradise-barrens",
+    "sv-kitakami-wilds",
+    "sv-fellhorn-gorge",
+    "sv-mossfell-confluence",
+    "sv-wistful-fields",
+    "sv-timeless-woods",
+    "sv-infernal-pass",
+    "sv-dreaded-den"
+   ]
+  },
+  {
+   "id": 11,
+   "name": "DLC : Le Disque Indigo (Terra-Dôme)",
+   "badge": "",
+   "locs": [
+    "sv-central-plaza",
+    "sv-league-club-room",
+    "sv-savanna-biome",
+    "sv-savanna-plaza",
+    "sv-coastal-biome",
+    "sv-coastal-plaza",
+    "sv-canyon-biome",
+    "sv-canyon-plaza",
+    "sv-torchlit-labyrinth",
+    "sv-polar-biome",
+    "sv-polar-plaza",
+    "sv-chargestone-cavern",
+    "sv-area-zero-underdepths"
+   ]
+  }
+ ],
+ "methodMinSegment": {},
+ "methodNotes": {},
+ "itemSegment": {},
+ "itemNotes": {},
+ "locationNames": {},
+ "npcTrades": {},
+ "overrides": {},
+ "choiceGroups": {
+  "40": [
+   {
+    "label": "Starter (un seul au choix)",
+    "species": [
+     906,
+     909,
+     912
+    ]
+   }
+  ],
+  "41": "@40"
+ },
+ "special": {
+  "40": {
+   "1001": {
+    "status": "unique",
+    "seg": 6,
+    "label": "Légendaire",
+    "note": "Wo-Chien — Sanctuaire du Bois Mourant. Sanctuaire : arracher les 8 pieux de la couleur correspondante dans Paldea (niv. 60, un seul exemplaire)"
+   },
+   "1002": {
+    "status": "unique",
+    "seg": 6,
+    "label": "Légendaire",
+    "note": "Chien-Pao — Sanctuaire du Froid Cruel. Sanctuaire : arracher les 8 pieux de la couleur correspondante dans Paldea (niv. 60, un seul exemplaire)"
+   },
+   "1003": {
+    "status": "unique",
+    "seg": 6,
+    "label": "Légendaire",
+    "note": "Ting-Lu — Sanctuaire du Sol Corrompu. Sanctuaire : arracher les 8 pieux de la couleur correspondante dans Paldea (niv. 60, un seul exemplaire)"
+   },
+   "1004": {
+    "status": "unique",
+    "seg": 6,
+    "label": "Légendaire",
+    "note": "Chi-Yu — Sanctuaire du Feu Ravageur. Sanctuaire : arracher les 8 pieux de la couleur correspondante dans Paldea (niv. 60, un seul exemplaire)"
+   }
+  },
+  "41": "@40",
+  "42": {
+   "1014": {
+    "status": "unique",
+    "seg": 10,
+    "label": "Légendaire",
+    "note": "Fin de l'histoire du Masque Turquoise (un seul exemplaire)"
+   },
+   "1015": {
+    "status": "unique",
+    "seg": 10,
+    "label": "Légendaire",
+    "note": "Fin de l'histoire du Masque Turquoise (un seul exemplaire)"
+   },
+   "1016": {
+    "status": "unique",
+    "seg": 10,
+    "label": "Légendaire",
+    "note": "Fin de l'histoire du Masque Turquoise (un seul exemplaire)"
+   },
+   "1017": {
+    "status": "unique",
+    "seg": 10,
+    "label": "Légendaire",
+    "note": "Ogerpon — fin de l'histoire du Masque Turquoise (un seul exemplaire)"
+   }
+  },
+  "52": "@42",
+  "43": {
+   "1024": {
+    "status": "unique",
+    "seg": 11,
+    "label": "Légendaire",
+    "note": "Terapagos — fin de l'histoire du Disque Indigo, Abîme Zéro (un seul exemplaire)"
+   },
+   "1020": {
+    "status": "unique",
+    "seg": 11,
+    "label": "Légendaire",
+    "note": "Feu-Perçant — après 200 Pokémon au Pokédex Myrtille, Perrin indique son emplacement en Zone Zéro (exclusif Écarlate)"
+   },
+   "1021": {
+    "status": "unique",
+    "seg": 11,
+    "label": "Légendaire",
+    "note": "Ire-Foudre — après 200 Pokémon au Pokédex Myrtille, Perrin indique son emplacement en Zone Zéro (exclusif Écarlate)"
+   },
+   "1009": {
+    "status": "event",
+    "note": "Serpente-Eau : raids Téracristal événementiels uniquement"
+   },
+   "1025": {
+    "status": "event",
+    "note": "Pêchaminus : distribution (Cadeau Mystère)"
+   }
+  },
+  "53": {
+   "1024": {
+    "status": "unique",
+    "seg": 11,
+    "label": "Légendaire",
+    "note": "Terapagos — fin de l'histoire du Disque Indigo, Abîme Zéro (un seul exemplaire)"
+   },
+   "1022": {
+    "status": "unique",
+    "seg": 11,
+    "label": "Légendaire",
+    "note": "Roc-de-Fer — après 200 Pokémon au Pokédex Myrtille, Perrin indique son emplacement en Zone Zéro (exclusif Violet)"
+   },
+   "1023": {
+    "status": "unique",
+    "seg": 11,
+    "label": "Légendaire",
+    "note": "Chef-de-Fer — après 200 Pokémon au Pokédex Myrtille, Perrin indique son emplacement en Zone Zéro (exclusif Violet)"
+   },
+   "1010": {
+    "status": "event",
+    "note": "Vert-de-Fer : raids Téracristal événementiels uniquement"
+   },
+   "1025": {
+    "status": "event",
+    "note": "Pêchaminus : distribution (Cadeau Mystère)"
+   }
+  }
+ },
+ "notes": {
+  "40": [
+   "Monde ouvert : les étapes suivent l'ordre conseillé des arènes (par niveau), tu peux les faire dans un autre ordre.",
+   "Lieux et taux d'après les tables de capture de Bulbapedia (le « poids » indique la fréquence relative d'apparition). Les raids Téracristal ne sont pas comptés."
+  ],
+  "41": "@40",
+  "42": "@40",
+  "52": "@40",
+  "43": "@40",
+  "53": "@40"
+ }
+}

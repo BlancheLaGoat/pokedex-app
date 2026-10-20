@@ -1,0 +1,24 @@
+{
+  "name": "pokedex-blanche",
+  "productName": "Pokédex",
+  "version": "1.0.0",
+  "description": "Pokédex de suivi par jeu : obtention, exclusivités, évolutions, talents, attaques, formes, shiny, routes.",
+  "main": "main.js",
+  "author": "BlancheLaGoat",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win portable",
+    "data": "python tools/build_data.py ../pokeapi/data/v2/csv ../sprites_tree.txt data"
+  },
+  "devDependencies": {
+    "electron": "^33.2.0",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "appId": "com.blanchelagoat.pokedex",
+    "productName": "Pokédex",
+    "files": ["main.js", "preload.js", "src/**/*", "data/**/*", "journal/**/*"],
+    "win": { "target": "portable" }
+  }
+}

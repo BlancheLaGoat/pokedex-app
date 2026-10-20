@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; img-src 'self' https://raw.githubusercontent.com data:; style-src 'self' 'unsafe-inline'; script-src 'self'">
+  <title>Pokédex</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <aside id="sidebar">
+      <div class="brand">
+        <span class="brand-dot"></span>
+        <div>
+          <div class="brand-title">Pokédex</div>
+          <div class="brand-sub">Suivi par jeu</div>
+        </div>
+      </div>
+      <nav id="nav"></nav>
+      <div class="side-foot">
+        <button class="ghost" id="btn-export">Exporter</button>
+        <button class="ghost" id="btn-import">Importer</button>
+        <button class="ghost" id="btn-journal">Journal</button>
+      </div>
+    </aside>
+
+    <main id="main">
+      <header id="head">
+        <div class="head-row">
+          <div>
+            <h1 id="title">Chargement…</h1>
+            <div id="subtitle" class="muted"></div>
+          </div>
+          <div id="progress"></div>
+        </div>
+        <div id="banner" class="banner hidden"></div>
+        <div class="tabs" id="tabs"></div>
+        <div class="toolbar" id="toolbar">
+          <input id="q" type="search" placeholder="Rechercher un nom, un numéro…" autocomplete="off">
+          <select id="f-type"></select>
+          <select id="f-gen"></select>
+          <select id="f-cat"></select>
+          <select id="f-obt"></select>
+          <select id="f-stage"></select>
+          <select id="f-status"></select>
+        </div>
+        <div class="chips" id="chips"></div>
+      </header>
+      <section id="content"></section>
+    </main>
+
+    <aside id="drawer" class="closed">
+      <button class="close" id="drawer-close" title="Fermer">×</button>
+      <div id="drawer-body"></div>
+    </aside>
+  </div>
+  <div id="toast" class="toast hidden"></div>
+  <script src="engine.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

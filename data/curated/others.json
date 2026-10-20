@@ -1,0 +1,310 @@
+{
+ "_info": "Légendaires et cas particuliers absents des tables de capture de Bulbapedia (ROSA, DEPS, Légendes Arceus).",
+ "families": [
+  "rosa",
+  "dete",
+  "pla"
+ ],
+ "segments": [],
+ "methodMinSegment": {},
+ "methodNotes": {},
+ "itemSegment": {},
+ "itemNotes": {},
+ "locationNames": {},
+ "npcTrades": {},
+ "overrides": {},
+ "choiceGroups": {
+  "25": [
+   {
+    "label": "Starter (un seul au choix)",
+    "species": [
+     252,
+     255,
+     258
+    ]
+   }
+  ],
+  "26": "@25",
+  "37": [
+   {
+    "label": "Starter (un seul au choix)",
+    "species": [
+     387,
+     390,
+     393
+    ]
+   }
+  ],
+  "38": "@37",
+  "39": [
+   {
+    "label": "Starter (un seul au choix)",
+    "species": [
+     722,
+     155,
+     501
+    ]
+   }
+  ]
+ },
+ "special": {
+  "25": {
+   "377": {
+    "status": "unique",
+    "label": "Légendaire",
+    "note": "Regirock — après la Ligue (énigme des Regis, un seul exemplaire)"
+   },
+   "378": {
+    "status": "unique",
+    "label": "Légendaire",
+    "note": "Regice — après la Ligue (énigme des Regis, un seul exemplaire)"
+   },
+   "379": {
+    "status": "unique",
+    "label": "Légendaire",
+    "note": "Registeel — après la Ligue (énigme des Regis, un seul exemplaire)"
+   },
+   "383": {
+    "status": "unique",
+    "label": "Légendaire",
+    "note": "Groudon — histoire principale (un seul exemplaire, exclusif Rubis Oméga)"
+   },
+   "384": {
+    "status": "unique",
+    "label": "Légendaire",
+    "note": "Rayquaza — Épisode Delta, Pilier Céleste (un seul exemplaire)"
+   },
+   "386": {
+    "status": "unique",
+    "label": "Fabuleux",
+    "note": "Deoxys — fin de l'Épisode Delta (un seul exemplaire)"
+   },
+   "385": {
+    "status": "event",
+    "note": "Jirachi : distribution événementielle"
+   }
+  },
+  "26": {
+   "377": {
+    "status": "unique",
+    "label": "Légendaire",
+    "note": "Regirock — après la Ligue (énigme des Regis, un seul exemplaire)"
+   },
+   "378": {
+    "status": "unique",
+    "label": "Légendaire",
+    "note": "Regice — après la Ligue (énigme des Regis, un seul exemplaire)"
+   },
+   "379": {
+    "status": "unique",
+    "label": "Légendaire",
+    "note": "Registeel — après la Ligue (énigme des Regis, un seul exemplaire)"
+   },
+   "382": {
+    "status": "unique",
+    "label": "Légendaire",
+    "note": "Kyogre — histoire principale (un seul exemplaire, exclusif Saphir Alpha)"
+   },
+   "384": {
+    "status": "unique",
+    "label": "Légendaire",
+    "note": "Rayquaza — Épisode Delta, Pilier Céleste (un seul exemplaire)"
+   },
+   "386": {
+    "status": "unique",
+    "label": "Fabuleux",
+    "note": "Deoxys — fin de l'Épisode Delta (un seul exemplaire)"
+   },
+   "385": {
+    "status": "event",
+    "note": "Jirachi : distribution événementielle"
+   }
+  },
+  "37": {
+   "412": {
+    "status": "unique",
+    "label": "Arbre à Miel",
+    "note": "Cheniti — arbres à Miel (étaler du Miel et revenir plus tard)"
+   },
+   "214": {
+    "status": "unique",
+    "label": "Arbre à Miel",
+    "note": "Scarhino — arbres à Miel (rare)"
+   },
+   "425": {
+    "status": "unique",
+    "label": "Fixe",
+    "note": "Baudrive — Les Éoliennes, le vendredi (après la Galaxie)"
+   },
+   "442": {
+    "status": "unique",
+    "label": "Fixe",
+    "note": "Spiritomb — Tour Perdue de la Route 209 avec la Clé de Voûte"
+   },
+   "480": {
+    "status": "unique",
+    "label": "Légendaire",
+    "note": "Créhelf — Caverne du Lac Savoir, après l'événement de la Colonnade Lance (un seul exemplaire)"
+   },
+   "481": {
+    "status": "unique",
+    "label": "Légendaire",
+    "note": "Créfollet — errant dans Sinnoh après sa rencontre au Lac Vérité (un seul exemplaire)"
+   },
+   "482": {
+    "status": "unique",
+    "label": "Légendaire",
+    "note": "Créfadet — Caverne du Lac Courage, après l'événement de la Colonnade Lance (un seul exemplaire)"
+   },
+   "483": {
+    "status": "unique",
+    "label": "Légendaire",
+    "note": "Dialga — Colonnade Lance, histoire principale (exclusif Diamant Étincelant)"
+   },
+   "490": {
+    "status": "event",
+    "note": "Manaphy : pas de capture directe en jeu (événement / transfert)"
+   }
+  },
+  "38": {
+   "412": {
+    "status": "unique",
+    "label": "Arbre à Miel",
+    "note": "Cheniti — arbres à Miel (étaler du Miel et revenir plus tard)"
+   },
+   "214": {
+    "status": "unique",
+    "label": "Arbre à Miel",
+    "note": "Scarhino — arbres à Miel (rare)"
+   },
+   "425": {
+    "status": "unique",
+    "label": "Fixe",
+    "note": "Baudrive — Les Éoliennes, le vendredi (après la Galaxie)"
+   },
+   "442": {
+    "status": "unique",
+    "label": "Fixe",
+    "note": "Spiritomb — Tour Perdue de la Route 209 avec la Clé de Voûte"
+   },
+   "480": {
+    "status": "unique",
+    "label": "Légendaire",
+    "note": "Créhelf — Caverne du Lac Savoir, après l'événement de la Colonnade Lance (un seul exemplaire)"
+   },
+   "481": {
+    "status": "unique",
+    "label": "Légendaire",
+    "note": "Créfollet — errant dans Sinnoh après sa rencontre au Lac Vérité (un seul exemplaire)"
+   },
+   "482": {
+    "status": "unique",
+    "label": "Légendaire",
+    "note": "Créfadet — Caverne du Lac Courage, après l'événement de la Colonnade Lance (un seul exemplaire)"
+   },
+   "490": {
+    "status": "event",
+    "note": "Manaphy : pas de capture directe en jeu (événement / transfert)"
+   },
+   "484": {
+    "status": "unique",
+    "label": "Légendaire",
+    "note": "Palkia — Colonnade Lance, histoire principale (exclusif Perle Scintillante)"
+   }
+  },
+  "39": {
+   "480": {
+    "status": "unique",
+    "label": "Légendaire",
+    "note": "Créhelf — après l'histoire principale (un seul exemplaire)"
+   },
+   "481": {
+    "status": "unique",
+    "label": "Légendaire",
+    "note": "Créfollet — après l'histoire principale (un seul exemplaire)"
+   },
+   "482": {
+    "status": "unique",
+    "label": "Légendaire",
+    "note": "Créfadet — après l'histoire principale (un seul exemplaire)"
+   },
+   "483": {
+    "status": "unique",
+    "label": "Légendaire",
+    "note": "Dialga — fin de l'histoire principale (un seul exemplaire)"
+   },
+   "484": {
+    "status": "unique",
+    "label": "Légendaire",
+    "note": "Palkia — fin de l'histoire principale (un seul exemplaire)"
+   },
+   "485": {
+    "status": "unique",
+    "label": "Légendaire",
+    "note": "Heatran — après l'histoire (un seul exemplaire)"
+   },
+   "486": {
+    "status": "unique",
+    "label": "Légendaire",
+    "note": "Regigigas — Temple de Frimapic, après l'histoire avec les trois Regis (un seul exemplaire)"
+   },
+   "488": {
+    "status": "unique",
+    "label": "Légendaire",
+    "note": "Cresselia — après l'histoire (un seul exemplaire)"
+   },
+   "641": {
+    "status": "unique",
+    "label": "Légendaire",
+    "note": "Boréas — requête après l'histoire (un seul exemplaire)"
+   },
+   "642": {
+    "status": "unique",
+    "label": "Légendaire",
+    "note": "Fulguris — requête après l'histoire (un seul exemplaire)"
+   },
+   "645": {
+    "status": "unique",
+    "label": "Légendaire",
+    "note": "Démétéros — requête après l'histoire (un seul exemplaire)"
+   },
+   "905": {
+    "status": "unique",
+    "label": "Légendaire",
+    "note": "Amovénus — requête après l'histoire, une fois les trois autres capturés (un seul exemplaire)"
+   },
+   "487": {
+    "status": "unique",
+    "label": "Légendaire",
+    "note": "Giratina — après l'histoire (un seul exemplaire)"
+   },
+   "493": {
+    "status": "unique",
+    "label": "Fabuleux",
+    "note": "Arceus — après avoir terminé toutes les missions et le Pokédex (un seul exemplaire)"
+   },
+   "490": {
+    "status": "unique",
+    "label": "Fabuleux",
+    "note": "Manaphy — requête après l'histoire (un seul exemplaire)"
+   },
+   "492": {
+    "status": "event",
+    "note": "Shaymin : bonus de sauvegarde d'Épée / Bouclier"
+   },
+   "491": {
+    "status": "event",
+    "note": "Darkrai : bonus de sauvegarde de Diamant Étincelant / Perle Scintillante"
+   }
+  }
+ },
+ "notes": {
+  "25": [
+   "Lieux et taux d'après les tables de capture de Bulbapedia. Les Pokémon non listés sont marqués « Données manquantes »."
+  ],
+  "26": "@25",
+  "37": "@25",
+  "38": "@25",
+  "39": "@25"
+ }
+}

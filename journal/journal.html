@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self'">
+  <title>Journal des modifications</title>
+  <style>
+    body { margin: 0; background: #14161c; color: #e8eaf0; font: 14px "Segoe UI", system-ui, sans-serif; }
+    main { max-width: 1000px; margin: 0 auto; padding: 28px 24px 60px; }
+    h1 { font-size: 22px; margin: 0 0 4px; }
+    .muted { color: #8d93a5; }
+    .entry { background: #1b1e26; border: 1px solid #2e3341; border-radius: 10px; margin-top: 18px; }
+    .entry > header { padding: 14px 18px; border-bottom: 1px solid #2e3341; display: flex; justify-content: space-between; gap: 12px; }
+    .entry h2 { margin: 0; font-size: 16px; }
+    .entry ul { margin: 10px 18px 10px 36px; padding: 0; }
+    .entry li { margin: 3px 0; }
+    details { border-top: 1px solid #2e3341; }
+    summary { cursor: pointer; padding: 9px 18px; color: #c6cad6; }
+    summary:hover { background: #232733; }
+    summary .tag { font-size: 11px; padding: 1px 7px; border-radius: 999px; margin-left: 8px; }
+    .add { background: rgba(63,182,122,.18); color: #9fe0bd; }
+    .mod { background: rgba(91,156,240,.18); color: #a8c8ff; }
+    pre { margin: 0; padding: 12px 18px; background: #101217; overflow: auto; max-height: 520px; font: 12px/1.45 Consolas, "Cascadia Mono", monospace; }
+    .l-add { color: #9fe0bd; } .l-del { color: #ff9f8f; } .l-hunk { color: #a8c8ff; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Journal des modifications</h1>
+    <div class="muted">Chaque entrée liste les fichiers touchés ; clique sur un fichier pour voir le code modifié.</div>
+    <div id="list"></div>
+  </main>
+  <script src="entries.js"></script>
+  <script src="journal.js"></script>
+</body>
+</html>

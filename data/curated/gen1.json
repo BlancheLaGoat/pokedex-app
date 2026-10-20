@@ -1,0 +1,368 @@
+{
+  "_info": "Données Gen 1 saisies à la main (Rouge/Bleu/Jaune + versions JP + Let's Go). Sources de recoupement : Poképédia, Serebii, Pokébip.",
+  "families": [
+    "rbj",
+    "lgpe"
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "name": "Bourg Palette → Argenta",
+      "badge": "Badge Roche",
+      "locs": [
+        "pallet-town",
+        "kanto-route-1",
+        "viridian-city",
+        "kanto-route-22",
+        "kanto-route-2",
+        "viridian-forest",
+        "pewter-city"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Mont Sélénite → Azuria",
+      "badge": "Badge Cascade",
+      "locs": [
+        "kanto-route-3",
+        "mt-moon",
+        "kanto-route-4",
+        "cerulean-city",
+        "kanto-route-24",
+        "kanto-route-25"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Souterrain → Carmin sur Mer",
+      "badge": "Badge Foudre",
+      "locs": [
+        "kanto-route-5",
+        "kanto-underground-path",
+        "kanto-route-6",
+        "vermilion-city",
+        "kanto-route-11",
+        "digletts-cave"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Grotte → Lavanville → Céladopole",
+      "badge": "Badge Prisme",
+      "locs": [
+        "kanto-route-9",
+        "kanto-route-10",
+        "rock-tunnel",
+        "lavender-town",
+        "kanto-route-8",
+        "kanto-route-7",
+        "celadon-city"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Tour Pokémon, Poké Flûte → Parmanie",
+      "badge": "Badge Âme",
+      "locs": [
+        "pokemon-tower",
+        "kanto-route-12",
+        "kanto-route-13",
+        "kanto-route-14",
+        "kanto-route-15",
+        "kanto-route-16",
+        "kanto-route-17",
+        "kanto-route-18",
+        "fuchsia-city",
+        "kanto-safari-zone"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Safrania (Sylphe SARL)",
+      "badge": "Badge Marais",
+      "locs": [
+        "saffron-city"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Surf → Îles Écume → Cramois'Île, Centrale",
+      "badge": "Badge Volcan",
+      "locs": [
+        "kanto-sea-route-19",
+        "kanto-sea-route-20",
+        "kanto-sea-route-21",
+        "seafoam-islands",
+        "cinnabar-island",
+        "pokemon-mansion",
+        "kanto-power-plant"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Jadielle → Route Victoire → Ligue",
+      "badge": "Badge Terre",
+      "locs": [
+        "kanto-route-23",
+        "kanto-victory-road-1",
+        "kanto-victory-road-2",
+        "indigo-plateau"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Après la Ligue",
+      "badge": "",
+      "postgame": true,
+      "locs": [
+        "cerulean-cave"
+      ]
+    }
+  ],
+  "methodMinSegment": {
+    "old-rod": 3,
+    "good-rod": 5,
+    "super-rod": 5,
+    "surf": 5,
+    "pokeflute": 5,
+    "overworld-water": 5,
+    "overworld-water-special": 5
+  },
+  "methodNotes": {
+    "old-rod": "Canne obtenue à Carmin sur Mer",
+    "good-rod": "Super Canne obtenue à Parmanie",
+    "super-rod": "Méga Canne obtenue sur la Route 12",
+    "surf": "Surf obtenu au Parc Safari, utilisable avec le Badge Âme",
+    "pokeflute": "Poké Flûte obtenue après la Tour Pokémon"
+  },
+  "itemSegment": {
+    "moon-stone": 2,
+    "fire-stone": 4,
+    "water-stone": 4,
+    "thunder-stone": 4,
+    "leaf-stone": 4
+  },
+  "itemNotes": {
+    "moon-stone": "Pierre Lune trouvée au Mont Sélénite",
+    "fire-stone": "Pierres vendues au Centre Commercial de Céladopole",
+    "water-stone": "Pierres vendues au Centre Commercial de Céladopole",
+    "thunder-stone": "Pierres vendues au Centre Commercial de Céladopole",
+    "leaf-stone": "Pierres vendues au Centre Commercial de Céladopole"
+  },
+  "locationNames": {
+    "kanto-underground-path": "Souterrain",
+    "digletts-cave": "Cave Taupiqueur",
+    "seafoam-islands": "Îles Écume",
+    "cinnabar-island": "Cramois'Île",
+    "rock-tunnel": "Grotte",
+    "kanto-power-plant": "Centrale"
+  },
+  "choiceGroups": {
+    "1": [
+      {
+        "label": "Starter (un seul au choix)",
+        "species": [
+          1,
+          4,
+          7
+        ]
+      },
+      {
+        "label": "Fossile du Mont Sélénite (un seul au choix)",
+        "species": [
+          138,
+          140
+        ]
+      },
+      {
+        "label": "Dojo de Safrania (un seul au choix)",
+        "species": [
+          106,
+          107
+        ]
+      },
+      {
+        "label": "Évoli unique : une seule évolution possible",
+        "species": [
+          134,
+          135,
+          136
+        ]
+      }
+    ],
+    "2": "@1",
+    "44": "@1",
+    "45": "@1",
+    "46": "@1",
+    "3": [
+      {
+        "label": "Fossile du Mont Sélénite (un seul au choix)",
+        "species": [
+          138,
+          140
+        ]
+      },
+      {
+        "label": "Dojo de Safrania (un seul au choix)",
+        "species": [
+          106,
+          107
+        ]
+      },
+      {
+        "label": "Évoli unique : une seule évolution possible",
+        "species": [
+          134,
+          135,
+          136
+        ]
+      }
+    ],
+    "31": [
+      {
+        "label": "Dojo de Safrania (un seul au choix)",
+        "species": [
+          106,
+          107
+        ]
+      }
+    ],
+    "32": "@31"
+  },
+  "overrides": {
+    "3": {
+      "26": {
+        "status": "trade",
+        "note": "Le Pikachu de départ refuse la Pierre Foudre et Jaune n'a pas de Pikachu sauvage : Raichu nécessite un échange."
+      },
+      "68": {
+        "status": "unique",
+        "seg": 5,
+        "label": "Échange PNJ",
+        "note": "Le Machopeur reçu au Souterrain (contre un Osselait) évolue aussitôt en Mackogneur : obtenable sans échange avec un autre joueur."
+      }
+    }
+  },
+  "special": {
+    "1": {
+      "151": {
+        "status": "event",
+        "note": "Distribution événementielle uniquement"
+      }
+    },
+    "2": "@1",
+    "3": "@1",
+    "44": "@1",
+    "45": "@1",
+    "46": "@1",
+    "31": {
+      "151": {
+        "status": "event",
+        "note": "Cadeau de la Poké Ball Plus (un seul par sauvegarde)"
+      },
+      "808": {
+        "status": "go",
+        "note": "Transfert depuis Pokémon GO (Boîte Mystère), via le Parc GO"
+      },
+      "809": {
+        "status": "go",
+        "note": "Évolution de Meltan dans Pokémon GO (400 Bonbons), puis transfert via le Parc GO"
+      }
+    },
+    "32": "@31"
+  },
+  "notes": {
+    "1": [
+      "Pokémon non enregistrés sur la Ball en 1re génération : pas de « Ball assortie » possible."
+    ],
+    "2": "@1",
+    "44": "@1",
+    "45": "@1",
+    "46": "@1",
+    "3": [
+      "Bulbizarre (Azuria, Pikachu doit être heureux), Salamèche (Route 24) et Carapuce (Carmin, après le Badge Foudre) sont offerts : les trois starters sont obtenables sans échange.",
+      "Pokémon non enregistrés sur la Ball en 1re génération : pas de « Ball assortie » possible."
+    ],
+    "31": [
+      "Le Pikachu / Évoli partenaire ne peut pas évoluer.",
+      "Les formes d'Alola s'obtiennent par échanges avec des PNJ (un exemplaire chacune).",
+      "Pas d'œufs ni de talents dans Let's Go."
+    ],
+    "32": "@31"
+  },
+  "npcTrades": {
+    "_info": "Échanges avec des PNJ : Pokémon à donner et étape minimale du lieu de l'échange.",
+    "1": {
+      "122": {
+        "give": 63,
+        "seg": 3
+      },
+      "29": {
+        "give": 32,
+        "seg": 3
+      },
+      "30": {
+        "give": 33,
+        "seg": 3
+      },
+      "124": {
+        "give": 61,
+        "seg": 2
+      },
+      "83": {
+        "give": 21,
+        "seg": 3
+      },
+      "108": {
+        "give": 80,
+        "seg": 5
+      },
+      "101": {
+        "give": 26,
+        "seg": 7
+      },
+      "114": {
+        "give": 48,
+        "seg": 7
+      },
+      "86": {
+        "give": 77,
+        "seg": 7
+      }
+    },
+    "2": "@1",
+    "44": "@1",
+    "45": "@1",
+    "46": "@1",
+    "3": {
+      "122": {
+        "give": 35,
+        "seg": 3
+      },
+      "67": {
+        "give": 104,
+        "seg": 3
+      },
+      "51": {
+        "give": 108,
+        "seg": 3
+      },
+      "47": {
+        "give": 114,
+        "seg": 5
+      },
+      "112": {
+        "give": 55,
+        "seg": 7
+      },
+      "87": {
+        "give": 58,
+        "seg": 7
+      },
+      "89": {
+        "give": 115,
+        "seg": 7
+      }
+    }
+  }
+}
