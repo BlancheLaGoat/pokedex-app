@@ -298,7 +298,8 @@
      250
     ],
     "6": [
-     249
+     249,
+     250
     ]
    }
   },
@@ -399,6 +400,427 @@
     "navel-rock"
    ],
    "afterSpecies": 152
+  },
+  "rse": {
+   "locs": [
+    "hoenn-battle-frontier",
+    "artisan-cave",
+    "desert-underpass",
+    "terra-cave",
+    "marine-cave",
+    "southern-island",
+    "faraway-island",
+    "birth-island",
+    "navel-rock",
+    "roaming-hoenn",
+    "hoenn-safari-zone/expansion-south",
+    "hoenn-safari-zone/expansion-north"
+   ],
+   "locsByVersion": {
+    "7": [
+     "sky-pillar"
+    ],
+    "8": [
+     "sky-pillar"
+    ]
+   },
+   "species": {
+    "9": [
+     152,
+     155,
+     158
+    ]
+   }
+  },
+  "dpp": {
+   "locs": [
+    "sinnoh-route-224",
+    "sinnoh-route-225",
+    "sinnoh-sea-route-226",
+    "sinnoh-route-227",
+    "sinnoh-route-228",
+    "sinnoh-route-229",
+    "sinnoh-sea-route-230",
+    "stark-mountain",
+    "resort-area",
+    "snowpoint-temple",
+    "newmoon-island",
+    "flower-paradise",
+    "sinnoh-hall-of-origin-1"
+   ],
+   "locsByVersion": {
+    "14": [
+     "spear-pillar",
+     "turnback-cave"
+    ]
+   },
+   "species": {
+    "12": [
+     133,
+     479,
+     488
+    ],
+    "13": [
+     133,
+     479,
+     488
+    ],
+    "14": [
+     488,
+     144,
+     145,
+     146
+    ]
+   }
+  },
+  "dete": {
+   "locs": [
+    "sinnoh-route-224",
+    "sinnoh-route-225",
+    "bdsp-sinnoh-route-226",
+    "sinnoh-route-227",
+    "sinnoh-route-228",
+    "sinnoh-route-229",
+    "bdsp-sinnoh-route-230",
+    "stark-mountain",
+    "resort-area",
+    "snowpoint-temple",
+    "bdsp-floaroma-town"
+   ],
+   "species": {
+    "37": [
+     133,
+     479,
+     488
+    ],
+    "38": [
+     133,
+     479,
+     488
+    ]
+   }
+  },
+  "nb": {
+   "locs": [
+    "unova-route-11",
+    "unova-route-12",
+    "unova-route-13",
+    "unova-route-14",
+    "unova-route-15",
+    "village-bridge",
+    "undella-town",
+    "undella-bay",
+    "abundant-shrine",
+    "marvelous-bridge",
+    "giant-chasm",
+    "team-flare-secret-hq",
+    "challengers-cave"
+   ],
+   "species": {
+    "17": [
+     638,
+     639,
+     640,
+     641,
+     642,
+     645,
+     646
+    ],
+    "18": [
+     638,
+     639,
+     640,
+     641,
+     642,
+     645,
+     646
+    ]
+   }
+  },
+  "nb2": {
+   "locs": [
+    "nature-sanctuary",
+    "underground-ruins"
+   ],
+   "species": {
+    "21": [
+     646,
+     380,
+     381,
+     488,
+     485,
+     486,
+     377,
+     378,
+     379,
+     480,
+     481,
+     482,
+     638,
+     639,
+     640,
+     643,
+     644
+    ],
+    "22": [
+     646,
+     380,
+     381,
+     488,
+     485,
+     486,
+     377,
+     378,
+     379,
+     480,
+     481,
+     482,
+     638,
+     639,
+     640,
+     643,
+     644
+    ]
+   }
+  },
+  "xy": {
+   "locs": [
+    "unknown-dungeon",
+    "sea-spirits-den",
+    "roaming-kalos",
+    "friend-safari"
+   ],
+   "species": {
+    "23": [
+     718,
+     144,
+     145,
+     146,
+     150
+    ],
+    "24": [
+     718,
+     144,
+     145,
+     146,
+     150
+    ]
+   }
+  },
+  "rosa": {
+   "locs": [
+    "battle-resort",
+    "sky-pillar"
+   ],
+   "species": {
+    "25": [
+     384,
+     386,
+     152,
+     155,
+     158,
+     387,
+     390,
+     393,
+     495,
+     498,
+     501,
+     144,
+     145,
+     146,
+     150,
+     243,
+     244,
+     245,
+     249,
+     250,
+     480,
+     481,
+     482,
+     483,
+     484,
+     485,
+     486,
+     487,
+     488,
+     641,
+     642,
+     643,
+     644,
+     645,
+     646,
+     638,
+     639,
+     640
+    ],
+    "26": [
+     384,
+     386,
+     152,
+     155,
+     158,
+     387,
+     390,
+     393,
+     495,
+     498,
+     501,
+     144,
+     145,
+     146,
+     150,
+     243,
+     244,
+     245,
+     249,
+     250,
+     480,
+     481,
+     482,
+     483,
+     484,
+     485,
+     486,
+     487,
+     488,
+     641,
+     642,
+     643,
+     644,
+     645,
+     646,
+     638,
+     639,
+     640
+    ]
+   }
+  },
+  "sl": {
+   "locs": [
+    "ruins-of-conflict",
+    "ruins-of-life",
+    "ruins-of-abundance",
+    "ruins-of-hope",
+    "lake-of-the-sunne",
+    "lake-of-the-moone",
+    "resolution-cave"
+   ],
+   "species": {
+    "27": [
+     772,
+     800,
+     793,
+     794,
+     795,
+     796,
+     797,
+     798,
+     799,
+     803,
+     804,
+     805,
+     806
+    ],
+    "28": [
+     772,
+     800,
+     793,
+     794,
+     795,
+     796,
+     797,
+     798,
+     799,
+     803,
+     804,
+     805,
+     806
+    ]
+   }
+  },
+  "usul": {
+   "locs": [
+    "ruins-of-conflict",
+    "ruins-of-life",
+    "ruins-of-abundance",
+    "ruins-of-hope",
+    "lake-of-the-sunne",
+    "lake-of-the-moone",
+    "resolution-cave",
+    "ultra-space-wilds",
+    "ultra-space",
+    "ultra-megalopolis",
+    "team-rockets-castle"
+   ],
+   "species": {
+    "29": [
+     772,
+     800,
+     718,
+     793,
+     794,
+     795,
+     796,
+     797,
+     798,
+     799,
+     803,
+     804,
+     805,
+     806
+    ],
+    "30": [
+     772,
+     800,
+     718,
+     793,
+     794,
+     795,
+     796,
+     797,
+     798,
+     799,
+     803,
+     804,
+     805,
+     806
+    ]
+   }
+  },
+  "eb": {
+   "locs": [
+    "galar-battle-tower"
+   ],
+   "species": {
+    "33": [
+     888,
+     889
+    ],
+    "34": [
+     888,
+     889
+    ]
+   }
+  },
+  "pla": {
+   "locs": [],
+   "species": {
+    "39": [
+     480,
+     481,
+     482,
+     485,
+     486,
+     487,
+     488,
+     490,
+     493,
+     641,
+     642,
+     645,
+     905
+    ]
+   }
   }
  }
 }

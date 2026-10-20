@@ -1,7 +1,7 @@
 {
   "name": "pokedex-blanche",
   "productName": "Pokédex",
-  "version": "1.5.4",
+  "version": "1.5.5",
   "description": "Pokédex de suivi par jeu : obtention, exclusivités, évolutions, talents, attaques, formes, shiny, routes.",
   "main": "main.js",
   "author": "BlancheLaGoat",

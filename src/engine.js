@@ -88,25 +88,35 @@
 
     // jeux sans étapes détaillées : seulement avant (1) / après (2) la ligue, d'après global.postgame
     postInfo(v) {
-      if (this.cur(v)) return null;
+      const cur = this.cur(v);
+      if (cur && cur.segments.length) return null;
+      const g = this.game(v);
+      if (g.dlc) return null; // les DLC n'ont pas de ligue
       const pg = this.global.postgame || {};
-      const p = pg[this.game(v).fam];
+      const p = pg[g.fam];
       if (!p) return null;
       if (!p._set) { p._set = new Set(p.locs || []); p._conds = new Set(pg.conds || []); }
       return p;
     }
 
+    lateSpecies(p, v, sid) {
+      return ((p.species || {})[v] || []).includes(sid) || (p.afterSpecies && sid >= p.afterSpecies);
+    }
+
     // le jeu sait-il dire « avant / après la ligue » ?
     hasStages(v) {
       const cur = this.cur(v);
-      return cur ? cur.segments.length > 0 : !!this.postInfo(v);
+      return (cur && cur.segments.length > 0) || !!this.postInfo(v);
     }
 
-    locSeg(cur, locIdent, method, v, conds) {
-      if (!cur) {
+    locSeg(cur, locIdent, method, v, conds, areaIdent) {
+      if (!cur || !cur.segments.length) {
         const p = v != null && this.postInfo(v);
         if (!p) return null;
-        return p._set.has(locIdent) || (conds || []).some((c) => p._conds.has(c)) ? 2 : 1;
+        const byV = (p.locsByVersion || {})[v] || [];
+        const late = p._set.has(locIdent) || p._set.has(locIdent + '/' + areaIdent) || byV.includes(locIdent)
+          || (conds || []).some((c) => p._conds.has(c));
+        return late ? 2 : 1;
       }
       let seg = null;
       for (const s of cur.segments) if (s.locs.includes(locIdent)) { seg = s.id; break; }
@@ -141,7 +151,7 @@
             out.push({
               pid, area, lid, method: m.ident, methodFr: m.fr, conds, min, max, rate,
               unique: UNIQUE_METHODS.has(m.ident),
-              seg: loc ? this.locSeg(cur, loc.ident, m.ident, v, conds) : null,
+              seg: loc ? this.locSeg(cur, loc.ident, m.ident, v, conds, a ? a.ident : '') : null,
               locFr: this.locName(lid, cur), areaFr: a ? a.fr : '', areaIdent: a ? a.ident : '',
               fromBase: src !== v,
             });
@@ -181,6 +191,7 @@
       const npcTrades = this.ref(cur && cur.npcTrades, v) || {};
       const canBreed = g.gen >= 2 && !this.global.noBreedingFamilies.includes(g.fam);
       const visiting = new Set();
+      const pinfo = this.postInfo(v);
 
       const compute = (sid) => {
         if (map.has(sid)) return map.get(sid);
@@ -246,6 +257,11 @@
             }
           }
         }
+        // avant / après la ligue (jeux sans étapes détaillées) : réglé ici pour que les évolutions en héritent
+        if (pinfo && info.avail && !info.needTrade && ['unique', 'wild', 'evo', 'egg', 'tradeEvo'].includes(info.kind)) {
+          if (info.seg == null) info.seg = 1; // Pokémon fixes / cadeaux saisis à la main sans lieu
+          if (this.lateSpecies(pinfo, v, sid)) info.seg = 2;
+        }
         visiting.delete(sid);
         map.set(sid, info);
         return info;
@@ -305,14 +321,13 @@
       }
 
       // étape avant / après ligue
-      const pinfo = this.postInfo(v);
       for (const info of map.values()) {
-        if (pinfo && info.seg != null) {
-          const late = ((pinfo.species || {})[v] || []).includes(info.sid) || (pinfo.afterSpecies && info.sid >= pinfo.afterSpecies);
-          if (late) info.seg = 2;
+        if (pinfo && info.avail) {
+          if (info.seg == null && !info.needTrade && ['unique', 'wild', 'evo', 'egg', 'tradeEvo'].includes(info.kind)) info.seg = 1;
+          if (info.seg != null && this.lateSpecies(pinfo, v, info.sid)) info.seg = 2;
           info.post = info.seg === 2;
         }
-        if (cur && info.seg != null) {
+        if (cur && cur.segments.length && info.seg != null) {
           const segObj = cur.segments.find((s) => s.id === info.seg);
           info.post = !!(segObj && segObj.postgame);
         }
