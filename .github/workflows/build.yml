@@ -32,10 +32,13 @@ jobs:
         run: |
           V=$(node -p "require('./package.json').version")
           echo "version=$V" >> "$GITHUB_OUTPUT"
-          if gh release view "v$V" > /dev/null 2>&1; then
-            echo "new=false" >> "$GITHUB_OUTPUT"; echo "La release v$V existe déjà : simple build."
+          if ! gh release view "v$V" > /dev/null 2>&1; then
+            echo "mode=create" >> "$GITHUB_OUTPUT"; echo "Nouvelle version v$V : publication."
+          elif gh release view "v$V" --json assets -q '.assets[].name' | grep -qx "latest.yml" \
+            && gh release view "v$V" --json assets -q '.assets[].name' | grep -qx "Pokedex-Setup-$V.exe"; then
+            echo "mode=none" >> "$GITHUB_OUTPUT"; echo "La release v$V est complète : simple build."
           else
-            echo "new=true" >> "$GITHUB_OUTPUT"; echo "Nouvelle version v$V : publication."
+            echo "mode=repair" >> "$GITHUB_OUTPUT"; echo "La release v$V est incomplète : les fichiers manquants vont être ajoutés."
           fi
 
       # Construit l'installeur + latest.yml (fichier lu par la mise à jour automatique), sans rien publier
@@ -44,7 +47,7 @@ jobs:
 
       # Crée le tag vX.Y.Z sur ce commit et la release, avec l'installeur, sa blockmap et latest.yml
       - name: Publier la release
-        if: steps.ver.outputs.new == 'true'
+        if: steps.ver.outputs.mode == 'create'
         shell: bash
         run: |
           V=${{ steps.ver.outputs.version }}
@@ -54,6 +57,15 @@ jobs:
             --title "Pokédex v$V" \
             --notes "Mise à jour automatique : l'appli installée la téléchargera toute seule. Première installation : lancer Pokedex-Setup-$V.exe." \
             dist/Pokedex-Setup-$V.exe dist/Pokedex-Setup-$V.exe.blockmap dist/latest.yml
+
+      # Release déjà créée mais incomplète (ex. build interrompu) : on (re)dépose les fichiers
+      - name: Compléter la release
+        if: steps.ver.outputs.mode == 'repair'
+        shell: bash
+        run: |
+          V=${{ steps.ver.outputs.version }}
+          gh release upload "v$V" --clobber dist/Pokedex-Setup-$V.exe dist/Pokedex-Setup-$V.exe.blockmap dist/latest.yml
+          gh release edit "v$V" --draft=false --latest
 
       - uses: actions/upload-artifact@v4
         with:
