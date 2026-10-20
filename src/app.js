@@ -440,13 +440,22 @@ function renderHead() {
     const partial = vs.filter((x) => (S.global.incompleteEncounters || []).includes(x));
     if (partial.length && !missing.length) notes.push('Lieux de capture incomplets dans la base de données pour ce jeu : les Pokémon sans lieu connu sont marqués « Données manquantes » plutôt qu\'« Introuvable ».');
     if (missing.length) notes.push('Les lieux de capture ne sont pas encore disponibles pour ce jeu dans la base de données : seuls le Pokédex, les évolutions, les talents, les attaques et les formes sont renseignés.');
-    if (!vs.some((x) => S.engine.cur(x)) && !missing.length) notes.push('Étapes avant / après la ligue et route optimisée pas encore saisies pour ce jeu (disponibles pour la 1re génération).');
+    if (!vs.some((x) => S.engine.cur(x)) && !missing.length) {
+      notes.push(vs.some((x) => S.engine.hasStages(x))
+        ? 'Route optimisée pas encore saisie pour ce jeu (vue « par lieu »). Le filtre avant / après la ligue fonctionne.'
+        : 'Étapes avant / après la ligue et route optimisée pas encore saisies pour ce jeu : le filtre « Avant / Après la ligue » est désactivé ici.');
+    }
     for (const x of vs) {
       const cx = S.engine.cur(x); const n = cx && S.engine.ref(cx.notes, x);
       if (n) { notes.push(...n); break; }
     }
     if (notes.length) { banner.innerHTML = ''; notes.forEach((n) => banner.append(h('div', null, n))); banner.classList.remove('hidden'); }
   }
+  // filtre avant / après la ligue grisé pour les jeux qui n'ont pas cette information
+  const stagesOk = v.type === 'global' || viewVersions().some((x) => S.engine.hasStages(x));
+  for (const o of $('f-stage').options) if (o.value === 'avant' || o.value === 'apres') o.disabled = !stagesOk;
+  $('f-stage').title = stagesOk ? '' : 'Avant / après la ligue pas encore saisi pour ce jeu';
+  if (!stagesOk && (S.f.stage === 'avant' || S.f.stage === 'apres')) { S.f.stage = ''; $('f-stage').value = ''; }
   $('title').textContent = title;
   $('subtitle').textContent = sub;
   // onglets

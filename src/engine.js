@@ -86,8 +86,28 @@
         .map((o) => o.id);
     }
 
-    locSeg(cur, locIdent, method) {
-      if (!cur) return null;
+    // jeux sans étapes détaillées : seulement avant (1) / après (2) la ligue, d'après global.postgame
+    postInfo(v) {
+      if (this.cur(v)) return null;
+      const pg = this.global.postgame || {};
+      const p = pg[this.game(v).fam];
+      if (!p) return null;
+      if (!p._set) { p._set = new Set(p.locs || []); p._conds = new Set(pg.conds || []); }
+      return p;
+    }
+
+    // le jeu sait-il dire « avant / après la ligue » ?
+    hasStages(v) {
+      const cur = this.cur(v);
+      return cur ? cur.segments.length > 0 : !!this.postInfo(v);
+    }
+
+    locSeg(cur, locIdent, method, v, conds) {
+      if (!cur) {
+        const p = v != null && this.postInfo(v);
+        if (!p) return null;
+        return p._set.has(locIdent) || (conds || []).some((c) => p._conds.has(c)) ? 2 : 1;
+      }
       let seg = null;
       for (const s of cur.segments) if (s.locs.includes(locIdent)) { seg = s.id; break; }
       if (seg == null) return null;
@@ -121,7 +141,7 @@
             out.push({
               pid, area, lid, method: m.ident, methodFr: m.fr, conds, min, max, rate,
               unique: UNIQUE_METHODS.has(m.ident),
-              seg: loc ? this.locSeg(cur, loc.ident, m.ident) : null,
+              seg: loc ? this.locSeg(cur, loc.ident, m.ident, v, conds) : null,
               locFr: this.locName(lid, cur), areaFr: a ? a.fr : '', areaIdent: a ? a.ident : '',
               fromBase: src !== v,
             });
@@ -285,7 +305,13 @@
       }
 
       // étape avant / après ligue
+      const pinfo = this.postInfo(v);
       for (const info of map.values()) {
+        if (pinfo && info.seg != null) {
+          const late = ((pinfo.species || {})[v] || []).includes(info.sid) || (pinfo.afterSpecies && info.sid >= pinfo.afterSpecies);
+          if (late) info.seg = 2;
+          info.post = info.seg === 2;
+        }
         if (cur && info.seg != null) {
           const segObj = cur.segments.find((s) => s.id === info.seg);
           info.post = !!(segObj && segObj.postgame);
@@ -433,7 +459,7 @@
       if (info.needTrade) return 'Échange';
       if (info.kind === 'event') return 'Événement';
       if (info.kind === 'go') return 'Pokémon GO';
-      if (!this.cur(v) || info.seg == null) return '—';
+      if (!this.hasStages(v) || info.seg == null) return '—';
       return info.post ? 'Après la ligue' : 'Avant la ligue';
     }
 
