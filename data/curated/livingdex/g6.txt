@@ -1,0 +1,721 @@
+582|Caverne Gelée|X|Y|Horde|
+1|Œuf||||
+3|Laboratoire Pokemon|X|Y|Faire évoluer|
+2|Œuf|||Faire évoluer|
+4|Œuf||||
+144|Antre Néréen|X|Y|Marisson|X
+584|Caverne Gelée|X|Y|Horde / Faire évoluer|
+5|Œuf|||Faire évoluer|
+9|Laboratoire Pokemon|X|Y|Faire évoluer|
+10|Forêt de Neuvartault|Y|||
+11|Forêt de Neuvartault|Y||Faire évoluer|
+12|Forêt de Neuvartault|Y||Faire évoluer|
+146|Antre Néréen|X|Y|Grenousse|X
+625|Auffrac-les-Congères|X|Y|Échange (Rondoudou)|
+594|Baie Azur|X|Y|Pêche (Méga Canne)|
+688|Baie Azur|X|Y|Éclate-Roc|
+689|Baie Azur|X|Y|Faire évoluer|
+697|Bureau d'Étude des Fossiles|X|Y||
+583|Caverne Gelée|X|Y|Horde / Faire évoluer|
+7|Œuf||||
+8|Œuf|||Faire évoluer|
+699|Bureau d'Étude des Fossiles|X|Y||
+568|Hôtel Désolation|X|Y|Poubelle|
+19|Route 117|RO|SA|Post-game (Navi-dex)|
+20|Route 118|RO|SA|Post-game (Navi-dex)|
+610|Cave Connecterre|X|Y||
+21|Œuf||||
+611|Cave Connecterre|X|Y|Faire évoluer|
+612|Cave Connecterre|X|Y|Faire évoluer|
+93|Caverne Gelée|X|Y||X
+94|Caverne Gelée|X|Y|Faire évoluer|X
+124|Caverne Gelée|X|Y||X
+221|Caverne Gelée|X|Y||X
+238|Caverne Gelée|X|Y|Horde|X
+479|Hôtel Désolation|X|Y|Poubelle (mardi)|X
+226|Route 12|X|Y|Surf / Faire évoluer|X
+27|Route 111|RO|SA||
+241|Route 12|X|Y||X
+473|Caverne Gelée|X|Y|Faire évoluer|X
+613|Caverne Gelée|X|Y|Horde|
+35|Site Météore|RO|SA|Post-game (Navi-dex)|
+36|Site Météore|RO|SA|Post-game (Navi-dex) / Faire évoluer|Pierre lune
+37|Mont Mémoria|RO|SA||
+38|Mont Mémoria|RO|SA||
+41|Grotte Granite|RO|SA||
+42|Caverne Fondmer|RO|SA||X
+43|Route 117|RO|SA||X
+44|Route 120|RO|SA||X
+45|Route 120|RO|SA|Faire évoluer|Pierre plante
+49|Île Mirage|RO|SA||X
+180|Route 12|X|Y|Horde / Faire évoluer|X
+458|Atoll de Combat|RO|SA|Surf|X
+46|Bois Clémenti|RO|SA|Post-game (Navi-dex)|X
+614|Caverne Gelée|X|Y||
+615|Caverne Gelée|X|Y||
+47|Bois Clémenti|RO|SA|Post-game (Navi-dex) / Faire évoluer|X
+48|Œuf||||X
+50|Chemin Ardent|RO|SA||X
+103|Route 12|X|Y|Faire évoluer|Pierre plante
+712|Caverne Gelée|X|Y||
+713|Caverne Gelée|X|Y|Faire évoluer|
+13|Forêt de Neuvartault|X|||
+51|Chemin Ardent|RO|SA|Faire évoluer|X
+52|Œuf||||X
+53|Île Mirage|RO|SA||X
+56|Sentier Sinuroc|RO|SA|Post-game (Navi-dex)|X
+102|Route 12|X|Y||X
+57|Sentier Sinuroc|RO|SA|Post-game (Navi-dex) / Faire évoluer|X
+14|Forêt de Neuvartault|X||Faire évoluer|
+15|Forêt de Neuvartault|X||Faire évoluer|
+25|Forêt de Neuvartault|X|Y||
+417|Route 12|X|Y||X
+58|Mont Mémoria|RO|SA|Post-game (Navi-dex)|X
+181|Route 12|X|Y|Horde / Faire évoluer|X
+367|Route 12|X||Pêche (Méga Canne)|
+59|Mont Mémoria|RO|SA|Post-game (Navi-dex) / Faire évoluer|Pierre feu
+63|Grotte Granite|RO|SA||X
+64|Grotte Granite|RO|SA|Faire évoluer|X
+65|Grotte Granite|RO|SA|Faire évoluer|X
+128|Route 12|X|Y||X
+179|Route 12|X|Y|Horde|X
+26|Forêt de Neuvartault|X|Y|Faire évoluer (Pierre foudre)|Pierre foudre
+511|Forêt de Neuvartault|X|Y||
+23|Route 14|X|Y|Horde|
+66|Route 112|RO|SA||X
+70|Route 14|X|Y||X
+67|Route 112|RO|SA|Faire évoluer|X
+588|Route 14|X|Y||
+69|Route 14|X|Y|Horde|X
+246|Grotte Coda|Y||Horde|X
+140|Grotte Étincelante|Y||Éclate-roc|X
+68|Route 112|RO|SA|Faire évoluer|X
+512|Forêt de Neuvartault|X|Y|Faire évoluer|Pierre plante
+513|Forêt de Neuvartault|X|Y||
+71|Route 14|X|Y|Faire évoluer|Pierre plante
+72|Myokara|RO|SA|Surf|X
+73|Caverne Fondmer|RO|SA|Surf|X
+616|Route 14|X|Y||
+75|Nénucrique|RO|SA|Éclate-roc|X
+589|Route 14|X|Y|Faire évoluer|
+74|Route 111|RO|SA|Éclate-roc|X
+514|Forêt de Neuvartault|X|Y|Faire évoluer|Pierre feu
+515|Forêt de Neuvartault|X|Y||
+516|Forêt de Neuvartault|X|Y|Faire évoluer|Pierre eau
+718|Grotte Coda|X|Y||
+76|Nénucrique|RO|SA|Éclate-roc / Faire évoluer|X
+77|Route 112|RO|SA|Post-game (Navi-dex)|X
+104|Grotte étincelante|X|Y||X
+78|Route 112|RO|SA|Post-game (Navi-dex) / Faire évoluer|X
+617|Route 14|X|Y|Faire évoluer|
+81|New Lavendia|RO|SA||X
+618|Route 14|X|Y|Surf|
+79|Grotte Mirage|RO|SA||X
+80|Grotte Mirage|RO|SA||X
+105|Grotte étincelante|X|Y|Faire évoluer|X
+84|Parc Safari|RO|SA||X
+195|Route 14|X|Y|Surf|X
+85|Parc Safari|RO|SA|Faire évoluer|X
+86|Chenal 125|RO|SA|Post-game (Navi-dex)|X
+87|Grotte Tréfonds|RO|SA|Post-game (Navi-dex)|X
+115|Grotte étincelante|X|Y||X
+408|Grotte Étincelante|X|Y|Éclate-roc|X
+409|Grotte Étincelante|X|Y|Éclate-roc|X
+410|Grotte Étincelante|X|Y|Éclate-roc|X
+92|Œuf||||X
+96|Œuf|RO|SA||X
+97|Route 121|RO|SA|Post-game (Navi-dex)|X
+411|Grotte Étincelante|X|Y|Éclate-roc|X
+98|Chenal 109|RO|SA|Post-game (Navi-dex)|X
+527|Grotte Étincelante|X|Y||
+528|Grotte Étincelante|X|Y|Faire évoluer|
+564|Grotte Étincelante|X|Y|Éclate-roc|
+565|Grotte Étincelante|X|Y|Éclate-roc|
+566|Grotte Étincelante|X|Y|Éclate-roc|
+567|Grotte Étincelante|X|Y|Éclate-roc|
+150|Grotte Inconnue|X|Y||X
+95|Grotte Mirage|RO|SA||X
+138|Grotte Étincelante|Y||Éclate-roc|X
+139|Grotte Étincelante|Y||Éclate-roc|X
+141|Grotte Étincelante|Y||Éclate-roc|X
+717|Repaire Team Flare|Y|||
+142|Grotte Étincelante|X|Y|Éclate-roc|X
+122|Grotte Miroitante|X|Y||X
+202|Grotte Miroitante|X|Y||X
+145|Antre Néréen|X|Y|Feunnec|X
+439|Grotte Miroitante|X|Y|Horde|
+524|Grotte Miroitante|X|Y||
+577|Grotte Miroitante|X|Y||
+578|Grotte Miroitante|X|Y|Faire évoluer|
+579|Grotte Miroitante|X|Y|Faire évoluer|
+99|Chenal 109|RO|SA|Post-game (Navi-dex) / Faire évoluer|X
+100|New Lavandia|RO|SA||X
+101|Planque Magma|RO|||X
+106|Route 112|RO|SA|Faire évoluer|X
+107|Route 112|RO|SA|Faire évoluer|X
+109|Chemin Ardent|RO|||X
+704|Route 14|X|Y||
+451|Route 14|X|Y||X
+455|Route 14|X|Y||X
+198|Route 15|X|Y||X
+597|Grotte Miroitante|X|Y||
+598|Grotte Miroitante|X|Y||
+110|Chemin Ardent|RO||Faire évoluer|X
+703|Grotte Miroitante|X|Y||
+111|Parc Safari|RO|SA|Zone 3|X
+483|Faille Spatio-Temporelle|SA|||X
+112|Parc Safari|RO|SA|Zone 3 / Faire évoluer|X
+262|Route 15|X|||X
+116|Chenal 130|RO|SA|Pêche (Méga Canne)|X
+117|Chenal 130|RO|SA|Pêche (Méga Canne)|X
+118|Clémenti-Ville|RO|SA|Pêche (Super Canne)|X
+119|Parc Safari|RO|SA|Pêche (Méga Canne)|X
+113|Forêt Mirage|RO|SA|Faire évoluer|X
+114|Forêt Mirage|RO|SA||X
+505|Route 15|X|Y|Fleurs rouges|
+120|Nénucrique|RO|SA|Pêche (Méga Canne)|X
+126|Mont Mirage|RO|SA|Faire évoluer|X
+127|Parc Safari|RO|SA||X
+543|Route 6|X|Y|Embuscade buisson|
+130|Palais Chaydeuvre|X|Y|Pêche (Méga Canne)|X
+707|Hôtel Désolation|X|Y||
+129|Route 104|RO|SA|Pêche (Canne)|X
+711|Route 16|X|Y|Faire évoluer|
+708|Route 16|X|Y||
+208|Relifac-le-Haut|X|Y|Échange (Lovdisc)|X
+693|Roche-sur-Gliffe|X||Pêche (Méga Canne)|
+692|Roche-sur-Gliffe|X||Pêche (Super Canne)|
+469|Route 10|X|Y|Horde|X
+193|Route 10|X|Y|Horde|X
+419|Route 16|X|Y|Surf|X
+710|Route 16|X|Y||
+460|Route 17|X|Y|Embuscade au sol / Faire évoluer|X
+135|Route 10|X|Y|Fleurs jaunes|Pierre foudre
+151|Event|RO|SA||X
+209|Route 10|X|Y||X
+716|Repaire Team Flare|X|||
+136|Route 10|X|Y|Fleurs jaunes|Pierre feu
+470|Route 10|X|Y|Fleurs jaunes|X
+459|Route 17|X|Y|Embuscade au sol|X
+225|Route 17|X|Y|Embuscade au sol|X
+125|Mont Mirage|RO|SA|Faire évoluer|X
+700|Route 10|X|Y|Fleurs jaunes|
+152|Œuf||||X
+461|Route 17|X|Y|Embuscade au sol|Griffe rasoir
+153|Œuf|||Faire évoluer|X
+197|Route 10|X|Y|Fleurs jaunes / Faire évoluer|X
+196|Route 10|X|Y|Fleurs jaunes / Faire évoluer|X
+228|Route 10|X|||X
+622|Route 10|X|Y||
+210|Route 10|X|Y|Faire évoluer|X
+623|Route 10|X|Y|Faire évoluer|
+471|Route 10|X|Y|Fleurs jaunes|X
+133|Route 10|X|Y|Fleurs jaunes|X
+154|Route 101|RO|SA|Faire évoluer|X
+587|Route 10|X|Y||
+137|Île Mirage|RO|SA||X
+229|Route 10|X||Faire évoluer|X
+155|Œuf||||X
+156|Œuf|||Faire évoluer|X
+158|Œuf||||X
+561|Route 10|X|Y||
+701|Route 10|X|Y||
+159|Œuf|||Faire évoluer|X
+160|Route 101|RO|SA|Faire évoluer|X
+134|Route 10|X|Y|Fleurs jaunes|Pierre eau
+33|Route 11|X|Y||
+163|Œuf||||X
+30|Route 11|X|Y||
+32|Route 11|X|Y|Horde|
+215|Route 17|X|Y|Embuscade au sol|X
+167|Œuf||||X
+168|Pillier Céleste|RO|SA||X
+169|Caverne Fondmer|RO|SA|Faire évoluer|X
+170|Chenal 124|RO|SA|Plongée|X
+29|Route 11|X|Y|Horde|
+171|Chenal 124|RO|SA|Plongée|X
+172|Œuf||||X
+31|Route 11|X|Y|Faire évoluer|Pierre lune
+631|Route 18|X|Y||
+178|Mont Mirage|RO|SA||X
+34|Route 11|X|Y|Faire évoluer|Pierre lune
+644|Grotte Évanescente|SA|||
+89|Chemin Ardent|SA||Faire évoluer|X
+213|Route 18|X|Y|Éclate-Roc|X
+173|Œuf||||X
+690|Roche-sur-Gliffe|Y||Pêche (Super Canne)|
+691|Roche-sur-Gliffe|Y||Pêche (Méga Canne)|
+368|Route 12|Y||Pêche (Méga Canne)|
+632|Route 18|X|Y||
+28|Route 18|X|Y|Fleurs rouges|
+174|Œuf||||X
+175|Œuf||||X
+176|Œuf||||X
+177|Œuf||||X
+191|Forêt Mirage|RO|SA||X
+192|Forêt Mirage|RO|SA||Pierre soleil
+24|Route 19|X|Y|Horde|
+705|Route 19|X|Y||
+452|Route 19|X|Y|Fleurs violettes|X
+706|Route 19|X|Y|Faire évoluer|
+199|Grotte Mirage|RO|SA|Faire évoluer|Roche royale
+434|Route 11|X|Y||X
+182|Route 120|RO|SA|Faire évoluer|Pierre soleil
+183|Route 117|RO|SA|Surf|X
+203|Parc Safari|RO|SA||X
+207|Route 19|X|Y|Horde|X
+205|Mont Mirage|RO|SA||X
+184|Route 117|RO|SA|Surf|X
+190|Route 118|RO|SA|Post-game (Navi-dex)|X
+194|Œuf||||X
+200|Route 114|RO|SA|Post-game (Navi-dex)|X
+472|Route 19|X|Y|Horde|
+201|Grotte Mirage|RO|SA||X
+204|Œuf||||X
+186|Route 19|X|Y|Pêche (Méga Canne)|
+214|Parc Safari|RO|SA||X
+216|Œuf|||X|X
+664|Route 2|X|Y||
+665|Route 2|X|Y|Faire évoluer|
+666|Route 2|X|Y|Faire évoluer|
+218|Chemin Ardent|RO|SA||X
+232|Mont Mirage|RO|SA||X
+18|Route 2|X|Y|Faire évoluer|
+16|Route 2|X|Y||
+233|Île Mirage|RO|SA|Faire évoluer|Améliorator
+219|Chemin Ardent|RO|SA|Faire évoluer|X
+220|Œuf||||X
+223|Atoll de Combat|RO|SA|Pêche (Méga Canne)|X
+224|Atoll de Combat|RO|SA|Pêche (Méga Canne)|X
+17|Route 2|X|Y|Faire évoluer|
+227|Route 113|RO|SA||X
+185|Route 20|X|Y|Horde|X
+230|Chenal 130|RO|SA|Faire évoluer|Écaille Draco
+334|Route 21|X|Y||X
+212|Route 21|X|Y|Fleurs / Faire évoluer|Peau métal
+148|Route 21|X|Y|Pêche (Méga Canne)|X
+239|Mont Mirage|RO|SA||X
+435|Route 11|X|Y|Faire évoluer|X
+149|Route 21|X|Y|Pêche (Méga Canne) / Faire évoluer|X
+123|Route 21|X|Y|Fleurs|X
+231|Œuf||||X
+242|Forêt Mirage|RO|SA|Faire évoluer|X
+88|Chemin Ardent|SA|||X
+234|Mont Mirage|RO|SA||X
+236|Route 112|RO|SA|Post-game (Navi-dex)|X
+237|Route 112|RO|SA|Post-game (Navi-dex)|X
+240|Mont Mirage|RO|SA||X
+243|Forêt Impénétrable|RO|SA||X
+244|Forêt Impénétrable|RO|SA||X
+245|Forêt Impénétrable|RO|SA||X
+147|Route 21|X|Y|Pêche (Super Canne)|X
+250|Lavandia Sea|RO|||X
+251|Event||||X
+252|Œuf||||X
+253|Œuf||||X
+254|Route 101|RO|SA||X
+255|Œuf||||X
+256|Œuf||||X
+258|Œuf||||X
+259|Œuf||||X
+260|Route 101|RO|SA||X
+261|Route 101|RO|SA||X
+263|Route 101|RO|SA||X
+217|Route 21|X|Y|Fleurs rouges|X
+264|Route 119|RO|SA||X
+55|Route 22|X|Y|Faire évoluer|X
+265|Route 101|RO|SA||X
+266|Bois Clémenti|RO|SA||X
+267|Bois Clémenti|RO|SA|Faire évoluer|X
+298|Route 22|X|Y||
+268|Bois Clémenti|RO|SA||X
+269|Bois Clémenti|RO|SA|Faire évoluer|X
+278|Route 104|RO|SA|Surf|X
+433|Route 11|X|Y||
+273|Route 102|RO|||X
+279|Chenal 130|RO|SA|Surf|X
+274|Route 114|RO|||X
+275|Route 114|RO||Faire évoluer|Pierre plante
+276|Route 115|RO|SA||X
+277|Route 115|RO|SA|Faire évoluer|X
+280|Route 102|RO|SA||X
+281|Route 102|RO|SA|Faire évoluer|X
+282|Route 102|RO|SA|Faire évoluer|X
+83|Route 22|X|Y|Fleurs jaunes|X
+283|Route 120|RO|SA|Surf|X
+284|Route 120|RO|SA|Surf|X
+400|Route 22|X|Y|Fleurs jaunes|X
+660|Route 22|X|Y|Fleurs jaunes|
+285|Bois Clémenti|RO|SA||X
+286|Bois Clémenti|RO|SA|Faire évoluer|X
+287|Bois Clémenti|RO|SA||X
+288|Bois Clémenti|RO|SA|Faire évoluer|X
+289|Bois Clémenti|RO|SA|Faire évoluer|X
+397|Route 11|X|Y||X
+290|Route 116|RO|SA||X
+291|Route 116|RO|SA|Faire évoluer|X
+667|Route 22|X|Y||
+206|Route 22|X|Y||X
+668|Route 22|X|Y|Faire évoluer|
+292|Route 116|RO|SA|Faire évoluer|X
+293|Tunnel Mérazon|RO|SA||X
+294|Route Victoire|RO|SA||X
+295|Route Victoire|RO|SA|Faire évoluer|X
+296|Grotte Granite|RO|SA||X
+297|Route Victoire|RO|SA||X
+299|Grotte Granite|RO|SA|Éclate-Roc|X
+398|Route 11|X|Y|Faire évoluer|X
+510|Route 15|Y|||
+300|Route 116|RO|SA||X
+301|Route 116|RO|SA|Faire évoluer|
+303|Grotte Origine|RO|||X
+304|Grotte Granite|RO|SA||X
+305|Route Victoire|RO|SA||X
+54|Route 22|X|Y|Surf|X
+306|Route Victoire|RO|SA|Faire évoluer|X
+307|Mont Mémoria|RO|SA||X
+308|Route Victoire|RO|SA||X
+309|Route 118|RO|SA||X
+310|Route 118|RO|SA|Faire évoluer|X
+447|Route 22|X|Y||X
+382|Grotte Origine|SA|||X
+312|Route 110|RO|||X
+314|Route 117|RO|||X
+662|Route 3|X|Y|Faire évoluer|
+413|Route 3|X|Y|Faire évoluer|X
+315|Route 117|RO|SA||X
+316|Route 110|RO|SA||X
+412|Route 3|X|Y||X
+317|Route 110|RO|SA|Faire évoluer|X
+318|Route 118|RO|SA|Pêche (Méga Canne)|X
+319|Atoll de Combat|RO|SA|Finir épisode Delta|X
+302|Grotte Origine|SA|||X
+320|Chenal 127|RO|SA|Pêche (Méga Canne)|X
+663|Route 3|X|Y|Faire évoluer|
+321|Chenal 127|RO|SA|Pêche (Méga Canne) / Faire évoluer|X
+322|Route 112|RO|SA||X
+702|Route 11|X|Y||
+323|Atoll de Combat|RO|SA|Finir épisode Delta|X
+324|Chemin Ardent|RO|SA||X
+325|Sentier Sinuroc|RO|SA||X
+326|Sentier Sinuroc|RO|SA|Faire évoluer|X
+327|Route 113|RO|SA||X
+399|Route 3|X|Y||X
+414|Route 3|X|Y|Faire évoluer|X
+328|Route 111|RO|SA||X
+329|Route 111|RO|SA|Faire évoluer|X
+330|Route 111|RO|SA|Faire évoluer|X
+380|Île du Sud|SA|||X
+331|Route 111|RO|SA||X
+332|Route 111|RO|SA|Faire évoluer|X
+416|Route 4|X|Y|Fleurs jaunes / Faire évoluer|X
+249|Lavandia Sea|SA|||X
+642|Nuages noirs|SA|||
+333|Route 114|RO|SA||X
+335|Route 114|RO|||X
+338|Site Météore|RO|||X
+339|Route 120|RO|SA|Pêche (Méga Canne)|X
+340|Site Météore|RO|SA|Pêche (Méga Canne)|X
+341|Route 102|RO|SA|Pêche (Méga Canne)|X
+342|Route 123|RO|SA|Pêche (Méga Canne)|X
+343|Route 111|RO|SA||X
+344|Pillier Céleste|RO|SA||X
+345|Œuf||||X
+346|Route 111|RO|SA|Fossile Racine|X
+415|Route 4|X|Y|Fleurs jaunes|X
+347|Œuf||||X
+348|Route 111|RO|SA|Fossile Griffe|X
+349|Route 119|RO|SA||X
+350|Route 119|RO|SA|Faire évoluer|X
+351|Centre Météo|RO|SA||X
+352|Route 120|RO|SA||X
+353|Mont Mémoria|RO|SA||X
+355|Mont Mémoria|RO|SA||X
+356|Mont Mémoria|RO|SA|Faire évoluer|X
+165|Route 4|X|Y|Fleurs rouges|X
+357|Route 119|RO|SA||X
+358|Mont Mémoria|RO|SA||X
+359|Route 120|RO|SA||X
+360|Vermilava|RO|SA|Œuf|Encens doux
+361|Grotte Tréfonds|RO|SA||X
+362|Grotte Tréfonds|RO|SA|Faire évoluer|X
+363|Grotte Tréfonds|RO|SA||X
+364|Grotte Tréfonds|RO|SA||X
+257|Route 101|RO|SA||X
+365|Grotte Tréfonds|RO|SA|Faire évoluer|X
+366|Chenal 124|RO|SA|Plongée|X
+369|Chenal 124|RO|SA|Plongée|X
+370|Éternara|RO|SA|Pêche (Méga Canne)|X
+371|Site Météore|RO|SA||X
+372|Site Météore|RO|SA|Faire évoluer|X
+373|Site Météore|RO|SA|Faire évoluer|X
+222|Route 12|X|Y|Pêche (Méga Canne)|X
+374|Œuf||||X
+375|Œuf|||Faire évoluer|X
+376|Algatia|RO|SA|Faire évoluer|X
+166|Route 4|X|Y|Fleurs rouges / Faire évoluer|X
+377|Ruines Désert|RO|SA||X
+669|Route 4|X|Y||
+378|Grotte de l'Îlot|RO|SA||X
+379|Tombeau Antique|RO|SA||X
+381|Île du Sud|RO|||X
+383|Grotte Origine|RO|||X
+608|Hôtel Désolation|X|Y|Faire évoluer|
+670|Route 4|X|Y|Faire évoluer|
+384|Pillier Céleste|RO|SA||X
+671|Route 4|X|Y|Faire évoluer|
+406|Route 4|X|Y||
+385|Event||||X
+500|Route 101|RO|SA|Après épisode Delta|
+672|Route 5|X|Y||
+392|Route 101|RO|SA|Battre la ligue 2 fois|X
+609|Hôtel Désolation|X|Y|Faire évoluer|Pierre nuit
+673|Route 5|X|Y|Faire évoluer|
+386|Pillier Céleste|RO|SA||X
+387|Œuf||||X
+270|Route 102|SA|||X
+676|Route 5|X|Y||
+157|Route 101|RO|SA|Faire évoluer|X
+388|Œuf||||X
+675|Route 5|X|Y|Faire évoluer|
+389|Route 101|RO|SA|Battre la ligue 2 fois|X
+390|Œuf||||X
+674|Route 5|X|Y||
+391|Œuf||||X
+393|Œuf||||X
+394|Œuf||||X
+395|Route 101|RO|SA|Battre la ligue 2 fois|X
+396|Œuf||||X
+401|Œuf||||X
+403|Œuf||||X
+545|Route 6|X|Y|Embuscade buisson / Faire évoluer|
+311|Route 110|SA|||X
+404|Route 118|RO|SA||X
+405|Route 118|RO|SA|Faire évoluer|X
+407|Route 117|RO|SA|Faire évoluer|Pierre éclat
+680|Route 6|X|Y|Faire évoluer|
+418|Œuf||||X
+681|Route 6|X|Y|Faire évoluer|Pierre nuit
+420|Œuf||||X
+421|Forêt Mirage|RO|SA||X
+422|Route 103|RO|SA|Post-game (Navi-dex)|X
+423|Route 103|RO|SA|Post-game (Navi-dex) / Faire évoluer|X
+424|Route 118|RO|SA|Post-game (Navi-dex) / Faire évoluer|X
+402|Forêt Mirage|RO|SA||X
+427|Parc Safari|RO|SA|Post-game (Navi-dex)|X
+428|Parc Safari|RO|SA|Post-game (Navi-dex) / Faire évoluer|X
+429|Route 114|RO|SA|Post-game (Navi-dex)|Pierre nuit
+430|Route 114|RO|SA|Post-game (Navi-dex)|Pierre nuit
+431|Forêt Mirage|RO|SA||X
+247|Route 18|Y|||X
+436|Mont Mémoria|RO|SA|Post-game (Navi-dex)|X
+162|Route 6|X|Y|Faire évoluer|X
+161|Route 6|X|Y||X
+437|Mont Mémoria|RO|SA|Post-game (Navi-dex) / Faire évoluer|X
+678|Route 6|X|Y|Faire évoluer|
+679|Route 6|X|Y||
+677|Route 6|X|Y||
+438|Œuf||||Encens roc
+441|Route 104|RO|SA|Post-game (Navi-dex)|X
+442|Lavandia Sea|RO|SA||X
+443|Route 111|RO|SA|Post-game (Navi-dex)|X
+444|Route 111|RO|SA|Post-game (Navi-dex) / Faire évoluer|X
+544|Route 6|X|Y|Embuscade buisson / Faire évoluer|
+445|Route 111|RO|SA|Post-game (Navi-dex) / Faire évoluer|X
+446|Œuf||||Encens Plein
+454|Route 7|X|Y|Faire évoluer|X
+456|Chenal 124|RO|SA|Post-game (Navi-dex)|X
+432|Forêt Mirage|RO|SA||X
+457|Chenal 124|RO|SA|Post-game (Navi-dex) / Faire évoluer|X
+464|Parc Safari|RO|SA|Zone 3 / Faire évoluer|Protecteur
+467|Mont Mirage|RO|SA|Faire évoluer|Magmariseur
+468|Vermilava|RO|SA|Œuf|Pierre éclat
+440|Forêt Mirage|RO|SA||X
+189|Route 7|X|Y|Horde / Faire évoluer|X
+475|Route 102|RO|SA|Faire évoluer|Pierre aube
+476|Grotte Granite|RO|SA|Éclate-Roc|X
+477|Mont Mémoria|RO|SA|Faire évoluer|
+478|Grotte Tréfonds|RO|SA|Faire évoluer|
+480|Grotte Oubliée|RO|SA||X
+481|Grotte Oubliée|RO|SA||X
+482|Grotte Oubliée|RO|SA||X
+484|Faille Spatio-Temporelle|RO|||X
+485|Grotte Zénith|RO|SA||X
+465|Forêt Mirage|RO|SA|Faire évoluer|X
+466|Mont Mirage|RO|SA|Faire évoluer|Électriseur
+539|Route 112|SA||Post-game (Navi-dex)|
+486|Grotte de l'Îlot|RO|SA|3 Régis|X
+487|Faille Spatio-Temporelle|RO|SA||X
+580|Route 7|X|Y||
+453|Route 7|X|Y||X
+685|Route 7|X||Faire évoluer|
+488|Île de l'Arc|RO|SA||X
+188|Route 7|X|Y|Horde / Faire évoluer|X
+489|Œuf||||X
+490|Event||||X
+474|Île Mirage|RO|SA|Faire évoluer|CD Douteux
+187|Route 7|X|Y|Horde|X
+581|Route 7|X|Y|Faire évoluer|
+491|Event||||X
+492|Event||||
+493|Event||||
+494|Event||||
+495|Œuf||||
+235|Route 7|X|Y||X
+143|Route 7|X|Y||X
+496|Œuf||||
+39|Route 20|X|Y||
+40|Route 20|X|Y|Faire évoluer|Pierre lune
+164|Route 20|X|Y||X
+497|Route 101|RO|SA|Après épisode Delta|
+498|Œuf||||
+499|Œuf||||
+501|Œuf||||
+502|Œuf||||
+575|Route 20|X|Y|Fleurs rouges|
+576|Route 20|X|Y|Fleurs rouges / Faire évoluer|
+590|Route 20|X|Y|Horde|
+591|Route 20|X|Y||
+709|Route 20|X|Y||
+503|Route 101|RO|SA|Après épisode Delta|
+82|Hôtel Désolation|X|Y||X
+462|Hôtel Désolation|X|Y||X
+504|Œuf||||
+506|Route 103|RO|SA|Post-game (Navi-dex)|
+507|Route 103|RO|SA|Post-game (Navi-dex)|
+508|Route 103|RO|SA|Post-game (Navi-dex)|
+509|Œuf||||
+607|Hôtel Désolation|X|Y||
+519|Route 104|RO|SA|Post-game (Navi-dex)|
+520|Route 104|RO|SA|Post-game (Navi-dex)|
+517|Île Mirage|RO|SA||
+684|Route 7|X|||
+518|Île Mirage|RO|SA|Faire évoluer|
+521|Route 104|RO|SA|Post-game (Navi-dex)|
+425|Route 8|X|Y||X
+522|Œuf||||
+525|Œuf||||
+529|Œuf||||
+426|Route 8|X|Y|Faire évoluer|X
+619|Route 8|X|Y|Fleurs jaunes|
+211|Route 8|X|Y|Pêche (Méga Canne)|X
+532|Grotte Granite|RO|SA|Post-game (Navi-dex)|
+686|Route 8|X|Y||
+523|Île Mirage|RO|SA||
+687|Route 8|X|Y|Faire évoluer|
+535|Route 114|RO|SA|Post-game (Navi-dex)|
+536|Route 114|RO|SA|Post-game (Navi-dex) / Faire évoluer|
+526|Grotte Mirage|RO|SA|Éclate-Roc|
+530|Grotte Mirage|RO|SA||
+531|Île Mirage|RO|SA||
+620|Route 8|X|Y|Fleurs jaunes / Faire évoluer|
+121|Route 8|X|Y|Pêche (Méga Canne)|
+694|Route 9|X|Y|Embuscade au sol|
+131|Route 12|X|Y|Donné|X
+661|Route 3|X|Y||
+537|Route 114|RO|SA|Post-game (Navi-dex) / Faire évoluer|
+271|Route 114|SA|||X
+450|Route 9|X|Y|Faire évoluer|X
+449|Route 9|X|Y||X
+695|Route 9|X|Y|Embuscade au sol / Faire évoluer|
+272|Route 114|SA||Faire évoluer|Pierre eau
+534|Route Victoire|X|Y|Faire évoluer|Échange
+538|Route 112|RO||Post-game (Navi-dex)|
+540|Route 101|RO|SA|Post-game (Navi-dex)|
+541|Route 101|RO|SA|Post-game (Navi-dex) / Faire évoluer|
+715|Route Victoire|X|Y|Faire évoluer|
+542|Route 101|RO|SA|Post-game (Navi-dex) / Faire évoluer|
+546|Bois Clémenti|RO|SA|Post-game (Navi-dex)|
+547|Bois Clémenti|RO|SA|Post-game (Navi-dex) / Faire évoluer|
+551|Route 111|RO|SA|Post-game (Navi-dex)|
+659|Route 5|X|Y||
+6|Laboratoire Pokemon|X|Y|Faire évoluer|
+552|Route 111|RO|SA|Post-game (Navi-dex) / Faire évoluer|
+553|Route 111|RO|SA|Post-game (Navi-dex) / Faire évoluer|
+463|Route Victoire|X|Y||X
+554|Œuf||||
+634|Route Victoire|X|Y||
+621|Route Victoire|X|Y||
+108|Route Victoire|X|Y||X
+555|Mont Mirage|RO|SA||
+548|Forêt Mirage|RO|SA||
+549|Forêt Mirage|RO|SA|Faire évoluer|
+556|Île Mirage|RO|SA||
+557|Route 111|RO|SA|Post-game (Navi-dex)|
+533|Route Victoire|X|Y||
+559|Route 113|RO|SA|Post-game (Navi-dex)|
+60|Route Victoire|X|Y|Pêche (Canne)|X
+560|Route 113|RO|SA|Post-game (Navi-dex) / Faire évoluer|
+336|Route 114|SA|||X
+562|Œuf||||
+570|Route 101|RO|SA|Post-game (Navi-dex)|
+652|Quarellis|X|Y||
+22|Route Victoire|X|Y|Ciel|
+558|Mont Mirage|RO|SA|Éclate-Roc|
+655|Quarellis|X|Y||
+714|Route Victoire|X|Y||
+572|Forêt Mirage|RO|SA||
+62|Route Victoire|X|Y|Pêche (Méga Canne)|
+573|Forêt Mirage|RO|SA|Faire évoluer|
+313|Route 117|SA|||X
+574|Route 102|RO|SA|Post-game (Navi-dex)|
+563|Grotte Mirage|RO|SA||
+585|Route 117|RO|SA|Post-game (Navi-dex)|
+586|Route 117|RO|SA|Post-game (Navi-dex) / Faire évoluer|
+592|Chenal 127|RO|SA|Post-game (Navi-dex)|
+593|Chenal 127|RO|SA|Post-game (Navi-dex) / Faire évoluer|
+61|Route Victoire|X|Y|Surf|X
+595|Route 116|RO|SA|Post-game (Navi-dex)|
+596|Route 116|RO|SA|Post-game (Navi-dex) / Faire évoluer|
+605|Mont Mémoria|RO|SA|Post-game (Navi-dex)|
+606|Mont Mémoria|RO|SA|Post-game (Navi-dex) / Faire évoluer|
+626|Route 113|RO|SA|Post-game (Navi-dex)|
+633|Œuf||||
+638|Plaine Sans Nom|RO|SA||
+641|Nuages noirs|RO|||
+645|Nuages noirs|RO|SA|Boréas et Fulguris|
+646|Gouffre Informe|RO|SA|Reshiram et Zekrom|
+635|Route Victoire|X|Y|Faire évoluer|
+624|Route 15|X|Y|Fleurs rouges|
+647|Event||||
+648|Event||||
+248|Route 18|Y||Faire évoluer|X
+682|Route 7|Y|||
+599|Grotte Mirage|RO|SA||
+649|Event||||
+600|Grotte Mirage|RO|SA|Faire évoluer|
+601|Grotte Mirage|RO|SA|Faire évoluer|
+602|Grotte Mirage|RO|SA||
+603|Grotte Mirage|RO|SA|Faire évoluer|
+683|Route 7|Y||Faire évoluer|
+90|Route 8|Y||Pêche (Super Canne)|X
+448|Tour Maîtrise|X|Y||X
+604|Grotte Mirage|RO|SA|Faire évoluer|
+650|Œuf||||
+651|Œuf||||
+653|Œuf||||
+654|Œuf||||
+656|Œuf||||
+627|Mont Mirage|RO|SA||
+628|Grand Ciel|RO|SA||
+629|Mont Mirage|RO|SA||
+657|Œuf||||
+630|Mont Mirage|RO|SA|Faire évoluer|
+636|Forêt Mirage|RO|SA||
+354|Village Pokémon|X|Y|Poubelle (jeudi)|X
+637|Forêt Mirage|RO|SA|Faire évoluer|
+696|Œuf||||
+639|Plaine Sans Nom|RO|SA||
+569|Village Pokémon|X|Y|Poubelle (sauf jeudi)|
+658|Quarellis|X|Y||
+640|Plaine Sans Nom|RO|SA||
+698|Œuf||||
+132|Village Pokémon|X|Y|Fleurs jaunes|X
+719|Event||||
+550|Village Pokémon|X|Y|Pêche (Méga Canne & Super Canne)|
+643|Grotte Évanescente|RO|||
+91|Route 8|Y||Pêche (Méga Canne)|
+571|Village Pokémon|X|Y|Fleurs violettes|
+337|Site Météore|SA|||X
+720|Event||||
+721|Event||||

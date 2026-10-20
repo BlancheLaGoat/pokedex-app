@@ -1,0 +1,493 @@
+1|Œuf|X|X||
+2|Œuf|X|X||
+3|Bourg Palette (1)|HG|SS|Battre Red|
+4|Œuf|X|X||
+5|Œuf|X|X||
+6|Bourg Palette (2)|HG|SS|Battre Red|
+7|Œuf|X|X||
+8|Œuf|X|X||
+9|Bourg Palette (3)|HG|SS|Battre Red|
+10|Route 2|HG|X||
+11|Route 2|HG|X||
+12|Route 2|HG|X||
+13|Route 2|SS|X||
+14|Route 2|SS|X||
+15|Route 2|SS|X||
+16|Route 2|HG|SS||
+17|Route 2|HG|SS||
+18|Route 2|HG|SS||
+19|Route 7|HG|X||
+20|Route 7|HG|X||
+21|Route 7|HG|SS||
+22|Route 18|HG|SS||
+23|Route 3|SS|X||
+24|Route 27|SS|X||
+25|Jardin Trophée|Plat|X||
+26|Jardin Trophée|Plat|X||Pierre foudre
+27|Caves Jumelles|HG|X||
+28|Route 26|HG|||
+29|Route 35|HG|SS||
+30|Route 13|HG|SS||
+31|Route 13|HG|SS||Pierre lune
+32|Route 35|HG|SS||
+33|Route 13|HG|SS||
+34|Route 13|HG|SS||Pierre lune
+35|Mont Couronné|Plat|X||
+36|Mont Couronné|Plat|X||Pierre lune
+37|Route 7|SS|X||
+38|Route 7|SS|X||Pierre feu
+39|Route 3|HG|SS||X
+40|Route 3|HG|SS||Pierre lune
+41|Chemin Rocheux|Plat|X||X
+42|Île de fer|Plat|X||X
+43|Bois aux Chênes|HG|SS||X
+44|Route 48|HG|SS||X
+45|Route 48|HG|SS||Pierre plante
+46|Mont Sélénite|HG|SS||X
+47|Caverne Azurée|HG|SS||X
+48|Route 25|HG|SS||X
+49|Route 25|HG|SS||X
+50|Cave taupiqueur|HG|SS||X
+51|Route 228|Plat|X||X
+52|Route 7|SS|X||X
+53|Route 7|SS|X||X
+54|Entrée Charbourg|Plat|X||X
+55|Source Adieu|Plat|X||X
+56|Route 9|HG|X||X
+57|Route 9|HG|X||X
+58|Route 7|HG|X||X
+59|Route 7|HG|X||Pierre feu
+60|Jadielle|HG|SS||X
+61|Mont Argenté|HG|SS||X
+62|Mont Argenté|HG|SS||Pierre eau
+63|Doublonville|HG|SS||X
+64|Route 215|Plat|X||X
+65|Route 215|Plat|X||X
+66|Route 207|Plat|X||X
+67|Mont Couronné|Plat|X||X
+68|Mont Couronné|Plat|X||X
+69|Route 44|HG|SS||X
+70|Route 44|HG|SS||X
+71|Route 44|HG|SS||Pierre plante
+72|Route 12|HG|SS||X
+73|Route 12|HG|SS||X
+74|Mine Charbourg|Plat|X||X
+75|Île de fer|Plat|X||X
+76|Île de fer|Plat|X||X
+77|Route 206|Plat|X||X
+78|Route 28|HG|SS||X
+79|Puits Ramoloss|HG|SS||X
+80|Puits Ramoloss|HG|SS||X
+81|Route 38|HG|SS||X
+82|Route Victoire|Plat|X||X
+83|Route 48|HG|SS||X
+84|Route 27|HG|SS||X
+85|Route 27|SS|X||X
+86|Îles Écume|HG|SS||X
+87|Îles Écume|HG|SS||X
+88|Céladopole|HG|SS||X
+89|Céladopole|HG|SS||X
+90|Bourg Geon|HG|SS||X
+91|Bourg Geon|HG|SS||Pierre eau
+92|Vieux Château|Plat|X||X
+93|Grotte Retour|Plat|X||X
+94|Vieux Château|Plat|X||X
+95|Île de fer|Plat|X||X
+96|Route 11|HG|SS||X
+97|Route 11|HG|SS||X
+98|Oliville|HG|SS||X
+99|Oliville|HG|SS||X
+100|Route 10|HG|SS||X
+101|Acajou|HG|SS||X
+102|Route 38|HG|SS||X
+103|Route 38|HG|SS||Pierre plante
+104|Grotte|HG|SS||X
+105|Grotte|HG|SS||X
+106|Œuf|X|X||X
+107|Œuf|X|X||X
+108|Route 215|Plat|X||X
+109|Tour Cendrée|HG|SS||X
+110|Mont Abrupt|Plat|X||X
+111|Route 214|Plat|X||X
+112|Route Victoire|Plat|X||X
+113|Route 209|Plat|X||X
+114|Route 28|HG|SS||X
+115|Grotte|HG|SS||X
+116|Chenal 226|Plat|X||X
+117|Chenal 226|Plat|X||X
+118|Route 209|Plat|X||X
+119|Route 209|Plat|X||X
+120|Joliberges|Plat|X||X
+121|Joliberges|Plat|X||Pierre eau
+122|Route 218|Plat|X||X
+123|Route 215|Plat|X||X
+124|Route de Glace|HG|SS||X
+125|Route 222|Plat|X||X
+126|Forge Fuego|Plat|X||X
+127|Parc Naturel|HG|SS||X
+128|Route 48|HG|SS||X
+129|Lac Colère|HG|SS||X
+130|Lac Colère|HG|SS||X
+131|Caves Jumelles|HG|SS||X
+132|Route 47|HG|SS||X
+133|Unionpolis|Plat|X|Pokédex national|X
+134|Œuf|X|X||Pierre eau
+135|Œuf|X|X||Pierre foudre
+136|Œuf|X|X||Pierre feu
+137|Œuf|X|X||X
+138|Œuf|X|X||X
+139|Ruines d'Alpha|HG|X||X
+140|Œuf|X|X||X
+141|Ruines d'Alpha|SS|X||X
+142|Ruines d'Alpha|HG|SS||X
+143|Route 11|HG|SS||X
+144|Îles Écume|HG|SS||X
+145|Centrale|HG|SS||X
+146|Grotte Argentée|HG|SS||X
+147|Antre du Dragon|HG|SS||X
+148|Antre du Dragon|HG|SS||X
+149|Antre du Dragon|HG|SS||X
+150|Caverne Azurée|HG|SS||X
+151|Transfert|X|X||X
+152|Œuf|X|X||X
+153|Œuf|X|X||X
+154|Bourg Geon (1)|HG|SS||X
+155|Œuf|X|X||X
+156|Œuf|X|X||X
+157|Bourg Geon (2)|HG|SS||X
+158|Œuf|X|X||X
+159|Œuf|X|X||X
+160|Bourg Geon (3)|HG|SS||X
+161|Route 1|HG|SS||X
+162|Route 1|HG|SS||X
+163|Route 43|HG|SS||X
+164|Route 43|HG|SS||X
+165|Route 2|SS|X||X
+166|Route 2|SS|X||X
+167|Route 2|HG|X||X
+168|Route 2|HG|X||X
+169|Île de fer|Plat|X||X
+170|Bourg Geon|HG|SS||X
+171|Bourg Geon|HG|SS||X
+172|Jardin Trophée|Plat|X||X
+173|Mont Couronné|Plat|X||X
+174|Œuf|X|X||X
+175|Œuf|X|X||X
+176|Œuf|X|X||X
+177|Ruines d'Alpha|HG|SS||X
+178|Ruines d'Alpha|HG|SS||X
+179|Route 43|HG|SS||X
+180|Route 43|HG|SS||X
+181|Route 43|HG|SS||X
+182|Route 48|HG|SS||Pierre soleil
+183|Route 215|Plat|X||X
+184|Route Victoire|Plat|X||X
+185|Route 36|HG|SS||X
+186|Mont Argenté|HG|SS||Roche royale
+187|Route 14|HG|SS||X
+188|Route 14|HG|SS||X
+189|Route 14|HG|SS||X
+190|Route 45|HG|SS||X
+191|Route 24|HG|SS||X
+192|Route 24|HG|SS||Pierre soleil
+193|Route 35|HG|SS||X
+194|Route 32|HG|SS||X
+195|Route 32|HG|SS||X
+196|Œuf|X|X||X
+197|Œuf|X|X||X
+198|Route 7|HG|SS||X
+199|Puits Ramoloss|HG|SS||Roche royale
+200|Grotte Argentée|HG|SS||X
+201|Ruines Bonville|Plat|X||X
+202|Antre Noir|HG|SS||X
+203|Route 221|Plat|X||X
+204|Route 47|HG|SS||X
+205|Route 47|HG|SS||X
+206|Antre Noir|HG|SS||X
+207|Route 45|HG|X||X
+208|Île de Fer|Plat|X||X
+209|Route 38|HG|SS||X
+210|Route 38|HG|SS||X
+211|Île de Fer|Plat|X||X
+212|Route 215|Plat|X||Peau métal
+213|Irisia|HG|SS||X
+214|Route 42|HG|SS||X
+215|Route 216|Plat|X||X
+216|Route 45|SS|X||X
+217|Route 28|SS|X||X
+218|Route 17|HG|SS||X
+219|Route 17|HG|SS||X
+220|Route de Glace|HG|SS||X
+221|Route de Glace|HG|SS||X
+222|Ville Griotte|HG|SS||X
+223|Ligue Pokémon|Plat|X||X
+224|Ligue Pokémon|Plat|X||X
+225|Route de Glace|HG|SS||X
+226|Chenal 41|HG|X||X
+227|Route 45|SS|X||X
+228|Route 214|Plat|X||X
+229|Route 214|Plat|X||X
+230|Chenal 226|Plat|||Écailledraco
+231|Grotte Argentée|HG|SS||X
+232|Grotte Argentée|HG|SS||X
+233|Œuf|X|X||Améliorator
+234|Route 37|HG|SS||X
+235|Ruines d'Alpha|HG|SS||X
+236|Mont Creuset|HG|SS||X
+237|Œuf|X|X||X
+238|Œuf|X|X||X
+239|Œuf|X|X||X
+240|Œuf|X|X||X
+241|Route 47|HG|SS||X
+242|Route 209|Plat|X||X
+243|Fuyard|HG|SS||X
+244|Fuyard|HG|SS||X
+245|Route 25|HG|SS||X
+246|Grotte Argentée|HG|SS||X
+247|Grotte Argentée|HG|SS||X
+248|Grotte Argentée|HG|SS||X
+249|Tourb'Îles|SS|HG||X
+250|Tour Carillon|HG|SS||X
+251|Event|X|X||X
+252|Œuf|X|X||X
+253|Œuf|X|X||X
+254|Sylphe SARL (1)|HG|SS||X
+255|Œuf|X|X||X
+256|Œuf|X|X||X
+257|Sylphe SARL (2)|HG|SS||X
+258|Œuf|X|X||X
+259|Œuf|X|X||X
+260|Sylphe SARL (3)|HG|SS||X
+261|Route 214|Plat|X||X
+262|Route 214|Plat|X||X
+263|Tour Cendrée|HG|SS||X
+264|Route 43|HG|SS||X
+265|Route 205|Plat|X||X
+266|Route 205|Plat|X||X
+267|Route 205|Plat|X||X
+268|Route 205|Plat|X||X
+269|Route 205|Plat|X||X
+270|Route 205|Plat|X||X
+271|Route 229|Plat|X||X
+272|Route 229|Plat|X||Pierre eau
+273|Route 204|Plat|X||X
+274|Route 229|Plat|X||X
+275|Route 229|Plat|X||Pierre plante
+276|Œuf|X|X||X
+277|Route 213|Plat|X||X
+278|Route 226|Plat|X||X
+279|Route 226|Plat|X||X
+280|Route 209|Plat|X||X
+281|Route 212|Plat|X||X
+282|Route 212|Plat|X||X
+283|Route 229|Plat|X||X
+284|Route 229|Plat|X||X
+285|Grand Marais|Plat|X||X
+286|Grand Marais|Plat|X||X
+287|Œuf|X|X||X
+288|Œuf|X|X||X
+289|Route 25|HG|SS||X
+290|Forêt Vestigion|Plat|X||X
+291|Forêt Vestigion|Plat|X||X
+292|Forêt Vestigion|Plat|X||X
+293|Œuf|X|X||X
+294|Mont Couronné|Plat|X||X
+295|Mont Couronné|Plat|X||X
+296|Grotte|HG|SS||X
+297|Grotte|HG|SS||X
+298|Œuf|X|X||Encens mer
+299|Mont Couronné|Plat|X||X
+300|Route 222|Plat|X||X
+301|Route 222|Plat|X||Pierre lune
+302|Île de Fer|Plat|X||X
+303|Île de Fer|Plat|X||X
+304|Forge Fuego|Plat|X||X
+305|Forge Fuego|Plat|X||X
+306|Forge Fuego|Plat|X||X
+307|Route 211|Plat|X||X
+308|Mont Couronné|Plat|X||X
+309|Les Éoliennes|Plat|X||X
+310|Les Éoliennes|Plat|X||X
+311|Route 48|HG|SS||X
+312|Route 48|HG|SS||X
+313|Route 229|Plat|X||X
+314|Route 229|Plat|X||X
+315|Route 212|Plat|X||X
+316|Grand Marais|Plat|X||X
+317|Grand Marais|Plat|X||X
+318|Grand Marais|Plat|X||X
+319|Grand Marais|Plat|X||X
+320|Chenal 223|Plat|X||X
+321|Chenal 223|Plat|X||X
+322|Forêt de Jade|HG|SS||X
+323|Route 227|Plat|X||X
+324|Route 227|Plat|X||X
+325|Forêt de Jade|HG|SS||X
+326|Forêt de Jade|HG|SS||X
+327|Tour Cendrée|HG|SS||X
+328|Œuf|X|X||X
+329|Route 228|D|P||X
+330|Route 228|D|P||X
+331|Œuf|X|X||X
+332|Route 228|Plat|X||X
+333|Route 210|Plat|X||X
+334|Route 210|Plat|X||X
+335|Route 210|Plat|X||X
+336|Route 210|Plat|X||X
+337|Lac Savoir|Plat|X||X
+338|Lac Savoir|Plat|X||X
+339|Entrée Charbourg|Plat|X||X
+340|Entrée Charbourg|Plat|X||X
+341|Célestia|Plat|X||X
+342|Célestia|Plat|X||X
+343|Route 206|Plat|X||X
+344|Route 206|Plat|X||X
+345|Œuf|X|X||X
+346|Grotte Falaise|SS|X||X
+347|Œuf|X|X||X
+348|Grotte Falaise|HG|X||X
+349|Mont Couronné|Plat|X||X
+350|Mont Couronné|Plat|X||X
+351|Jardin Trophée|Plat|X||X
+352|Grand Marais|Plat|X||X
+353|Œuf|X|X||X
+354|Route 225|Plat|X||X
+355|Tour Perdue|Plat|X||X
+356|Source Adieu|Plat|X||X
+357|Grand Marais|Plat|X||X
+358|Mont Couronné|Plat|X||X
+359|Grotte|HG|SS||X
+360|Œuf|X|X||Encens doux
+361|Lac Savoir|Plat|X||X
+362|Lac Savoir|Plat|X||X
+363|Œuf|X|X||X
+364|Chenal 230|Plat|X||X
+365|Chenal 230|Plat|X||X
+366|Route 219|D|P||X
+367|Route 219|D|P||Dent Océan
+368|Route 219|D|P||Écaille Océan
+369|Chenal 226|Plat|X||X
+370|Ligue Pokémon|Plat|X||X
+371|Route 210|Plat|X||X
+372|Route 210|Plat|X||X
+373|Route 210|Plat|X||X
+374|Œuf|X|X||X
+375|Œuf|X|X||X
+376|Sylphe SARL|HG|SS||X
+377|Route 228|Plat|X||X
+378|Mont Couronné|Plat|X||X
+379|Île de Fer|Plat|X||X
+380|Fuyard|HG|X||X
+381|Fuyard|SS|X||X
+382|Tour Enfouie|HG|X||X
+383|Tour Enfouie|SS|X||X
+384|Tour Enfouie|HG|SS||X
+385|Transfert|X|X||X
+386|Transfert|X|X||X
+387|Œuf|X|X||X
+388|Œuf|X|X||X
+389|Lac Vérité|P|X||X
+390|Œuf|X|X||X
+391|Œuf|X|X||X
+392|Lac Vérité|D|X||X
+393|Œuf|X|X||X
+394|Œuf|X|X||X
+395|Route 201 (3)|Plat|X||X
+396|Route 201|Plat|X||X
+397|Lac Courage|Plat|X||X
+398|Lac Courage|Plat|X||X
+399|Route 201|Plat|X||X
+400|Lac Courage|Plat|X||X
+401|Route 201|Plat|X||X
+402|Route 206|Plat|X||X
+403|Route 203|Plat|X||X
+404|Route 222|Plat|X||X
+405|Route 222|Plat|X||X
+406|Forêt Vestigion|Plat|X||X
+407|Route 212|Plat|X||Pierre éclat
+408|Œuf|X|X||X
+409|Souterrains|Plat|X||X
+410|Œuf|X|X||X
+411|Souterrains|Plat|X||X
+412|Œuf|X|X||X
+413|Œuf|X|X||X
+414|Pré Floraville|Plat|X||X
+415|Œuf|X|X||X
+416|Route 25|HG|SS||X
+417|Les Éoliennes|Plat|X||X
+418|Route 212|Plat|X||X
+419|Route 218|Plat|X||X
+420|Œuf|X|X||X
+421|Pré Floraville|Plat|X||X
+422|Route 212|Plat|X||X
+423|Route 218|Plat|X||X
+424|Route 45|HG|SS||X
+425|Œuf|X|X||X
+426|Les Éoliennes|Plat|X||X
+427|Forêt Vestigion|Plat|X||X
+428|Forêt Vestigion|Plat|X||X
+429|Grotte Argentée|HG|SS||Pierre nuit
+430|Route 7|HG|SS||Pierre nuit
+431|Route 222|P|X||X
+432|Route 222|P|X||X
+433|Route 211|Plat|X||X
+434|Route 221|D|X||X
+435|Route 221|D|X||X
+436|Grotte Revêche|Plat|X||X
+437|Mont Couronné|Plat|X||X
+438|Route 210|P|X||X
+439|Route 210|D|X||X
+440|Unionpolis|D|P||X
+441|Route 222|Plat|X||X
+442|Route 209|Plat|X||X
+443|Grotte Revêche|Plat|X||X
+444|Route Victoire|Plat|X||X
+445|Route Victoire|Plat|X||X
+446|Œuf|X|X||Encens plein
+447|Œuf|X|X||X
+448|Île de Fer|Plat|X||X
+449|Grotte Ruineman.|Plat|X||X
+450|Route 228|Plat|X||X
+451|Grand Marais|Plat|X||X
+452|Grand Marais|Plat|X||X
+453|Route 212|Plat|X||X
+454|Route 212|Plat|X||X
+455|Forêt de Jade|HG|SS||X
+456|Joliberges|Plat|X||X
+457|Joliberges|Plat|X||X
+458|Chenal 223|Plat|X||X
+459|Route 217|Plat|X||X
+460|Mont Couronné|Plat|X||X
+461|Route 216|Plat|X||Griffe rasoir
+462|Route Victoire|Plat|X||X
+463|Route 215|Plat|X||X
+464|Route Victoire|Plat|X||Protecteur
+465|Route 28|HG|SS||X
+466|Route 222|Plat|X||Électriseur
+467|Forge Fuego|Plat|X||Magmariseur
+468|Vestigion|Plat|X||Pierre éclat
+469|Route 35|HG|SS||X
+470|Œuf|X|X||X
+471|Œuf|X|X||X
+472|Route 45|HG|X||Croc rasoir
+473|Route de Glace|HG|SS||X
+474|Voilaroc|Plat|X||CD Douteux
+475|Route 212|Plat|X||Pierre aube
+476|Mont Couronné|Plat|X||X
+477|Source Adieu|Plat|X||Tissu Fauche
+478|Lac Savoir|Plat|X||Pierre aube
+479|Vieux château|Plat|X||X
+480|Lac Savoir|Plat|X||X
+481|Fuyard|Plat|X||X
+482|Lac Courage|Plat|X||X
+483|Colonnes Lances|Plat|X||X
+484|Colonnes Lances|Plat|X||X
+485|Mont Abrupt|Plat|X||X
+486|Temple Frimapic|Plat|X||X
+487|Monde Distorsion|Plat|X||X
+488|Fuyard|Plat|X||X
+489|Œuf|X|X||X
+490|Event|Plat|X||X
+491|Île Nouvellune|Plat|X||X
+492|Paradis Fleuri|Plat|X||X
+493|Salle Originelle|Plat|X||X

@@ -1,0 +1,649 @@
+1|Œuf||||
+2|Œuf||||
+3|Poké Fret||||
+4|Œuf||||
+5|Œuf||||
+6|Poké Fret||||
+7|Œuf||||
+8|Œuf||||
+9|Poké Fret||||
+10|Œuf||||
+11|Route 12|B|||
+12|Route 12|B|||
+13|Œuf||||
+14|Route 12|N|||
+15|Route 12|N|||
+16|Forêt Blanche|B||Heylink|
+17|Forêt Blanche|B||Heylink|
+18|Forêt Blanche|B||Heylink|
+19|Volucité|N2|B2||
+20|Vestiges du Rêve|N2|B2||
+21|Œuf||||
+22|Route 15|N|B||
+23|Œuf||||
+24|Poké Fret||||
+25|Œuf||||
+26|Poké Fret||||
+27|Château Enfoui|N2|B2||
+28|Château Enfoui|N2|B2||
+29|Forêt Blanche|B||Heylink + Ville Noire|
+30|Forêt Blanche|B||Heylink + Ville Noire|
+31|Forêt Blanche|B||Heylink + Ville Noire|Pierre lune
+32|Forêt Blanche|B||Heylink + Ville Noire|
+33|Forêt Blanche|B||Heylink + Ville Noire|
+34|Forêt Blanche|B||Heylink + Ville Noire|Pierre lune
+35|Grotte Cyclopéenne|N2|B2||
+36|Grotte Cyclopéenne|N2|B2|Herbe remuante|
+37|Autel Abondance|N2|B2||
+38|Autel Abondance|N2|B2|Herbe remuante|
+39|Route 14|N|B||X
+40|Route 14|N|B|Herbe remuante|
+41|Égouts de Volucité|N2|B2||X
+42|Grotte Cyclopéenne|N|B||X
+43|Forêt Blanche|B||Heylink + Ville Noire|X
+44|Forêt Blanche|B||Heylink + Ville Noire|X
+45|Forêt Blanche|B||Heylink + Ville Noire|Pierre plante
+46|Route 11|B||Troupeaux|X
+47|Route 11|B||Troupeaux|X
+48|Œuf||||X
+49|Vestiges du Rêve|N|B|Herbe sombre|X
+50|Œuf||||X
+51|Poké Fret||||X
+52|Œuf||||X
+53|Poké Fret||X||X
+54|Ranch d'Amaillide|N2|B2||X
+55|Pont du Hameau|N2|B2||X
+56|Œuf||||X
+57|Poké Fret||X||X
+58|Z.I. d'Ondes-sur-Mer|N2|B2||X
+59|Z.I. d'Ondes-sur-Mer|N2|B2||Pierre feu
+60|Route 6|N2|B2|Pêche|X
+61|Route 6|N2|B2|Pêche (ombre)|X
+62|Route 23|N2|B2|Pêche (ombre)|
+63|Forêt Blanche|B||Heylink + Ville Noire|X
+64|Forêt Blanche|B||Heylink + Ville Noire|X
+65|Forêt Blanche|B||Heylink + Ville Noire|X
+66|Forêt Blanche|B||Heylink + Ville Noire|X
+67|Forêt Blanche|B||Heylink + Ville Noire|X
+68|Forêt Blanche|B||Heylink + Ville Noire|X
+69|Forêt Blanche|B||Heylink + Ville Noire|X
+70|Forêt Blanche|B||Heylink + Ville Noire|X
+71|Forêt Blanche|B||Heylink + Ville Noire|Pierre plante
+72|Poké Fret||||X
+73|Poké Fret||||X
+74|Œuf||||X
+75|Antre d'Entraînement|N|B||X
+76|Antre d'Entraînement|N|B||X
+77|Œuf||||X
+78|Route 12|N|B||X
+79|Autel Abondance|N|B||X
+80|Autel Abondance|N|B|Eau (ombre)|X
+81|Z.I. d'Ondes-sur-Mer|N2|B2||X
+82|Labo P2|N2|B2||X
+83|Route 1|N2|B2|Troupeaux|X
+84|Route 12|N2|B2|Troupeaux|X
+85|Route 12|N2|B2|Troupeaux|X
+86|Grotte Cyclopéenne|N2|B2||X
+87|Grotte Cyclopéenne|N2|B2|Eau (ombre)|X
+88|Égouts de Volucité|N2|B2|Pêche|X
+89|Égouts de Volucité|N2|B2|Pêche (ombre)|X
+90|Route 13|N2|B2|Pêche|X
+91|Route 13|N2|B2|Pêche (ombre)|
+92|Forêt Blanche|B||Heylink + Ville Noire|X
+93|Forêt Blanche|B||Heylink + Ville Noire|X
+94|Forêt Blanche|B||Heylink + Ville Noire|X
+95|Route Victoire|N2|B2||X
+96|Œuf||||X
+97|Vestiges du Rêve|N2|B2|Troupeaux|X
+98|Z.I. d'Ondes-sur-Mer|N2|B2||X
+99|Z.I. d'Ondes-sur-Mer|N2|B2||X
+100|Poké Fret||||X
+101|Poké Fret||||X
+102|Route 18|N2|B2|Troupeaux|X
+103|Route 18|N2|B2|Troupeaux|Pierre plante
+104|Œuf||||X
+105|Route 15|N|B||X
+106|Route 10|N|B|Troupeaux|X
+107|Route 10|N|B|Troupeaux|X
+108|Route 2|N2|B2||X
+109|Z.I. d'Ondes-sur-Mer|N2|B2||X
+110|Labo P2|N2|B2||X
+111|Œuf||||X
+112|Œuf||||X
+113|Œuf||||X
+114|Route 13|N2|B2||X
+115|Route 15|N|B||X
+116|Labo P2|N2|B2|Pêche|X
+117|Labo P2|N2|B2|Pêche (ombre)|X
+118|Route 3|N2|B2|Pêche|X
+119|Route 22|N2|B2|Pêche (ombre)|X
+120|Route 13|N2|B2||X
+121|Route 13|N2|B2|Pêche (ombre)|
+122|Route 20|B2|X|Troupeaux|X
+123|Poké Fret||||X
+124|Grotte Cyclopéenne|N|B||X
+125|Z.I. d'Ondes-sur-Mer|B2|X||X
+126|Z.I. d'Ondes-sur-Mer|N2|X||X
+127|Route 12|B2|X||X
+128|Poké Fret||||X
+129|Pont de l'Inconnu|N2|B2|À acheter|X
+130|Réserve Naturelle|N2|B2|Pêche (ombre)|X
+131|Pont du Hameau|N2|B2|Ombre|X
+132|Grotte Cyclopéenne|N2|B2||X
+133|Volucité|N2|B2||X
+134|Volucité|N2|B2||Pierre eau
+135|Volucité|N2|B2||Pierre foudre
+136|Volucité|N2|B2||Pierre feu
+137|Forêt Blanche|B||Heylink + Ville Noire|X
+138|Œuf||||X
+139|Mont Foré|N2|B2|Ouvrier|X
+140|Œuf||||X
+141|Mont Foré|N2|B2|Ouvrier|X
+142|Mont Foré|N2|B2|Ouvrier|X
+143|Poké Fret||||X
+144|Poké Fret||||X
+145|Poké Fret||||X
+146|Poké Fret||||X
+147|Tour Dragospire|N2|B2|Pêche|X
+148|Tour Dragospire|N2|B2|Pêche|X
+149|Tour Dragospire|N2|B2|Pêche|X
+150|Poké Fret||||X
+151|Poké Fret||||X
+152|Œuf||||X
+153|Œuf||||X
+154|Poké Fret||||X
+155|Œuf||||X
+156|Œuf||||X
+157|Poké Fret||||X
+158|Œuf||||X
+159|Œuf||||X
+160|Poké Fret||||X
+161|Œuf||||X
+162|Route 7|N2|B2|Troupeaux|X
+163|Œuf||||X
+164|Réserve Naturelle|N2|B2||X
+165|Œuf||||X
+166|Vestiges du Rêve|N|B||X
+167|Œuf||||X
+168|Vestiges du Rêve|N|B||X
+169|Grotte Cyclopéenne|N|B|Herbe remuante|X
+170|Baie Vaguelone|N2|B2||X
+171|Baie Vaguelone|N2|B2||X
+172|Œuf||||X
+173|Œuf||||X
+174|Œuf||||X
+175|Œuf||||X
+176|Œuf||||X
+177|Route 5|N2|B2|Troupeaux|X
+178|Route 5|N2|B2|Troupeaux|X
+179|Ranch d'Amaillide|N2|B2||X
+180|Ranch d'Amaillide|N2|B2||X
+181|Ranch d'Amaillide|N2|B2||X
+182|Forêt Blanche|B||Heylink + Ville Noire|Pierre soleil
+183|Route 6|N2|B2||X
+184|Route 6|N2|B2||X
+185|Route 20|N2||Troupeaux|X
+186|Route 6|N2|B2|Pêche (ombre)|
+187|Forêt Blanche|B||Heylink + Ville Noire|X
+188|Forêt Blanche|B||Heylink + Ville Noire|X
+189|Forêt Blanche|B||Heylink + Ville Noire|X
+190|Œuf||||X
+191|Route 12|N|B||X
+192|Route 12|N|B|Herbe remuante|
+193|Route 3|N2|B2||X
+194|Œuf||||X
+195|Route 8|N2|B2|Troupeaux|X
+196|Volucité|N2|B2||X
+197|Volucité|N2|B2||X
+198|Autel Abondance|N|||X
+199|Autel Abondance|N|B|Eau (ombre)|X
+200|Autel Abondance|B|||X
+201|Poké Fret||||X
+202|Poké Fret||||X
+203|Réserve Naturelle|N2|B2||X
+204|Route 16|N2|B2|Troupeaux|X
+205|Route 16|N2|B2|Troupeaux|X
+206|Route 1|N2|B2|Herbe remuante|X
+207|Route 15|N2|B2||X
+208|Mont Foré|N2|B2|Nuage|X
+209|Œuf||||X
+210|Poké Fret||||X
+211|Route 4|N2|B2|Pêche (ombre)|X
+212|Poké Fret||||Peau métal
+213|Grotte Littorale|N2|B2||X
+214|Route 13|N2|X||X
+215|Grotte Cyclopéenne|N2|B2||X
+216|Œuf|||X|X
+217|Poké Fret||||X
+218|Poké Fret||||X
+219|Poké Fret||||X
+220|Œuf||||X
+221|Grotte Cyclopéenne|N2|B2||X
+222|Route 13|N|B|Eau (ombre)|X
+223|Vaguelone|N|B|Pêche|X
+224|Vaguelone|N|B|Pêche (ombres)|X
+225|Grotte Cyclopéenne|N|B||X
+226|Vaguelone|N|B|Eau (ombre)|X
+227|Mont Renenvers|N2|B2||X
+228|Route 9|N|X|Troupeaux|X
+229|Route 9|N|X|Troupeaux|X
+230|Labo P2|N2|B2|Pêche (ombre)|X
+231|Œuf||||X
+232|Poké Fret||||X
+233|Forêt Blanche|B||Heylink + Ville Noire|Améliorator
+234|Poké Fret||||X
+235|Route 5|N|B|Troupeaux|X
+236|Route 10|N|B|Troupeaux|X
+237|Route 10|N|B|Troupeaux|X
+238|Œuf||||X
+239|Z.I. d'Ondes-sur-Mer|B2|||X
+240|Œuf||||X
+241|Poké Fret||||X
+242|Maillard|N2|B2|Donné|X
+243|Poké Fret||||X
+244|Poké Fret||||X
+245|Poké Fret||||X
+246|Œuf||||X
+247|Route 15|N2|B2||X
+248|Route 15|N2|B2|Herbe remuante|X
+249|Poké Fret||||X
+250|Poké Fret||||X
+251|Poké Fret||||X
+252|Œuf||||X
+253|Œuf||||X
+254|Poké Fret||||X
+255|Œuf||||X
+256|Œuf||||X
+257|Poké Fret||||X
+258|Œuf||||X
+259|Œuf||||X
+260|Poké Fret||||X
+261|Route 9|B|X|Troupeaux|X
+262|Route 9|B|X|Troupeaux|X
+263|Poké Fret||||X
+264|Poké Fret||||X
+265|Forêt Blanche|B||Heylink + Ville Noire|X
+266|Forêt Blanche|B||Heylink + Ville Noire|X
+267|Forêt Blanche|B||Heylink + Ville Noire|X
+268|Forêt Blanche|B||Heylink + Ville Noire|X
+269|Forêt Blanche|B||Heylink + Ville Noire|X
+270|Forêt Blanche|B||Heylink + Ville Noire|X
+271|Forêt Blanche|B||Heylink + Ville Noire|X
+272|Forêt Blanche|B||Heylink + Ville Noire|Pierre eau
+273|Œuf||||X
+274|Réserve Naturelle|N2|B2||X
+275|Réserve Naturelle|N2|B2||Pierre plante
+276|Œuf||||X
+277|Route 13|N|B|Troupeaux|X
+278|Route 13|N|B||X
+279|Route 13|N|B||X
+280|Œuf||||X
+281|Œuf||||X
+282|Œuf||||X
+283|Forêt Blanche|B||Heylink + Ville Noire|X
+284|Forêt Blanche|B||Heylink + Ville Noire|X
+285|Route 11|N||Troupeaux|X
+286|Route 11|N||Troupeaux|X
+287|Œuf|||Heylink + Ville Noire|X
+288|Forêt d'Empoigne|N2|B2||X
+289|Forêt d'Empoigne|N2|B2||X
+290|Poké Fret||||X
+291|Poké Fret||||X
+292|Poké Fret||||X
+293|Forêt Blanche|B||Heylink + Ville Noire|X
+294|Forêt Blanche|B||Heylink + Ville Noire|X
+295|Forêt Blanche|B||Heylink + Ville Noire|X
+296|Poké Fret||||X
+297|Poké Fret||||X
+298|Route 20|N2|B2|Surf|
+299|Route Bardane|N2|B2||X
+300|Volucité|B2|X||X
+301|Volucité|B2|X|Herbe remuante|
+302|Antre d'Entraînement|N|B||X
+303|Antre d'Entraînement|N|B||X
+304|Grotte Parsemille|N2|B2||X
+305|Route Bardane|N2|B2||X
+306|Route Bardane|N2|B2||X
+307|Œuf||||X
+308|Poké Fret||||X
+309|Œuf||||X
+310|Poké Fret||||X
+311|Route 6|N2|X|Troupeaux|X
+312|Route 6|B2|X|Troupeaux|X
+313|Route 3|N2|X|Troupeaux|X
+314|Route 3|B2|X|Troupeaux|X
+315|Route 12|N2|B2||X
+316|Œuf||||X
+317|Route 9|N2|B2|Troupeaux|X
+318|Pont du Hameau|N2|B2|Pêche|X
+319|Pont du Hameau|N2|B2|Pêche|X
+320|Baie Vaguelone|N2|B2|Eau (ombre)|X
+321|Baie Vaguelone|N2|B2|Eau (ombre)|X
+322|Mont Renenvers|B2|X||X
+323|Mont Renenvers|B2|X||X
+324|Poké Fret||||X
+325|Mont Renenvers|N2|||X
+326|Mont Renenvers|N2|||X
+327|Méanville|N2|B2|Échange|X
+328|Mont Renenvers|N2|B2||X
+329|Mont Renenvers|N2|B2||X
+330|Mont Renenvers|N2|B2||X
+331|Œuf||||X
+332|Mont Renenvers|N2|B2|Troupeaux|X
+333|Route 14|N2|B2||X
+334|Route 14|N2|B2||X
+335|Pont du Hameau|N2|B2||X
+336|Pont du Hameau|N2|B2||X
+337|Route 13|N2|B2||X
+338|Route 13|N2|B2||X
+339|Route 8|N2|B2|Pêche|X
+340|Route 8|N2|B2|Pêche|X
+341|Route 3|N2|B2||X
+342|Route 3|N2|B2|Eau (ombre)|X
+343|Château Enfoui|N2|B2||X
+344|Château Enfoui|N|B||X
+345|Œuf||||X
+346|Mont Foré|N2|B2|Ouvrier|X
+347|Œuf||||X
+348|Mont Foré|N2|B2|Ouvrier|X
+349|Route 1|N2|B2|Pêche (ombre)|X
+350|Route 1|N2|B2|Pêche (ombre)|X
+351|Route 6|N2|B2|Herbe remuante|X
+352|Réserve Naturelle|N2|B2||X
+353|Route 13|N|B|Troupeaux|X
+354|Route Victoire|N2|B2||X
+355|Œuf||||X
+356|Œuf||||X
+357|Route 18|N2|B2||X
+358|Autel Abondance|N|B||X
+359|Route 13|N2|B2||X
+360|Œuf||||Encens doux
+361|Œuf||||X
+362|Œuf||||X
+363|Baie Vaguelone|N2|B2|Hiver|X
+364|Baie Vaguelone|N2|B2|Hiver - Eau (ombre)|X
+365|Baie Vaguelone|N2|B2|Hiver - Eau (ombre)|X
+366|Route 4|N2|B2|Pêche|X
+367|Route 4|N2|X|Pêche (ombre)|
+368|Route 4|B2|X|Pêche (ombre)|
+369|Route 4|N2|B2|Pêche (ombre)|X
+370|Route 13|N2|B2|Pêche|X
+371|Forêt Blanche|B||Heylink + Ville Noire|X
+372|Forêt Blanche|B||Heylink + Ville Noire|X
+373|Forêt Blanche|B||Heylink + Ville Noire|X
+374|Œuf||||X
+375|Grotte Cyclopéenne|N2|B2||X
+376|Grotte Cyclopéenne|N2|B2||X
+377|Ruines Enfouies|N2|B2||X
+378|Ruines Enfouies|N2|B2||X
+379|Ruines Enfouies|N2|B2||X
+380|Vestiges du Rêve|B2|X||X
+381|Vestiges du Rêve|N2|X||X
+382|Poké Fret||||X
+383|Poké Fret||||X
+384|Poké Fret||||X
+385|Poké Fret||||X
+386|Poké Fret||||X
+387|Œuf||||X
+388|Œuf||||X
+389|Poké Fret||||X
+390|Œuf||||X
+391|Œuf||||X
+392|Poké Fret||||X
+393|Œuf||||X
+394|Œuf||||X
+395|Poké Fret||||X
+396|Forêt Blanche|B||Heylink + Ville Noire|X
+397|Forêt Blanche|B||Heylink + Ville Noire|X
+398|Forêt Blanche|B||Heylink + Ville Noire|X
+399|Œuf||||X
+400|Pont du Hameau|N|B||X
+401|Œuf||||X
+402|Vestiges du Rêve|N|B||X
+403|Forêt Blanche|B||Heylink + Ville Noire|X
+404|Forêt Blanche|B||Heylink + Ville Noire|X
+405|Forêt Blanche|B||Heylink + Ville Noire|X
+406|Œuf||||Encens fleur
+407|Route 12|N2|B2|Herbe remuante|
+408|Œuf||||X
+409|Mont Foré|N2|B2|Ouvrier|X
+410|Œuf||||X
+411|Mont Foré|N2|B2|Ouvrier|X
+412|Œuf||||X
+413|Œuf||||X
+414|Poké Fret||||X
+415|Route 12|N2|B2||X
+416|Route 12|N2|B2|Herbe remuante|X
+417|Poké Fret||||X
+418|Route 11|N2|B2||X
+419|Route 11|N2|B2|Eau (ombre)|X
+420|Œuf||||X
+421|Route 12|N|B||X
+422|Œuf||||X
+423|Méanville|N2|B2|Échange|X
+424|Arabelle|N2|B2|Échange (Minotaupe)|X
+425|Œuf||||X
+426|Route 13|N2|B2||X
+427|Volucité|N2|X||X
+428|Volucité|N2|X|Herbe remuante|X
+429|Autel Abondance|B|X|Herbe remuante|
+430|Autel Abondance|N|X|Herbe remuante|Pierre nuit
+431|?|N2|B2|« La cachette Pokémon calme »|X
+432|?|N2|B2|« La cachette Pokémon calme »|X
+433|Œuf||||Encens pur
+434|?|N2|B2|« La cachette Pokémon bourdonnante »|X
+435|?|N2|B2|« La cachette Pokémon bourdonnante »|X
+436|Autel Abondance|N2|B2||X
+437|Autel Abondance|N2|B2||X
+438|Poké Fret||||Encens roc
+439|Poké Fret||||Bizar.Encens
+440|Maillard|N2|B2|Œuf donné|X
+441|Poké Fret||||X
+442|Poké Fret||||X
+443|Œuf||||X
+444|Œuf||||X
+445|Amaillide|N2|X|Battre Gratte-Ciel Noir|X
+446|Vaguelone|N|B|Échange (été - Pashmilla)|
+447|Ranch d'Amaillide|N2|B2||X
+448|Ranch d'Amaillide|N2|B2||X
+449|Œuf||||X
+450|Désert Délassant|N2|B2|Troupeaux|X
+451|Mont Renenvers|N2|B2||X
+452|Mont Renenvers|N2|B2||X
+453|Route 8|N2|B2|Hors hiver|X
+454|Forêt d'Empoigne|N2|B2||X
+455|Route 18|N2|B2||X
+456|Route 4|N2|B2|Pêche|X
+457|Route 4|N2|B2|Pêche (ombre)|X
+458|Chenal 21|N2|B2||X
+459|Œuf||||X
+460|Poké Fret||||X
+461|Grotte Cyclopéenne|N2|B2||Griffe rasoir
+462|Labo P2|N2|B2|Herbe remuante|X
+463|Route 2|N2|B2|Herbe remuante|X
+464|Méanville|N2|B2|Échange|Protecteur
+465|Papeloa|N2|B2|Échange (Démanta)|X
+466|Z.I. d'Ondes-sur-Mer|B2|X||Électriseur
+467|Z.I. d'Ondes-sur-Mer|N2|X||Magmariseur
+468|Méanville|N2|B2|Échange|Pierre éclat
+469|Route 3|N2|B2|Herbe remuante|X
+470|Volucité|N2|B2||X
+471|Volucité|N2|B2||X
+472|Route 15|N2|B2|Herbe remuante|
+473|Grotte Cyclopéenne|N2|B2|Herbe remuante|X
+474|Forêt Blanche|B||Heylink + Ville Noire|CD Douteux
+475|Méanville|N2|B2|Échange|Pierre aube
+476|Route Bardane|N2|B2||X
+477|Poké Fret||||
+478|Poké Fret||||
+479|Route 15|N2|B2|Échange (Metamorph)|X
+480|Maillard|N2|B2||X
+481|Tour des Cieux|N2|B2||X
+482|Route 23|N2|B2||X
+483|Poké Fret||||X
+484|Poké Fret||||X
+485|Mont Renenvers|N2|B2||X
+486|Mont Foré|N2|B2||X
+487|Poké Fret||||X
+488|Pont de l'Inconnu|N2|B2||X
+489|Œuf||||X
+490|Poké Fret||||X
+491|Poké Fret||||X
+492|Poké Fret||||X
+493|Poké Fret||||X
+494|Phare de la Liberté|N|B|Event|
+495|Œuf||||
+496|Œuf||||
+497|Renouet|N||Starter|
+498|Œuf||||
+499|Œuf||||
+500|Renouet|B||Starter|
+501|Œuf||||
+502|Œuf||||
+503|Renouet|N2|B2|Starter|
+504|Route 19|N2|B2||
+505|Route 1|N2|B2||
+506|Ranch d'Amaillide|N2|B2||
+507|Route 1|N2|B2||
+508|Route 1|N2|B2|Herbe remuante|
+509|Route 19|N2|B2||
+510|Route 2|N2|B2||
+511|Bois des Illusions|N2|B2||
+512|Bois des Illusions|N2|B2||Pierre plante
+513|Bois des Illusions|N2|B2||
+514|Bois des Illusions|N2|B2||Pierre feu
+515|Bois des Illusions|N2|B2||
+516|Bois des Illusions|N2|B2||Pierre eau
+517|Vestiges du Rêve|N2|B2||
+518|Vestiges du Rêve|N2|B2|Herbe remuante|
+519|Route 20|N2|B2||
+520|Route 3|N2|B2||
+521|Route 3|N2|B2|Herbe remuante|
+522|Route 3|N|B||
+523|Route 3|N2|B2||
+524|Chemin Enfoui|N2|B2||
+525|Grotte Littorale|N2|B2||
+526|Route 7|N2|B2|Échange (Emolga)|
+527|Chemin Enfoui|N2|B2||
+528|Chemin Enfoui|N2|B2||
+529|Chemin Enfoui|N2|B2|Nuage|
+530|Grotte Cyclopéenne|N2|B2|Nuage|
+531|Route 1|N2|B2|Herbe remuante|
+532|Chemin Enfoui|N2|B2||
+533|Route Victoire|N2|B2||
+534|Route Victoire|N2|B2||Échange
+535|Forêt d'Empoigne|N|B||
+536|Route 8|N2|B2||
+537|Route 8|N2|B2|Eau (ombre)|
+538|Route Victoire|N2|B2||
+539|Route 23|N2|||
+540|Route 20|N2|B2||
+541|Bois des Illusions|N2|B2||
+542|Bois des Illusions|N2|B2|Herbe remuante|
+543|Bois des Illusions|N2|B2||
+544|Bois des Illusions|N2|B2||
+545|Forêt d'Empoigne|N2|B2|Herbe remuante|
+546|Route Victoire|N2|||
+547|Route Victoire|N2||Herbe remuante|
+548|Route Victoire|B2|||
+549|Route Victoire|B2||Herbe remuante|
+550|Route 19|N2|||
+551|Château Enfoui|N2|B2||
+552|Château Enfoui|N2|B2||
+553|Château Enfoui|N2|B2||
+554|Route 4|N2|B2||
+555|Désert Délassant|N2|B2|Pokémon de N|
+556|Désert Délassant|N2|B2||
+557|Désert Délassant|N2|B2||
+558|Grotte Littorale|N2|B2|Unique|
+559|Route 18|N|B||
+560|Route 18|N2|B2||
+561|Désert Délassant|N2|B2||
+562|Château Enfoui|N2|B2||
+563|Château Enfoui|N|B||
+564|Œuf||||
+565|Château Enfoui|B||Randonneuse|
+566|Œuf||||
+567|Château Enfoui|N||Randonneuse|
+568|Route 16|N2|B2||
+569|Route 9|N2|B2||
+570|Œuf||||
+571|Port Yoneuve|N2|B2|Pokémon de N|
+572|Route 5|N2|B2||
+573|Route 5|N2|B2|Herbe remuante|
+574|Route 5|N2|||
+575|Route 9|N2|||
+576|Route 9|N2||Herbe remuante|
+577|Route 5|B2|||
+578|Route 9|B2|||
+579|Route 9|B2||Herbe remuante|
+580|Pont Yoneuve|N2|B2|Ombre|
+581|Pont de l'Inconnu|N2|B2|Ombre|
+582|Hangar Frigorifique|N|B||
+583|Grotte Cyclopéenne|N2|B2||
+584|Grotte Cyclopéenne|N2|B2|Herbe remuante|
+585|Route 6|N2|B2||
+586|Tour Dragospire|N2|B2||
+587|Route 6|N2|B2|Herbe remuante|
+588|Route 6|B2|||
+589|Route 6|B2|||
+590|Route 6|N2|B2|Pokéball|
+591|Route 22|N2|B2|Pokéball|
+592|Chenal 17|N2|B2||
+593|Chenal 21|N2|B2|Eau (ombre)|
+594|Chenal 17|N2|B2|Eau (ombre)|
+595|Grotte Électrolithe|N2|B2||
+596|Grotte Électrolithe|N2|B2||
+597|Grotte Électrolithe|N2|B2||
+598|Grotte Électrolithe|N2|B2||
+599|Grotte Électrolithe|N2|B2||
+600|Labo P2|N2|B2||
+601|Labo P2|N2|B2|Herbe remuante|
+602|Grotte Électrolithe|N2|B2||
+603|Grotte Littorale|N2|B2||
+604|Grotte Littorale|N2|B2||
+605|Tour des Cieux|N2|B2||
+606|Route 14|N|B||
+607|Tour des Cieux|N2|B2||
+608|Tour des Cieux|N2|B2||
+609|Tour des Cieux|N2|B2||
+610|Grotte Parsemille|N2|B2||
+611|Réserve Naturelle|N2|B2||
+612|Réserve Naturelle|N2|B2|Pokédex Régional (Shiny)|
+613|Route 7|N2|B2|Hiver|
+614|Mont Foré|N2|B2||
+615|Mont Foré|N2|B2||
+616|Route 6|N2|||
+617|Route 6|N2|||
+618|Route 8|N2|B2||
+619|Route 22|N2|B2||
+620|Tour Dragospire|N2|B2||
+621|Route Victoire|N2|B2||
+622|Tour Dragospire|N|B||
+623|Tour Dragospire|N2|B2||
+624|Route 9|N2|B2||
+625|Route 11|N|B||
+626|Route 23|N2|B2||
+627|Route 10|B|||
+628|Route 4|B2||Unique (lundi)|
+629|Route 10|N|||
+630|Route 4|N2||Unique (jeudi)|
+631|Route Victoire|N|B||
+632|Route Bardane|N2|B2||
+633|Route Victoire|N|B||
+634|Route Victoire|N2|B2||
+635|Route Victoire|N2|B2||
+636|Route 18|N|B|Œuf|
+637|Château Enfoui|N2|B2|Unique|
+638|Route 13|N2|B2|Unique|
+639|Route 22|N2|B2|Unique|
+640|Route 11|N2|B2|Unique|
+641|Fuyard|N||Unique|
+642|Fuyard|B||Unique|
+643|Tour Dragospire|B2|N|Unique|
+644|Tour Dragospire|N2|B|Unique|
+645|Autel Abondance|N|B|Unique (Boréas et Fulguris)|
+646|Grotte Cyclopéenne|N2|B2|Unique|
+647|Event|N2|B2||
+648|Event|N2|B2||
+649|Event|N2|B2||

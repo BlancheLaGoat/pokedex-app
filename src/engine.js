@@ -149,6 +149,8 @@
             const lid = a ? a.l : null;
             const m = this.core.encMethods[method];
             const loc = this.core.locations[lid];
+            // zones fourre-tout de PokéAPI pour HeartGold / SoulSilver (« Inconnu ; que des Rattata »…) : pas de vrai lieu
+            if (loc && loc.ident.startsWith('unknown-all-')) continue;
             out.push({
               pid, area, lid, mid: method, method: m.ident, methodFr: m.fr, conds, min, max, rate,
               unique: UNIQUE_METHODS.has(m.ident),
@@ -160,7 +162,53 @@
           }
         }
       }
+      if (!out.length) out.push(...this.sheetEntries(v, sid, cur));
       return out;
+    }
+
+    // Pokémon que la base ne place pas dans ce jeu mais que la feuille « National living dex » y donne
+    // (Forêt Blanche, ruines des Régis de Platine…) : rencontre ajoutée, marquée « Feuille living dex »
+    sheetEntries(v, sid, cur) {
+      const ld = this.global.livingdex;
+      const sp = this.core.species[sid];
+      // une forme évoluée listée par la feuille = « attraper la forme de base ici puis la faire évoluer » : pas une rencontre
+      if (!ld || sp.from) return [];
+      const special = this.ref(cur && cur.special, v) || {};
+      if (special[sid]) return []; // déjà saisi à la main (ex. Groudon / Kyogre de Rubis Oméga / Saphir Alpha)
+      const out = [];
+      for (const tab of ['g4', 'g5', 'g6']) {
+        const r = ld[tab] && ld[tab][sid];
+        if (!r || r.kind !== 'catch' || !r.games.includes(v) || r.item) continue;
+        if (/évoluer|œuf|oeuf|échange|event|donné/i.test(r.cond)) continue;
+        const loc = this.sheetLoc(v, r.loc);
+        const late = /post-game|battre|après|apres/i.test(r.cond);
+        let seg = loc ? this.locSeg(cur, loc.ident, 'sheet', v, [], '') : (this.postInfo(v) ? 1 : null);
+        if ((late || sp.leg || sp.myth) && seg != null) seg = 2; // légendaires absents de la base : en général après la ligue
+        out.push({
+          pid: sp.vars[0], area: null, lid: loc ? loc.id : null, mid: null, method: 'sheet',
+          methodFr: 'Feuille living dex' + (r.cond ? ' — ' + r.cond : ''), conds: [], min: null, max: null, rate: null,
+          unique: false, seg, locFr: r.loc.replace(/\s*\(\d\)$/, ''), areaFr: '', areaIdent: '', fromBase: false, eventNote: null, fromSheet: true,
+        });
+      }
+      return out;
+    }
+
+    // retrouve un lieu de la base à partir du nom donné par la feuille (même région que le jeu)
+    sheetLoc(v, name) {
+      this.sheetLocIdx = this.sheetLocIdx || {};
+      let idx = this.sheetLocIdx[v];
+      if (!idx) {
+        const regs = new Set();
+        for (const list of Object.values(this.enc[v] || {})) for (const [area] of list) {
+          const a = this.core.areas[area]; const l = a && this.core.locations[a.l];
+          if (l && l.reg) regs.add(l.reg);
+        }
+        idx = this.sheetLocIdx[v] = {};
+        const n = (x) => (x || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+        for (const [id, l] of Object.entries(this.core.locations)) if (regs.has(l.reg) && !idx[n(l.fr)]) idx[n(l.fr)] = { id: +id, ident: l.ident };
+        idx._n = n;
+      }
+      return idx[idx._n(name.replace(/\s*\(\d\)$/, ''))] || null;
     }
 
     // rencontre qui demande un objet / Pokémon d'événement ou un bonus de sauvegarde
@@ -549,6 +597,27 @@
       return Math.min(100, e.rate);
     }
 
+    // la feuille « National living dex » conseille-t-elle ce lieu dans cette version ?
+    sheetMatch(v, sid, e) {
+      const ld = this.global.livingdex;
+      if (!ld) return false;
+      // mêmes lieux sous d'autres noms (feuille ↔ base de données)
+      const ALIAS = { 'grotte argentee': 'mont argente', fuyard: 'sillonnant', centrale: 'route 10', 'grotte ruineman': 'grotte ruinem',
+        'pillier celeste': 'pilier celeste', 'cave taupiqueur': 'grotte taupiqueur', 'iles ecume': 'iles ecume' };
+      const norm0 = (x) => (x || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/\(\d\)/g, '').replace(/[^a-z0-9]+/g, ' ').trim();
+      const norm = (x) => { const n = norm0(x); return ALIAS[n] || n; };
+      for (const tab of ['g4', 'g5', 'g6']) {
+        const r = ld[tab] && ld[tab][sid];
+        if (!r || r.kind !== 'catch' || !r.games.includes(v)) continue;
+        const a = norm(r.loc), b = norm(e.locFr), c = norm(e.areaFr);
+        if (!a) continue;
+        if (a === b || a === c) return true;
+        const w = (big, small) => small.length >= 4 && (' ' + big + ' ').includes(' ' + small + ' ');
+        if (w(b, a) || w(c, a) || w(a, b)) return true;
+      }
+      return false;
+    }
+
     // mode « simple » : la note la plus basse ; mode « chance » : le % le plus haut, puis la note
     better(a, b, mode) {
       if (!b) return true;
@@ -560,7 +629,7 @@
     }
 
     // { cost, chance, level, how } pour une espèce dans une version, ou null
-    howEasy(v, sid, opts, depth = 0, mode = 'simple') {
+    howEasy(v, sid, opts, depth = 0, mode = 'simple', target = sid) {
       const info = this.status(v).get(sid);
       if (!info || !info.avail || depth > 4) return null;
       if (info.kind === 'exclusive' || info.kind === 'tradeOnly' || info.kind === 'transfer') return null;
@@ -574,11 +643,14 @@
         if (e.eventNote) continue;
         let c = this.entryCost(v, e) + (sp.leg || sp.myth ? 2 : 0); // légendaires : en général tard et à un seul exemplaire
         if (e.unique && e.method !== 'gift' && e.method !== 'npc-trade') c += 0.7; // Pokémon fixe : une seule chance, à affronter
-        const cand = { cost: c, chance: this.entryChance(v, e), level: e.min, entry: e };
+        // la feuille donne parfois le lieu de la forme de base à faire évoluer : on regarde aussi l'espèce visée
+        const sheet = this.sheetMatch(v, sid, e) || (target !== sid && this.sheetMatch(v, target, e));
+        if (sheet) c -= 0.6; // lieu conseillé par la feuille « National living dex » (vérifié par des joueurs)
+        const cand = { cost: c, chance: this.entryChance(v, e), level: e.min, entry: e, sheet };
         if (this.better(cand, best, mode)) best = cand;
       }
       if (info.via && info.kind !== 'egg') {
-        const pre = this.howEasy(v, info.via.from, opts, depth + 1, mode);
+        const pre = this.howEasy(v, info.via.from, opts, depth + 1, mode, target);
         if (pre) {
           const row = (this.core.evolutions[sid] || []).find((r) => r.txt === info.via.txt && this.evoRowApplies(r, v));
           const c = pre.cost + this.evoCost(row, pre.level) + (info.via.trade ? 6 : 0);
@@ -589,7 +661,7 @@
       }
       // un Pokémon fixe peut aussi s'obtenir par œuf (ex. Électrode fixe → œuf de Voltorbe puis évolution, déjà couvert ci-dessus)
       if (info.kind === 'egg' && info.via) {
-        const par = this.howEasy(v, info.via.from, opts, depth + 1, mode);
+        const par = this.howEasy(v, info.via.from, opts, depth + 1, mode, target);
         if (par) best = { cost: par.cost + 2.5, chance: par.chance, level: 1, egg: info.via.from, pre: par };
       }
       if (!best && (info.kind === 'unique' || info.kind === 'wild')) {

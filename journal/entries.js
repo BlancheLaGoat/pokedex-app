@@ -647,5 +647,103 @@ window.JOURNAL = [
 "code": "--- avant\n+++ après\n@@ -2,5 +2,5 @@\n   \"name\": \"pokedex-blanche\",\n   \"productName\": \"Pokédex\",\n-  \"version\": \"1.6.1\",\n+  \"version\": \"1.6.2\",\n   \"description\": \"Pokédex de suivi par jeu : obtention, exclusivités, évolutions, talents, attaques, formes, shiny, routes.\",\n   \"main\": \"main.js\","
 }
 ]
+},
+{
+"version": "1.6.3",
+"date": "2026-10-20",
+"title": "Feuille « National living dex » + correction d'affichage",
+"points": [
+"Import de la feuille Google « National living dex » (onglets 4e, 5e et 6e génération) : lieu, jeux, condition (hordes, herbe remuante, Heylink…) et objet d'évolution pour chaque Pokémon (tools/import_livingdex.py → data/curated/livingdex.json)",
+"Onglet « Le plus simple » : nouvelle colonne « Feuille living dex (4G / 5G / 6G) », masquable",
+"Fiche du Pokémon (« Tous les jeux ») : encadré avec les conseils de la feuille (y compris œuf / transfert / événement) et lien vers la feuille",
+"Quand notre proposition tombe au même lieu que la feuille dans le même jeu, elle est un peu favorisée et marquée « ✓ feuille »",
+"Correction : l'en-tête du tableau restait collé en haut et passait par-dessus les lignes en défilant"
+],
+"files": [
+{
+"path": "src/engine.js",
+"kind": "modif",
+"code": "--- avant\n+++ après\n@@ -550,4 +550,21 @@\n     }\n \n+    // la feuille « National living dex » conseille-t-elle ce lieu dans cette version ?\n+    sheetMatch(v, sid, e) {\n+      const ld = this.global.livingdex;\n+      if (!ld) return false;\n+      const norm = (x) => (x || '').normalize('NFD').replace(/[\\u0300-\\u036f]/g, '').toLowerCase().replace(/\\(\\d\\)/g, '').replace(/[^a-z0-9]+/g, ' ').trim();\n+      for (const tab of ['g4', 'g5', 'g6']) {\n+        const r = ld[tab] && ld[tab][sid];\n+        if (!r || r.kind !== 'catch' || !r.games.includes(v)) continue;\n+        const a = norm(r.loc), b = norm(e.locFr), c = norm(e.areaFr);\n+        if (!a) continue;\n+        if (a === b || a === c) return true;\n+        const w = (big, small) => small.length >= 4 && (' ' + big + ' ').includes(' ' + small + ' ');\n+        if (w(b, a) || w(c, a) || w(a, b)) return true;\n+      }\n+      return false;\n+    }\n+\n     // mode « simple » : la note la plus basse ; mode « chance » : le % le plus haut, puis la note\n     better(a, b, mode) {\n@@ -575,5 +592,7 @@\n         let c = this.entryCost(v, e) + (sp.leg || sp.myth ? 2 : 0); // légendaires : en général tard et à un seul exemplaire\n         if (e.unique && e.method !== 'gift' && e.method !== 'npc-trade') c += 0.7; // Pokémon fixe : une seule chance, à affronter\n-        const cand = { cost: c, chance: this.entryChance(v, e), level: e.min, entry: e };\n+        const sheet = this.sheetMatch(v, sid, e);\n+        if (sheet) c -= 0.6; // lieu conseillé par la feuille « National living dex » (vérifié par des joueurs)\n+        const cand = { cost: c, chance: this.entryChance(v, e), level: e.min, entry: e, sheet };\n         if (this.better(cand, best, mode)) best = cand;\n       }"
+},
+{
+"path": "src/app.js",
+"kind": "modif",
+"code": "--- avant\n+++ après\n@@ -106,4 +106,5 @@\n   Object.assign(S.core.ballNames, { 'strange-ball': 'Étrange Ball', 'cherish-ball': 'Mémoire Ball' }, S.core.ballNames);\n   S.global.exclusives = ((await readJSON('curated/exclusives.json')) || {}).versions;\n+  S.global.livingdex = (await readJSON('curated/livingdex.json')) || null;\n   S.engine = new PokeEngine(S.core, S.global, { gen1: S.gen1, sv: S.sv, others: S.others, za: S.za }, readJSON);\n   for (const p of Object.values(S.core.pokemon)) {\n@@ -117,5 +118,5 @@\n   if (saved && saved.tracking) S.save = Object.assign(S.save, saved);\n   if (S.save.settings.opts) Object.assign(S.opts, S.save.settings.opts);\n-  S.easy = Object.assign({ mode: 'simple', sort: 'num' }, S.save.settings.easy || {});\n+  S.easy = Object.assign({ mode: 'simple', sort: 'num', sheet: true }, S.save.settings.easy || {});\n   if (S.save.settings.view) S.view = S.save.settings.view;\n   await Promise.all(Object.keys(S.core.games).map((v) => S.engine.ensure(+v)));\n@@ -755,4 +756,5 @@\n     h('span', { class: 'easy-how' }, easyHow(r)),\n     chancePill(r),\n+    r.sheet ? h('span', { class: 'pill sheet', title: 'Même lieu que la feuille « National living dex »' }, '✓ feuille') : null,\n     st !== '—' ? h('span', { class: 'pill' + (r.info.post ? ' post' : '') }, st) : null);\n }\n@@ -775,4 +777,21 @@\n }\n \n+// conseils de la feuille « National living dex » (4e, 5e, 6e génération)\n+const SHEET_TABS = [['g4', '4G'], ['g5', '5G'], ['g6', '6G']];\n+function sheetLines(sid, all) {\n+  const ld = S.global.livingdex;\n+  if (!ld) return [];\n+  const out = [];\n+  for (const [tab, lbl] of SHEET_TABS) {\n+    const r = ld[tab] && ld[tab][sid];\n+    if (!r || (!all && r.kind !== 'catch')) continue;\n+    const txt = r.kind === 'egg' ? 'Œuf (reproduction)' : r.kind === 'transfer' ? 'Transfert depuis un jeu plus ancien' : r.kind === 'event' ? 'Événement' : r.loc;\n+    out.push(h('div', { class: 'sheet-line' }, h('span', { class: 'sheet-gen' }, lbl),\n+      r.games.length ? h('span', null, ...r.games.map((v) => h('span', { class: 'easy-game', style: `border-color:${vColor(v)}` }, shortV(v)))) : null,\n+      h('span', null, [txt, r.cond, r.item ? 'objet : ' + r.item : ''].filter(Boolean).join(' · '))));\n+  }\n+  return out;\n+}\n+\n function renderEasy(content) {\n   const list = items().filter((x) => !x.form && !x.female).filter(passFilters);\n@@ -781,5 +800,6 @@\n   content.append(h('div', { class: 'easy-ctrl' },\n     seg('Choisir le jeu :', 'mode', [['simple', 'Le plus simple'], ['chance', 'Le plus de chances (%)']]),\n-    seg('Trier la liste :', 'sort', [['num', 'N° Pokédex'], ['chanceDesc', '% de chance ↓'], ['chanceAsc', '% de chance ↑'], ['cost', 'Les plus simples d\\'abord']])));\n+    seg('Trier la liste :', 'sort', [['num', 'N° Pokédex'], ['chanceDesc', '% de chance ↓'], ['chanceAsc', '% de chance ↑'], ['cost', 'Les plus simples d\\'abord']]),\n+    S.global.livingdex ? seg('Feuille living dex :', 'sheet', [[true, 'Afficher'], [false, 'Masquer']]) : null));\n   const bestOf = new Map(list.map((it) => [it.sid, S.engine.easiest(it.sid, S.opts, S.easy.mode)]));\n   const ch = (sid) => { const b = bestOf.get(sid)[0]; return b ? (b.chance ?? -1) : -2; };\n@@ -794,5 +814,5 @@\n     + 'Les boutons Échanges / Œufs changent les possibilités. Clique sur une ligne pour la fiche complète.'));\n   if (!list.length) { content.append(h('div', { class: 'empty' }, 'Aucun Pokémon ne correspond à ces filtres.')); renderProgress(); return; }\n-  const t = h('table', { class: 't easy-table' }, h('tr', null, h('th', null, ''), h('th', null, 'Pokémon'), h('th', null, S.easy.mode === 'chance' ? 'Le plus de chances' : 'Le plus simple'), h('th', null, 'Sinon')));\n+  const t = h('table', { class: 't easy-table' }, h('tr', null, h('th', null, ''), h('th', null, 'Pokémon'), h('th', null, S.easy.mode === 'chance' ? 'Le plus de chances' : 'Le plus simple'), h('th', null, 'Sinon'), S.easy.sheet ? h('th', null, 'Feuille living dex (4G / 5G / 6G)') : null));\n   const LIMIT = 150;\n   let shown = 0;\n@@ -806,5 +826,6 @@\n         h('td', null, h('div', { class: 'muted' }, it.num), h('b', null, sp.fr)),\n         h('td', null, best[0] ? easyLine(best[0], true) : easyNone(best)),\n-        h('td', { class: 'easy-alt' }, ...best.slice(1, 3).map((r) => h('div', null, h('span', { class: 'easy-game', style: `border-color:${vColor(r.v)}` }, vName(r.v)), ' ', easyHow(r, true), ' ', chancePill(r))))));\n+        h('td', { class: 'easy-alt' }, ...best.slice(1, 3).map((r) => h('div', null, h('span', { class: 'easy-game', style: `border-color:${vColor(r.v)}` }, vName(r.v)), ' ', easyHow(r, true), ' ', chancePill(r)))),\n+        S.easy.sheet ? h('td', { class: 'easy-alt' }, ...sheetLines(it.sid, true)) : null));\n     }\n     shown += LIMIT;\n@@ -1055,4 +1076,7 @@\n     if (!best.length && best.eventOnly) eb.append(easyNone(best));\n     pane.append(eb);\n+    const sl = sheetLines(sid, true);\n+    if (sl.length) pane.append(h('div', { class: 'box easy-box' }, h('h4', null, 'Feuille « National living dex »',\n+      h('a', { href: S.global.livingdex.url, target: '_blank', class: 'muted' }, 'ouvrir')), ...sl));\n     for (const fam of S.core.families) {\n       const groups = [{ name: fam.name, vs: [...fam.versions] }, ...(fam.dlc || []).map((d) => ({ name: d.name, vs: d.versions }))];"
+},
+{
+"path": "src/styles.css",
+"kind": "modif",
+"code": "--- avant\n+++ après\n@@ -275,2 +275,6 @@\n .pill.chance.mid { color: #E8B502; border-color: #E8B502; }\n .pill.chance.lo { color: #E5484D; border-color: #E5484D; }\n+table.t.easy-table th { position: static; }\n+.sheet-line { display: flex; flex-wrap: wrap; align-items: center; gap: 4px; margin: 2px 0; font-size: 11px; }\n+.sheet-gen { font-weight: 600; color: #B57BFF; min-width: 22px; }\n+.pill.sheet { color: #B57BFF; border-color: #B57BFF; }"
+},
+{
+"path": "package.json",
+"kind": "modif",
+"code": "--- avant\n+++ après\n@@ -2,5 +2,5 @@\n   \"name\": \"pokedex-blanche\",\n   \"productName\": \"Pokédex\",\n-  \"version\": \"1.6.2\",\n+  \"version\": \"1.6.3\",\n   \"description\": \"Pokédex de suivi par jeu : obtention, exclusivités, évolutions, talents, attaques, formes, shiny, routes.\",\n   \"main\": \"main.js\","
+},
+{
+"path": "tools/import_livingdex.py",
+"kind": "ajout",
+"code": "#!/usr/bin/env python3\n\"\"\"\nImporte la feuille « National living dex » (onglets 4th gen, 5th gen, 6th gen) :\noù capturer chaque Pokémon dans les jeux de la 4e, 5e et 6e génération pour faire un Pokédex vivant.\nSources : data/curated/livingdex/g4.txt, g5.txt, g6.txt (id|lieu|jeu 1|jeu 2|condition|objet)\nSortie : data/curated/livingdex.json\n\"\"\"\nimport json, os\n\nHERE = os.path.dirname(__file__)\nSRC = os.path.join(HERE, '..', 'data', 'curated', 'livingdex')\nOUT = os.path.join(HERE, '..', 'data', 'curated', 'livingdex.json')\nGAMES = {\n    'g4': {'HG': 15, 'SS': 16, 'Plat': 14, 'D': 12, 'P': 13},\n    'g5': {'N': 17, 'B': 18, 'N2': 21, 'B2': 22},\n    'g6': {'X': 23, 'Y': 24, 'RO': 25, 'SA': 26},\n}\nNONE = {'g4': {'X', ''}, 'g5': {'X', ''}, 'g6': {''}}\n\nout = {'_info': \"Feuille Google « National living dex » (onglets 4th gen, 5th gen, 6th gen), importée par tools/import_livingdex.py\",\n       'url': 'https://docs.google.com/spreadsheets/d/1mMOIKXHfhrz30g8fTJWAjzlkJdblw-mekOUcrL8CsJw'}\nfor tab, gmap in GAMES.items():\n    rows = {}\n    for line in open(os.path.join(SRC, tab + '.txt'), encoding='utf-8'):\n        line = line.rstrip('\\n')\n        if not line.strip():\n            continue\n        sid, loc, g1, g2, cond, item = (line.split('|') + [''] * 6)[:6]\n        games = [gmap[g] for g in (g1.strip(), g2.strip()) if g not in NONE[tab] and g in gmap]\n        l = loc.strip()\n        kind = 'egg' if l.lower() in ('œuf', 'oeuf') else 'transfer' if l in ('Poké Fret', 'Transfert') else 'event' if l == 'Event' else 'catch'\n        item = item.strip()\n        rows[sid.strip()] = {'loc': l, 'games': games, 'cond': cond.strip(), 'item': '' if item == 'X' else item, 'kind': kind}\n    out[tab] = rows\njson.dump(out, open(OUT, 'w', encoding='utf-8'), ensure_ascii=False)\nprint({k: len(v) for k, v in out.items() if k.startswith('g')})\n"
+},
+{
+"path": "data/curated/livingdex/g4.txt",
+"kind": "ajout",
+"code": "(copie de l'onglet de la feuille : id|lieu|jeu 1|jeu 2|condition|objet, 493 lignes)"
+},
+{
+"path": "data/curated/livingdex/g5.txt",
+"kind": "ajout",
+"code": "(copie de l'onglet de la feuille : id|lieu|jeu 1|jeu 2|condition|objet, 649 lignes)"
+},
+{
+"path": "data/curated/livingdex/g6.txt",
+"kind": "ajout",
+"code": "(copie de l'onglet de la feuille : id|lieu|jeu 1|jeu 2|condition|objet, 721 lignes)"
+}
+]
+},
+{
+"version": "1.6.4",
+"date": "2026-10-20",
+"title": "Feuille living dex vraiment exploitée",
+"points": [
+"Rencontres manquantes ajoutées depuis la feuille (112, formes de base uniquement, marquées « Feuille living dex ») : Forêt Blanche de Blanc (Heylink), hordes de Noir / Blanc et Noir 2 / Blanc 2, fossiles de la Grotte Étincelante (X / Y), Régis de Platine, légendaires des Lieux Mirages de Rubis Oméga / Saphir Alpha… ; jamais à la place d'un Pokémon saisi à la main",
+"Une forme évoluée listée par la feuille est comprise comme « attraper la forme de base à cet endroit puis la faire évoluer » : le bonus « ✓ feuille » s'applique alors au chemin d'évolution",
+"Mêmes lieux sous d'autres noms reconnus (Grotte Argentée = Mont Argenté, Fuyard = errant, Centrale = Route 10…)",
+"Correspondance avec la feuille : 82 % des lieux conseillés retrouvés (contre 61 % en 1.6.3), le reste étant surtout des chemins plus courts trouvés ailleurs"
+],
+"files": [
+{
+"path": "src/engine.js",
+"kind": "modif",
+"code": "--- avant\n+++ après\n@@ -161,5 +161,51 @@\n         }\n       }\n+      if (!out.length) out.push(...this.sheetEntries(v, sid, cur));\n       return out;\n+    }\n+\n+    // Pokémon que la base ne place pas dans ce jeu mais que la feuille « National living dex » y donne\n+    // (Forêt Blanche, ruines des Régis de Platine…) : rencontre ajoutée, marquée « Feuille living dex »\n+    sheetEntries(v, sid, cur) {\n+      const ld = this.global.livingdex;\n+      const sp = this.core.species[sid];\n+      // une forme évoluée listée par la feuille = « attraper la forme de base ici puis la faire évoluer » : pas une rencontre\n+      if (!ld || sp.from) return [];\n+      const special = this.ref(cur && cur.special, v) || {};\n+      if (special[sid]) return []; // déjà saisi à la main (ex. Groudon / Kyogre de Rubis Oméga / Saphir Alpha)\n+      const out = [];\n+      for (const tab of ['g4', 'g5', 'g6']) {\n+        const r = ld[tab] && ld[tab][sid];\n+        if (!r || r.kind !== 'catch' || !r.games.includes(v) || r.item) continue;\n+        if (/évoluer|œuf|oeuf|échange|event|donné/i.test(r.cond)) continue;\n+        const loc = this.sheetLoc(v, r.loc);\n+        const late = /post-game|battre|après|apres/i.test(r.cond);\n+        let seg = loc ? this.locSeg(cur, loc.ident, 'sheet', v, [], '') : (this.postInfo(v) ? 1 : null);\n+        if ((late || sp.leg || sp.myth) && seg != null) seg = 2; // légendaires absents de la base : en général après la ligue\n+        out.push({\n+          pid: sp.vars[0], area: null, lid: loc ? loc.id : null, mid: null, method: 'sheet',\n+          methodFr: 'Feuille living dex' + (r.cond ? ' — ' + r.cond : ''), conds: [], min: null, max: null, rate: null,\n+          unique: false, seg, locFr: r.loc.replace(/\\s*\\(\\d\\)$/, ''), areaFr: '', areaIdent: '', fromBase: false, eventNote: null, fromSheet: true,\n+        });\n+      }\n+      return out;\n+    }\n+\n+    // retrouve un lieu de la base à partir du nom donné par la feuille (même région que le jeu)\n+    sheetLoc(v, name) {\n+      this.sheetLocIdx = this.sheetLocIdx || {};\n+      let idx = this.sheetLocIdx[v];\n+      if (!idx) {\n+        const regs = new Set();\n+        for (const list of Object.values(this.enc[v] || {})) for (const [area] of list) {\n+          const a = this.core.areas[area]; const l = a && this.core.locations[a.l];\n+          if (l && l.reg) regs.add(l.reg);\n+        }\n+        idx = this.sheetLocIdx[v] = {};\n+        const n = (x) => (x || '').normalize('NFD').replace(/[\\u0300-\\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();\n+        for (const [id, l] of Object.entries(this.core.locations)) if (regs.has(l.reg) && !idx[n(l.fr)]) idx[n(l.fr)] = { id: +id, ident: l.ident };\n+        idx._n = n;\n+      }\n+      return idx[idx._n(name.replace(/\\s*\\(\\d\\)$/, ''))] || null;\n     }\n \n@@ -554,5 +600,9 @@\n       const ld = this.global.livingdex;\n       if (!ld) return false;\n-      const norm = (x) => (x || '').normalize('NFD').replace(/[\\u0300-\\u036f]/g, '').toLowerCase().replace(/\\(\\d\\)/g, '').replace(/[^a-z0-9]+/g, ' ').trim();\n+      // mêmes lieux sous d'autres noms (feuille ↔ base de données)\n+      const ALIAS = { 'grotte argentee': 'mont argente', fuyard: 'sillonnant', centrale: 'route 10', 'grotte ruineman': 'grotte ruinem',\n+        'pillier celeste': 'pilier celeste', 'cave taupiqueur': 'grotte taupiqueur', 'iles ecume': 'iles ecume' };\n+      const norm0 = (x) => (x || '').normalize('NFD').replace(/[\\u0300-\\u036f]/g, '').toLowerCase().replace(/\\(\\d\\)/g, '').replace(/[^a-z0-9]+/g, ' ').trim();\n+      const norm = (x) => { const n = norm0(x); return ALIAS[n] || n; };\n       for (const tab of ['g4', 'g5', 'g6']) {\n         const r = ld[tab] && ld[tab][sid];\n@@ -578,5 +628,5 @@\n \n     // { cost, chance, level, how } pour une espèce dans une version, ou null\n-    howEasy(v, sid, opts, depth = 0, mode = 'simple') {\n+    howEasy(v, sid, opts, depth = 0, mode = 'simple', target = sid) {\n       const info = this.status(v).get(sid);\n       if (!info || !info.avail || depth > 4) return null;\n@@ -592,5 +642,6 @@\n         let c = this.entryCost(v, e) + (sp.leg || sp.myth ? 2 : 0); // légendaires : en général tard et à un seul exemplaire\n         if (e.unique && e.method !== 'gift' && e.method !== 'npc-trade') c += 0.7; // Pokémon fixe : une seule chance, à affronter\n-        const sheet = this.sheetMatch(v, sid, e);\n+        // la feuille donne parfois le lieu de la forme de base à faire évoluer : on regarde aussi l'espèce visée\n+        const sheet = this.sheetMatch(v, sid, e) || (target !== sid && this.sheetMatch(v, target, e));\n         if (sheet) c -= 0.6; // lieu conseillé par la feuille « National living dex » (vérifié par des joueurs)\n         const cand = { cost: c, chance: this.entryChance(v, e), level: e.min, entry: e, sheet };\n@@ -598,5 +649,5 @@\n       }\n       if (info.via && info.kind !== 'egg') {\n-        const pre = this.howEasy(v, info.via.from, opts, depth + 1, mode);\n+        const pre = this.howEasy(v, info.via.from, opts, depth + 1, mode, target);\n         if (pre) {\n           const row = (this.core.evolutions[sid] || []).find((r) => r.txt === info.via.txt && this.evoRowApplies(r, v));\n@@ -609,5 +660,5 @@\n       // un Pokémon fixe peut aussi s'obtenir par œuf (ex. Électrode fixe → œuf de Voltorbe puis évolution, déjà couvert ci-dessus)\n       if (info.kind === 'egg' && info.via) {\n-        const par = this.howEasy(v, info.via.from, opts, depth + 1, mode);\n+        const par = this.howEasy(v, info.via.from, opts, depth + 1, mode, target);\n         if (par) best = { cost: par.cost + 2.5, chance: par.chance, level: 1, egg: info.via.from, pre: par };\n       }"
+},
+{
+"path": "package.json",
+"kind": "modif",
+"code": "--- avant\n+++ après\n@@ -2,5 +2,5 @@\n   \"name\": \"pokedex-blanche\",\n   \"productName\": \"Pokédex\",\n-  \"version\": \"1.6.3\",\n+  \"version\": \"1.6.4\",\n   \"description\": \"Pokédex de suivi par jeu : obtention, exclusivités, évolutions, talents, attaques, formes, shiny, routes.\",\n   \"main\": \"main.js\","
+}
+]
+},
+{
+"version": "1.6.5",
+"date": "2026-10-20",
+"title": "HeartGold / SoulSilver : zones « Inconnu » retirées",
+"points": [
+"PokéAPI range dans HeartGold / SoulSilver des rencontres dans trois zones fourre-tout sans vrai lieu (« Inconnu ; que des Rattata », « … que des Ptitard », « … que des insectes ») avec un taux à 100 % : elles sont maintenant ignorées",
+"Effet : plus de « Inconnu » dans « Le plus simple » ni dans les fiches (ex. Rattatac, Têtarte, Tarpaud), et plus de faux 100 %"
+],
+"files": [
+{
+"path": "src/engine.js",
+"kind": "modif",
+"code": "--- avant\n+++ après\n@@ -150,4 +150,6 @@\n             const m = this.core.encMethods[method];\n             const loc = this.core.locations[lid];\n+            // zones fourre-tout de PokéAPI pour HeartGold / SoulSilver (« Inconnu ; que des Rattata »…) : pas de vrai lieu\n+            if (loc && loc.ident.startsWith('unknown-all-')) continue;\n             out.push({\n               pid, area, lid, mid: method, method: m.ident, methodFr: m.fr, conds, min, max, rate,"
+},
+{
+"path": "package.json",
+"kind": "modif",
+"code": "--- avant\n+++ après\n@@ -2,5 +2,5 @@\n   \"name\": \"pokedex-blanche\",\n   \"productName\": \"Pokédex\",\n-  \"version\": \"1.6.4\",\n+  \"version\": \"1.6.5\",\n   \"description\": \"Pokédex de suivi par jeu : obtention, exclusivités, évolutions, talents, attaques, formes, shiny, routes.\",\n   \"main\": \"main.js\","
+}
+]
 }
 ];

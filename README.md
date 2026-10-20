@@ -42,6 +42,8 @@ Les sprites sont chargés depuis le dépôt PokeAPI sur GitHub (connexion néces
 - **Carte interactive** (onglet Carte de la fiche) : carte schématique de la région, clic sur un lieu = Pokémon de ce lieu zone par zone, capturés grisés. Positions éditables dans `tools/maps_data.py`. Cartes Paldea, Septentria et Terra-Dôme incluses. Cartes Hisui, Illumis et Extra Illumis incluses ; Diamant Étincelant/Perle Scintillante utilise la carte de Sinnoh et Rubis Oméga/Saphir Alpha celle de Hoenn (pas de lieux de capture dans PokéAPI).
 - **Fiche** : taux de capture, répartition des sexes, groupes Œuf, chaîne d'évolution avec conditions, talents de la génération du jeu (talent caché + comment l'obtenir), attaques du jeu (niveau, CT/CS/DT, œuf, tuteur), Balls utilisables et Ball enregistrée par jeu.
 
+- **Le plus simple** (Pokédex national) : pour chaque Pokémon, le jeu et l'endroit le plus simple / rapide ou avec le plus de chances (%), deux autres jeux, et les conseils de la feuille « National living dex » (4e, 5e, 6e génération). Les événements ne sont jamais proposés.
+
 ## Données
 
 - `data/core.json`, `data/enc/`, `data/moves/` : générés depuis [PokeAPI](https://github.com/PokeAPI/pokeapi) (qui agrège Bulbapedia / Serebii / Veekun) par `tools/build_data.py`.
@@ -67,6 +69,7 @@ python tools/import_sv.py
 python tools/import_bulba.py
 python tools/import_extra.py
 python tools/import_exclusives.py
+python tools/import_livingdex.py
 python tools/maps_data.py
 ```
 
@@ -79,4 +82,5 @@ Bouton « Journal » dans l'appli : liste chaque modification avec le code touch
 - Données : [PokeAPI](https://github.com/PokeAPI/pokeapi) et [Bulbapedia](https://bulbapedia.bulbagarden.net) (contenu sous licence CC BY-NC-SA).
 - Sprites : [PokeAPI/sprites](https://github.com/PokeAPI/sprites).
 - Balls assorties : feuille « Legal Matching Pokéballs 2.1 » de u/OracleLink.
+- Lieux conseillés 4e / 5e / 6e génération : feuille Google « National living dex ».
 - Projet de fan non commercial. Pokémon et les noms associés appartiennent à Nintendo, Creatures et Game Freak.

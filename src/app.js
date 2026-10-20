@@ -105,6 +105,7 @@ async function init() {
   S.match = (await readJSON('curated/matching-balls.json')) || { species: {}, forms: {}, female: {} };
   Object.assign(S.core.ballNames, { 'strange-ball': 'Étrange Ball', 'cherish-ball': 'Mémoire Ball' }, S.core.ballNames);
   S.global.exclusives = ((await readJSON('curated/exclusives.json')) || {}).versions;
+  S.global.livingdex = (await readJSON('curated/livingdex.json')) || null;
   S.engine = new PokeEngine(S.core, S.global, { gen1: S.gen1, sv: S.sv, others: S.others, za: S.za }, readJSON);
   for (const p of Object.values(S.core.pokemon)) {
     if (p.def) {
@@ -116,7 +117,7 @@ async function init() {
   const saved = await window.api.loadSave();
   if (saved && saved.tracking) S.save = Object.assign(S.save, saved);
   if (S.save.settings.opts) Object.assign(S.opts, S.save.settings.opts);
-  S.easy = Object.assign({ mode: 'simple', sort: 'num' }, S.save.settings.easy || {});
+  S.easy = Object.assign({ mode: 'simple', sort: 'num', sheet: true }, S.save.settings.easy || {});
   if (S.save.settings.view) S.view = S.save.settings.view;
   await Promise.all(Object.keys(S.core.games).map((v) => S.engine.ensure(+v)));
   setupToolbar();
@@ -754,6 +755,7 @@ function easyLine(r, first) {
     h('span', { class: 'easy-game', style: `border-color:${vColor(r.v)}` }, vName(r.v)),
     h('span', { class: 'easy-how' }, easyHow(r)),
     chancePill(r),
+    r.sheet ? h('span', { class: 'pill sheet', title: 'Même lieu que la feuille « National living dex »' }, '✓ feuille') : null,
     st !== '—' ? h('span', { class: 'pill' + (r.info.post ? ' post' : '') }, st) : null);
 }
 
@@ -774,13 +776,31 @@ function easyNone(best) {
     best.eventOnly.length ? h('div', { class: 'easy-alt' }, best.eventOnly.map((x) => vName(x.v)).join(', ') + (notes.length ? ' · ' + notes.slice(0, 2).join(' · ') : '')) : null);
 }
 
+// conseils de la feuille « National living dex » (4e, 5e, 6e génération)
+const SHEET_TABS = [['g4', '4G'], ['g5', '5G'], ['g6', '6G']];
+function sheetLines(sid, all) {
+  const ld = S.global.livingdex;
+  if (!ld) return [];
+  const out = [];
+  for (const [tab, lbl] of SHEET_TABS) {
+    const r = ld[tab] && ld[tab][sid];
+    if (!r || (!all && r.kind !== 'catch')) continue;
+    const txt = r.kind === 'egg' ? 'Œuf (reproduction)' : r.kind === 'transfer' ? 'Transfert depuis un jeu plus ancien' : r.kind === 'event' ? 'Événement' : r.loc;
+    out.push(h('div', { class: 'sheet-line' }, h('span', { class: 'sheet-gen' }, lbl),
+      r.games.length ? h('span', null, ...r.games.map((v) => h('span', { class: 'easy-game', style: `border-color:${vColor(v)}` }, shortV(v)))) : null,
+      h('span', null, [txt, r.cond, r.item ? 'objet : ' + r.item : ''].filter(Boolean).join(' · '))));
+  }
+  return out;
+}
+
 function renderEasy(content) {
   const list = items().filter((x) => !x.form && !x.female).filter(passFilters);
   const seg = (label, key, choices) => h('div', { class: 'easy-seg' }, h('span', { class: 'muted' }, label),
     ...choices.map(([k, l]) => h('button', { class: S.easy[key] === k ? 'on' : '', onclick: () => { S.easy[key] = k; persist(); renderContent(); } }, l)));
   content.append(h('div', { class: 'easy-ctrl' },
     seg('Choisir le jeu :', 'mode', [['simple', 'Le plus simple'], ['chance', 'Le plus de chances (%)']]),
-    seg('Trier la liste :', 'sort', [['num', 'N° Pokédex'], ['chanceDesc', '% de chance ↓'], ['chanceAsc', '% de chance ↑'], ['cost', 'Les plus simples d\'abord']])));
+    seg('Trier la liste :', 'sort', [['num', 'N° Pokédex'], ['chanceDesc', '% de chance ↓'], ['chanceAsc', '% de chance ↑'], ['cost', 'Les plus simples d\'abord']]),
+    S.global.livingdex ? seg('Feuille living dex :', 'sheet', [[true, 'Afficher'], [false, 'Masquer']]) : null));
   const bestOf = new Map(list.map((it) => [it.sid, S.engine.easiest(it.sid, S.opts, S.easy.mode)]));
   const ch = (sid) => { const b = bestOf.get(sid)[0]; return b ? (b.chance ?? -1) : -2; };
   const co = (sid) => { const b = bestOf.get(sid)[0]; return b ? b.cost : 1e9; };
@@ -793,7 +813,7 @@ function renderEasy(content) {
     + 'Les événements (distributions, tickets, bonus de sauvegarde, codes) ne sont jamais proposés : ils ne sont souvent plus disponibles. '
     + 'Les boutons Échanges / Œufs changent les possibilités. Clique sur une ligne pour la fiche complète.'));
   if (!list.length) { content.append(h('div', { class: 'empty' }, 'Aucun Pokémon ne correspond à ces filtres.')); renderProgress(); return; }
-  const t = h('table', { class: 't easy-table' }, h('tr', null, h('th', null, ''), h('th', null, 'Pokémon'), h('th', null, S.easy.mode === 'chance' ? 'Le plus de chances' : 'Le plus simple'), h('th', null, 'Sinon')));
+  const t = h('table', { class: 't easy-table' }, h('tr', null, h('th', null, ''), h('th', null, 'Pokémon'), h('th', null, S.easy.mode === 'chance' ? 'Le plus de chances' : 'Le plus simple'), h('th', null, 'Sinon'), S.easy.sheet ? h('th', null, 'Feuille living dex (4G / 5G / 6G)') : null));
   const LIMIT = 150;
   let shown = 0;
   const addRows = () => {
@@ -805,7 +825,8 @@ function renderEasy(content) {
         h('td', null, img(S.defForm[it.sid] && S.defForm[it.sid].spr, false, false, sp.fr)),
         h('td', null, h('div', { class: 'muted' }, it.num), h('b', null, sp.fr)),
         h('td', null, best[0] ? easyLine(best[0], true) : easyNone(best)),
-        h('td', { class: 'easy-alt' }, ...best.slice(1, 3).map((r) => h('div', null, h('span', { class: 'easy-game', style: `border-color:${vColor(r.v)}` }, vName(r.v)), ' ', easyHow(r, true), ' ', chancePill(r))))));
+        h('td', { class: 'easy-alt' }, ...best.slice(1, 3).map((r) => h('div', null, h('span', { class: 'easy-game', style: `border-color:${vColor(r.v)}` }, vName(r.v)), ' ', easyHow(r, true), ' ', chancePill(r)))),
+        S.easy.sheet ? h('td', { class: 'easy-alt' }, ...sheetLines(it.sid, true)) : null));
     }
     shown += LIMIT;
   };
@@ -1054,6 +1075,9 @@ function paneObtention(pane, sid) {
     best.forEach((r, i) => eb.append(easyLine(r, i === 0)));
     if (!best.length && best.eventOnly) eb.append(easyNone(best));
     pane.append(eb);
+    const sl = sheetLines(sid, true);
+    if (sl.length) pane.append(h('div', { class: 'box easy-box' }, h('h4', null, 'Feuille « National living dex »',
+      h('a', { href: S.global.livingdex.url, target: '_blank', class: 'muted' }, 'ouvrir')), ...sl));
     for (const fam of S.core.families) {
       const groups = [{ name: fam.name, vs: [...fam.versions] }, ...(fam.dlc || []).map((d) => ({ name: d.name, vs: d.versions }))];
       for (const gr of groups) {
