@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="Content-Security-Policy"
-        content="default-src 'self'; img-src 'self' https://raw.githubusercontent.com data:; style-src 'self' 'unsafe-inline'; script-src 'self'">
+        content="default-src 'self'; img-src 'self' https://raw.githubusercontent.com https://archives.bulbagarden.net http://tshadowknight.com data:; style-src 'self' 'unsafe-inline'; script-src 'self'">
   <title>Pokédex</title>
   <link rel="icon" href="icon.png">
   <link rel="stylesheet" href="styles.css">
@@ -24,6 +24,7 @@
         <button class="ghost" id="btn-export">Exporter</button>
         <button class="ghost" id="btn-import">Importer</button>
         <button class="ghost" id="btn-journal">Journal</button>
+        <button class="ghost wide-btn" id="btn-gamesave" title="Lire une sauvegarde de jeu (équipe + boîtes PC) et cocher les Pokémon que tu possèdes">Importer une sauvegarde de jeu</button>
       </div>
     </aside>
 
@@ -59,6 +60,8 @@
     </aside>
   </div>
   <div id="toast" class="toast hidden"></div>
+  <div id="modal" class="modal hidden"><div class="modal-box" id="modal-box"></div></div>
+  <script src="savereader.js"></script>
   <script src="engine.js"></script>
   <script src="app.js"></script>
 </body>

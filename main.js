@@ -102,6 +102,22 @@ ipcMain.handle('save:import', async () => {
   return JSON.parse(await fs.promises.readFile(filePaths[0], 'utf-8'));
 });
 
+// Sauvegarde d'un jeu Pokémon (émulateur ou cartouche) : on renvoie juste les octets, la lecture se fait dans src/savereader.js
+ipcMain.handle('gamesave:open', async () => {
+  const { filePaths, canceled } = await dialog.showOpenDialog({
+    title: 'Choisir la sauvegarde du jeu',
+    filters: [
+      { name: 'Sauvegardes Pokémon', extensions: ['sav', 'srm', 'sa1', 'dsv', 'dat', 'bin'] },
+      { name: 'Tous les fichiers', extensions: ['*'] },
+    ],
+    properties: ['openFile'],
+  });
+  if (canceled || !filePaths[0]) return null;
+  const st = await fs.promises.stat(filePaths[0]);
+  if (st.size > 4 * 1024 * 1024) return { name: path.basename(filePaths[0]), tooBig: true };
+  return { name: path.basename(filePaths[0]), data: await fs.promises.readFile(filePaths[0]) };
+});
+
 ipcMain.handle('journal:open', async () => {
   const win = new BrowserWindow({ width: 1100, height: 800, autoHideMenuBar: true, backgroundColor: '#14161c', title: 'Journal des modifications' });
   win.loadFile(path.join(__dirname, 'journal', 'journal.html'));

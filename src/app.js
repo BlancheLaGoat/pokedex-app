@@ -106,6 +106,7 @@ async function init() {
   Object.assign(S.core.ballNames, { 'strange-ball': 'Étrange Ball', 'cherish-ball': 'Mémoire Ball' }, S.core.ballNames);
   S.global.exclusives = ((await readJSON('curated/exclusives.json')) || {}).versions;
   S.global.livingdex = (await readJSON('curated/livingdex.json')) || null;
+  S.oak = (await readJSON('curated/oak.json')) || { games: {} };
   S.engine = new PokeEngine(S.core, S.global, { gen1: S.gen1, sv: S.sv, others: S.others, za: S.za }, readJSON);
   for (const p of Object.values(S.core.pokemon)) {
     if (p.def) {
@@ -129,6 +130,8 @@ async function init() {
     if (d && d.tracking) { S.save.tracking = d.tracking; persist(); renderNav(); render(); toast('Suivi importé'); }
   };
   $('btn-journal').onclick = () => window.api.openJournal();
+  $('btn-gamesave').onclick = importGameSave;
+  $('modal').onclick = (e) => { if (e.target.id === 'modal') closeModal(); };
   window.api.appVersion().then((v) => { $('app-version').textContent = 'Suivi par jeu · v' + v; });
   window.api.onUpdate((u) => {
     if (u.state === 'downloading') toast('Mise à jour v' + u.version + ' en cours de téléchargement…');
@@ -368,7 +371,7 @@ function renderNav() {
   const nav = $('nav');
   nav.innerHTML = '';
   const isActive = (v) => JSON.stringify(v) === JSON.stringify(S.view);
-  const go = (view) => { S.view = view; if ((view.type !== 'version' && S.tab === 'route') || (view.type === 'global' && S.tab === 'map') || (view.type !== 'global' && S.tab === 'easy')) S.tab = 'dex'; persist(); renderNav(); render(); };
+  const go = (view) => { S.view = view; if ((view.type !== 'version' && S.tab === 'route') || (view.type === 'global' && S.tab === 'map') || (view.type !== 'global' && S.tab === 'easy') || (S.tab === 'oak' && !(view.type === 'version' && S.oak.games[view.v]))) S.tab = 'dex'; persist(); renderNav(); render(); };
   const totalGlobal = Object.keys(S.core.species).length;
   let got = 0;
   const vs = [...allMainVersions(), 'global'];
@@ -376,6 +379,8 @@ function renderNav() {
   nav.append(h('button', { class: 'nav-item' + (isActive({ type: 'global' }) ? ' active' : ''), onclick: () => go({ type: 'global' }) },
     h('span', { class: 'caret' }, '◆'), h('span', { class: 'lbl' }, 'Pokédex national (tous les jeux)'),
     h('span', { class: 'pct' }, `${got}/${totalGlobal}`)));
+  nav.append(h('button', { class: 'nav-item' + (S.view.type === 'tools' ? ' active' : ''), onclick: () => go({ type: 'tools' }) },
+    h('span', { class: 'caret' }, '⚒'), h('span', { class: 'lbl' }, 'Outils')));
   let lastGen = 0;
   const openFams = S.save.settings.open || (S.save.settings.open = {});
   for (const fam of S.core.families) {
@@ -413,6 +418,7 @@ function renderNav() {
 
 // ------------------------------------------------------------------ rendu principal
 function render() {
+  if (S.view.type === 'tools') return renderTools();
   renderHead();
   renderChips();
   renderLegend();
@@ -467,11 +473,12 @@ function renderHead() {
   const t = (key, label) => tabs.append(h('button', { class: 'tab' + (S.tab === key ? ' active' : ''), onclick: () => { S.tab = key; render(); } }, label));
   t('dex', 'Pokédex');
   if (v.type === 'version') t('route', 'Route optimisée');
+  if (v.type === 'version' && S.oak.games[v.v]) t('oak', 'Défi du Prof. Chen');
   if (v.type !== 'global') t('map', 'Carte');
   if (v.type === 'global') t('easy', 'Le plus simple');
   t('forms', 'Formes alternatives');
-  $('toolbar').classList.toggle('hidden', S.tab === 'map');
-  $('chips').classList.toggle('hidden', S.tab === 'map');
+  $('toolbar').classList.toggle('hidden', S.tab === 'map' || S.tab === 'oak');
+  $('chips').classList.toggle('hidden', S.tab === 'map' || S.tab === 'oak');
   renderProgress();
 }
 
@@ -510,6 +517,7 @@ function renderContent() {
   content.innerHTML = '';
   if (S.tab === 'route' && S.view.type === 'version') return renderRoute(content);
   if (S.tab === 'easy' && S.view.type === 'global') return renderEasy(content);
+  if (S.tab === 'oak' && S.view.type === 'version' && S.oak.games[S.view.v]) return renderOak(content);
   if (S.tab === 'map' && S.view.type !== 'global') {
     S.mainMap = S.mainMap || {};
     const vs = viewVersions();
@@ -734,6 +742,72 @@ function refreshAfterToggle() {
 }
 
 // ------------------------------------------------------------------ route optimisée
+// ------------------------------------------------------------------ import d'une sauvegarde de jeu
+function closeModal() { $('modal').classList.add('hidden'); $('modal-box').innerHTML = ''; }
+function openModal(...kids) {
+  const box = $('modal-box');
+  box.innerHTML = '';
+  box.append(...kids);
+  $('modal').classList.remove('hidden');
+}
+
+async function importGameSave() {
+  const f = await window.api.openGameSave();
+  if (!f) return;
+  const close = h('button', { class: 'ghost', onclick: closeModal }, 'Fermer');
+  if (f.tooBig) return openModal(h('h3', null, f.name), h('p', null, 'Fichier trop gros pour une sauvegarde Pokémon. C\'est sûrement la ROM : elle ne contient pas tes Pokémon. Choisis le fichier de sauvegarde (.sav, .srm, .dsv, main…).'), close);
+  S.saveMaps = S.saveMaps || (await readJSON('save-species.json'));
+  const r = window.SaveReader.readSave(new Uint8Array(f.data), S.saveMaps);
+  if (!r) {
+    return openModal(h('h3', null, f.name), h('p', null, 'Je n\'ai pas reconnu cette sauvegarde. Jeux lus : Rouge / Bleu / Jaune, Or / Argent / Cristal, '
+      + 'Rubis / Saphir / Émeraude, Rouge Feu / Vert Feuille, Diamant / Perle / Platine, HeartGold / SoulSilver, Noir / Blanc, Noir 2 / Blanc 2, '
+      + 'X / Y, Rubis Oméga / Saphir Alpha, Soleil / Lune, Ultra-Soleil / Ultra-Lune (fichier « main » exporté avec Checkpoint ou JKSM), '
+      + 'Let\'s Go Pikachu / Évoli et Diamant Étincelant / Perle Scintillante (sauvegarde Switch exportée). '
+      + 'Épée / Bouclier, Légendes Arceus, Écarlate / Violet et Légendes Z-A ne sont pas lisibles (sauvegardes chiffrées).'), close);
+  }
+  const species = new Map();
+  for (const m of r.mons) {
+    if (!S.core.species[m.sid]) continue;
+    const x = species.get(m.sid) || { n: 0, shiny: false };
+    x.n++; if (m.shiny) x.shiny = true;
+    species.set(m.sid, x);
+  }
+  const shinyCount = [...species.values()].filter((x) => x.shiny).length;
+  const vs = r.versions.filter((v) => S.core.games[v]);
+  const sel = h('select', null, ...vs.map((v) => h('option', { value: v, selected: v === r.guess }, vName(v))));
+  const replace = h('input', { type: 'checkbox' });
+  const withShiny = h('input', { type: 'checkbox', checked: true });
+  const doImport = () => {
+    const v = +sel.value;
+    let added = 0, shinyAdded = 0;
+    if (replace.checked) {
+      const t = S.save.tracking[v] || {};
+      for (const k of Object.keys(t)) if (/^\d+$/.test(k) && !species.has(+k)) setRec(v, k, { c: 0, s: 0 });
+    }
+    for (const [sid, x] of species) {
+      const key = String(sid);
+      if (!isC(v, key)) added++;
+      setRec(v, key, { c: 1 });
+      if (withShiny.checked && x.shiny) { if (!isS(v, key)) shinyAdded++; setRec(v, key, { s: 1 }); }
+    }
+    closeModal();
+    S.view = { type: 'version', v };
+    S.tab = 'dex';
+    persist(); renderNav(); render();
+    toast(`${vName(v)} : ${added} Pokémon cochés` + (shinyAdded ? `, ${shinyAdded} shiny` : '') + ` (${species.size} espèces dans la sauvegarde)`);
+  };
+  const names = [...species.keys()].sort((a, b) => a - b).map((sid) => S.core.species[sid].fr + (species.get(sid).shiny ? ' ★' : ''));
+  openModal(
+    h('h3', null, 'Sauvegarde : ' + f.name),
+    h('p', null, h('b', null, 'Pokémon ' + r.label), ` — ${r.mons.length} Pokémon dans l'équipe et les boîtes PC, soit ${species.size} espèces différentes` + (shinyCount ? ` dont ${shinyCount} en shiny.` : '.')),
+    h('p', { class: 'muted' }, 'Seuls les Pokémon que tu possèdes encore comptent (les œufs non éclos sont ignorés). Les formes (Zarbi, formes régionales…) ne sont pas importées, seulement l\'espèce.'),
+    h('label', { class: 'modal-row' }, 'Cocher dans : ', sel),
+    h('label', { class: 'modal-row' }, withShiny, ' Marquer aussi les shiny (★)'),
+    h('label', { class: 'modal-row' }, replace, ' Décocher d\'abord les Pokémon de cette version absents de la sauvegarde'),
+    h('details', { class: 'modal-list' }, h('summary', null, 'Voir les espèces trouvées'), h('div', { class: 'muted' }, names.join(', '))),
+    h('div', { class: 'modal-actions' }, h('button', { class: 'ghost', onclick: closeModal }, 'Annuler'), h('button', { class: 'primary', onclick: doImport }, 'Importer')));
+}
+
 // ------------------------------------------------------------------ le plus simple (Pokédex national)
 function easyHow(r, short) {
   const name = (x) => S.core.species[x].fr;
@@ -1076,8 +1150,7 @@ function paneObtention(pane, sid) {
     if (!best.length && best.eventOnly) eb.append(easyNone(best));
     pane.append(eb);
     const sl = sheetLines(sid, true);
-    if (sl.length) pane.append(h('div', { class: 'box easy-box' }, h('h4', null, 'Feuille « National living dex »',
-      h('a', { href: S.global.livingdex.url, target: '_blank', class: 'muted' }, 'ouvrir')), ...sl));
+    if (sl.length) pane.append(h('div', { class: 'box easy-box' }, h('h4', null, 'Feuille « National living dex »'), ...sl));
     for (const fam of S.core.families) {
       const groups = [{ name: fam.name, vs: [...fam.versions] }, ...(fam.dlc || []).map((d) => ({ name: d.name, vs: d.versions }))];
       for (const gr of groups) {
@@ -1399,7 +1472,20 @@ function renderMapInto(pane, sid, v, st, rerender) {
   for (const n of map.nodes) pos[n.id] = n;
   const NS = 'http://www.w3.org/2000/svg';
   const sv = (tag, attrs, ...kids) => { const e = document.createElementNS(NS, tag); for (const [k, val] of Object.entries(attrs || {})) e.setAttribute(k, val); kids.forEach((k) => k && e.append(k)); return e; };
-  const svg = sv('svg', { viewBox: '-4 -5 108 84', class: 'map-svg' });
+  // vraie carte du jeu : l'image sert de fond, les lieux (en % de l'image) sont ramenés dans un repère 0-100 en largeur
+  let svg;
+  if (map.img) {
+    const [x0, y0, x1, y1] = map.img.crop;
+    const cw = (x1 - x0) / 100 * map.img.w, ch = (y1 - y0) / 100 * map.img.h;
+    const H = 100 * ch / cw;
+    const tx = (x) => (x - x0) / (x1 - x0) * 100, ty = (y) => (y - y0) / (y1 - y0) * H;
+    svg = sv('svg', { viewBox: `0 0 100 ${H}`, class: 'map-svg map-img' });
+    svg.append(sv('image', { href: map.img.url, x: tx(0), y: ty(0), width: 100 * 100 / (x1 - x0), height: H * 100 / (y1 - y0), preserveAspectRatio: 'none', class: 'm-bg' }));
+    for (const n of map.nodes) pos[n.id] = { ...n, x: tx(n.x), y: ty(n.y) };
+    map.nodes.forEach((n) => { n._x = pos[n.id].x; n._y = pos[n.id].y; });
+  } else {
+    svg = sv('svg', { viewBox: '-4 -5 108 84', class: 'map-svg' });
+  }
   for (const p of map.paths) {
     const pts = p.map((id) => pos[id]).filter(Boolean).map((n) => n.x + ',' + n.y).join(' ');
     svg.append(sv('polyline', { points: pts, class: 'm-path' }));
@@ -1413,7 +1499,7 @@ function renderMapInto(pane, sid, v, st, rerender) {
     const [c, t] = has ? caughtSet(L.list) : [0, 0];
     const done = has && c === t;
     const cls = ['m-node', 'm-' + kind, has ? 'has' : 'empty', here ? 'here' : '', done ? 'done' : '', st.mapLoc === n.id ? 'sel' : ''].join(' ');
-    const gEl = sv('g', { class: cls, transform: `translate(${n.x},${n.y})` });
+    const gEl = sv('g', { class: cls, transform: `translate(${map.img ? n._x : n.x},${map.img ? n._y : n.y})` });
     const title = sv('title'); title.textContent = nodeName(n.id, v, n) + (has ? ` — ${c}/${t} capturés` : '');
     gEl.append(title);
     if (kind === 'town') gEl.append(sv('rect', { x: -1.8, y: -1.8, width: 3.6, height: 3.6, rx: 0.6 }));
@@ -1421,7 +1507,9 @@ function renderMapInto(pane, sid, v, st, rerender) {
     else gEl.append(sv('rect', { x: -1.5, y: -1.5, width: 3, height: 3, rx: 0.4, transform: 'rotate(45)' }));
     if (here) gEl.append(sv('circle', { r: 3.2, class: 'm-ring' }));
     const big = st !== S.drawer;
-    const lab = kind === 'route' ? routeNum(n.id) : (kind === 'town' || ((big || map.labels) && has) ? (n.label || nodeName(n.id, v, n)) : '');
+    // sur la vraie carte, seuls les numéros de route et les villes ont une étiquette (le reste : au survol ou une fois choisi)
+    const lab = kind === 'route' ? routeNum(n.id) : (map.img ? (kind === 'town' || st.mapLoc === n.id ? (n.label || nodeName(n.id, v, n)) : '')
+      : (kind === 'town' || ((big || map.labels) && has) ? (n.label || nodeName(n.id, v, n)) : ''));
     if (lab) {
       const t2 = sv('text', { y: kind === 'route' ? 0.65 : (kind === 'town' ? 4.6 : 4), class: kind === 'route' ? 'm-num' : (kind === 'town' ? 'm-label' : 'm-label m-small') });
       t2.textContent = lab.length > 16 ? lab.slice(0, 15) + '…' : lab;
@@ -1431,6 +1519,7 @@ function renderMapInto(pane, sid, v, st, rerender) {
     svg.append(gEl);
   }
   pane.append(h('div', { class: 'map-wrap' }, svg));
+  if (map.img) pane.append(h('div', { class: 'muted', style: 'font-size:11px;margin-top:2px' }, map.img.source + ' (connexion internet nécessaire).'));
   pane.append(h('div', { class: 'map-legend' },
     h('span', null, h('i', { class: 'lg here' }), 'Ce Pokémon'), h('span', null, h('i', { class: 'lg has' }), 'Pokémon à capturer'),
     h('span', null, h('i', { class: 'lg done' }), 'Tout capturé'), h('span', null, h('i', { class: 'lg lg-empty' }), 'Sans rencontre')));
@@ -1499,3 +1588,255 @@ init().catch((e) => {
   $('title').textContent = 'Erreur de chargement';
   $('subtitle').textContent = String(e);
 });
+
+
+// ------------------------------------------------------------------ outils
+const TOOL_SP = { Caterpie: 10, Metapod: 11, Butterfree: 12, Weedle: 13, Kakuna: 14, Beedrill: 15, Exeggcute: 102, Ekans: 23, Venonat: 48,
+  Spearow: 21, Aipom: 190, Heracross: 214, Ledyba: 165, Spinarak: 167, Hoothoot: 163, Noctowl: 164, Pineco: 204 };
+
+// Coup d'Boule (Or / Argent / Cristal) : tables par groupe d'arbres, d'après « Headbutt Grid » (tshadowknight.com)
+const HB_GROUPS = {
+  4: [
+    { normal: [['Caterpie', 65], ['Metapod', 15], ['Butterfree', 5], ['Exeggcute', 15]], rare: [['Caterpie', 50], ['Butterfree', 5], ['Exeggcute', 15], ['Pineco', 30]] },
+    { normal: [['Spearow', 80], ['Aipom', 20]], rare: [['Spearow', 50], ['Aipom', 20], ['Heracross', 30]] }],
+  5: [
+    { normal: [['Weedle', 65], ['Kakuna', 15], ['Beedrill', 5], ['Exeggcute', 15]], rare: [['Weedle', 50], ['Beedrill', 5], ['Exeggcute', 15], ['Pineco', 30]] },
+    { normal: [['Spearow', 80], ['Aipom', 20]], rare: [['Spearow', 50], ['Aipom', 20], ['Heracross', 30]] }],
+  6: [
+    { normal: [['Spearow', 65], ['Ekans', 15], ['Aipom', 20]], rare: [['Spearow', 50], ['Aipom', 20], ['Heracross', 30]] },
+    { normal: [['Butterfree', 5], ['Beedrill', 5], ['Hoothoot', 50], ['Noctowl', 10], ['Pineco', 30]], rare: [['Caterpie', 15], ['Metapod', 5], ['Weedle', 15], ['Kakuna', 5], ['Hoothoot', 60]] },
+    { normal: [['Venonat', 15], ['Exeggcute', 20], ['Hoothoot', 65]], rare: [['Exeggcute', 20], ['Hoothoot', 50], ['Pineco', 30]] },
+    { normal: [['Ekans', 15], ['Exeggcute', 20], ['Hoothoot', 65]], rare: [['Exeggcute', 20], ['Hoothoot', 50], ['Pineco', 30]] },
+    { normal: [['Exeggcute', 20], ['Hoothoot', 50], ['Ledyba', 15], ['Spinarak', 15]], rare: [['Exeggcute', 20], ['Hoothoot', 50], ['Pineco', 30]] },
+    { normal: [['Spearow', 80], ['Aipom', 20]], rare: [['Spearow', 50], ['Aipom', 20], ['Heracross', 30]] }],
+};
+// [nom, image de la carte, groupe Or, Argent, Cristal]
+const HB_MAPS = [
+  ['Écorcia', 'Azalea_Town_GSC', 0, 0, 0], ['Bois aux Chênes', 'Ilex_Forest_GSC', 0, 0, 1], ['Lac Colère', 'Lake_of_Rage_GSC', 0, 0, 2],
+  ['Route 26', 'Kanto_Route_26_GSC', 0, 0, 3], ['Route 27', 'Kanto_Route_27_GSC', 0, 0, 3], ['Route 29', 'Johto_Route_29_GSC', 1, 1, 4],
+  ['Route 30', 'Johto_Route_30_GSC', 1, 1, 4], ['Route 31', 'Johto_Route_31_GSC', 1, 1, 4], ['Route 32', 'Johto_Route_32_GSC', 1, 1, 3],
+  ['Route 33', 'Johto_Route_33_GSC', 1, 1, 0], ['Route 34', 'Johto_Route_34_GSC', 0, 0, 4], ['Route 35', 'Johto_Route_35_GSC', 0, 0, 4],
+  ['Route 36', 'Johto_Route_36_C', 0, 0, 4], ['Route 37', 'Johto_Route_37_GSC', 0, 0, 4], ['Route 38', 'Johto_Route_38_GSC', 0, 0, 4],
+  ['Route 39', 'Johto_Route_39_GSC', 0, 0, 4], ['Route 42', 'Johto_Route_42_GSC', 1, 1, 0], ['Route 43', 'Johto_Route_43_GS', 1, 1, 2],
+  ['Route 44', 'Johto_Route_44_GSC', 1, 1, 5], ['Mauville', 'Violet_City_GS', 0, 0, 0],
+];
+
+// Arbres à Miel (Diamant / Perle / Platine), d'après The Cave of Dragonflies et Bulbapedia
+const HONEY_TREES = ['Route 205 (côté Floraville)', 'Route 205 (côté Vestigion)', 'Route 206 (Coupe)', 'Route 207', 'Route 208', 'Route 209',
+  'Route 210 (côté Bonville)', 'Route 210 (côté Célestia)', 'Route 211', 'Route 212 (côté Unionpolis)', 'Route 212 (côté Verchamps)',
+  'Route 213 (Éclate-Roc)', 'Route 214', 'Route 215', 'Route 218', 'Route 221', 'Route 222', 'Les Éoliennes', 'Forêt de Vestigion (Coupe)',
+  'Forge Fuego (Surf)', 'Pré de Floraville'];
+const HONEY_RATES = { // % par arbre : [normal, Goinfrex] — Diamant / Perle puis Platine
+  dp: [[265, 29, 11.5], ['266/268', 14, 4], [415, 22, 32], [412, 11, 16], [420, 7.5, 15], [190, 5.5, 8], [214, 1, 3.5], [446, 0, 1], [null, 10, 9]],
+  pt: [[265, 14, 4], [415, 32, 22], [412, 22, 32], [420, 11, 16], [190, 10, 12.5], [214, 1, 3.5], [446, 0, 1], [null, 10, 9]],
+};
+
+function toolSettings() { return S.save.settings.tools || (S.save.settings.tools = { tool: 'headbutt', hbVersion: 6, hbMap: 0, hbZoom: 2, honeyVersion: 'pt', honey: {} }); }
+
+function renderTools() {
+  const T = toolSettings();
+  $('banner').classList.add('hidden');
+  $('title').textContent = 'Outils';
+  $('subtitle').textContent = 'Calculateurs pour trouver plus vite certains Pokémon.';
+  $('progress').innerHTML = '';
+  for (const id of ['toolbar', 'chips', 'legend']) $(id).classList.add('hidden');
+  const tabs = $('tabs');
+  tabs.innerHTML = '';
+  const t = (key, label) => tabs.append(h('button', { class: 'tab' + (T.tool === key ? ' active' : ''), onclick: () => { T.tool = key; persist(); renderTools(); } }, label));
+  t('headbutt', "Arbres à Coup d'Boule (Or / Argent / Cristal)");
+  t('honey', 'Arbres à Miel (Diamant / Perle / Platine)');
+  const content = $('content');
+  content.innerHTML = '';
+  clearInterval(S.honeyTimer);
+  if (T.tool === 'honey') renderHoney(content, T); else renderHeadbutt(content, T);
+}
+
+function tidInput(T, key, label) {
+  return h('label', { class: 'tool-field' }, label, h('input', {
+    type: 'number', min: 0, max: 65535, value: T[key] ?? '', placeholder: '00000',
+    onchange: (e) => { const v = e.target.value === '' ? null : Math.max(0, Math.min(65535, +e.target.value)); T[key] = v; persist(); renderTools(); },
+  }));
+}
+
+function monChip(name, rate) {
+  const sid = typeof name === 'number' ? name : TOOL_SP[name];
+  const df = sid && S.defForm[sid];
+  return h('div', { class: 'tool-mon' }, df ? img(df.spr, false, false, S.core.species[sid].fr) : null,
+    h('div', null, sid ? S.core.species[sid].fr : name), h('b', null, rate + ' %'));
+}
+
+function renderHeadbutt(content, T) {
+  const tid = T.tidGSC;
+  const pivot = tid == null ? -1 : tid % 10;
+  const [name, file, ...groups] = HB_MAPS[T.hbMap] || HB_MAPS[0];
+  const group = HB_GROUPS[T.hbVersion][groups[T.hbVersion - 4]];
+  const vSel = h('select', { onchange: (e) => { T.hbVersion = +e.target.value; persist(); renderTools(); } },
+    ...[4, 5, 6].map((v) => h('option', { value: v, selected: T.hbVersion === v }, S.core.games[v].name)));
+  const mSel = h('select', { onchange: (e) => { T.hbMap = +e.target.value; persist(); renderTools(); } },
+    ...HB_MAPS.map((m, i) => h('option', { value: i, selected: T.hbMap === i }, m[0])));
+  const zoom = h('div', { class: 'easy-seg' }, h('span', { class: 'muted' }, 'Zoom :'),
+    ...[1, 2, 3, 4].map((z) => h('button', { class: T.hbZoom === z ? 'on' : '', onclick: () => { T.hbZoom = z; persist(); renderTools(); } }, z + '×')));
+  content.append(h('div', { class: 'tool-ctrl' }, tidInput(T, 'tidGSC', 'ID dresseur :'), h('label', { class: 'tool-field' }, 'Version :', vSel), h('label', { class: 'tool-field' }, 'Carte :', mSel), zoom));
+  content.append(h('div', { class: 'box' }, pivot < 0
+    ? 'Entre ton ID dresseur (carte dresseur) : les arbres sont marqués selon son dernier chiffre.'
+    : h('span', null, `Dernier chiffre de ton ID : ${pivot}. `, h('span', { class: 'hb-star' }, '★'), ' arbre rare : 80 % de chances qu\'un Pokémon tombe, table « rare » · ',
+      h('span', { class: 'hb-dot' }, '●'), ' arbre normal : 50 %, table « normale » · sans marque : 10 %, table « normale ». Seules les cases qui sont des arbres comptent.')));
+  const tables = h('div', { class: 'tool-tables' },
+    h('div', { class: 'box' }, h('h4', null, 'Table normale'), h('div', { class: 'tool-mons' }, ...group.normal.map(([n, r]) => monChip(n, r)))),
+    h('div', { class: 'box' }, h('h4', null, 'Table rare (arbres ★)'), h('div', { class: 'tool-mons' }, ...group.rare.map(([n, r]) => monChip(n, r)))));
+  content.append(tables);
+  const z = T.hbZoom || 2;
+  const wrap = h('div', { class: 'hb-map' });
+  const im = h('img', { src: `http://tshadowknight.com/headbuttgrid/img/maps/${file}.png`, alt: name });
+  const grid = h('div', { class: 'hb-grid' });
+  im.onload = () => {
+    const w = im.naturalWidth, hgt = im.naturalHeight;
+    im.style.width = w * z + 'px';
+    im.style.height = hgt * z + 'px';
+    grid.style.width = w * z + 'px';
+    grid.style.height = hgt * z + 'px';
+    if (pivot < 0) return;
+    const bs = 16 * z;
+    for (let i = 0; i < hgt / 16; i++) for (let j = 0; j < w / 16; j++) {
+      const x = j + 4, y = i + 4;
+      const idx = Math.floor((x * y + x + y) / 5) % 10;
+      const diff = (idx - pivot + 10) % 10;
+      if (diff >= 5) continue;
+      grid.append(h('div', { class: 'hb-cell ' + (diff === 0 ? 'high' : 'mod'), style: `left:${j * bs}px;top:${i * bs}px;width:${bs}px;height:${bs}px;font-size:${8 + 3 * z}px` }, diff === 0 ? '★' : '●'));
+    }
+  };
+  im.onerror = () => wrap.replaceChildren(h('div', { class: 'empty' }, 'Carte indisponible (connexion à tshadowknight.com nécessaire).'));
+  wrap.append(im, grid);
+  content.append(wrap);
+  content.append(h('div', { class: 'muted tool-src' }, 'Méthode et cartes : « Headbutt Grid » de tshadowknight.com. Les arbres de HeartGold / SoulSilver fonctionnent autrement (non couverts).'));
+}
+
+// arbres à Goinfrex : octets bas / haut de l'ID secret (A, B) et de l'ID dresseur (C, D), modulo 21, collisions décalées
+function munchlaxTrees(tid, sid) {
+  const lo = (x) => (x & 0xFF) % 21, hi = (x) => (x >> 8) % 21;
+  const C0 = lo(tid), D0 = hi(tid);
+  if (sid == null) return [C0, D0];
+  let A = lo(sid), B = hi(sid), C = C0, D = D0;
+  if (B === A) B = (B + 1) % 21;
+  if (C === A || C === B) C = (C + 1) % 21;
+  if (D === A || D === B || D === C) D = (D + 1) % 21;
+  return [A, B, C, D];
+}
+
+function renderHoney(content, T) {
+  const vSel = h('select', { onchange: (e) => { T.honeyVersion = e.target.value; persist(); renderTools(); } },
+    h('option', { value: 'dp', selected: T.honeyVersion === 'dp' }, 'Diamant / Perle'), h('option', { value: 'pt', selected: T.honeyVersion === 'pt' }, 'Platine'));
+  content.append(h('div', { class: 'tool-ctrl' }, tidInput(T, 'tidDP', 'ID dresseur :'), tidInput(T, 'sidDP', 'ID secret (facultatif) :'), h('label', { class: 'tool-field' }, 'Version :', vSel)));
+  const special = T.tidDP == null ? [] : munchlaxTrees(T.tidDP, T.sidDP);
+  content.append(h('div', { class: 'box' }, T.tidDP == null
+    ? 'Entre ton ID dresseur pour voir les arbres où Goinfrex peut apparaître. L\'ID secret ne s\'affiche pas en jeu : sans lui, 2 arbres sur 4 restent inconnus.'
+    : `Arbres à Goinfrex : ${special.map((i) => HONEY_TREES[i]).join(' · ')}` + (T.sidDP == null ? ' (+ 2 autres qui dépendent de l\'ID secret).' : '.')));
+  const rates = HONEY_RATES[T.honeyVersion];
+  const sp = (x) => (typeof x === 'string' ? x.split('/').map((n) => S.core.species[n].fr).join(' / ') : x == null ? 'Rien' : S.core.species[x].fr);
+  content.append(h('div', { class: 'box' }, h('h4', null, 'Chances par arbre (Pokémon niv. 5 à 15)'),
+    h('table', { class: 't' }, h('tr', null, h('th', null, 'Pokémon'), h('th', null, 'Arbre normal'), h('th', null, 'Arbre à Goinfrex')),
+      ...rates.map(([x, a, b]) => h('tr', null, h('td', null, sp(x)), h('td', null, a + ' %'), h('td', null, b + ' %'))))));
+  // minuteur : prêt 6 h après le Miel, disparu après 24 h
+  const now = Date.now();
+  const H = 3600e3;
+  const fmt = (ms) => { const m = Math.max(0, Math.round(ms / 60000)); return `${Math.floor(m / 60)} h ${String(m % 60).padStart(2, '0')}`; };
+  const hhmm = (ts) => new Date(ts).toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' }) + (new Date(ts).toDateString() !== new Date().toDateString() ? ' (' + new Date(ts).toLocaleDateString('fr-FR', { weekday: 'short' }) + ')' : '');
+  const tbl = h('table', { class: 't honey-table' }, h('tr', null, h('th', null, '#'), h('th', null, 'Arbre'), h('th', null, 'Miel'), h('th', null, '')));
+  HONEY_TREES.forEach((name, i) => {
+    const ts = T.honey[i];
+    let st = h('span', { class: 'muted' }, '—');
+    if (ts) {
+      const age = now - ts;
+      st = age < 6 * H ? h('span', { class: 'pill' }, `Prêt dans ${fmt(6 * H - age)} (à ${hhmm(ts + 6 * H)})`)
+        : age < 24 * H ? h('span', { class: 'pill chance hi' }, `Prêt ! jusqu'à ${hhmm(ts + 24 * H)}`)
+          : h('span', { class: 'pill chance lo' }, 'Expiré : remettre du Miel');
+    }
+    tbl.append(h('tr', { class: special.includes(i) ? 'honey-munch' : '' },
+      h('td', null, i), h('td', null, name, special.includes(i) ? h('span', { class: 'pill sheet', style: 'margin-left:6px' }, 'Goinfrex possible') : null), h('td', null, st),
+      h('td', null, h('button', { class: 'ghost', onclick: () => { T.honey[i] = Date.now(); persist(); renderTools(); } }, 'Miel mis maintenant'),
+        ts ? h('button', { class: 'ghost', style: 'margin-left:4px', onclick: () => { delete T.honey[i]; persist(); renderTools(); } }, '×') : null)));
+  });
+  content.append(h('div', { class: 'box' }, h('h4', null, 'Minuteur'), h('div', { class: 'muted', style: 'margin-bottom:6px' },
+    'Un Pokémon peut apparaître 6 h réelles après avoir mis le Miel ; après 24 h, le Miel et le Pokémon disparaissent. Changer l\'heure de la console ne change rien.'), tbl));
+  content.append(h('div', { class: 'muted tool-src' }, 'Sources : The Cave of Dragonflies (dragonflycave.com) et Bulbapedia, page « Honey Tree ».'));
+  S.honeyTimer = setInterval(() => { if (S.view.type === 'tools' && T.tool === 'honey') { const y = $('content').scrollTop; renderTools(); $('content').scrollTop = y; } }, 60000);
+}
+
+
+// ------------------------------------------------------------------ Défi du Prof. Chen
+// Avant chaque badge (ou étape clé), attraper tous les Pokémon disponibles à ce moment-là. Listes de Mewlax (r/ProfessorOak).
+function renderOak(content) {
+  const v = S.view.v;
+  const lists = S.oak.games[v];
+  S.oakVariant = S.oakVariant || {};
+  const vi = Math.min(S.oakVariant[v] || 0, lists.length - 1);
+  const L = lists[vi];
+  const key = (m) => String(m.sid);
+  const got = (m) => isC(v, key(m));
+  const partStats = (p) => {
+    let need = 0, have = 0;
+    for (const g of p.groups) {
+      if (g.kind === 'optional') continue;
+      if (g.kind === 'choice') {
+        // choix entre plusieurs familles (starters, fossiles…) : il faut toute la famille choisie ; sinon (évolutions d'Évoli…) un seul
+        const fams = new Map();
+        for (const m of g.mons) { const c = S.core.species[m.sid].chain; if (!fams.has(c)) fams.set(c, []); fams.get(c).push(m); }
+        if (fams.size === 1) { need++; if (g.mons.some(got)) have++; }
+        else {
+          const opts = [...fams.values()];
+          const best = opts.map((o) => [o.filter(got).length, o.length]).sort((x, y) => y[0] - x[0] || x[1] - y[1])[0];
+          need += best[1]; have += best[0];
+        }
+      } else { for (const m of g.mons) { need++; if (got(m)) have++; } }
+    }
+    return { need, have, done: have >= need };
+  };
+  const stats = L.parts.map(partStats);
+  const total = stats.reduce((a, s) => [a[0] + s.have, a[1] + s.need], [0, 0]);
+  const current = stats.findIndex((s) => !s.done);
+  const head = h('div', { class: 'box oak-head' },
+    h('div', null, h('b', null, 'Défi du Prof. Chen'), ' — avant chaque badge, attrape tous les Pokémon disponibles à ce moment-là avant d\'aller affronter l\'arène. ',
+      'Cocher ici coche le Pokémon dans ' + vName(v) + '.'),
+    h('div', { class: 'oak-prog' }, h('span', null, `${total[0]} / ${total[1]}`),
+      h('div', { class: 'bar' }, h('span', { style: `width:${total[1] ? (total[0] / total[1]) * 100 : 0}%` })),
+      h('span', { class: 'muted' }, current < 0 ? 'Défi terminé !' : 'En cours : ' + L.parts[current].title)),
+    lists.length > 1 ? h('div', { class: 'easy-seg' }, h('span', { class: 'muted' }, 'Liste :'),
+      ...lists.map((x, i) => h('button', { class: i === vi ? 'on' : '', onclick: () => { S.oakVariant[v] = i; renderContent(); } }, x.variant || 'Normale'))) : null,
+    h('div', { class: 'muted tool-src' }, 'Listes de Mewlax (r/ProfessorOak), traduites automatiquement : certaines remarques restent en partie en anglais.'));
+  content.append(head);
+  for (const n of L.intro || []) content.append(h('div', { class: 'oak-note' }, n));
+  L.parts.forEach((p, pi) => {
+    const st = stats[pi];
+    const det = h('details', { class: 'oak-part' + (st.done ? ' done' : '') + (pi === current ? ' current' : '') });
+    if (pi === current || (S.oakOpen && S.oakOpen[v + '|' + vi + '|' + pi])) det.open = true;
+    det.ontoggle = () => { S.oakOpen = S.oakOpen || {}; S.oakOpen[v + '|' + vi + '|' + pi] = det.open; };
+    det.append(h('summary', null, h('span', { class: 'oak-title' }, p.title), h('span', { class: 'pill' + (st.done ? ' chance hi' : '') }, `${st.have} / ${st.need}`)));
+    for (const n of p.notes) det.append(h('div', { class: 'oak-note' }, n));
+    for (const g of p.groups) {
+      if (g.title || g.kind !== 'main') {
+        det.append(h('div', { class: 'oak-group' }, g.title || '',
+          g.kind === 'choice' ? h('span', { class: 'muted' }, ' — un seul suffit') : g.kind === 'optional' ? h('span', { class: 'muted' }, ' — facultatif') : null));
+      }
+      const list = h('div', { class: 'oak-list' });
+      for (const m of g.mons) {
+        const sp = S.core.species[m.sid];
+        const c = got(m);
+        const row = h('div', { class: 'oak-mon' + (c ? ' caught' : ''), onclick: (e) => {
+          if (e.target.closest('.oak-more')) return;
+          toggle(v, key(m), false); refreshAfterToggle(); renderProgress();
+        } },
+        h('span', { class: 'oak-check' }, c ? '✔' : ''),
+        img(S.defForm[m.sid] && S.defForm[m.sid].spr, false, false, sp.fr),
+        h('div', { class: 'oak-body' },
+          h('div', null, h('b', null, sp.fr), m.form ? h('span', { class: 'muted' }, ' (' + m.form + ')') : null,
+            h('button', { class: 'oak-more ghost', title: 'Fiche du Pokémon', onclick: () => openDrawer(m.sid) }, '⋯')),
+          h('div', { class: 'oak-how' }, m.how.join(' · ')),
+          m.note ? h('div', { class: 'oak-mnote' }, m.note) : null));
+        list.append(row);
+      }
+      det.append(list);
+    }
+    content.append(det);
+  });
+  renderProgress();
+}

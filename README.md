@@ -39,10 +39,16 @@ Les sprites sont chargés depuis le dépôt PokeAPI sur GitHub (connexion néces
 - **Balls assorties** : jusqu'à 3 Balls légales choisies par couleur/thème pour chaque Pokémon, forme et shiny (feuille « Legal Matching Pokéballs 2.1 » de u/OracleLink, importée par `tools/import_matching_balls.py`).
 - **Codes couleur** (bouton « Couleurs ») : contour doré = légendaire / fabuleux, marron = fossile, violet = obtenable une seule fois dans le jeu, couleur officielle de la version = exclusivité de cette version (ex. rouge pour Rouge, bleu pour Bleu), pointillés = échange nécessaire (couleur de la version qui l'a, ou orange pour une évolution par échange). Exclusivités vérifiées sur la page « Version-exclusive Pokémon » de Bulbapedia (`tools/import_exclusives.py`), couleurs des versions d'après ses modèles `{{<version> color}}`.
 - **Clic sur la case** = capturé, **clic droit** = shiny, **bouton ⋯** en haut à droite = fiche du Pokémon.
-- **Carte interactive** (onglet Carte de la fiche) : carte schématique de la région, clic sur un lieu = Pokémon de ce lieu zone par zone, capturés grisés. Positions éditables dans `tools/maps_data.py`. Cartes Paldea, Septentria et Terra-Dôme incluses. Cartes Hisui, Illumis et Extra Illumis incluses ; Diamant Étincelant/Perle Scintillante utilise la carte de Sinnoh et Rubis Oméga/Saphir Alpha celle de Hoenn (pas de lieux de capture dans PokéAPI).
+- **Carte interactive** (onglet Carte de la fiche) : carte schématique de la région (Kanto : vraie carte du jeu, celle de Rouge Feu / Vert Feuille, chargée depuis Bulbagarden Archives, connexion internet nécessaire), clic sur un lieu = Pokémon de ce lieu zone par zone, capturés grisés. Positions éditables dans `tools/maps_data.py`. Cartes Paldea, Septentria et Terra-Dôme incluses. Cartes Hisui, Illumis et Extra Illumis incluses ; Diamant Étincelant/Perle Scintillante utilise la carte de Sinnoh et Rubis Oméga/Saphir Alpha celle de Hoenn (pas de lieux de capture dans PokéAPI).
 - **Fiche** : taux de capture, répartition des sexes, groupes Œuf, chaîne d'évolution avec conditions, talents de la génération du jeu (talent caché + comment l'obtenir), attaques du jeu (niveau, CT/CS/DT, œuf, tuteur), Balls utilisables et Ball enregistrée par jeu.
 
 - **Le plus simple** (Pokédex national) : pour chaque Pokémon, le jeu et l'endroit le plus simple / rapide ou avec le plus de chances (%), deux autres jeux, et les conseils de la feuille « National living dex » (4e, 5e, 6e génération). Les événements ne sont jamais proposés.
+
+- **Import d'une sauvegarde de jeu** (bouton en bas à gauche) : coche les Pokémon de l'équipe et des boîtes PC (shiny compris). Gen 1 à 7, Let's Go, Diamant Étincelant / Perle Scintillante. Pour la 3DS, exporter le fichier « main » avec Checkpoint ou JKSM ; pour la Switch, la sauvegarde exportée (JKSV…). La ROM ne sert à rien : il faut le fichier de sauvegarde.
+
+- **Outils** : arbres à Coup d'Boule d'Or / Argent / Cristal (carte avec les arbres rares selon l'ID dresseur) et arbres à Miel de Diamant / Perle / Platine (arbres à Goinfrex, chances, minuteur).
+
+- **Défi du Prof. Chen** (onglet dans chaque jeu) : les Pokémon à attraper avant chaque badge, d'après les listes de Mewlax (r/ProfessorOak), avec avancement par partie. Import : `tools/import_oak.py`.
 
 ## Données
 
@@ -83,4 +89,6 @@ Bouton « Journal » dans l'appli : liste chaque modification avec le code touch
 - Sprites : [PokeAPI/sprites](https://github.com/PokeAPI/sprites).
 - Balls assorties : feuille « Legal Matching Pokéballs 2.1 » de u/OracleLink.
 - Lieux conseillés 4e / 5e / 6e génération : feuille Google « National living dex ».
+- Carte de Kanto : image « KantoTownMap.png » de Bulbagarden Archives.
+- Défi du Prof. Chen : listes « POC List » de Mewlax (r/ProfessorOak).
 - Projet de fan non commercial. Pokémon et les noms associés appartiennent à Nintendo, Creatures et Game Freak.

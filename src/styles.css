@@ -42,7 +42,7 @@ button, select, input { font: inherit; color: inherit; }
 .nav-fam.open > .nav-children { display: block; }
 .nav-sub { font-size: 11px; text-transform: uppercase; letter-spacing: .6px; color: var(--muted); padding: 8px 10px 2px; }
 .nav-gen { font-size: 11px; text-transform: uppercase; letter-spacing: .8px; color: var(--muted); padding: 14px 10px 4px; }
-.side-foot { display: flex; gap: 6px; padding: 10px; border-top: 1px solid var(--line); }
+.side-foot { display: flex; flex-wrap: wrap; gap: 6px; padding: 10px; border-top: 1px solid var(--line); }
 .ghost { flex: 1; padding: 7px 8px; background: var(--bg3); border: 1px solid var(--line); border-radius: 8px; cursor: pointer; font-size: 12px; }
 .ghost:hover { border-color: var(--muted); }
 
@@ -278,3 +278,76 @@ table.t.easy-table th { position: static; }
 .sheet-line { display: flex; flex-wrap: wrap; align-items: center; gap: 4px; margin: 2px 0; font-size: 11px; }
 .sheet-gen { font-weight: 600; color: #B57BFF; min-width: 22px; }
 .pill.sheet { color: #B57BFF; border-color: #B57BFF; }
+
+/* fenêtre (import de sauvegarde) */
+.modal { position: fixed; inset: 0; background: rgba(0,0,0,.55); display: flex; align-items: center; justify-content: center; z-index: 50; }
+.modal.hidden { display: none; }
+.modal-box { background: var(--bg2, #1b1e26); border: 1px solid var(--line, #2e3341); border-radius: 12px; padding: 18px 22px; width: min(620px, 92vw); max-height: 86vh; overflow: auto; box-shadow: 0 20px 60px rgba(0,0,0,.5); font-size: 13px; }
+.modal-box h3 { margin: 0 0 10px; font-size: 16px; }
+.modal-box p { margin: 6px 0 10px; line-height: 1.45; }
+.modal-row { display: flex; align-items: center; gap: 8px; margin: 8px 0; }
+.modal-row select { flex: 1; }
+.modal-list { margin: 10px 0; }
+.modal-list summary { cursor: pointer; color: var(--muted, #9aa0ad); }
+.modal-list div { margin-top: 6px; line-height: 1.5; max-height: 180px; overflow: auto; }
+.modal-actions { display: flex; justify-content: flex-end; gap: 8px; margin-top: 14px; }
+.modal-actions .primary { background: #E5484D; border: 0; color: #fff; border-radius: 8px; padding: 7px 16px; cursor: pointer; font-weight: 600; }
+.side-foot .wide-btn { flex-basis: 100%; }
+.modal-row select { background: var(--bg3, #232733); color: inherit; border: 1px solid var(--line, #2e3341); border-radius: 6px; padding: 5px 8px; }
+
+/* outils */
+.tool-ctrl { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 22px; margin-bottom: 10px; }
+.tool-field { display: flex; align-items: center; gap: 6px; font-size: 13px; }
+.tool-field input, .tool-field select { background: var(--bg3); color: inherit; border: 1px solid var(--line); border-radius: 6px; padding: 5px 8px; }
+.tool-field input { width: 90px; }
+.tool-tables { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.tool-mons { display: flex; flex-wrap: wrap; gap: 8px; }
+.tool-mon { display: flex; flex-direction: column; align-items: center; font-size: 11px; min-width: 70px; }
+.tool-mon img { width: 48px; height: 48px; }
+.hb-map { position: relative; overflow: auto; width: fit-content; max-width: 100%; border: 1px solid var(--line); border-radius: 8px; background: #000; margin-top: 4px; }
+.hb-map img { display: block; image-rendering: pixelated; }
+.hb-grid { position: absolute; left: 0; top: 0; pointer-events: none; }
+.hb-cell { position: absolute; display: flex; align-items: center; justify-content: center; opacity: .85; text-shadow: 0 0 2px #000; }
+.hb-cell.high { background: rgba(232,181,2,.45); color: #FFE27A; }
+.hb-cell.mod { background: rgba(90,210,122,.25); color: #9DF0B2; }
+.hb-star { color: #E8B502; } .hb-dot { color: #5AD27A; }
+.tool-src { font-size: 11px; margin-top: 10px; }
+.honey-table tr.honey-munch td { background: rgba(181,123,255,.08); }
+/* les en-têtes collants ne servent que dans la fiche : dans la page principale ils passaient par-dessus les lignes */
+#content table.t th { position: static; }
+table.t.honey-table td { vertical-align: middle; }
+
+/* Défi du Prof. Chen */
+.oak-head { display: flex; flex-direction: column; gap: 8px; }
+.oak-prog { display: flex; align-items: center; gap: 10px; font-size: 13px; }
+.oak-prog .bar { flex: 0 0 240px; height: 6px; background: var(--bg2); border-radius: 4px; overflow: hidden; }
+.oak-prog .bar span { display: block; height: 100%; background: #5AD27A; }
+.oak-part { background: var(--bg3); border: 1px solid var(--line); border-radius: 8px; margin-bottom: 10px; padding: 0 12px; }
+.oak-part.current { border-color: #E8B502; }
+.oak-part.done summary .oak-title { color: var(--muted); }
+.oak-part summary { cursor: pointer; padding: 10px 0; display: flex; justify-content: space-between; align-items: center; gap: 10px; font-weight: 600; font-size: 14px; }
+.oak-note { background: rgba(232,145,58,.12); border-left: 3px solid #E8913A; padding: 6px 10px; margin: 6px 0; font-size: 12px; border-radius: 4px; white-space: pre-line; }
+.oak-group { font-weight: 600; font-size: 12px; margin: 10px 0 4px; color: #B57BFF; }
+.oak-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(330px, 1fr)); gap: 6px; padding-bottom: 10px; }
+.oak-mon { display: flex; gap: 8px; align-items: flex-start; background: var(--bg2); border: 1px solid var(--line); border-radius: 8px; padding: 6px 8px; cursor: pointer; }
+.oak-mon:hover { border-color: #5AD27A; }
+.oak-mon.caught { opacity: .5; }
+.oak-mon img { width: 44px; height: 44px; flex: none; }
+.oak-check { flex: none; width: 18px; height: 18px; border: 1px solid var(--line); border-radius: 4px; display: flex; align-items: center; justify-content: center; color: #5AD27A; font-size: 12px; margin-top: 2px; }
+.oak-body { flex: 1; min-width: 0; font-size: 12px; }
+.oak-body > div:first-child { display: flex; align-items: center; gap: 4px; }
+.oak-more { margin-left: auto; padding: 0 6px; }
+.oak-how { color: var(--muted); margin-top: 2px; }
+.oak-mnote { margin-top: 3px; font-style: italic; color: #E8913A; white-space: pre-line; }
+.oak-body .oak-more { flex: 0 0 auto; width: auto; margin-left: auto; padding: 0 8px; }
+
+/* vraie carte du jeu en fond */
+.map-img .m-bg { image-rendering: pixelated; }
+.map-img .m-node rect, .map-img .m-node circle { opacity: .92; }
+.map-img .m-node.empty { opacity: .55; }
+.map-img text { paint-order: stroke; stroke: rgba(0,0,0,.85); stroke-width: .9px; }
+.map-img .m-town rect { fill: rgba(91,156,240,.18) !important; stroke-width: .6 !important; }
+.map-img .m-town.done rect { fill: rgba(93,100,116,.35) !important; }
+.map-img .m-town.empty rect { fill: transparent !important; stroke: rgba(255,255,255,.35) !important; }
+.map-img .m-label { font-size: 2.6px; }
+.map-img .m-label.m-small { font-size: 2.2px; }

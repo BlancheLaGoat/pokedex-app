@@ -7,6 +7,7 @@ contextBridge.exposeInMainWorld('api', {
   exportSave: (obj) => ipcRenderer.invoke('save:export', obj),
   importSave: () => ipcRenderer.invoke('save:import'),
   openJournal: () => ipcRenderer.invoke('journal:open'),
+  openGameSave: () => ipcRenderer.invoke('gamesave:open'),
   appVersion: () => ipcRenderer.invoke('app:version'),
   installUpdate: () => ipcRenderer.invoke('update:install'),
   onUpdate: (cb) => ipcRenderer.on('update:status', (_e, d) => cb(d)),
