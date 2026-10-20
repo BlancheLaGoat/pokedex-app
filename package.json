@@ -1,7 +1,7 @@
 {
   "name": "pokedex-blanche",
   "productName": "Pokédex",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "description": "Pokédex de suivi par jeu : obtention, exclusivités, évolutions, talents, attaques, formes, shiny, routes.",
   "main": "main.js",
   "author": "BlancheLaGoat",
@@ -27,13 +27,16 @@
     ],
     "win": {
       "target": "nsis",
-      "artifactName": "Pokedex-Setup-${version}.${ext}"
+      "artifactName": "Pokedex-Setup-${version}.${ext}",
+      "icon": "build/icon.ico"
     },
     "nsis": {
       "oneClick": true,
       "perMachine": false,
       "createDesktopShortcut": true,
-      "shortcutName": "Pokédex"
+      "shortcutName": "Pokédex",
+      "installerIcon": "build/icon.ico",
+      "uninstallerIcon": "build/icon.ico"
     },
     "publish": [
       {

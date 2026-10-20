@@ -249,3 +249,4 @@ table.t td { padding: 4px 6px; border-bottom: 1px solid rgba(46,51,65,.6); verti
 
 .update-bar { margin: 0 10px 8px; padding: 8px 10px; border-radius: 8px; background: var(--ok-soft); border: 1px solid var(--ok); font-size: 12px; display: flex; flex-direction: column; gap: 6px; }
 .update-bar button { background: var(--ok); color: #08130d; border: 0; border-radius: 6px; padding: 5px 8px; cursor: pointer; font-weight: 600; }
+.brand-icon { width: 34px; height: 34px; border-radius: 8px; }

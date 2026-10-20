@@ -428,5 +428,41 @@ window.JOURNAL = [
 "code": "--- avant\n+++ après\n@@ -52,4 +52,6 @@\n **Diamant Étincelant / Perle Scintillante, Légendes Arceus, Légendes Z-A (+ Méga-Dimension), Rubis Oméga / Saphir Alpha** : lieux importés des tables de capture de Bulbapedia (`data/curated/bulba/`, script `tools/import_bulba.py`), légendaires dans `data/curated/others.json` et `za.json`. Les Pokémon absents de ces tables sont marqués « Données manquantes ».\n \n+**Corrections manuelles** : `data/curated/extra-encounters.json` (rencontres oubliées par les bases, ex. Concours de Capture d'Insectes d'Or/Argent/Cristal), appliqué par `tools/import_extra.py`.\n+\n Limite connue : lieux incomplets pour le Bleu japonais.\n \n@@ -64,4 +66,6 @@\n python tools/import_sv.py\n python tools/import_bulba.py\n+python tools/import_extra.py\n+python tools/import_exclusives.py\n python tools/maps_data.py\n ```"
 }
 ]
+},
+{
+"version": "1.5.3",
+"date": "2026-10-20",
+"title": "Icône de l'appli + publication corrigée",
+"points": [
+"Icône originale : encyclopédie de poche rouge (écran vert avec fiche, barre de progression, trois boutons) pour le bureau, la barre des tâches, l'installeur et la fenêtre (build/icon.svg, build/icon.png, build/icon.ico, src/icon.png)",
+"Workflow : l'installeur est construit puis la release est créée avec son tag par gh (GitHub refusait la création directe par electron-builder : « Published releases must have a valid tag »)"
+],
+"files": [
+{
+"path": ".github/workflows/build.yml",
+"kind": "modif",
+"code": "--- avant\n+++ après\n@@ -39,15 +39,26 @@\n           fi\n \n+      # Construit l'installeur + latest.yml (fichier lu par la mise à jour automatique), sans rien publier\n+      - name: Construire l'installeur\n+        run: npx electron-builder --win nsis --publish never\n+\n+      # Crée le tag vX.Y.Z sur ce commit et la release, avec l'installeur, sa blockmap et latest.yml\n       - name: Publier la release\n         if: steps.ver.outputs.new == 'true'\n-        run: npx electron-builder --win nsis --publish always\n-\n-      - name: Build de test\n-        if: steps.ver.outputs.new != 'true'\n-        run: npx electron-builder --win nsis --publish never\n+        shell: bash\n+        run: |\n+          V=${{ steps.ver.outputs.version }}\n+          ls -la dist\n+          gh release create \"v$V\" \\\n+            --target \"$GITHUB_SHA\" \\\n+            --title \"Pokédex v$V\" \\\n+            --notes \"Mise à jour automatique : l'appli installée la téléchargera toute seule. Première installation : lancer Pokedex-Setup-$V.exe.\" \\\n+            dist/Pokedex-Setup-$V.exe dist/Pokedex-Setup-$V.exe.blockmap dist/latest.yml\n \n       - uses: actions/upload-artifact@v4\n         with:\n           name: Pokedex-Setup-${{ steps.ver.outputs.version }}\n-          path: dist/*.exe\n+          path: |\n+            dist/*.exe\n+            dist/latest.yml\n "
+},
+{
+"path": "package.json",
+"kind": "modif",
+"code": "--- avant\n+++ après\n@@ -2,5 +2,5 @@\n   \"name\": \"pokedex-blanche\",\n   \"productName\": \"Pokédex\",\n-  \"version\": \"1.5.2\",\n+  \"version\": \"1.5.3\",\n   \"description\": \"Pokédex de suivi par jeu : obtention, exclusivités, évolutions, talents, attaques, formes, shiny, routes.\",\n   \"main\": \"main.js\",\n@@ -28,5 +28,6 @@\n     \"win\": {\n       \"target\": \"nsis\",\n-      \"artifactName\": \"Pokedex-Setup-${version}.${ext}\"\n+      \"artifactName\": \"Pokedex-Setup-${version}.${ext}\",\n+      \"icon\": \"build/icon.ico\"\n     },\n     \"nsis\": {\n@@ -34,5 +35,7 @@\n       \"perMachine\": false,\n       \"createDesktopShortcut\": true,\n-      \"shortcutName\": \"Pokédex\"\n+      \"shortcutName\": \"Pokédex\",\n+      \"installerIcon\": \"build/icon.ico\",\n+      \"uninstallerIcon\": \"build/icon.ico\"\n     },\n     \"publish\": ["
+},
+{
+"path": "main.js",
+"kind": "modif",
+"code": "--- avant\n+++ après\n@@ -37,4 +37,5 @@\n     backgroundColor: '#14161c',\n     title: 'Pokédex',\n+    icon: path.join(__dirname, 'src', 'icon.png'),\n     autoHideMenuBar: true,\n     webPreferences: {"
+},
+{
+"path": "src/index.html",
+"kind": "modif",
+"code": "--- avant\n+++ après\n@@ -6,4 +6,5 @@\n         content=\"default-src 'self'; img-src 'self' https://raw.githubusercontent.com data:; style-src 'self' 'unsafe-inline'; script-src 'self'\">\n   <title>Pokédex</title>\n+  <link rel=\"icon\" href=\"icon.png\">\n   <link rel=\"stylesheet\" href=\"styles.css\">\n </head>\n@@ -12,5 +13,5 @@\n     <aside id=\"sidebar\">\n       <div class=\"brand\">\n-        <span class=\"brand-dot\"></span>\n+        <img class=\"brand-icon\" src=\"icon.png\" alt=\"\">\n         <div>\n           <div class=\"brand-title\">Pokédex</div>"
+},
+{
+"path": "build/icon.svg",
+"kind": "ajout",
+"code": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\" width=\"512\" height=\"512\">\n  <defs>\n    <linearGradient id=\"bg\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\">\n      <stop offset=\"0\" stop-color=\"#F0442A\"/><stop offset=\"1\" stop-color=\"#B8200E\"/>\n    </linearGradient>\n    <linearGradient id=\"lens\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">\n      <stop offset=\"0\" stop-color=\"#9FE7FF\"/><stop offset=\"1\" stop-color=\"#2E8FD8\"/>\n    </linearGradient>\n  </defs>\n  <rect x=\"16\" y=\"16\" width=\"480\" height=\"480\" rx=\"104\" fill=\"url(#bg)\"/>\n  <rect x=\"16\" y=\"16\" width=\"480\" height=\"480\" rx=\"104\" fill=\"none\" stroke=\"#7A1407\" stroke-width=\"10\" opacity=\".5\"/>\n  <!-- grille de cases de collection -->\n  <g>\n    <rect x=\"86\"  y=\"104\" width=\"96\" height=\"96\" rx=\"22\" fill=\"#FFF4EC\"/>\n    <rect x=\"208\" y=\"104\" width=\"96\" height=\"96\" rx=\"22\" fill=\"#FFF4EC\"/>\n    <rect x=\"330\" y=\"104\" width=\"96\" height=\"96\" rx=\"22\" fill=\"#FFF4EC\" opacity=\".55\"/>\n    <rect x=\"86\"  y=\"226\" width=\"96\" height=\"96\" rx=\"22\" fill=\"#FFF4EC\"/>\n    <rect x=\"208\" y=\"226\" width=\"96\" height=\"96\" rx=\"22\" fill=\"#FFF4EC\" opacity=\".55\"/>\n    <rect x=\"86\"  y=\"348\" width=\"96\" height=\"96\" rx=\"22\" fill=\"#FFF4EC\" opacity=\".55\"/>\n  </g>\n  <!-- coches vertes -->\n  <g fill=\"none\" stroke=\"#2FA866\" stroke-width=\"16\" stroke-linecap=\"round\" stroke-linejoin=\"round\">\n    <path d=\"M110 154 l20 20 l32 -40\"/>\n    <path d=\"M232 154 l20 20 l32 -40\"/>\n    <path d=\"M110 276 l20 20 l32 -40\"/>\n  </g>\n  <!-- loupe -->\n  <g>\n    <line x1=\"392\" y1=\"392\" x2=\"456\" y2=\"456\" stroke=\"#2A1A14\" stroke-width=\"40\" stroke-linecap=\"round\"/>\n    <circle cx=\"330\" cy=\"330\" r=\"92\" fill=\"url(#lens)\" stroke=\"#2A1A14\" stroke-width=\"22\"/>\n    <path d=\"M285 300 a58 58 0 0 1 48 -40\" fill=\"none\" stroke=\"#fff\" stroke-width=\"14\" stroke-linecap=\"round\" opacity=\".8\"/>\n  </g>\n</svg>\n"
+}
+]
 }
 ];
