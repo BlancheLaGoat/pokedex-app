@@ -1,24 +1,54 @@
 {
   "name": "pokedex-blanche",
   "productName": "Pokédex",
-  "version": "1.0.0",
+  "version": "1.5.2",
   "description": "Pokédex de suivi par jeu : obtention, exclusivités, évolutions, talents, attaques, formes, shiny, routes.",
   "main": "main.js",
   "author": "BlancheLaGoat",
   "license": "MIT",
   "scripts": {
     "start": "electron .",
-    "dist": "electron-builder --win portable",
+    "dist": "electron-builder --win nsis",
     "data": "python tools/build_data.py ../pokeapi/data/v2/csv ../sprites_tree.txt data"
   },
   "devDependencies": {
-    "electron": "^33.2.0",
-    "electron-builder": "^25.1.8"
+    "electron": "^44.9.1",
+    "electron-builder": "^26.15.3"
   },
   "build": {
     "appId": "com.blanchelagoat.pokedex",
     "productName": "Pokédex",
-    "files": ["main.js", "preload.js", "src/**/*", "data/**/*", "journal/**/*"],
-    "win": { "target": "portable" }
+    "files": [
+      "main.js",
+      "preload.js",
+      "src/**/*",
+      "data/**/*",
+      "journal/**/*"
+    ],
+    "win": {
+      "target": "nsis",
+      "artifactName": "Pokedex-Setup-${version}.${ext}"
+    },
+    "nsis": {
+      "oneClick": true,
+      "perMachine": false,
+      "createDesktopShortcut": true,
+      "shortcutName": "Pokédex"
+    },
+    "publish": [
+      {
+        "provider": "github",
+        "owner": "BlancheLaGoat",
+        "repo": "pokedex-app",
+        "releaseType": "release"
+      }
+    ]
+  },
+  "dependencies": {
+    "electron-updater": "^6.8.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BlancheLaGoat/pokedex-app.git"
   }
 }

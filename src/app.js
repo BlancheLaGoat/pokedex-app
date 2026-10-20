@@ -11,18 +11,25 @@ const TYPE_COLORS = {
 const KIND_LABEL = {
   wild: 'Sauvage', unique: 'Unique', evo: 'Évolution', tradeEvo: 'Évo. par échange', egg: 'Œuf',
   exclusive: 'Exclusivité', tradeOnly: 'Échange requis', event: 'Événement', go: 'Pokémon GO',
-  none: 'Introuvable', unknown: 'Données manquantes',
+  none: 'Introuvable', unknown: 'Données manquantes', transfer: 'Transfert',
 };
 const KIND_CLASS = {
   wild: 'k-wild', unique: 'k-unique', evo: 'k-evo', tradeEvo: 'k-trade', egg: 'k-egg', exclusive: 'k-trade',
-  tradeOnly: 'k-trade', event: 'k-event', go: 'k-event', none: 'k-none', unknown: 'k-none',
+  tradeOnly: 'k-trade', event: 'k-event', go: 'k-event', none: 'k-none', unknown: 'k-none', transfer: 'k-trade',
 };
+// nom français d'un objet à partir de son identifiant (ex. metal-coat -> Peau Métal)
+function itemFr(ident) { const id = S.core.itemIdent && S.core.itemIdent[ident]; return (id && S.core.items[id]) || ident; }
+// libellé court d'une évolution par échange : échange simple ou avec objet tenu
+function tradeEvoLabel(info) {
+  if (!info || !info.via) return 'Évo. par échange';
+  return info.via.tradeItem ? 'Échange + ' + itemFr(info.via.tradeItem) : 'Échange simple';
+}
 const CLASS_FR = { 1: 'Statut', 2: 'Physique', 3: 'Spéciale' };
 
 const S = {
   core: null, engine: null, global: null, gen1: null, moves: null, movesVg: {},
   view: { type: 'global' }, tab: 'dex',
-  opts: { trade: true, egg: true, event: true, shiny: false, forms: false, battle: false, scope: 'regional' },
+  opts: { trade: true, egg: true, event: true, shiny: false, forms: false, battle: false, colors: true, scope: 'regional' },
   f: { q: '', type: '', gen: '', cat: '', obt: '', stage: '', status: '' },
   save: { version: 1, tracking: {}, settings: {} },
   sel: null, drawer: { tab: 'obt', ctx: null, shiny: false, female: false },
@@ -97,6 +104,7 @@ async function init() {
   S.maps = (await readJSON('curated/maps.json')) || { maps: {}, byFamily: {} };
   S.match = (await readJSON('curated/matching-balls.json')) || { species: {}, forms: {}, female: {} };
   Object.assign(S.core.ballNames, { 'strange-ball': 'Étrange Ball', 'cherish-ball': 'Mémoire Ball' }, S.core.ballNames);
+  S.global.exclusives = ((await readJSON('curated/exclusives.json')) || {}).versions;
   S.engine = new PokeEngine(S.core, S.global, { gen1: S.gen1, sv: S.sv, others: S.others, za: S.za }, readJSON);
   for (const p of Object.values(S.core.pokemon)) {
     if (p.def) {
@@ -119,6 +127,16 @@ async function init() {
     if (d && d.tracking) { S.save.tracking = d.tracking; persist(); renderNav(); render(); toast('Suivi importé'); }
   };
   $('btn-journal').onclick = () => window.api.openJournal();
+  window.api.appVersion().then((v) => { $('app-version').textContent = 'Suivi par jeu · v' + v; });
+  window.api.onUpdate((u) => {
+    if (u.state === 'downloading') toast('Mise à jour v' + u.version + ' en cours de téléchargement…');
+    if (u.state === 'ready') {
+      const b = $('update-bar');
+      b.innerHTML = '';
+      b.append(h('span', null, 'Version ' + u.version + ' prête.'), h('button', { onclick: () => window.api.installUpdate() }, 'Redémarrer et installer'));
+      b.classList.remove('hidden');
+    }
+  });
   $('drawer-close').onclick = () => { S.sel = null; $('drawer').classList.add('closed'); $('drawer').classList.remove('wide'); render(); };
   document.addEventListener('keydown', (e) => { if (e.key === 'Escape') $('drawer-close').click(); });
 }
@@ -264,6 +282,8 @@ function renderChips() {
     chip('★ Shiny', 'shiny', 'shinychip', 'Afficher et compter les shiny'),
     chip('Formes', 'forms', '', 'Afficher les formes alternatives et les différences mâle/femelle'),
     chip('Formes de combat', 'battle', '', 'Inclure Méga-Évolutions, Gigamax et formes de combat'),
+    h('span', { class: 'chip-sep' }),
+    chip('Couleurs', 'colors', '', 'Contour coloré : légendaires, fossiles, uniques, exclusivités, échanges'),
   );
   if (S.view.type !== 'global') {
     c.append(h('span', { class: 'chip-sep' }),
@@ -369,7 +389,7 @@ function renderNav() {
     const kids = h('div', { class: 'nav-children' });
     const addV = (v) => kids.append(h('button', {
       class: 'nav-item' + (isActive({ type: 'version', v }) ? ' active' : ''), onclick: () => go({ type: 'version', v }),
-    }, h('span', { class: 'caret' }), h('span', { class: 'lbl' }, S.core.games[v].name), h('span', { class: 'pct' }, pctFor([v]) + ' %')));
+    }, h('span', { class: 'caret' }, h('i', { class: 'vdot', style: `background:${vColor(v)}` })), h('span', { class: 'lbl' }, S.core.games[v].name), h('span', { class: 'pct' }, pctFor([v]) + ' %')));
     famVersions.forEach(addV);
     if (fam.extra && fam.extra.length) { kids.append(h('div', { class: 'nav-sub' }, 'Versions japonaises')); fam.extra.forEach(addV); }
     for (const d of fam.dlc || []) {
@@ -392,6 +412,7 @@ function renderNav() {
 function render() {
   renderHead();
   renderChips();
+  renderLegend();
   renderContent();
   if (S.sel != null) renderDrawer();
 }
@@ -515,8 +536,16 @@ function card(it) {
   const info = ctxInfo(it.sid);
   const ok = !info || S.engine.obtainable(info, S.opts);
   const el = h('div', { class: 'card' + (cs.c ? ' caught' : '') + (cs.s && S.opts.shiny ? ' sh' : '') + (ok ? '' : ' off') + (S.sel === it.sid ? ' sel' : '') });
+  const mark = S.opts.colors ? cardMark(it, info) : null;
+  if (mark) {
+    el.style.borderColor = mark.color;
+    el.style.borderWidth = '2px';
+    el.style.borderStyle = mark.dashed ? 'dashed' : 'solid';
+    if (mark.second) el.style.boxShadow = `inset 0 0 0 2px ${mark.second}`;
+    el.title = mark.label;
+  }
   const tv = toggleTarget(it);
-  el.title = tv ? 'Clic : capturé' + (tv !== 'global' && S.view.type === 'family' ? ' (' + S.core.games[tv].name + ')' : '') + ' · clic droit : shiny' : '';
+  el.title = (mark ? mark.label + '\n' : '') + (tv ? 'Clic : capturé' + (tv !== 'global' && S.view.type === 'family' ? ' (' + S.core.games[tv].name + ')' : '') + ' · clic droit : shiny' : '');
   el.onclick = () => {
     if (!tv) return;
     if (S.view.type !== 'version' && cs.c) uncheckEverywhere(it);
@@ -538,7 +567,7 @@ function card(it) {
   pk.types.forEach((t) => meta.append(typeBadge(t)));
   if (info && !it.form && !it.female) {
     const lbl = info.kind === 'unique' ? (info.uniqueLabel || 'Unique') : info.kind === 'exclusive'
-      ? 'Exclu ' + info.exclusiveTo.map(shortV).join('/') : KIND_LABEL[info.kind];
+      ? 'Exclu ' + info.exclusiveTo.map(shortV).join('/') : info.kind === 'tradeEvo' ? tradeEvoLabel(info) : KIND_LABEL[info.kind];
     meta.append(h('span', { class: 'pill ' + (KIND_CLASS[info.kind] || '') }, lbl));
     if (info.post) meta.append(h('span', { class: 'pill post' }, 'Après ligue'));
     if (info.exclusiveHere && S.view.type === 'version') meta.append(h('span', { class: 'pill excl' }, 'Exclusif'));
@@ -607,6 +636,42 @@ function resetView() {
     Object.assign(S.save.tracking, backup);
     persist(); renderNav(); render();
   });
+}
+
+// ------------------------------------------------------------------ codes couleur des cases
+const MARK = { leg: '#E8B502', fossil: '#B0703C', once: '#B57BFF', trade: '#E8913A' };
+function vColor(v) { return (S.global.versionColors || {})[v] || '#888'; }
+function cardMark(it, info) {
+  if (it.form || it.female) return null;
+  const sp = S.core.species[it.sid];
+  const fossil = (S.global.fossilFamilies || []).includes(it.sid) && (!info || info.kind !== 'wild');
+  const marks = [];
+  if (sp.leg || sp.myth) marks.push({ color: MARK.leg, label: sp.myth ? 'Fabuleux' : 'Légendaire' });
+  if (fossil) marks.push({ color: MARK.fossil, label: 'Fossile' });
+  if (info && info.once && !sp.leg && !sp.myth && !fossil) marks.push({ color: MARK.once, label: 'Obtenable une seule fois dans ce jeu' + (info.choice ? ' (' + info.choice.label + ')' : info.uniqueLabel ? ' (' + info.uniqueLabel + ')' : '') });
+  // exclusif à une version
+  const vs = viewVersions();
+  if (vs.length > 1) {
+    const where = vs.filter((v) => { const i = S.engine.status(v).get(it.sid); return i && i.exclusiveHere; });
+    if (where.length) marks.push({ color: vColor(where[0]), label: 'Exclusif à ' + where.map((v) => S.core.games[v].name).join(' / ') });
+  } else if (info && info.exclusiveHere) marks.push({ color: vColor(info.v), label: 'Exclusif à ' + S.core.games[info.v].name });
+  if (info && info.kind === 'exclusive') marks.push({ color: vColor(info.exclusiveTo[0]), dashed: true, label: 'Échange requis : exclusif à ' + info.exclusiveTo.map((x) => S.core.games[x].name).join(' / ') });
+  else if (info && info.kind === 'tradeEvo') marks.push({ color: MARK.trade, dashed: true, label: 'Évolution par échange : ' + (info.via.tradeItem ? 'échanger en tenant ' + itemFr(info.via.tradeItem) : 'échange simple, sans objet') });
+  else if (info && (info.kind === 'tradeOnly' || info.kind === 'transfer')) marks.push({ color: MARK.trade, dashed: true, label: info.note || 'Échange requis' });
+  if (!marks.length) return null;
+  return { ...marks[0], second: marks[1] && marks[1].color, label: marks.map((m) => m.label).join(' · ') };
+}
+
+function renderLegend() {
+  const el = $('legend');
+  el.innerHTML = '';
+  if (!S.opts.colors || S.tab !== 'dex') { el.classList.add('hidden'); return; }
+  el.classList.remove('hidden');
+  const item = (color, label, dashed) => h('span', { class: 'lg-item' }, h('i', { style: `border:2px ${dashed ? 'dashed' : 'solid'} ${color}` }), label);
+  el.append(item(MARK.leg, 'Légendaire / Fabuleux'), item(MARK.fossil, 'Fossile'), item(MARK.once, 'Une seule fois'));
+  const vs = S.view.type === 'global' ? [] : [...new Set([...viewVersions(), ...viewVersions().flatMap((v) => S.engine.siblings(v).filter((x) => !S.core.games[x].extra))])];
+  for (const v of vs) el.append(item(vColor(v), 'Exclusif ' + S.core.games[v].name));
+  if (vs.length) el.append(item('#9aa0ad', 'Pointillés = échange requis', true), item(MARK.trade, 'Évolution / échange', true));
 }
 
 // version cochée par un clic sur la carte
@@ -739,7 +804,7 @@ function renderRoute(content) {
   const tradeWhy = (sid) => {
     const i = st.get(sid);
     if (i.kind === 'exclusive') return 'Exclusif à ' + i.exclusiveTo.map((x) => S.core.games[x].name).join(' / ');
-    if (i.kind === 'tradeEvo') return 'Évolution par échange (' + i.via.txt + ')';
+    if (i.kind === 'tradeEvo') return 'Évolution de ' + S.core.species[i.via.from].fr + ' — ' + tradeEvoLabel(i);
     return i.note || 'Échange nécessaire';
   };
   if (S.opts.trade) extraSec('Échanges nécessaires', r.extra.trade, tradeWhy);

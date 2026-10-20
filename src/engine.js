@@ -7,9 +7,25 @@
 (function (root) {
   const UNIQUE_METHODS = new Set([
     'gift', 'gift-egg', 'static', 'pokeflute', 'npc-trade', 'roaming-grass', 'roaming-water',
-    'snag', 'snag-rematch',
+    'snag', 'snag-rematch', 'fossil-revive',
   ]);
   const UNDISCOVERED = 15; // groupe œuf « Inconnu »
+  // versions jumelles : une exclusivité se juge face à la version sœur (Jaune, Cristal, Émeraude, Platine : face à tout le groupe)
+  const PAIRS = { 1: [2], 2: [1], 44: [45], 45: [44], 4: [5], 5: [4], 7: [8], 8: [7], 12: [13], 13: [12] };
+  // méthodes qui ne donnent le Pokémon qu'une seule fois
+  const ONCE_METHODS = new Set(['gift', 'gift-egg', 'static', 'pokeflute', 'npc-trade', 'roaming-grass', 'roaming-water',
+    'snag', 'snag-rematch', 'bp-fossil', 'fossil-revive']);
+  // comment un Pokémon d'une génération précédente arrive dans le jeu
+  const TRANSFER_NOTE = {
+    2: 'Transfert depuis Rouge / Bleu / Jaune (Time Capsule)',
+    3: 'Échange depuis un autre jeu de 3e génération (pas de transfert depuis la 2e génération)',
+    4: 'Transfert depuis un jeu GBA (Parc des Amis / Pal Park) ou échange',
+    5: 'Transfert depuis un jeu de 4e génération (Poké Transfert) ou échange',
+    6: 'Transfert via Poké Transporter / Banque Pokémon, ou échange',
+    7: 'Transfert via la Banque Pokémon, ou échange',
+    8: 'Transfert via Pokémon HOME, ou échange',
+    9: 'Transfert via Pokémon HOME, ou échange',
+  };
   // DLC -> version de base (même couleur)
   const DLC_BASE = { 35: 33, 50: 34, 36: 33, 51: 34, 42: 40, 52: 41, 43: 40, 53: 41, 48: 47 };
   // Région de la famille (pour les évolutions régionales : Raichu d'Alola, etc.)
@@ -194,7 +210,7 @@
               if (!best || (best.trade && !cand.trade) || (best.trade === cand.trade && (cand.seg ?? 99) < (best.seg ?? 99))) best = cand;
             }
             if (best) {
-              const via = { from: sp.from, txt: best.row.txt, itemNote: best.itemNote };
+              const via = { from: sp.from, txt: best.row.txt, itemNote: best.itemNote, trade: !!best.row.trade, tradeItem: best.row.trade ? best.row.item : null };
               if (!info.avail) {
                 info = {
                   sid, avail: true, kind: best.row.trade ? 'tradeEvo' : 'evo', needTrade: best.trade, needEgg: best.egg,
@@ -252,7 +268,7 @@
             if (!rows.length) continue;
             const r = rows.find((x) => !x.trade) || rows[0];
             map.set(sid, { sid, avail: true, kind: r.trade ? 'tradeEvo' : 'evo', needTrade: r.trade || pre.needTrade,
-              needEgg: pre.needEgg, seg: pre.seg, entries: [], via: { from: sp.from, txt: r.txt } });
+              needEgg: pre.needEgg, seg: pre.seg, entries: [], via: { from: sp.from, txt: r.txt, trade: !!r.trade, tradeItem: r.trade ? r.item : null } });
             changed = true;
           }
         }
@@ -280,6 +296,30 @@
       for (const gr of groups) for (const sid of gr.species) {
         const info = map.get(sid);
         if (info) info.choice = gr;
+      }
+
+      // « obtenable une seule fois » : cadeau, Pokémon fixe, échange PNJ, choix exclusif, légendaire unique…
+      // sauf si on peut en refaire par reproduction dans ce jeu
+      const breedable = (sid) => {
+        const sp = this.core.species[sid];
+        return canBreed && !(sp.eggs.includes(UNDISCOVERED) && !sp.baby);
+      };
+      const onceEntry = (e) => ONCE_METHODS.has(e.method);
+      for (const [sid, info] of map) {
+        if (!info.avail || info.needTrade || breedable(sid)) continue;
+        if (info.kind === 'unique' && (info.entries.length ? info.entries.every(onceEntry) : special[sid] && special[sid].once !== false)) info.once = true;
+        if (info.choice) info.once = true;
+      }
+      // les évolutions d'un Pokémon unique (non reproductible) sont uniques aussi
+      let more = true;
+      while (more) {
+        more = false;
+        for (const [sid, info] of map) {
+          if (info.once || !info.avail || info.needTrade || !info.via || info.kind === 'egg') continue;
+          if (info.entries && info.entries.some((e) => !onceEntry(e))) continue;
+          const pre = map.get(info.via.from);
+          if (pre && pre.once && !breedable(sid)) { info.once = true; more = true; }
+        }
       }
       return map;
     }
@@ -315,13 +355,51 @@
           }
         } else {
           // exclusif à cette version ?
-          const missingIn = sibMaps.filter(([, m]) => !(m.get(sid) && m.get(sid).avail && !m.get(sid).needTrade)).map(([s]) => s);
-          if (sibMaps.length && missingIn.length === sibMaps.length && !copy.needTrade && !incomplete) copy.exclusiveHere = true;
+          const rivals = sibMaps.filter(([s]) => !PAIRS[v] || PAIRS[v].includes(s));
+          const missingIn = rivals.filter(([, m]) => !(m.get(sid) && m.get(sid).avail && !m.get(sid).needTrade)).map(([s]) => s);
+          if (rivals.length && missingIn.length === rivals.length && !copy.needTrade && !incomplete) copy.exclusiveHere = true;
+        }
+        this.applyOfficialExclusives(v, sid, copy, sibs);
+        // toujours introuvable : fabuleux = événement, ancien Pokémon = transfert depuis un jeu précédent
+        if (!copy.avail && copy.kind === 'none') {
+          const sp = this.core.species[sid];
+          const g = this.game(v);
+          if (sp.myth) Object.assign(copy, { avail: true, kind: 'event', note: copy.note || 'Distribution événementielle uniquement' });
+          else if (sp.gen < g.gen) Object.assign(copy, { avail: true, kind: 'transfer', needTrade: true, note: TRANSFER_NOTE[g.gen] || 'Transfert depuis un autre jeu' });
         }
         map.set(sid, copy);
       }
       this.statusCache[v] = map;
       return map;
+    }
+
+    // Exclusivités officielles (Bulbapedia « Version-exclusive Pokémon ») : elles priment sur le calcul
+    applyOfficialExclusives(v, sid, info, sibs) {
+      const X = this.global.exclusives;
+      if (!X || !X[v]) return;
+      if (info.kind === 'event' || info.kind === 'go') return;
+      const mine = X[v][sid];
+      const sibFlags = sibs.filter((s) => X[s]).map((s) => [s, X[s][sid]]);
+      if (mine === false) {
+        const where = sibFlags.filter(([, b]) => b !== false).map(([s]) => s);
+        if (!where.length) return;
+        Object.assign(info, { avail: true, kind: 'exclusive', needTrade: true, exclusiveTo: where, exclusiveHere: false, post: false });
+      } else if (mine === true) {
+        const rivals = sibFlags.filter(([s]) => !PAIRS[v] || PAIRS[v].includes(s));
+        info.exclusiveHere = rivals.length > 0 && rivals.every(([, b]) => b === false);
+        if (info.kind === 'exclusive' || !info.avail || info.kind === 'unknown') {
+          Object.assign(info, { avail: true, kind: info.entries && info.entries.length ? info.kind : 'wild', needTrade: false,
+            exclusiveTo: undefined, note: info.note || 'Présent dans cette version (Bulbapedia) ; lieu non renseigné' });
+          if (info.kind === 'exclusive') info.kind = 'wild';
+        }
+      } else {
+        // non listé : présent dans toutes les versions du groupe
+        info.exclusiveHere = false;
+        if (info.kind === 'exclusive') {
+          Object.assign(info, { kind: 'wild', needTrade: false, exclusiveTo: undefined, entries: info.entries || [],
+            note: 'Présent dans toutes les versions (Bulbapedia) ; lieu non renseigné dans cette version' });
+        }
+      }
     }
 
     obtainable(info, opts) {

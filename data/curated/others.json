@@ -1,9 +1,10 @@
 {
  "_info": "Légendaires et cas particuliers absents des tables de capture de Bulbapedia (ROSA, DEPS, Légendes Arceus).",
  "families": [
-  "rosa",
   "dete",
-  "pla"
+  "nb2",
+  "pla",
+  "rosa"
  ],
  "segments": [],
  "methodMinSegment": {},
@@ -296,7 +297,22 @@
     "status": "event",
     "note": "Darkrai : bonus de sauvegarde de Diamant Étincelant / Perle Scintillante"
    }
-  }
+  },
+  "21": {
+   "641": {
+    "status": "event",
+    "note": "Transfert depuis Pokédex Dream Radar (3DS), Forme Totémique"
+   },
+   "642": {
+    "status": "event",
+    "note": "Transfert depuis Pokédex Dream Radar (3DS), Forme Totémique"
+   },
+   "645": {
+    "status": "event",
+    "note": "Transfert depuis Pokédex Dream Radar (3DS), Forme Totémique"
+   }
+  },
+  "22": "@21"
  },
  "notes": {
   "25": [

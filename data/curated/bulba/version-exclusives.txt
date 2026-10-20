@@ -1,0 +1,1423 @@
+Generation I|VexHeader|kanto|4
+Generation I|Vex1|013|Weedle|yes|yes|yes|no
+Generation I|Vex1|014|Kakuna|yes|yes|yes|no
+Generation I|Vex1|015|Beedrill|yes|yes|yes|no
+Generation I|Vex1|023|Ekans|yes|no|no|no
+Generation I|Vex1|024|Arbok|yes|no|no|no
+Generation I|Vex1|026|Raichu|yes|yes|yes|no
+Generation I|Vex1|027|Sandshrew|no|yes|yes|yes
+Generation I|Vex1|028|Sandslash|no|yes|yes|yes
+Generation I|Vex1|037|Vulpix|no|no|yes|yes
+Generation I|Vex1|038|Ninetales|no|no|yes|yes
+Generation I|Vex1|043|Oddish|yes|yes|no|yes
+Generation I|Vex1|044|Gloom|yes|yes|no|yes
+Generation I|Vex1|045|Vileplume|yes|yes|no|yes
+Generation I|Vex1|052|Meowth|no|yes|yes|no
+Generation I|Vex1|053|Persian|no|yes|yes|no
+Generation I|Vex1|056|Mankey|yes|no|no|yes
+Generation I|Vex1|057|Primeape|yes|no|no|yes
+Generation I|Vex1|058|Growlithe|yes|yes|no|yes
+Generation I|Vex1|059|Arcanine|yes|yes|no|yes
+Generation I|Vex1|069|Bellsprout|no|no|yes|yes
+Generation I|Vex1|070|Weepinbell|no|no|yes|yes
+Generation I|Vex1|071|Victreebel|no|no|yes|yes
+Generation I|Vex1|109|Koffing|yes|yes|yes|no
+Generation I|Vex1|110|Weezing|yes|yes|yes|no
+Generation I|Vex1|123|Scyther|yes|yes|no|yes
+Generation I|Vex1|124|Jynx|yes|yes|yes|no
+Generation I|Vex1|125|Electabuzz|yes|no|no|no
+Generation I|Vex1|126|Magmar|no|no|yes|no
+Generation I|Vex1|127|Pinsir|no|yes|yes|yes
+Generation I|VexFooter|kanto|7
+Generation II|VexHeader|johto|3
+Generation II|Vex2|037|Vulpix|no|yes|no|
+Generation II|Vex2|038|Ninetales|no|yes|no
+Generation II|Vex2|052|Meowth|no|yes|yes|
+Generation II|Vex2|053|Persian|no|yes|yes|
+Generation II|Vex2|056|Mankey|yes|no|no|
+Generation II|Vex2|057|Primeape|yes|no|no|
+Generation II|Vex2|058|Growlithe|yes|no|yes|
+Generation II|Vex2|059|Arcanine|yes|no|yes|
+Generation II|Vex2|165|Ledyba|no|yes|yes|
+Generation II|Vex2|166|Ledian|no|yes|yes|
+Generation II|Vex2|167|Spinarak|yes|no|yes|
+Generation II|Vex2|168|Ariados|yes|no|yes|
+Generation II|Vex2|179|Mareep|yes|yes|no|
+Generation II|Vex2|180|Flaaffy|yes|yes|no|
+Generation II|Vex2|181|Ampharos|yes|yes|no|
+Generation II|Vex2|203|Girafarig|yes|yes|no|
+Generation II|Vex2|207|Gligar|yes|no|yes|
+Generation II|Vex2|216|Teddiursa|yes|no|yes|
+Generation II|Vex2|217|Ursaring|yes|no|yes|
+Generation II|Vex2|223|Remoraid|yes|yes|no|
+Generation II|Vex2|224|Octillery|yes|yes|no|
+Generation II|Vex2|225|Delibird|no|yes|yes|
+Generation II|Vex2|226|Mantine|yes|no|yes|
+Generation II|Vex2|227|Skarmory|no|yes|yes|
+Generation II|Vex2|231|Phanpy|no|yes|yes|
+Generation II|Vex2|232|Donphan|no|yes|yes|
+Generation II|Vex2|251|Celebi|no|no|yes|
+Generation II|VexFooter|johto|6
+Ruby|Sapphire|Emerald|VexHeader|hoenn|3
+Ruby|Sapphire|Emerald|Vex3|270|Lotad|no|yes|yes
+Ruby|Sapphire|Emerald|Vex3|271|Lombre|no|yes|yes
+Ruby|Sapphire|Emerald|Vex3|272|Ludicolo|no|yes|yes
+Ruby|Sapphire|Emerald|Vex3|273|Seedot|yes|no|yes
+Ruby|Sapphire|Emerald|Vex3|274|Nuzleaf|yes|no|yes
+Ruby|Sapphire|Emerald|Vex3|275|Shiftry|yes|no|yes
+Ruby|Sapphire|Emerald|Vex3|283|Surskit|yes|yes|no
+Ruby|Sapphire|Emerald|Vex3|284|Masquerain|yes|yes|no
+Ruby|Sapphire|Emerald|Vex3|302|Sableye|no|yes|yes
+Ruby|Sapphire|Emerald|Vex3|303|Mawile|yes|no|yes
+Ruby|Sapphire|Emerald|Vex3|307|Meditite|yes|yes|no
+Ruby|Sapphire|Emerald|Vex3|308|Medicham|yes|yes|no
+Ruby|Sapphire|Emerald|Vex3|315|Roselia|yes|yes|no
+Ruby|Sapphire|Emerald|Vex3|335|Zangoose|yes|no|no
+Ruby|Sapphire|Emerald|Vex3|336|Seviper|no|yes|yes
+Ruby|Sapphire|Emerald|Vex3|337|Lunatone|no|yes|no
+Ruby|Sapphire|Emerald|Vex3|338|Solrock|yes|no|yes
+Ruby|Sapphire|Emerald|Vex3|380|Latias|no|yes|yes
+Ruby|Sapphire|Emerald|Vex3|381|Latios|yes|no|yes
+Ruby|Sapphire|Emerald|Vex3|382|Kyogre|no|yes|yes
+Ruby|Sapphire|Emerald|Vex3|383|Groudon|yes|no|yes
+Ruby|Sapphire|Emerald|VexFooter|hoenn|6
+Emerald (National Pokédex)|VexHeader|hoenn|3
+Emerald (National Pokédex)|Vex3|052|Meowth|no|no|yes
+Emerald (National Pokédex)|Vex3|053|Persian|no|no|yes
+Emerald (National Pokédex)|Vex3|132|Ditto|no|no|yes
+Emerald (National Pokédex)|Vex3|163|Hoothoot|no|no|yes
+Emerald (National Pokédex)|Vex3|164|Noctowl|no|no|yes
+Emerald (National Pokédex)|Vex3|165|Ledyba|no|no|yes
+Emerald (National Pokédex)|Vex3|166|Ledian|no|no|yes
+Emerald (National Pokédex)|Vex3|167|Spinarak|no|no|yes
+Emerald (National Pokédex)|Vex3|168|Ariados|no|no|yes
+Emerald (National Pokédex)|Vex3|179|Mareep|no|no|yes
+Emerald (National Pokédex)|Vex3|180|Flaaffy|no|no|yes
+Emerald (National Pokédex)|Vex3|181|Ampharos|no|no|yes
+Emerald (National Pokédex)|Vex3|185|Sudowoodo|no|no|yes
+Emerald (National Pokédex)|Vex3|190|Aipom|no|no|yes
+Emerald (National Pokédex)|Vex3|191|Sunkern|no|no|yes
+Emerald (National Pokédex)|Vex3|192|Sunflora|no|no|yes
+Emerald (National Pokédex)|Vex3|194|Wooper|no|no|yes
+Emerald (National Pokédex)|Vex3|195|Quagsire|no|no|yes
+Emerald (National Pokédex)|Vex3|204|Pineco|no|no|yes
+Emerald (National Pokédex)|Vex3|205|Forretress|no|no|yes
+Emerald (National Pokédex)|Vex3|207|Gligar|no|no|yes
+Emerald (National Pokédex)|Vex3|209|Snubbull|no|no|yes
+Emerald (National Pokédex)|Vex3|210|Granbull|no|no|yes
+Emerald (National Pokédex)|Vex3|213|Shuckle|no|no|yes
+Emerald (National Pokédex)|Vex3|216|Teddiursa|no|no|yes
+Emerald (National Pokédex)|Vex3|217|Ursaring|no|no|yes
+Emerald (National Pokédex)|Vex3|223|Remoraid|no|no|yes
+Emerald (National Pokédex)|Vex3|224|Octillery|no|no|yes
+Emerald (National Pokédex)|Vex3|228|Houndour|no|no|yes
+Emerald (National Pokédex)|Vex3|229|Houndoom|no|no|yes
+Emerald (National Pokédex)|Vex3|234|Stantler|no|no|yes
+Emerald (National Pokédex)|Vex3|235|Smeargle|no|no|yes
+Emerald (National Pokédex)|Vex3|241|Miltank|no|no|yes
+Emerald (National Pokédex)|VexFooter|hoenn|6
+FireRed|LeafGreen|VexHeader|kanto|2
+FireRed|LeafGreen|Vexfl|023|Ekans|yes|no
+FireRed|LeafGreen|Vexfl|024|Arbok|yes|no
+FireRed|LeafGreen|Vexfl|027|Sandshrew|no|yes
+FireRed|LeafGreen|Vexfl|028|Sandslash|no|yes
+FireRed|LeafGreen|Vexfl|037|Vulpix|no|yes
+FireRed|LeafGreen|Vexfl|038|Ninetales|no|yes
+FireRed|LeafGreen|Vexfl|043|Oddish|yes|no
+FireRed|LeafGreen|Vexfl|044|Gloom|yes|no
+FireRed|LeafGreen|Vexfl|045|Vileplume|yes|no
+FireRed|LeafGreen|Vexfl|054|Psyduck|yes|no
+FireRed|LeafGreen|Vexfl|055|Golduck|yes|no
+FireRed|LeafGreen|Vexfl|058|Growlithe|yes|no
+FireRed|LeafGreen|Vexfl|059|Arcanine|yes|no
+FireRed|LeafGreen|Vexfl|069|Bellsprout|no|yes
+FireRed|LeafGreen|Vexfl|070|Weepinbell|no|yes
+FireRed|LeafGreen|Vexfl|071|Victreebel|no|yes
+FireRed|LeafGreen|Vexfl|079|Slowpoke|no|yes
+FireRed|LeafGreen|Vexfl|080|Slowbro|no|yes
+FireRed|LeafGreen|Vexfl|090|Shellder|yes|no
+FireRed|LeafGreen|Vexfl|091|Cloyster|yes|no
+FireRed|LeafGreen|Vexfl|120|Staryu|no|yes
+FireRed|LeafGreen|Vexfl|121|Starmie|no|yes
+FireRed|LeafGreen|Vexfl|123|Scyther|yes|no
+FireRed|LeafGreen|Vexfl|125|Electabuzz|yes|no
+FireRed|LeafGreen|Vexfl|126|Magmar|no|yes
+FireRed|LeafGreen|Vexfl|127|Pinsir|no|yes
+FireRed|LeafGreen|Vexfl|182|Bellossom|yes|no
+FireRed|LeafGreen|Vexfl|183|Marill|no|yes
+FireRed|LeafGreen|Vexfl|184|Azumarill|no|yes
+FireRed|LeafGreen|Vexfl|194|Wooper|yes|no
+FireRed|LeafGreen|Vexfl|195|Quagsire|yes|no
+FireRed|LeafGreen|Vexfl|198|Murkrow|yes|no
+FireRed|LeafGreen|Vexfl|200|Misdreavus|no|yes
+FireRed|LeafGreen|Vexfl|211|Qwilfish|yes|no
+FireRed|LeafGreen|Vexfl|215|Sneasel|no|yes
+FireRed|LeafGreen|Vexfl|223|Remoraid|no|yes
+FireRed|LeafGreen|Vexfl|224|Octillery|no|yes
+FireRed|LeafGreen|Vexfl|225|Delibird|yes|no
+FireRed|LeafGreen|Vexfl|226|Mantine|no|yes
+FireRed|LeafGreen|Vexfl|227|Skarmory|yes|no
+FireRed|LeafGreen|Vexfl|239|Elekid|yes|no
+FireRed|LeafGreen|Vexfl|240|Magby|no|yes
+FireRed|LeafGreen|Vexfl|298|Azurill|no|yes
+FireRed|LeafGreen|Vexfl|386A|Deoxys|yes|no
+FireRed|LeafGreen|Vexfl|386D|Deoxys|no|yes
+FireRed|LeafGreen|VexFooter|kanto|5
+Diamond|Pearl|Platinum|VexHeader|sinnoh|3
+Diamond|Pearl|Platinum|Vex4|079|Slowpoke|no|yes|yes
+Diamond|Pearl|Platinum|Vex4|080|Slowbro|no|yes|yes
+Diamond|Pearl|Platinum|Vex4|086|Seel|yes|no|yes
+Diamond|Pearl|Platinum|Vex4|087|Dewgong|yes|no|yes
+Diamond|Pearl|Platinum|Vex4|114|Tangela|no|no|yes
+Diamond|Pearl|Platinum|Vex4|123|Scyther|yes|no|yes
+Diamond|Pearl|Platinum|Vex4|125|Electabuzz|no|no|yes
+Diamond|Pearl|Platinum|Vex4|126|Magmar|no|no|yes
+Diamond|Pearl|Platinum|Vex4|127|Pinsir|no|yes|yes
+Diamond|Pearl|Platinum|Vex4|144|Articuno|no|no|yes
+Diamond|Pearl|Platinum|Vex4|145|Zapdos|no|no|yes
+Diamond|Pearl|Platinum|Vex4|146|Moltres|no|no|yes
+Diamond|Pearl|Platinum|Vex4|198|Murkrow|yes|no|no
+Diamond|Pearl|Platinum|Vex4|200|Misdreavus|no|yes|no
+Diamond|Pearl|Platinum|Vex4|207|Gligar|no|no|yes
+Diamond|Pearl|Platinum|Vex4|228|Houndour|no|yes|yes
+Diamond|Pearl|Platinum|Vex4|229|Houndoom|no|yes|yes
+Diamond|Pearl|Platinum|Vex4|234|Stantler|no|yes|yes
+Diamond|Pearl|Platinum|Vex4|239|Elekid|no|no|yes
+Diamond|Pearl|Platinum|Vex4|240|Magby|no|no|yes
+Diamond|Pearl|Platinum|Vex4|246|Larvitar|yes|no|yes
+Diamond|Pearl|Platinum|Vex4|247|Pupitar|yes|no|yes
+Diamond|Pearl|Platinum|Vex4|248|Tyranitar|yes|no|yes
+Diamond|Pearl|Platinum|Vex4|261|Poochyena|yes|no|yes
+Diamond|Pearl|Platinum|Vex4|262|Mightyena|yes|no|yes
+Diamond|Pearl|Platinum|Vex4|304|Aron|yes|no|yes
+Diamond|Pearl|Platinum|Vex4|305|Lairon|yes|no|yes
+Diamond|Pearl|Platinum|Vex4|306|Aggron|yes|no|yes
+Diamond|Pearl|Platinum|Vex4|328|Trapinch|yes|yes|no
+Diamond|Pearl|Platinum|Vex4|329|Vibrava|yes|yes|no
+Diamond|Pearl|Platinum|Vex4|330|Flygon|yes|yes|no
+Diamond|Pearl|Platinum|Vex4|352|Kecleon|yes|no|yes
+Diamond|Pearl|Platinum|Vex4|357|Tropius|no|no|yes
+Diamond|Pearl|Platinum|Vex4|363|Spheal|no|yes|yes
+Diamond|Pearl|Platinum|Vex4|364|Sealeo|no|yes|yes
+Diamond|Pearl|Platinum|Vex4|365|Walrein|no|yes|yes
+Diamond|Pearl|Platinum|Vex4|366|Clamperl|yes|yes|no
+Diamond|Pearl|Platinum|Vex4|371|Bagon|no|yes|yes
+Diamond|Pearl|Platinum|Vex4|372|Shelgon|no|yes|yes
+Diamond|Pearl|Platinum|Vex4|373|Salamence|no|yes|yes
+Diamond|Pearl|Platinum|Vex4|408|Cranidos|yes|no|yes
+Diamond|Pearl|Platinum|Vex4|409|Rampardos|yes|no|yes
+Diamond|Pearl|Platinum|Vex4|410|Shieldon|no|yes|yes
+Diamond|Pearl|Platinum|Vex4|411|Bastiodon|no|yes|yes
+Diamond|Pearl|Platinum|Vex4|429|Mismagius|no|yes|no
+Diamond|Pearl|Platinum|Vex4|430|Honchkrow|yes|no|no
+Diamond|Pearl|Platinum|Vex4|431|Glameow|no|yes|no
+Diamond|Pearl|Platinum|Vex4|432|Purugly|no|yes|no
+Diamond|Pearl|Platinum|Vex4|434|Stunky|yes|no|no
+Diamond|Pearl|Platinum|Vex4|435|Skuntank|yes|no|no
+Diamond|Pearl|Platinum|Vex4|465|Tangrowth|no|no|yes
+Diamond|Pearl|Platinum|Vex4|472|Gliscor|no|no|yes
+Diamond|Pearl|Platinum|Vex4|483|Dialga|yes|no|yes
+Diamond|Pearl|Platinum|Vex4|484|Palkia|no|yes|yes
+Diamond|Pearl|Platinum|Vex4|487O|Giratina|no|no|yes
+Diamond|Pearl|Platinum|VexFooter|sinnoh|6
+HeartGold|SoulSilver|VexHeader|johto|2
+HeartGold|SoulSilver|Vexhs|037|Vulpix|no|yes
+HeartGold|SoulSilver|Vexhs|038|Ninetales|no|yes
+HeartGold|SoulSilver|Vexhs|052|Meowth|no|yes
+HeartGold|SoulSilver|Vexhs|053|Persian|no|yes
+HeartGold|SoulSilver|Vexhs|056|Mankey|yes|no
+HeartGold|SoulSilver|Vexhs|057|Primeape|yes|no
+HeartGold|SoulSilver|Vexhs|058|Growlithe|yes|no
+HeartGold|SoulSilver|Vexhs|059|Arcanine|yes|no
+HeartGold|SoulSilver|Vexhs|138|Omanyte|yes|no
+HeartGold|SoulSilver|Vexhs|139|Omastar|yes|no
+HeartGold|SoulSilver|Vexhs|140|Kabuto|no|yes
+HeartGold|SoulSilver|Vexhs|141|Kabutops|no|yes
+HeartGold|SoulSilver|Vexhs|165|Ledyba|no|yes
+HeartGold|SoulSilver|Vexhs|166|Ledian|no|yes
+HeartGold|SoulSilver|Vexhs|167|Spinarak|yes|no
+HeartGold|SoulSilver|Vexhs|168|Ariados|yes|no
+HeartGold|SoulSilver|Vexhs|207|Gligar|yes|no
+HeartGold|SoulSilver|Vexhs|216|Teddiursa|no|yes
+HeartGold|SoulSilver|Vexhs|217|Ursaring|no|yes
+HeartGold|SoulSilver|Vexhs|225|Delibird|no|yes
+HeartGold|SoulSilver|Vexhs|226|Mantine|yes|no
+HeartGold|SoulSilver|Vexhs|227|Skarmory|no|yes
+HeartGold|SoulSilver|Vexhs|231|Phanpy|yes|no
+HeartGold|SoulSilver|Vexhs|232|Donphan|yes|no
+HeartGold|SoulSilver|Vexhs|302|Sableye|yes|no
+HeartGold|SoulSilver|Vexhs|303|Mawile|no|yes
+HeartGold|SoulSilver|Vexhs|316|Gulpin|no|yes
+HeartGold|SoulSilver|Vexhs|317|Swalot|no|yes
+HeartGold|SoulSilver|Vexhs|343|Baltoy|yes|no
+HeartGold|SoulSilver|Vexhs|344|Claydol|yes|no
+HeartGold|SoulSilver|Vexhs|345|Lileep|no|yes
+HeartGold|SoulSilver|Vexhs|346|Cradily|no|yes
+HeartGold|SoulSilver|Vexhs|347|Anorith|yes|no
+HeartGold|SoulSilver|Vexhs|348|Armaldo|yes|no
+HeartGold|SoulSilver|Vexhs|380|Latias|yes|no
+HeartGold|SoulSilver|Vexhs|381|Latios|no|yes
+HeartGold|SoulSilver|Vexhs|382|Kyogre|yes|no
+HeartGold|SoulSilver|Vexhs|383|Groudon|no|yes
+HeartGold|SoulSilver|Vexhs|458|Mantyke|yes|no
+HeartGold|SoulSilver|Vexhs|472|Gliscor|yes|no
+HeartGold|SoulSilver|VexFooter|johto|5
+Black|White|VexHeader|unova|2
+Black|White|Vex5|010|Caterpie|no|yes
+Black|White|Vex5|011|Metapod|no|yes
+Black|White|Vex5|012|Butterfree|no|yes
+Black|White|Vex5|013|Weedle|yes|no
+Black|White|Vex5|014|Kakuna|yes|no
+Black|White|Vex5|015|Beedrill|yes|no
+Black|White|Vex5|046|Paras|no|yes
+Black|White|Vex5|047|Parasect|no|yes
+Black|White|Vex5|198|Murkrow|yes|no
+Black|White|Vex5|200|Misdreavus|no|yes
+Black|White|Vex5|228|Houndour|yes|no
+Black|White|Vex5|229|Houndoom|yes|no
+Black|White|Vex5|261|Poochyena|no|yes
+Black|White|Vex5|262|Mightyena|no|yes
+Black|White|Vex5|285|Shroomish|yes|no
+Black|White|Vex5|286|Breloom|yes|no
+Black|White|Vex5|311|Plusle|yes|no
+Black|White|Vex5|312|Minun|no|yes
+Black|White|Vex5|429|Mismagius|no|yes
+Black|White|Vex5|430|Honchkrow|yes|no
+Black|White|Vex5|574|Gothita|yes|no
+Black|White|Vex5|575|Gothorita|yes|no
+Black|White|Vex5|576|Gothitelle|yes|no
+Black|White|Vex5|577|Solosis|no|yes
+Black|White|Vex5|578|Duosion|no|yes
+Black|White|Vex5|579|Reuniclus|no|yes
+Black|White|Vex5|627|Rufflet|no|yes
+Black|White|Vex5|628|Braviary|no|yes
+Black|White|Vex5|629|Vullaby|yes|no
+Black|White|Vex5|630|Mandibuzz|yes|no
+Black|White|Vex5|641|Tornadus|yes|no
+Black|White|Vex5|642|Thundurus|no|yes
+Black|White|Vex5|643|Reshiram|yes|no
+Black|White|Vex5|644|Zekrom|no|yes
+Black|White|VexFooter|unova|5
+White Forest|VexHeader|unova|2
+White Forest|Vex5|016|Pidgey|no|yes
+White Forest|Vex5|017|Pidgeotto|no|yes
+White Forest|Vex5|018|Pidgeot|no|yes
+White Forest|Vex5|029|Nidoran♀|no|yes
+White Forest|Vex5|030|Nidorina|no|yes
+White Forest|Vex5|031|Nidoqueen|no|yes
+White Forest|Vex5|032|Nidoran♂|no|yes
+White Forest|Vex5|033|Nidorino|no|yes
+White Forest|Vex5|034|Nidoking|no|yes
+White Forest|Vex5|043|Oddish|no|yes
+White Forest|Vex5|044|Gloom|no|yes
+White Forest|Vex5|045|Vileplume|no|yes
+White Forest|Vex5|063|Abra|no|yes
+White Forest|Vex5|064|Kadabra|no|yes
+White Forest|Vex5|066|Machop|no|yes
+White Forest|Vex5|067|Machoke|no|yes
+White Forest|Vex5|069|Bellsprout|no|yes
+White Forest|Vex5|070|Weepinbell|no|yes
+White Forest|Vex5|071|Victreebel|no|yes
+White Forest|Vex5|081|Magnemite|no|yes
+White Forest|Vex5|082|Magneton|no|yes
+White Forest|Vex5|092|Gastly|no|yes
+White Forest|Vex5|093|Haunter|no|yes
+White Forest|Vex5|111|Rhyhorn|no|yes
+White Forest|Vex5|112|Rhydon|no|yes
+White Forest|Vex5|113|Chansey|no|yes
+White Forest|Vex5|125|Electabuzz|no|yes
+White Forest|Vex5|126|Magmar|no|yes
+White Forest|Vex5|137|Porygon|no|yes
+White Forest|Vex5|175|Togepi|no|yes
+White Forest|Vex5|176|Togetic|no|yes
+White Forest|Vex5|179|Mareep|no|yes
+White Forest|Vex5|180|Flaaffy|no|yes
+White Forest|Vex5|181|Ampharos|no|yes
+White Forest|Vex5|182|Bellossom|no|yes
+White Forest|Vex5|183|Marill|no|yes
+White Forest|Vex5|184|Azumarill|no|yes
+White Forest|Vex5|187|Hoppip|no|yes
+White Forest|Vex5|188|Skiploom|no|yes
+White Forest|Vex5|189|Jumpluff|no|yes
+White Forest|Vex5|194|Wooper|no|yes
+White Forest|Vex5|195|Quagsire|no|yes
+White Forest|Vex5|239|Elekid|no|yes
+White Forest|Vex5|240|Magby|no|yes
+White Forest|Vex5|242|Blissey|no|yes
+White Forest|Vex5|265|Wurmple|no|yes
+White Forest|Vex5|266|Silcoon|no|yes
+White Forest|Vex5|267|Beautifly|no|yes
+White Forest|Vex5|268|Cascoon|no|yes
+White Forest|Vex5|269|Dustox|no|yes
+White Forest|Vex5|270|Lotad|no|yes
+White Forest|Vex5|271|Lombre|no|yes
+White Forest|Vex5|272|Ludicolo|no|yes
+White Forest|Vex5|273|Seedot|no|yes
+White Forest|Vex5|274|Nuzleaf|no|yes
+White Forest|Vex5|275|Shiftry|no|yes
+White Forest|Vex5|280|Ralts|no|yes
+White Forest|Vex5|281|Kirlia|no|yes
+White Forest|Vex5|282|Gardevoir|no|yes
+White Forest|Vex5|283|Surskit|no|yes
+White Forest|Vex5|284|Masquerain|no|yes
+White Forest|Vex5|287|Slakoth|no|yes
+White Forest|Vex5|288|Vigoroth|no|yes
+White Forest|Vex5|289|Slaking|no|yes
+White Forest|Vex5|293|Whismur|no|yes
+White Forest|Vex5|294|Loudred|no|yes
+White Forest|Vex5|295|Exploud|no|yes
+White Forest|Vex5|298|Azurill|no|yes
+White Forest|Vex5|304|Aron|no|yes
+White Forest|Vex5|305|Lairon|no|yes
+White Forest|Vex5|306|Aggron|no|yes
+White Forest|Vex5|315|Roselia|no|yes
+White Forest|Vex5|328|Trapinch|no|yes
+White Forest|Vex5|329|Vibrava|no|yes
+White Forest|Vex5|330|Flygon|no|yes
+White Forest|Vex5|341|Corphish|no|yes
+White Forest|Vex5|342|Crawdaunt|no|yes
+White Forest|Vex5|371|Bagon|no|yes
+White Forest|Vex5|372|Shelgon|no|yes
+White Forest|Vex5|373|Salamence|no|yes
+White Forest|Vex5|396|Starly|no|yes
+White Forest|Vex5|397|Staravia|no|yes
+White Forest|Vex5|398|Staraptor|no|yes
+White Forest|Vex5|403|Shinx|no|yes
+White Forest|Vex5|404|Luxio|no|yes
+White Forest|Vex5|405|Luxray|no|yes
+White Forest|Vex5|406|Budew|no|yes
+White Forest|Vex5|407|Roserade|no|yes
+White Forest|Vex5|440|Happiny|no|yes
+White Forest|Vex5|462|Magnezone|no|yes
+White Forest|Vex5|468|Togekiss|no|yes
+White Forest|Vex5|475|Gallade|no|yes
+White Forest|VexFooter|unova|5
+Black 2 and White 2|VexHeader|unova|2
+Black 2 and White 2|Vexb2w2|010|Caterpie|no|yes
+Black 2 and White 2|Vexb2w2|011|Metapod|no|yes
+Black 2 and White 2|Vexb2w2|012|Butterfree|no|yes
+Black 2 and White 2|Vexb2w2|013|Weedle|yes|no
+Black 2 and White 2|Vexb2w2|014|Kakuna|yes|no
+Black 2 and White 2|Vexb2w2|015|Beedrill|yes|no
+Black 2 and White 2|Vexb2w2|122|Mr. Mime|no|yes
+Black 2 and White 2|Vexb2w2|125|Electabuzz|no|yes
+Black 2 and White 2|Vexb2w2|126|Magmar|yes|no
+Black 2 and White 2|Vexb2w2|165|Ledyba|no|yes
+Black 2 and White 2|Vexb2w2|166|Ledian|no|yes
+Black 2 and White 2|Vexb2w2|167|Spinarak|yes|no
+Black 2 and White 2|Vexb2w2|168|Ariados|yes|no
+Black 2 and White 2|Vexb2w2|185|Sudowoodo|yes|no
+Black 2 and White 2|Vexb2w2|239|Elekid|no|yes
+Black 2 and White 2|Vexb2w2|240|Magby|yes|no
+Black 2 and White 2|Vexb2w2|300|Skitty|no|yes
+Black 2 and White 2|Vexb2w2|301|Delcatty|no|yes
+Black 2 and White 2|Vexb2w2|311|Plusle|yes|no
+Black 2 and White 2|Vexb2w2|312|Minun|no|yes
+Black 2 and White 2|Vexb2w2|322|Numel|no|yes
+Black 2 and White 2|Vexb2w2|323|Camerupt|no|yes
+Black 2 and White 2|Vexb2w2|325|Spoink|yes|no
+Black 2 and White 2|Vexb2w2|326|Grumpig|yes|no
+Black 2 and White 2|Vexb2w2|378|Regice|no|yes
+Black 2 and White 2|Vexb2w2|379|Registeel|yes|no
+Black 2 and White 2|Vexb2w2|380|Latias|no|yes
+Black 2 and White 2|Vexb2w2|381|Latios|yes|no
+Black 2 and White 2|Vexb2w2|427|Buneary|yes|no
+Black 2 and White 2|Vexb2w2|428|Lopunny|yes|no
+Black 2 and White 2|Vexb2w2|431|Glameow|no|yes
+Black 2 and White 2|Vexb2w2|432|Purugly|no|yes
+Black 2 and White 2|Vexb2w2|434|Stunky|yes|no
+Black 2 and White 2|Vexb2w2|435|Skuntank|yes|no
+Black 2 and White 2|Vexb2w2|438|Bonsly|yes|no
+Black 2 and White 2|Vexb2w2|439|Mime Jr.|no|yes
+Black 2 and White 2|Vexb2w2|443|Gible|yes|no
+Black 2 and White 2|Vexb2w2|444|Gabite|yes|no
+Black 2 and White 2|Vexb2w2|445|Garchomp|yes|no
+Black 2 and White 2|Vexb2w2|466|Electivire|no|yes
+Black 2 and White 2|Vexb2w2|467|Magmortar|yes|no
+Black 2 and White 2|Vexb2w2|574|Gothita|yes|no
+Black 2 and White 2|Vexb2w2|575|Gothorita|yes|no
+Black 2 and White 2|Vexb2w2|576|Gothitelle|yes|no
+Black 2 and White 2|Vexb2w2|577|Solosis|no|yes
+Black 2 and White 2|Vexb2w2|578|Duosion|no|yes
+Black 2 and White 2|Vexb2w2|579|Reuniclus|no|yes
+Black 2 and White 2|Vexb2w2|627|Rufflet|no|yes
+Black 2 and White 2|Vexb2w2|628|Braviary|no|yes
+Black 2 and White 2|Vexb2w2|629|Vullaby|yes|no
+Black 2 and White 2|Vexb2w2|630|Mandibuzz|yes|no
+Black 2 and White 2|Vexb2w2|643|Reshiram|no|yes
+Black 2 and White 2|Vexb2w2|644|Zekrom|yes|no
+Black 2 and White 2|Vexb2w2|646W|Kyurem|no|yes
+Black 2 and White 2|Vexb2w2|646B|Kyurem|yes|no
+Black 2 and White 2|VexFooter|unova|5
+X and Y|VexHeader|kalos|2
+X and Y|Vex6|006MX|Charizard|yes|no
+X and Y|Vex6|006MY|Charizard|no|yes
+X and Y|Vex6|090|Shellder|no|yes
+X and Y|Vex6|091|Cloyster|no|yes
+X and Y|Vex6|120|Staryu|yes|no
+X and Y|Vex6|121|Starmie|yes|no
+X and Y|Vex6|127|Pinsir|yes|no
+X and Y|Vex6|138|Omanyte|no|yes
+X and Y|Vex6|139|Omastar|no|yes
+X and Y|Vex6|140|Kabuto|no|yes
+X and Y|Vex6|141|Kabutops|no|yes
+X and Y|Vex6|150MX|Mewtwo|yes|no
+X and Y|Vex6|150MY|Mewtwo|no|yes
+X and Y|Vex6|214|Heracross|no|yes
+X and Y|Vex6|228|Houndour|yes|no
+X and Y|Vex6|229|Houndoom|yes|no
+X and Y|Vex6|246|Larvitar|no|yes
+X and Y|Vex6|247|Pupitar|no|yes
+X and Y|Vex6|248|Tyranitar|no|yes
+X and Y|Vex6|261|Poochyena|yes|no
+X and Y|Vex6|262|Mightyena|yes|no
+X and Y|Vex6|304|Aron|yes|no
+X and Y|Vex6|305|Lairon|yes|no
+X and Y|Vex6|306|Aggron|yes|no
+X and Y|Vex6|309|Electrike|no|yes
+X and Y|Vex6|310|Manectric|no|yes
+X and Y|Vex6|345|Lileep|yes|no
+X and Y|Vex6|346|Cradily|yes|no
+X and Y|Vex6|347|Anorith|yes|no
+X and Y|Vex6|348|Armaldo|yes|no
+X and Y|Vex6|509|Purrloin|no|yes
+X and Y|Vex6|510|Liepard|no|yes
+X and Y|Vex6|538|Throh|no|yes
+X and Y|Vex6|539|Sawk|yes|no
+X and Y|Vex6|682|Spritzee|no|yes
+X and Y|Vex6|683|Aromatisse|no|yes
+X and Y|Vex6|684|Swirlix|yes|no
+X and Y|Vex6|685|Slurpuff|yes|no
+X and Y|Vex6|690|Skrelp|no|yes
+X and Y|Vex6|691|Dragalge|no|yes
+X and Y|Vex6|692|Clauncher|yes|no
+X and Y|Vex6|693|Clawitzer|yes|no
+X and Y|Vex6|716|Xerneas|yes|no
+X and Y|Vex6|717|Yveltal|no|yes
+X and Y|VexFooter|kalos|5
+Omega Ruby and Alpha Sapphire|VexHeader|hoenn|2
+Omega Ruby and Alpha Sapphire|Vexoras|138|Omanyte|no|yes
+Omega Ruby and Alpha Sapphire|Vexoras|139|Omastar|no|yes
+Omega Ruby and Alpha Sapphire|Vexoras|140|Kabuto|yes|no
+Omega Ruby and Alpha Sapphire|Vexoras|141|Kabutops|yes|no
+Omega Ruby and Alpha Sapphire|Vexoras|249|Lugia|no|yes
+Omega Ruby and Alpha Sapphire|Vexoras|250|Ho-Oh|yes|no
+Omega Ruby and Alpha Sapphire|Vexoras|270|Lotad|no|yes
+Omega Ruby and Alpha Sapphire|Vexoras|271|Lombre|no|yes
+Omega Ruby and Alpha Sapphire|Vexoras|272|Ludicolo|no|yes
+Omega Ruby and Alpha Sapphire|Vexoras|273|Seedot|yes|no
+Omega Ruby and Alpha Sapphire|Vexoras|274|Nuzleaf|yes|no
+Omega Ruby and Alpha Sapphire|Vexoras|275|Shiftry|yes|no
+Omega Ruby and Alpha Sapphire|Vexoras|302|Sableye|no|yes
+Omega Ruby and Alpha Sapphire|Vexoras|303|Mawile|yes|no
+Omega Ruby and Alpha Sapphire|Vexoras|335|Zangoose|yes|no
+Omega Ruby and Alpha Sapphire|Vexoras|336|Seviper|no|yes
+Omega Ruby and Alpha Sapphire|Vexoras|337|Lunatone|no|yes
+Omega Ruby and Alpha Sapphire|Vexoras|338|Solrock|yes|no
+Omega Ruby and Alpha Sapphire|Vexoras|380|Latias|no|yes|yes
+Omega Ruby and Alpha Sapphire|Vexoras|381|Latios|yes|no|yes
+Omega Ruby and Alpha Sapphire|Vexoras|382|Kyogre|no|yes
+Omega Ruby and Alpha Sapphire|Vexoras|383|Groudon|yes|no
+Omega Ruby and Alpha Sapphire|Vexoras|408|Cranidos|no|yes
+Omega Ruby and Alpha Sapphire|Vexoras|409|Rampardos|no|yes
+Omega Ruby and Alpha Sapphire|Vexoras|410|Shieldon|yes|no
+Omega Ruby and Alpha Sapphire|Vexoras|411|Bastiodon|yes|no
+Omega Ruby and Alpha Sapphire|Vexoras|422|Shellos|yes|no
+Omega Ruby and Alpha Sapphire|Vexoras|422E|Shellos|no|yes
+Omega Ruby and Alpha Sapphire|Vexoras|423|Gastrodon|yes|no
+Omega Ruby and Alpha Sapphire|Vexoras|423E|Gastrodon|no|yes
+Omega Ruby and Alpha Sapphire|Vexoras|483|Dialga|no|yes
+Omega Ruby and Alpha Sapphire|Vexoras|484|Palkia|yes|no
+Omega Ruby and Alpha Sapphire|Vexoras|538|Throh|yes|no
+Omega Ruby and Alpha Sapphire|Vexoras|539|Sawk|no|yes
+Omega Ruby and Alpha Sapphire|Vexoras|564|Tirtouga|no|yes
+Omega Ruby and Alpha Sapphire|Vexoras|565|Carracosta|no|yes
+Omega Ruby and Alpha Sapphire|Vexoras|566|Archen|yes|no
+Omega Ruby and Alpha Sapphire|Vexoras|567|Archeops|yes|no
+Omega Ruby and Alpha Sapphire|Vexoras|641|Tornadus|yes|no
+Omega Ruby and Alpha Sapphire|Vexoras|642|Thundurus|no|yes
+Omega Ruby and Alpha Sapphire|Vexoras|643|Reshiram|yes|no
+Omega Ruby and Alpha Sapphire|Vexoras|644|Zekrom|no|yes
+Omega Ruby and Alpha Sapphire|Vexoras|690|Skrelp|yes|no
+Omega Ruby and Alpha Sapphire|Vexoras|691|Dragalge|yes|no
+Omega Ruby and Alpha Sapphire|Vexoras|692|Clauncher|no|yes
+Omega Ruby and Alpha Sapphire|Vexoras|693|Clawitzer|no|yes
+Omega Ruby and Alpha Sapphire|VexFooter|hoenn|5
+Sun and Moon|VexHeader|alola|2
+Sun and Moon|Vex7|027|form=A|Sandshrew|no|yes
+Sun and Moon|Vex7|028|form=A|Sandslash|no|yes
+Sun and Moon|Vex7|037|form=A|Vulpix|yes|no
+Sun and Moon|Vex7|038|form=A|Ninetales|yes|no
+Sun and Moon|Vex7|408|Cranidos|yes|no
+Sun and Moon|Vex7|409|Rampardos|yes|no
+Sun and Moon|Vex7|410|Shieldon|no|yes
+Sun and Moon|Vex7|411|Bastiodon|no|yes
+Sun and Moon|Vex7|546|Cottonee|yes|no
+Sun and Moon|Vex7|547|Whimsicott|yes|no
+Sun and Moon|Vex7|548|Petilil|no|yes
+Sun and Moon|Vex7|549|Lilligant|no|yes
+Sun and Moon|Vex7|564|Tirtouga|yes|no
+Sun and Moon|Vex7|565|Carracosta|yes|no
+Sun and Moon|Vex7|566|Archen|no|yes
+Sun and Moon|Vex7|567|Archeops|no|yes
+Sun and Moon|Vex7|627|Rufflet|yes|no
+Sun and Moon|Vex7|628|Braviary|yes|no
+Sun and Moon|Vex7|629|Vullaby|no|yes
+Sun and Moon|Vex7|630|Mandibuzz|no|yes
+Sun and Moon|Vex7|765|Oranguru|no|yes
+Sun and Moon|Vex7|766|Passimian|yes|no
+Sun and Moon|Vex7|776|Turtonator|yes|no
+Sun and Moon|Vex7|780|Drampa|no|yes
+Sun and Moon|Vex7|791|Solgaleo|yes|no
+Sun and Moon|Vex7|792|Lunala|no|yes
+Sun and Moon|Vex7|794|Buzzwole|yes|no
+Sun and Moon|Vex7|795|Pheromosa|no|yes
+Sun and Moon|Vex7|797|Celesteela|no|yes
+Sun and Moon|Vex7|798|Kartana|yes|no
+Sun and Moon|VexFooter|alola|5
+Ultra Sun and Ultra Moon|VexHeader|alola|2
+Ultra Sun and Ultra Moon|Vexusum|027|form=A|Sandshrew|no|yes
+Ultra Sun and Ultra Moon|Vexusum|028|form=A|Sandslash|no|yes
+Ultra Sun and Ultra Moon|Vexusum|037|form=A|Vulpix|yes|no
+Ultra Sun and Ultra Moon|Vexusum|038|form=A|Ninetales|yes|no
+Ultra Sun and Ultra Moon|Vexusum|228|Houndour|yes|no
+Ultra Sun and Ultra Moon|Vexusum|229|Houndoom|yes|no
+Ultra Sun and Ultra Moon|Vexusum|243|Raikou|yes|no
+Ultra Sun and Ultra Moon|Vexusum|244|Entei|no|yes
+Ultra Sun and Ultra Moon|Vexusum|249|Lugia|no|yes
+Ultra Sun and Ultra Moon|Vexusum|250|Ho-Oh|yes|no
+Ultra Sun and Ultra Moon|Vexusum|309|Electrike|no|yes
+Ultra Sun and Ultra Moon|Vexusum|310|Manectric|no|yes
+Ultra Sun and Ultra Moon|Vexusum|343|Baltoy|no|yes
+Ultra Sun and Ultra Moon|Vexusum|344|Claydol|no|yes
+Ultra Sun and Ultra Moon|Vexusum|380|Latias|no|yes
+Ultra Sun and Ultra Moon|Vexusum|381|Latios|yes|no
+Ultra Sun and Ultra Moon|Vexusum|382|Kyogre|no|yes
+Ultra Sun and Ultra Moon|Vexusum|383|Groudon|yes|no
+Ultra Sun and Ultra Moon|Vexusum|483|Dialga|yes|no
+Ultra Sun and Ultra Moon|Vexusum|484|Palkia|no|yes
+Ultra Sun and Ultra Moon|Vexusum|485|Heatran|yes|no
+Ultra Sun and Ultra Moon|Vexusum|486|Regigigas|no|yes
+Ultra Sun and Ultra Moon|Vexusum|546|Cottonee|yes|no
+Ultra Sun and Ultra Moon|Vexusum|547|Whimsicott|yes|no
+Ultra Sun and Ultra Moon|Vexusum|548|Petilil|no|yes
+Ultra Sun and Ultra Moon|Vexusum|549|Lilligant|no|yes
+Ultra Sun and Ultra Moon|Vexusum|550|Basculin|yes|no
+Ultra Sun and Ultra Moon|Vexusum|550|form=B|Basculin|no|yes
+Ultra Sun and Ultra Moon|Vexusum|622|Golett|yes|no
+Ultra Sun and Ultra Moon|Vexusum|623|Golurk|yes|no
+Ultra Sun and Ultra Moon|Vexusum|627|Rufflet|yes|no
+Ultra Sun and Ultra Moon|Vexusum|628|Braviary|yes|no
+Ultra Sun and Ultra Moon|Vexusum|629|Vullaby|no|yes
+Ultra Sun and Ultra Moon|Vexusum|630|Mandibuzz|no|yes
+Ultra Sun and Ultra Moon|Vexusum|641|Tornadus|yes|no
+Ultra Sun and Ultra Moon|Vexusum|642|Thundurus|no|yes
+Ultra Sun and Ultra Moon|Vexusum|643|Reshiram|yes|no
+Ultra Sun and Ultra Moon|Vexusum|644|Zekrom|no|yes
+Ultra Sun and Ultra Moon|Vexusum|690|Skrelp|no|yes
+Ultra Sun and Ultra Moon|Vexusum|691|Dragalge|no|yes
+Ultra Sun and Ultra Moon|Vexusum|692|Clauncher|yes|no
+Ultra Sun and Ultra Moon|Vexusum|693|Clawitzer|yes|no
+Ultra Sun and Ultra Moon|Vexusum|716|Xerneas|yes|no
+Ultra Sun and Ultra Moon|Vexusum|717|Yveltal|no|yes
+Ultra Sun and Ultra Moon|Vexusum|765|Oranguru|no|yes
+Ultra Sun and Ultra Moon|Vexusum|766|Passimian|yes|no
+Ultra Sun and Ultra Moon|Vexusum|776|Turtonator|yes|no
+Ultra Sun and Ultra Moon|Vexusum|780|Drampa|no|yes
+Ultra Sun and Ultra Moon|Vexusum|791|Solgaleo|yes|no
+Ultra Sun and Ultra Moon|Vexusum|792|Lunala|no|yes
+Ultra Sun and Ultra Moon|Vexusum|794|Buzzwole|yes|no
+Ultra Sun and Ultra Moon|Vexusum|795|Pheromosa|no|yes
+Ultra Sun and Ultra Moon|Vexusum|797|Celesteela|no|yes
+Ultra Sun and Ultra Moon|Vexusum|798|Kartana|yes|no
+Ultra Sun and Ultra Moon|Vexusum|805|Stakataka|no|yes
+Ultra Sun and Ultra Moon|Vexusum|806|Blacephalon|yes|no
+Ultra Sun and Ultra Moon|VexFooter|alola|5
+Totem-sized Pokémon|VexHeader|alola|2
+Totem-sized Pokémon|Vexusum|020|form=A|Raticate|no|yes
+Totem-sized Pokémon|Vexusum|105|form=A|Marowak|yes|no
+Totem-sized Pokémon|Vexusum|735|Gumshoos|yes|no
+Totem-sized Pokémon|Vexusum|738|Vikavolt|yes|no
+Totem-sized Pokémon|Vexusum|743|Ribombee|yes|no
+Totem-sized Pokémon|Vexusum|752|Araquanid|no|yes
+Totem-sized Pokémon|Vexusum|754|Lurantis|yes|no
+Totem-sized Pokémon|Vexusum|758|Salazzle|no|yes
+Totem-sized Pokémon|Vexusum|777|Togedemaru|no|yes
+Totem-sized Pokémon|Vexusum|784|Kommo-o|no|yes
+Totem-sized Pokémon|VexFooter|alola|5
+{{LGPE|VexHeader|kanto|2
+{{LGPE|Vexpe|023|Ekans|no|yes
+{{LGPE|Vexpe|024|Arbok|no|yes
+{{LGPE|Vexpe|025|form=Pa|Pikachu|yes|no
+{{LGPE|Vexpe|027|Sandshrew|yes|no
+{{LGPE|Vexpe|027|form=A|Sandshrew|yes|no
+{{LGPE|Vexpe|028|Sandslash|yes|no
+{{LGPE|Vexpe|028|form=A|Sandslash|yes|no
+{{LGPE|Vexpe|037|Vulpix|no|yes
+{{LGPE|Vexpe|037|form=A|Vulpix|no|yes
+{{LGPE|Vexpe|038|Ninetales|no|yes
+{{LGPE|Vexpe|038|form=A|Ninetales|no|yes
+{{LGPE|Vexpe|043|Oddish|yes|no
+{{LGPE|Vexpe|044|Gloom|yes|no
+{{LGPE|Vexpe|045|Vileplume|yes|no
+{{LGPE|Vexpe|052|Meowth|no|yes
+{{LGPE|Vexpe|052|form=A|Meowth|no|yes
+{{LGPE|Vexpe|053|form=A|Persian|no|yes
+{{LGPE|Vexpe|056|Mankey|yes|no
+{{LGPE|Vexpe|057|Primeape|yes|no
+{{LGPE|Vexpe|058|Growlithe|yes|no
+{{LGPE|Vexpe|069|Bellsprout|no|yes
+{{LGPE|Vexpe|070|Weepinbell|no|yes
+{{LGPE|Vexpe|071|Victreebel|no|yes
+{{LGPE|Vexpe|088|Grimer|yes|no
+{{LGPE|Vexpe|088|form=A|Grimer|yes|no
+{{LGPE|Vexpe|089|Muk|yes|no
+{{LGPE|Vexpe|089|form=A|Muk|yes|no
+{{LGPE|Vexpe|109|Koffing|no|yes
+{{LGPE|Vexpe|110|Weezing|no|yes
+{{LGPE|Vexpe|123|Scyther|yes|no
+{{LGPE|Vexpe|127|Pinsir|no|yes
+{{LGPE|Vexpe|133|form=Pa|Eevee|no|yes
+{{LGPE|VexFooter|kanto|5
+Sword and Shield|VexHeader|Galar|2
+Sword and Shield|Vexswsh|077|form=G|Ponyta|no|yes
+Sword and Shield|Vexswsh|078|form=G|Rapidash|no|yes
+Sword and Shield|Vexswsh|083|form=G|Farfetch'd|yes|no
+Sword and Shield|Vexswsh|222|form=G|Corsola|no|yes
+Sword and Shield|Vexswsh|246|Larvitar|no|yes
+Sword and Shield|Vexswsh|247|Pupitar|no|yes
+Sword and Shield|Vexswsh|248|Tyranitar|no|yes
+Sword and Shield|Vexswsh|270|Lotad|no|yes
+Sword and Shield|Vexswsh|271|Lombre|no|yes
+Sword and Shield|Vexswsh|272|Ludicolo|no|yes
+Sword and Shield|Vexswsh|273|Seedot|yes|no
+Sword and Shield|Vexswsh|274|Nuzleaf|yes|no
+Sword and Shield|Vexswsh|275|Shiftry|yes|no
+Sword and Shield|Vexswsh|302|Sableye|no|yes
+Sword and Shield|Vexswsh|303|Mawile|yes|no
+Sword and Shield|Vexswsh|337|Lunatone|no|yes
+Sword and Shield|Vexswsh|338|Solrock|yes|no
+Sword and Shield|Vexswsh|453|Croagunk|no|yes
+Sword and Shield|Vexswsh|454|Toxicroak|no|yes
+Sword and Shield|Vexswsh|550|Basculin|yes|no
+Sword and Shield|Vexswsh|550|form=B|Basculin|no|yes
+Sword and Shield|Vexswsh|554|form=G|Darumaka|yes|no
+Sword and Shield|Vexswsh|555|form=G|Darmanitan|yes|no
+Sword and Shield|Vexswsh|559|Scraggy|yes|no
+Sword and Shield|Vexswsh|560|Scrafty|yes|no
+Sword and Shield|Vexswsh|574|Gothita|yes|no
+Sword and Shield|Vexswsh|575|Gothorita|yes|no
+Sword and Shield|Vexswsh|576|Gothitelle|yes|no
+Sword and Shield|Vexswsh|577|Solosis|no|yes
+Sword and Shield|Vexswsh|578|Duosion|no|yes
+Sword and Shield|Vexswsh|579|Reuniclus|no|yes
+Sword and Shield|Vexswsh|627|Rufflet|yes|no
+Sword and Shield|Vexswsh|628|Braviary|yes|no
+Sword and Shield|Vexswsh|629|Vullaby|no|yes
+Sword and Shield|Vexswsh|630|Mandibuzz|no|yes
+Sword and Shield|Vexswsh|633|Deino|yes|no
+Sword and Shield|Vexswsh|634|Zweilous|yes|no
+Sword and Shield|Vexswsh|635|Hydreigon|yes|no
+Sword and Shield|Vexswsh|682|Spritzee|no|yes
+Sword and Shield|Vexswsh|684|Swirlix|yes|no
+Sword and Shield|Vexswsh|704|Goomy|no|yes
+Sword and Shield|Vexswsh|705|Sliggoo|no|yes
+Sword and Shield|Vexswsh|706|Goodra|no|yes
+Sword and Shield|Vexswsh|776|Turtonator|yes|no
+Sword and Shield|Vexswsh|780|Drampa|no|yes
+Sword and Shield|Vexswsh|782|Jangmo-o|yes|no
+Sword and Shield|Vexswsh|783|Hakamo-o|yes|no
+Sword and Shield|Vexswsh|784|Kommo-o|yes|no
+Sword and Shield|Vexswsh|841|Flapple|yes|no
+Sword and Shield|Vexswsh|842|Appletun|no|yes
+Sword and Shield|Vexswsh|864|Cursola|no|yes
+Sword and Shield|Vexswsh|865|Sirfetch'd|yes|no
+Sword and Shield|Vexswsh|874|Stonjourner|yes|no
+Sword and Shield|Vexswsh|875|Eiscue|no|yes
+Sword and Shield|Vexswsh|888|Zacian|yes|no
+Sword and Shield|Vexswsh|889|Zamazenta|no|yes
+Sword and Shield|VexFooter|Galar|5
+The Isle of Armor|VexHeader|Stamina|2
+The Isle of Armor|Vexswsh|127|Pinsir|yes|no
+The Isle of Armor|Vexswsh|214|Heracross|no|yes
+The Isle of Armor|Vexswsh|690|Skrelp|no|yes
+The Isle of Armor|Vexswsh|691|Dragalge|no|yes
+The Isle of Armor|Vexswsh|692|Clauncher|yes|no
+The Isle of Armor|Vexswsh|693|Clawitzer|yes|no
+The Isle of Armor|VexFooter|Stamina|5
+The Crown Tundra|VexHeader|Jump|2
+The Crown Tundra|Vexswsh|138|Omanyte|yes|no
+The Crown Tundra|Vexswsh|139|Omastar|yes|no
+The Crown Tundra|Vexswsh|140|Kabuto|no|yes
+The Crown Tundra|Vexswsh|141|Kabutops|no|yes
+The Crown Tundra|Vexswsh|249|Lugia|no|yes
+The Crown Tundra|Vexswsh|250|Ho-Oh|yes|no
+The Crown Tundra|Vexswsh|371|Bagon|yes|no
+The Crown Tundra|Vexswsh|372|Shelgon|yes|no
+The Crown Tundra|Vexswsh|373|Salamence|yes|no
+The Crown Tundra|Vexswsh|380|Latias|no|yes
+The Crown Tundra|Vexswsh|381|Latios|yes|no
+The Crown Tundra|Vexswsh|382|Kyogre|no|yes
+The Crown Tundra|Vexswsh|383|Groudon|yes|no
+The Crown Tundra|Vexswsh|443|Gible|no|yes
+The Crown Tundra|Vexswsh|444|Gabite|no|yes
+The Crown Tundra|Vexswsh|445|Garchomp|no|yes
+The Crown Tundra|Vexswsh|483|Dialga|yes|no
+The Crown Tundra|Vexswsh|484|Palkia|no|yes
+The Crown Tundra|Vexswsh|641|Tornadus|yes|no
+The Crown Tundra|Vexswsh|642|Thundurus|no|yes
+The Crown Tundra|Vexswsh|643|Reshiram|yes|no
+The Crown Tundra|Vexswsh|644|Zekrom|no|yes
+The Crown Tundra|Vexswsh|716|Xerneas|yes|no
+The Crown Tundra|Vexswsh|717|Yveltal|no|yes
+The Crown Tundra|Vexswsh|791|Solgaleo|yes|no
+The Crown Tundra|Vexswsh|792|Lunala|no|yes
+The Crown Tundra|VexFooter|Jump|5
+Gigantamax Raid exclusive|VexHeader|Galar|2
+Gigantamax Raid exclusive|Vexswsh|068|form=Gi|Machamp|yes|no
+Gigantamax Raid exclusive|Vexswsh|094|form=Gi|Gengar|no|yes
+Gigantamax Raid exclusive|Vexswsh|131|form=Gi|Lapras|no|yes
+Gigantamax Raid exclusive|Vexswsh|839|form=Gi|Coalossal|yes|no
+Gigantamax Raid exclusive|Vexswsh|841|form=Gi|Flapple|yes|no
+Gigantamax Raid exclusive|Vexswsh|842|form=Gi|Appletun|no|yes
+Gigantamax Raid exclusive|VexFooter|Galar|5
+Brilliant Diamond and Shining Pearl|VexHeader|sinnoh|2
+Brilliant Diamond and Shining Pearl|Vexbdsp|010|Caterpie|yes|no
+Brilliant Diamond and Shining Pearl|Vexbdsp|011|Metapod|yes|no
+Brilliant Diamond and Shining Pearl|Vexbdsp|012|Butterfree|yes|no
+Brilliant Diamond and Shining Pearl|Vexbdsp|013|Weedle|no|yes
+Brilliant Diamond and Shining Pearl|Vexbdsp|014|Kakuna|no|yes
+Brilliant Diamond and Shining Pearl|Vexbdsp|015|Beedrill|no|yes
+Brilliant Diamond and Shining Pearl|Vexbdsp|023|Ekans|yes|no
+Brilliant Diamond and Shining Pearl|Vexbdsp|024|Arbok|yes|no
+Brilliant Diamond and Shining Pearl|Vexbdsp|027|Sandshrew|no|yes
+Brilliant Diamond and Shining Pearl|Vexbdsp|028|Sandslash|no|yes
+Brilliant Diamond and Shining Pearl|Vexbdsp|037|Vulpix|no|yes
+Brilliant Diamond and Shining Pearl|Vexbdsp|038|Ninetales|no|yes
+Brilliant Diamond and Shining Pearl|Vexbdsp|058|Growlithe|yes|no
+Brilliant Diamond and Shining Pearl|Vexbdsp|059|Arcanine|yes|no
+Brilliant Diamond and Shining Pearl|Vexbdsp|079|Slowpoke|no|yes
+Brilliant Diamond and Shining Pearl|Vexbdsp|080|Slowbro|no|yes
+Brilliant Diamond and Shining Pearl|Vexbdsp|086|Seel|yes|no
+Brilliant Diamond and Shining Pearl|Vexbdsp|087|Dewgong|yes|no
+Brilliant Diamond and Shining Pearl|Vexbdsp|123|Scyther|yes|no
+Brilliant Diamond and Shining Pearl|Vexbdsp|125|Electabuzz|yes|no
+Brilliant Diamond and Shining Pearl|Vexbdsp|126|Magmar|no|yes
+Brilliant Diamond and Shining Pearl|Vexbdsp|127|Pinsir|no|yes
+Brilliant Diamond and Shining Pearl|Vexbdsp|144|Articuno|no|yes
+Brilliant Diamond and Shining Pearl|Vexbdsp|145|Zapdos|no|yes
+Brilliant Diamond and Shining Pearl|Vexbdsp|146|Moltres|no|yes
+Brilliant Diamond and Shining Pearl|Vexbdsp|198|Murkrow|yes|no
+Brilliant Diamond and Shining Pearl|Vexbdsp|200|Misdreavus|no|yes
+Brilliant Diamond and Shining Pearl|Vexbdsp|207|Gligar|yes|no
+Brilliant Diamond and Shining Pearl|Vexbdsp|216|Teddiursa|no|yes
+Brilliant Diamond and Shining Pearl|Vexbdsp|217|Ursaring|no|yes
+Brilliant Diamond and Shining Pearl|Vexbdsp|234|Stantler|no|yes
+Brilliant Diamond and Shining Pearl|Vexbdsp|239|Elekid|yes|no
+Brilliant Diamond and Shining Pearl|Vexbdsp|240|Magby|no|yes
+Brilliant Diamond and Shining Pearl|Vexbdsp|243|Raikou|yes|no
+Brilliant Diamond and Shining Pearl|Vexbdsp|244|Entei|yes|no
+Brilliant Diamond and Shining Pearl|Vexbdsp|245|Suicune|yes|no
+Brilliant Diamond and Shining Pearl|Vexbdsp|246|Larvitar|yes|no
+Brilliant Diamond and Shining Pearl|Vexbdsp|247|Pupitar|yes|no
+Brilliant Diamond and Shining Pearl|Vexbdsp|248|Tyranitar|yes|no
+Brilliant Diamond and Shining Pearl|Vexbdsp|249|Lugia|no|yes
+Brilliant Diamond and Shining Pearl|Vexbdsp|250|Ho-Oh|yes|no
+Brilliant Diamond and Shining Pearl|Vexbdsp|270|Lotad|no|yes
+Brilliant Diamond and Shining Pearl|Vexbdsp|271|Lombre|no|yes
+Brilliant Diamond and Shining Pearl|Vexbdsp|272|Ludicolo|no|yes
+Brilliant Diamond and Shining Pearl|Vexbdsp|273|Seedot|yes|no
+Brilliant Diamond and Shining Pearl|Vexbdsp|274|Nuzleaf|yes|no
+Brilliant Diamond and Shining Pearl|Vexbdsp|275|Shiftry|yes|no
+Brilliant Diamond and Shining Pearl|Vexbdsp|302|Sableye|no|yes
+Brilliant Diamond and Shining Pearl|Vexbdsp|303|Mawile|yes|no
+Brilliant Diamond and Shining Pearl|Vexbdsp|335|Zangoose|yes|no
+Brilliant Diamond and Shining Pearl|Vexbdsp|336|Seviper|no|yes
+Brilliant Diamond and Shining Pearl|Vexbdsp|337|Lunatone|no|yes
+Brilliant Diamond and Shining Pearl|Vexbdsp|338|Solrock|yes|no
+Brilliant Diamond and Shining Pearl|Vexbdsp|352|Kecleon|yes|no
+Brilliant Diamond and Shining Pearl|Vexbdsp|371|Bagon|no|yes
+Brilliant Diamond and Shining Pearl|Vexbdsp|372|Shelgon|no|yes
+Brilliant Diamond and Shining Pearl|Vexbdsp|373|Salamence|no|yes
+Brilliant Diamond and Shining Pearl|Vexbdsp|408|Cranidos|yes|no
+Brilliant Diamond and Shining Pearl|Vexbdsp|409|Rampardos|yes|no
+Brilliant Diamond and Shining Pearl|Vexbdsp|410|Shieldon|no|yes
+Brilliant Diamond and Shining Pearl|Vexbdsp|411|Bastiodon|no|yes
+Brilliant Diamond and Shining Pearl|Vexbdsp|429|Mismagius|no|yes
+Brilliant Diamond and Shining Pearl|Vexbdsp|430|Honchkrow|yes|no
+Brilliant Diamond and Shining Pearl|Vexbdsp|431|Glameow|no|yes
+Brilliant Diamond and Shining Pearl|Vexbdsp|432|Purugly|no|yes
+Brilliant Diamond and Shining Pearl|Vexbdsp|434|Stunky|yes|no
+Brilliant Diamond and Shining Pearl|Vexbdsp|435|Skuntank|yes|no
+Brilliant Diamond and Shining Pearl|Vexbdsp|472|Gliscor|yes|no
+Brilliant Diamond and Shining Pearl|Vexbdsp|483|Dialga|yes|no
+Brilliant Diamond and Shining Pearl|Vexbdsp|484|Palkia|no|yes
+Brilliant Diamond and Shining Pearl|VexFooter|sinnoh|5
+Scarlet and Violet|VexHeader|Paldea|2
+Scarlet and Violet|Vexscvi|0128|Tauros|yes|no|form=-Paldea Blaze
+Scarlet and Violet|Vexscvi|0128|Tauros|no|yes|form=-Paldea Aqua
+Scarlet and Violet|Vexscvi|0200|Misdreavus|no|yes
+Scarlet and Violet|Vexscvi|0246|Larvitar|yes|no
+Scarlet and Violet|Vexscvi|0247|Pupitar|yes|no
+Scarlet and Violet|Vexscvi|0248|Tyranitar|yes|no
+Scarlet and Violet|Vexscvi|0371|Bagon|no|yes
+Scarlet and Violet|Vexscvi|0372|Shelgon|no|yes
+Scarlet and Violet|Vexscvi|0373|Salamence|no|yes
+Scarlet and Violet|Vexscvi|0425|Drifloon|yes|no
+Scarlet and Violet|Vexscvi|0426|Drifblim|yes|no
+Scarlet and Violet|Vexscvi|0429|Mismagius|no|yes
+Scarlet and Violet|Vexscvi|0434|Stunky|yes|no
+Scarlet and Violet|Vexscvi|0435|Skuntank|yes|no
+Scarlet and Violet|Vexscvi|0483|Dialga|yes|no
+Scarlet and Violet|Vexscvi|0484|Palkia|no|yes
+Scarlet and Violet|Vexscvi|0633|Deino|yes|no
+Scarlet and Violet|Vexscvi|0634|Zweilous|yes|no
+Scarlet and Violet|Vexscvi|0635|Hydreigon|yes|no
+Scarlet and Violet|Vexscvi|0690|Skrelp|yes|no
+Scarlet and Violet|Vexscvi|0691|Dragalge|yes|no
+Scarlet and Violet|Vexscvi|0692|Clauncher|no|yes
+Scarlet and Violet|Vexscvi|0693|Clawitzer|no|yes
+Scarlet and Violet|Vexscvi|0765|Oranguru|yes|no
+Scarlet and Violet|Vexscvi|0766|Passimian|no|yes
+Scarlet and Violet|Vexscvi|0874|Stonjourner|yes|no
+Scarlet and Violet|Vexscvi|0875|Eiscue|no|yes
+Scarlet and Violet|Vexscvi|0885|Dreepy|no|yes
+Scarlet and Violet|Vexscvi|0886|Drakloak|no|yes
+Scarlet and Violet|Vexscvi|0887|Dragapult|no|yes
+Scarlet and Violet|Vexscvi|0936|Armarouge|yes|no
+Scarlet and Violet|Vexscvi|0937|Ceruledge|no|yes
+Scarlet and Violet|Vexscvi|0984|Great Tusk|yes|no
+Scarlet and Violet|Vexscvi|0985|Scream Tail|yes|no
+Scarlet and Violet|Vexscvi|0986|Brute Bonnet|yes|no
+Scarlet and Violet|Vexscvi|0987|Flutter Mane|yes|no
+Scarlet and Violet|Vexscvi|0988|Slither Wing|yes|no
+Scarlet and Violet|Vexscvi|0989|Sandy Shocks|yes|no
+Scarlet and Violet|Vexscvi|0990|Iron Treads|no|yes
+Scarlet and Violet|Vexscvi|0991|Iron Bundle|no|yes
+Scarlet and Violet|Vexscvi|0992|Iron Hands|no|yes
+Scarlet and Violet|Vexscvi|0993|Iron Jugulis|no|yes
+Scarlet and Violet|Vexscvi|0994|Iron Moth|no|yes
+Scarlet and Violet|Vexscvi|0995|Iron Thorns|no|yes
+Scarlet and Violet|Vexscvi|1005|Roaring Moon|yes|no
+Scarlet and Violet|Vexscvi|1006|Iron Valiant|no|yes
+Scarlet and Violet|Vexscvi|1007|Koraidon|yes|no
+Scarlet and Violet|Vexscvi|1008|Miraidon|no|yes
+Scarlet and Violet|Vexscvi|1009|Walking Wake|yes|no
+Scarlet and Violet|Vexscvi|1010|Iron Leaves|no|yes
+Scarlet and Violet|VexFooter|Paldea|5
+The Teal Mask|VexHeader|Kitakami|2
+The Teal Mask|Vexscvi|0190|Aipom|no|yes
+The Teal Mask|Vexscvi|0207|Gligar|yes|no
+The Teal Mask|Vexscvi|0424|Ambipom|no|yes
+The Teal Mask|Vexscvi|0472|Gliscor|yes|no
+The Teal Mask|Vexscvi|0845|Cramorant|yes|no
+The Teal Mask|Vexscvi|0877|Morpeko|no|yes
+The Teal Mask|VexFooter|Kitakami|5
+The Indigo Disk|VexHeader|Blueberry|2
+The Indigo Disk|Vexscvi|0027|Sandshrew|no|yes|form=-Alola
+The Indigo Disk|Vexscvi|0028|Sandslash|no|yes|form=-Alola
+The Indigo Disk|Vexscvi|0037|Vulpix|yes|no|form=-Alola
+The Indigo Disk|Vexscvi|0038|Ninetales|yes|no|form=-Alola
+The Indigo Disk|Vexscvi|0243|Raikou|yes|no
+The Indigo Disk|Vexscvi|0244|Entei|yes|no
+The Indigo Disk|Vexscvi|0245|Suicune|yes|no
+The Indigo Disk|Vexscvi|0249|Lugia|no|yes
+The Indigo Disk|Vexscvi|0250|Ho-Oh|yes|no
+The Indigo Disk|Vexscvi|0380|Latias|no|yes
+The Indigo Disk|Vexscvi|0381|Latios|yes|no
+The Indigo Disk|Vexscvi|0382|Kyogre|no|yes
+The Indigo Disk|Vexscvi|0383|Groudon|yes|no
+The Indigo Disk|Vexscvi|0408|Cranidos|yes|no
+The Indigo Disk|Vexscvi|0409|Rampardos|yes|no
+The Indigo Disk|Vexscvi|0410|Shieldon|no|yes
+The Indigo Disk|Vexscvi|0411|Bastiodon|no|yes
+The Indigo Disk|Vexscvi|0638|Cobalion|no|yes
+The Indigo Disk|Vexscvi|0639|Terrakion|no|yes
+The Indigo Disk|Vexscvi|0640|Virizion|no|yes
+The Indigo Disk|Vexscvi|0643|Reshiram|yes|no
+The Indigo Disk|Vexscvi|0644|Zekrom|no|yes
+The Indigo Disk|Vexscvi|0646|Kyurem|yes|no|form=-White
+The Indigo Disk|Vexscvi|0646|Kyurem|no|yes|form=-Black
+The Indigo Disk|Vexscvi|0791|Solgaleo|yes|no
+The Indigo Disk|Vexscvi|0792|Lunala|no|yes
+The Indigo Disk|Vexscvi|0800|Necrozma|yes|no|form=-Dusk Mane
+The Indigo Disk|Vexscvi|0800|Necrozma|no|yes|form=-Dawn Wings
+The Indigo Disk|Vexscvi|0896|Glastrier|yes|no
+The Indigo Disk|Vexscvi|0897|Spectrier|no|yes
+The Indigo Disk|Vexscvi|1020|Gouging Fire|yes|no
+The Indigo Disk|Vexscvi|1021|Raging Bolt|yes|no
+The Indigo Disk|Vexscvi|1022|Iron Boulder|no|yes
+The Indigo Disk|Vexscvi|1023|Iron Crown|no|yes
+The Indigo Disk|VexFooter|Blueberry|5
+Pokémon Mystery Dungeon: Red Rescue Team and Blue Rescue Team|Red and Blue Rescue Team|VexHeader|MD|2
+Pokémon Mystery Dungeon: Red Rescue Team and Blue Rescue Team|Red and Blue Rescue Team|Vexmd1|129|Magikarp|no|yes
+Pokémon Mystery Dungeon: Red Rescue Team and Blue Rescue Team|Red and Blue Rescue Team|Vexmd1|130|Gyarados|no|yes
+Pokémon Mystery Dungeon: Red Rescue Team and Blue Rescue Team|Red and Blue Rescue Team|Vexmd1|131|Lapras|no|yes
+Pokémon Mystery Dungeon: Red Rescue Team and Blue Rescue Team|Red and Blue Rescue Team|Vexmd1|137|Porygon|yes|no
+Pokémon Mystery Dungeon: Red Rescue Team and Blue Rescue Team|Red and Blue Rescue Team|Vexmd1|190|Aipom|no|yes
+Pokémon Mystery Dungeon: Red Rescue Team and Blue Rescue Team|Red and Blue Rescue Team|Vexmd1|226|Mantine|yes|no
+Pokémon Mystery Dungeon: Red Rescue Team and Blue Rescue Team|Red and Blue Rescue Team|Vexmd1|311|Plusle|yes|no
+Pokémon Mystery Dungeon: Red Rescue Team and Blue Rescue Team|Red and Blue Rescue Team|Vexmd1|312|Minun|no|yes
+Pokémon Mystery Dungeon: Red Rescue Team and Blue Rescue Team|Red and Blue Rescue Team|Vexmd1|315|Roselia|yes|no
+Pokémon Mystery Dungeon: Red Rescue Team and Blue Rescue Team|Red and Blue Rescue Team|Vexmd1|349|Feebas|yes|no
+Pokémon Mystery Dungeon: Red Rescue Team and Blue Rescue Team|Red and Blue Rescue Team|Vexmd1|350|Milotic|yes|no
+Pokémon Mystery Dungeon: Red Rescue Team and Blue Rescue Team|Red and Blue Rescue Team|VexFooter|MD|5
+Explorers of Pokémon Mystery Dungeon: Explorers of Time and Explorers of Darkness|Time, Darkness, and Pokémon Mystery Dungeon: Explorers of Sky|Sky|VexHeader|MD|3
+Explorers of Pokémon Mystery Dungeon: Explorers of Time and Explorers of Darkness|Time, Darkness, and Pokémon Mystery Dungeon: Explorers of Sky|Sky|Vexmd2|150|Mewtwo|no|yes|yes
+Explorers of Pokémon Mystery Dungeon: Explorers of Time and Explorers of Darkness|Time, Darkness, and Pokémon Mystery Dungeon: Explorers of Sky|Sky|Vexmd2|251|Celebi|yes|no|yes
+Explorers of Pokémon Mystery Dungeon: Explorers of Time and Explorers of Darkness|Time, Darkness, and Pokémon Mystery Dungeon: Explorers of Sky|Sky|Vexmd2|412|Burmy|no|yes|yes
+Explorers of Pokémon Mystery Dungeon: Explorers of Time and Explorers of Darkness|Time, Darkness, and Pokémon Mystery Dungeon: Explorers of Sky|Sky|Vexmd2|415|Combee|yes|no|yes
+Explorers of Pokémon Mystery Dungeon: Explorers of Time and Explorers of Darkness|Time, Darkness, and Pokémon Mystery Dungeon: Explorers of Sky|Sky|Vexmd2|417|Pachirisu|yes|no|yes
+Explorers of Pokémon Mystery Dungeon: Explorers of Time and Explorers of Darkness|Time, Darkness, and Pokémon Mystery Dungeon: Explorers of Sky|Sky|Vexmd2|427|Buneary|no|yes|yes
+Explorers of Pokémon Mystery Dungeon: Explorers of Time and Explorers of Darkness|Time, Darkness, and Pokémon Mystery Dungeon: Explorers of Sky|Sky|Vexmd2|447|Riolu|yes|no|yes
+Explorers of Pokémon Mystery Dungeon: Explorers of Time and Explorers of Darkness|Time, Darkness, and Pokémon Mystery Dungeon: Explorers of Sky|Sky|Vexmd2|448|Lucario|yes|no|yes
+Explorers of Pokémon Mystery Dungeon: Explorers of Time and Explorers of Darkness|Time, Darkness, and Pokémon Mystery Dungeon: Explorers of Sky|Sky|Vexmd2|479|Rotom|no|yes|yes
+Explorers of Pokémon Mystery Dungeon: Explorers of Time and Explorers of Darkness|Time, Darkness, and Pokémon Mystery Dungeon: Explorers of Sky|Sky|Vexmd2|487O|Giratina|no|no|yes
+Explorers of Pokémon Mystery Dungeon: Explorers of Time and Explorers of Darkness|Time, Darkness, and Pokémon Mystery Dungeon: Explorers of Sky|Sky|Vexmd2|492|Shaymin|no|no|yes
+Explorers of Pokémon Mystery Dungeon: Explorers of Time and Explorers of Darkness|Time, Darkness, and Pokémon Mystery Dungeon: Explorers of Sky|Sky|Vexmd2|492S|Shaymin|no|no|yes
+Explorers of Pokémon Mystery Dungeon: Explorers of Time and Explorers of Darkness|Time, Darkness, and Pokémon Mystery Dungeon: Explorers of Sky|Sky|VexFooter|MD|6
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|VexHeader|MD|3
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|004|Charmander|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|005|Charmeleon|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|006|Charizard|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|007|Squirtle|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|008|Wartortle|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|009|Blastoise|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|013|Weedle|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|014|Kakuna|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|015|Beedrill|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|016|Pidgey|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|017|Pidgeotto|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|018|Pidgeot|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|019|Rattata|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|020|Raticate|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|021|Spearow|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|022|Fearow|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|023|Ekans|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|024|Arbok|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|025|Pikachu|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|026|Raichu|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|027|Sandshrew|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|028|Sandslash|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|029|Nidoran♀|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|030|Nidorina|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|031|Nidoqueen|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|032|Nidoran♂|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|033|Nidorino|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|034|Nidoking|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|037|Vulpix|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|038|Ninetales|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|043|Oddish|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|044|Gloom|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|045|Vileplume|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|046|Paras|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|047|Parasect|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|048|Venonat|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|049|Venomoth|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|052|Meowth|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|053|Persian|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|054|Psyduck|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|055|Golduck|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|056|Mankey|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|057|Primeape|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|058|Growlithe|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|059|Arcanine|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|063|Abra|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|064|Kadabra|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|065|Alakazam|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|066|Machop|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|067|Machoke|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|068|Machamp|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|069|Bellsprout|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|070|Weepinbell|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|071|Victreebel|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|072|Tentacool|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|073|Tentacruel|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|074|Geodude|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|075|Graveler|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|076|Golem|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|077|Ponyta|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|078|Rapidash|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|081|Magnemite|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|082|Magneton|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|084|Doduo|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|085|Dodrio|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|086|Seel|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|087|Dewgong|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|088|Grimer|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|089|Muk|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|090|Shellder|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|091|Cloyster|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|092|Gastly|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|093|Haunter|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|094|Gengar|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|095|Onix|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|096|Drowzee|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|097|Hypno|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|098|Krabby|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|099|Kingler|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|100|Voltorb|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|101|Electrode|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|102|Exeggcute|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|103|Exeggutor|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|104|Cubone|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|105|Marowak|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|106|Hitmonlee|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|107|Hitmonchan|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|108|Lickitung|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|111|Rhyhorn|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|112|Rhydon|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|113|Chansey|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|114|Tangela|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|116|Horsea|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|117|Seadra|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|118|Goldeen|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|119|Seaking|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|120|Staryu|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|121|Starmie|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|122|Mr. Mime|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|123|Scyther|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|124|Jynx|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|125|Electabuzz|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|126|Magmar|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|127|Pinsir|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|129|Magikarp|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|130|Gyarados|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|133|Eevee|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|134|Vaporeon|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|135|Jolteon|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|136|Flareon|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|137|Porygon|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|138|Omanyte|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|139|Omastar|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|140|Kabuto|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|141|Kabutops|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|142|Aerodactyl|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|144|Articuno|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|145|Zapdos|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|146|Moltres|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|147|Dratini|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|148|Dragonair|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|149|Dragonite|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|155|Cyndaquil|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|156|Quilava|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|157|Typhlosion|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|158|Totodile|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|159|Croconaw|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|160|Feraligatr|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|161|Sentret|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|162|Furret|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|163|Hoothoot|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|164|Noctowl|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|165|Ledyba|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|166|Ledian|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|167|Spinarak|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|168|Ariados|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|170|Chinchou|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|171|Lanturn|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|172|Pichu|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|175|Togepi|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|176|Togetic|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|177|Natu|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|178|Xatu|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|179|Mareep|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|180|Flaaffy|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|181|Ampharos|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|182|Bellossom|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|183|Marill|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|184|Azumarill|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|185|Sudowoodo|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|187|Hoppip|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|188|Skiploom|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|189|Jumpluff|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|190|Aipom|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|191|Sunkern|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|192|Sunflora|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|193|Yanma|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|194|Wooper|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|195|Quagsire|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|196|Espeon|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|197|Umbreon|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|200|Misdreavus|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|202|Wobbuffet|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|204|Pineco|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|205|Forretress|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|206|Dunsparce|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|207|Gligar|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|208|Steelix|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|209|Snubbull|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|210|Granbull|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|211|Qwilfish|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|212|Scizor|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|214|Heracross|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|216|Teddiursa|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|217|Ursaring|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|218|Slugma|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|219|Magcargo|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|220|Swinub|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|222|Corsola|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|221|Piloswine|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|223|Remoraid|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|224|Octillery|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|225|Delibird|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|226|Mantine|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|227|Skarmory|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|228|Houndour|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|229|Houndoom|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|230|Kingdra|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|231|Phanpy|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|232|Donphan|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|233|Porygon2|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|234|Stantler|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|235|Smeargle|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|236|Tyrogue|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|237|Hitmontop|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|238|Smoochum|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|239|Elekid|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|240|Magby|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|241|Miltank|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|242|Blissey|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|246|Larvitar|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|247|Pupitar|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|248|Tyranitar|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|249|Lugia|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|250|Ho-Oh|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|251|Celebi|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|252|Treecko|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|253|Grovyle|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|254|Sceptile|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|255|Torchic|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|256|Combusken|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|257|Blaziken|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|258|Mudkip|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|259|Marshtomp|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|260|Swampert|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|261|Poochyena|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|262|Mightyena|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|263|Zigzagoon|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|264|Linoone|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|270|Lotad|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|271|Lombre|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|272|Ludicolo|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|273|Seedot|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|274|Nuzleaf|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|275|Shiftry|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|276|Taillow|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|277|Swellow|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|278|Wingull|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|279|Pelipper|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|280|Ralts|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|281|Kirlia|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|282|Gardevoir|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|283|Surskit|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|284|Masquerain|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|285|Shroomish|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|286|Breloom|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|290|Nincada|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|291|Ninjask|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|292|Shedinja|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|293|Whismur|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|294|Loudred|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|295|Exploud|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|296|Makuhita|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|297|Hariyama|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|298|Azurill|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|299|Nosepass|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|300|Skitty|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|301|Delcatty|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|302|Sableye|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|303|Mawile|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|307|Meditite|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|308|Medicham|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|309|Electrike|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|310|Manectric|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|311|Plusle|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|312|Minun|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|313|Volbeat|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|314|Illumise|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|315|Roselia|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|316|Gulpin|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|317|Swalot|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|318|Carvanha|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|319|Sharpedo|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|320|Wailmer|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|321|Wailord|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|324|Torkoal|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|327|Spinda|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|328|Trapinch|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|329|Vibrava|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|330|Flygon|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|331|Cacnea|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|332|Cacturne|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|333|Swablu|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|334|Altaria|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|335|Zangoose|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|336|Seviper|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|337|Lunatone|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|338|Solrock|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|339|Barboach|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|340|Whiscash|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|341|Corphish|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|342|Crawdaunt|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|343|Baltoy|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|344|Claydol|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|345|Lileep|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|346|Cradily|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|347|Anorith|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|348|Armaldo|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|349|Feebas|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|350|Milotic|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|352|Kecleon|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|353|Shuppet|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|354|Banette|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|357|Tropius|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|359|Absol|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|360|Wynaut|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|361|Snorunt|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|362|Glalie|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|363|Spheal|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|364|Sealeo|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|365|Walrein|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|366|Clamperl|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|367|Huntail|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|368|Gorebyss|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|369|Relicanth|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|370|Luvdisc|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|371|Bagon|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|372|Shelgon|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|373|Salamence|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|374|Beldum|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|375|Metang|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|376|Metagross|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|377|Regirock|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|378|Regice|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|379|Registeel|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|382|Kyogre|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|383|Groudon|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|384|Rayquaza|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|386|Deoxys|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|390|Chimchar|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|391|Monferno|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|392|Infernape|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|393|Piplup|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|394|Prinplup|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|395|Empoleon|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|396|Starly|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|397|Staravia|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|398|Staraptor|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|401|Kricketot|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|402|Kricketune|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|403|Shinx|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|404|Luxio|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|405|Luxray|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|406|Budew|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|407|Roserade|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|408|Cranidos|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|409|Rampardos|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|410|Shieldon|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|411|Bastiodon|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|412|Burmy|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|413|Wormadam|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|414|Mothim|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|415|Combee|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|416|Vespiquen|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|417|Pachirisu|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|418|Buizel|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|419|Floatzel|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|420|Cherubi|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|421|Cherrim|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|424|Ambipom|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|425|Drifloon|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|426|Drifblim|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|427|Buneary|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|428|Lopunny|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|429|Mismagius|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|431|Glameow|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|432|Purugly|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|436|Bronzor|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|437|Bronzong|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|438|Bonsly|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|439|Mime Jr.|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|440|Happiny|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|442|Spiritomb|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|443|Gible|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|444|Gabite|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|445|Garchomp|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|447|Riolu|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|448|Lucario|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|449|Hippopotas|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|450|Hippowdon|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|451|Skorupi|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|452|Drapion|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|453|Croagunk|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|454|Toxicroak|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|455|Carnivine|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|456|Finneon|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|457|Lumineon|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|458|Mantyke|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|459|Snover|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|460|Abomasnow|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|462|Magnezone|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|463|Lickilicky|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|464|Rhyperior|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|465|Tangrowth|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|466|Electivire|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|467|Magmortar|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|468|Togekiss|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|469|Yanmega|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|470|Leafeon|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|471|Glaceon|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|472|Gliscor|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|473|Mamoswine|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|474|Porygon-Z|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|475|Gallade|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|476|Probopass|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|478|Froslass|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|479|Rotom|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|480|Uxie|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|481|Mesprit|yes|no|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|482|Azelf|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|488|Cresselia|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|489|Phione|no|yes|no
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|Vexmdwii|492|Shaymin|no|no|yes
+Pokémon Mystery Dungeon (WiiWare)|Keep Going! Blazing, Let's Go! Stormy, and Go For It! Light Adventure Squad!|VexFooter|MD|6
+M14|''Pokémon The Movie: White—Victini and Zekrom'' and ''Black—Victini and Reshiram''|VexM14Header|unova|2
+M14|''Pokémon The Movie: White—Victini and Zekrom'' and ''Black—Victini and Reshiram''|VexM14|506|Lillipup|no|yes
+M14|''Pokémon The Movie: White—Victini and Zekrom'' and ''Black—Victini and Reshiram''|VexM14|508|Stoutland|no|yes
+M14|''Pokémon The Movie: White—Victini and Zekrom'' and ''Black—Victini and Reshiram''|VexM14|509|Purrloin|no|yes
+M14|''Pokémon The Movie: White—Victini and Zekrom'' and ''Black—Victini and Reshiram''|VexM14|510|Liepard|no|yes
+M14|''Pokémon The Movie: White—Victini and Zekrom'' and ''Black—Victini and Reshiram''|VexM14|519|Pidove|yes|no
+M14|''Pokémon The Movie: White—Victini and Zekrom'' and ''Black—Victini and Reshiram''|VexM14|521|Unfezant|yes|no
+M14|''Pokémon The Movie: White—Victini and Zekrom'' and ''Black—Victini and Reshiram''|VexM14|521F|Unfezant|yes|no
+M14|''Pokémon The Movie: White—Victini and Zekrom'' and ''Black—Victini and Reshiram''|VexM14|523|Zebstrika|no|yes
+M14|''Pokémon The Movie: White—Victini and Zekrom'' and ''Black—Victini and Reshiram''|VexM14|546|Cottonee|no|yes
+M14|''Pokémon The Movie: White—Victini and Zekrom'' and ''Black—Victini and Reshiram''|VexM14|547|Whimsicott|no|yes
+M14|''Pokémon The Movie: White—Victini and Zekrom'' and ''Black—Victini and Reshiram''|VexM14|548|Petilil|yes|no
+M14|''Pokémon The Movie: White—Victini and Zekrom'' and ''Black—Victini and Reshiram''|VexM14|549|Lilligant|yes|no
+M14|''Pokémon The Movie: White—Victini and Zekrom'' and ''Black—Victini and Reshiram''|VexM14|550|Basculin|no|yes
+M14|''Pokémon The Movie: White—Victini and Zekrom'' and ''Black—Victini and Reshiram''|VexM14|550B|Basculin|yes|no
+M14|''Pokémon The Movie: White—Victini and Zekrom'' and ''Black—Victini and Reshiram''|VexM14|553|Krookodile|no|yes
+M14|''Pokémon The Movie: White—Victini and Zekrom'' and ''Black—Victini and Reshiram''|VexM14|555|Darmanitan|yes|no
+M14|''Pokémon The Movie: White—Victini and Zekrom'' and ''Black—Victini and Reshiram''|VexM14|566|Archen|no|yes
+M14|''Pokémon The Movie: White—Victini and Zekrom'' and ''Black—Victini and Reshiram''|VexM14|567|Archeops|no|yes
+M14|''Pokémon The Movie: White—Victini and Zekrom'' and ''Black—Victini and Reshiram''|VexM14|576|Gothitelle|no|yes
+M14|''Pokémon The Movie: White—Victini and Zekrom'' and ''Black—Victini and Reshiram''|VexM14|579|Reuniclus|yes|no
+M14|''Pokémon The Movie: White—Victini and Zekrom'' and ''Black—Victini and Reshiram''|VexM14|580|Ducklett|no|yes
+M14|''Pokémon The Movie: White—Victini and Zekrom'' and ''Black—Victini and Reshiram''|VexM14|581|Swanna|no|yes
+M14|''Pokémon The Movie: White—Victini and Zekrom'' and ''Black—Victini and Reshiram''|VexM14|585S|Deerling|no|yes
+M14|''Pokémon The Movie: White—Victini and Zekrom'' and ''Black—Victini and Reshiram''|VexM14|585A|Deerling|yes|no
+M14|''Pokémon The Movie: White—Victini and Zekrom'' and ''Black—Victini and Reshiram''|VexM14|586S|Sawsbuck|no|yes
+M14|''Pokémon The Movie: White—Victini and Zekrom'' and ''Black—Victini and Reshiram''|VexM14|586A|Sawsbuck|yes|no
+M14|''Pokémon The Movie: White—Victini and Zekrom'' and ''Black—Victini and Reshiram''|VexM14|592|Frillish|no|yes
+M14|''Pokémon The Movie: White—Victini and Zekrom'' and ''Black—Victini and Reshiram''|VexM14|592F|Frillish|yes|no
+M14|''Pokémon The Movie: White—Victini and Zekrom'' and ''Black—Victini and Reshiram''|VexM14|593|Jellicent|no|yes
+M14|''Pokémon The Movie: White—Victini and Zekrom'' and ''Black—Victini and Reshiram''|VexM14|593F|Jellicent|yes|no
+M14|''Pokémon The Movie: White—Victini and Zekrom'' and ''Black—Victini and Reshiram''|VexM14|614|Beartic|no|yes
+M14|''Pokémon The Movie: White—Victini and Zekrom'' and ''Black—Victini and Reshiram''|VexM14|626|Bouffalant|yes|no
+M14|''Pokémon The Movie: White—Victini and Zekrom'' and ''Black—Victini and Reshiram''|VexM14|627|Rufflet|yes|no
+M14|''Pokémon The Movie: White—Victini and Zekrom'' and ''Black—Victini and Reshiram''|VexM14|628|Braviary|yes|no
+M14|''Pokémon The Movie: White—Victini and Zekrom'' and ''Black—Victini and Reshiram''|VexM14|630|Mandibuzz|no|yes
+M14|''Pokémon The Movie: White—Victini and Zekrom'' and ''Black—Victini and Reshiram''|VexM14|631|Heatmor|yes|no
+M14|''Pokémon The Movie: White—Victini and Zekrom'' and ''Black—Victini and Reshiram''|VexM14|641|Tornadus|yes|no
+M14|''Pokémon The Movie: White—Victini and Zekrom'' and ''Black—Victini and Reshiram''|VexM14|642|Thundurus|no|yes
+M14|''Pokémon The Movie: White—Victini and Zekrom'' and ''Black—Victini and Reshiram''|VexM14Footer|unova|5

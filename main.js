@@ -1,10 +1,32 @@
 // Processus principal Electron : fenêtre, lecture des données, sauvegarde du suivi.
 const { app, BrowserWindow, ipcMain, shell, dialog } = require('electron');
+// electron-updater est optionnel en développement : si le module manque (npm install pas relancé), l'appli démarre quand même
+let autoUpdater = null;
+try { ({ autoUpdater } = require('electron-updater')); } catch { console.warn('electron-updater absent : lance « npm install » pour activer les mises à jour'); }
 const path = require('path');
 const fs = require('fs');
 
 const DATA_DIR = path.join(__dirname, 'data');
 const SAVE_FILE = () => path.join(app.getPath('userData'), 'pokedex-suivi.json');
+
+let mainWin = null;
+
+// Mises à jour automatiques : l'appli installée vérifie les releases GitHub au démarrage (et toutes les 2 h),
+// télécharge la nouvelle version en arrière-plan et l'installe à la fermeture (ou tout de suite si on clique « Redémarrer »).
+function setupUpdates() {
+  if (!app.isPackaged || !autoUpdater) return; // pas de mise à jour en mode développement (npm start)
+  const send = (ch, data) => mainWin && !mainWin.isDestroyed() && mainWin.webContents.send(ch, data);
+  autoUpdater.autoDownload = true;
+  autoUpdater.autoInstallOnAppQuit = true;
+  autoUpdater.on('update-available', (i) => send('update:status', { state: 'downloading', version: i.version }));
+  autoUpdater.on('update-downloaded', (i) => send('update:status', { state: 'ready', version: i.version }));
+  autoUpdater.on('error', (e) => console.error('Mise à jour :', e && e.message));
+  const check = () => autoUpdater.checkForUpdates().catch(() => {});
+  setTimeout(check, 4000);
+  setInterval(check, 2 * 60 * 60 * 1000);
+}
+ipcMain.handle('update:install', () => autoUpdater && autoUpdater.quitAndInstall());
+ipcMain.handle('app:version', () => app.getVersion());
 
 function createWindow() {
   const win = new BrowserWindow({
@@ -21,6 +43,7 @@ function createWindow() {
       nodeIntegration: false,
     },
   });
+  mainWin = win;
   win.loadFile(path.join(__dirname, 'src', 'index.html'));
   // Les liens externes s'ouvrent dans le navigateur
   win.webContents.setWindowOpenHandler(({ url }) => {
@@ -83,5 +106,5 @@ ipcMain.handle('journal:open', async () => {
   win.loadFile(path.join(__dirname, 'journal', 'journal.html'));
 });
 
-app.whenReady().then(createWindow);
+app.whenReady().then(() => { createWindow(); setupUpdates(); });
 app.on('window-all-closed', () => app.quit());

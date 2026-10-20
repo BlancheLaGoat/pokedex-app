@@ -1,12 +1,13 @@
-# Construit l'exécutable Windows portable.
-# - à chaque push : l'exe est disponible dans l'onglet Actions (artefact « Pokedex-windows »)
-# - quand tu publies un tag v* (ex. v1.4.1) : l'exe est joint à la Release GitHub
-name: Build
+# Publication automatique.
+# À chaque envoi sur la branche main (Push origin dans GitHub Desktop) :
+#  - si le numéro de "version" de package.json n'a pas encore de release, l'installeur est construit
+#    et publié comme nouvelle release GitHub (vX.Y.Z) -> les applis installées se mettent à jour toutes seules ;
+#  - sinon, l'installeur est seulement construit et disponible dans l'onglet Actions (test).
+name: Build et publication
 
 on:
   push:
     branches: [main]
-    tags: ['v*']
   workflow_dispatch:
 
 permissions:
@@ -15,6 +16,8 @@ permissions:
 jobs:
   windows:
     runs-on: windows-latest
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -22,13 +25,28 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
-      - run: npx electron-builder --win portable --publish never
+
+      - name: Nouvelle version ?
+        id: ver
+        shell: bash
+        run: |
+          V=$(node -p "require('./package.json').version")
+          echo "version=$V" >> "$GITHUB_OUTPUT"
+          if gh release view "v$V" > /dev/null 2>&1; then
+            echo "new=false" >> "$GITHUB_OUTPUT"; echo "La release v$V existe déjà : simple build."
+          else
+            echo "new=true" >> "$GITHUB_OUTPUT"; echo "Nouvelle version v$V : publication."
+          fi
+
+      - name: Publier la release
+        if: steps.ver.outputs.new == 'true'
+        run: npx electron-builder --win nsis --publish always
+
+      - name: Build de test
+        if: steps.ver.outputs.new != 'true'
+        run: npx electron-builder --win nsis --publish never
+
       - uses: actions/upload-artifact@v4
         with:
-          name: Pokedex-windows
+          name: Pokedex-Setup-${{ steps.ver.outputs.version }}
           path: dist/*.exe
-      - name: Joindre l'exe à la release
-        if: startsWith(github.ref, 'refs/tags/v')
-        uses: softprops/action-gh-release@v2
-        with:
-          files: dist/*.exe

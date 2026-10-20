@@ -240,3 +240,12 @@ table.t td { padding: 4px 6px; border-bottom: 1px solid rgba(46,51,65,.6); verti
 .head-actions { display: flex; gap: 8px; align-items: center; margin-left: 12px; }
 .btn-reset { padding: 6px 10px; border-radius: 8px; border: 1px solid rgba(227,53,13,.5); background: transparent; color: #ffb3a0; cursor: pointer; font-size: 12px; white-space: nowrap; }
 .btn-reset:hover { background: var(--accent-soft); }
+
+/* codes couleur */
+.legend { display: flex; flex-wrap: wrap; gap: 12px; padding: 2px 0 8px; font-size: 11px; color: var(--muted); }
+.lg-item { display: inline-flex; align-items: center; gap: 5px; }
+.lg-item i { display: inline-block; width: 14px; height: 14px; border-radius: 4px; }
+.vdot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; }
+
+.update-bar { margin: 0 10px 8px; padding: 8px 10px; border-radius: 8px; background: var(--ok-soft); border: 1px solid var(--ok); font-size: 12px; display: flex; flex-direction: column; gap: 6px; }
+.update-bar button { background: var(--ok); color: #08130d; border: 0; border-radius: 6px; padding: 5px 8px; cursor: pointer; font-weight: 600; }
