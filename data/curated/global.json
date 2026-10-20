@@ -822,5 +822,36 @@
     ]
    }
   }
+ },
+ "eventEncounters": {
+  "_info": "Rencontres qui demandent un objet ou un Pokémon distribué lors d'un événement (ou un bonus de sauvegarde) : comptées comme « Événement », jamais proposées comme le plus simple.",
+  "locs": {
+   "faraway-island": "Vieille Carte (distribution)",
+   "birth-island": "Ticket Aurora (distribution)",
+   "navel-rock": "Ticket Mystik (distribution)",
+   "newmoon-island": "Carte Membre (distribution)",
+   "flower-paradise": "Lettre du Prof. Chen (distribution)",
+   "sinnoh-hall-of-origin-1": "Flûte Azur (distribution)",
+   "sinjoh-ruins": "Arceus événementiel requis",
+   "liberty-garden": "Passe Liberté (distribution)",
+   "bdsp-floaroma-town": "Bonus de sauvegarde Let's Go / Épée-Bouclier"
+  },
+  "locsByFam": {
+   "rse": {
+    "southern-island": "Ticket Éon (distribution)"
+   }
+  },
+  "conds": {
+   "71": "Arceus événementiel requis",
+   "105": "QR code spécial (distribution)",
+   "206": "Bonus de sauvegarde Let's Go Pikachu",
+   "207": "Bonus de sauvegarde Let's Go Évoli"
+  },
+  "methods": {
+   "colosseum-bonus-disc-us": "Disque bonus de Pokémon Colosseum (US)",
+   "colosseum-bonus-disc-jpn": "Disque bonus de Pokémon Colosseum (Japon)",
+   "pokemon-ranger": "Œuf transféré depuis Pokémon Ranger",
+   "pokemon-channel-pal": "Disque de Pokémon Channel (version européenne)"
+  }
  }
 }

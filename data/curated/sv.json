@@ -261,8 +261,10 @@
     "note": "Serpente-Eau : raids Téracristal événementiels uniquement"
    },
    "1025": {
-    "status": "event",
-    "note": "Pêchaminus : distribution (Cadeau Mystère)"
+    "status": "unique",
+    "seg": 11,
+    "label": "Fabuleux",
+    "note": "Épilogue « Mochi Mayhem » (après avoir fini Le Disque Indigo) : un seul exemplaire"
    }
   },
   "53": {
@@ -289,8 +291,10 @@
     "note": "Vert-de-Fer : raids Téracristal événementiels uniquement"
    },
    "1025": {
-    "status": "event",
-    "note": "Pêchaminus : distribution (Cadeau Mystère)"
+    "status": "unique",
+    "seg": 11,
+    "label": "Fabuleux",
+    "note": "Épilogue « Mochi Mayhem » (après avoir fini Le Disque Indigo) : un seul exemplaire"
    }
   }
  },

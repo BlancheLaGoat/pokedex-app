@@ -150,16 +150,29 @@
             const m = this.core.encMethods[method];
             const loc = this.core.locations[lid];
             out.push({
-              pid, area, lid, method: m.ident, methodFr: m.fr, conds, min, max, rate,
+              pid, area, lid, mid: method, method: m.ident, methodFr: m.fr, conds, min, max, rate,
               unique: UNIQUE_METHODS.has(m.ident),
               seg: loc ? this.locSeg(cur, loc.ident, m.ident, v, conds, a ? a.ident : '') : null,
               locFr: this.locName(lid, cur), areaFr: a ? a.fr : '', areaIdent: a ? a.ident : '',
               fromBase: src !== v,
+              eventNote: this.eventNote(v, loc ? loc.ident : '', conds, m.ident),
             });
           }
         }
       }
       return out;
+    }
+
+    // rencontre qui demande un objet / Pokémon d'événement ou un bonus de sauvegarde
+    eventNote(v, locIdent, conds, method) {
+      const ev = this.global.eventEncounters;
+      if (!ev) return null;
+      if ((ev.methods || {})[method]) return ev.methods[method];
+      const byFam = (ev.locsByFam || {})[this.game(v).fam] || {};
+      if (byFam[locIdent]) return byFam[locIdent];
+      if (ev.locs[locIdent]) return ev.locs[locIdent];
+      for (const c of conds || []) if (ev.conds[c]) return ev.conds[c];
+      return null;
     }
 
     uniqueLabel(sid, entries) {
@@ -221,6 +234,7 @@
           };
           if (!wild.length) info.uniqueLabel = this.uniqueLabel(sid, entries);
           else if (sp.leg || sp.myth) info.uniqueLabel = sp.myth ? 'Fabuleux' : 'Légendaire';
+          if (entries.every((e) => e.eventNote)) Object.assign(info, { kind: 'event', note: 'Événement : ' + entries[0].eventNote });
         } else if (special[sid]) {
           info = { sid, avail: true, kind: special[sid].status, needTrade: false, needEgg: false, seg: special[sid].seg ?? null, entries: [],
             note: special[sid].note, uniqueLabel: special[sid].label || (sp.myth ? 'Fabuleux' : (sp.leg ? 'Légendaire' : 'Spécial')) };
@@ -514,40 +528,76 @@
       return 2;
     }
 
-    // { cost, level, how } pour une espèce dans une version, ou null
-    howEasy(v, sid, opts, depth = 0) {
+    // % de chance de tomber dessus pour une rencontre : taux du lieu ; pour Écarlate / Violet (poids), part du poids
+    // parmi tous les Pokémon du même lieu / méthode / conditions ; cadeau ou Pokémon fixe = 100 %
+    entryChance(v, e) {
+      if (e.unique || e.method === 'sv-fixed' || e.method === 'sv-tera') return 100;
+      if (!e.rate || /raid|dynamax/.test(e.method)) return null; // raids : taux non connu
+      // total des taux du même lieu / méthode / conditions : au-delà de 100, ce sont des poids (Écarlate / Violet, Let's Go, Légendes…)
+      this.weightTotals = this.weightTotals || {};
+      const src = e.fromBase && DLC_BASE[v] ? DLC_BASE[v] : v;
+      let tot = this.weightTotals[src];
+      if (!tot) {
+        tot = this.weightTotals[src] = {};
+        for (const list of Object.values(this.enc[src] || {})) for (const [area, method, conds, , , rate] of list) {
+          const k = area + '|' + method + '|' + conds.join(',');
+          tot[k] = (tot[k] || 0) + (rate || 0);
+        }
+      }
+      const t = tot[e.area + '|' + e.mid + '|' + e.conds.join(',')];
+      if (t && t > 105) return Math.round((e.rate / t) * 1000) / 10;
+      return Math.min(100, e.rate);
+    }
+
+    // mode « simple » : la note la plus basse ; mode « chance » : le % le plus haut, puis la note
+    better(a, b, mode) {
+      if (!b) return true;
+      if (mode === 'chance') {
+        const ca = a.chance ?? -1, cb = b.chance ?? -1;
+        if (ca !== cb) return ca > cb;
+      }
+      return a.cost < b.cost;
+    }
+
+    // { cost, chance, level, how } pour une espèce dans une version, ou null
+    howEasy(v, sid, opts, depth = 0, mode = 'simple') {
       const info = this.status(v).get(sid);
       if (!info || !info.avail || depth > 4) return null;
       if (info.kind === 'exclusive' || info.kind === 'tradeOnly' || info.kind === 'transfer') return null;
-      if ((info.kind === 'event' || info.kind === 'go') && !opts.event) return null;
+      if (info.kind === 'event' || info.kind === 'go') return null; // un événement n'est jamais « simple » (souvent plus disponible)
       if (info.needEgg && !opts.egg) return null;
       if (info.needTrade && !opts.trade) return null;
+      const sp = this.core.species[sid];
       let best = null;
       for (const e of info.entries) {
         if (e.method === 'npc-trade' && !opts.trade) continue;
-        const c = this.entryCost(v, e);
-        if (!best || c < best.cost) best = { cost: c, level: e.min, entry: e };
+        if (e.eventNote) continue;
+        let c = this.entryCost(v, e) + (sp.leg || sp.myth ? 2 : 0); // légendaires : en général tard et à un seul exemplaire
+        if (e.unique && e.method !== 'gift' && e.method !== 'npc-trade') c += 0.7; // Pokémon fixe : une seule chance, à affronter
+        const cand = { cost: c, chance: this.entryChance(v, e), level: e.min, entry: e };
+        if (this.better(cand, best, mode)) best = cand;
       }
       if (info.via && info.kind !== 'egg') {
-        const pre = this.howEasy(v, info.via.from, opts, depth + 1);
+        const pre = this.howEasy(v, info.via.from, opts, depth + 1, mode);
         if (pre) {
           const row = (this.core.evolutions[sid] || []).find((r) => r.txt === info.via.txt && this.evoRowApplies(r, v));
           const c = pre.cost + this.evoCost(row, pre.level) + (info.via.trade ? 6 : 0);
           const lvl = row && row.lvl ? Math.max(row.lvl, pre.level || 0) : pre.level;
-          if (!best || c < best.cost) best = { cost: c, level: lvl, evo: { from: info.via.from, txt: info.via.txt, trade: info.via.trade }, pre };
+          const cand = { cost: c, chance: pre.chance, level: lvl, evo: { from: info.via.from, txt: info.via.txt, trade: info.via.trade }, pre };
+          if (this.better(cand, best, mode)) best = cand;
         }
       }
+      // un Pokémon fixe peut aussi s'obtenir par œuf (ex. Électrode fixe → œuf de Voltorbe puis évolution, déjà couvert ci-dessus)
       if (info.kind === 'egg' && info.via) {
-        const par = this.howEasy(v, info.via.from, opts, depth + 1);
-        if (par) best = { cost: par.cost + 2.5, level: 1, egg: info.via.from, pre: par };
+        const par = this.howEasy(v, info.via.from, opts, depth + 1, mode);
+        if (par) best = { cost: par.cost + 2.5, chance: par.chance, level: 1, egg: info.via.from, pre: par };
       }
       if (!best && (info.kind === 'unique' || info.kind === 'wild')) {
-        const sp = this.core.species[sid];
         // sans lieu connu : un Pokémon fixe saisi à la main reste simple, un sauvage « lieu non renseigné » passe après le reste
+        if ((sp.leg || sp.myth) && /lieu non renseigné/.test(info.note || '')) return null; // souvent un événement : on ne devine pas
         const base = info.kind === 'wild' ? 6 : sp.leg || sp.myth ? 4 : 2.5;
-        best = { cost: base + (info.post ? 3 : 0) + (this.game(v).dlc ? 1 : 0), level: null, fixed: true };
+        best = { cost: base + (info.post ? 3 : 0) + (this.game(v).dlc ? 1 : 0), chance: info.kind === 'unique' ? 100 : null, level: null, fixed: true };
       }
-      if (!best && (info.kind === 'event' || info.kind === 'go')) best = { cost: 15, level: null, event: true };
       if (!best) return null;
       if (info.needTrade && !best.evo) best.cost += 6;
       best.info = info;
@@ -555,24 +605,33 @@
     }
 
     // meilleures options pour une espèce, triées (une seule version par famille de jeux)
-    easiest(sid, opts) {
-      const key = sid + '|' + (opts.trade ? 1 : 0) + (opts.egg ? 1 : 0) + (opts.event ? 1 : 0);
+    easiest(sid, opts, mode = 'simple') {
+      const key = sid + '|' + (opts.trade ? 1 : 0) + (opts.egg ? 1 : 0) + mode;
       this.easyCache = this.easyCache || {};
       if (this.easyCache[key]) return this.easyCache[key];
       const res = [];
       for (const g of Object.values(this.core.games)) {
         if (g.extra) continue;
-        const r = this.howEasy(g.id, sid, opts);
+        const r = this.howEasy(g.id, sid, opts, 0, mode);
         if (r) res.push({ v: g.id, ...r });
       }
-      res.sort((a, b) => a.cost - b.cost || a.v - b.v);
+      res.sort((a, b) => (this.better(a, b, mode) ? -1 : this.better(b, a, mode) ? 1 : a.v - b.v));
       const seen = new Set();
       const out = [];
       for (const r of res) {
-        const fk = this.game(r.v).fam + '|' + (this.game(r.v).dlc || '');
+        const fk = this.game(r.v).fam; // une seule ligne par jeu (DLC compris)
         if (seen.has(fk)) continue;
         seen.add(fk);
         out.push(r);
+      }
+      // aucun moyen en jeu : jeux où il n'existe que par événement
+      if (!out.length) {
+        out.eventOnly = [];
+        for (const g of Object.values(this.core.games)) {
+          if (g.extra) continue;
+          const i = this.status(g.id).get(sid);
+          if (i && i.avail && (i.kind === 'event' || i.kind === 'go') && i.note !== 'Distribution événementielle uniquement') out.eventOnly.push({ v: g.id, info: i });
+        }
       }
       this.easyCache[key] = out;
       return out;

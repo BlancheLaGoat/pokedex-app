@@ -263,3 +263,14 @@ table.t td { padding: 4px 6px; border-bottom: 1px solid rgba(46,51,65,.6); verti
 .easy-alt div { margin: 2px 0; }
 .easy-box .easy-line { padding: 4px 0; border-bottom: 1px solid rgba(46,51,65,.6); }
 .easy-box .easy-line:last-child { border-bottom: 0; }
+.easy-event { font-size: 12px; color: var(--muted); }
+.easy-event .pill.ev { background: rgba(232,145,58,.18); color: #E8913A; border-color: #E8913A; }
+.easy-ctrl { display: flex; flex-wrap: wrap; gap: 8px 24px; margin-bottom: 10px; }
+.easy-seg { display: flex; align-items: center; gap: 4px; font-size: 12px; flex-wrap: wrap; }
+.easy-seg .muted { margin-right: 4px; }
+.easy-seg button { background: var(--bg3); border: 1px solid var(--line); color: inherit; border-radius: 999px; padding: 3px 10px; font-size: 12px; cursor: pointer; }
+.easy-seg button.on { border-color: #E8B502; color: #E8B502; }
+.pill.chance { font-variant-numeric: tabular-nums; }
+.pill.chance.hi { color: #5AD27A; border-color: #5AD27A; }
+.pill.chance.mid { color: #E8B502; border-color: #E8B502; }
+.pill.chance.lo { color: #E5484D; border-color: #E5484D; }

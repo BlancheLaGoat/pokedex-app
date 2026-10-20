@@ -116,6 +116,7 @@ async function init() {
   const saved = await window.api.loadSave();
   if (saved && saved.tracking) S.save = Object.assign(S.save, saved);
   if (S.save.settings.opts) Object.assign(S.opts, S.save.settings.opts);
+  S.easy = Object.assign({ mode: 'simple', sort: 'num' }, S.save.settings.easy || {});
   if (S.save.settings.view) S.view = S.save.settings.view;
   await Promise.all(Object.keys(S.core.games).map((v) => S.engine.ensure(+v)));
   setupToolbar();
@@ -146,6 +147,7 @@ let saveTimer = null;
 function persist() {
   S.save.settings.opts = S.opts;
   S.save.settings.view = S.view;
+  S.save.settings.easy = S.easy;
   clearTimeout(saveTimer);
   saveTimer = setTimeout(() => window.api.writeSave(S.save), 300);
 }
@@ -738,8 +740,7 @@ function easyHow(r, short) {
     const e = r.entry;
     const where = e.areaFr && e.areaFr !== e.locFr && !e.areaFr.startsWith(e.locFr) ? e.locFr + ' — ' + e.areaFr : (e.areaFr || e.locFr);
     const conds = e.conds.map((c) => S.core.encConds[c]).join(', ');
-    const rt = !e.unique ? rateTxt(e.method, e.rate) : '';
-    return [where, methodShort(e) + (e.give ? ' contre ' + name(e.give) : ''), e.min ? 'niv. ' + (e.min === e.max ? e.min : e.min + '-' + e.max) : null, rt, conds].filter(Boolean).join(' · ');
+    return [where, methodShort(e) + (e.give ? ' contre ' + name(e.give) : ''), e.min ? 'niv. ' + (e.min === e.max ? e.min : e.min + '-' + e.max) : null, conds].filter(Boolean).join(' · ');
   }
   if (r.evo) return 'Évolution de ' + name(r.evo.from) + ' (' + r.evo.txt + ')' + (short ? '' : ' ← ' + name(r.evo.from) + ' : ' + easyHow(r.pre, true));
   if (r.egg) return 'Œuf de ' + name(r.egg) + (short ? '' : ' ← ' + name(r.egg) + ' : ' + easyHow(r.pre, true));
@@ -752,28 +753,59 @@ function easyLine(r, first) {
   return h('div', { class: 'easy-line' + (first ? ' first' : '') },
     h('span', { class: 'easy-game', style: `border-color:${vColor(r.v)}` }, vName(r.v)),
     h('span', { class: 'easy-how' }, easyHow(r)),
+    chancePill(r),
     st !== '—' ? h('span', { class: 'pill' + (r.info.post ? ' post' : '') }, st) : null);
+}
+
+function chancePill(r) {
+  const c = r.chance;
+  const t = c == null ? '? %' : (c >= 10 ? Math.round(c) : c) + ' %';
+  const cls = c == null ? '' : c >= 30 ? ' hi' : c >= 10 ? ' mid' : ' lo';
+  const tip = c == null ? 'Chance de rencontre inconnue' : r.entry && r.entry.unique ? 'Cadeau / Pokémon fixe : toujours là' : 'Chance de tomber dessus à cet endroit' + (r.evo || r.egg ? ' (forme de base)' : '');
+  return h('span', { class: 'pill chance' + cls, title: tip }, t);
+}
+
+// pas de moyen en jeu : seulement des événements (souvent terminés)
+function easyNone(best) {
+  if (!best.eventOnly) return h('span', { class: 'muted' }, 'Rien avec les options actives (échanges, œufs)');
+  const notes = [...new Set(best.eventOnly.map((x) => x.info.note).filter(Boolean))];
+  return h('div', { class: 'easy-event' },
+    h('span', { class: 'pill ev' }, 'Événement seulement'), ' Pas obtenable en jouant : il faut une distribution (souvent terminée), un bonus ou un transfert.',
+    best.eventOnly.length ? h('div', { class: 'easy-alt' }, best.eventOnly.map((x) => vName(x.v)).join(', ') + (notes.length ? ' · ' + notes.slice(0, 2).join(' · ') : '')) : null);
 }
 
 function renderEasy(content) {
   const list = items().filter((x) => !x.form && !x.female).filter(passFilters);
+  const seg = (label, key, choices) => h('div', { class: 'easy-seg' }, h('span', { class: 'muted' }, label),
+    ...choices.map(([k, l]) => h('button', { class: S.easy[key] === k ? 'on' : '', onclick: () => { S.easy[key] = k; persist(); renderContent(); } }, l)));
+  content.append(h('div', { class: 'easy-ctrl' },
+    seg('Choisir le jeu :', 'mode', [['simple', 'Le plus simple'], ['chance', 'Le plus de chances (%)']]),
+    seg('Trier la liste :', 'sort', [['num', 'N° Pokédex'], ['chanceDesc', '% de chance ↓'], ['chanceAsc', '% de chance ↑'], ['cost', 'Les plus simples d\'abord']])));
+  const bestOf = new Map(list.map((it) => [it.sid, S.engine.easiest(it.sid, S.opts, S.easy.mode)]));
+  const ch = (sid) => { const b = bestOf.get(sid)[0]; return b ? (b.chance ?? -1) : -2; };
+  const co = (sid) => { const b = bestOf.get(sid)[0]; return b ? b.cost : 1e9; };
+  if (S.easy.sort === 'chanceDesc') list.sort((a, b) => ch(b.sid) - ch(a.sid) || co(a.sid) - co(b.sid));
+  if (S.easy.sort === 'chanceAsc') list.sort((a, b) => (ch(a.sid) < 0 ? 999 : ch(a.sid)) - (ch(b.sid) < 0 ? 999 : ch(b.sid)) || co(a.sid) - co(b.sid));
+  if (S.easy.sort === 'cost') list.sort((a, b) => co(a.sid) - co(b.sid));
   content.append(h('div', { class: 'box' }, 'Pour chaque Pokémon, le jeu où il est le plus simple et le plus rapide à obtenir : le plus tôt dans l\'aventure, '
     + 'sans conditions, avec une bonne fréquence, sans évolution ni œuf si possible. Les deux suivants sont d\'autres jeux. '
-    + 'Les boutons Échanges / Œufs / Événements changent les possibilités. Clique sur une ligne pour la fiche complète.'));
+    + '« Le plus de chances » choisit plutôt l\'endroit où il apparaît le plus souvent (cadeau ou Pokémon fixe = 100 %, ? = taux inconnu ; pour une évolution ou un œuf, c\'est le % de la forme de base). '
+    + 'Les événements (distributions, tickets, bonus de sauvegarde, codes) ne sont jamais proposés : ils ne sont souvent plus disponibles. '
+    + 'Les boutons Échanges / Œufs changent les possibilités. Clique sur une ligne pour la fiche complète.'));
   if (!list.length) { content.append(h('div', { class: 'empty' }, 'Aucun Pokémon ne correspond à ces filtres.')); renderProgress(); return; }
-  const t = h('table', { class: 't easy-table' }, h('tr', null, h('th', null, ''), h('th', null, 'Pokémon'), h('th', null, 'Le plus simple'), h('th', null, 'Sinon')));
+  const t = h('table', { class: 't easy-table' }, h('tr', null, h('th', null, ''), h('th', null, 'Pokémon'), h('th', null, S.easy.mode === 'chance' ? 'Le plus de chances' : 'Le plus simple'), h('th', null, 'Sinon')));
   const LIMIT = 150;
   let shown = 0;
   const addRows = () => {
     for (const it of list.slice(shown, shown + LIMIT)) {
       const sp = S.core.species[it.sid];
-      const best = S.engine.easiest(it.sid, S.opts);
+      const best = bestOf.get(it.sid);
       const cs = caughtCtx(it);
       t.append(h('tr', { class: cs.c ? 'caught' : '', onclick: () => openDrawer(it.sid) },
         h('td', null, img(S.defForm[it.sid] && S.defForm[it.sid].spr, false, false, sp.fr)),
         h('td', null, h('div', { class: 'muted' }, it.num), h('b', null, sp.fr)),
-        h('td', null, best[0] ? easyLine(best[0], true) : h('span', { class: 'muted' }, 'Rien avec les options actives')),
-        h('td', { class: 'easy-alt' }, ...best.slice(1, 3).map((r) => h('div', null, h('span', { class: 'easy-game', style: `border-color:${vColor(r.v)}` }, vName(r.v)), ' ', easyHow(r, true))))));
+        h('td', null, best[0] ? easyLine(best[0], true) : easyNone(best)),
+        h('td', { class: 'easy-alt' }, ...best.slice(1, 3).map((r) => h('div', null, h('span', { class: 'easy-game', style: `border-color:${vColor(r.v)}` }, vName(r.v)), ' ', easyHow(r, true), ' ', chancePill(r))))));
     }
     shown += LIMIT;
   };
@@ -1015,10 +1047,12 @@ function paneObtention(pane, sid) {
       S.engine.sets.ub.has(sid) && 'Ultra-Chimère', S.engine.sets.paradox.has(sid) && 'Paradoxe'].filter(Boolean).join(', ') || 'Standard'));
   pane.append(kv);
   if (S.drawer.ctx === 'all') {
-    const best = S.engine.easiest(sid, S.opts).slice(0, 5);
-    const eb = h('div', { class: 'box easy-box' }, h('h4', null, 'Le plus simple', h('span', { class: 'muted' }, 'du plus simple au moins simple')));
-    if (!best.length) eb.append(h('div', { class: 'muted' }, 'Aucun jeu ne permet de l\'obtenir avec les options actives (échanges, œufs, événements).'));
+    const best = S.engine.easiest(sid, S.opts, S.easy.mode).slice(0, 5);
+    const eb = h('div', { class: 'box easy-box' }, h('h4', null, S.easy.mode === 'chance' ? 'Le plus de chances' : 'Le plus simple',
+      h('span', { class: 'muted' }, S.easy.mode === 'chance' ? 'du % le plus haut au plus bas' : 'du plus simple au moins simple')));
+    if (!best.length && !best.eventOnly) eb.append(h('div', { class: 'muted' }, 'Aucun jeu ne permet de l\'obtenir avec les options actives (échanges, œufs).'));
     best.forEach((r, i) => eb.append(easyLine(r, i === 0)));
+    if (!best.length && best.eventOnly) eb.append(easyNone(best));
     pane.append(eb);
     for (const fam of S.core.families) {
       const groups = [{ name: fam.name, vs: [...fam.versions] }, ...(fam.dlc || []).map((d) => ({ name: d.name, vs: d.versions }))];
