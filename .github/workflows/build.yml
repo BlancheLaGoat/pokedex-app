@@ -38,15 +38,26 @@ jobs:
             echo "new=true" >> "$GITHUB_OUTPUT"; echo "Nouvelle version v$V : publication."
           fi
 
+      # Construit l'installeur + latest.yml (fichier lu par la mise à jour automatique), sans rien publier
+      - name: Construire l'installeur
+        run: npx electron-builder --win nsis --publish never
+
+      # Crée le tag vX.Y.Z sur ce commit et la release, avec l'installeur, sa blockmap et latest.yml
       - name: Publier la release
         if: steps.ver.outputs.new == 'true'
-        run: npx electron-builder --win nsis --publish always
-
-      - name: Build de test
-        if: steps.ver.outputs.new != 'true'
-        run: npx electron-builder --win nsis --publish never
+        shell: bash
+        run: |
+          V=${{ steps.ver.outputs.version }}
+          ls -la dist
+          gh release create "v$V" \
+            --target "$GITHUB_SHA" \
+            --title "Pokédex v$V" \
+            --notes "Mise à jour automatique : l'appli installée la téléchargera toute seule. Première installation : lancer Pokedex-Setup-$V.exe." \
+            dist/Pokedex-Setup-$V.exe dist/Pokedex-Setup-$V.exe.blockmap dist/latest.yml
 
       - uses: actions/upload-artifact@v4
         with:
           name: Pokedex-Setup-${{ steps.ver.outputs.version }}
-          path: dist/*.exe
+          path: |
+            dist/*.exe
+            dist/latest.yml
