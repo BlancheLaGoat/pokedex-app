@@ -365,7 +365,7 @@ function renderNav() {
   const nav = $('nav');
   nav.innerHTML = '';
   const isActive = (v) => JSON.stringify(v) === JSON.stringify(S.view);
-  const go = (view) => { S.view = view; if ((view.type !== 'version' && S.tab === 'route') || (view.type === 'global' && S.tab === 'map')) S.tab = 'dex'; persist(); renderNav(); render(); };
+  const go = (view) => { S.view = view; if ((view.type !== 'version' && S.tab === 'route') || (view.type === 'global' && S.tab === 'map') || (view.type !== 'global' && S.tab === 'easy')) S.tab = 'dex'; persist(); renderNav(); render(); };
   const totalGlobal = Object.keys(S.core.species).length;
   let got = 0;
   const vs = [...allMainVersions(), 'global'];
@@ -465,6 +465,7 @@ function renderHead() {
   t('dex', 'Pokédex');
   if (v.type === 'version') t('route', 'Route optimisée');
   if (v.type !== 'global') t('map', 'Carte');
+  if (v.type === 'global') t('easy', 'Le plus simple');
   t('forms', 'Formes alternatives');
   $('toolbar').classList.toggle('hidden', S.tab === 'map');
   $('chips').classList.toggle('hidden', S.tab === 'map');
@@ -505,6 +506,7 @@ function renderContent() {
   const content = $('content');
   content.innerHTML = '';
   if (S.tab === 'route' && S.view.type === 'version') return renderRoute(content);
+  if (S.tab === 'easy' && S.view.type === 'global') return renderEasy(content);
   if (S.tab === 'map' && S.view.type !== 'global') {
     S.mainMap = S.mainMap || {};
     const vs = viewVersions();
@@ -729,6 +731,61 @@ function refreshAfterToggle() {
 }
 
 // ------------------------------------------------------------------ route optimisée
+// ------------------------------------------------------------------ le plus simple (Pokédex national)
+function easyHow(r, short) {
+  const name = (x) => S.core.species[x].fr;
+  if (r.entry) {
+    const e = r.entry;
+    const where = e.areaFr && e.areaFr !== e.locFr && !e.areaFr.startsWith(e.locFr) ? e.locFr + ' — ' + e.areaFr : (e.areaFr || e.locFr);
+    const conds = e.conds.map((c) => S.core.encConds[c]).join(', ');
+    const rt = !e.unique ? rateTxt(e.method, e.rate) : '';
+    return [where, methodShort(e) + (e.give ? ' contre ' + name(e.give) : ''), e.min ? 'niv. ' + (e.min === e.max ? e.min : e.min + '-' + e.max) : null, rt, conds].filter(Boolean).join(' · ');
+  }
+  if (r.evo) return 'Évolution de ' + name(r.evo.from) + ' (' + r.evo.txt + ')' + (short ? '' : ' ← ' + name(r.evo.from) + ' : ' + easyHow(r.pre, true));
+  if (r.egg) return 'Œuf de ' + name(r.egg) + (short ? '' : ' ← ' + name(r.egg) + ' : ' + easyHow(r.pre, true));
+  if (r.event) return 'Événement' + (r.info.note ? ' : ' + r.info.note : '');
+  return (r.info.uniqueLabel || 'Pokémon fixe / cadeau') + (r.info.note ? ' · ' + r.info.note : '');
+}
+
+function easyLine(r, first) {
+  const st = S.engine.stageLabel(r.info, r.v);
+  return h('div', { class: 'easy-line' + (first ? ' first' : '') },
+    h('span', { class: 'easy-game', style: `border-color:${vColor(r.v)}` }, vName(r.v)),
+    h('span', { class: 'easy-how' }, easyHow(r)),
+    st !== '—' ? h('span', { class: 'pill' + (r.info.post ? ' post' : '') }, st) : null);
+}
+
+function renderEasy(content) {
+  const list = items().filter((x) => !x.form && !x.female).filter(passFilters);
+  content.append(h('div', { class: 'box' }, 'Pour chaque Pokémon, le jeu où il est le plus simple et le plus rapide à obtenir : le plus tôt dans l\'aventure, '
+    + 'sans conditions, avec une bonne fréquence, sans évolution ni œuf si possible. Les deux suivants sont d\'autres jeux. '
+    + 'Les boutons Échanges / Œufs / Événements changent les possibilités. Clique sur une ligne pour la fiche complète.'));
+  if (!list.length) { content.append(h('div', { class: 'empty' }, 'Aucun Pokémon ne correspond à ces filtres.')); renderProgress(); return; }
+  const t = h('table', { class: 't easy-table' }, h('tr', null, h('th', null, ''), h('th', null, 'Pokémon'), h('th', null, 'Le plus simple'), h('th', null, 'Sinon')));
+  const LIMIT = 150;
+  let shown = 0;
+  const addRows = () => {
+    for (const it of list.slice(shown, shown + LIMIT)) {
+      const sp = S.core.species[it.sid];
+      const best = S.engine.easiest(it.sid, S.opts);
+      const cs = caughtCtx(it);
+      t.append(h('tr', { class: cs.c ? 'caught' : '', onclick: () => openDrawer(it.sid) },
+        h('td', null, img(S.defForm[it.sid] && S.defForm[it.sid].spr, false, false, sp.fr)),
+        h('td', null, h('div', { class: 'muted' }, it.num), h('b', null, sp.fr)),
+        h('td', null, best[0] ? easyLine(best[0], true) : h('span', { class: 'muted' }, 'Rien avec les options actives')),
+        h('td', { class: 'easy-alt' }, ...best.slice(1, 3).map((r) => h('div', null, h('span', { class: 'easy-game', style: `border-color:${vColor(r.v)}` }, vName(r.v)), ' ', easyHow(r, true))))));
+    }
+    shown += LIMIT;
+  };
+  addRows();
+  content.append(t);
+  if (shown < list.length) {
+    const more = h('button', { class: 'ghost', style: 'margin:12px auto;display:block', onclick: () => { addRows(); if (shown >= list.length) more.remove(); } }, 'Afficher la suite');
+    content.append(more);
+  }
+  renderProgress();
+}
+
 function renderRoute(content) {
   const v = S.view.v;
   const r = S.engine.route(v, S.opts);
@@ -958,6 +1015,11 @@ function paneObtention(pane, sid) {
       S.engine.sets.ub.has(sid) && 'Ultra-Chimère', S.engine.sets.paradox.has(sid) && 'Paradoxe'].filter(Boolean).join(', ') || 'Standard'));
   pane.append(kv);
   if (S.drawer.ctx === 'all') {
+    const best = S.engine.easiest(sid, S.opts).slice(0, 5);
+    const eb = h('div', { class: 'box easy-box' }, h('h4', null, 'Le plus simple', h('span', { class: 'muted' }, 'du plus simple au moins simple')));
+    if (!best.length) eb.append(h('div', { class: 'muted' }, 'Aucun jeu ne permet de l\'obtenir avec les options actives (échanges, œufs, événements).'));
+    best.forEach((r, i) => eb.append(easyLine(r, i === 0)));
+    pane.append(eb);
     for (const fam of S.core.families) {
       const groups = [{ name: fam.name, vs: [...fam.versions] }, ...(fam.dlc || []).map((d) => ({ name: d.name, vs: d.versions }))];
       for (const gr of groups) {

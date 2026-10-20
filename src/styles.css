@@ -250,3 +250,16 @@ table.t td { padding: 4px 6px; border-bottom: 1px solid rgba(46,51,65,.6); verti
 .update-bar { margin: 0 10px 8px; padding: 8px 10px; border-radius: 8px; background: var(--ok-soft); border: 1px solid var(--ok); font-size: 12px; display: flex; flex-direction: column; gap: 6px; }
 .update-bar button { background: var(--ok); color: #08130d; border: 0; border-radius: 6px; padding: 5px 8px; cursor: pointer; font-weight: 600; }
 .brand-icon { width: 34px; height: 34px; border-radius: 8px; }
+
+/* le plus simple */
+.easy-table tr { cursor: pointer; }
+.easy-table tr:hover td { background: rgba(255,255,255,.03); }
+.easy-table tr.caught td { opacity: .45; }
+.easy-table td img { width: 48px; height: 48px; image-rendering: auto; }
+.easy-line { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin: 3px 0; font-size: 12px; }
+.easy-line.first .easy-how { color: var(--text, #e8e8ee); font-weight: 500; }
+.easy-game { display: inline-block; border-left: 3px solid #888; padding: 1px 6px; background: var(--bg2); border-radius: 4px; font-size: 11px; white-space: nowrap; }
+.easy-alt { color: var(--muted); font-size: 11px; }
+.easy-alt div { margin: 2px 0; }
+.easy-box .easy-line { padding: 4px 0; border-bottom: 1px solid rgba(46,51,65,.6); }
+.easy-box .easy-line:last-child { border-bottom: 0; }

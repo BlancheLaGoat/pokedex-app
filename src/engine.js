@@ -115,7 +115,8 @@
         if (!p) return null;
         const byV = (p.locsByVersion || {})[v] || [];
         const late = p._set.has(locIdent) || p._set.has(locIdent + '/' + areaIdent) || byV.includes(locIdent)
-          || (conds || []).some((c) => p._conds.has(c));
+          || (conds || []).some((c) => p._conds.has(c))
+          || /apr-s-le-pokedex-national|post-national-pokedex/.test(areaIdent || ''); // zones « Après le Pokédex National »
         return late ? 2 : 1;
       }
       let seg = null;
@@ -476,6 +477,105 @@
       if (info.kind === 'go') return 'Pokémon GO';
       if (!this.hasStages(v) || info.seg == null) return '—';
       return info.post ? 'Après la ligue' : 'Avant la ligue';
+    }
+
+    // ------------------------------------------------ le plus simple, tous jeux confondus
+    // Note de « difficulté » d'une façon d'obtenir l'espèce dans une version (plus c'est bas, plus c'est simple et rapide) :
+    // avancée dans le jeu (niveau des Pokémon du lieu ou étape saisie), après la ligue, méthode, rareté,
+    // + les étapes en plus (évolution, œuf, échange).
+    entryCost(v, e) {
+      const cur = this.cur(v);
+      let c;
+      if (cur && cur.segments.length && e.seg != null) {
+        const segObj = cur.segments.find((s) => s.id === e.seg);
+        c = (e.seg - 1) * 0.6 + (segObj && segObj.postgame ? 2 : 0);
+      } else {
+        c = Math.min(e.min || 5, 70) / 8 + (e.seg === 2 ? 3 : 0);
+      }
+      const m = e.method;
+      const METHOD = { walk: 0, 'old-rod': 0.3, 'good-rod': 0.6, 'super-rod': 1, surf: 0.5, gift: 0.2, 'gift-egg': 1, static: 0.4, 'npc-trade': 0.5,
+        headbutt: 1, 'rock-smash': 1, overworld: 0, 'sv-land': 0, 'sv-water': 0.3, 'sv-fixed': 0.4, 'sv-tera': 2,
+        sos: 1.5, 'bp-wild': 0.5, wanderer: 0.5, 'dynamax-adventure': 3, 'max-raid': 3, 'island-scan': 2.5, 'pokeradar': 1.5,
+        'overworld-special': 4, 'overworld-flying-special': 4, 'overworld-water-special': 4 };
+      if (m === 'npc-trade') c += 1; // il faut aussi le Pokémon demandé
+      c += m in METHOD ? METHOD[m] : /^overworld|^sv-/.test(m) ? 0.4 : /roam/.test(m) ? 3 : 1;
+      if (!e.unique && e.rate && !/^sv-/.test(m)) c += e.rate >= 20 ? 0 : e.rate >= 10 ? 0.4 : e.rate >= 5 ? 1 : e.rate >= 1 ? 2 : 3;
+      c += (e.conds || []).length * 0.3;
+      if (e.fromBase) c += 0.1;
+      if (this.game(v).dlc) c += 1; // DLC à acheter et souvent tard dans le jeu
+      return c;
+    }
+
+    evoCost(row, preLevel) {
+      if (!row) return 2;
+      if (row.lvl) return Math.max(0.3, (row.lvl - (preLevel || 5)) / 10);
+      if (row.item) return 1.2;
+      if (/Bonheur|Amitié|amitié/.test(row.txt)) return 1.5;
+      return 2;
+    }
+
+    // { cost, level, how } pour une espèce dans une version, ou null
+    howEasy(v, sid, opts, depth = 0) {
+      const info = this.status(v).get(sid);
+      if (!info || !info.avail || depth > 4) return null;
+      if (info.kind === 'exclusive' || info.kind === 'tradeOnly' || info.kind === 'transfer') return null;
+      if ((info.kind === 'event' || info.kind === 'go') && !opts.event) return null;
+      if (info.needEgg && !opts.egg) return null;
+      if (info.needTrade && !opts.trade) return null;
+      let best = null;
+      for (const e of info.entries) {
+        if (e.method === 'npc-trade' && !opts.trade) continue;
+        const c = this.entryCost(v, e);
+        if (!best || c < best.cost) best = { cost: c, level: e.min, entry: e };
+      }
+      if (info.via && info.kind !== 'egg') {
+        const pre = this.howEasy(v, info.via.from, opts, depth + 1);
+        if (pre) {
+          const row = (this.core.evolutions[sid] || []).find((r) => r.txt === info.via.txt && this.evoRowApplies(r, v));
+          const c = pre.cost + this.evoCost(row, pre.level) + (info.via.trade ? 6 : 0);
+          const lvl = row && row.lvl ? Math.max(row.lvl, pre.level || 0) : pre.level;
+          if (!best || c < best.cost) best = { cost: c, level: lvl, evo: { from: info.via.from, txt: info.via.txt, trade: info.via.trade }, pre };
+        }
+      }
+      if (info.kind === 'egg' && info.via) {
+        const par = this.howEasy(v, info.via.from, opts, depth + 1);
+        if (par) best = { cost: par.cost + 2.5, level: 1, egg: info.via.from, pre: par };
+      }
+      if (!best && (info.kind === 'unique' || info.kind === 'wild')) {
+        const sp = this.core.species[sid];
+        // sans lieu connu : un Pokémon fixe saisi à la main reste simple, un sauvage « lieu non renseigné » passe après le reste
+        const base = info.kind === 'wild' ? 6 : sp.leg || sp.myth ? 4 : 2.5;
+        best = { cost: base + (info.post ? 3 : 0) + (this.game(v).dlc ? 1 : 0), level: null, fixed: true };
+      }
+      if (!best && (info.kind === 'event' || info.kind === 'go')) best = { cost: 15, level: null, event: true };
+      if (!best) return null;
+      if (info.needTrade && !best.evo) best.cost += 6;
+      best.info = info;
+      return best;
+    }
+
+    // meilleures options pour une espèce, triées (une seule version par famille de jeux)
+    easiest(sid, opts) {
+      const key = sid + '|' + (opts.trade ? 1 : 0) + (opts.egg ? 1 : 0) + (opts.event ? 1 : 0);
+      this.easyCache = this.easyCache || {};
+      if (this.easyCache[key]) return this.easyCache[key];
+      const res = [];
+      for (const g of Object.values(this.core.games)) {
+        if (g.extra) continue;
+        const r = this.howEasy(g.id, sid, opts);
+        if (r) res.push({ v: g.id, ...r });
+      }
+      res.sort((a, b) => a.cost - b.cost || a.v - b.v);
+      const seen = new Set();
+      const out = [];
+      for (const r of res) {
+        const fk = this.game(r.v).fam + '|' + (this.game(r.v).dlc || '');
+        if (seen.has(fk)) continue;
+        seen.add(fk);
+        out.push(r);
+      }
+      this.easyCache[key] = out;
+      return out;
     }
 
     // ------------------------------------------------ Pokédex d'une version
