@@ -342,7 +342,10 @@ table.t.honey-table td { vertical-align: middle; }
 .oak-body .oak-more { flex: 0 0 auto; width: auto; margin-left: auto; padding: 0 8px; }
 
 /* vraie carte du jeu en fond */
-.map-img .m-bg { image-rendering: pixelated; }
+.map-pix .m-bg { image-rendering: pixelated; }
+.map-img { max-height: 80vh; }
+.map-img.map-tall { max-height: none; }
+.map-wrap.map-scroll { max-height: 75vh; overflow-y: auto; }
 .map-img .m-node rect, .map-img .m-node circle { opacity: .92; }
 .map-img .m-node.empty { opacity: .55; }
 .map-img text { paint-order: stroke; stroke: rgba(0,0,0,.85); stroke-width: .9px; }

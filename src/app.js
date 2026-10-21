@@ -1472,17 +1472,14 @@ function renderMapInto(pane, sid, v, st, rerender) {
   for (const n of map.nodes) pos[n.id] = n;
   const NS = 'http://www.w3.org/2000/svg';
   const sv = (tag, attrs, ...kids) => { const e = document.createElementNS(NS, tag); for (const [k, val] of Object.entries(attrs || {})) e.setAttribute(k, val); kids.forEach((k) => k && e.append(k)); return e; };
-  // vraie carte du jeu : l'image sert de fond, les lieux (en % de l'image) sont ramenés dans un repère 0-100 en largeur
+  // vraie carte du jeu : une ou plusieurs images en fond, les lieux sont déjà placés dans le repère de l'image (largeur 100)
   let svg;
   if (map.img) {
-    const [x0, y0, x1, y1] = map.img.crop;
-    const cw = (x1 - x0) / 100 * map.img.w, ch = (y1 - y0) / 100 * map.img.h;
-    const H = 100 * ch / cw;
-    const tx = (x) => (x - x0) / (x1 - x0) * 100, ty = (y) => (y - y0) / (y1 - y0) * H;
-    svg = sv('svg', { viewBox: `0 0 100 ${H}`, class: 'map-svg map-img' });
-    svg.append(sv('image', { href: map.img.url, x: tx(0), y: ty(0), width: 100 * 100 / (x1 - x0), height: H * 100 / (y1 - y0), preserveAspectRatio: 'none', class: 'm-bg' }));
-    for (const n of map.nodes) pos[n.id] = { ...n, x: tx(n.x), y: ty(n.y) };
-    map.nodes.forEach((n) => { n._x = pos[n.id].x; n._y = pos[n.id].y; });
+    svg = sv('svg', { viewBox: `0 0 100 ${map.img.H}`, class: 'map-svg map-img' + (map.img.pix ? ' map-pix' : '') });
+    if (map.img.bg) svg.append(sv('rect', { x: 0, y: 0, width: 100, height: map.img.H, fill: map.img.bg }));
+    // chaque image est découpée (viewBox) puis posée à sa place sur le canevas
+    for (const L of map.img.layers) svg.append(sv('svg', { x: L.x, y: L.y, width: L.w, height: L.h, viewBox: L.vb.join(' '), preserveAspectRatio: 'none' },
+      sv('image', { href: L.url, x: 0, y: 0, width: L.iw, height: L.ih, preserveAspectRatio: 'none', class: 'm-bg' })));
   } else {
     svg = sv('svg', { viewBox: '-4 -5 108 84', class: 'map-svg' });
   }
@@ -1499,26 +1496,38 @@ function renderMapInto(pane, sid, v, st, rerender) {
     const [c, t] = has ? caughtSet(L.list) : [0, 0];
     const done = has && c === t;
     const cls = ['m-node', 'm-' + kind, has ? 'has' : 'empty', here ? 'here' : '', done ? 'done' : '', st.mapLoc === n.id ? 'sel' : ''].join(' ');
-    const gEl = sv('g', { class: cls, transform: `translate(${map.img ? n._x : n.x},${map.img ? n._y : n.y})` });
+    const gEl = sv('g', { class: cls, transform: `translate(${n.x},${n.y})` });
     const title = sv('title'); title.textContent = nodeName(n.id, v, n) + (has ? ` — ${c}/${t} capturés` : '');
     gEl.append(title);
-    if (kind === 'town') gEl.append(sv('rect', { x: -1.8, y: -1.8, width: 3.6, height: 3.6, rx: 0.6 }));
-    else if (kind === 'route') gEl.append(sv('circle', { r: 1.7 }));
-    else gEl.append(sv('rect', { x: -1.5, y: -1.5, width: 3, height: 3, rx: 0.4, transform: 'rotate(45)' }));
-    if (here) gEl.append(sv('circle', { r: 3.2, class: 'm-ring' }));
+    // pastilles plus petites sur les cartes chargées (ns), le texte des villes garde sa taille
+    const ns = (map.img && map.img.ns) || 1;
+    const mk = ns !== 1 ? sv('g', { transform: `scale(${ns})` }) : gEl;
+    if (mk !== gEl) gEl.append(mk);
+    if (kind === 'town') mk.append(sv('rect', { x: -1.8, y: -1.8, width: 3.6, height: 3.6, rx: 0.6 }));
+    else if (kind === 'route') mk.append(sv('circle', { r: 1.7 }));
+    else mk.append(sv('rect', { x: -1.5, y: -1.5, width: 3, height: 3, rx: 0.4, transform: 'rotate(45)' }));
+    if (here) mk.append(sv('circle', { r: 3.2, class: 'm-ring' }));
     const big = st !== S.drawer;
     // sur la vraie carte, seuls les numéros de route et les villes ont une étiquette (le reste : au survol ou une fois choisi)
     const lab = kind === 'route' ? routeNum(n.id) : (map.img ? (kind === 'town' || st.mapLoc === n.id ? (n.label || nodeName(n.id, v, n)) : '')
       : (kind === 'town' || ((big || map.labels) && has) ? (n.label || nodeName(n.id, v, n)) : ''));
     if (lab) {
-      const t2 = sv('text', { y: kind === 'route' ? 0.65 : (kind === 'town' ? 4.6 : 4), class: kind === 'route' ? 'm-num' : (kind === 'town' ? 'm-label' : 'm-label m-small') });
+      const t2 = sv('text', { y: kind === 'route' ? 0.65 : (kind === 'town' ? 2.8 + 1.8 * ns : 2.5 + 1.5 * ns), class: kind === 'route' ? 'm-num' : (kind === 'town' ? 'm-label' : 'm-label m-small') });
       t2.textContent = lab.length > 16 ? lab.slice(0, 15) + '…' : lab;
-      gEl.append(t2);
+      (kind === 'route' ? mk : gEl).append(t2);
     }
     if (has) gEl.addEventListener('click', () => { st.mapLoc = n.id; rerender(); });
     svg.append(gEl);
   }
-  pane.append(h('div', { class: 'map-wrap' }, svg));
+  // carte très haute (Galar) : elle garde sa largeur et défile, centrée sur le lieu choisi ou sur ce Pokémon
+  const tall = map.img && map.img.H > 130;
+  if (tall) svg.classList.add('map-tall');
+  const wrap = h('div', { class: 'map-wrap' + (tall ? ' map-scroll' : '') }, svg);
+  pane.append(wrap);
+  if (tall) {
+    const focus = map.nodes.find((n) => n.id === st.mapLoc) || map.nodes.find((n) => idx[n.id] && idx[n.id].list.some((x) => x.sid === sid));
+    if (focus) requestAnimationFrame(() => { wrap.scrollTop = focus.y / map.img.H * svg.getBoundingClientRect().height - wrap.clientHeight / 2; });
+  }
   if (map.img) pane.append(h('div', { class: 'muted', style: 'font-size:11px;margin-top:2px' }, map.img.source + ' (connexion internet nécessaire).'));
   pane.append(h('div', { class: 'map-legend' },
     h('span', null, h('i', { class: 'lg here' }), 'Ce Pokémon'), h('span', null, h('i', { class: 'lg has' }), 'Pokémon à capturer'),

@@ -1006,66 +1006,7 @@ BP_FR = json.load(open(os.path.join(os.path.dirname(__file__), '..', 'data', 'cu
 SV_FR = json.load(open(os.path.join(os.path.dirname(__file__), '..', 'data', 'curated', 'sv', 'names-fr.json'), encoding='utf-8'))
 
 
-# Vraies cartes du jeu (images Bulbagarden Archives, chargées par internet, jamais copiées dans l'appli).
-# pos : position de chaque lieu en % de l'image ; crop : partie de l'image affichée (en %, x0 y0 x1 y1).
-IMG_MAPS = {
-    'kanto': {
-        'url': 'https://archives.bulbagarden.net/media/upload/7/7c/KantoTownMap.png', 'w': 240, 'h': 160, 'crop': [10, 9.5, 90, 100],
-        'source': 'Carte de Kanto (Rouge Feu / Vert Feuille), Bulbagarden Archives',
-        'pos': """
-pallet-town 28.2 77.1
-kanto-route-1 28.2 69.6
-viridian-city 28.2 62.1
-kanto-route-22 24.2 62.1
-kanto-route-23 21.5 52
-kanto-victory-road-1 21.5 45
-kanto-victory-road-2 21.5 42.3
-indigo-plateau 21.5 36.9
-kanto-route-2 28.2 56.6
-viridian-forest 28.2 47.5
-pewter-city 28.2 42.3
-kanto-route-3 37 36.9
-mt-moon 44.8 36.9
-kanto-route-4 53.4 36.9
-cerulean-city 61.5 36.9
-cerulean-cave 57.5 31
-kanto-route-24 61.5 30
-kanto-route-25 66.5 25.2
-kanto-route-5 61.5 44.5
-kanto-underground-path 63.8 57
-saffron-city 61.5 52.4
-kanto-route-6 61.5 60
-vermilion-city 61.5 67.1
-ss-anne 58.5 71.5
-digletts-cave 64.8 67.1
-kanto-route-11 68.5 67.1
-kanto-route-9 68.3 36.9
-kanto-power-plant 74.9 36.9
-rock-tunnel 74.9 42.3
-kanto-route-10 74.9 47.4
-lavender-town 74.9 52.4
-pokemon-tower 77.3 54.6
-kanto-route-8 68.3 52.4
-kanto-route-7 56.5 52.4
-celadon-city 51.6 52.4
-kanto-route-16 43 52.4
-kanto-route-17 37.6 68
-kanto-route-18 46 84.5
-fuchsia-city 54.9 82.5
-kanto-safari-zone 56.9 78.5
-kanto-route-12 74.9 63
-kanto-route-13 72 77.6
-kanto-route-14 66.5 80.2
-kanto-route-15 61 82.5
-kanto-sea-route-19 54.9 88.5
-kanto-sea-route-20 48.5 92.2
-seafoam-islands 41.5 92.2
-cinnabar-island 28.2 92.2
-pokemon-mansion 30.6 93.8
-kanto-sea-route-21 28.2 85
-""",
-    },
-}
+from maps_img import IMG_MAPS, place_img  # vraies cartes du jeu
 
 
 def parse(m, key=None):
@@ -1088,14 +1029,7 @@ def parse(m, key=None):
     res = {'name': m['name'], 'nodes': nodes, 'paths': paths, 'labels': m.get('labels', False)}
     im = IMG_MAPS.get(key)
     if im:
-        pos = {}
-        for line in im['pos'].strip().split('\n'):
-            ident, x, y = line.rsplit(' ', 2)
-            pos[ident] = (float(x), float(y))
-        # seuls les lieux placés sur l'image restent sur la carte, les autres passent dans « Autres lieux »
-        res['nodes'] = [dict(n, x=pos[n['id']][0], y=pos[n['id']][1]) for n in nodes if n['id'] in pos]
-        res['paths'] = []
-        res['img'] = {k: im[k] for k in ('url', 'w', 'h', 'crop', 'source')}
+        place_img(res, im, key)
     return res
 
 
