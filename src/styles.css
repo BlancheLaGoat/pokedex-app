@@ -410,3 +410,22 @@ table.t.honey-table td { vertical-align: middle; }
 .tm-order { margin-top: 8px; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
 .tm-rank { background: rgba(255,255,255,.06); border: 1px solid var(--line); border-radius: 999px; padding: 1px 9px; font-size: 12px; }
 .tm-rank.first { border-color: var(--ok); color: #9fe0bd; }
+/* lieux de combat (onglet Combat) */
+.fac-box { border: 1px dashed var(--line); border-radius: 8px; padding: 8px; margin-bottom: 10px; }
+.fac-box input { background: var(--bg2); color: inherit; border: 1px solid var(--line); border-radius: 6px; padding: 5px 8px; }
+.fac-list { display: flex; flex-direction: column; gap: 4px; max-height: 340px; overflow: auto; margin: 6px 0; }
+.fac-set { display: flex; gap: 8px; align-items: center; text-align: left; background: var(--bg3); color: inherit; border: 1px solid var(--line); border-radius: 6px; padding: 4px 8px; cursor: pointer; font-size: 12px; }
+.fac-set:hover { border-color: var(--accent, #5b9cf0); }
+.fac-set img { width: 40px; height: 40px; image-rendering: pixelated; flex: none; }
+/* boîtes de la sauvegarde (onglet Équipes) */
+.tm-box { margin-top: 12px; }
+.tm-box > input { background: var(--bg2); color: inherit; border: 1px solid var(--line); border-radius: 6px; padding: 5px 8px; margin-bottom: 6px; }
+.tm-boxlist { max-height: 420px; overflow: auto; }
+.tm-boxwhere { font-size: 11px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted, #8a8f98); margin: 8px 0 4px; }
+.tm-boxrow { display: flex; flex-wrap: wrap; gap: 4px; }
+.tm-boxmon { display: flex; flex-direction: column; align-items: center; width: 78px; padding: 3px; background: var(--bg3); color: inherit; border: 1px solid var(--line); border-radius: 6px; cursor: pointer; font-size: 11px; }
+.tm-boxmon:hover:not(:disabled) { border-color: var(--accent); }
+.tm-boxmon:disabled { opacity: .5; cursor: default; }
+.tm-boxmon img { width: 48px; height: 48px; image-rendering: pixelated; }
+.tm-boxmon span { max-width: 74px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.tm-boxmon small { color: var(--muted, #8a8f98); }

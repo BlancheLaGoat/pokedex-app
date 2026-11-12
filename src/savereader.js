@@ -1,5 +1,6 @@
 // Lecture des sauvegardes des jeux Pokémon (Gen 1 à 7, Let's Go, Diamant Étincelant / Perle Scintillante).
-// Renvoie les Pokémon possédés (équipe + boîtes PC) : espèce (n° national), shiny, forme, version d'origine.
+// Renvoie les Pokémon possédés (équipe + boîtes PC) : espèce (n° national), shiny, forme, version d'origine,
+// et le détail pour l'onglet Équipes (d) : niveau ou expérience, nature, talent, objet, attaques, IV, EV.
 // Formats documentés d'après PKHeX (offsets, chiffrement) ; code écrit pour cette appli.
 (function (root) {
   'use strict';
@@ -54,7 +55,18 @@
     return d;
   }
 
-  function mon(sid, shiny, form, origin, where) { return { sid, shiny: !!shiny, form: form || 0, origin: origin ?? null, where }; }
+  function mon(sid, shiny, form, origin, where, d) { const m = { sid, shiny: !!shiny, form: form || 0, origin: origin ?? null, where }; if (d) m.d = d; return m; }
+  // ordre du jeu (PV, Atq, Déf, Vit, ASp, DSp) -> ordre de l'appli (PV, Atq, Déf, ASp, DSp, Vit)
+  const toApp = (a) => [a[0], a[1], a[2], a[4], a[5], a[3]];
+  const ivs32 = (v) => toApp([0, 5, 10, 15, 20, 25].map((b) => (v >>> b) & 31));
+  const be = (d, o, n) => { let v = 0; for (let i = 0; i < n; i++) v = v * 256 + d[o + i]; return v; };
+  // Gen 1 et 2 : DV (0-15) et « Stat Exp » -> équivalents actuels (IV = 2 × DV, EV = racine de la Stat Exp, arrondie au-dessus)
+  function gb(d, o, lvl, moveOfs, statOfs, dvOfs, item) {
+    const atk = d[o + dvOfs] >> 4, def = d[o + dvOfs] & 15, spe = d[o + dvOfs + 1] >> 4, spc = d[o + dvOfs + 1] & 15;
+    const hp = ((atk & 1) << 3) | ((def & 1) << 2) | ((spe & 1) << 1) | (spc & 1);
+    const se = [0, 1, 2, 3, 4].map((k) => Math.min(255, Math.ceil(Math.sqrt(be(d, o + statOfs + k * 2, 2)))));
+    return { lvl, moves: [0, 1, 2, 3].map((k) => d[o + moveOfs + k]), iv: [hp, atk, def, spc, spc, spe].map((x) => x * 2), ev: [se[0], se[1], se[2], se[4], se[4], se[3]], nature: 0, item: item || 0 };
+  }
 
   // ---------------------------------------------------------------- Gen 1
   function readGen1(d, maps) {
@@ -67,7 +79,8 @@
     const species = (i) => maps.g1[i] || 0;
     // équipe : nombre, liste des espèces, puis fiches de 44 octets
     const n = d[O.party];
-    if (n <= 6) for (let i = 0; i < n; i++) { const s = species(d[O.party + 1 + i]); if (s) out.push(mon(s, false, 0, null, 'Équipe')); }
+    const g1 = (o, lvl) => Object.assign(gb(d, o, lvl, 8, 17, 27), { gen: 1 });
+    if (n <= 6) for (let i = 0; i < n; i++) { const s = species(d[O.party + 1 + i]); const o = O.party + 8 + i * 44; if (s) out.push(mon(s, false, 0, null, 'Équipe', g1(o, d[o + 33]))); }
     const listSize = 1 + 21 + 20 * 33 + 20 * O.name * 2;
     const half = O.boxes / 2;
     const cur = d[O.curIdx] & 0x7F;
@@ -77,7 +90,7 @@
       if (b !== cur && !initialized) continue; // boîtes jamais utilisées : données vides
       const c = d[ofs];
       if (c > 20) continue;
-      for (let i = 0; i < c; i++) { const s = species(d[ofs + 1 + i]); if (s) out.push(mon(s, false, 0, null, 'Boîte ' + (b + 1))); }
+      for (let i = 0; i < c; i++) { const s = species(d[ofs + 1 + i]); const o = ofs + 22 + i * 33; if (s) out.push(mon(s, false, 0, null, 'Boîte ' + (b + 1), g1(o, d[o + 3]))); }
     }
     return { gen: 1, family: 'rbj', label: 'Rouge / Bleu / Jaune' + (jpn ? ' (japonais)' : ''), versions: jpn ? [44, 45, 46, 3] : [1, 2, 3], mons: out };
   }
@@ -101,7 +114,8 @@
     if (n <= 6) for (let i = 0; i < n; i++) {
       const s = d[O.party + 1 + i];
       if (!s || s === 0xFD || s > 251) continue;
-      out.push(mon(s, shinyDV(O.party + 8 + i * 48 + 0x15), 0, null, 'Équipe'));
+      const o = O.party + 8 + i * 48;
+      out.push(mon(s, shinyDV(o + 0x15), 0, null, 'Équipe', Object.assign(gb(d, o, d[o + 31], 2, 11, 21, d[o + 1]), { gen: 2 })));
     }
     const listSize = 1 + 21 + 20 * 32 + 20 * 11 * 2; // 0x44E
     const cur = d[O.curIdx] & 0x7F;
@@ -112,7 +126,8 @@
       for (let i = 0; i < c; i++) {
         const s = d[ofs + 1 + i];
         if (!s || s === 0xFD || s > 251) continue;
-        out.push(mon(s, shinyDV(ofs + 22 + i * 32 + 0x15), 0, null, 'Boîte ' + (b + 1)));
+        const o = ofs + 22 + i * 32;
+        out.push(mon(s, shinyDV(o + 0x15), 0, null, 'Boîte ' + (b + 1), Object.assign(gb(d, o, d[o + 31], 2, 11, 21, d[o + 1]), { gen: 2 })));
       }
     }
     return { gen: 2, family: 'oac', label: O.name, versions: O.versions, mons: out };
@@ -136,7 +151,7 @@
     for (let i = 0; i < 48; i += 2) sum = (sum + u16(data, i)) & 0xFFFF;
     if (sum !== u16(d, o + 0x1C)) return null;
     const order = G3_ORDERS[pid % 24];
-    const g = order.indexOf('G') * 12, m = order.indexOf('M') * 12;
+    const g = order.indexOf('G') * 12, m = order.indexOf('M') * 12, a = order.indexOf('A') * 12, e = order.indexOf('E') * 12;
     const internal = u16(data, g);
     const sid = maps.g3[internal] || 0;
     if (!sid) return null;
@@ -144,7 +159,9 @@
     if (ivs & 0x40000000) return null; // œuf
     const origin = G3_ORIGIN[(u16(data, m + 2) >> 7) & 0xF] ?? null;
     const shiny = ((otid & 0xFFFF) ^ (otid >>> 16) ^ (pid & 0xFFFF) ^ (pid >>> 16)) < 8;
-    return mon(sid, shiny, 0, origin, where);
+    const det = { exp: u32(data, g + 4), nature: pid % 25, abSlot: ivs >>> 31, item: u16(data, g + 2), moves: [0, 2, 4, 6].map((k) => u16(data, a + k)),
+      iv: ivs32(ivs), ev: toApp([0, 1, 2, 3, 4, 5].map((k) => data[e + k])), gen: 3 };
+    return mon(sid, shiny, 0, origin, where, det);
   }
 
   function readGen3(d, maps) {
@@ -197,7 +214,7 @@
     42: 31, 43: 32, 48: 37, 49: 38, // Let's Go Pikachu / Évoli, Diamant Étincelant, Perle Scintillante
   };
 
-  function readEnc(d, o, size, kind, where) {
+  function readEnc(d, o, size, kind, where, gen5) {
     if (o + size > d.length) return null;
     const p = decrypt45678(d.subarray(o, o + size), kind);
     if (!p) return null;
@@ -210,7 +227,12 @@
     if (iv & 0x40000000) return null; // œuf
     const tid = u16(p, 0x0C), sidt = u16(p, 0x0E);
     const shiny = (tid ^ sidt ^ (pid & 0xFFFF) ^ (pid >>> 16)) < shinyMax;
-    return mon(sid, shiny, form, ORIGIN[origin] ?? null, where);
+    // détail (offsets d'après PKHeX : PK4/PK5, PK6/PK7/PB7, PB8)
+    const at = kind === 45 ? { ab: p[0x15], ev: 0x18, mv: 0x28 } : kind === 67 ? { ab: p[0x14], ev: 0x1E, mv: 0x5A } : { ab: u16(p, 0x14), ev: 0x26, mv: 0x72 };
+    const nature = kind === 45 ? (gen5 ? p[0x41] : pid % 25) : kind === 67 ? p[0x1C] : p[0x21];
+    const det = { exp: u32(p, 0x10), nature, ab: at.ab, item: u16(p, 0x0A), moves: [0, 2, 4, 6].map((k) => u16(p, at.mv + k)),
+      iv: ivs32(iv), ev: toApp([0, 1, 2, 3, 4, 5].map((k) => p[at.ev + k])), gen: kind === 45 ? (gen5 ? 5 : 4) : kind === 67 ? 6 : 8 };
+    return mon(sid, shiny, form, ORIGIN[origin] ?? null, where, det);
   }
 
   function readGen4(d) {
@@ -254,9 +276,9 @@
     if (!T) return null;
     const out = [];
     const party = 0x18E00, n = d[party + 4];
-    if (n <= 6) for (let i = 0; i < n; i++) { const r = readEnc(d, party + 8 + i * 220, 136, 45, 'Équipe'); if (r) out.push(r); }
+    if (n <= 6) for (let i = 0; i < n; i++) { const r = readEnc(d, party + 8 + i * 220, 136, 45, 'Équipe', true); if (r) out.push(r); }
     for (let b = 0; b < 24; b++) for (let i = 0; i < 30; i++) {
-      const r = readEnc(d, 0x400 + b * (30 * 136 + 0x10) + i * 136, 136, 45, 'Boîte ' + (b + 1));
+      const r = readEnc(d, 0x400 + b * (30 * 136 + 0x10) + i * 136, 136, 45, 'Boîte ' + (b + 1), true);
       if (r) out.push(r);
     }
     return { gen: 5, ...T, mons: out };

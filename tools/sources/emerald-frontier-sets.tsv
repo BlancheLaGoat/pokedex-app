@@ -1,0 +1,925 @@
+jeu	entrée	espèce	n° de la fiche	nature	objet	attaque1	attaque2	attaque3	attaque4	talents possibles	EV (PV/Atq/Déf/ASp/DSp/Vit)	IV fixes (Meneurs)
+e	1	Sunkern	1	Relaxed	Lax Incense	Mega Drain	Helping Hand	Sunny Day	Light Screen	Chlorophyll	255/0/0/255/0/0	
+e	2	Azurill	1	Rash	Cheri Berry	Water Pulse	Attract	Sing	Charm	Thick Fat / Huge Power	255/0/0/255/0/0	
+e	3	Caterpie	1	Quirky	Focus Band	Tackle	String Shot	-	-	Shield Dust	255/255/0/0/0/0	
+e	4	Weedle	1	Quirky	Focus Band	Poison Sting	String Shot	-	-	Shield Dust	255/255/0/0/0/0	
+e	5	Wurmple	1	Quirky	Lax Incense	Tackle	String Shot	Poison Sting	-	Shield Dust	255/255/0/0/0/0	
+e	6	Ralts	1	Docile	TwistedSpoon	Confusion	Imprison	Double Team	Light Screen	Synchronize / Trace	255/0/0/255/0/0	
+e	7	Magikarp	1	Hardy	Focus Band	Flail	-	-	-	Swift Swim	255/255/0/0/0/0	
+e	8	Feebas	1	Lonely	Focus Band	Flail	Mirror Coat	-	-	Swift Swim	255/255/0/0/0/0	
+e	9	Metapod	1	Bashful	Lax Incense	Harden	-	-	-	Shed Skin	255/0/0/0/255/0	
+e	10	Kakuna	1	Bashful	Lax Incense	Harden	-	-	-	Shed Skin	255/0/0/0/255/0	
+e	11	Pichu	1	Rash	Sitrus Berry	Sweet Kiss	Thunder Wave	Attract	Shock Wave	Static	255/0/0/255/0/0	
+e	12	Silcoon	1	Bashful	Lax Incense	Harden	-	-	-	Shed Skin	255/0/0/0/255/0	
+e	13	Cascoon	1	Bashful	Lax Incense	Harden	-	-	-	Shed Skin	255/0/0/0/255/0	
+e	14	Igglybuff	1	Docile	Focus Band	Sweet Kiss	Sing	Attract	Seismic Toss	Cute Charm	255/255/0/0/0/0	
+e	15	Wooper	1	Docile	Sitrus Berry	Yawn	Dig	Water Pulse	Rain Dance	Damp / Water Absorb	255/255/0/0/0/0	
+e	16	Tyrogue	1	Docile	Focus Band	Mach Punch	Protect	Double Team	Facade	Guts	255/255/0/0/0/0	
+e	17	Sentret	1	Docile	King's Rock	Quick Attack	Follow Me	Helping Hand	Assist	Run Away / Keen Eye	255/255/0/0/0/0	
+e	18	Cleffa	1	Serious	Lax Incense	Sweet Kiss	Sing	Attract	Metronome	Cute Charm	255/0/0/255/0/0	
+e	19	Seedot	1	Docile	Focus Band	Bullet Seed	Bide	Defense Curl	Rollout	Chlorophyll / Early Bird	255/255/0/0/0/0	
+e	20	Lotad	1	Docile	Lax Incense	Rain Dance	Water Pulse	Sunny Day	Mega Drain	Swift Swim / Rain Dish	255/0/0/255/0/0	
+e	21	Poochyena	1	Relaxed	Petaya Berry	Crunch	Swagger	Roar	Sand-Attack	Run Away	255/0/0/255/0/0	
+e	22	Shedinja	1	Naive	Lax Incense	Shadow Ball	Confuse Ray	Silver Wind	Grudge	Wonder Guard	255/0/0/0/0/255	
+e	23	Makuhita	1	Docile	Scope Lens	Fake Out	Seismic Toss	Detect	Whirlwind	Thick Fat / Guts	255/255/0/0/0/0	
+e	24	Whismur	1	Relaxed	Cheri Berry	Uproar	Swagger	Body Slam	SmellingSalt	Soundproof	255/255/0/0/0/0	
+e	25	Zigzagoon	1	Timid	Silk Scarf	Headbutt	Pin Missile	Swift	Sand-Attack	Pickup	255/255/0/0/0/0	
+e	26	Zubat	1	Sassy	Cheri Berry	Poison Fang	Whirlwind	Confuse Ray	Aerial Ace	Inner Focus	255/255/0/0/0/0	
+e	27	Togepi	1	Relaxed	Lax Incense	Return	Yawn	Wish	Sweet Kiss	Hustle / Serene Grace	255/255/0/0/0/0	
+e	28	Spinarak	1	Quirky	Liechi Berry	Signal Beam	Night Shade	Spider Web	Scary Face	Swarm / Insomnia	255/255/0/0/0/0	
+e	29	Marill	1	Gentle	Mystic Water	Water Pulse	Rain Dance	Light Screen	Return	Thick Fat / Huge Power	255/255/0/0/0/0	
+e	30	Hoppip	1	Lax	Lax Incense	Mega Drain	Leech Seed	Sleep Powder	Stun Spore	Chlorophyll	0/0/255/0/255/0	
+e	31	Slugma	1	Sassy	Sitrus Berry	Ember	Rock Slide	Yawn	Body Slam	Magma Armor / Flame Body	170/0/170/0/170/0	
+e	32	Swinub	1	Gentle	Sitrus Berry	Icy Wind	Dig	Rock Tomb	Endure	Oblivious	0/255/0/255/0/0	
+e	33	Smeargle	1	Hardy	King's Rock	ExtremeSpeed	Fake Out	Quick Attack	Mach Punch	Own Tempo	255/255/0/0/0/0	
+e	34	Pidgey	1	Lonely	Sharp Beak	Gust	Sand-Attack	Whirlwind	Quick Attack	Keen Eye	255/255/0/0/0/0	
+e	35	Rattata	1	Docile	King's Rock	Hyper Fang	Pursuit	Quick Attack	Swagger	Run Away / Guts	255/255/0/0/0/0	
+e	36	Wynaut	1	Jolly	Lax Incense	Encore	Counter	Mirror Coat	Charm	Shadow Tag	0/0/255/0/255/0	
+e	37	Skitty	1	Docile	BrightPowder	Sing	Attract	Charm	DoubleSlap	Cute Charm	255/255/0/0/0/0	
+e	38	Spearow	1	Docile	Liechi Berry	Fury Attack	Pursuit	Mirror Move	Protect	Keen Eye	255/0/0/0/0/255	
+e	39	Hoothoot	1	Quirky	Persim Berry	Confusion	Hypnosis	Supersonic	Reflect	Insomnia / Keen Eye	255/0/0/255/0/0	
+e	40	Diglett	1	Naive	King's Rock	Magnitude	Slash	Rock Tomb	Sand-Attack	Sand Veil / Arena Trap	0/255/0/0/0/255	
+e	41	Ledyba	1	Bashful	Sitrus Berry	Psybeam	Agility	Baton Pass	Light Screen	Swarm / Early Bird	255/0/0/255/0/0	
+e	42	Nincada	1	Calm	Pecha Berry	Mud-Slap	Dig	Toxic	Protect	Compoundeyes	255/255/0/0/0/0	
+e	43	Surskit	1	Relaxed	Mystic Water	BubbleBeam	Rain Dance	Sweet Scent	Quick Attack	Swift Swim	255/0/0/255/0/0	
+e	44	Jigglypuff	1	Relaxed	Lax Incense	Sing	Wish	Mimic	DoubleSlap	Cute Charm	170/0/170/0/170/0	
+e	45	Taillow	1	Gentle	Salac Berry	Fly	Quick Attack	Endeavor	Focus Energy	Guts	170/170/0/0/0/170	
+e	46	Wingull	1	Hardy	Persim Berry	Water Pulse	Fly	Quick Attack	Steel Wing	Keen Eye	255/0/0/255/0/0	
+e	47	Nidoran♂	1	Quirky	Sitrus Berry	Double Kick	Poison Sting	Disable	Helping Hand	Poison Point	255/255/0/0/0/0	
+e	48	Nidoran♀	1	Quirky	Sitrus Berry	Crunch	Double Kick	Flatter	Helping Hand	Poison Point	255/255/0/0/0/0	
+e	49	Kirlia	1	Docile	White Herb	Confusion	Will-O-Wisp	Future Sight	Light Screen	Synchronize / Trace	255/0/0/0/0/255	
+e	50	Mareep	1	Relaxed	Cheri Berry	Shock Wave	Flash	Reflect	Cotton Spore	Static	255/0/0/255/0/0	
+e	51	Meditite	1	Naughty	Mental Herb	Hi Jump Kick	Meditate	Swagger	Psych Up	Pure Power	255/255/0/0/0/0	
+e	52	Slakoth	1	Quirky	Leftovers	Yawn	Scratch	Encore	Counter	Truant	255/255/0/0/0/0	
+e	53	Paras	1	Relaxed	Sitrus Berry	Spore	Leech Life	Slash	Light Screen	Effect Spore	255/0/0/255/0/0	
+e	54	Ekans	1	Docile	Poison Barb	Acid	Dig	Screech	Torment	Intimidate / Shed Skin	255/255/0/0/0/0	
+e	55	Ditto	1	Hardy	Metal Powder	Transform	-	-	-	Limber	255/0/0/0/0/255	
+e	56	Barboach	1	Bashful	Focus Band	Magnitude	Water Pulse	Spark	Future Sight	Oblivious	0/255/0/255/0/0	
+e	57	Meowth	1	Quirky	Persim Berry	Slash	Bite	Screech	Fake Out	Pickup	255/255/0/0/0/0	
+e	58	Pineco	1	Quirky	Focus Band	Selfdestruct	Take Down	Reflect	Light Screen	Sturdy	255/255/0/0/0/0	
+e	59	Trapinch	1	Serious	Lax Incense	Toxic	Dig	Sandstorm	Sand-Attack	Hyper Cutter / Arena Trap	255/255/0/0/0/0	
+e	60	Spheal	1	Docile	NeverMeltIce	Ice Ball	Water Pulse	Hail	Mud-Slap	Thick Fat	255/0/0/255/0/0	
+e	61	Horsea	1	Relaxed	Petaya Berry	Water Gun	Agility	Icy Wind	Twister	Swift Swim	255/0/0/255/0/0	
+e	62	Shroomish	1	Relaxed	Miracle Seed	Spore	Bullet Seed	Leech Seed	Headbutt	Effect Spore	255/0/0/255/0/0	
+e	63	Shuppet	1	Rash	Rawst Berry	Will-O-Wisp	Night Shade	Grudge	Knock Off	Insomnia	255/255/0/0/0/0	
+e	64	Duskull	1	Quirky	Persim Berry	Skill Swap	Night Shade	Disable	Confuse Ray	Levitate	255/0/0/0/0/255	
+e	65	Electrike	1	Docile	Cheri Berry	Spark	Thunder Wave	Roar	Quick Attack	Static / Lightningrod	255/0/0/0/0/255	
+e	66	Vulpix	1	Docile	Rawst Berry	Will-O-Wisp	Confuse Ray	Fire Spin	Quick Attack	Flash Fire	255/0/0/0/0/255	
+e	67	Pikachu	1	Docile	Light Ball	ThunderPunch	Thunder Wave	Double Team	Quick Attack	Static	255/0/0/0/0/255	
+e	68	Sandshrew	1	Docile	Soft Sand	Dig	Rock Tomb	Sandstorm	Sand-Attack	Sand Veil	255/255/0/0/0/0	
+e	69	Poliwag	1	Relaxed	Mystic Water	Hypnosis	Icy Wind	Water Gun	Rain Dance	Water Absorb / Damp	255/0/0/0/0/255	
+e	70	Bellsprout	1	Lax	Sitrus Berry	Razor Leaf	Acid	Stun Spore	Wrap	Chlorophyll	170/0/170/0/170/0	
+e	71	Geodude	1	Brave	Focus Band	Magnitude	Rock Blast	Strength	Protect	Rock Head / Sturdy	255/255/0/0/0/0	
+e	72	Dratini	1	Docile	Persim Berry	Outrage	Thunder Wave	Supersonic	Water Pulse	Shed Skin	255/0/0/255/0/0	
+e	73	Snubbull	1	Relaxed	Scope Lens	Bite	Charm	Swagger	Scary Face	Intimidate / Run Away	255/255/0/0/0/0	
+e	74	Remoraid	1	Quirky	Petaya Berry	BubbleBeam	Aurora Beam	Psybeam	Protect	Hustle	0/0/0/255/0/255	
+e	75	Larvitar	1	Naughty	Persim Berry	Thrash	Rock Slide	Dig	Dragon Dance	Guts	255/255/0/0/0/0	
+e	76	Baltoy	1	Naughty	Persim Berry	Psybeam	AncientPower	Light Screen	Mud-Slap	Levitate	0/255/0/255/0/0	
+e	77	Snorunt	1	Brave	Persim Berry	Icy Wind	Headbutt	Leer	Bite	Inner Focus	255/255/0/0/0/0	
+e	78	Bagon	1	Naughty	Liechi Berry	DragonBreath	Headbutt	Brick Break	Scary Face	Rock Head	255/255/0/0/0/0	
+e	79	Beldum	1	Hardy	Choice Band	Take Down	-	-	-	Clear Body	255/255/0/0/0/0	
+e	80	Gulpin	1	Serious	Lax Incense	Toxic	Yawn	Pain Split	Attract	Liquid Ooze / Sticky Hold	170/0/170/0/170/0	
+e	81	Venonat	1	Relaxed	Sitrus Berry	Psybeam	Supersonic	Stun Spore	Skill Swap	Compoundeyes	255/0/0/255/0/0	
+e	82	Mankey	1	Naughty	Black Belt	Karate Chop	Low Kick	Screech	Swagger	Vital Spirit	255/255/0/0/0/0	
+e	83	Machop	1	Adamant	Scope Lens	Seismic Toss	Revenge	Rock Tomb	Scary Face	Guts	255/255/0/0/0/0	
+e	84	Shellder	1	Relaxed	Cheri Berry	Icicle Spear	Supersonic	Clamp	Withdraw	Shell Armor	255/0/0/255/0/0	
+e	85	Smoochum	1	Docile	BrightPowder	Sweet Kiss	Sing	Mud-Slap	Fake Out	Oblivious	255/255/0/0/0/0	
+e	86	Numel	1	Hardy	Lax Incense	Ember	Magnitude	Rock Tomb	Sandstorm	Oblivious	255/255/0/0/0/0	
+e	87	Carvanha	1	Quiet	Shell Bell	Bite	Screech	Scary Face	Swagger	Rough Skin	255/0/0/255/0/0	
+e	88	Corphish	1	Brave	Mystic Water	Crabhammer	Water Pulse	Mud-Slap	Protect	Hyper Cutter / Shell Armor	255/0/0/255/0/0	
+e	89	Charmander	1	Docile	Focus Band	Fire Spin	Metal Claw	SmokeScreen	Scary Face	Blaze	255/0/0/255/0/0	
+e	90	Cyndaquil	1	Docile	Sitrus Berry	Ember	Swift	Quick Attack	SmokeScreen	Blaze	255/0/0/255/0/0	
+e	91	Abra	1	Lonely	TwistedSpoon	Mimic	Metronome	Flash	Seismic Toss	Synchronize / Inner Focus	255/0/0/0/0/255	
+e	92	Doduo	1	Lonely	Liechi Berry	Fury Attack	Uproar	Mud-Slap	Faint Attack	Run Away / Early Bird	255/0/0/0/0/255	
+e	93	Gastly	1	Lonely	Lax Incense	Dream Eater	Hypnosis	Night Shade	Confuse Ray	Levitate	255/0/0/0/0/255	
+e	94	Swablu	1	Lonely	Mental Herb	Take Down	Dream Eater	Sing	Attract	Natural Cure	255/0/0/255/0/0	
+e	95	Treecko	1	Lonely	Scope Lens	Bullet Seed	Aerial Ace	Quick Attack	Double Team	Overgrow	0/255/0/255/0/0	
+e	96	Torchic	1	Lonely	BrightPowder	Fire Spin	Quick Attack	Sand-Attack	Double Team	Blaze	255/0/0/255/0/0	
+e	97	Mudkip	1	Docile	Focus Band	Whirlpool	Endeavor	Mud Sport	Mud-Slap	Torrent	255/0/0/255/0/0	
+e	98	Squirtle	1	Docile	Sitrus Berry	Water Pulse	Bite	Withdraw	Protect	Torrent	255/0/0/255/0/0	
+e	99	Totodile	1	Docile	Scope Lens	Slash	Water Pulse	Screech	Icy Wind	Torrent	255/0/0/255/0/0	
+e	100	Slowpoke	1	Brave	Sitrus Berry	Confusion	Disable	Water Pulse	Yawn	Oblivious / Own Tempo	255/0/0/255/0/0	
+e	101	Bulbasaur	1	Relaxed	BrightPowder	Razor Leaf	Sweet Scent	Sleep Powder	Light Screen	Overgrow	255/0/0/255/0/0	
+e	102	Chikorita	1	Relaxed	BrightPowder	Secret Power	Bullet Seed	Mud-Slap	Light Screen	Overgrow	255/0/0/255/0/0	
+e	103	Oddish	1	Relaxed	Pecha Berry	Acid	Stun Spore	Sweet Scent	Moonlight	Chlorophyll	255/255/0/0/0/0	
+e	104	Psyduck	1	Hasty	Persim Berry	Confusion	Fury Swipes	Aerial Ace	Disable	Damp / Cloud Nine	0/255/0/255/0/0	
+e	105	Cubone	1	Hardy	Soft Sand	Bone Club	Headbutt	Brick Break	Aerial Ace	Rock Head / Lightningrod	255/255/0/0/0/0	
+e	106	Goldeen	1	Docile	Petaya Berry	Waterfall	Fury Attack	Agility	Psybeam	Swift Swim / Water Veil	255/0/0/255/0/0	
+e	107	Natu	1	Relaxed	TwistedSpoon	Night Shade	Future Sight	Confuse Ray	Flash	Synchronize / Early Bird	255/0/0/255/0/0	
+e	108	Clefairy	1	Lonely	Lax Incense	Follow Me	Return	Encore	Sing	Cute Charm	255/255/0/0/0/0	
+e	109	Magnemite	1	Gentle	Rawst Berry	Shock Wave	Supersonic	Metal Sound	Reflect	Magnet Pull / Sturdy	0/0/0/255/0/255	
+e	110	Seel	1	Hardy	Aspear Berry	Aurora Beam	Dive	Body Slam	Fake Out	Thick Fat	255/0/0/255/0/0	
+e	111	Grimer	1	Quirky	Pecha Berry	Sludge	Rock Tomb	Acid Armor	Minimize	Stench / Sticky Hold	170/0/170/0/170/0	
+e	112	Krabby	1	Hardy	Focus Band	Crabhammer	Mud Shot	Flail	Knock Off	Hyper Cutter / Shell Armor	255/255/0/0/0/0	
+e	113	Exeggcute	1	Naughty	Persim Berry	Confusion	AncientPower	Leech Seed	Light Screen	Chlorophyll	255/0/0/255/0/0	
+e	114	Eevee	1	Docile	Salac Berry	Charm	Attract	Flail	Endure	Run Away	255/0/0/0/0/255	
+e	115	Drowzee	1	Quirky	Sitrus Berry	Confusion	Headbutt	Disable	Barrier	Insomnia	170/170/0/170/0/0	
+e	116	Voltorb	1	Docile	Lax Incense	Spark	Screech	Rollout	Light Screen	Soundproof / Static	255/0/0/255/0/0	
+e	117	Chinchou	1	Hardy	Lax Incense	Spark	Dive	Confuse Ray	Take Down	Volt Absorb / Illuminate	0/255/0/255/0/0	
+e	118	Teddiursa	1	Relaxed	Chesto Berry	Secret Power	Fake Tears	Faint Attack	Rest	Pickup	255/255/0/0/0/0	
+e	119	Delibird	1	Docile	NeverMeltIce	Present	Ice Ball	Aerial Ace	Hail	Vital Spirit / Hustle	255/0/0/255/0/0	
+e	120	Houndour	1	Docile	Charcoal	Crunch	Ember	Roar	Protect	Early Bird / Flash Fire	255/0/0/255/0/0	
+e	121	Phanpy	1	Naughty	Lax Incense	Rollout	Defense Curl	Rock Tomb	Sandstorm	Pickup	255/255/0/0/0/0	
+e	122	Spoink	1	Relaxed	Sitrus Berry	Psywave	Bounce	Magic Coat	Confuse Ray	Thick Fat / Own Tempo	255/0/0/255/0/0	
+e	123	Aron	1	Docile	Persim Berry	Metal Claw	Aerial Ace	Metal Sound	Roar	Sturdy / Rock Head	255/255/0/0/0/0	
+e	124	Luvdisc	1	Relaxed	Quick Claw	Sweet Kiss	Attract	Dive	Rain Dance	Swift Swim	255/0/0/255/0/0	
+e	125	Tentacool	1	Hardy	Pecha Berry	BubbleBeam	Acid	Barrier	Wrap	Clear Body / Liquid Ooze	170/170/0/170/0/0	
+e	126	Cacnea	1	Quirky	Sitrus Berry	Needle Arm	Faint Attack	Cotton Spore	Sand-Attack	Sand Veil	255/255/0/0/0/0	
+e	127	Unown	1	Hardy	Lax Incense	Hidden Power	-	-	-	Levitate	170/170/0/170/0/0	
+e	128	Koffing	1	Quirky	Poison Barb	Sludge	SmokeScreen	Torment	Haze	Levitate	255/255/0/0/0/0	
+e	129	Staryu	1	Quirky	Shell Bell	BubbleBeam	Minimize	Swift	Light Screen	Illuminate / Natural Cure	255/0/0/255/0/0	
+e	130	Skiploom	1	Docile	Persim Berry	Mega Drain	Confusion	Cotton Spore	Synthesis	Chlorophyll	255/0/0/255/0/0	
+e	131	Nuzleaf	1	Hardy	Sitrus Berry	Extrasensory	Fake Out	Razor Wind	Faint Attack	Chlorophyll / Early Bird	255/0/0/255/0/0	
+e	132	Lombre	1	Quirky	Lax Incense	Water Pulse	Fake Out	Brick Break	Absorb	Swift Swim / Rain Dish	255/255/0/0/0/0	
+e	133	Vibrava	1	Quirky	Cheri Berry	DragonBreath	Dig	Screech	Rock Tomb	Levitate	255/255/0/0/0/0	
+e	134	Rhyhorn	1	Hardy	Focus Band	Rock Blast	Dig	Scary Face	Roar	Lightningrod / Rock Head	255/255/0/0/0/0	
+e	135	Clamperl	1	Docile	DeepSeaScale	Dive	Toxic	Iron Defense	Double Team	Shell Armor	170/0/170/0/170/0	
+e	136	Pidgeotto	1	Quirky	White Herb	Aerial Ace	Quick Attack	FeatherDance	Sand-Attack	Keen Eye	255/255/0/0/0/0	
+e	137	Growlithe	1	Docile	Rawst Berry	Flame Wheel	Bite	Roar	Agility	Intimidate / Flash Fire	255/0/0/255/0/0	
+e	138	Farfetch'd	1	Relaxed	Stick	Slash	Knock Off	Swords Dance	Agility	Keen Eye / Inner Focus	170/0/170/0/170/0	
+e	139	Omanyte	1	Quirky	Sitrus Berry	Mud Shot	Water Gun	AncientPower	Tickle	Swift Swim / Shell Armor	170/170/0/170/0/0	
+e	140	Kabuto	1	Hardy	Sitrus Berry	Mega Drain	AncientPower	Sand-Attack	Protect	Swift Swim / Battle Armor	0/255/0/255/0/0	
+e	141	Lileep	1	Docile	Lax Incense	AncientPower	Acid	Ingrain	Confuse Ray	Suction Cups	255/255/0/0/0/0	
+e	142	Anorith	1	Hardy	Scope Lens	Metal Claw	Fury Cutter	AncientPower	Water Gun	Battle Armor	255/255/0/0/0/0	
+e	143	Aipom	1	Relaxed	Silk Scarf	Fury Swipes	Sand-Attack	Baton Pass	Agility	Run Away / Pickup	255/255/0/0/0/0	
+e	144	Elekid	1	Naive	Cheri Berry	ThunderPunch	Quick Attack	Swift	Light Screen	Static	255/0/0/255/0/0	
+e	145	Loudred	1	Relaxed	Focus Band	Stomp	Howl	Astonish	Supersonic	Soundproof	255/255/0/0/0/0	
+e	146	Spinda	1	Relaxed	Sitrus Berry	Dizzy Punch	Teeter Dance	Psybeam	Faint Attack	Own Tempo	255/255/0/0/0/0	
+e	147	Nidorina	1	Quirky	Focus Band	Double Kick	Bite	Aerial Ace	Flatter	Poison Point	255/255/0/0/0/0	
+e	148	Nidorino	1	Quirky	Focus Band	Double Kick	Water Pulse	Mud-Slap	Flatter	Poison Point	255/255/0/0/0/0	
+e	149	Flaaffy	1	Mild	Magnet	Shock Wave	Thunder Wave	Cotton Spore	Light Screen	Static	255/0/0/255/0/0	
+e	150	Magby	1	Docile	Lax Incense	Fire Punch	SmokeScreen	Confuse Ray	Smog	Flame Body	255/0/0/255/0/0	
+e	151	Nosepass	1	Sassy	Hard Stone	Rock Slide	Shock Wave	Thunder Wave	Sandstorm	Sturdy / Magnet Pull	255/0/0/0/255/0	
+e	152	Corsola	1	Impish	Sitrus Berry	BubbleBeam	Mirror Coat	Attract	AncientPower	Hustle / Natural Cure	170/0/170/0/170/0	
+e	153	Mawile	1	Docile	BrightPowder	Crunch	Fake Tears	Iron Defense	Baton Pass	Hyper Cutter / Intimidate	255/0/0/255/0/0	
+e	154	Butterfree	1	Quirky	Pecha Berry	Silver Wind	Psybeam	Toxic	Whirlwind	Compoundeyes	255/0/0/255/0/0	
+e	155	Beedrill	1	Naughty	Scope Lens	Twineedle	Pursuit	Endeavor	Agility	Swarm	0/255/0/0/0/255	
+e	156	Poliwhirl	1	Quirky	Petaya Berry	Water Pulse	DoubleSlap	Icy Wind	Rain Dance	Water Absorb / Damp	255/0/0/255/0/0	
+e	157	Onix	1	Hardy	Sitrus Berry	Rock Slide	Bind	DragonBreath	Sandstorm	Rock Head / Sturdy	170/0/170/0/170/0	
+e	158	Beautifly	1	Docile	Mental Herb	Silver Wind	Mega Drain	Attract	Whirlwind	Swarm	255/0/0/0/0/255	
+e	159	Dustox	1	Docile	SilverPowder	Silver Wind	Toxic	Psybeam	Whirlwind	Shield Dust	255/0/0/0/0/255	
+e	160	Ledian	1	Bashful	Focus Band	Comet Punch	Baton Pass	Swords Dance	Agility	Swarm / Early Bird	0/255/0/0/0/255	
+e	161	Ariados	1	Serious	Lax Incense	Signal Beam	Spider Web	Night Shade	Toxic	Swarm / Insomnia	255/255/0/0/0/0	
+e	162	Yanma	1	Relaxed	Lax Incense	Signal Beam	Aerial Ace	Double Team	Detect	Speed Boost / Compoundeyes	0/0/255/0/255/0	
+e	163	Delcatty	1	Lonely	Sitrus Berry	Secret Power	Faint Attack	Double Team	Heal Bell	Cute Charm	255/255/0/0/0/0	
+e	164	Sableye	1	Lonely	BlackGlasses	Faint Attack	Confuse Ray	Knock Off	Fake Out	Keen Eye	255/255/0/0/0/0	
+e	165	Lickitung	1	Quirky	Sitrus Berry	Slam	Brick Break	Lick	Mud-Slap	Own Tempo / Oblivious	255/255/0/0/0/0	
+e	166	Weepinbell	1	Quiet	Scope Lens	Razor Leaf	Acid	Wrap	Sweet Scent	Chlorophyll	255/0/0/255/0/0	
+e	167	Graveler	1	Adamant	Focus Band	Magnitude	Rock Throw	Defense Curl	Brick Break	Rock Head / Sturdy	170/170/0/0/170/0	
+e	168	Gloom	1	Quirky	Persim Berry	Petal Dance	Acid	Stun Spore	Moonlight	Chlorophyll	255/0/0/255/0/0	
+e	169	Porygon	1	Relaxed	Sitrus Berry	Psybeam	Icy Wind	Recycle	Agility	Trace	255/0/0/255/0/0	
+e	170	Kadabra	1	Impish	TwistedSpoon	Confusion	Role Play	Future Sight	Disable	Synchronize / Inner Focus	255/0/255/0/0/0	
+e	171	Wailmer	1	Docile	Lax Incense	Whirlpool	Roar	Defense Curl	Rollout	Water Veil / Oblivious	0/0/255/0/255/0	
+e	172	Roselia	1	Docile	Pecha Berry	Magical Leaf	Toxic	GrassWhistle	Cotton Spore	Natural Cure / Poison Point	255/0/255/0/0/0	
+e	173	Volbeat	1	Quirky	Liechi Berry	Silver Wind	Confuse Ray	Quick Attack	Helping Hand	Illuminate / Swarm	0/255/0/0/0/255	
+e	174	Illumise	1	Quirky	Liechi Berry	Silver Wind	Wish	Quick Attack	Helping Hand	Oblivious	255/255/0/0/0/0	
+e	175	Ivysaur	1	Gentle	Persim Berry	Petal Dance	Growth	Sweet Scent	Fury Cutter	Overgrow	255/0/0/255/0/0	
+e	176	Charmeleon	1	Naughty	Scope Lens	Slash	Fire Spin	Swords Dance	Aerial Ace	Blaze	255/255/0/0/0/0	
+e	177	Wartortle	1	Docile	Focus Band	Water Pulse	Bite	Mud-Slap	Yawn	Torrent	255/0/0/255/0/0	
+e	178	Parasect	1	Rash	Sitrus Berry	Slash	Psybeam	Stun Spore	Flash	Effect Spore	0/0/255/0/255/0	
+e	179	Machoke	1	Adamant	Focus Band	Low Kick	Rock Tomb	Foresight	Scary Face	Guts	255/0/0/0/255/0	
+e	180	Haunter	1	Rash	Persim Berry	Shadow Punch	Confuse Ray	Spite	Grudge	Levitate	255/255/0/0/0/0	
+e	181	Bayleef	1	Docile	BrightPowder	Razor Leaf	Toxic	Safeguard	Light Screen	Overgrow	255/0/0/255/0/0	
+e	182	Quilava	1	Docile	Focus Band	Flame Wheel	Fury Swipes	Swift	SmokeScreen	Blaze	255/0/0/255/0/0	
+e	183	Croconaw	1	Docile	Scope Lens	Slash	Water Pulse	Bite	Scary Face	Torrent	0/255/0/255/0/0	
+e	184	Togetic	1	Relaxed	Lax Incense	Aerial Ace	Magical Leaf	Wish	Follow Me	Hustle / Serene Grace	255/0/255/0/0/0	
+e	185	Murkrow	1	Quirky	Lax Incense	Faint Attack	Fly	Torment	Taunt	Insomnia	170/0/170/0/170/0	
+e	186	Wobbuffet	1	Careful	Focus Band	Counter	Mirror Coat	Charm	Safeguard	Shadow Tag	170/0/170/0/170/0	
+e	187	Plusle	1	Docile	Petaya Berry	Spark	Fake Tears	Quick Attack	Helping Hand	Plus	255/0/255/0/0/0	
+e	188	Minun	1	Docile	Salac Berry	Spark	Charm	Encore	Helping Hand	Minus	255/0/255/0/0/0	
+e	189	Grovyle	1	Relaxed	BrightPowder	Fury Cutter	Endeavor	Brick Break	Double Team	Overgrow	255/255/0/0/0/0	
+e	190	Combusken	1	Docile	Scope Lens	Ember	Double Kick	Quick Attack	Sand-Attack	Blaze	0/255/0/255/0/0	
+e	191	Marshtomp	1	Hardy	Focus Band	Mud Shot	Water Gun	Rock Tomb	Mud-Slap	Torrent	0/255/0/255/0/0	
+e	192	Ponyta	1	Hardy	Rawst Berry	Fire Spin	Bounce	Quick Attack	Tail Whip	Run Away / Flash Fire	255/255/0/0/0/0	
+e	193	Azumarill	1	Docile	Sitrus Berry	BubbleBeam	Facade	Dig	Protect	Thick Fat / Huge Power	0/0/255/0/255/0	
+e	194	Sudowoodo	1	Hardy	Hard Stone	Rock Slide	Faint Attack	Sandstorm	Block	Sturdy / Rock Head	255/0/0/0/255/0	
+e	195	Magcargo	1	Gentle	Lax Incense	Rock Slide	Ember	Acid Armor	Sandstorm	Magma Armor / Flame Body	255/0/0/0/255/0	
+e	196	Pupitar	1	Hardy	Soft Sand	Dig	Bite	Scary Face	Sandstorm	Shed Skin	255/0/0/0/0/255	
+e	197	Sealeo	1	Quirky	Persim Berry	Ice Ball	Hail	Snore	Rest	Thick Fat	170/0/170/0/170/0	
+e	198	Raticate	1	Naive	Silk Scarf	Endeavor	Pursuit	Scary Face	Quick Attack	Run Away / Guts	170/170/0/0/0/170	
+e	199	Masquerain	1	Relaxed	Cheri Berry	Silver Wind	Aerial Ace	Icy Wind	Stun Spore	Intimidate	0/255/255/0/0/0	
+e	200	Furret	1	Serious	Liechi Berry	Slam	Protect	Helping Hand	Follow Me	Run Away / Keen Eye	0/0/255/0/255/0	
+e	201	Dunsparce	1	Docile	Lax Incense	Headbutt	Glare	Defense Curl	Rollout	Serene Grace / Run Away	255/255/0/0/0/0	
+e	202	Dragonair	1	Docile	Cheri Berry	DragonBreath	Leer	Wrap	Safeguard	Shed Skin	255/0/0/0/255/0	
+e	203	Mightyena	1	Timid	Mental Herb	Bite	Poison Fang	Taunt	Roar	Intimidate	0/255/0/255/0/0	
+e	204	Linoone	1	Adamant	White Herb	Secret Power	Sand-Attack	Covet	Tickle	Pickup	255/255/0/0/0/0	
+e	205	Castform	1	Hasty	Petaya Berry	Ember	Water Pulse	Shock Wave	Icy Wind	Forecast	255/0/0/255/0/0	
+e	206	Shelgon	1	Hardy	Cheri Berry	Headbutt	DragonBreath	Protect	Scary Face	Rock Head	170/170/0/0/170/0	
+e	207	Metang	1	Hardy	Focus Band	Metal Claw	Confusion	Pursuit	Scary Face	Clear Body	0/255/0/0/255/0	
+e	208	Wigglytuff	1	Relaxed	Silk Scarf	Sing	Disable	Wish	Secret Power	Cute Charm	0/0/255/0/255/0	
+e	209	Sunflora	1	Quirky	Persim Berry	Petal Dance	Ingrain	Leech Seed	Light Screen	Chlorophyll	255/0/255/0/0/0	
+e	210	Chimecho	1	Sassy	TwistedSpoon	Psywave	Take Down	Heal Bell	Safeguard	Levitate	255/0/0/255/0/0	
+e	211	Gligar	1	Hasty	Scope Lens	Metal Claw	Dig	Aerial Ace	Quick Attack	Hyper Cutter / Sand Veil	255/0/0/0/255/0	
+e	212	Qwilfish	1	Impish	Cheri Berry	BubbleBeam	Pin Missile	Spikes	Minimize	Poison Point / Swift Swim	0/0/0/255/255/0	
+e	213	Sneasel	1	Relaxed	Persim Berry	Faint Attack	Fake Out	Icy Wind	Quick Attack	Inner Focus / Keen Eye	170/0/170/0/170/0	
+e	214	Pelipper	1	Quiet	Sitrus Berry	Water Pulse	Aerial Ace	Stockpile	Swallow	Keen Eye	255/0/0/0/255/0	
+e	215	Swellow	1	Adamant	King's Rock	Fly	Endeavor	Facade	Quick Attack	Guts	255/0/0/0/255/0	
+e	216	Lairon	1	Sassy	Metal Coat	Metal Claw	Rock Tomb	Iron Defense	Protect	Sturdy / Rock Head	255/0/0/0/255/0	
+e	217	Tangela	1	Hardy	Lax Incense	Mega Drain	Slam	Toxic	Bind	Chlorophyll	255/0/0/0/255/0	
+e	218	Arbok	1	Adamant	Persim Berry	Poison Fang	Dig	Bite	Glare	Intimidate / Shed Skin	255/255/0/0/0/0	
+e	219	Persian	1	Quirky	Silk Scarf	Fake Out	Slash	Torment	Swagger	Limber	170/0/170/0/170/0	
+e	220	Seadra	1	Sassy	Mystic Water	Aurora Beam	SmokeScreen	Water Gun	Rain Dance	Poison Point	255/0/0/255/0/0	
+e	221	Kecleon	1	Naive	Focus Band	Secret Power	Psybeam	Magic Coat	Seismic Toss	Color Change	170/170/170/0/0/0	
+e	222	Vigoroth	1	Lonely	Focus Band	Slash	Counter	Encore	Uproar	Vital Spirit	255/255/0/0/0/0	
+e	223	Lunatone	1	Quiet	Sitrus Berry	Confusion	Cosmic Power	Light Screen	Sandstorm	Levitate	255/0/255/0/0/0	
+e	224	Solrock	1	Quiet	Sitrus Berry	Confusion	Fire Spin	Light Screen	Sandstorm	Levitate	255/0/0/0/255/0	
+e	225	Noctowl	1	Relaxed	Persim Berry	Confusion	Aerial Ace	Faint Attack	Reflect	Insomnia / Keen Eye	255/0/255/0/0/0	
+e	226	Sandslash	1	Adamant	Sitrus Berry	Crush Claw	Rock Slide	Swift	Sandstorm	Sand Veil	255/0/0/0/255/0	
+e	227	Venomoth	1	Quirky	Persim Berry	Silver Wind	Psybeam	Sleep Powder	Skill Swap	Shield Dust	255/0/0/0/0/255	
+e	228	Chansey	1	Relaxed	Sitrus Berry	Metronome	Refresh	Defense Curl	Minimize	Natural Cure / Serene Grace	0/0/255/0/255/0	
+e	229	Seaking	1	Docile	Sitrus Berry	Water Pulse	Psybeam	Swift	Agility	Swift Swim / Water Veil	255/0/0/0/255/0	
+e	230	Jumpluff	1	Docile	Lax Incense	Aerial Ace	Swagger	Psych Up	Synthesis	Chlorophyll	255/0/0/0/0/255	
+e	231	Piloswine	1	Quirky	Soft Sand	Dig	AncientPower	Hail	Light Screen	Oblivious	255/255/0/0/0/0	
+e	232	Golbat	1	Relaxed	Scope Lens	Air Cutter	Confuse Ray	Toxic	Steel Wing	Inner Focus	255/255/0/0/0/0	
+e	233	Primeape	1	Quirky	Scope Lens	Karate Chop	Counter	Swagger	Screech	Vital Spirit	170/0/170/0/170/0	
+e	234	Hitmonlee	1	Adamant	Black Belt	Rolling Kick	Brick Break	Focus Energy	Facade	Limber	255/0/255/0/0/0	
+e	235	Hitmonchan	1	Adamant	King's Rock	Mach Punch	Sky Uppercut	Detect	Counter	Keen Eye	255/0/255/0/0/0	
+e	236	Girafarig	1	Quiet	Petaya Berry	Psybeam	Stomp	Wish	Skill Swap	Inner Focus / Early Bird	255/0/0/255/0/0	
+e	237	Hitmontop	1	Hardy	Liechi Berry	Triple Kick	Dig	Mach Punch	Quick Attack	Intimidate	255/255/0/0/0/0	
+e	238	Banette	1	Sassy	Rawst Berry	Night Shade	Will-O-Wisp	Spite	Knock Off	Insomnia	170/0/170/0/170/0	
+e	239	Ninjask	1	Mild	Petaya Berry	Baton Pass	Swords Dance	Endure	Dig	Speed Boost	170/0/170/0/170/0	
+e	240	Seviper	1	Hardy	Scope Lens	Poison Tail	Bite	Glare	Screech	Shed Skin	255/255/0/0/0/0	
+e	241	Zangoose	1	Hardy	Persim Berry	Slash	Double Kick	Roar	Quick Attack	Immunity	255/255/0/0/0/0	
+e	242	Camerupt	1	Quirky	Focus Band	Magnitude	Protect	Sandstorm	Rock Slide	Magma Armor	255/255/0/0/0/0	
+e	243	Sharpedo	1	Adamant	Scope Lens	Slash	Bite	Water Pulse	Scary Face	Rough Skin	0/255/0/0/255/0	
+e	244	Tropius	1	Hardy	Sitrus Berry	Magical Leaf	Whirlwind	Aerial Ace	Steel Wing	Chlorophyll	255/255/0/0/0/0	
+e	245	Magneton	1	Lonely	Cheri Berry	Shock Wave	SonicBoom	Thunder Wave	Supersonic	Magnet Pull / Sturdy	0/0/0/255/0/255	
+e	246	Mantine	1	Docile	Mystic Water	BubbleBeam	Aerial Ace	Rain Dance	Icy Wind	Swift Swim / Water Absorb	255/0/0/0/255/0	
+e	247	Stantler	1	Gentle	TwistedSpoon	Extrasensory	Confuse Ray	Stomp	Sand-Attack	Intimidate	255/0/0/255/0/0	
+e	248	Absol	1	Adamant	BrightPowder	Bite	Razor Wind	Future Sight	Quick Attack	Pressure	255/255/0/0/0/0	
+e	249	Swalot	1	Quirky	Lax Incense	Stockpile	Swallow	Spit Up	Sludge	Liquid Ooze / Sticky Hold	0/0/255/0/255/0	
+e	250	Crawdaunt	1	Adamant	Persim Berry	BubbleBeam	ViceGrip	Knock Off	Protect	Hyper Cutter / Shell Armor	170/0/170/0/170/0	
+e	251	Pidgeot	1	Hardy	Sharp Beak	Aerial Ace	FeatherDance	Mud-Slap	Faint Attack	Keen Eye	255/255/0/0/0/0	
+e	252	Grumpig	1	Relaxed	Petaya Berry	Psybeam	Confuse Ray	Future Sight	Magic Coat	Thick Fat / Own Tempo	255/0/0/255/0/0	
+e	253	Torkoal	1	Relaxed	Sitrus Berry	Ember	Fire Spin	SmokeScreen	Amnesia	White Smoke	255/0/0/0/255/0	
+e	254	Kingler	1	Hardy	Scope Lens	Crabhammer	Metal Claw	Mud Shot	Protect	Hyper Cutter / Shell Armor	255/0/0/0/255/0	
+e	255	Cacturne	1	Hasty	Scope Lens	Needle Arm	Faint Attack	Acid	Mega Punch	Sand Veil	255/0/0/0/0/255	
+e	256	Bellossom	1	Quiet	Persim Berry	Petal Dance	Safeguard	Sunny Day	Synthesis	Chlorophyll	255/0/0/255/0/0	
+e	257	Octillery	1	Hardy	Shell Bell	Octazooka	Aurora Beam	Psybeam	Rock Blast	Suction Cups	0/255/0/255/0/0	
+e	258	Huntail	1	Quiet	Persim Berry	Whirlpool	Scary Face	Mud-Slap	Bite	Swift Swim	255/255/0/0/0/0	
+e	259	Gorebyss	1	Brave	Persim Berry	Whirlpool	Amnesia	Icy Wind	Confusion	Swift Swim	255/0/0/255/0/0	
+e	260	Relicanth	1	Sassy	Liechi Berry	AncientPower	Water Pulse	Harden	Amnesia	Swift Swim / Rock Head	170/0/0/170/170/0	
+e	261	Omastar	1	Quirky	Shell Bell	BubbleBeam	Spike Cannon	Tickle	AncientPower	Swift Swim / Shell Armor	255/0/0/255/0/0	
+e	262	Kabutops	1	Adamant	Scope Lens	Slash	Dig	Fury Cutter	Knock Off	Swift Swim / Battle Armor	255/255/0/0/0/0	
+e	263	Poliwrath	1	Adamant	Black Belt	Submission	Dig	Rock Tomb	BubbleBeam	Water Absorb / Damp	255/255/0/0/0/0	
+e	264	Scyther	1	Relaxed	Liechi Berry	Fury Cutter	Aerial Ace	Light Screen	Double Team	Swarm	255/255/0/0/0/0	
+e	265	Pinsir	1	Naughty	Black Belt	Submission	Focus Energy	Swords Dance	Revenge	Hyper Cutter	255/255/0/0/0/0	
+e	266	Politoed	1	Relaxed	Shell Bell	Dive	Dig	Hypnosis	Swagger	Water Absorb / Damp	0/0/255/0/255/0	
+e	267	Cloyster	1	Sassy	NeverMeltIce	Aurora Beam	Spike Cannon	Supersonic	Protect	Shell Armor	255/0/0/0/255/0	
+e	268	Delcatty	2	Modest	Quick Claw	Fake Tears	Sing	Thunderbolt	Ice Beam	Cute Charm	0/0/0/255/0/255	
+e	269	Sableye	2	Quirky	Lum Berry	Shadow Ball	Faint Attack	Confuse Ray	Recover	Keen Eye	170/170/0/170/0/0	
+e	270	Lickitung	2	Adamant	Cheri Berry	Earthquake	Body Slam	Shadow Ball	Rock Slide	Own Tempo / Oblivious	0/170/170/0/170/0	
+e	271	Weepinbell	2	Quirky	Scope Lens	Sludge Bomb	Razor Leaf	Sleep Powder	Reflect	Chlorophyll	0/0/255/0/255/0	
+e	272	Graveler	2	Adamant	Focus Band	Earthquake	Rock Slide	Brick Break	Counter	Rock Head / Sturdy	255/0/0/0/255/0	
+e	273	Gloom	2	Quirky	Pecha Berry	SolarBeam	Sunny Day	Sludge Bomb	Moonlight	Chlorophyll	0/255/0/255/0/0	
+e	274	Porygon	2	Quiet	Cheri Berry	Tri Attack	Psychic	Thunder Wave	Recover	Trace	0/255/0/255/0/0	
+e	275	Kadabra	2	Modest	TwistedSpoon	Psychic	Thunder Wave	Reflect	Recover	Synchronize / Inner Focus	255/0/255/0/0/0	
+e	276	Wailmer	2	Docile	Chesto Berry	Water Spout	Earthquake	Body Slam	Rest	Water Veil / Oblivious	0/0/255/0/255/0	
+e	277	Roselia	2	Docile	Quick Claw	Giga Drain	Sludge Bomb	GrassWhistle	Synthesis	Natural Cure / Poison Point	255/0/255/0/0/0	
+e	278	Volbeat	2	Quirky	Petaya Berry	Signal Beam	Thunderbolt	Ice Punch	Tail Glow	Illuminate / Swarm	0/0/0/255/0/255	
+e	279	Illumise	2	Quirky	Petaya Berry	Silver Wind	Thunderbolt	Ice Punch	Giga Drain	Oblivious	0/0/0/255/0/255	
+e	280	Ivysaur	2	Quirky	BrightPowder	Giga Drain	Sludge Bomb	Sleep Powder	Leech Seed	Overgrow	0/255/0/255/0/0	
+e	281	Charmeleon	2	Hardy	Scope Lens	Flamethrower	Slash	AncientPower	Dragon Rage	Blaze	0/255/0/0/0/255	
+e	282	Wartortle	2	Docile	Shell Bell	Surf	Ice Beam	Rapid Spin	Protect	Torrent	255/0/0/255/0/0	
+e	283	Parasect	2	Calm	Leftovers	Spore	Giga Drain	Dig	Double Team	Effect Spore	170/0/170/0/170/0	
+e	284	Machoke	2	Adamant	Scope Lens	Cross Chop	Rock Slide	Foresight	Scary Face	Guts	255/255/0/0/0/0	
+e	285	Haunter	2	Relaxed	Lum Berry	Psychic	Hypnosis	Nightmare	Confuse Ray	Levitate	170/0/170/0/170/0	
+e	286	Bayleef	2	Docile	Chesto Berry	Giga Drain	Body Slam	GrassWhistle	Rest	Overgrow	170/0/170/0/170/0	
+e	287	Quilava	2	Docile	BrightPowder	Flamethrower	Crush Claw	Body Slam	SmokeScreen	Blaze	0/255/0/255/0/0	
+e	288	Croconaw	2	Adamant	Focus Band	Mega Kick	Aerial Ace	Rock Slide	Dig	Torrent	255/255/0/0/0/0	
+e	289	Togetic	2	Relaxed	Scope Lens	Return	Sweet Kiss	Aerial Ace	Yawn	Hustle / Serene Grace	255/0/255/0/0/0	
+e	290	Murkrow	2	Quirky	BrightPowder	Perish Song	Mean Look	Double Team	Thunder Wave	Insomnia	170/0/170/0/170/0	
+e	291	Wobbuffet	2	Careful	Focus Band	Counter	Mirror Coat	Encore	Destiny Bond	Shadow Tag	0/0/255/0/255/0	
+e	292	Plusle	2	Docile	Petaya Berry	Thunderbolt	Thunder Wave	Seismic Toss	Wish	Plus	0/0/0/255/0/255	
+e	293	Minun	2	Docile	Salac Berry	Thunderbolt	Attract	Charm	Wish	Minus	0/0/0/255/0/255	
+e	294	Grovyle	2	Docile	Lum Berry	Giga Drain	Crush Claw	Screech	Rock Tomb	Overgrow	0/255/0/0/0/255	
+e	295	Combusken	2	Docile	Scope Lens	Flamethrower	Sky Uppercut	Slash	Sand-Attack	Blaze	0/170/0/170/0/170	
+e	296	Marshtomp	2	Docile	Focus Band	Muddy Water	Earthquake	Mud-Slap	Protect	Torrent	0/255/0/255/0/0	
+e	297	Ponyta	2	Quirky	Sitrus Berry	Flamethrower	Body Slam	Double Kick	Double Team	Run Away / Flash Fire	0/0/0/255/0/255	
+e	298	Azumarill	2	Adamant	Shell Bell	Mega Kick	Brick Break	Iron Tail	Dig	Thick Fat / Huge Power	255/0/0/0/255/0	
+e	299	Sudowoodo	2	Hardy	Focus Band	Mega Kick	Earthquake	Low Kick	Selfdestruct	Sturdy / Rock Head	255/0/0/0/255/0	
+e	300	Magcargo	2	Quiet	Quick Claw	Overheat	Earthquake	Rock Slide	Body Slam	Magma Armor / Flame Body	255/0/0/0/255/0	
+e	301	Pupitar	2	Hardy	Scope Lens	Earthquake	Rock Slide	Crunch	Scary Face	Shed Skin	255/255/0/0/0/0	
+e	302	Sealeo	2	Quiet	Sitrus Berry	Ice Beam	Surf	Body Slam	Hail	Thick Fat	255/0/0/255/0/0	
+e	303	Raticate	2	Adamant	Focus Band	Super Fang	Hyper Fang	Shadow Ball	Scary Face	Run Away / Guts	0/255/0/0/0/255	
+e	304	Masquerain	2	Quiet	Lax Incense	Hydro Pump	Ice Beam	Giga Drain	Stun Spore	Intimidate	0/0/255/255/0/0	
+e	305	Furret	2	Adamant	Choice Band	Trick	Frustration	Shadow Ball	Follow Me	Run Away / Keen Eye	0/255/0/0/0/255	
+e	306	Dunsparce	2	Quiet	Lax Incense	Ice Beam	Rock Tomb	Bite	Shadow Ball	Serene Grace / Run Away	0/0/255/0/255/0	
+e	307	Dragonair	2	Adamant	Chesto Berry	Return	Rest	Thunder Wave	Dragon Dance	Shed Skin	255/0/0/0/255/0	
+e	308	Mightyena	2	Quirky	King's Rock	Crunch	Shadow Ball	Frustration	Scary Face	Intimidate	0/0/255/255/0/0	
+e	309	Linoone	2	Jolly	Choice Band	Trick	Frustration	Thunder Wave	Sand-Attack	Pickup	0/255/0/0/0/255	
+e	310	Castform	2	Modest	Lax Incense	Thunderbolt	Flamethrower	Ice Beam	Water Pulse	Forecast	255/0/0/255/0/0	
+e	311	Shelgon	2	Hardy	Focus Band	Frustration	Dragon Dance	Crunch	Scary Face	Rock Head	255/0/0/0/255/0	
+e	312	Metang	2	Quirky	Focus Band	Meteor Mash	Psychic	Body Slam	Scary Face	Clear Body	255/0/0/255/0/0	
+e	313	Wigglytuff	2	Docile	Sitrus Berry	Fake Tears	Sing	Dream Eater	Brick Break	Cute Charm	0/0/255/0/255/0	
+e	314	Sunflora	2	Quiet	Leftovers	Giga Drain	GrassWhistle	Growth	Double Team	Chlorophyll	255/0/255/0/0/0	
+e	315	Chimecho	2	Quiet	TwistedSpoon	Psychic	Hypnosis	Dream Eater	Heal Bell	Levitate	170/0/170/0/170/0	
+e	316	Gligar	2	Adamant	Quick Claw	Earthquake	Aerial Ace	Guillotine	Screech	Hyper Cutter / Sand Veil	255/0/0/0/255/0	
+e	317	Qwilfish	2	Adamant	Focus Band	Revenge	Sludge Bomb	Shadow Ball	Destiny Bond	Poison Point / Swift Swim	255/0/0/0/255/0	
+e	318	Sneasel	2	Jolly	King's Rock	Crush Claw	Brick Break	Aerial Ace	Screech	Inner Focus / Keen Eye	170/0/170/0/0/170	
+e	319	Pelipper	2	Quiet	Shell Bell	Surf	Blizzard	Aerial Ace	Protect	Keen Eye	255/0/0/0/255/0	
+e	320	Swellow	2	Adamant	King's Rock	Facade	Aerial Ace	Pursuit	Double Team	Guts	255/0/0/0/255/0	
+e	321	Lairon	2	Sassy	Sitrus Berry	Earthquake	Iron Tail	Roar	Protect	Sturdy / Rock Head	255/0/0/0/255/0	
+e	322	Tangela	2	Calm	Chesto Berry	Giga Drain	Stun Spore	Rest	Amnesia	Chlorophyll	255/0/0/0/255/0	
+e	323	Arbok	2	Adamant	Lum Berry	Sludge Bomb	Earthquake	Iron Tail	Glare	Intimidate / Shed Skin	255/0/255/0/0/0	
+e	324	Persian	2	Quirky	Silk Scarf	Frustration	Shadow Ball	Roar	Fake Out	Limber	170/0/170/0/170/0	
+e	325	Seadra	2	Docile	Shell Bell	Hydro Pump	Frustration	DragonBreath	Dragon Dance	Poison Point	255/0/0/0/255/0	
+e	326	Kecleon	2	Docile	Choice Band	Trick	Brick Break	Shadow Ball	Skill Swap	Color Change	255/0/255/0/0/0	
+e	327	Vigoroth	2	Adamant	Salac Berry	Crush Claw	Reversal	Endure	Shadow Ball	Vital Spirit	0/255/0/0/255/0	
+e	328	Lunatone	2	Quiet	Lax Incense	Psychic	Ice Beam	Cosmic Power	Calm Mind	Levitate	255/0/255/0/0/0	
+e	329	Solrock	2	Hardy	White Herb	Earthquake	Rock Slide	Cosmic Power	Overheat	Levitate	255/0/0/0/255/0	
+e	330	Noctowl	2	Quiet	Persim Berry	Psychic	Faint Attack	Aerial Ace	Reflect	Insomnia / Keen Eye	0/0/255/255/0/0	
+e	331	Sandslash	2	Adamant	Quick Claw	Earthquake	Rock Slide	Crush Claw	Sandstorm	Sand Veil	255/0/0/0/255/0	
+e	332	Venomoth	2	Docile	Lum Berry	Signal Beam	Psychic	Sludge Bomb	Giga Drain	Shield Dust	255/0/0/0/0/255	
+e	333	Chansey	2	Relaxed	Leftovers	Seismic Toss	Shadow Ball	Double Team	Softboiled	Natural Cure / Serene Grace	0/0/255/0/255/0	
+e	334	Seaking	2	Impish	Quick Claw	Horn Drill	Megahorn	Sleep Talk	Rest	Swift Swim / Water Veil	170/0/170/0/170/0	
+e	335	Jumpluff	2	Bold	Leftovers	Leech Seed	Sleep Powder	Giga Drain	Double Team	Chlorophyll	0/0/255/0/255/0	
+e	336	Piloswine	2	Adamant	Shell Bell	Earthquake	Rock Slide	Body Slam	Roar	Oblivious	0/0/255/0/255/0	
+e	337	Golbat	2	Adamant	Scope Lens	Sludge Bomb	Shadow Ball	Confuse Ray	Air Cutter	Inner Focus	255/255/0/0/0/0	
+e	338	Primeape	2	Quirky	Scope Lens	Cross Chop	Rock Tomb	Overheat	Bulk Up	Vital Spirit	170/0/170/0/170/0	
+e	339	Hitmonlee	2	Adamant	Lax Incense	Mega Kick	Brick Break	Foresight	Rock Tomb	Limber	255/0/255/0/0/0	
+e	340	Hitmonchan	2	Adamant	King's Rock	DynamicPunch	Mach Punch	Detect	Counter	Keen Eye	255/0/255/0/0/0	
+e	341	Girafarig	2	Modest	Lum Berry	Psychic	Crunch	Baton Pass	Agility	Inner Focus / Early Bird	0/0/255/0/255/0	
+e	342	Hitmontop	2	Adamant	Focus Band	Double-Edge	Seismic Toss	Rock Slide	Counter	Intimidate	255/0/255/0/0/0	
+e	343	Banette	2	Adamant	Lax Incense	Shadow Ball	Frustration	Screech	Will-O-Wisp	Insomnia	0/0/255/0/255/0	
+e	344	Ninjask	2	Quirky	Focus Band	Slash	Shadow Ball	Swords Dance	Baton Pass	Speed Boost	170/0/170/0/170/0	
+e	345	Seviper	2	Quirky	Quick Claw	Sludge Bomb	Earthquake	Crunch	Giga Drain	Shed Skin	170/0/170/0/170/0	
+e	346	Zangoose	2	Adamant	Scope Lens	Crush Claw	Shadow Ball	Brick Break	Aerial Ace	Immunity	0/255/0/0/0/255	
+e	347	Camerupt	2	Quirky	Lax Incense	Earthquake	Eruption	Body Slam	Scary Face	Magma Armor	0/255/0/255/0/0	
+e	348	Sharpedo	2	Quirky	Scope Lens	Double-Edge	Crunch	Earthquake	Surf	Rough Skin	0/170/0/170/0/170	
+e	349	Tropius	2	Quiet	Focus Band	SolarBeam	Sunny Day	Synthesis	Body Slam	Chlorophyll	0/255/0/255/0/0	
+e	350	Magneton	2	Hardy	Lum Berry	Thunder	Rain Dance	Thunder Wave	Metal Sound	Magnet Pull / Sturdy	255/0/0/0/255/0	
+e	351	Mantine	2	Modest	Shell Bell	Surf	Ice Beam	Rain Dance	Confuse Ray	Swift Swim / Water Absorb	255/0/255/0/0/0	
+e	352	Stantler	2	Adamant	Lax Incense	Frustration	Shadow Ball	Thunder Wave	Confuse Ray	Intimidate	0/255/0/0/0/255	
+e	353	Absol	2	Adamant	Choice Band	Double-Edge	Shadow Ball	Aerial Ace	Iron Tail	Pressure	0/255/0/0/0/255	
+e	354	Swalot	2	Adamant	Leftovers	Sludge Bomb	Shadow Ball	Body Slam	Counter	Liquid Ooze / Sticky Hold	255/255/0/0/0/0	
+e	355	Crawdaunt	2	Adamant	Quick Claw	Guillotine	Frustration	AncientPower	Aerial Ace	Hyper Cutter / Shell Armor	255/0/0/0/255/0	
+e	356	Pidgeot	2	Adamant	Scope Lens	Return	Aerial Ace	Steel Wing	Mud-Slap	Keen Eye	0/255/0/0/0/255	
+e	357	Grumpig	2	Modest	Lum Berry	Psychic	Ice Punch	ThunderPunch	Fire Punch	Thick Fat / Own Tempo	0/0/255/255/0/0	
+e	358	Torkoal	2	Sassy	White Herb	Overheat	Body Slam	SmokeScreen	Protect	White Smoke	255/0/0/0/255/0	
+e	359	Kingler	2	Adamant	Salac Berry	Guillotine	Rock Tomb	Flail	Endure	Hyper Cutter / Shell Armor	255/0/0/0/255/0	
+e	360	Cacturne	2	Hardy	Persim Berry	Mega Kick	Teeter Dance	Faint Attack	Sandstorm	Sand Veil	0/0/255/0/255/0	
+e	361	Bellossom	2	Modest	BrightPowder	SolarBeam	Attract	Sunny Day	Synthesis	Chlorophyll	0/0/255/255/0/0	
+e	362	Octillery	2	Quirky	Lax Incense	Octazooka	Fire Blast	Thunder Wave	Mud-Slap	Suction Cups	170/0/170/0/170/0	
+e	363	Huntail	2	Quiet	Shell Bell	Surf	Rain Dance	Crunch	Body Slam	Swift Swim	255/0/0/0/255/0	
+e	364	Gorebyss	2	Quiet	Shell Bell	Surf	Rain Dance	Psychic	Body Slam	Swift Swim	255/0/0/0/255/0	
+e	365	Relicanth	2	Sassy	Chesto Berry	Earthquake	Rock Slide	Amnesia	Rest	Swift Swim / Rock Head	255/0/0/0/255/0	
+e	366	Omastar	2	Modest	Sitrus Berry	Hydro Pump	Rain Dance	Ice Beam	Protect	Swift Swim / Shell Armor	255/0/0/0/255/0	
+e	367	Kabutops	2	Adamant	Salac Berry	Slash	Rock Slide	Flail	Endure	Swift Swim / Battle Armor	0/255/0/0/255/0	
+e	368	Poliwrath	2	Adamant	Chesto Berry	Brick Break	Hypnosis	Rest	Belly Drum	Water Absorb / Damp	255/255/0/0/0/0	
+e	369	Scyther	2	Adamant	BrightPowder	Silver Wind	Aerial Ace	Swords Dance	Double Team	Swarm	0/255/0/0/0/255	
+e	370	Pinsir	2	Jolly	Salac Berry	Guillotine	Swords Dance	Flail	Endure	Hyper Cutter	255/0/0/0/0/255	
+e	371	Politoed	2	Modest	Lax Incense	Surf	Psychic	Mud-Slap	Swagger	Water Absorb / Damp	0/0/255/255/0/0	
+e	372	Cloyster	2	Careful	Leftovers	Dive	Toxic	Double Team	Protect	Shell Armor	255/0/0/0/255/0	
+e	373	Dugtrio	1	Adamant	Soft Sand	Earthquake	Tri Attack	Slash	Sand Tomb	Sand Veil / Arena Trap	0/255/0/0/0/255	
+e	374	Medicham	1	Docile	Focus Band	Psychic	Hi Jump Kick	Calm Mind	Baton Pass	Pure Power	0/255/0/0/0/255	
+e	375	Misdreavus	1	Impish	Focus Band	Pain Split	Shadow Ball	Confuse Ray	Thunder Wave	Levitate	255/0/255/0/0/0	
+e	376	Fearow	1	Adamant	Sharp Beak	Drill Peck	Tri Attack	Facade	Mud-Slap	Keen Eye	0/255/0/0/0/255	
+e	377	Granbull	1	Adamant	Cheri Berry	Mega Kick	SmellingSalt	Thunder Wave	Roar	Intimidate	255/255/0/0/0/0	
+e	378	Jynx	1	Modest	Shell Bell	Ice Beam	Fake Out	Lovely Kiss	Attract	Oblivious	255/0/0/255/0/0	
+e	379	Dusclops	1	Impish	Leftovers	Will-O-Wisp	Seismic Toss	Pain Split	Confuse Ray	Pressure	170/0/170/0/170/0	
+e	380	Dodrio	1	Adamant	Chesto Berry	Drill Peck	Tri Attack	Sleep Talk	Rest	Run Away / Early Bird	0/255/0/0/0/255	
+e	381	Mr. Mime	1	Relaxed	Leftovers	Psychic	Magical Leaf	Fake Out	Reflect	Soundproof	255/0/255/0/0/0	
+e	382	Lanturn	1	Quiet	Cheri Berry	Surf	Confuse Ray	Attract	Thunder Wave	Volt Absorb / Illuminate	0/0/255/255/0/0	
+e	383	Breloom	1	Jolly	King's Rock	Sky Uppercut	Mach Punch	Headbutt	Counter	Effect Spore	0/255/0/0/0/255	
+e	384	Forretress	1	Adamant	Focus Band	Double-Edge	Rock Slide	Light Screen	Spikes	Sturdy	0/255/0/0/255/0	
+e	385	Whiscash	1	Adamant	Chesto Berry	Earthquake	Rock Slide	Amnesia	Rest	Oblivious	255/255/0/0/0/0	
+e	386	Xatu	1	Hardy	Sharp Beak	Drill Peck	Night Shade	Wish	Future Sight	Synchronize / Early Bird	170/170/0/170/0/0	
+e	387	Skarmory	1	Adamant	Scope Lens	Steel Wing	Air Cutter	Counter	Agility	Keen Eye / Sturdy	170/170/0/0/170/0	
+e	388	Marowak	1	Adamant	Thick Club	Bonemerang	Rock Slide	Icy Wind	Headbutt	Rock Head / Lightningrod	255/255/0/0/0/0	
+e	389	Quagsire	1	Adamant	Focus Band	Earthquake	Brick Break	Counter	Mud-Slap	Damp / Water Absorb	0/255/0/0/255/0	
+e	390	Clefable	1	Brave	Leftovers	Metronome	Double Team	Reflect	Follow Me	Cute Charm	0/0/255/0/255/0	
+e	391	Hariyama	1	Adamant	Focus Band	Cross Chop	Rock Slide	Counter	Fake Out	Thick Fat / Guts	170/0/170/0/170/0	
+e	392	Raichu	1	Modest	BrightPowder	Thunderbolt	Quick Attack	Light Screen	Double Team	Static	0/0/170/170/0/170	
+e	393	Dewgong	1	Quiet	NeverMeltIce	Ice Beam	Icy Wind	Headbutt	Fake Out	Thick Fat	255/0/0/255/0/0	
+e	394	Manectric	1	Modest	Magnet	Thunderbolt	Flash	Quick Attack	Roar	Static / Lightningrod	0/0/0/255/0/255	
+e	395	Vileplume	1	Impish	Persim Berry	Sludge Bomb	Petal Dance	Moonlight	Aromatherapy	Chlorophyll	255/255/0/0/0/0	
+e	396	Victreebel	1	Quiet	Sitrus Berry	Giga Drain	Sleep Powder	Sweet Scent	Synthesis	Chlorophyll	0/0/255/0/255/0	
+e	397	Electrode	1	Quiet	Focus Band	Thunderbolt	Swift	Light Screen	Protect	Soundproof / Static	255/0/0/255/0/0	
+e	398	Exploud	1	Impish	Chesto Berry	Hyper Voice	Shadow Ball	Sleep Talk	Rest	Soundproof	255/255/0/0/0/0	
+e	399	Shiftry	1	Quiet	Miracle Seed	Giga Drain	Faint Attack	Quick Attack	Fake Out	Chlorophyll / Early Bird	0/0/170/170/170/0	
+e	400	Glalie	1	Modest	Petaya Berry	Ice Beam	Crunch	Hail	Protect	Inner Focus	255/0/0/255/0/0	
+e	401	Ludicolo	1	Quiet	Shell Bell	Surf	Rain Dance	ThunderPunch	Fire Punch	Swift Swim / Rain Dish	170/0/170/170/0/0	
+e	402	Hypno	1	Quiet	TwistedSpoon	ThunderPunch	Fire Punch	Ice Punch	Hypnosis	Insomnia	0/0/255/255/0/0	
+e	403	Golem	1	Adamant	Quick Claw	Earthquake	Body Slam	Counter	Rock Tomb	Rock Head / Sturdy	0/255/0/0/255/0	
+e	404	Rhydon	1	Adamant	Quick Claw	Earthquake	Rock Tomb	Scary Face	Brick Break	Lightningrod / Rock Head	170/170/0/0/170/0	
+e	405	Alakazam	1	Modest	Focus Band	ThunderPunch	Fire Punch	Ice Punch	Thunder Wave	Synchronize / Inner Focus	0/0/255/255/0/0	
+e	406	Weezing	1	Adamant	BrightPowder	Sludge Bomb	Will-O-Wisp	Shadow Ball	SmokeScreen	Levitate	255/255/0/0/0/0	
+e	407	Kangaskhan	1	Adamant	Focus Band	Dizzy Punch	Brick Break	Counter	Fake Out	Early Bird	255/255/0/0/0/0	
+e	408	Electabuzz	1	Relaxed	Cheri Berry	Thunderbolt	Thunder Wave	Brick Break	Light Screen	Static	170/0/170/170/0/0	
+e	409	Tauros	1	Adamant	Persim Berry	Earthquake	Thrash	Swagger	Facade	Intimidate	0/255/0/0/0/255	
+e	410	Slowbro	1	Quiet	Shell Bell	Surf	Rain Dance	Headbutt	Ice Punch	Oblivious / Own Tempo	255/0/0/0/255/0	
+e	411	Slowking	1	Quiet	Leftovers	Psychic	Brick Break	Amnesia	Attract	Oblivious / Own Tempo	255/0/255/0/0/0	
+e	412	Miltank	1	Careful	Focus Band	Facade	Shadow Ball	Counter	Milk Drink	Thick Fat	170/0/170/0/170/0	
+e	413	Altaria	1	Docile	Cheri Berry	Dragon Claw	Aerial Ace	Refresh	Body Slam	Natural Cure	255/255/0/0/0/0	
+e	414	Nidoqueen	1	Adamant	Focus Band	Sludge Bomb	Double Kick	Body Slam	Counter	Poison Point	255/255/0/0/0/0	
+e	415	Nidoking	1	Adamant	Quick Claw	Horn Drill	Double Kick	Body Slam	Counter	Poison Point	255/255/0/0/0/0	
+e	416	Magmar	1	Relaxed	Rawst Berry	Flamethrower	SmokeScreen	Brick Break	Barrier	Flame Body	170/0/170/170/0/0	
+e	417	Cradily	1	Relaxed	Leftovers	Giga Drain	Rock Slide	Barrier	Confuse Ray	Suction Cups	170/0/170/0/170/0	
+e	418	Armaldo	1	Adamant	Scope Lens	Slash	Aerial Ace	AncientPower	Protect	Battle Armor	255/255/0/0/0/0	
+e	419	Golduck	1	Quiet	Shell Bell	Hydro Pump	Dig	Brick Break	Light Screen	Damp / Cloud Nine	0/255/0/255/0/0	
+e	420	Rapidash	1	Quiet	Charcoal	Flamethrower	Double Kick	Quick Attack	Protect	Run Away / Flash Fire	0/0/0/255/0/255	
+e	421	Muk	1	Adamant	Poison Barb	Sludge Bomb	Body Slam	Screech	Minimize	Stench / Sticky Hold	255/255/0/0/0/0	
+e	422	Gengar	1	Timid	Leftovers	Dream Eater	Hypnosis	Confuse Ray	Attract	Levitate	170/0/0/170/0/170	
+e	423	Ampharos	1	Relaxed	Magnet	Thunder	Rain Dance	Thunder Wave	Attract	Static	255/0/0/255/0/0	
+e	424	Scizor	1	Adamant	Focus Band	Metal Claw	Aerial Ace	Counter	Quick Attack	Swarm	0/255/0/0/255/0	
+e	425	Heracross	1	Adamant	Focus Band	Megahorn	Brick Break	Rock Tomb	Counter	Swarm / Guts	0/255/255/0/0/0	
+e	426	Ursaring	1	Docile	Quick Claw	Mega Kick	Crunch	Aerial Ace	Counter	Guts	170/170/0/170/0/0	
+e	427	Houndoom	1	Quirky	Focus Band	Flamethrower	Shadow Ball	Counter	Will-O-Wisp	Early Bird / Flash Fire	0/170/0/170/0/170	
+e	428	Donphan	1	Adamant	Chesto Berry	Earthquake	AncientPower	Swagger	Rest	Sturdy	255/255/0/0/0/0	
+e	429	Claydol	1	Adamant	Lum Berry	Earthquake	Rock Slide	Swagger	Psych Up	Levitate	255/255/0/0/0/0	
+e	430	Wailord	1	Sassy	Shell Bell	Surf	Icy Wind	Body Slam	Roar	Water Veil / Oblivious	170/0/170/0/170/0	
+e	431	Ninetales	1	Modest	Rawst Berry	Flamethrower	Roar	Confuse Ray	Will-O-Wisp	Flash Fire	0/0/0/255/0/255	
+e	432	Machamp	1	Adamant	Scope Lens	Cross Chop	Rock Slide	Counter	Scary Face	Guts	255/255/0/0/0/0	
+e	433	Shuckle	1	Brave	Chesto Berry	Rollout	Defense Curl	Sleep Talk	Rest	Sturdy	0/0/255/0/255/0	
+e	434	Steelix	1	Adamant	Sitrus Berry	Earthquake	DragonBreath	Rock Tomb	Roar	Rock Head / Sturdy	0/255/0/0/255/0	
+e	435	Tentacruel	1	Impish	Persim Berry	Sludge Bomb	Icy Wind	Barrier	Confuse Ray	Clear Body / Liquid Ooze	0/255/255/0/0/0	
+e	436	Aerodactyl	1	Adamant	King's Rock	AncientPower	DragonBreath	Aerial Ace	Roar	Rock Head / Pressure	170/170/0/0/0/170	
+e	437	Porygon2	1	Adamant	Leftovers	Tri Attack	Aerial Ace	Shadow Ball	Recover	Trace	255/255/0/0/0/0	
+e	438	Gardevoir	1	Timid	Leftovers	Dream Eater	Hypnosis	Magical Leaf	Reflect	Synchronize / Trace	170/0/170/0/0/170	
+e	439	Exeggutor	1	Quiet	Quick Claw	SolarBeam	Sunny Day	Synthesis	Light Screen	Chlorophyll	0/0/255/0/255/0	
+e	440	Starmie	1	Modest	Shell Bell	Psychic	Confuse Ray	Thunder Wave	Recover	Illuminate / Natural Cure	255/0/0/255/0/0	
+e	441	Flygon	1	Adamant	BrightPowder	Earthquake	Steel Wing	Faint Attack	Facade	Levitate	0/255/0/0/0/255	
+e	442	Venusaur	1	Quiet	Chesto Berry	Giga Drain	Sunny Day	Synthesis	Sleep Powder	Overgrow	255/0/0/255/0/0	
+e	443	Vaporeon	1	Modest	Mystic Water	Surf	Roar	Bite	Quick Attack	Water Absorb	0/0/170/170/170/0	
+e	444	Jolteon	1	Modest	Cheri Berry	Thunderbolt	Thunder Wave	Attract	Protect	Volt Absorb	0/0/0/255/0/255	
+e	445	Flareon	1	Modest	Sitrus Berry	Flamethrower	Roar	Bite	Sand-Attack	Flash Fire	0/0/255/255/0/0	
+e	446	Meganium	1	Modest	BrightPowder	SolarBeam	Sunny Day	Light Screen	Synthesis	Overgrow	255/0/0/255/0/0	
+e	447	Espeon	1	Modest	Lum Berry	Psychic	Charm	Calm Mind	Baton Pass	Synchronize	0/0/170/0/170/170	
+e	448	Umbreon	1	Bold	BrightPowder	Confuse Ray	Faint Attack	Double Team	Baton Pass	Synchronize	170/0/170/0/170/0	
+e	449	Blastoise	1	Modest	Shell Bell	Hydro Pump	Rain Dance	Bite	Seismic Toss	Torrent	255/0/0/255/0/0	
+e	450	Feraligatr	1	Quiet	Lum Berry	Surf	Rain Dance	Aerial Ace	Roar	Torrent	170/0/0/170/170/0	
+e	451	Aggron	1	Adamant	Quick Claw	Iron Tail	Earthquake	Aerial Ace	Roar	Sturdy / Rock Head	255/255/0/0/0/0	
+e	452	Blaziken	1	Docile	Quick Claw	Flamethrower	Sunny Day	Double Kick	Roar	Blaze	0/255/0/255/0/0	
+e	453	Walrein	1	Quiet	Leftovers	Blizzard	Hail	Yawn	Protect	Thick Fat	170/0/170/0/170/0	
+e	454	Sceptile	1	Modest	Leftovers	Leaf Blade	Leech Seed	Aerial Ace	Detect	Overgrow	0/0/0/255/0/255	
+e	455	Charizard	1	Modest	Focus Band	Fire Blast	Sunny Day	Roar	Scary Face	Blaze	0/0/0/255/0/255	
+e	456	Typhlosion	1	Modest	Focus Band	Fire Blast	Sunny Day	SmokeScreen	Roar	Blaze	0/0/0/255/0/255	
+e	457	Lapras	1	Bold	Leftovers	Surf	Attract	Confuse Ray	Sing	Water Absorb / Shell Armor	0/0/255/0/255/0	
+e	458	Crobat	1	Quirky	King's Rock	Sludge Bomb	Bite	Astonish	Screech	Inner Focus	170/170/0/170/0/0	
+e	459	Swampert	1	Adamant	Lum Berry	Earthquake	Counter	Rest	Curse	Torrent	170/0/170/0/170/0	
+e	460	Gyarados	1	Careful	Lum Berry	Return	Bite	Thunder Wave	Dragon Dance	Intimidate	255/0/0/0/255/0	
+e	461	Snorlax	1	Adamant	Leftovers	Facade	Shadow Ball	Attract	Double Team	Immunity / Thick Fat	0/255/255/0/0/0	
+e	462	Kingdra	1	Modest	Lum Berry	Hydro Pump	DragonBreath	Icy Wind	Attract	Swift Swim	255/0/0/255/0/0	
+e	463	Blissey	1	Bold	BrightPowder	Toxic	Double Team	Sing	Softboiled	Natural Cure / Serene Grace	0/0/255/0/255/0	
+e	464	Milotic	1	Modest	Lum Berry	Hydro Pump	Icy Wind	Recover	Mirror Coat	Marvel Scale	170/0/170/170/0/0	
+e	465	Arcanine	1	Adamant	King's Rock	Flamethrower	ExtremeSpeed	Crunch	Body Slam	Intimidate / Flash Fire	0/255/0/0/0/255	
+e	466	Salamence	1	Hardy	King's Rock	Dragon Claw	Aerial Ace	Headbutt	Rock Slide	Intimidate	0/255/0/0/0/255	
+e	467	Metagross	1	Adamant	Leftovers	Meteor Mash	Aerial Ace	Facade	Light Screen	Clear Body	0/170/0/0/170/170	
+e	468	Slaking	1	Adamant	Scope Lens	Yawn	Bulk Up	Swagger	Aerial Ace	Truant	170/0/170/0/170/0	
+e	469	Dugtrio	2	Adamant	King's Rock	Earthquake	AncientPower	Aerial Ace	Tri Attack	Sand Veil / Arena Trap	0/255/0/0/0/255	
+e	470	Medicham	2	Hardy	Salac Berry	Reversal	Endure	Psychic	Fake Out	Pure Power	0/255/0/0/0/255	
+e	471	Marowak	2	Adamant	Thick Club	Earthquake	Rock Slide	Swords Dance	Icy Wind	Rock Head / Lightningrod	0/255/0/0/0/255	
+e	472	Quagsire	2	Sassy	Leftovers	Curse	Attract	Yawn	AncientPower	Damp / Water Absorb	0/0/255/0/255/0	
+e	473	Misdreavus	2	Bold	Leftovers	Psychic	Attract	Thunder Wave	Confuse Ray	Levitate	0/0/255/255/0/0	
+e	474	Fearow	2	Adamant	Focus Band	Drill Peck	Tri Attack	Attract	Pursuit	Keen Eye	0/255/0/0/0/255	
+e	475	Granbull	2	Quiet	White Herb	Overheat	Thunderbolt	Ice Punch	Facade	Intimidate	0/0/0/255/255/0	
+e	476	Jynx	2	Impish	BrightPowder	Perish Song	Mean Look	Lovely Kiss	Protect	Oblivious	255/0/255/0/0/0	
+e	477	Dusclops	2	Impish	Leftovers	Toxic	Confuse Ray	Double Team	Protect	Pressure	170/0/170/0/170/0	
+e	478	Dodrio	2	Adamant	King's Rock	Drill Peck	Double-Edge	Faint Attack	Protect	Run Away / Early Bird	0/255/0/0/0/255	
+e	479	Mr. Mime	2	Adamant	Liechi Berry	Baton Pass	Swagger	Psych Up	Psychic	Soundproof	170/0/170/0/170/0	
+e	480	Lanturn	2	Docile	Salac Berry	Flail	Endure	Thunderbolt	Surf	Volt Absorb / Illuminate	0/255/0/255/0/0	
+e	481	Breloom	2	Docile	BrightPowder	Giga Drain	Leech Seed	Focus Punch	Spore	Effect Spore	0/0/0/255/0/255	
+e	482	Forretress	2	Adamant	Lum Berry	Earthquake	Double-Edge	Counter	Protect	Sturdy	0/255/0/0/255/0	
+e	483	Skarmory	2	Careful	BrightPowder	Spikes	Roar	Drill Peck	Toxic	Keen Eye / Sturdy	170/170/0/0/170/0	
+e	484	Whiscash	2	Hardy	Shell Bell	Surf	Earthquake	Spark	Future Sight	Oblivious	0/255/0/255/0/0	
+e	485	Xatu	2	Impish	Leftovers	Fly	Toxic	Confuse Ray	Attract	Synchronize / Early Bird	170/0/170/0/170/0	
+e	486	Clefable	2	Adamant	Focus Band	Meteor Mash	Cosmic Power	Double Team	Follow Me	Cute Charm	0/255/255/0/0/0	
+e	487	Hariyama	2	Quiet	Quick Claw	Cross Chop	Fire Punch	Ice Punch	ThunderPunch	Thick Fat / Guts	0/255/0/255/0/0	
+e	488	Raichu	2	Adamant	Lum Berry	Thunderbolt	Reversal	Endure	Agility	Static	0/255/0/0/0/255	
+e	489	Dewgong	2	Docile	Shell Bell	Blizzard	Double-Edge	Encore	Disable	Thick Fat	0/255/0/255/0/0	
+e	490	Manectric	2	Modest	Petaya Berry	Thunder	Rain Dance	Crunch	Roar	Static / Lightningrod	0/0/0/255/0/255	
+e	491	Vileplume	2	Bold	BrightPowder	Ingrain	Double Team	Toxic	Giga Drain	Chlorophyll	170/0/170/0/170/0	
+e	492	Victreebel	2	Serious	Leftovers	Giga Drain	Sludge Bomb	Sleep Powder	Attract	Chlorophyll	0/255/0/255/0/0	
+e	493	Electrode	2	Modest	BrightPowder	Thunder	Rain Dance	Double Team	Swagger	Soundproof / Static	170/0/170/0/170/0	
+e	494	Exploud	2	Quirky	Focus Band	SolarBeam	Sunny Day	Earthquake	Counter	Soundproof	0/255/0/255/0/0	
+e	495	Shiftry	2	Impish	Chesto Berry	Leech Seed	Dig	Double Team	Rest	Chlorophyll / Early Bird	0/0/255/0/255/0	
+e	496	Glalie	2	Quirky	Salac Berry	Explosion	Endure	Body Slam	Icy Wind	Inner Focus	0/255/0/0/0/255	
+e	497	Ludicolo	2	Modest	Shell Bell	Surf	Ice Beam	ThunderPunch	Fire Punch	Swift Swim / Rain Dish	255/0/0/255/0/0	
+e	498	Hypno	2	Modest	TwistedSpoon	Hypnosis	Nightmare	Dream Eater	Psychic	Insomnia	0/0/255/0/255/0	
+e	499	Golem	2	Adamant	Chesto Berry	Focus Punch	Substitute	Double Team	Rest	Rock Head / Sturdy	255/255/0/0/0/0	
+e	500	Rhydon	2	Adamant	Quick Claw	Earthquake	Horn Drill	Rock Slide	Brick Break	Lightningrod / Rock Head	0/255/0/0/255/0	
+e	501	Alakazam	2	Modest	Lum Berry	Psychic	Calm Mind	Thunder Wave	Recover	Synchronize / Inner Focus	0/0/255/255/0/0	
+e	502	Weezing	2	Adamant	Sitrus Berry	Memento	Sludge Bomb	Facade	Destiny Bond	Levitate	255/255/0/0/0/0	
+e	503	Kangaskhan	2	Adamant	Lum Berry	Crush Claw	Shadow Ball	Attract	Rest	Early Bird	255/255/0/0/0/0	
+e	504	Electabuzz	2	Quirky	Leftovers	Thunder	Rain Dance	Attract	Focus Punch	Static	0/170/0/170/0/170	
+e	505	Tauros	2	Adamant	Chesto Berry	Double-Edge	Earthquake	Double Team	Rest	Intimidate	255/255/0/0/0/0	
+e	506	Slowbro	2	Modest	Leftovers	Surf	Ice Beam	Calm Mind	Yawn	Oblivious / Own Tempo	0/255/0/0/255/0	
+e	507	Slowking	2	Modest	Shell Bell	Yawn	Thunder Wave	Surf	Psychic	Oblivious / Own Tempo	0/0/255/255/0/0	
+e	508	Miltank	2	Careful	Leftovers	Focus Punch	Shadow Ball	Attract	Thunder Wave	Thick Fat	170/170/0/0/170/0	
+e	509	Altaria	2	Bold	Leftovers	Perish Song	DragonBreath	Pursuit	Attract	Natural Cure	170/0/170/0/170/0	
+e	510	Nidoqueen	2	Adamant	Shell Bell	Double-Edge	Earthquake	Aerial Ace	Rock Slide	Poison Point	255/255/0/0/0/0	
+e	511	Nidoking	2	Adamant	Shell Bell	Mega Kick	Earthquake	Shadow Ball	Brick Break	Poison Point	255/255/0/0/0/0	
+e	512	Magmar	2	Modest	Quick Claw	Fire Blast	SmokeScreen	ThunderPunch	Confuse Ray	Flame Body	0/0/0/255/0/255	
+e	513	Cradily	2	Adamant	Sitrus Berry	Earthquake	AncientPower	Swagger	Psych Up	Suction Cups	255/255/0/0/0/0	
+e	514	Armaldo	2	Adamant	Quick Claw	Iron Tail	AncientPower	Brick Break	Knock Off	Battle Armor	255/255/0/0/0/0	
+e	515	Golduck	2	Quirky	Lum Berry	Cross Chop	Surf	Swagger	Psych Up	Damp / Cloud Nine	0/170/0/170/0/170	
+e	516	Rapidash	2	Docile	Leftovers	Fire Blast	Bounce	Double Team	Attract	Run Away / Flash Fire	0/170/0/170/0/170	
+e	517	Muk	2	Hardy	Chesto Berry	Curse	Rest	Sludge Bomb	DynamicPunch	Stench / Sticky Hold	0/255/255/0/0/0	
+e	518	Gengar	2	Adamant	Leftovers	Sludge Bomb	Shadow Ball	Confuse Ray	Will-O-Wisp	Levitate	0/255/0/0/0/255	
+e	519	Ampharos	2	Hardy	BrightPowder	ThunderPunch	Fire Punch	Focus Punch	Thunder Wave	Static	0/255/0/255/0/0	
+e	520	Scizor	2	Adamant	Quick Claw	Silver Wind	Steel Wing	Swords Dance	Light Screen	Swarm	0/255/0/0/255/0	
+e	521	Heracross	2	Jolly	Lum Berry	Megahorn	Earthquake	Attract	Bulk Up	Swarm / Guts	255/0/0/0/0/255	
+e	522	Ursaring	2	Adamant	Quick Claw	Double-Edge	Earthquake	Brick Break	Counter	Guts	255/255/0/0/0/0	
+e	523	Houndoom	2	Modest	Lum Berry	Fire Blast	Crunch	Roar	Rest	Early Bird / Flash Fire	0/0/0/255/0/255	
+e	524	Donphan	2	Jolly	Quick Claw	Flail	Endure	Earthquake	Rock Tomb	Sturdy	0/255/0/0/0/255	
+e	525	Claydol	2	Calm	Leftovers	Psychic	Earthquake	Double Team	Cosmic Power	Levitate	170/0/170/0/170/0	
+e	526	Wailord	2	Adamant	Chesto Berry	Double-Edge	Rest	Curse	Amnesia	Water Veil / Oblivious	170/0/170/0/170/0	
+e	527	Ninetales	2	Quirky	Lum Berry	Heat Wave	Body Slam	Grudge	Sunny Day	Flash Fire	0/0/0/255/0/255	
+e	528	Machamp	2	Adamant	Chesto Berry	Cross Chop	Earthquake	Bulk Up	Rest	Guts	170/0/170/0/170/0	
+e	529	Shuckle	2	Careful	Leftovers	Sandstorm	Dig	Flash	Double Team	Sturdy	0/0/255/0/255/0	
+e	530	Steelix	2	Hardy	Leftovers	Earthquake	DragonBreath	Sandstorm	Block	Rock Head / Sturdy	0/255/0/0/255/0	
+e	531	Tentacruel	2	Hardy	Leftovers	Toxic	Giga Drain	Confuse Ray	Surf	Clear Body / Liquid Ooze	170/0/170/170/0/0	
+e	532	Aerodactyl	2	Adamant	Choice Band	Hyper Beam	Earthquake	Aerial Ace	AncientPower	Rock Head / Pressure	170/170/0/0/0/170	
+e	533	Porygon2	2	Modest	Lum Berry	SolarBeam	Sunny Day	Thunder Wave	Recover	Trace	255/0/0/255/0/0	
+e	534	Gardevoir	2	Modest	Chesto Berry	Psychic	Calm Mind	Double Team	Rest	Synchronize / Trace	255/0/255/0/0/0	
+e	535	Exeggutor	2	Hardy	Chesto Berry	Return	Curse	Sleep Powder	Rest	Chlorophyll	0/255/0/0/255/0	
+e	536	Starmie	2	Modest	Shell Bell	Hydro Pump	Thunder	Rain Dance	Recover	Illuminate / Natural Cure	170/0/170/0/170/0	
+e	537	Flygon	2	Modest	BrightPowder	SolarBeam	Fire Blast	Crunch	Sunny Day	Levitate	0/0/0/255/0/255	
+e	538	Venusaur	2	Bold	BrightPowder	Leech Seed	Giga Drain	Double Team	Light Screen	Overgrow	170/0/170/0/170/0	
+e	539	Vaporeon	2	Docile	Shell Bell	Surf	Ice Beam	Body Slam	Shadow Ball	Water Absorb	170/0/170/0/170/0	
+e	540	Jolteon	2	Hardy	Scope Lens	Thunderbolt	Dig	Double Kick	Roar	Volt Absorb	0/255/0/255/0/0	
+e	541	Flareon	2	Relaxed	Quick Claw	Curse	Attract	Double-Edge	Shadow Ball	Flash Fire	170/0/170/0/170/0	
+e	542	Meganium	2	Calm	Leftovers	Leech Seed	Substitute	Double Team	GrassWhistle	Overgrow	170/0/170/0/170/0	
+e	543	Espeon	2	Docile	Chesto Berry	Psychic	Shadow Ball	Calm Mind	Rest	Synchronize	0/255/0/0/0/255	
+e	544	Umbreon	2	Adamant	Leftovers	Curse	Screech	Double Team	Double-Edge	Synchronize	170/170/0/0/170/0	
+e	545	Blastoise	2	Brave	Shell Bell	Hydro Pump	Mega Kick	Brick Break	Mirror Coat	Torrent	170/170/0/170/0/0	
+e	546	Feraligatr	2	Sassy	Quick Claw	Surf	Dragon Claw	Brick Break	Scary Face	Torrent	170/0/0/170/170/0	
+e	547	Aggron	2	Adamant	Scope Lens	Focus Punch	Earthquake	Rock Slide	Thunder Wave	Sturdy / Rock Head	255/255/0/0/0/0	
+e	548	Blaziken	2	Docile	Scope Lens	Blaze Kick	Mega Kick	ThunderPunch	Brick Break	Blaze	0/255/0/255/0/0	
+e	549	Walrein	2	Quirky	Focus Band	Earthquake	Ice Beam	Curse	Double Team	Thick Fat	170/0/170/0/170/0	
+e	550	Sceptile	2	Modest	Lum Berry	Leaf Blade	ThunderPunch	Attract	Double Team	Overgrow	0/0/0/255/0/255	
+e	551	Charizard	2	Adamant	BrightPowder	Earthquake	Aerial Ace	Dragon Dance	SmokeScreen	Blaze	0/255/0/0/0/255	
+e	552	Typhlosion	2	Hardy	Scope Lens	Flamethrower	ThunderPunch	Aerial Ace	Rock Slide	Blaze	0/170/0/170/0/170	
+e	553	Lapras	2	Timid	Quick Claw	Surf	Ice Beam	Body Slam	Roar	Water Absorb / Shell Armor	0/0/0/255/0/255	
+e	554	Crobat	2	Calm	Leftovers	Toxic	Giga Drain	Confuse Ray	Double Team	Inner Focus	170/0/170/0/170/0	
+e	555	Swampert	2	Docile	Quick Claw	Surf	Earthquake	Counter	Mirror Coat	Torrent	170/0/170/0/170/0	
+e	556	Gyarados	2	Modest	Shell Bell	Hydro Pump	Thunderbolt	Fire Blast	Blizzard	Intimidate	0/0/0/255/0/255	
+e	557	Snorlax	2	Adamant	Chesto Berry	Earthquake	Rock Slide	Curse	Rest	Immunity / Thick Fat	170/0/170/0/170/0	
+e	558	Kingdra	2	Modest	Chesto Berry	Surf	Ice Beam	DragonBreath	Rest	Swift Swim	170/0/170/0/170/0	
+e	559	Blissey	2	Bold	Leftovers	Seismic Toss	Sing	Attract	Substitute	Natural Cure / Serene Grace	0/0/255/0/255/0	
+e	560	Milotic	2	Modest	Focus Band	Surf	Ice Beam	Safeguard	Mirror Coat	Marvel Scale	255/0/0/255/0/0	
+e	561	Arcanine	2	Docile	Lum Berry	Fire Blast	Sunny Day	Crunch	Roar	Intimidate / Flash Fire	0/0/0/255/0/255	
+e	562	Salamence	2	Hardy	Leftovers	Double-Edge	Crunch	Swagger	Protect	Intimidate	0/170/0/170/0/170	
+e	563	Metagross	2	Adamant	Lum Berry	Earthquake	Meteor Mash	Psych Up	Swagger	Clear Body	170/0/0/0/170/170	
+e	564	Slaking	2	Adamant	Leftovers	Mega Kick	Shadow Ball	Yawn	Amnesia	Truant	0/0/255/0/255/0	
+e	565	Dugtrio	3	Adamant	King's Rock	Earthquake	Double-Edge	Sludge Bomb	Fissure	Sand Veil / Arena Trap	0/255/0/0/0/255	
+e	566	Medicham	3	Hardy	Scope Lens	DynamicPunch	ThunderPunch	Ice Punch	Fire Punch	Pure Power	0/0/0/255/0/255	
+e	567	Misdreavus	3	Bold	BrightPowder	Perish Song	Mean Look	Thunder Wave	Confuse Ray	Levitate	255/0/255/0/0/0	
+e	568	Fearow	3	Hardy	Scope Lens	Drill Peck	Return	Steel Wing	Faint Attack	Keen Eye	0/255/0/0/0/255	
+e	569	Granbull	3	Adamant	Quick Claw	Double-Edge	Earthquake	Sludge Bomb	Rock Slide	Intimidate	255/255/0/0/0/0	
+e	570	Jynx	3	Hardy	Quick Claw	Dream Eater	Lovely Kiss	Attract	Substitute	Oblivious	255/0/255/0/0/0	
+e	571	Dusclops	3	Adamant	Leftovers	Psych Up	Swagger	Shadow Ball	Earthquake	Pressure	170/0/170/0/170/0	
+e	572	Dodrio	3	Adamant	Lum Berry	Double-Edge	Drill Peck	Steel Wing	Faint Attack	Run Away / Early Bird	0/255/0/0/0/255	
+e	573	Mr. Mime	3	Modest	Choice Band	Trick	Torment	Psychic	Thunderbolt	Soundproof	255/0/0/255/0/0	
+e	574	Lanturn	3	Modest	BrightPowder	Hydro Pump	Thunder	Confuse Ray	Rain Dance	Volt Absorb / Illuminate	0/0/0/255/0/255	
+e	575	Breloom	3	Adamant	Leftovers	Iron Tail	Focus Punch	Attract	Spore	Effect Spore	0/255/0/0/0/255	
+e	576	Forretress	3	Quiet	Focus Band	Explosion	Earthquake	Giga Drain	Zap Cannon	Sturdy	0/170/0/170/170/0	
+e	577	Whiscash	3	Hardy	Chesto Berry	Sleep Talk	Rest	Surf	Fissure	Oblivious	0/0/255/0/255/0	
+e	578	Xatu	3	Jolly	King's Rock	Drill Peck	Psychic	Giga Drain	Steel Wing	Synchronize / Early Bird	0/170/0/170/0/170	
+e	579	Skarmory	3	Careful	Chesto Berry	Toxic	Curse	Rest	Fly	Keen Eye / Sturdy	255/0/0/0/255/0	
+e	580	Marowak	3	Adamant	Thick Club	Earthquake	Rock Slide	Swords Dance	Brick Break	Rock Head / Lightningrod	0/255/0/0/0/255	
+e	581	Quagsire	3	Adamant	Quick Claw	Earthquake	Sludge Bomb	Double-Edge	Curse	Damp / Water Absorb	0/255/0/0/255/0	
+e	582	Clefable	3	Modest	Lum Berry	Thunderbolt	Ice Beam	Flamethrower	Magical Leaf	Cute Charm	0/0/255/255/0/0	
+e	583	Hariyama	3	Adamant	Quick Claw	Cross Chop	Earthquake	Rock Slide	Facade	Thick Fat / Guts	255/255/0/0/0/0	
+e	584	Raichu	3	Docile	Cheri Berry	Thunder	Rain Dance	Iron Tail	Attract	Static	0/0/0/255/0/255	
+e	585	Dewgong	3	Bold	Chesto Berry	Horn Drill	Sheer Cold	Sleep Talk	Rest	Thick Fat	255/0/255/0/0/0	
+e	586	Manectric	3	Quirky	Lum Berry	Thunderbolt	Iron Tail	Thunder Wave	Roar	Static / Lightningrod	0/0/0/255/0/255	
+e	587	Vileplume	3	Quirky	Leftovers	Attract	Stun Spore	Sludge Bomb	Giga Drain	Chlorophyll	0/255/0/255/0/0	
+e	588	Victreebel	3	Quirky	BrightPowder	Stun Spore	Ingrain	Giga Drain	Sludge Bomb	Chlorophyll	0/255/0/255/0/0	
+e	589	Electrode	3	Naughty	Liechi Berry	Explosion	Thunderbolt	Thunder Wave	Endure	Soundproof / Static	0/255/0/255/0/0	
+e	590	Exploud	3	Modest	White Herb	Overheat	Ice Beam	ThunderPunch	Extrasensory	Soundproof	0/0/0/255/0/255	
+e	591	Shiftry	3	Quirky	Focus Band	SolarBeam	Sunny Day	Explosion	Synthesis	Chlorophyll / Early Bird	0/255/0/255/0/0	
+e	592	Glalie	3	Hardy	Shell Bell	Blizzard	Earthquake	Double-Edge	Shadow Ball	Inner Focus	0/170/0/170/0/170	
+e	593	Ludicolo	3	Bold	Leftovers	Leech Seed	Rain Dance	Double Team	Giga Drain	Swift Swim / Rain Dish	170/0/170/0/170/0	
+e	594	Hypno	3	Adamant	Lum Berry	Psych Up	Swagger	Mega Kick	Shadow Ball	Insomnia	255/255/0/0/0/0	
+e	595	Golem	3	Adamant	Quick Claw	Explosion	Earthquake	Flamethrower	Brick Break	Rock Head / Sturdy	0/255/0/0/255/0	
+e	596	Rhydon	3	Adamant	Quick Claw	Megahorn	Crush Claw	Earthquake	Horn Drill	Lightningrod / Rock Head	255/255/0/0/0/0	
+e	597	Alakazam	3	Modest	Choice Band	Trick	Disable	Psychic	Skill Swap	Synchronize / Inner Focus	0/0/255/255/0/0	
+e	598	Weezing	3	Quirky	Focus Band	Explosion	Sludge Bomb	Flamethrower	Thunderbolt	Levitate	0/255/0/255/0/0	
+e	599	Kangaskhan	3	Jolly	Salac Berry	Reversal	Endure	Thunderbolt	Earthquake	Early Bird	0/255/0/0/0/255	
+e	600	Electabuzz	3	Quirky	Lum Berry	Fire Punch	Ice Punch	Thunderbolt	Cross Chop	Static	0/0/0/255/0/255	
+e	601	Tauros	3	Docile	Leftovers	Double-Edge	Earthquake	Flamethrower	Ice Beam	Intimidate	0/255/0/255/0/0	
+e	602	Slowbro	3	Quiet	Quick Claw	Surf	Psychic	Shadow Ball	Attract	Oblivious / Own Tempo	0/0/0/255/255/0	
+e	603	Slowking	3	Quiet	Quick Claw	Psychic	Surf	Ice Beam	Earthquake	Oblivious / Own Tempo	0/170/170/170/0/0	
+e	604	Miltank	3	Adamant	Salac Berry	Reversal	Endure	Earthquake	Shadow Ball	Thick Fat	0/255/0/0/255/0	
+e	605	Altaria	3	Adamant	Lum Berry	Sing	Dragon Dance	Earthquake	Aerial Ace	Natural Cure	255/255/0/0/0/0	
+e	606	Nidoqueen	3	Modest	Lum Berry	Thunderbolt	Flamethrower	Ice Beam	Crunch	Poison Point	255/0/0/255/0/0	
+e	607	Nidoking	3	Modest	Leppa Berry	Horn Drill	Fire Blast	Blizzard	Surf	Poison Point	255/0/0/255/0/0	
+e	608	Magmar	3	Impish	Scope Lens	Mega Kick	Cross Chop	Iron Tail	Counter	Flame Body	0/255/255/0/0/0	
+e	609	Cradily	3	Modest	Leftovers	Substitute	SolarBeam	Sunny Day	Recover	Suction Cups	0/0/170/170/170/0	
+e	610	Armaldo	3	Adamant	Quick Claw	Earthquake	Rock Slide	Brick Break	Swords Dance	Battle Armor	255/255/0/0/0/0	
+e	611	Golduck	3	Docile	Shell Bell	Hydro Pump	Cross Chop	Blizzard	Protect	Damp / Cloud Nine	0/255/0/255/0/0	
+e	612	Rapidash	3	Modest	White Herb	Overheat	SolarBeam	Sunny Day	Hypnosis	Run Away / Flash Fire	170/0/0/170/0/170	
+e	613	Muk	3	Quiet	Lum Berry	Sludge Bomb	Thunderbolt	Flamethrower	Ice Punch	Stench / Sticky Hold	0/0/255/255/0/0	
+e	614	Gengar	3	Modest	Quick Claw	Psychic	Thunderbolt	Giga Drain	Skill Swap	Levitate	0/0/0/255/0/255	
+e	615	Ampharos	3	Hardy	Focus Band	Thunderbolt	Mega Kick	Iron Tail	Brick Break	Static	0/255/0/255/0/0	
+e	616	Scizor	3	Careful	Focus Band	Reversal	Endure	Agility	Slash	Swarm	0/255/0/0/255/0	
+e	617	Heracross	3	Adamant	BrightPowder	Megahorn	Earthquake	Rock Slide	Brick Break	Swarm / Guts	0/255/0/0/0/255	
+e	618	Ursaring	3	Modest	Lum Berry	Fire Punch	ThunderPunch	Ice Punch	Crunch	Guts	170/0/0/170/0/170	
+e	619	Houndoom	3	Quirky	White Herb	Overheat	Shadow Ball	Sludge Bomb	Double-Edge	Early Bird / Flash Fire	0/255/0/0/0/255	
+e	620	Donphan	3	Adamant	Quick Claw	Fissure	Earthquake	Rock Slide	Secret Power	Sturdy	255/255/0/0/0/0	
+e	621	Claydol	3	Modest	Shell Bell	Psychic	Ice Beam	SolarBeam	Sunny Day	Levitate	255/0/0/255/0/0	
+e	622	Wailord	3	Modest	Chesto Berry	Hydro Pump	Fissure	Double Team	Rest	Water Veil / Oblivious	170/0/170/0/170/0	
+e	623	Ninetales	3	Quirky	BrightPowder	Fire Blast	Iron Tail	Confuse Ray	Attract	Flash Fire	0/0/0/255/0/255	
+e	624	Machamp	3	Hardy	Quick Claw	Cross Chop	Fire Blast	ThunderPunch	Ice Punch	Guts	0/255/0/255/0/0	
+e	625	Shuckle	3	Careful	Leftovers	Substitute	Attract	Toxic	Double Team	Sturdy	0/0/255/0/255/0	
+e	626	Steelix	3	Adamant	Quick Claw	Earthquake	Body Slam	Rock Slide	Explosion	Rock Head / Sturdy	0/255/0/0/255/0	
+e	627	Tentacruel	3	Modest	Shell Bell	Surf	Giga Drain	Ice Beam	Mirror Coat	Clear Body / Liquid Ooze	0/0/170/170/0/170	
+e	628	Aerodactyl	3	Hardy	King's Rock	Double-Edge	Rock Slide	Fire Blast	Dragon Claw	Rock Head / Pressure	0/255/0/255/0/0	
+e	629	Porygon2	3	Modest	Lum Berry	Psychic	Tri Attack	Thunder Wave	Recover	Trace	255/0/0/255/0/0	
+e	630	Gardevoir	3	Modest	Lum Berry	Psychic	Ice Punch	Fire Punch	Magical Leaf	Synchronize / Trace	0/0/0/255/0/255	
+e	631	Exeggutor	3	Hardy	Leftovers	Leech Seed	Giga Drain	Toxic	Explosion	Chlorophyll	170/0/170/0/170/0	
+e	632	Starmie	3	Modest	Lum Berry	Surf	Psychic	Thunderbolt	Ice Beam	Illuminate / Natural Cure	0/0/0/255/0/255	
+e	633	Flygon	3	Hardy	Scope Lens	Earthquake	Dragon Claw	Flamethrower	Giga Drain	Levitate	0/170/0/170/0/170	
+e	634	Venusaur	3	Adamant	Scope Lens	Double-Edge	Sludge Bomb	Earthquake	Sleep Powder	Overgrow	0/170/170/0/170/0	
+e	635	Vaporeon	3	Calm	Quick Claw	Surf	Ice Beam	Acid Armor	Baton Pass	Water Absorb	170/0/170/0/170/0	
+e	636	Jolteon	3	Bold	BrightPowder	Thunderbolt	Thunder Wave	Agility	Baton Pass	Volt Absorb	170/0/170/0/170/0	
+e	637	Flareon	3	Jolly	Quick Claw	Shadow Ball	Flail	Endure	Overheat	Flash Fire	0/255/0/0/0/255	
+e	638	Meganium	3	Jolly	Salac Berry	Earthquake	Flail	Endure	Giga Drain	Overgrow	0/255/0/0/0/255	
+e	639	Espeon	3	Modest	Lum Berry	Psychic	Bite	Wish	Reflect	Synchronize	0/0/0/255/0/255	
+e	640	Umbreon	3	Bold	BrightPowder	Swagger	Psych Up	Attract	Shadow Ball	Synchronize	170/0/170/0/170/0	
+e	641	Blastoise	3	Docile	Focus Band	Surf	Earthquake	Ice Beam	Counter	Torrent	170/170/0/170/0/0	
+e	642	Feraligatr	3	Hardy	Scope Lens	Hydro Pump	Crunch	Earthquake	Rock Slide	Torrent	170/170/0/170/0/0	
+e	643	Aggron	3	Modest	BrightPowder	Surf	Thunder	Fire Blast	Blizzard	Sturdy / Rock Head	255/0/0/255/0/0	
+e	644	Blaziken	3	Hardy	Salac Berry	Overheat	Earthquake	Endure	Reversal	Blaze	0/255/0/0/0/255	
+e	645	Walrein	3	Hardy	Quick Claw	Sheer Cold	Fissure	Surf	Attract	Thick Fat	170/0/170/0/170/0	
+e	646	Sceptile	3	Docile	Scope Lens	Leaf Blade	Earthquake	Crush Claw	Aerial Ace	Overgrow	0/170/0/170/0/170	
+e	647	Charizard	3	Modest	Lum Berry	Flamethrower	Dragon Claw	Bite	Brick Break	Blaze	0/0/0/255/0/255	
+e	648	Typhlosion	3	Adamant	Salac Berry	Earthquake	Overheat	Endure	Reversal	Blaze	0/255/0/0/0/255	
+e	649	Lapras	3	Docile	BrightPowder	Double-Edge	Psychic	Confuse Ray	Dragon Dance	Water Absorb / Shell Armor	170/0/170/0/170/0	
+e	650	Crobat	3	Adamant	Scope Lens	Air Cutter	Double-Edge	Shadow Ball	Screech	Inner Focus	0/255/0/0/0/255	
+e	651	Swampert	3	Brave	Shell Bell	Surf	Earthquake	Ice Beam	Counter	Torrent	0/255/0/255/0/0	
+e	652	Gyarados	3	Quirky	Quick Claw	Surf	Thunder	Rain Dance	Earthquake	Intimidate	0/255/0/255/0/0	
+e	653	Snorlax	3	Adamant	Quick Claw	Mega Kick	Shadow Ball	Swagger	Psych Up	Immunity / Thick Fat	0/0/255/0/255/0	
+e	654	Kingdra	3	Adamant	Salac Berry	Flail	Hydro Pump	Dragon Dance	Endure	Swift Swim	170/0/170/0/170/0	
+e	655	Blissey	3	Bold	Focus Band	Fire Blast	Blizzard	Calm Mind	Softboiled	Natural Cure / Serene Grace	0/0/255/0/255/0	
+e	656	Milotic	3	Bold	Leftovers	Surf	Blizzard	Attract	Recover	Marvel Scale	170/0/170/0/170/0	
+e	657	Arcanine	3	Modest	White Herb	Overheat	ExtremeSpeed	Crunch	Aerial Ace	Intimidate / Flash Fire	0/0/0/255/0/255	
+e	658	Salamence	3	Hardy	Salac Berry	Double-Edge	Earthquake	Crunch	Endure	Intimidate	0/255/0/255/0/0	
+e	659	Metagross	3	Adamant	Chesto Berry	Earthquake	Meteor Mash	Double Team	Rest	Clear Body	170/170/0/0/0/170	
+e	660	Slaking	3	Adamant	Choice Band	Earthquake	Shadow Ball	Aerial Ace	Brick Break	Truant	0/0/255/0/255/0	
+e	661	Dugtrio	4	Adamant	King's Rock	Earthquake	Double-Edge	Rock Slide	Fissure	Sand Veil / Arena Trap	0/255/0/0/0/255	
+e	662	Medicham	4	Hardy	Lum Berry	Mega Kick	Psychic	Shadow Ball	Rock Slide	Pure Power	0/255/0/255/0/0	
+e	663	Misdreavus	4	Timid	Lum Berry	Destiny Bond	Psychic	Shadow Ball	Thunderbolt	Levitate	0/0/0/255/0/255	
+e	664	Fearow	4	Hardy	Lum Berry	Drill Peck	Double-Edge	Steel Wing	Sky Attack	Keen Eye	0/255/0/255/0/0	
+e	665	Granbull	4	Brave	Choice Band	Mega Kick	Earthquake	Crunch	Shadow Ball	Intimidate	0/255/0/255/0/0	
+e	666	Jynx	4	Modest	Lum Berry	Psychic	Ice Beam	Lovely Kiss	Fake Tears	Oblivious	255/0/0/255/0/0	
+e	667	Dusclops	4	Adamant	Chesto Berry	Double-Edge	Shadow Ball	Curse	Rest	Pressure	255/255/0/0/0/0	
+e	668	Dodrio	4	Adamant	Salac Berry	Flail	Endure	Drill Peck	Facade	Run Away / Early Bird	0/255/0/0/0/255	
+e	669	Mr. Mime	4	Modest	BrightPowder	Psychic	Thunderbolt	Ice Punch	Fire Punch	Soundproof	255/0/0/255/0/0	
+e	670	Lanturn	4	Modest	Lum Berry	Surf	Thunderbolt	Ice Beam	Confuse Ray	Volt Absorb / Illuminate	0/0/0/255/0/255	
+e	671	Breloom	4	Adamant	Quick Claw	Focus Punch	Sludge Bomb	Spore	Double Team	Effect Spore	0/255/0/0/0/255	
+e	672	Forretress	4	Adamant	Quick Claw	Explosion	Earthquake	Rock Slide	Double-Edge	Sturdy	0/255/0/0/255/0	
+e	673	Whiscash	4	Quiet	Quick Claw	Fissure	Surf	Earthquake	Ice Beam	Oblivious	0/255/0/255/0/0	
+e	674	Xatu	4	Docile	Petaya Berry	Psychic	Drill Peck	Shadow Ball	Confuse Ray	Synchronize / Early Bird	0/255/0/255/0/0	
+e	675	Skarmory	4	Adamant	Quick Claw	Drill Peck	Steel Wing	Counter	Rock Slide	Keen Eye / Sturdy	255/255/0/0/0/0	
+e	676	Marowak	4	Adamant	Thick Club	Earthquake	Rock Slide	Swords Dance	Mega Kick	Rock Head / Lightningrod	0/255/0/0/0/255	
+e	677	Quagsire	4	Sassy	Leftovers	Surf	Earthquake	Ice Beam	Amnesia	Damp / Water Absorb	0/170/0/170/170/0	
+e	678	Clefable	4	Docile	Focus Band	Mega Kick	Psychic	Shadow Ball	Softboiled	Cute Charm	0/255/255/0/0/0	
+e	679	Hariyama	4	Adamant	Scope Lens	Cross Chop	Earthquake	Rock Slide	Fake Out	Thick Fat / Guts	255/255/0/0/0/0	
+e	680	Raichu	4	Docile	BrightPowder	Thunderbolt	Thunder Wave	Protect	Mega Kick	Static	0/255/0/255/0/0	
+e	681	Dewgong	4	Docile	Lum Berry	Sheer Cold	Ice Beam	Surf	Signal Beam	Thick Fat	0/255/0/255/0/0	
+e	682	Manectric	4	Modest	Lum Berry	Thunderbolt	Crunch	Thunder Wave	Roar	Static / Lightningrod	0/0/0/255/0/255	
+e	683	Vileplume	4	Quiet	Quick Claw	SolarBeam	Sludge Bomb	Sunny Day	Synthesis	Chlorophyll	0/255/0/255/0/0	
+e	684	Victreebel	4	Quirky	BrightPowder	Giga Drain	Double-Edge	Sludge Bomb	Synthesis	Chlorophyll	0/255/0/255/0/0	
+e	685	Electrode	4	Naughty	Lum Berry	Explosion	Thunderbolt	Thunder Wave	Mirror Coat	Soundproof / Static	0/255/0/255/0/0	
+e	686	Exploud	4	Hardy	White Herb	Mega Kick	Earthquake	Shadow Ball	Overheat	Soundproof	0/255/0/255/0/0	
+e	687	Shiftry	4	Hardy	Focus Band	Explosion	Giga Drain	Mega Kick	Fake Out	Chlorophyll / Early Bird	0/255/0/255/0/0	
+e	688	Glalie	4	Hardy	Leftovers	Ice Beam	Earthquake	Crunch	Shadow Ball	Inner Focus	170/170/0/170/0/0	
+e	689	Ludicolo	4	Bold	Leftovers	Leech Seed	Rain Dance	Double Team	Toxic	Swift Swim / Rain Dish	170/0/170/0/170/0	
+e	690	Hypno	4	Modest	Lum Berry	Psychic	ThunderPunch	Fire Punch	Ice Punch	Insomnia	255/0/0/255/0/0	
+e	691	Golem	4	Adamant	Quick Claw	Explosion	Earthquake	Rock Slide	Double-Edge	Rock Head / Sturdy	0/255/0/0/255/0	
+e	692	Rhydon	4	Adamant	Quick Claw	Megahorn	Earthquake	Rock Slide	Horn Drill	Lightningrod / Rock Head	255/255/0/0/0/0	
+e	693	Alakazam	4	Modest	BrightPowder	Psychic	ThunderPunch	Fire Punch	Ice Punch	Synchronize / Inner Focus	0/0/255/255/0/0	
+e	694	Weezing	4	Adamant	Focus Band	Explosion	Sludge Bomb	Frustration	Shadow Ball	Levitate	255/255/0/0/0/0	
+e	695	Kangaskhan	4	Adamant	BrightPowder	Mega Kick	Earthquake	Aerial Ace	Shadow Ball	Early Bird	0/255/0/0/0/255	
+e	696	Electabuzz	4	Docile	Scope Lens	Thunderbolt	Psychic	Mega Kick	Cross Chop	Static	0/255/0/255/0/0	
+e	697	Tauros	4	Docile	BrightPowder	Double-Edge	Rock Tomb	Thunderbolt	Surf	Intimidate	0/255/0/255/0/0	
+e	698	Slowbro	4	Sassy	Quick Claw	Psychic	Surf	Earthquake	Ice Beam	Oblivious / Own Tempo	0/0/0/255/255/0	
+e	699	Slowking	4	Modest	Quick Claw	Psychic	Surf	Ice Beam	Flamethrower	Oblivious / Own Tempo	0/0/255/255/0/0	
+e	700	Miltank	4	Adamant	Lum Berry	Double-Edge	Curse	Double Team	Milk Drink	Thick Fat	0/255/0/0/255/0	
+e	701	Altaria	4	Docile	Shell Bell	Dragon Claw	Earthquake	Flamethrower	Ice Beam	Natural Cure	0/255/0/255/0/0	
+e	702	Nidoqueen	4	Adamant	White Herb	Superpower	Sludge Bomb	Earthquake	Shadow Ball	Poison Point	255/255/0/0/0/0	
+e	703	Nidoking	4	Docile	Lum Berry	Megahorn	Sludge Bomb	Earthquake	Thunder	Poison Point	0/255/0/255/0/0	
+e	704	Magmar	4	Docile	Scope Lens	Flamethrower	Psychic	Cross Chop	Confuse Ray	Flame Body	255/0/255/0/0/0	
+e	705	Cradily	4	Bold	Leftovers	Toxic	Ingrain	Mirror Coat	Giga Drain	Suction Cups	170/0/170/0/170/0	
+e	706	Armaldo	4	Adamant	Choice Band	Double-Edge	Earthquake	Aerial Ace	Rock Slide	Battle Armor	255/255/0/0/0/0	
+e	707	Golduck	4	Docile	Scope Lens	Surf	Cross Chop	Ice Beam	Aerial Ace	Damp / Cloud Nine	0/255/0/0/0/255	
+e	708	Rapidash	4	Docile	White Herb	Overheat	Double-Edge	Iron Tail	Double Kick	Run Away / Flash Fire	0/170/0/170/0/170	
+e	709	Muk	4	Brave	Quick Claw	Sludge Bomb	Brick Break	Giga Drain	Explosion	Stench / Sticky Hold	0/255/255/0/0/0	
+e	710	Gengar	4	Modest	Lum Berry	Psychic	Fire Punch	Ice Punch	Destiny Bond	Levitate	0/0/0/255/0/255	
+e	711	Ampharos	4	Modest	Lum Berry	Thunderbolt	Fire Punch	Thunder Wave	Reflect	Static	0/0/255/255/0/0	
+e	712	Scizor	4	Careful	BrightPowder	Silver Wind	Swords Dance	Agility	Baton Pass	Swarm	255/0/0/0/255/0	
+e	713	Heracross	4	Adamant	Salac Berry	Megahorn	Earthquake	Reversal	Endure	Swarm / Guts	0/255/0/0/0/255	
+e	714	Ursaring	4	Adamant	BrightPowder	Double-Edge	Earthquake	Rock Slide	Aerial Ace	Guts	255/255/0/0/0/0	
+e	715	Houndoom	4	Modest	White Herb	Overheat	SolarBeam	Crunch	Sunny Day	Early Bird / Flash Fire	0/0/0/255/0/255	
+e	716	Donphan	4	Adamant	Quick Claw	Fissure	Earthquake	Rock Slide	Iron Tail	Sturdy	255/255/0/0/0/0	
+e	717	Claydol	4	Adamant	Focus Band	Psychic	Earthquake	Shadow Ball	Explosion	Levitate	255/255/0/0/0/0	
+e	718	Wailord	4	Hardy	Quick Claw	Surf	Ice Beam	Earthquake	Fissure	Water Veil / Oblivious	170/0/170/0/170/0	
+e	719	Ninetales	4	Quirky	White Herb	Overheat	Double-Edge	Confuse Ray	Will-O-Wisp	Flash Fire	0/0/0/255/0/255	
+e	720	Machamp	4	Hardy	Scope Lens	Cross Chop	Earthquake	Flamethrower	Rock Slide	Guts	0/255/0/255/0/0	
+e	721	Shuckle	4	Careful	Chesto Berry	Toxic	Double Team	Wrap	Rest	Sturdy	0/0/255/0/255/0	
+e	722	Steelix	4	Adamant	Quick Claw	Earthquake	Iron Tail	Double-Edge	Explosion	Rock Head / Sturdy	0/255/0/0/255/0	
+e	723	Tentacruel	4	Quirky	Shell Bell	Hydro Pump	Sludge Bomb	Ice Beam	Mirror Coat	Clear Body / Liquid Ooze	0/170/170/170/0/0	
+e	724	Aerodactyl	4	Hardy	King's Rock	Double-Edge	Earthquake	Fire Blast	Bite	Rock Head / Pressure	0/255/0/255/0/0	
+e	725	Porygon2	4	Modest	BrightPowder	Psychic	Thunderbolt	Ice Beam	Recover	Trace	255/0/0/255/0/0	
+e	726	Gardevoir	4	Modest	BrightPowder	Psychic	Thunderbolt	Ice Punch	Fire Punch	Synchronize / Trace	0/0/0/255/0/255	
+e	727	Exeggutor	4	Hardy	BrightPowder	Psychic	Giga Drain	Sludge Bomb	Explosion	Chlorophyll	0/255/0/255/0/0	
+e	728	Starmie	4	Modest	Lum Berry	Psychic	Thunderbolt	Ice Beam	Recover	Illuminate / Natural Cure	0/0/0/255/0/255	
+e	729	Flygon	4	Hardy	Scope Lens	Earthquake	Dragon Claw	Double-Edge	Crunch	Levitate	0/170/0/170/0/170	
+e	730	Venusaur	4	Docile	Lum Berry	SolarBeam	Sludge Bomb	Sunny Day	Earthquake	Overgrow	0/170/0/170/170/0	
+e	731	Vaporeon	4	Calm	Lum Berry	Surf	Ice Beam	Acid Armor	Rest	Water Absorb	170/0/0/170/170/0	
+e	732	Jolteon	4	Timid	King's Rock	Thunderbolt	Thunder Wave	Bite	Shadow Ball	Volt Absorb	0/0/0/255/0/255	
+e	733	Flareon	4	Quiet	Quick Claw	Overheat	Sunny Day	Double-Edge	Shadow Ball	Flash Fire	0/255/0/255/0/0	
+e	734	Meganium	4	Hardy	BrightPowder	Giga Drain	Earthquake	AncientPower	Body Slam	Overgrow	170/170/0/170/0/0	
+e	735	Espeon	4	Modest	BrightPowder	Psychic	Bite	Attract	Calm Mind	Synchronize	0/0/0/255/0/255	
+e	736	Umbreon	4	Bold	Leftovers	Confuse Ray	Toxic	Faint Attack	Double Team	Synchronize	170/0/170/0/170/0	
+e	737	Blastoise	4	Docile	Focus Band	Surf	Earthquake	Ice Beam	Mirror Coat	Torrent	170/170/0/170/0/0	
+e	738	Feraligatr	4	Hardy	Scope Lens	Hydro Pump	Ice Beam	Earthquake	Aerial Ace	Torrent	170/170/0/170/0/0	
+e	739	Aggron	4	Adamant	Quick Claw	Double-Edge	Earthquake	Rock Slide	Aerial Ace	Sturdy / Rock Head	255/255/0/0/0/0	
+e	740	Blaziken	4	Hardy	White Herb	Overheat	Earthquake	ThunderPunch	Rock Slide	Blaze	0/255/0/255/0/0	
+e	741	Walrein	4	Quiet	BrightPowder	Surf	Ice Beam	Earthquake	Sheer Cold	Thick Fat	0/255/0/255/0/0	
+e	742	Sceptile	4	Modest	BrightPowder	Leaf Blade	Dragon Claw	Crunch	ThunderPunch	Overgrow	0/0/0/255/0/255	
+e	743	Charizard	4	Hardy	White Herb	Overheat	Earthquake	Aerial Ace	Rock Slide	Blaze	0/170/0/170/0/170	
+e	744	Typhlosion	4	Hardy	White Herb	Overheat	ThunderPunch	Earthquake	Crush Claw	Blaze	0/170/0/170/0/170	
+e	745	Lapras	4	Modest	Lum Berry	Surf	Ice Beam	Thunderbolt	Psychic	Water Absorb / Shell Armor	255/0/0/255/0/0	
+e	746	Crobat	4	Adamant	BrightPowder	Sludge Bomb	Aerial Ace	Shadow Ball	Confuse Ray	Inner Focus	0/255/0/0/0/255	
+e	747	Swampert	4	Quiet	Shell Bell	Surf	Earthquake	Ice Beam	Mirror Coat	Torrent	0/255/0/255/0/0	
+e	748	Gyarados	4	Adamant	Chesto Berry	Return	Earthquake	Dragon Dance	Rest	Intimidate	170/0/170/0/170/0	
+e	749	Snorlax	4	Adamant	Quick Claw	Double-Edge	Shadow Ball	Brick Break	Curse	Immunity / Thick Fat	0/255/255/0/0/0	
+e	750	Kingdra	4	Hardy	Chesto Berry	Double-Edge	Ice Beam	Dragon Dance	Rest	Swift Swim	170/0/170/0/170/0	
+e	751	Blissey	4	Bold	Focus Band	Ice Beam	Calm Mind	Counter	Softboiled	Natural Cure / Serene Grace	0/0/255/0/255/0	
+e	752	Milotic	4	Modest	Leftovers	Surf	Ice Beam	Recover	Mirror Coat	Marvel Scale	0/0/170/170/170/0	
+e	753	Arcanine	4	Docile	White Herb	Overheat	ExtremeSpeed	Crunch	Double-Edge	Intimidate / Flash Fire	0/0/0/255/0/255	
+e	754	Salamence	4	Adamant	BrightPowder	Double-Edge	Earthquake	Aerial Ace	Dragon Dance	Intimidate	255/255/0/0/0/0	
+e	755	Metagross	4	Hardy	Quick Claw	Meteor Mash	Psychic	Earthquake	Shadow Ball	Clear Body	0/255/0/255/0/0	
+e	756	Slaking	4	Modest	Lum Berry	Thunderbolt	Flamethrower	Ice Beam	Yawn	Truant	0/0/0/255/255/0	
+e	757	Articuno	1	Modest	Lum Berry	Ice Beam	Water Pulse	Icy Wind	Roar	Pressure	0/0/0/255/0/255	
+e	758	Zapdos	1	Docile	Lum Berry	Thunderbolt	Drill Peck	Thunder Wave	Roar	Pressure	0/0/0/255/0/255	
+e	759	Moltres	1	Docile	Lum Berry	Flamethrower	Aerial Ace	Mud-Slap	Roar	Pressure	0/255/0/255/0/0	
+e	760	Raikou	1	Modest	Chesto Berry	Thunderbolt	Thunder Wave	Calm Mind	Rest	Pressure	0/0/0/255/0/255	
+e	761	Entei	1	Modest	Chesto Berry	Flamethrower	Double Team	Calm Mind	Rest	Pressure	0/0/0/255/0/255	
+e	762	Suicune	1	Modest	Chesto Berry	Surf	Double Team	Calm Mind	Rest	Pressure	0/0/0/255/0/255	
+e	763	Regirock	1	Adamant	White Herb	Superpower	Earthquake	Rock Slide	Explosion	Clear Body	255/255/0/0/0/0	
+e	764	Regice	1	Modest	Chesto Berry	Ice Beam	Thunderbolt	Amnesia	Rest	Clear Body	255/0/0/255/0/0	
+e	765	Registeel	1	Adamant	Chesto Berry	Metal Claw	Curse	Amnesia	Rest	Clear Body	255/255/0/0/0/0	
+e	766	Latias	1	Modest	Lum Berry	Psychic	Thunderbolt	Ice Beam	Dragon Claw	Levitate	255/0/0/255/0/0	
+e	767	Latios	1	Modest	Lum Berry	Psychic	Thunderbolt	Ice Beam	Dragon Claw	Levitate	255/0/0/255/0/0	
+e	768	Articuno	2	Impish	Leftovers	Substitute	Toxic	Blizzard	Double Team	Pressure	170/0/170/0/170/0	
+e	769	Zapdos	2	Docile	BrightPowder	Thunder	Rain Dance	Drill Peck	Double Team	Pressure	0/255/0/0/0/255	
+e	770	Moltres	2	Hardy	White Herb	Overheat	Aerial Ace	Double Team	Protect	Pressure	0/255/0/255/0/0	
+e	771	Raikou	2	Modest	BrightPowder	Thunder	Rain Dance	Double Team	Reflect	Pressure	0/0/0/255/0/255	
+e	772	Entei	2	Modest	BrightPowder	Fire Blast	Sunny Day	SolarBeam	Reflect	Pressure	0/0/0/255/0/255	
+e	773	Suicune	2	Calm	Leftovers	Toxic	Dive	Double Team	Protect	Pressure	170/0/170/0/170/0	
+e	774	Regirock	2	Adamant	Quick Claw	Earthquake	Rock Slide	Counter	Explosion	Clear Body	255/255/0/0/0/0	
+e	775	Regice	2	Quiet	BrightPowder	Thunder	Rain Dance	Blizzard	Brick Break	Clear Body	255/0/0/255/0/0	
+e	776	Registeel	2	Quiet	BrightPowder	Thunderbolt	Ice Punch	Earthquake	Aerial Ace	Clear Body	170/170/0/170/0/0	
+e	777	Latias	2	Docile	Quick Claw	Psychic	Thunderbolt	Ice Beam	Earthquake	Levitate	0/255/0/255/0/0	
+e	778	Latios	2	Docile	Quick Claw	Psychic	Thunderbolt	Ice Beam	Earthquake	Levitate	0/255/0/255/0/0	
+e	779	Articuno	3	Docile	BrightPowder	Ice Beam	Facade	Aerial Ace	Protect	Pressure	0/255/0/255/0/0	
+e	780	Zapdos	3	Docile	Leftovers	Thunderbolt	Drill Peck	Thunder Wave	Substitute	Pressure	0/170/0/170/0/170	
+e	781	Moltres	3	Modest	Chesto Berry	Fire Blast	Sunny Day	Double Team	Rest	Pressure	0/0/0/255/0/255	
+e	782	Raikou	3	Modest	King's Rock	Thunderbolt	Thunder Wave	Quick Attack	Roar	Pressure	0/0/0/255/0/255	
+e	783	Entei	3	Docile	Lum Berry	Flamethrower	Double-Edge	Swagger	Psych Up	Pressure	0/255/0/0/0/255	
+e	784	Suicune	3	Modest	Lum Berry	Surf	Ice Beam	Rain Dance	Roar	Pressure	0/0/0/255/0/255	
+e	785	Regirock	3	Adamant	Chesto Berry	Rock Slide	Earthquake	Curse	Rest	Clear Body	255/0/0/0/255/0	
+e	786	Regice	3	Quiet	Lum Berry	Ice Beam	Thunderbolt	Thunder Wave	Explosion	Clear Body	255/0/0/255/0/0	
+e	787	Registeel	3	Adamant	Quick Claw	AncientPower	Amnesia	Counter	Explosion	Clear Body	170/0/170/0/170/0	
+e	788	Latias	3	Docile	Focus Band	Dragon Claw	Thunderbolt	Ice Beam	Earthquake	Levitate	0/255/0/255/0/0	
+e	789	Latios	3	Docile	Focus Band	Dragon Claw	Thunderbolt	Ice Beam	Earthquake	Levitate	0/255/0/255/0/0	
+e	790	Articuno	4	Docile	Chesto Berry	Blizzard	Double-Edge	Rest	Reflect	Pressure	0/255/0/255/0/0	
+e	791	Zapdos	4	Docile	Shell Bell	Thunderbolt	Drill Peck	Thunder Wave	Light Screen	Pressure	0/255/0/255/0/0	
+e	792	Moltres	4	Quiet	White Herb	Overheat	Double-Edge	Steel Wing	Safeguard	Pressure	0/255/0/255/0/0	
+e	793	Raikou	4	Modest	Lum Berry	Thunderbolt	Bite	Thunder Wave	Reflect	Pressure	0/0/0/255/0/255	
+e	794	Entei	4	Modest	King's Rock	Flamethrower	Bite	Double Team	Reflect	Pressure	0/0/0/255/0/255	
+e	795	Suicune	4	Modest	BrightPowder	Surf	Ice Beam	Bite	Reflect	Pressure	0/0/0/255/0/255	
+e	796	Regirock	4	Careful	Leftovers	Rock Slide	Brick Break	Double Team	Thunder Wave	Clear Body	170/170/0/0/170/0	
+e	797	Regice	4	Bold	Leftovers	Ice Beam	Hail	Double Team	Thunder Wave	Clear Body	255/0/255/0/0/0	
+e	798	Registeel	4	Impish	Leftovers	AncientPower	Earthquake	Double Team	Thunder Wave	Clear Body	170/0/170/0/170/0	
+e	799	Latias	4	Docile	Leftovers	Mist Ball	Shadow Ball	Charm	Reflect	Levitate	170/170/0/170/0/0	
+e	800	Latios	4	Modest	Lum Berry	Luster Purge	Thunderbolt	Ice Beam	Dragon Claw	Levitate	255/0/0/255/0/0	
+e	801	Gengar	5	Modest	BrightPowder	Psychic	Shadow Ball	Thunderbolt	Fire Punch	Levitate	0/0/0/255/0/255	
+e	802	Gengar	6	Modest	BrightPowder	Psychic	Shadow Ball	Thunderbolt	Ice Punch	Levitate	0/0/0/255/0/255	
+e	803	Gengar	7	Modest	Lum Berry	Psychic	Thunderbolt	Fire Punch	Destiny Bond	Levitate	0/0/0/255/0/255	
+e	804	Gengar	8	Modest	Lum Berry	Psychic	Thunderbolt	Ice Punch	Destiny Bond	Levitate	0/0/0/255/0/255	
+e	805	Ursaring	5	Adamant	Choice Band	Mega Kick	Aerial Ace	Rock Slide	Brick Break	Guts	255/255/0/0/0/0	
+e	806	Ursaring	6	Adamant	Focus Band	Hyper Beam	Yawn	Swords Dance	Double Team	Guts	255/255/0/0/0/0	
+e	807	Ursaring	7	Docile	Quick Claw	Facade	Earthquake	Crunch	Bulk Up	Guts	170/170/0/170/0/0	
+e	808	Ursaring	8	Docile	Quick Claw	Facade	Earthquake	Crunch	Brick Break	Guts	170/170/0/170/0/0	
+e	809	Machamp	5	Adamant	Scope Lens	Cross Chop	Double-Edge	Earthquake	Rock Slide	Guts	255/255/0/0/0/0	
+e	810	Machamp	6	Adamant	Focus Band	Cross Chop	Earthquake	Counter	Rock Tomb	Guts	255/255/0/0/0/0	
+e	811	Machamp	7	Adamant	BrightPowder	Focus Punch	Substitute	Attract	Double Team	Guts	255/255/0/0/0/0	
+e	812	Machamp	8	Adamant	Focus Band	Revenge	Rock Slide	Facade	Counter	Guts	255/255/0/0/0/0	
+e	813	Gardevoir	5	Docile	Salac Berry	Psychic	Shadow Ball	Endure	Destiny Bond	Synchronize / Trace	170/0/170/0/0/170	
+e	814	Gardevoir	6	Timid	Lum Berry	Psychic	Thunderbolt	Will-O-Wisp	Destiny Bond	Synchronize / Trace	255/0/0/0/0/255	
+e	815	Gardevoir	7	Bold	Quick Claw	Psychic	Calm Mind	Will-O-Wisp	Destiny Bond	Synchronize / Trace	170/0/170/0/170/0	
+e	816	Gardevoir	8	Modest	BrightPowder	Psychic	Magical Leaf	Attract	Double Team	Synchronize / Trace	0/0/0/255/0/255	
+e	817	Starmie	5	Modest	Lum Berry	Surf	Psychic	Recover	Light Screen	Illuminate / Natural Cure	0/0/0/255/0/255	
+e	818	Starmie	6	Calm	Leftovers	Surf	Confuse Ray	Thunder Wave	Recover	Illuminate / Natural Cure	170/0/170/0/170/0	
+e	819	Starmie	7	Modest	BrightPowder	Psychic	Ice Beam	Cosmic Power	Recover	Illuminate / Natural Cure	0/0/0/255/0/255	
+e	820	Starmie	8	Modest	BrightPowder	Surf	Thunderbolt	Cosmic Power	Recover	Illuminate / Natural Cure	0/0/0/255/0/255	
+e	821	Lapras	5	Docile	Shell Bell	Psychic	Thunderbolt	Iron Tail	Double-Edge	Water Absorb / Shell Armor	0/255/0/255/0/0	
+e	822	Lapras	6	Modest	BrightPowder	Hydro Pump	Thunder	Rain Dance	Blizzard	Water Absorb / Shell Armor	255/0/0/255/0/0	
+e	823	Lapras	7	Calm	Leppa Berry	Sheer Cold	Horn Drill	Rest	Sleep Talk	Water Absorb / Shell Armor	170/0/170/0/170/0	
+e	824	Lapras	8	Calm	Quick Claw	Sheer Cold	Horn Drill	Sing	Attract	Water Absorb / Shell Armor	170/0/170/0/170/0	
+e	825	Snorlax	5	Adamant	Quick Claw	Mega Kick	Shadow Ball	Brick Break	Counter	Immunity / Thick Fat	0/255/255/0/0/0	
+e	826	Snorlax	6	Adamant	Leftovers	Earthquake	Shadow Ball	Brick Break	Counter	Immunity / Thick Fat	0/255/255/0/0/0	
+e	827	Snorlax	7	Adamant	Quick Claw	Hyper Beam	Shadow Ball	Earthquake	Curse	Immunity / Thick Fat	170/0/170/0/170/0	
+e	828	Snorlax	8	Adamant	Chesto Berry	Return	Shadow Ball	Belly Drum	Rest	Immunity / Thick Fat	170/0/170/0/170/0	
+e	829	Salamence	5	Adamant	BrightPowder	Facade	Earthquake	Rock Slide	Dragon Dance	Intimidate	170/0/170/0/170/0	
+e	830	Salamence	6	Hardy	Lum Berry	Headbutt	Aerial Ace	Crunch	Dragon Dance	Intimidate	170/0/170/0/170/0	
+e	831	Salamence	7	Modest	Lum Berry	Flamethrower	Dragon Claw	Crunch	Brick Break	Intimidate	0/0/0/255/0/255	
+e	832	Salamence	8	Modest	Leftovers	Flamethrower	Dragon Claw	Crunch	Attract	Intimidate	0/0/0/255/0/255	
+e	833	Metagross	5	Jolly	Quick Claw	Explosion	Earthquake	Rock Slide	Brick Break	Clear Body	170/170/0/0/0/170	
+e	834	Metagross	6	Hardy	BrightPowder	Meteor Mash	Psychic	Ice Punch	ThunderPunch	Clear Body	0/255/0/255/0/0	
+e	835	Metagross	7	Hardy	Shell Bell	Earthquake	Shadow Ball	Ice Punch	ThunderPunch	Clear Body	0/255/0/255/0/0	
+e	836	Metagross	8	Adamant	Quick Claw	Meteor Mash	Earthquake	Brick Break	Explosion	Clear Body	170/170/0/0/0/170	
+e	837	Regirock	5	Adamant	Quick Claw	Hyper Beam	Focus Punch	Rock Slide	Double Team	Clear Body	255/255/0/0/0/0	
+e	838	Regirock	6	Adamant	BrightPowder	Swagger	Psych Up	Rock Slide	Explosion	Clear Body	255/0/0/0/255/0	
+e	839	Regice	5	Brave	Leftovers	Earthquake	Ice Beam	Curse	Counter	Clear Body	170/0/170/170/0/0	
+e	840	Regice	6	Modest	Chesto Berry	Ice Beam	Thunderbolt	Sleep Talk	Rest	Clear Body	255/0/0/255/0/0	
+e	841	Registeel	5	Adamant	Leftovers	Focus Punch	Substitute	Toxic	Double Team	Clear Body	170/0/170/0/170/0	
+e	842	Registeel	6	Adamant	White Herb	Superpower	Aerial Ace	Swagger	Psych Up	Clear Body	170/0/170/0/170/0	
+e	843	Latias	5	Modest	BrightPowder	Dragon Claw	Thunder Wave	Calm Mind	Recover	Levitate	170/0/170/0/170/0	
+e	844	Latias	6	Modest	Shell Bell	Mist Ball	Dragon Claw	Attract	Thunder Wave	Levitate	255/0/0/255/0/0	
+e	845	Latias	7	Adamant	Leftovers	Earthquake	Shadow Ball	Swagger	Psych Up	Levitate	255/0/255/0/0/0	
+e	846	Latias	8	Docile	King's Rock	Psychic	Shadow Ball	Earthquake	Aerial Ace	Levitate	0/170/0/170/0/170	
+e	847	Latios	5	Modest	BrightPowder	Dragon Claw	Thunder Wave	Calm Mind	Recover	Levitate	170/0/170/0/170/0	
+e	848	Latios	6	Docile	Shell Bell	Luster Purge	Shadow Ball	Dragon Claw	Thunder Wave	Levitate	0/255/0/255/0/0	
+e	849	Latios	7	Adamant	BrightPowder	Earthquake	Shadow Ball	Dragon Dance	Recover	Levitate	255/0/255/0/0/0	
+e	850	Latios	8	Docile	King's Rock	Psychic	Shadow Ball	Earthquake	Aerial Ace	Levitate	0/170/0/170/0/170	
+e	851	Dragonite	1	Adamant	BrightPowder	Earthquake	Aerial Ace	Brick Break	Dragon Dance	Inner Focus	170/0/170/0/170/0	
+e	852	Dragonite	2	Adamant	BrightPowder	Earthquake	Double-Edge	Aerial Ace	Dragon Dance	Inner Focus	170/0/170/0/170/0	
+e	853	Dragonite	3	Adamant	Leftovers	Hyper Beam	Attract	Double Team	Thunder Wave	Inner Focus	0/170/170/0/170/0	
+e	854	Dragonite	4	Adamant	Chesto Berry	Hyper Beam	Thunder Wave	Dragon Dance	Rest	Inner Focus	170/0/170/0/170/0	
+e	855	Dragonite	5	Docile	Lum Berry	Outrage	Double-Edge	Thunder Wave	Roar	Inner Focus	0/255/0/255/0/0	
+e	856	Dragonite	6	Modest	Shell Bell	Dragon Claw	Thunderbolt	Surf	Flamethrower	Inner Focus	0/0/0/255/0/255	
+e	857	Dragonite	7	Modest	Shell Bell	Dragon Claw	Thunderbolt	Surf	Ice Beam	Inner Focus	0/0/0/255/0/255	
+e	858	Dragonite	8	Modest	Shell Bell	Dragon Claw	Flamethrower	Ice Beam	Brick Break	Inner Focus	0/0/0/255/0/255	
+e	859	Dragonite	9	Docile	Quick Claw	Thunder	Surf	Rain Dance	Earthquake	Inner Focus	255/0/0/255/0/0	
+e	860	Dragonite	10	Docile	Quick Claw	Fire Blast	Blizzard	Sunny Day	Earthquake	Inner Focus	255/0/0/255/0/0	
+e	861	Tyranitar	1	Hardy	BrightPowder	Earthquake	Aerial Ace	Thunderbolt	Surf	Sand Stream	0/255/0/255/0/0	
+e	862	Tyranitar	2	Hardy	BrightPowder	Earthquake	Rock Slide	Crunch	Thunderbolt	Sand Stream	0/255/0/255/0/0	
+e	863	Tyranitar	3	Adamant	Focus Band	Earthquake	Rock Slide	Counter	Dragon Dance	Sand Stream	170/0/170/0/170/0	
+e	864	Tyranitar	4	Modest	Quick Claw	Crunch	Ice Beam	Thunderbolt	Flamethrower	Sand Stream	255/0/0/255/0/0	
+e	865	Tyranitar	5	Adamant	Chesto Berry	Earthquake	Rock Slide	Dragon Dance	Rest	Sand Stream	170/0/170/0/170/0	
+e	866	Tyranitar	6	Adamant	Chesto Berry	Earthquake	Rock Slide	Curse	Rest	Sand Stream	170/0/170/0/170/0	
+e	867	Tyranitar	7	Adamant	Quick Claw	Rock Slide	Aerial Ace	Brick Break	Curse	Sand Stream	255/255/0/0/0/0	
+e	868	Tyranitar	8	Adamant	Lum Berry	Rock Slide	Thunder Wave	Dragon Dance	Rest	Sand Stream	170/0/170/0/170/0	
+e	869	Tyranitar	9	Hardy	Quick Claw	Crunch	Earthquake	Aerial Ace	Attract	Sand Stream	0/255/0/255/0/0	
+e	870	Tyranitar	10	Adamant	Lum Berry	Double-Edge	Earthquake	Rock Slide	Dragon Dance	Sand Stream	170/0/170/0/170/0	
+e	871	Articuno	5	Docile	Focus Band	Blizzard	Double-Edge	Agility	Swagger	Pressure	0/255/0/255/0/0	
+e	872	Articuno	6	Docile	Chesto Berry	Ice Beam	Aerial Ace	Reflect	Rest	Pressure	0/255/0/255/0/0	
+e	873	Zapdos	5	Docile	Scope Lens	Thunderbolt	Drill Peck	Double-Edge	Thunder Wave	Pressure	0/255/0/255/0/0	
+e	874	Zapdos	6	Docile	Lum Berry	Thunder	Drill Peck	Rain Dance	Double-Edge	Pressure	0/170/0/170/0/170	
+e	875	Moltres	5	Docile	White Herb	Overheat	Sunny Day	Swagger	Facade	Pressure	0/0/0/255/0/255	
+e	876	Moltres	6	Docile	White Herb	Overheat	Double-Edge	Aerial Ace	Steel Wing	Pressure	0/255/0/255/0/0	
+e	877	Raikou	5	Modest	BrightPowder	Thunderbolt	Double-Edge	Roar	Reflect	Pressure	0/0/0/255/0/255	
+e	878	Raikou	6	Modest	Chesto Berry	Thunderbolt	Calm Mind	Substitute	Rest	Pressure	255/0/255/0/0/0	
+e	879	Entei	5	Docile	Salac Berry	Fire Blast	Double-Edge	Endure	Reflect	Pressure	0/0/255/0/255/0	
+e	880	Entei	6	Modest	Chesto Berry	Flamethrower	Calm Mind	Roar	Rest	Pressure	0/0/255/0/255/0	
+e	881	Suicune	5	Modest	Lum Berry	Surf	Ice Beam	Calm Mind	Icy Wind	Pressure	255/0/0/255/0/0	
+e	882	Suicune	6	Modest	Chesto Berry	Surf	Ice Beam	Calm Mind	Rest	Pressure	170/0/170/0/170/0	
+e	Anabel Silver	Alakazam		Modest	BrightPowder	ThunderPunch	Fire Punch	Ice Punch	Disable	Synchronize / Inner Focus	106/0/152/100/0/152	24
+e	Anabel Silver	Entei		Lonely	Lum Berry	Fire Blast	Calm Mind	Return	Roar	Pressure	100/152/152/100/6/0	24
+e	Anabel Silver	Snorlax		Adamant	Quick Claw	Body Slam	Belly Drum	Yawn	Shadow Ball	Immunity / Thick Fat	152/152/0/106/100/0	24
+e	Anabel Gold	Raikou		Modest	Lum Berry	Thunderbolt	Calm Mind	Reflect	Rest	Pressure	158/0/252/0/0/100	31
+e	Anabel Gold	Latios		Modest	BrightPowder	Psychic	Calm Mind	Recover	Dragon Claw	Levitate	252/0/252/0/0/6	31
+e	Anabel Gold	Snorlax		Adamant	Chesto Berry	Curse	Return	Rest	Shadow Ball	Immunity / Thick Fat	252/252/0/6/0/0	31
+e	Tucker Silver	Swampert		Brave	Focus Band	Surf	Earthquake	Ice Beam	Counter	Intimidate	152/152/106/100/0/0	20
+e	Tucker Silver	Salamence		Adamant	Lum Berry	Earthquake	Brick Break	Dragon Claw	Aerial Ace	Blaze	152/152/106/0/0/100	20
+e	Tucker Silver	Charizard		Quiet	White Herb	Overheat	Rock Slide	Aerial Ace	Earthquake	Torrent	100/152/106/0/0/152	20
+e	Tucker Gold	Swampert		Brave	Leftovers	Surf	Earthquake	Ice Beam	Mirror Coat	Torrent	252/252/6/0/0/0	31
+e	Tucker Gold	Metagross		Brave	Quick Claw	Psychic	Meteor Mash	Earthquake	Protect	Clear Body	252/252/6/0/0/0	31
+e	Tucker Gold	Latias		Modest	Chesto Berry	Thunderbolt	Psychic	Calm Mind	Rest	Levitate	252/0/252/0/0/6	31
+e	Spenser Silver	Crobat		Adamant	BrightPowder	Confuse Ray	Double Team	Toxic	Fly	Inner Focus	152/0/0/100/106/152	16
+e	Spenser Silver	Slaking		Hardy	Scope Lens	Earthquake	Swagger	Shadow Ball	Brick Break	Truant	152/152/0/100/0/106	16
+e	Spenser Silver	Lapras		Quiet	Quick Claw	Ice Beam	Horn Drill	Confuse Ray	Protect	Water Absorb / Shell Armor	0/0/252/106/152/0	16
+e	Spenser Gold	Arcanine		Hasty	White Herb	Overheat	ExtremeSpeed	Roar	Protect	Flash Fire / Intimidate	6/252/252/0/0/0	31
+e	Spenser Gold	Slaking		Hardy	Scope Lens	Hyper Beam	Earthquake	Shadow Ball	Yawn	Truant	6/252/0/0/0/252	31
+e	Spenser Gold	Suicune		Hasty	King's Rock	Blizzard	Surf	Bite	Calm Mind	Pressure	252/0/252/0/0/6	31
+e	Greta Silver	Heracross		Jolly	Salac Berry	Megahorn	Rock Tomb	Endure	Reversal	Guts / Swarm	106/152/0/0/100/152	20
+e	Greta Silver	Umbreon		Calm	Leftovers	Body Slam	Confuse Ray	Psychic	Faint Attack	Synchronize	152/0/100/152/106/0	20
+e	Greta Silver	Shedinja		Adamant	BrightPowder	Shadow Ball	Return	Confuse Ray	Aerial Ace	Wonder Guard	0/252/6/0/0/252	20
+e	Greta Gold	Umbreon		Calm	Chesto Berry	Double-Edge	Confuse Ray	Rest	Psychic	Synchronize	252/0/0/252/6/0	31
+e	Greta Gold	Gengar		Modest	Leftovers	Psychic	Hypnosis	Dream Eater	Destiny Bond	Levitate	252/0/252/6/0/0	31
+e	Greta Gold	Breloom		Jolly	Lum Berry	Spore	Focus Punch	Giga Drain	Headbutt	Effect Spore	6/252/0/0/0/252	31
+e	Noland Silver†	Metang		Brave	Sitrus Berry	Light Screen	Psychic	Reflect	Metal Claw	Clear Body	0/252/252/6/0/0	31
+e	Noland Silver†	Skarmory		Impish	Sitrus Berry	Toxic	Aerial Ace	Protect	Steel Wing	Keen Eye / Sturdy	252/0/0/6/252/0	31
+e	Noland Silver†	Aggron		Adamant	Sitrus Berry	Thunderbolt	Protect	SolarBeam	Dragon Claw	Sturdy / Rock Head	0/252/0/252/6/0	31
+e	Noland Gold†	Metang		Brave	Sitrus Berry	Light Screen	Psychic	Reflect	Metal Claw	Clear Body	0/252/252/6/0/0	31
+e	Noland Gold†	Skarmory		Impish	Sitrus Berry	Toxic	Aerial Ace	Protect	Steel Wing	Keen Eye / Sturdy	252/0/0/6/252/0	31
+e	Noland Gold†	Aggron		Adamant	Sitrus Berry	Thunderbolt	Protect	SolarBeam	Dragon Claw	Sturdy / Rock Head	0/252/0/252/6/0	31
+e	Lucy Silver	Seviper		Brave	Quick Claw	Swagger	Crunch	Poison Fang	Giga Drain	Shed Skin	252/0/252/6/0/0	16
+e	Lucy Silver	Shuckle		Bold	Chesto Berry	Toxic	Sandstorm	Protect	Rest	Sturdy	252/0/0/106/252/0	16
+e	Lucy Silver	Milotic		Modest	Leftovers	Ice Beam	Mirror Coat	Surf	Recover	Marvel Scale	152/0/100/152/106/0	16
+e	Lucy Gold	Seviper		Bold	Focus Band	Swagger	Crunch	Sludge Bomb	Giga Drain	Shed Skin	252/0/0/252/6/0	31
+e	Lucy Gold	Steelix		Brave	BrightPowder	Earthquake	Rock Slide	Explosion	Screech	Sturdy / Rock Head	252/0/0/6/252/0	31
+e	Lucy Gold	Gyarados		Adamant	Chesto Berry	Dragon Dance	Return	Roar	Rest	Intimidate	252/6/0/0/252/0	31
+e	Brandon Silver	Regirock		Adamant	Quick Claw	Explosion	Superpower	Earthquake	AncientPower	Clear Body	152/152/0/106/100/0	16
+e	Brandon Silver	Registeel		Adamant	Leftovers	Earthquake	Metal Claw	Toxic	Iron Defense	Clear Body	152/152/0/6/200/0	16
+e	Brandon Silver	Regice		Modest	Chesto Berry	Ice Beam	Amnesia	Thunder	Rest	Clear Body	106/0/152/100/152/0	16
+e	Brandon Gold	Articuno		Mild	Scope Lens	Blizzard	Water Pulse	Aerial Ace	Reflect	Pressure	6/0/252/0/0/252	31
+e	Brandon Gold	Zapdos		Mild	Lum Berry	Thunder	Detect	Drill Peck	Light Screen	Pressure	6/0/252/0/0/252	31
+e	Brandon Gold	Moltres		Mild	BrightPowder	Fire Blast	Hyper Beam	Aerial Ace	Safeguard	Pressure	6/0/252/0/0/252	31

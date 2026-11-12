@@ -1,0 +1,1962 @@
+ptgs	001	Youngster	Jim		
+ptgs	002	Youngster	Erroll		
+ptgs	003	Youngster	Casimir		
+ptgs	004	Lass	Cameron		
+ptgs	005	Lass	Peaches		
+ptgs	006	Lass	Yasmin		
+ptgs	007	School Kid ♂	Foster		
+ptgs	008	School Kid ♂	Ken		
+ptgs	009	School Kid ♂	Owen		
+ptgs	010	School Kid ♀	Marcy		
+ptgs	011	School Kid ♀	Shelly		
+ptgs	012	School Kid ♀	Aspen		
+ptgs	013	Rich Boy	Matt		
+ptgs	014	Rich Boy	Alvan		
+ptgs	015	Rich Boy	Asa		
+ptgs	016	Lady	Isabel		
+ptgs	017	Lady	Nichole		
+ptgs	018	Lady	Juanita		
+ptgs	019	Camper	Bernard		
+ptgs	020	Camper	Herbert		
+ptgs	021	Camper	Colbert		
+ptgs	022	Picnicker	Maggie		
+ptgs	023	Picnicker	Melanie		
+ptgs	024	Picnicker	Ann		
+ptgs	025	Tuber ♂	Manford		
+ptgs	026	Tuber ♂	Hank		
+ptgs	027	Tuber ♂	Percy		
+ptgs	028	Tuber ♀	Dakota		
+ptgs	029	Tuber ♀	Jenny		
+ptgs	030	Tuber ♀	Tia		
+ptgs	031	Guitarist	Malcolm		
+ptgs	032	Guitarist	Tad		
+ptgs	033	Guitarist	Concord		
+ptgs	034	Idol	Penny		
+ptgs	035	Idol	Lana		
+ptgs	036	Idol	Crimson		
+ptgs	037	Pokéfan ♂	Ewan		
+ptgs	038	Pokéfan ♂	Kane		
+ptgs	039	Pokéfan ♂	Theo		
+ptgs	040	Pokéfan ♀	Alexia		
+ptgs	041	Pokéfan ♀	Luna		
+ptgs	042	Pokéfan ♀	Celene		
+ptgs	043	Waiter	Cyan		
+ptgs	044	Waiter	Indigo		
+ptgs	045	Waiter	Orin		
+ptgs	046	Waitress	Ashley		
+ptgs	047	Waitress	Noelle		
+ptgs	048	Waitress	Kandace		
+ptgs	049	Bug Catcher	Floyd		
+ptgs	050	Bug Catcher	Hoffman		
+ptgs	051	Bug Catcher	Amadeus		
+ptgs	052	Ninja Boy	Shia		
+ptgs	053	Ninja Boy	Vincent		
+ptgs	054	Ninja Boy	Pierre		
+ptgs	055	Poké Kid	Alice		
+ptgs	056	Poké Kid	Anita		
+ptgs	057	Poké Kid	Allison		
+ptgs	058	Fisherman	Kiefer		
+ptgs	059	Fisherman	Basil		
+ptgs	060	Ruin Maniac	Henrik		
+ptgs	061	Ruin Maniac	Aubry		
+ptgs	062	Collector	Upton		
+ptgs	063	Collector	Emil		
+ptgs	064	Parasol Lady	Bridget		
+ptgs	065	Parasol Lady	Blanche		
+ptgs	066	Parasol Lady	Colette		
+ptgs	067	Beauty	Tiffany		
+ptgs	068	Beauty	Britney		
+ptgs	069	Beauty	Harmony		
+ptgs	070	Aroma Lady	Lucy		
+ptgs	071	Aroma Lady	Jackie		
+ptgs	072	Aroma Lady	Kara		
+ptgs	073	Guitarist	Bernie		
+ptgs	074	Guitarist	Curtis		
+ptgs	075	Bird Keeper	Nancy		
+ptgs	076	Bird Keeper	Trinity		
+ptgs	077	Bird Keeper	Shawna		
+ptgs	078	Sailor	Layton		
+ptgs	079	Sailor	Godwin		
+ptgs	080	Hiker	Everett		
+ptgs	081	Hiker	Raiden		
+ptgs	082	Idol	Ada		
+ptgs	083	Idol	Annie		
+ptgs	084	Idol	Basia		
+ptgs	085	Jogger	Steve		
+ptgs	086	Jogger	Dave		
+ptgs	087	Worker	Shane		
+ptgs	088	Worker	Benji		
+ptgs	089	Rancher	Pierce		
+ptgs	090	Rancher	Etienne		
+ptgs	091	Rancher	Leon		
+ptgs	092	Cowgirl	Doris		
+ptgs	093	Cowgirl	Paisley		
+ptgs	094	Cowgirl	Leslie		
+ptgs	095	Cameraman	Hudson		
+ptgs	096	Cameraman	Xenon		
+ptgs	097	Cameraman	Amleth		
+ptgs	098	Reporter	Dot		
+ptgs	099	Reporter	Marble		
+ptgs	100	Reporter	Gingham		
+ptgs	101	Cyclist ♂	Gaspar		
+ptgs	102	Cyclist ♂	Ignatio		
+ptgs	103	Cyclist ♀	Kaylene		
+ptgs	104	Cyclist ♀	Kaya		
+ptgs	105	Black Belt	Clement		
+ptgs	106	Black Belt	Mason		
+ptgs	107	Battle Girl	Kodi		
+ptgs	108	Battle Girl	Aileen		
+ptgs	109	Black Belt	Jericho		
+ptgs	110	Black Belt	Harris		
+ptgs	111	Black Belt	Soren		
+ptgs	112	Battle Girl	Trina		
+ptgs	113	Battle Girl	Alta		
+ptgs	114	Battle Girl	Ingrid		
+ptgs	115	Veteran	Beck		
+ptgs	116	Veteran	Eric		
+ptgs	117	Veteran	Padgett		
+ptgs	118	Socialite	Barbara		
+ptgs	119	Socialite	Isabel		
+ptgs	120	Socialite	Carmen		
+ptgs	121	Psychic ♂	Alpha		
+ptgs	122	Psychic ♂	Beta		
+ptgs	123	Psychic ♂	Essie		
+ptgs	124	Psychic ♀	Amelia		
+ptgs	125	Psychic ♀	Celine		
+ptgs	126	Psychic ♀	Jillian		
+ptgs	127	Pokémon Breeder ♂	Howard		
+ptgs	128	Pokémon Breeder ♂	Derrell		
+ptgs	129	Pokémon Breeder ♂	Baldwin		
+ptgs	130	Pokémon Breeder ♀	Adriana		
+ptgs	131	Pokémon Breeder ♀	Sonya		
+ptgs	132	Pokémon Breeder ♀	Tatyana		
+ptgs	133	Gentleman	Zante		
+ptgs	134	Gentleman	Giliam		
+ptgs	135	Roughneck	Rodney		
+ptgs	136	Roughneck	Rainier		
+ptgs	137	Scientist	Jean		
+ptgs	138	Scientist	Brad		
+ptgs	139	Clown	Francis		
+ptgs	140	Clown	Prescot		
+ptgs	141	Ace Trainer ♂	Yardley		
+ptgs	142	Ace Trainer ♂	Stavros		
+ptgs	143	Ace Trainer ♂	Zane		
+ptgs	144	Ace Trainer ♀	Kim		
+ptgs	145	Ace Trainer ♀	Macy		
+ptgs	146	Ace Trainer ♀	Faun		
+ptgs	147	Pokémon Ranger ♂	Doyle		
+ptgs	148	Pokémon Ranger ♂	Duke		
+ptgs	149	Pokémon Ranger ♂	Deacon		
+ptgs	150	Pokémon Ranger ♀	Mena		
+ptgs	151	Pokémon Ranger ♀	Mercy		
+ptgs	152	Pokémon Ranger ♀	Evita		
+ptgs	153	Dragon Tamer	Harold		
+ptgs	154	Dragon Tamer	Herman		
+ptgs	155	Dragon Tamer	Emmett		
+ptgs	156	Dragon Tamer	Erich		
+ptgs	157	Ace Trainer ♂	Garvey		
+ptgs	158	Ace Trainer ♂	Cruz		
+ptgs	159	Ace Trainer ♀	Pamela		
+ptgs	160	Ace Trainer ♀	Daniela		
+ptgs	161	Youngster	Kaden		
+ptgs	162	Youngster	Kolby		
+ptgs	163	Lass	Karissa		
+ptgs	164	Lass	Liliana		
+ptgs	165	School Kid ♂	Jonas		
+ptgs	166	School Kid ♂	Keon		
+ptgs	167	School Kid ♀	Chelsie		
+ptgs	168	School Kid ♀	Regina		
+ptgs	169	Rich Boy	Daulton		
+ptgs	170	Rich Boy	Hanson		
+ptgs	171	Lady	Amory		
+ptgs	172	Lady	Juliana		
+ptgs	173	Bug Catcher	Camui		
+ptgs	174	Bug Catcher	Orlando		
+ptgs	175	Ninja Boy	Zack		
+ptgs	176	Ninja Boy	Vance		
+ptgs	177	Poké Kid	Kyla		
+ptgs	178	Poké Kid	Ruby		
+ptgs	179	Idol	Kiley		
+ptgs	180	Idol	Utah		
+ptgs	181	Jogger	Colt		
+ptgs	182	Jogger	Tory		
+ptgs	183	Fisherman	Farley		
+ptgs	184	Fisherman	Mark		
+ptgs	185	Ruin Maniac	Samuel		
+ptgs	186	Ruin Maniac	Penn		
+ptgs	187	Collector	Marquez		
+ptgs	188	Collector	Arnold		
+ptgs	189	Guitarist	Fred		
+ptgs	190	Guitarist	Chase		
+ptgs	191	Bird Keeper	McKenna		
+ptgs	192	Bird Keeper	Sally		
+ptgs	193	Sailor	Casper		
+ptgs	194	Sailor	Derrian		
+ptgs	195	Hiker	Monty		
+ptgs	196	Hiker	Rocky		
+ptgs	197	Policeman	Reggie		
+ptgs	198	Policeman	Quincy		
+ptgs	199	PI	Neil		
+ptgs	200	PI	Sergei		
+ptgs	201	Camper	Freddy		
+ptgs	202	Camper	Andre		
+ptgs	203	Picnicker	Inga		
+ptgs	204	Picnicker	Tonya		
+ptgs	205	Guitarist	Tobias		
+ptgs	206	Guitarist	Cecil		
+ptgs	207	Idol	Maranda		
+ptgs	208	Idol	Helene		
+ptgs	209	Pokéfan ♂	Simon		
+ptgs	210	Pokéfan ♂	Turner		
+ptgs	211	Pokéfan ♀	Europa		
+ptgs	212	Pokéfan ♀	Pandora		
+ptgs	213	Rancher	Vern		
+ptgs	214	Rancher	Boris		
+ptgs	215	Cowgirl	Carly		
+ptgs	216	Cowgirl	Ginger		
+ptgs	217	Pokémon Breeder ♂	Peter		
+ptgs	218	Pokémon Breeder ♂	Tyron		
+ptgs	219	Pokémon Breeder ♀	Zorya		
+ptgs	220	Pokémon Breeder ♀	Antonia		
+ptgs	221	Ace Trainer ♂	Sawyer		
+ptgs	222	Ace Trainer ♂	Charlie		
+ptgs	223	Ace Trainer ♀	Chloe		
+ptgs	224	Ace Trainer ♀	Daphne		
+ptgs	225	Ace Trainer ♂	Thad		
+ptgs	226	Ace Trainer ♂	Lew		
+ptgs	227	Ace Trainer ♀	Opal		
+ptgs	228	Ace Trainer ♀	Leda		
+ptgs	229	Pokémon Ranger ♂	Geoff		
+ptgs	230	Pokémon Ranger ♂	Gunther		
+ptgs	231	Pokémon Ranger ♀	Alma		
+ptgs	232	Pokémon Ranger ♀	Elise		
+ptgs	233	Dragon Tamer	Harvey		
+ptgs	234	Dragon Tamer	Nicolas		
+ptgs	235	Black Belt	Fergus		
+ptgs	236	Black Belt	Ronni		
+ptgs	237	Battle Girl	Eve		
+ptgs	238	Battle Girl	Mariane		
+ptgs	239	Veteran	Costin		
+ptgs	240	Veteran	Alfred		
+ptgs	241	Socialite	Rioha		
+ptgs	242	Socialite	Janice		
+ptgs	243	Psychic ♂	Denver		
+ptgs	244	Psychic ♂	Berkley		
+ptgs	245	Psychic ♀	Irene		
+ptgs	246	Psychic ♀	Sylvie		
+ptgs	247	Waiter	Xander		
+ptgs	248	Waiter	Warren		
+ptgs	249	Waitress	Leslie		
+ptgs	250	Waitress	Kathy		
+ptgs	251	Cameraman	Darren		
+ptgs	252	Cameraman	Skip		
+ptgs	253	Reporter	Katie		
+ptgs	254	Reporter	Elaine		
+ptgs	255	Cyclist ♂	Clive		
+ptgs	256	Cyclist ♂	Ward		
+ptgs	257	Cyclist ♀	Hilda		
+ptgs	258	Cyclist ♀	Vanita		
+ptgs	259	PI	Ralph		
+ptgs	260	PI	Conway		
+ptgs	261	Idol	Kristi		
+ptgs	262	Idol	Trista		
+ptgs	263	Jogger	Austin		
+ptgs	264	Jogger	Dimitri		
+ptgs	265	Fisherman	Delaney		
+ptgs	266	Fisherman	Keaton		
+ptgs	267	Sailor	Carlo		
+ptgs	268	Sailor	Horatio		
+ptgs	269	Hiker	Lyle		
+ptgs	270	Hiker	Glen		
+ptgs	271	Ruin Maniac	Isadore		
+ptgs	272	Ruin Maniac	Walton		
+ptgs	273	Guitarist	Roget		
+ptgs	274	Guitarist	Iggy		
+ptgs	275	Collector	Leroy		
+ptgs	276	Collector	Newman		
+ptgs	277	Roughneck	Ross		
+ptgs	278	Roughneck	Ron		
+ptgs	279	Scientist	Irwin		
+ptgs	280	Scientist	Flynn		
+ptgs	281	Gentleman	Joachim		
+ptgs	282	Gentleman	Karston		
+ptgs	283	Worker	Boyce		
+ptgs	284	Worker	Tyrell		
+ptgs	285	Clown	Frank		
+ptgs	286	Clown	Enzo		
+ptgs	287	Policeman	Hugh		
+ptgs	288	Policeman	Kegan		
+ptgs	289	PI	Chester		
+ptgs	290	PI	River		
+ptgs	291	Bird Keeper	Kira		
+ptgs	292	Bird Keeper	Eliza		
+ptgs	293	Parasol Lady	Angie		
+ptgs	294	Parasol Lady	Sami		
+ptgs	295	Beauty	Nadia		
+ptgs	296	Beauty	Becky		
+ptgs	297	Aroma Lady	Elisha		
+ptgs	298	Aroma Lady	Ambre		
+ptgs	299	Idol	Cocoa		
+ptgs	300	Idol	Nissa		
+rs	001	Youngster	Alvin	Lv.50 , Lv.100	6
+rs	002	Bird Keeper	Dirk	Lv.50 , Lv.100	6
+rs	003	Lady	Cybil	Lv.50 , Lv.100	6
+rs	004	Black Belt	Chen	Lv.50 , Lv.100	6
+rs	005	Ninja Boy	Yoshi	Lv.50 , Lv.100	6
+rs	006	School Kid ♀	Tina	Lv.50 , Lv.100	6
+rs	007	Bug Maniac	Corey	Lv.50 , Lv.100	6
+rs	008	Fisherman	Gordon	Lv.50 , Lv.100	6
+rs	009	Tuber ♀	Ann	Lv.50 , Lv.100	6
+rs	010	Pokéfan ♀	Julia	Lv.50 , Lv.100	6
+rs	011	Gentleman	Gregory	Lv.50 , Lv.100	6
+rs	012	Camper	Keith	Lv.50 , Lv.100	6
+rs	013	Triathlete ♀	Kendra	Lv.50 , Lv.100	6
+rs	014	Hiker	Dev	Lv.50 , Lv.100	6
+rs	015	Battle Girl	Cassie	Lv.50 , Lv.100	6
+rs	016	Psychic ♂	Julian	Lv.50 , Lv.100	6
+rs	017	Lass	Joyce	Lv.50 , Lv.100	6
+rs	018	Guitarist	Les	Lv.50 , Lv.100	6
+rs	019	Rich Boy	Clinton	Lv.50 , Lv.100	6
+rs	020	Bug Catcher	Lewis	Lv.50 , Lv.100	6
+rs	021	Picnicker	Rachael	Lv.50 , Lv.100	9
+rs	022	Collector	Harold	Lv.50 , Lv.100	9
+rs	023	Tuber ♂	Kipp	Lv.50 , Lv.100	9
+rs	024	Kindler	Irwin	Lv.50 , Lv.100	9
+rs	025	Psychic ♀	Eileen	Lv.50 , Lv.100	9
+rs	026	Swimmer ♀	Anne	Lv.50 , Lv.100	9
+rs	027	Triathlete ♀	Ruth	Lv.50 , Lv.100	9
+rs	028	PokéManiac	Jeremy	Lv.50 , Lv.100	9
+rs	029	Sailor	Trevor	Lv.50 , Lv.100	9
+rs	030	Pokémon Breeder ♀	Colette	Lv.50 , Lv.100	9
+rs	031	Hex Maniac	Paula	Lv.50 , Lv.100	12
+rs	032	Ruin Maniac	Stanly	Lv.50 , Lv.100	12
+rs	033	Triathlete ♂	Troy	Lv.50 , Lv.100	12
+rs	034	School Kid ♂	Ed	Lv.50 , Lv.100	12
+rs	035	Pokémon Ranger ♀	Ellen	Lv.50 , Lv.100	12
+rs	036	Swimmer ♂	Arnie	Lv.50 , Lv.100	12
+rs	037	Triathlete ♂	Hal	Lv.50 , Lv.100	12
+rs	038	Beauty	Lauren	Lv.50 , Lv.100	12
+rs	039	Aroma Lady	Stacy	Lv.50 , Lv.100	12
+rs	040	Collector	Daryl	Lv.50 , Lv.100	12
+rs	041	Triathlete ♀	Kathy	Lv.50 , Lv.100	15
+rs	042	Pokémon Ranger ♂	Harris	Lv.50 , Lv.100	15
+rs	043	Pokéfan ♂	Glenn	Lv.50 , Lv.100	15
+rs	044	Triathlete ♂	Nico	Lv.50 , Lv.100	15
+rs	045	Pokémon Breeder ♂	Bailey	Lv.50 , Lv.100	15
+rs	046	Parasol Lady	Abbie	Lv.50 , Lv.100	15
+rs	047	Camper	Al	Lv.50 , Lv.100	15
+rs	048	School Kid ♀	Peggy	Lv.50 , Lv.100	15
+rs	049	Beauty	Naomi	Lv.50 , Lv.100	15
+rs	050	Ninja Boy	Kenji	Lv.50 , Lv.100	15
+rs	051	Triathlete ♂	Ross	Lv.50 , Lv.100	18
+rs	052	Pokémon Ranger ♀	Edna	Lv.50 , Lv.100	18
+rs	053	Ruin Maniac	Anton	Lv.50 , Lv.100	18
+rs	054	Swimmer ♂	Mitch	Lv.50 , Lv.100	18
+rs	055	Hex Maniac	Rod	Lv.50 , Lv.100	18
+rs	056	Triathlete ♂	Rich	Lv.50 , Lv.100	18
+rs	057	Pokéfan ♂	Daniel	Lv.50 , Lv.100	18
+rs	058	Psychic ♀	Gloria	Lv.50 , Lv.100	18
+rs	059	Guitarist	Nelson	Lv.50 , Lv.100	18
+rs	060	Kindler	Ferris	Lv.50 , Lv.100	18
+rs	061	Aroma Lady	Amanda	Lv.50 , Lv.100	21
+rs	062	Triathlete ♂	Mason	Lv.50 , Lv.100	21
+rs	063	Dragon Tamer	Nate	Lv.50 , Lv.100	21
+rs	064	Lass	Miriam	Lv.50 , Lv.100	21
+rs	065	PokéManiac	Theo	Lv.50 , Lv.100	21
+rs	066	Triathlete ♀	Pamela	Lv.50 , Lv.100	21
+rs	067	Pokéfan ♀	Alissa	Lv.50 , Lv.100	21
+rs	068	Gentleman	Arthur	Lv.50 , Lv.100	21
+rs	069	Swimmer ♀	Marcy	Lv.50 , Lv.100	21
+rs	070	Cooltrainer ♂	Miller	Lv.50 , Lv.100	21
+rs	071	Bird Keeper	Oliver	Lv.50 , Lv.100	31
+rs	072	Triathlete ♀	Molly	Lv.50 , Lv.100	31
+rs	073	Bug Maniac	Jason	Lv.50 , Lv.100	31
+rs	074	Battle Girl	Ava	Lv.50 , Lv.100	31
+rs	075	Fisherman	Hank	Lv.50 , Lv.100	31
+rs	076	Sailor	Peter	Lv.50 , Lv.100	31
+rs	077	Expert ♀	Mindy	Lv.50 , Lv.100	31
+rs	078	Bug Maniac	Dwight	Lv.50 , Lv.100	31
+rs	079	Pokémon Breeder ♀	Reena	Lv.50 , Lv.100	31
+rs	080	Parasol Lady	Megan	Lv.50 , Lv.100	31
+rs	081	Triathlete ♀	Sierra	Lv.50 , Lv.100	31
+rs	082	Pokémon Ranger ♂	Arnold	Lv.50 , Lv.100	31
+rs	083	Black Belt	Xin	Lv.50 , Lv.100	31
+rs	084	Cooltrainer ♀	Kelly	Lv.50 , Lv.100	31
+rs	085	Collector	Vance	Lv.50 , Lv.100	31
+rs	086	Triathlete ♂	Toby	Lv.50 , Lv.100	31
+rs	087	Gentleman	Norton	Lv.50 , Lv.100	31
+rs	088	Battle Girl	Zoe	Lv.50 , Lv.100	31
+rs	089	Beauty	Emma	Lv.50 , Lv.100	31
+rs	090	Hiker	Vince	Lv.50 , Lv.100	31
+rs	091	Expert ♂	Marv	Lv.50 , Lv.100	31
+rs	092	Pokémon Breeder ♂	Todd	Lv.50 , Lv.100	31
+rs	093	Guitarist	Gavin	Lv.50 , Lv.100	31
+rs	094	Psychic ♂	Quinn	Lv.50 , Lv.100	31
+rs	095	Cooltrainer ♀	Jenn	Lv.50 , Lv.100	31
+rs	096	Expert ♂	Joel	Lv.50 , Lv.100	31
+rs	097	Dragon Tamer	Kyle	Lv.50 , Lv.100	31
+rs	098	Cooltrainer ♂	Bret	Lv.50 , Lv.100	31
+rs	099	Expert ♀	Carrie	Lv.50 , Lv.100	31
+rs	100	Lady	Gillian	Lv.50 , Lv.100	31
+e	001	Youngster	Brady		
+e	002	Youngster	Conner		
+e	003	Youngster	Bradley		
+e	004	Lass	Cybil		
+e	005	Lass	Rodette		
+e	006	Lass	Peggy		
+e	007	School Kid ♂	Keith		
+e	008	School Kid ♂	Grayson		
+e	009	School Kid ♂	Glenn		
+e	010	School Kid ♀	Liliana		
+e	011	School Kid ♀	Elise		
+e	012	School Kid ♀	Zoey		
+e	013	Rich Boy	Manuel		
+e	014	Rich Boy	Russ		
+e	015	Rich Boy	Dustin		
+e	016	Lady	Tina		
+e	017	Lady	Gillian		
+e	018	Lady	Zoe		
+e	019	Camper	Chen		
+e	020	Camper	Al		
+e	021	Camper	Mitch		
+e	022	Picnicker	Anne		
+e	023	Picnicker	Alize		
+e	024	Picnicker	Lauren		
+e	025	Tuber ♂	Kipp		
+e	026	Tuber ♂	Jason		
+e	027	Tuber ♂	John		
+e	028	Tuber ♀	Ann		
+e	029	Tuber ♀	Eileen		
+e	030	Tuber ♀	Carlie		
+e	031	Swimmer ♂	Gordon		
+e	032	Swimmer ♂	Ayden		
+e	033	Swimmer ♂	Marco		
+e	034	Swimmer ♀	Cierra		
+e	035	Swimmer ♀	Marcy		
+e	036	Swimmer ♀	Kathy		
+e	037	Pokéfan ♂	Peyton		
+e	038	Pokéfan ♂	Julian		
+e	039	Pokéfan ♂	Quinn		
+e	040	Pokéfan ♀	Haylee		
+e	041	Pokéfan ♀	Amanda		
+e	042	Pokéfan ♀	Stacy		
+e	043	P K M N Breeder ♂	Rafael		
+e	044	P K M N Breeder ♂	Oliver		
+e	045	P K M N Breeder ♂	Payton		
+e	046	P K M N Breeder ♀	Pamela		
+e	047	P K M N Breeder ♀	Eliza		
+e	048	P K M N Breeder ♀	Marisa		
+e	049	Bug Catcher	Lewis		
+e	050	Bug Catcher	Yoshi		
+e	051	Bug Catcher	Destin		
+e	052	Ninja Boy	Keon		
+e	053	Ninja Boy	Stuart		
+e	054	Ninja Boy	Nestor		
+e	055	Bug Maniac	Derrick		
+e	056	Bug Maniac	Bryson		
+e	057	Bug Maniac	Clayton		
+e	058	Fisherman	Trenton		
+e	059	Fisherman	Jenson		
+e	060	Fisherman	Wesley		
+e	061	Ruin Maniac	Anton		
+e	062	Ruin Maniac	Lawson		
+e	063	Ruin Maniac	Sammy		
+e	064	Collector	Arnie		
+e	065	Collector	Adrian		
+e	066	Collector	Tristan		
+e	067	Parasol Lady	Juliana		
+e	068	Parasol Lady	Rylee		
+e	069	Parasol Lady	Chelsea		
+e	070	Beauty	Danela		
+e	071	Beauty	Lizbeth		
+e	072	Beauty	Amelia		
+e	073	Aroma Lady	Jillian		
+e	074	Aroma Lady	Abbie		
+e	075	Aroma Lady	Briana		
+e	076	Guitarist	Antonio		
+e	077	Guitarist	Jaden		
+e	078	Guitarist	Dakota		
+e	079	Bird Keeper	Brayden		
+e	080	Bird Keeper	Corson		
+e	081	Bird Keeper	Trevin		
+e	082	Sailor	Patrick		
+e	083	Sailor	Kaden		
+e	084	Sailor	Maxwell		
+e	085	Hiker	Daryl		
+e	086	Hiker	Kenneth		
+e	087	Hiker	Rich		
+e	088	Kindler	Caden		
+e	089	Kindler	Marlon		
+e	090	Kindler	Nash		
+e	091	Triathlete ♂	Robby		
+e	092	Triathlete ♂	Reece		
+e	093	Triathlete ♀	Kathryn		
+e	094	Triathlete ♀	Ellen		
+e	095	Triathlete ♂	Ramon		
+e	096	Triathlete ♂	Arthur		
+e	097	Triathlete ♀	Alondra		
+e	098	Triathlete ♀	Adriana		
+e	099	Triathlete ♂	Malik		
+e	100	Triathlete ♀	Jill		
+e	101	Triathlete ♂	Erik		
+e	102	Triathlete ♀	Yazmin		
+e	103	Triathlete ♂	Jamal		
+e	104	Triathlete ♀	Leslie		
+e	105	Triathlete ♂	Dave		
+e	106	Triathlete ♂	Carlo		
+e	107	Triathlete ♀	Emilia		
+e	108	Triathlete ♀	Dalia		
+e	109	Black Belt	Hitomi		
+e	110	Black Belt	Ricardo		
+e	111	Black Belt	Shizuka		
+e	112	Battle Girl	Joana		
+e	113	Battle Girl	Kelly		
+e	114	Battle Girl	Rayna		
+e	115	Expert ♂	Evan		
+e	116	Expert ♂	Jordan		
+e	117	Expert ♂	Joel		
+e	118	Expert ♀	Kristen		
+e	119	Expert ♀	Selphy		
+e	120	Expert ♀	Chloe		
+e	121	Psychic ♂	Norton		
+e	122	Psychic ♂	Lukas		
+e	123	Psychic ♂	Zach		
+e	124	Psychic ♀	Kaitlyn		
+e	125	Psychic ♀	Breanna		
+e	126	Psychic ♀	Kendra		
+e	127	Hex Maniac	Molly		
+e	128	Hex Maniac	Jazmin		
+e	129	Hex Maniac	Kelsey		
+e	130	PokéManiac	Jalen		
+e	131	PokéManiac	Griffen		
+e	132	PokéManiac	Xander		
+e	133	Gentleman	Marvin		
+e	134	Gentleman	Brennan		
+e	135	Bug Maniac	Baley		
+e	136	Ruin Maniac	Zackary		
+e	137	Collector	Gabriel		
+e	138	Parasol Lady	Emily		
+e	139	Beauty	Jordyn		
+e	140	Aroma Lady	Sofia		
+e	141	Cooltrainer ♂	Braden		
+e	142	Cooltrainer ♂	Kayden		
+e	143	Cooltrainer ♂	Cooper		
+e	144	Cooltrainer ♀	Julia		
+e	145	Cooltrainer ♀	Amara		
+e	146	Cooltrainer ♀	Lynn		
+e	147	P K M N Ranger ♂	Jovan		
+e	148	P K M N Ranger ♂	Dominic		
+e	149	P K M N Ranger ♂	Nikolas		
+e	150	P K M N Ranger ♀	Valeria		
+e	151	P K M N Ranger ♀	Delaney		
+e	152	P K M N Ranger ♀	Meghan		
+e	153	Dragon Tamer	Roberto		
+e	154	Dragon Tamer	Damian		
+e	155	Dragon Tamer	Brody		
+e	156	Dragon Tamer	Graham		
+e	157	Pokéfan ♂	Tylor		
+e	158	Pokéfan ♀	Jaren		
+e	159	P K M N Breeder ♂	Cordell		
+e	160	P K M N Breeder ♀	Jazlyn		
+e	161	Youngster	Zachery		
+e	162	Youngster	Johan		
+e	163	Lass	Shea		
+e	164	Lass	Kaila		
+e	165	School Kid ♂	Isiah		
+e	166	School Kid ♂	Garrett		
+e	167	School Kid ♀	Haylie		
+e	168	School Kid ♀	Megan		
+e	169	Rich Boy	Issac		
+e	170	Rich Boy	Quinton		
+e	171	Lady	Salma		
+e	172	Lady	Ansley		
+e	173	Bug Catcher	Holden		
+e	174	Bug Catcher	Luca		
+e	175	Ninja Boy	Jamison		
+e	176	Ninja Boy	Gunnar		
+e	177	Tuber ♂	Craig		
+e	178	Tuber ♂	Pierce		
+e	179	Tuber ♀	Regina		
+e	180	Tuber ♀	Alison		
+e	181	Bug Maniac	Hank		
+e	182	Bug Maniac	Earl		
+e	183	Fisherman	Ramiro		
+e	184	Fisherman	Hunter		
+e	185	Ruin Maniac	Aiden		
+e	186	Ruin Maniac	Xavier		
+e	187	Collector	Clinton		
+e	188	Collector	Jesse		
+e	189	Guitarist	Eduardo		
+e	190	Guitarist	Hal		
+e	191	Bird Keeper	Gage		
+e	192	Bird Keeper	Arnold		
+e	193	Sailor	Jarrett		
+e	194	Sailor	Garett		
+e	195	Hiker	Emanuel		
+e	196	Hiker	Gustavo		
+e	197	Kindler	Kameron		
+e	198	Kindler	Alfredo		
+e	199	Gentleman	Ruben		
+e	200	Gentleman	Lamar		
+e	201	Youngster	Jaxon		
+e	202	Youngster	Logan		
+e	203	Lass	Emilee		
+e	204	Lass	Josie		
+e	205	Camper	Armando		
+e	206	Camper	Skyler		
+e	207	Picnicker	Ruth		
+e	208	Picnicker	Melody		
+e	209	Swimmer ♂	Pedro		
+e	210	Swimmer ♂	Erick		
+e	211	Swimmer ♀	Elaine		
+e	212	Swimmer ♀	Joyce		
+e	213	Pokéfan ♂	Todd		
+e	214	Pokéfan ♂	Gavin		
+e	215	Pokéfan ♀	Malory		
+e	216	Pokéfan ♀	Esther		
+e	217	P K M N Breeder ♂	Oscar		
+e	218	P K M N Breeder ♂	Wilson		
+e	219	P K M N Breeder ♀	Clare		
+e	220	P K M N Breeder ♀	Tess		
+e	221	Cooltrainer ♂	Leon		
+e	222	Cooltrainer ♂	Alonzo		
+e	223	Cooltrainer ♂	Vince		
+e	224	Cooltrainer ♂	Bryon		
+e	225	Cooltrainer ♀	Ava		
+e	226	Cooltrainer ♀	Miriam		
+e	227	Cooltrainer ♀	Carrie		
+e	228	Cooltrainer ♀	Gillian		
+e	229	P K M N Ranger ♂	Tyler		
+e	230	P K M N Ranger ♂	Chaz		
+e	231	P K M N Ranger ♂	Nelson		
+e	232	P K M N Ranger ♀	Shania		
+e	233	P K M N Ranger ♀	Stella		
+e	234	P K M N Ranger ♀	Dorine		
+e	235	Dragon Tamer	Maddox		
+e	236	Dragon Tamer	Davin		
+e	237	Dragon Tamer	Trevon		
+e	238	Black Belt	Mateo		
+e	239	Black Belt	Bret		
+e	240	Black Belt	Raul		
+e	241	Battle Girl	Kay		
+e	242	Battle Girl	Elena		
+e	243	Battle Girl	Alana		
+e	244	Expert ♂	Alexas		
+e	245	Expert ♂	Weston		
+e	246	Expert ♂	Jasper		
+e	247	Expert ♀	Nadia		
+e	248	Expert ♀	Miranda		
+e	249	Expert ♀	Emma		
+e	250	Psychic ♂	Rolando		
+e	251	Psychic ♂	Stanly		
+e	252	Psychic ♂	Dario		
+e	253	Psychic ♀	Karlee		
+e	254	Psychic ♀	Jaylin		
+e	255	Psychic ♀	Ingrid		
+e	256	Hex Maniac	Delilah		
+e	257	Hex Maniac	Carly		
+e	258	Hex Maniac	Lexie		
+e	259	PokéManiac	Miller		
+e	260	PokéManiac	Marv		
+e	261	PokéManiac	Layton		
+e	262	Gentleman	Brooks		
+e	263	Gentleman	Gregory		
+e	264	Gentleman	Reese		
+e	265	Triathlete ♂	Mason		
+e	266	Triathlete ♂	Toby		
+e	267	Triathlete ♀	Dorothy		
+e	268	Triathlete ♀	Piper		
+e	269	Triathlete ♂	Finn		
+e	270	Triathlete ♂	Samir		
+e	271	Triathlete ♀	Fiona		
+e	272	Triathlete ♀	Gloria		
+e	273	Triathlete ♂	Nico		
+e	274	Triathlete ♂	Jeremy		
+e	275	Triathlete ♀	Caitlin		
+e	276	Triathlete ♀	Reena		
+e	277	Bug Maniac	Avery		
+e	278	Bug Maniac	Liam		
+e	279	Fisherman	Theo		
+e	280	Fisherman	Bailey		
+e	281	Ruin Maniac	Hugo		
+e	282	Ruin Maniac	Bryce		
+e	283	Collector	Gideon		
+e	284	Collector	Triston		
+e	285	Guitarist	Charles		
+e	286	Guitarist	Raymond		
+e	287	Bird Keeper	Dirk		
+e	288	Bird Keeper	Harold		
+e	289	Sailor	Omar		
+e	290	Sailor	Peter		
+e	291	Hiker	Dev		
+e	292	Hiker	Corey		
+e	293	Kindler	Andre		
+e	294	Kindler	Ferris		
+e	295	Parasol Lady	Alivia		
+e	296	Parasol Lady	Paige		
+e	297	Beauty	Anya		
+e	298	Beauty	Dawn		
+e	299	Aroma Lady	Abby		
+e	300	Aroma Lady	Gretel		
+subway	001	Youngster	Joshua		
+subway	002	Youngster	London		
+subway	003	Youngster	Berry		
+subway	004	Youngster	Smith		
+subway	005	Lass	Agneau		
+subway	006	Lass	Crevett		
+subway	007	Lass	Jillian		
+subway	008	Lass	Coin		
+subway	009	School Kid ♂	Egon		
+subway	010	School Kid ♂	Ezra		
+subway	011	School Kid ♂	Egbert		
+subway	012	School Kid ♂	Kevyn		
+subway	013	School Kid ♀	Hearts		
+subway	014	School Kid ♀	Elise		
+subway	015	School Kid ♀	Peaches		
+subway	016	School Kid ♀	Plum		
+subway	017	Rich Boy	Pound		
+subway	018	Rich Boy	Rupee		
+subway	019	Rich Boy	Dollar		
+subway	020	Rich Boy	Rutie		
+subway	021	Lady	Won		
+subway	022	Lady	Peso		
+subway	023	Lady	Sasha		
+subway	024	Lady	Real		
+subway	025	Preschooler ♂	Oda		
+subway	026	Preschooler ♂	Hide		
+subway	027	Preschooler ♂	Nobu		
+subway	028	Preschooler ♂	Tada		
+subway	029	Preschooler ♀	Janice		
+subway	030	Preschooler ♀	Dakota		
+subway	031	Preschooler ♀	Monroe		
+subway	032	Preschooler ♀	Hellen		
+subway	033	Backpacker ♂	Irwin		
+subway	034	Backpacker ♂	Ananda		
+subway	035	Backpacker ♂	Serjbu		
+subway	036	Backpacker ♀	Myera		
+subway	037	Backpacker ♀	Tatyana		
+subway	038	Backpacker ♀	Theresa		
+subway	039	Waiter	Sawyer		
+subway	040	Waiter	Abdul		
+subway	041	Waiter	Vern		
+subway	042	Waitress	Willow		
+subway	043	Waitress	Chaonne		
+subway	044	Waitress	Terra		
+subway	045	Pokéfan ♂	Norm		
+subway	046	Pokéfan ♂	Ormond		
+subway	047	Pokéfan ♂	Kali		
+subway	048	Pokéfan ♀	Nerola		
+subway	049	Pokéfan ♀	Karelen		
+subway	050	Pokéfan ♀	Farna		
+subway	051	Hiker	Hodgman		
+subway	052	Hiker	Saber		
+subway	053	Fisherman	Diplo		
+subway	054	Fisherman	Jaguar		
+subway	055	Parasol Lady	Polo		
+subway	056	Parasol Lady	Leone		
+subway	057	Parasol Lady	Scampi		
+subway	058	Roughneck	Tiiu		
+subway	059	Roughneck	Atlas		
+subway	060	Roughneck	Calisto		
+subway	061	Biker	Nichols		
+subway	062	Biker	Paulo		
+subway	063	Biker	Balut		
+subway	064	Baker	Carabel		
+subway	065	Baker	Klara		
+subway	066	Baker	Olga		
+subway	067	Policeman	Bob		
+subway	068	Policeman	Bobhiko		
+subway	069	Clerk ♂	Micah		
+subway	070	Clerk ♂	Henrik		
+subway	071	Harlequin	Lincoln		
+subway	072	Harlequin	Truman		
+subway	073	Harlequin	Herbert		
+subway	074	Maid	Kiley		
+subway	075	Maid	Tanna		
+subway	076	Maid	Teresa		
+subway	077	Artist	Chestin		
+subway	078	Artist	Persim		
+subway	079	Artist	Peachum		
+subway	080	Nursery Aide	Roberta		
+subway	081	Nursery Aide	Faun		
+subway	082	Nursery Aide	Haniska		
+subway	083	Worker	Rodger		
+subway	084	Worker	Fabian		
+subway	085	Worker	Cimon		
+subway	086	Worker	Lew		
+subway	087	Cyclist ♂	Emil		
+subway	088	Cyclist ♂	Kegan		
+subway	089	Cyclist ♀	Way		
+subway	090	Cyclist ♀	Min		
+subway	091	Janitor	Marx		
+subway	092	Janitor	Durbin		
+subway	093	Depot Agent	Furze		
+subway	094	Depot Agent	Cloud		
+subway	095	Clerk ♂	Basiléu		
+subway	096	Clerk ♂	Hoffman		
+subway	097	Clerk ♀	Lara		
+subway	098	Clerk ♀	Elodie		
+subway	099	Doctor	Godwin		
+subway	100	Doctor	Kocher		
+subway	101	Nurse	Turtle		
+subway	102	Nurse	Pella		
+subway	103	Gentleman	Trenton		
+subway	104	Gentleman	Enzo		
+subway	105	Socialite	Dione		
+subway	106	Socialite	Nerid		
+subway	107	Pokémon Breeder ♂	Willy		
+subway	108	Pokémon Breeder ♂	Timmy		
+subway	109	Pokémon Breeder ♀	Roanne		
+subway	110	Pokémon Breeder ♀	Quyen		
+subway	111	Youngster	Sherman		
+subway	112	Youngster	Sill		
+subway	113	Lass	Huitres		
+subway	114	Lass	Paulina		
+subway	115	School Kid ♂	Fritz		
+subway	116	School Kid ♂	Layton		
+subway	117	School Kid ♀	Percy		
+subway	118	School Kid ♀	Scout		
+subway	119	Rich Boy	Bertran		
+subway	120	Rich Boy	Troy		
+subway	121	Lady	Huitre		
+subway	122	Lady	Poisson		
+subway	123	Preschooler ♀	Betty		
+subway	124	Preschooler ♀	Helen		
+subway	125	Preschooler ♂	Usef		
+subway	126	Preschooler ♂	Zaid		
+subway	127	Backpacker ♂	Mabon		
+subway	128	Backpacker ♂	Shamus		
+subway	129	Backpacker ♀	Polina		
+subway	130	Backpacker ♀	Zlata		
+subway	131	Waiter	Karston		
+subway	132	Waiter	Lennart		
+subway	133	Waitress	Ikaora		
+subway	134	Waitress	Meena		
+subway	135	Pokéfan ♂	Filippe		
+subway	136	Pokéfan ♂	Sergio		
+subway	137	Pokéfan ♀	Biijal		
+subway	138	Pokéfan ♀	Meryl		
+subway	139	Hiker	Glen		
+subway	140	Hiker	Tapioca		
+subway	141	Fisherman	Duncan		
+subway	142	Fisherman	Morgan		
+subway	143	Parasol Lady	Cocome		
+subway	144	Parasol Lady	Nu		
+subway	145	Parasol Lady	Pomodi		
+subway	146	Roughneck	Calon		
+subway	147	Roughneck	Oberon		
+subway	148	Roughneck	Triton		
+subway	149	Biker	Jacob		
+subway	150	Biker	Joachim		
+subway	151	Biker	Xavier		
+subway	152	Baker	Chelsie		
+subway	153	Baker	Col		
+subway	154	Baker	Maris		
+subway	155	Harlequin	Brant		
+subway	156	Harlequin	Egil		
+subway	157	Harlequin	Surune		
+subway	158	Maid	Ceylon		
+subway	159	Maid	Cyanea		
+subway	160	Maid	Minerva		
+subway	161	Artist	Bogey		
+subway	162	Artist	Dali		
+subway	163	Artist	Iron		
+subway	164	Nursery Aide	March		
+subway	165	Nursery Aide	Hazel		
+subway	166	Nursery Aide	Polka		
+subway	167	Worker	Antoin		
+subway	168	Worker	Rey		
+subway	169	Worker	Earwin		
+subway	170	Worker	Lamont		
+subway	171	Cyclist ♂	Amhed		
+subway	172	Cyclist ♂	Hamid		
+subway	173	Cyclist ♀	Minnow		
+subway	174	Cyclist ♀	Oren		
+subway	175	Policeman	Bobjiro		
+subway	176	Policeman	Bobyosi		
+subway	177	Clerk ♂	Vadim		
+subway	178	Clerk ♂	Yuri		
+subway	179	Clerk ♀	Mohair		
+subway	180	Clerk ♀	Velour		
+subway	181	Janitor	Ketmon		
+subway	182	Janitor	Nida		
+subway	183	Depot Agent	Cameron		
+subway	184	Depot Agent	Jackie		
+subway	185	Doctor	Adenine		
+subway	186	Doctor	Frank		
+subway	187	Doctor	Thymine		
+subway	188	Nurse	Kikuri		
+subway	189	Nurse	Kushina		
+subway	190	Nurse	Tomatoe		
+subway	191	Pokémon Breeder ♂	Daniil		
+subway	192	Pokémon Breeder ♂	Fedor		
+subway	193	Pokémon Breeder ♀	Kathy		
+subway	194	Pokémon Breeder ♀	Sue		
+subway	195	Socialite	Ashley		
+subway	196	Socialite	Joice		
+subway	197	Gentleman	Boyce		
+subway	198	Gentleman	Dover		
+subway	199	Pilot	Florian		
+subway	200	Pilot	Phyl		
+subway	201	Clerk ♂	Faust		
+subway	202	Clerk ♂	Ulfgang		
+subway	203	Scientist ♀	Charis		
+subway	204	Scientist ♀	Lotte		
+subway	205	Scientist ♀	Therese		
+subway	206	Scientist ♂	Spacey		
+subway	207	Scientist ♂	Shan		
+subway	208	Scientist ♂	Stubs		
+subway	209	Psychic ♂	Boldbat		
+subway	210	Psychic ♂	Khaan		
+subway	211	Psychic ♂	Solongo		
+subway	212	Psychic ♀	Longo		
+subway	213	Psychic ♀	Sambala		
+subway	214	Psychic ♀	Zaya		
+subway	215	Black Belt	Enpi		
+subway	216	Black Belt	Harimao		
+subway	217	Black Belt	Unsu		
+subway	218	Battle Girl	Aces		
+subway	219	Battle Girl	Flush		
+subway	220	Battle Girl	Queenie		
+subway	221	Pokémon Ranger ♂	Mouse		
+subway	222	Pokémon Ranger ♂	Skyblue		
+subway	223	Pokémon Ranger ♂	Smokey		
+subway	224	Pokémon Ranger ♀	Ivy		
+subway	225	Pokémon Ranger ♀	Paula		
+subway	226	Pokémon Ranger ♀	Terran		
+subway	227	Ace Trainer ♀	Gwen		
+subway	228	Ace Trainer ♀	Mooi		
+subway	229	Ace Trainer ♀	Palm		
+subway	230	Ace Trainer ♂	Dylan		
+subway	231	Ace Trainer ♂	Farley		
+subway	232	Ace Trainer ♂	Reigel		
+subway	233	Veteran ♂	Colombo		
+subway	234	Veteran ♂	Donta		
+subway	235	Veteran ♂	Leron		
+subway	236	Veteran ♂	Ponta		
+subway	237	Veteran ♀	Ginger		
+subway	238	Veteran ♀	Hecate		
+subway	239	Veteran ♀	Jeune		
+subway	240	Veteran ♀	Risha		
+subway	241	Backpacker ♂	Cedric		
+subway	242	Backpacker ♂	Felton		
+subway	243	Backpacker ♀	Simone		
+subway	244	Backpacker ♀	Wald		
+subway	245	Waiter	Gonyan		
+subway	246	Waiter	Hasan		
+subway	247	Waitress	Amber		
+subway	248	Waitress	Roe		
+subway	249	Hiker	Jorge		
+subway	250	Hiker	Kemuel		
+subway	251	Fisherman	Fird		
+subway	252	Fisherman	Humfrey		
+subway	253	Parasol Lady	Hilary		
+subway	254	Parasol Lady	Vanna		
+subway	255	Roughneck	Ganymed		
+subway	256	Roughneck	Proteus		
+subway	257	Biker	Petro		
+subway	258	Biker	Philipo		
+subway	259	Baker	Judy		
+subway	260	Baker	Vespera		
+subway	261	Harlequin	Aramis		
+subway	262	Harlequin	Athos		
+subway	263	Maid	Anguile		
+subway	264	Maid	Fesan		
+subway	265	Artist	Hacikan		
+subway	266	Artist	Rikkyu		
+subway	267	Nursery Aide	Chachi		
+subway	268	Nursery Aide	Evelyn		
+subway	269	Worker	Roman		
+subway	270	Worker	Valéry		
+subway	271	Worker	Hayes		
+subway	272	Worker	Quinn		
+subway	273	Cyclist ♂	Dante		
+subway	274	Cyclist ♂	Marion		
+subway	275	Cyclist ♀	Birgit		
+subway	276	Cyclist ♀	Margit		
+subway	277	Clerk ♂	Bank		
+subway	278	Clerk ♂	Elwin		
+subway	279	Policeman	Bobemon		
+subway	280	Policeman	Bobnori		
+subway	281	Janitor	Eric		
+subway	282	Janitor	Oscar		
+subway	283	Depot Agent	Isadore		
+subway	284	Depot Agent	Ramses		
+subway	285	Clerk ♀	Anette		
+subway	286	Clerk ♀	Anora		
+subway	287	Doctor	Dwight		
+subway	288	Doctor	Levant		
+subway	289	Nurse	Panarat		
+subway	290	Nurse	Saisune		
+subway	291	Pokémon Breeder ♂	Eoin		
+subway	292	Pokémon Breeder ♂	Manford		
+subway	293	Pokémon Breeder ♀	Janet		
+subway	294	Pokémon Breeder ♀	Shawna		
+subway	295	Socialite	Aparna		
+subway	296	Socialite	Saty		
+subway	297	Gentleman	Camus		
+subway	298	Gentleman	Kavan		
+subway	299	Pilot	Artemas		
+subway	300	Pilot	Chand		
+maison	001	Youngster	Owen	Tancred	
+maison	002	Youngster	Ryan	Yoshihiro	
+maison	003	Youngster	Pascal	Pascal	
+maison	004	Youngster	Isaac	Simppa	
+maison	005	Lass	Viviane	Seiko	
+maison	006	Lass	Ernestine	Emelja	
+maison	007	Lass	Chloe	Chloe	
+maison	008	Lass	Ruth	Noriko	
+maison	009	Schoolboy	Powell	Aloysius	
+maison	010	Schoolboy	Declan	Jibade	
+maison	011	Schoolboy	Ronald	Tefere	
+maison	012	Schoolboy	Kevin	Kevin	
+maison	013	Schoolgirl	Sophie	Rumiko	
+maison	014	Schoolgirl	Dominique	Opeyemi	
+maison	015	Schoolgirl	Pauline	Pauline	
+maison	016	Schoolgirl	Eloise	Kemi	
+maison	017	Rich Boy	Kip	Babatunji	
+maison	018	Rich Boy	Franc	Gennady	
+maison	019	Rich Boy	Gulden	Jorn	
+maison	020	Rich Boy	Sol	Sol	
+maison	021	Lady	Genevoise	Reina	
+maison	022	Lady	Lira	Temitope	
+maison	023	Lady	Penny	Henrietta	
+maison	024	Lady	Krona	Endotah	
+maison	025	Preschooler ♂	Felix	Peppi	
+maison	026	Preschooler ♂	Noam	Tomi	
+maison	027	Preschooler ♂	Marcel	Siorus	
+maison	028	Preschooler ♀	Zak	Amjad	
+maison	029	Preschooler ♀	Olivia	Nadine	
+maison	030	Preschooler ♀	Caroline	Lihle	
+maison	031	Preschooler ♂	Juliette	Thembi	
+maison	032	Preschooler ♂	Jocelyne	Jocelyne	
+maison	033	Backpacker	Einar	Sigifrith	
+maison	034	Backpacker	Anand	Pradeep	
+maison	035	Backpacker	Claude	Owain	
+maison	036	Tourist ♀	Mallorca	Mallorca	
+maison	037	Tourist ♂	Martine	Martine	
+maison	038	Tourist ♀	Antalya	Antalya	
+maison	039	Garçon	Donaven	Jasdeep	
+maison	040	Garçon	Liam	Marty	
+maison	041	Garçon	Cole	Ken	
+maison	042	Waitress	Ayu	Ayu	
+maison	043	Waitress	Barb	Barb	
+maison	044	Waitress	Catla	Catla	
+maison	045	Poké Fan ♂	Orpheus	Farida	
+maison	046	Poké Fan ♂	Albert	Gelar	
+maison	047	Poké Fan ♂	Tristan	Bardo	
+maison	048	Poké Fan ♀	Delilah	Delilah	
+maison	049	Poké Fan ♀	Medea	Solveig	
+maison	050	Poké Fan ♀	Elaine	Naomi	
+maison	051	Hiker	Bight	Kailash	
+maison	052	Hiker	Adze	Hetch	
+maison	053	Rising Star ♂	Heywood	Heywood	
+maison	054	Rising Star ♀	Jacqueline	Jacqueline	
+maison	055	Fairy Tale Girl	Rosanella	Rosanella	
+maison	056	Fairy Tale Girl	Blondine	Blondine	
+maison	057	Fairy Tale Girl	Abricotine	Abricotine	
+maison	058	Punk Guy	Phobos	Dante	
+maison	059	Punk Guy	Atlas	Dexter	
+maison	060	Punk Guy	Janus	Iker	
+maison	061	Punk Girl	Io	Kimberly	
+maison	062	Punk Girl	Callisto	Ximena	
+maison	063	Punk Girl	Tethys	Jiana	
+maison	064	Chef	Gougère	Herb	
+maison	065	Chef	Fricassé	Flavio	
+maison	066	Chef	Brunoise	Cooke	
+maison	067	Rising Star ♂	Matias	Matias	
+maison	068	Rising Star ♂	Thibault	Thibault	
+maison	069	Rising Star ♀	Emilia	Emilia	
+maison	070	Rising Star ♀	Elysia	Elysia	
+maison	071	Butler	Samvel	Samvel	
+maison	072	Butler	Wooster	Wooster	
+maison	073	Butler	Faron	Faron	
+maison	074	Maid	Gisela	Marleigh	
+maison	075	Maid	Taylor	Laynie	
+maison	076	Maid	Angeline	Karaly	
+maison	077	Artist ♂	Rusty	Rusty	
+maison	078	Artist ♂	Slate	Slate	
+maison	079	Artist ♂	Rudy	Rudy	
+maison	080	Artist ♀	Jade	Jade	
+maison	081	Artist ♀	Olive	Olive	
+maison	082	Artist ♀	Blanche	Blanche	
+maison	083	Worker	Conan	Carver	
+maison	084	Worker	Toshi	Plummer	
+maison	085	Worker	Nika	Jagger	
+maison	086	Worker	Brodie	Carden	
+maison	087	Roller Skater ♂	Sofian	Sofian	
+maison	088	Roller Skater ♂	Hjalmar	Hjalmar	
+maison	089	Roller Skater ♀	Mercedes	Mercedes	
+maison	090	Roller Skater ♀	Astra	Astra	
+maison	091	Gardener	Logan	Logan	
+maison	092	Gardener	Dara	Dara	
+maison	093	Chef	Mario	Haddock	
+maison	094	Beauty	Neve	Jamille	
+maison	095	Owner	Domino	Domino	
+maison	096	Owner	Aric	Aric	
+maison	097	Beauty	Maeve	Belinda	
+maison	098	Beauty	Nova	Nohea	
+maison	099	Tourist ♂	Chitose	Chitose	
+maison	100	Tourist ♂	Gatwick	Gatwick	
+maison	101	Tourist ♀	Adelaide	Adelaide	
+maison	102	Tourist ♀	Paris	Paris	
+maison	103	Monsieur	Thierry	Thierry	
+maison	104	Monsieur	Rodrigo	Rodrigo	
+maison	105	Madame	Dione	Adalia	
+maison	106	Madame	Nereid	Charlotte	
+maison	107	Pokémon Breeder ♂	Avi	Avi	
+maison	108	Pokémon Breeder ♂	Bram	Bram	
+maison	109	Pokémon Breeder ♀	Maia	Maia	
+maison	110	Pokémon Breeder ♀	Tera	Tera	
+maison	111	Youngster	Pablo	Amarnath	
+maison	112	Youngster	Nathan	Masaharu	
+maison	113	Lass	Lauren	Kana	
+maison	114	Lass	Eva	Reena	
+maison	115	Schoolboy	Fritz	Potter	
+maison	116	Schoolboy	Schuyler	Schuyler	
+maison	117	Schoolgirl	Kaya	Kaya	
+maison	118	Schoolgirl	Athena	Athena	
+maison	119	Rich Boy	Kasper	Lachlan	
+maison	120	Rich Boy	Auric	Sione	
+maison	121	Lady	Aline	Holly	
+maison	122	Lady	Francoise	Glynnis	
+maison	123	Preschooler ♂	Cody	Sulo	
+maison	124	Preschooler ♂	Preston	Gwillym	
+maison	125	Preschooler ♀	Ava	Sakura	
+maison	126	Preschooler ♀	Madison	Uta	
+maison	127	Backpacker	Erroll	Maxen	
+maison	128	Backpacker	Seamus	Ranwyl	
+maison	129	Tourist ♀	Edirne	Edirne	
+maison	130	Tourist ♀	Marbella	Marbella	
+maison	131	Garçon	Caleb	Narry	
+maison	132	Garçon	Basim	Joel	
+maison	133	Waitress	Char	Char	
+maison	134	Waitress	Tilapia	Tilapia	
+maison	135	Poké Fan	Antony	Alekhya	
+maison	136	Poké Fan	Rhett	Konani	
+maison	137	Poké Fan	Dierdre	Veronica	
+maison	138	Poké Fan	Ophelia	Olonno	
+maison	139	Hiker	Deck	Palani	
+maison	140	Hiker	Abseil	Abseil	
+maison	141	Rising Star ♂	Jamie	Jamie	
+maison	142	Rising Star ♀	Tilde	Tilde	
+maison	143	Fairy Tale Girl	Jeanette	Jeanette	
+maison	144	Fairy Tale Girl	Sylvia	Sylvia	
+maison	145	Fairy Tale Girl	Aurore	Aurore	
+maison	146	Punk Guy	Oberon	Channing	
+maison	147	Punk Guy	Triton	Cruz	
+maison	148	Punk Guy	Pan	Darius	
+maison	149	Punk Girl	Rhea	Rhea	
+maison	150	Punk Girl	Titania	Titania	
+maison	151	Punk Girl	Ariel	Ariel	
+maison	152	Chef	Jus	Jus	
+maison	153	Chef	Dariole	Dariole	
+maison	154	Chef	Florentine	Florentine	
+maison	155	Butler	Joshua	Joshua	
+maison	156	Butler	Elias	Elias	
+maison	157	Butler	Jude	Jude	
+maison	158	Maid	Beth	Beth	
+maison	159	Maid	Paige	Paige	
+maison	160	Maid	Joelle	Joelle	
+maison	161	Artist ♂	Jasper	Jasper	
+maison	162	Artist ♂	Gray	Gray	
+maison	163	Artist ♂	Rufous	Rufous	
+maison	164	Artist ♀	Carmine	Carmine	
+maison	165	Artist ♀	Sienna	Sienna	
+maison	166	Artist ♀	Scarlet	Scarlet	
+maison	167	Worker	Arnau	Arnau	
+maison	168	Worker	Leo	Leo	
+maison	169	Worker	Esteban	Esteban	
+maison	170	Worker	Jules	Jules	
+maison	171	Roller Skater ♂	Manuel	Manuel	
+maison	172	Roller Skater ♂	Rory	Rory	
+maison	173	Roller Skater ♀	Clio	Clio	
+maison	174	Roller Skater ♀	Sierra	Sierra	
+maison	175	Rising Star ♂	Giacomo	Giacomo	
+maison	176	Rising Star ♂	Guillaume	Guillaume	
+maison	177	Rising Star ♀	Carol	Carol	
+maison	178	Rising Star ♀	Lena	Lena	
+maison	179	Beauty	Lucy	Lucy	
+maison	180	Beauty	Lucinda	Lucinda	
+maison	181	Gardener	Florian	Florian	
+maison	182	Gardener	Giorgi	Giorgi	
+maison	183	Chef	Dylan	Berger	
+maison	184	Beauty	Apollo	Bunnie	
+maison	185	Tourist ♂	O’Hare	O’Hare	
+maison	186	Tourist ♂	Heathrow	Heathrow	
+maison	187	Tourist ♂	Sydney	Sydney	
+maison	188	Tourist ♀	Valencia	Valencia	
+maison	189	Tourist ♀	Odessa	Odessa	
+maison	190	Tourist ♀	Florence	Florence	
+maison	191	Pokémon Breeder ♂	Ewert	Ewert	
+maison	192	Pokémon Breeder ♂	Jovann	Jovann	
+maison	193	Pokémon Breeder ♀	Noemie	Noemie	
+maison	194	Pokémon Breeder ♀	Zoe	Zoe	
+maison	195	Monsieur	Harris	Harris	
+maison	196	Monsieur	Frederik	Frederik	
+maison	197	Madame	Elizabeth	Elizabeth	
+maison	198	Madame	Marie-Noelle	Marie-Noelle	
+maison	199	Furisode Girl	Fleur	Fleur	
+maison	200	Furisode Girl	Marilla	Marilla	
+maison	201	Owner	Cyril	Cyril	
+maison	202	Owner	Galton	Galton	
+maison	203	Scientist ♂	Neils	Neils	
+maison	204	Scientist ♂	Sigmund	Sigmund	
+maison	205	Scientist ♂	Max	Max	
+maison	206	Scientist ♀	Rosalind	Rosalind	
+maison	207	Scientist ♀	Candela	Candela	
+maison	208	Scientist ♀	Jane	Jane	
+maison	209	Psychic	Uberto	Uberto	
+maison	210	Psychic	Haskell	Haskell	
+maison	211	Psychic	Magus	Magus	
+maison	212	Hex Maniac	Celia	Celia	
+maison	213	Hex Maniac	Ciara	Ciara	
+maison	214	Hex Maniac	Lola	Lola	
+maison	215	Black Belt	Wystan	Wystan	
+maison	216	Black Belt	Sebastian	Sebastian	
+maison	217	Black Belt	Tyrell	Tyrell	
+maison	218	Battle Girl	Mae	Mae	
+maison	219	Battle Girl	Kata	Kata	
+maison	220	Battle Girl	Rei	Rei	
+maison	221	Pokémon Ranger ♂	Hunter	Hunter	
+maison	222	Pokémon Ranger ♂	Parker	Parker	
+maison	223	Pokémon Ranger ♂	Tanner	Tanner	
+maison	224	Pokémon Ranger ♀	Willow	Willow	
+maison	225	Pokémon Ranger ♀	Hazel	Hazel	
+maison	226	Pokémon Ranger ♀	Cerese	Cerese	
+maison	227	Ace Trainer ♂	Claus	Claus	
+maison	228	Ace Trainer ♂	Sigurd	Sigurd	
+maison	229	Ace Trainer ♂	Colin	Colin	
+maison	230	Ace Trainer ♀	Gwen	Gwen	
+maison	231	Ace Trainer ♀	Victoria	Victoria	
+maison	232	Ace Trainer ♀	Nikita	Nikita	
+maison	233	Veteran ♂	Howell	Howell	
+maison	234	Veteran ♂	Dorian	Dorian	
+maison	235	Veteran ♂	Stanislaw	Stanislaw	
+maison	236	Veteran ♂	Jake	Jake	
+maison	237	Veteran ♀	Sibyl	Sibyl	
+maison	238	Veteran ♀	Hera	Hera	
+maison	239	Veteran ♀	Catherine	Catherine	
+maison	240	Veteran ♀	Zenobia	Zenobia	
+maison	241	Backpacker	Rolf	Rolf	
+maison	242	Backpacker	Perdido	Perdido	
+maison	243	Tourist ♀	Ibiza	Ibiza	
+maison	244	Tourist ♀	Aire	Aire	
+maison	245	Garçon	Porter	Porter	
+maison	246	Garçon	Darcy	Darcy	
+maison	247	Waitress	Ilisha	Ilisha	
+maison	248	Waitress	Remora	Remora	
+maison	249	Hiker	Choss	Choss	
+maison	250	Hiker	Rand	Rand	
+maison	251	Ace Trainer ♂	Jai	Jai	
+maison	252	Ace Trainer ♀	Bunny	Bunny	
+maison	253	Hex Maniac	Anastasia	Anastasia	
+maison	254	Hex Maniac	Mara	Mara	
+maison	255	Punk Guy	Deimos	Quinton	
+maison	256	Punk Guy	Puck	Jensen	
+maison	257	Punk Girl	Miranda	Delaney	
+maison	258	Punk Girl	Europa	Hadley	
+maison	259	Chef	Niçoise	Angus	
+maison	260	Chef	Roux	Frank	
+maison	261	Butler	Noah	Noah	
+maison	262	Butler	Deacon	Deacon	
+maison	263	Maid	Colette	Clara	
+maison	264	Maid	Ghislaine	Joan	
+maison	265	Artist ♂	Wenge	Wenge	
+maison	266	Artist ♂	Redd	Redd	
+maison	267	Artist ♀	Azure	Azure	
+maison	268	Artist ♀	Rose	Rose	
+maison	269	Worker	Levin	Levin	
+maison	270	Worker	Rasmus	Rasmus	
+maison	271	Worker	Axel	Axel	
+maison	272	Worker	Ivan	Ivan	
+maison	273	Roller Skater ♂	Raoul	Raoul	
+maison	274	Roller Skater ♂	Ryker	Ryker	
+maison	275	Roller Skater ♀	Aurora	Aurora	
+maison	276	Roller Skater ♀	Electra	Electra	
+maison	277	Veteran ♂	Alfie	Alfie	
+maison	278	Veteran ♂	Saba	Saba	
+maison	279	Veteran ♀	Eleanor	Eleanor	
+maison	280	Veteran ♀	Isabella	Isabella	
+maison	281	Chef	Carlos	Caesar	
+maison	282	Chef	Andrei	Cobb	
+maison	283	Beauty	Orla	Kenna	
+maison	284	Beauty	Claire	Lana	
+maison	285	Beauty	Lucetta	Birdie	
+maison	286	Beauty	Lucille	Naveen	
+maison	287	Tourist ♂	Hartsfield	Hartsfield	
+maison	288	Tourist ♂	Incheon	Incheon	
+maison	289	Tourist ♀	Geneva	Geneva	
+maison	290	Tourist ♀	Chelsea	Chelsea	
+maison	291	Pokémon Breeder ♂	Abbot	Merekee	
+maison	292	Pokémon Breeder ♂	Tad	Teppei	
+maison	293	Pokémon Breeder ♀	Josiane	Gudrun	
+maison	294	Pokémon Breeder ♀	Ina	Lalaini	
+maison	295	Monsieur	Kirill	Kirill	
+maison	296	Monsieur	Patrice	Patrice	
+maison	297	Madame	Sati	Inga	
+maison	298	Madame	Aparna	Arabella	
+maison	299	Furisode Girl	Kannon	Kannon	
+maison	300	Furisode Girl	Nigella	Nigella	
+tree	001	Youngster	Florian		
+tree	002	Youngster	Robin		
+tree	003	Youngster	Max		
+tree	004	Youngster	Bert		
+tree	005	Lass	Sophia		
+tree	006	Lass	Shanta		
+tree	007	Lass	Rachel		
+tree	008	Lass	Chan		
+tree	009	Preschooler ♂	Ferdinand		
+tree	010	Preschooler ♂	Rico		
+tree	011	Preschooler ♂	Rocky		
+tree	012	Preschooler ♂	Jasper		
+tree	013	Preschooler ♀	Kendra		
+tree	014	Preschooler ♀	Mercy		
+tree	015	Preschooler ♀	Helen		
+tree	016	Preschooler ♀	Gladys		
+tree	017	Backpacker	Darla		
+tree	018	Backpacker	Tammy		
+tree	019	Backpacker	Reese		
+tree	020	Backpacker	Kayla		
+tree	021	Hiker	Cleavant		
+tree	022	Hiker	Buster		
+tree	023	Hiker	Arlo		
+tree	024	Hiker	Levine		
+tree	025	Office Worker ♂	Percy		
+tree	026	Office Worker ♂	Conley		
+tree	027	Office Worker ♂	Emery		
+tree	028	Office Worker ♀	Winnie		
+tree	029	Office Worker ♀	Prudence		
+tree	030	Office Worker ♀	Dominica		
+tree	031	Punk Guy	Kass		
+tree	032	Punk Guy	Scoop		
+tree	033	Punk Guy	Dylan		
+tree	034	Punk Guy	Evander		
+tree	035	Punk Girl	Myrna		
+tree	036	Punk Girl	Eva		
+tree	037	Punk Girl	Agrata		
+tree	038	Punk Girl	Abby		
+tree	039	Youth Athlete ♂	Parker		
+tree	040	Youth Athlete ♂	Isaac		
+tree	041	Youth Athlete ♂	Ayden		
+tree	042	Youth Athlete ♀	Alwyn		
+tree	043	Youth Athlete ♀	Mardea		
+tree	044	Youth Athlete ♀	Gabriella		
+tree	045	Rising Star ♂	Ryder		
+tree	046	Rising Star ♂	Christopher		
+tree	047	Rising Star ♂	Sorley		
+tree	048	Rising Star ♀	Beatrice		
+tree	049	Rising Star ♀	Brandi		
+tree	050	Rising Star ♀	Marsha		
+tree	051	Sightseer ♂	Cooper		
+tree	052	Sightseer ♂	Darien		
+tree	053	Sightseer ♂	Hart		
+tree	054	Sightseer ♀	Kaula		
+tree	055	Sightseer ♀	Charlene		
+tree	056	Sightseer ♀	Odessa		
+tree	057	Janitor	Jairo		
+tree	058	Janitor	Xaden		
+tree	059	Janitor	Giles		
+tree	060	Worker	Skip		
+tree	061	Worker	JT		
+tree	062	Worker	Benjamin		
+tree	063	Gentleman	Henry		
+tree	064	Gentleman	Ikram		
+tree	065	Gentleman	Jerry		
+tree	066	Madame	Cheryl		
+tree	067	Madame	Christy		
+tree	068	Madame	Verna		
+tree	069	Collector	Duncan		
+tree	070	Collector	Nobunaga		
+tree	071	Golfer ♂	Arnon		
+tree	072	Golfer ♂	Alim		
+tree	073	Golfer ♂	Zeno		
+tree	074	Golfer ♀	Anisa		
+tree	075	Golfer ♀	Calliope		
+tree	076	Golfer ♀	Christina		
+tree	077	Pokémon Breeder ♂	Nedry		
+tree	078	Pokémon Breeder ♂	Sheridan		
+tree	079	Pokémon Breeder ♂	Kiernan		
+tree	080	Pokémon Breeder ♀	Dara		
+tree	081	Pokémon Breeder ♀	Rada		
+tree	082	Pokémon Breeder ♀	Gertrude		
+tree	083	Bellhop	Dyson		
+tree	084	Bellhop	Chip		
+tree	085	Bellhop	Zero		
+tree	086	Cook	Julien		
+tree	087	Cook	Sly		
+tree	088	Cook	Noah		
+tree	089	Firefighter	Brantley		
+tree	090	Firefighter	Camber		
+tree	091	Police Officer	Rendor		
+tree	092	Police Officer	Lou		
+tree	093	Police Officer	Benji		
+tree	094	Scientist	Cal		
+tree	095	Scientist	Tivon		
+tree	096	Scientist	Robyn		
+tree	097	Black Belt	Chucky		
+tree	098	Black Belt	Iniko		
+tree	099	Black Belt	Arnold		
+tree	100	Dancer	Carrie		
+tree	101	Dancer	Variel		
+tree	102	Dancer	Atalanta		
+tree	103	Aether Foundation ♂	Harvey		
+tree	104	Aether Foundation ♂	Luke		
+tree	105	Ace Trainer ♂	Granville		
+tree	106	Ace Trainer ♂	Raz		
+tree	107	Aether Foundation ♀	Heidi		
+tree	108	Aether Foundation ♀	Haley		
+tree	109	Ace Trainer ♀	Lea		
+tree	110	Ace Trainer ♀	Sylvia		
+tree	111	Scientist	Stein		
+tree	112	Scientist	Cadel		
+tree	113	Black Belt	Boris		
+tree	114	Black Belt	Bryson		
+tree	115	Dancer	Jo		
+tree	116	Dancer	Tasanee		
+tree	117	Ace Trainer ♂	Levi		
+tree	118	Ace Trainer ♂	Hashim		
+tree	119	Ace Trainer ♂	Munin		
+tree	120	Ace Trainer ♀	Poppy		
+tree	121	Ace Trainer ♀	Tamah		
+tree	122	Ace Trainer ♀	Bette		
+tree	123	Veteran ♂	Kikujiro		
+tree	124	Veteran ♂	Xenophon		
+tree	125	Veteran ♂	Placido		
+tree	126	Veteran ♂	Ignacio		
+tree	127	Veteran ♀	Aino		
+tree	128	Veteran ♀	Xio		
+tree	129	Veteran ♀	Priya		
+tree	130	Veteran ♀	Candy		
+tree	131	Youngster	Napoleon		
+tree	132	Youngster	Brady		
+tree	133	Lass	Samantha		
+tree	134	Lass	Inez		
+tree	135	Preschooler ♂	Niara		
+tree	136	Preschooler ♂	Victor		
+tree	137	Preschooler ♀	Reina		
+tree	138	Preschooler ♀	Naya		
+tree	139	Backpacker	Gwenny		
+tree	140	Backpacker	Fernanda		
+tree	141	Hiker	Vivek		
+tree	142	Hiker	Stellan		
+tree	143	Office Worker ♂	Savir		
+tree	144	Office Worker ♂	Harding		
+tree	145	Office Worker ♀	Darrel		
+tree	146	Office Worker ♀	Jana		
+tree	147	Punk Guy	Etta		
+tree	148	Punk Guy	Dustin		
+tree	149	Punk Girl	Zed		
+tree	150	Punk Girl	Edda		
+tree	151	Youth Athlete ♂	Leena		
+tree	152	Youth Athlete ♂	Buddy		
+tree	153	Youth Athlete ♀	Hilario		
+tree	154	Youth Athlete ♀	Thamina		
+tree	155	Rising Star ♂	Dolly		
+tree	156	Rising Star ♂	Erix		
+tree	157	Rising Star ♀	Joaquin		
+tree	158	Rising Star ♀	Marianne		
+tree	159	Sightseer ♂	Alice		
+tree	160	Sightseer ♂	Chen		
+tree	161	Sightseer ♀	Christian		
+tree	162	Sightseer ♀	Ezra		
+tree	163	Janitor	Sika		
+tree	164	Janitor	Paulo		
+tree	165	Worker	Dan		
+tree	166	Worker	Omar		
+tree	167	Gentleman	Mechabob		
+tree	168	Gentleman	Abel		
+tree	169	Madame	Donny		
+tree	170	Madame	Gracie		
+tree	171	Bellhop	Donna		
+tree	172	Bellhop	Gilroy		
+tree	173	Golfer ♂	Patrick		
+tree	174	Golfer ♂	Moe		
+tree	175	Golfer ♀	Bruce		
+tree	176	Golfer ♀	Susanna		
+tree	177	Pokémon Breeder ♂	Lori		
+tree	178	Pokémon Breeder ♂	Colby		
+tree	179	Pokémon Breeder ♀	Danby		
+tree	180	Pokémon Breeder ♀	Izel		
+tree	181	Firefighter	Presta		
+tree	182	Firefighter	Calder		
+tree	183	Cook	Larry		
+tree	184	Cook	Tony		
+tree	185	Collector	Sam		
+tree	186	Collector	Dennis		
+tree	187	Ace Trainer ♂	Horace		
+tree	188	Pokémon Center Lady	Perri		
+tree	189	Veteran ♂	Dooley		
+tree	190	Veteran ♀	Demiathena		
+dp	001	Youngster	Lloyd		
+dp	002	Youngster	Ben		
+dp	003	Youngster	Ezekiel		
+dp	004	Lass	Ebony		
+dp	005	Lass	Jenny		
+dp	006	Lass	Arianna		
+dp	007	School Kid ♂	Chaz		
+dp	008	School Kid ♂	Everett		
+dp	009	School Kid ♂	Lamont		
+dp	010	School Kid ♀	Gloria		
+dp	011	School Kid ♀	Toni		
+dp	012	School Kid ♀	Cecilia		
+dp	013	Rich Boy	Milton		
+dp	014	Rich Boy	Cortez		
+dp	015	Rich Boy	Jaden		
+dp	016	Lady	Camille		
+dp	017	Lady	Tiana		
+dp	018	Lady	Marina		
+dp	019	Camper	Nestor		
+dp	020	Camper	Houston		
+dp	021	Camper	Clark		
+dp	022	Picnicker	Esther		
+dp	023	Picnicker	Nichole		
+dp	024	Picnicker	Martha		
+dp	025	Tuber ♂	Vernon		
+dp	026	Tuber ♂	Clifton		
+dp	027	Tuber ♂	Rick		
+dp	028	Tuber ♀	Ellen		
+dp	029	Tuber ♀	Aimee		
+dp	030	Tuber ♀	Tia		
+dp	031	Guitarist	Arnold		
+dp	032	Guitarist	Marcel		
+dp	033	Guitarist	Irvin		
+dp	034	Idol	Elena		
+dp	035	Idol	Viv		
+dp	036	Idol	Selena		
+dp	037	Pokéfan ♂	Tate		
+dp	038	Pokéfan ♂	Brooks		
+dp	039	Pokéfan ♂	Dusty		
+dp	040	Pokéfan ♀	Brandy		
+dp	041	Pokéfan ♀	Marie		
+dp	042	Pokéfan ♀	Imani		
+dp	043	Waiter	Darin		
+dp	044	Waiter	Duane		
+dp	045	Waiter	Gerard		
+dp	046	Waitress	Carissa		
+dp	047	Waitress	Cassie		
+dp	048	Waitress	Alexia		
+dp	049	Bug Catcher	Fred		
+dp	050	Bug Catcher	Kenyon		
+dp	051	Bug Catcher	Jaleel		
+dp	052	Ninja Boy	Colt		
+dp	053	Ninja Boy	Trever		
+dp	054	Ninja Boy	Will		
+dp	055	Poké Kid	Lillian		
+dp	056	Poké Kid	Ruth		
+dp	057	Poké Kid	Janelle		
+dp	058	Fisherman	Bennett		
+dp	059	Fisherman	Braxton		
+dp	060	Ruin Maniac	Winston		
+dp	061	Ruin Maniac	Gino		
+dp	062	Collector	Jamison		
+dp	063	Collector	Davis		
+dp	064	Parasol Lady	Mikaela		
+dp	065	Parasol Lady	Sharon		
+dp	066	Parasol Lady	Mia		
+dp	067	Beauty	Barbara		
+dp	068	Beauty	Stacy		
+dp	069	Beauty	Alena		
+dp	070	Aroma Lady	Sadie		
+dp	071	Aroma Lady	Kierra		
+dp	072	Aroma Lady	Nikki		
+dp	073	Guitarist	Herbert		
+dp	074	Guitarist	Jimmie		
+dp	075	Bird Keeper	Shayla		
+dp	076	Bird Keeper	Tierra		
+dp	077	Bird Keeper	Elise		
+dp	078	Sailor	Kerry		
+dp	079	Sailor	Reuben		
+dp	080	Hiker	Madison		
+dp	081	Hiker	Don		
+dp	082	Idol	Alana		
+dp	083	Idol	Carla		
+dp	084	Idol	Liliana		
+dp	085	Jogger	Keon		
+dp	086	Jogger	Jovan		
+dp	087	Worker	Kade		
+dp	088	Worker	Antwan		
+dp	089	Rancher	Sheldon		
+dp	090	Rancher	Ezra		
+dp	091	Rancher	Pierce		
+dp	092	Cowgirl	Shawna		
+dp	093	Cowgirl	Annie		
+dp	094	Cowgirl	Rose		
+dp	095	Cameraman	Rory		
+dp	096	Cameraman	Codey		
+dp	097	Cameraman	Sammy		
+dp	098	Reporter	Valeria		
+dp	099	Reporter	Shanice		
+dp	100	Reporter	Callie		
+dp	101	Cyclist ♂	Cordell		
+dp	102	Cyclist ♂	Kaden		
+dp	103	Cyclist ♀	Devin		
+dp	104	Cyclist ♀	Karissa		
+dp	105	Black Belt	Kolby		
+dp	106	Black Belt	Jonas		
+dp	107	Battle Girl	Eva		
+dp	108	Battle Girl	Melinda		
+dp	109	Black Belt	Vaughn		
+dp	110	Black Belt	Irving		
+dp	111	Black Belt	Gene		
+dp	112	Battle Girl	Lorena		
+dp	113	Battle Girl	Pamela		
+dp	114	Battle Girl	Daniela		
+dp	115	Veteran	Santos		
+dp	116	Veteran	Cruz		
+dp	117	Veteran	Leslie		
+dp	118	Socialite	Kate		
+dp	119	Socialite	Chelsie		
+dp	120	Socialite	Brianne		
+dp	121	Psychic ♂	Jasper		
+dp	122	Psychic ♂	Kolton		
+dp	123	Psychic ♂	Stewart		
+dp	124	Psychic ♀	Melody		
+dp	125	Psychic ♀	Aliyah		
+dp	126	Psychic ♀	Tina		
+dp	127	Pokémon Breeder ♂	Nico		
+dp	128	Pokémon Breeder ♂	Pierre		
+dp	129	Pokémon Breeder ♂	Lester		
+dp	130	Pokémon Breeder ♀	Sonia		
+dp	131	Pokémon Breeder ♀	Larissa		
+dp	132	Pokémon Breeder ♀	Kylee		
+dp	133	Gentleman	Grady		
+dp	134	Gentleman	Jackie		
+dp	135	Roughneck	Donnell		
+dp	136	Roughneck	Royce		
+dp	137	Scientist	August		
+dp	138	Scientist	Jerrod		
+dp	139	Clown	Jesse		
+dp	140	Clown	Benito		
+dp	141	Ace Trainer ♂	Myron		
+dp	142	Ace Trainer ♂	Herman		
+dp	143	Ace Trainer ♂	Donnie		
+dp	144	Ace Trainer ♀	Jane		
+dp	145	Ace Trainer ♀	Natalia		
+dp	146	Ace Trainer ♀	Sasha		
+dp	147	Pokémon Ranger ♂	Bradly		
+dp	148	Pokémon Ranger ♂	Cyrus		
+dp	149	Pokémon Ranger ♂	Darrian		
+dp	150	Pokémon Ranger ♀	Breana		
+dp	151	Pokémon Ranger ♀	Kira		
+dp	152	Pokémon Ranger ♀	Macy		
+dp	153	Dragon Tamer	Erich		
+dp	154	Dragon Tamer	Garett		
+dp	155	Dragon Tamer	Rhett		
+dp	156	Dragon Tamer	Codie		
+dp	157	Ace Trainer ♂	Harold		
+dp	158	Ace Trainer ♂	Lincoln		
+dp	159	Ace Trainer ♀	Regina		
+dp	160	Ace Trainer ♀	Alaina		
+dp	161	Youngster	Reese		
+dp	162	Youngster	Tobias		
+dp	163	Lass	Donna		
+dp	164	Lass	Mckenna		
+dp	165	School Kid ♂	Vance		
+dp	166	School Kid ♂	Floyd		
+dp	167	School Kid ♀	Allyson		
+dp	168	School Kid ♀	Ciara		
+dp	169	Rich Boy	Quinten		
+dp	170	Rich Boy	Elmer		
+dp	171	Lady	Kali		
+dp	172	Lady	Christy		
+dp	173	Bug Catcher	Aric		
+dp	174	Bug Catcher	Daulton		
+dp	175	Ninja Boy	Elisha		
+dp	176	Ninja Boy	Josef		
+dp	177	Poké Kid	Juliana		
+dp	178	Poké Kid	Tracy		
+dp	179	Idol	Kari		
+dp	180	Idol	Kyla		
+dp	181	Jogger	Dan		
+dp	182	Jogger	Rico		
+dp	183	Fisherman	Bronson		
+dp	184	Fisherman	Camden		
+dp	185	Ruin Maniac	Rocky		
+dp	186	Ruin Maniac	Trace		
+dp	187	Collector	Jim		
+dp	188	Collector	Josh		
+dp	189	Guitarist	Tayler		
+dp	190	Guitarist	Tory		
+dp	191	Bird Keeper	Skylar		
+dp	192	Bird Keeper	Paula		
+dp	193	Sailor	Bernard		
+dp	194	Sailor	Hugh		
+dp	195	Hiker	Jessy		
+dp	196	Hiker	Stetson		
+dp	197	Policeman	Tyron		
+dp	198	Policeman	Rex		
+dp	199	PI	Quincy		
+dp	200	PI	Emmett		
+dp	201	Camper	Justyn		
+dp	202	Camper	Leland		
+dp	203	Picnicker	Serena		
+dp	204	Picnicker	Kyra		
+dp	205	Guitarist	Markell		
+dp	206	Guitarist	Marquez		
+dp	207	Idol	Maranda		
+dp	208	Idol	Claudia		
+dp	209	Pokéfan ♂	Ted		
+dp	210	Pokéfan ♂	Cecil		
+dp	211	Pokéfan ♀	Selina		
+dp	212	Pokéfan ♀	Carley		
+dp	213	Rancher	Kellen		
+dp	214	Rancher	Alton		
+dp	215	Cowgirl	Margot		
+dp	216	Cowgirl	Sophie		
+dp	217	Pokémon Breeder ♂	Blair		
+dp	218	Pokémon Breeder ♂	Harvey		
+dp	219	Pokémon Breeder ♀	Emilee		
+dp	220	Pokémon Breeder ♀	Tiffani		
+dp	221	Ace Trainer ♂	Ellis		
+dp	222	Ace Trainer ♂	Lionel		
+dp	223	Ace Trainer ♀	Irene		
+dp	224	Ace Trainer ♀	Abbey		
+dp	225	Ace Trainer ♂	Dallin		
+dp	226	Ace Trainer ♂	Jayden		
+dp	227	Ace Trainer ♀	Cortney		
+dp	228	Ace Trainer ♀	Celina		
+dp	229	Pokémon Ranger ♂	Denver		
+dp	230	Pokémon Ranger ♂	Rusty		
+dp	231	Pokémon Ranger ♀	Darcy		
+dp	232	Pokémon Ranger ♀	Joy		
+dp	233	Dragon Tamer	Alonso		
+dp	234	Dragon Tamer	Hernan		
+dp	235	Black Belt	Benny		
+dp	236	Black Belt	Daron		
+dp	237	Battle Girl	Sylvia		
+dp	238	Battle Girl	Kristy		
+dp	239	Veteran	Mikel		
+dp	240	Veteran	Antony		
+dp	241	Socialite	Mayra		
+dp	242	Socialite	Kailey		
+dp	243	Psychic ♂	Clyde		
+dp	244	Psychic ♂	Gunner		
+dp	245	Psychic ♀	Clara		
+dp	246	Psychic ♀	Alma		
+dp	247	Waiter	Kelby		
+dp	248	Waiter	Kevon		
+dp	249	Waitress	Kaila		
+dp	250	Waitress	Jaime		
+dp	251	Cameraman	Barrett		
+dp	252	Cameraman	Jess		
+dp	253	Reporter	Johanna		
+dp	254	Reporter	Josie		
+dp	255	Cyclist ♂	Demetri		
+dp	256	Cyclist ♂	Lyle		
+dp	257	Cyclist ♀	Kristi		
+dp	258	Cyclist ♀	Mariana		
+dp	259	PI	Auston		
+dp	260	PI	Coby		
+dp	261	Idol	Sidney		
+dp	262	Idol	Elaine		
+dp	263	Jogger	Sherman		
+dp	264	Jogger	Ryne		
+dp	265	Fisherman	Turner		
+dp	266	Fisherman	Bryon		
+dp	267	Sailor	Cain		
+dp	268	Sailor	Kegan		
+dp	269	Hiker	Aldo		
+dp	270	Hiker	Andreas		
+dp	271	Ruin Maniac	Jaylin		
+dp	272	Ruin Maniac	Titus		
+dp	273	Guitarist	Tyrell		
+dp	274	Guitarist	Dalvin		
+dp	275	Collector	Edmund		
+dp	276	Collector	Kelton		
+dp	277	Roughneck	Brant		
+dp	278	Roughneck	Aidan		
+dp	279	Scientist	Carlo		
+dp	280	Scientist	Jarred		
+dp	281	Gentleman	Jerrell		
+dp	282	Gentleman	Kennedy		
+dp	283	Worker	Hans		
+dp	284	Worker	Layne		
+dp	285	Clown	River		
+dp	286	Clown	Kendel		
+dp	287	Policeman	Kenton		
+dp	288	Policeman	Tavon		
+dp	289	PI	Chester		
+dp	290	PI	Codi		
+dp	291	Bird Keeper	Allie		
+dp	292	Bird Keeper	Anissa		
+dp	293	Parasol Lady	Christa		
+dp	294	Parasol Lady	Madelyn		
+dp	295	Beauty	Jaclyn		
+dp	296	Beauty	Noelle		
+dp	297	Aroma Lady	Haylee		
+dp	298	Aroma Lady	Nadia		
+dp	299	Idol	Yvette		
+dp	300	Idol	Tasha		
+swsh	0	Youngster	Benedict		
+swsh	1	Youngster	Marko		
+swsh	2	Youngster	Brent		
+swsh	3	Lass	Ellie		
+swsh	4	Lass	Ava		
+swsh	5	Lass	Moira		
+swsh	6	Schoolboy	Finley		
+swsh	7	Schoolboy	Reu		
+swsh	8	Schoolboy	Theodore		
+swsh	9	Schoolgirl	Zara		
+swsh	10	Schoolgirl	Dusk		
+swsh	11	Schoolgirl	Holly		
+swsh	12	Poké Kid ♂	Albert		
+swsh	13	Poké Kid ♂	Blake		
+swsh	14	Poké Kid ♂	Robin		
+swsh	15	Poké Kid ♀	Alex		
+swsh	16	Poké Kid ♀	Dromena		
+swsh	17	Poké Kid ♀	Penelope		
+swsh	18	Office Worker ♂	Clarence		
+swsh	19	Office Worker ♂	Stanley		
+swsh	20	Office Worker ♂	Hugo		
+swsh	21	Office Worker ♀	Sayla		
+swsh	22	Office Worker ♀	Orla		
+swsh	23	Office Worker ♀	Thea		
+swsh	24	Youngster	Stan		
+swsh	25	Youngster	Brenner		
+swsh	26	Lass	Kushi		
+swsh	27	Lass	Darcie		
+swsh	28	Schoolboy	Bon		
+swsh	29	Schoolboy	Albie		
+swsh	30	Schoolgirl	Sienna		
+swsh	31	Schoolgirl	Silky		
+swsh	32	Poké Kid ♂	Fero		
+swsh	33	Poké Kid ♂	Avit		
+swsh	34	Poké Kid ♀	Kaelie		
+swsh	35	Poké Kid ♀	Katherine		
+swsh	36	Office Worker ♂	Diego		
+swsh	37	Office Worker ♂	Patton		
+swsh	38	Office Worker ♀	Stella		
+swsh	39	Office Worker ♀	Krysia		
+swsh	40	Pokémon Breeder ♂	Matthew		
+swsh	41	Pokémon Breeder ♂	Winslow		
+swsh	42	Pokémon Breeder ♀	Waylin		
+swsh	43	Pokémon Breeder ♀	Therme		
+swsh	44	Worker ♂	Columban		
+swsh	45	Worker ♂	Egbert		
+swsh	46	Worker ♀	Rikke		
+swsh	47	Worker ♀	Isabelle		
+swsh	48	Black Belt	Mornix		
+swsh	49	Black Belt	Tsapeli		
+swsh	50	Hiker	Jung		
+swsh	51	Hiker	Graymond		
+swsh	52	Backpacker	Celinda		
+swsh	53	Backpacker	Ajani		
+swsh	54	Cabbie	Feng		
+swsh	55	Cabbie	Daltz		
+swsh	56	Fisher	Maggie		
+swsh	57	Fisher	Bate		
+swsh	58	Police Officer	Nick		
+swsh	59	Police Officer	Booker		
+swsh	60	Model	Astraea		
+swsh	61	Model	Berti		
+swsh	62	Café Master	Finn		
+swsh	63	Café Master	Vassallo		
+swsh	64	Madame	Isla		
+swsh	65	Madame	Laguna		
+swsh	66	Musician	Gig		
+swsh	67	Musician	Jay		
+swsh	68	Dancer	Tricia		
+swsh	69	Dancer	Tiff		
+swsh	70	Youngster	Noel		
+swsh	71	Lass	Maya		
+swsh	72	Schoolboy	York		
+swsh	73	Schoolgirl	Gelete		
+swsh	74	Poké Kid ♂	Savvas		
+swsh	75	Poké Kid ♀	Madi		
+swsh	76	Office Worker ♂	Keanu		
+swsh	77	Office Worker ♀	Hertz		
+swsh	78	Pokémon Breeder ♂	Raise		
+swsh	79	Pokémon Breeder ♀	Madlyn		
+swsh	80	Worker ♂	Cornelius		
+swsh	81	Worker ♀	Ann		
+swsh	82	League Staff ♂	Davis		
+swsh	83	League Staff ♀	Oratoria		
+swsh	84	Doctor ♂	Wenson		
+swsh	85	Doctor ♀	Lia		
+swsh	86	Artist	Elwood		
+swsh	87	Beauty	Mika		
+swsh	88	Gentleman	Wellington		
+swsh	89	Madame	Fairamay		
+swsh	90	Schoolboy	McKinzie		
+swsh	91	Schoolboy	Walden		
+swsh	92	Schoolgirl	Waldna		
+swsh	93	Schoolgirl	Rennie		
+swsh	94	Poké Kid ♂	Curon		
+swsh	95	Poké Kid ♂	Cadet		
+swsh	96	Poké Kid ♀	Agila		
+swsh	97	Poké Kid ♀	Laelia		
+swsh	98	Office Worker ♂	Freeman		
+swsh	99	Office Worker ♂	Marvo		
+swsh	100	Office Worker ♀	Prudence		
+swsh	101	Office Worker ♀	Russet		
+swsh	102	Rail Staff	Gunter		
+swsh	103	Rail Staff	Frost		
+swsh	104	Cook	Tayster		
+swsh	105	Cook	Brodo		
+swsh	106	Worker ♂	Alby		
+swsh	107	Worker ♂	Ultan		
+swsh	108	Worker ♀	Cyl		
+swsh	109	Worker ♀	Mason		
+swsh	110	League Staff ♂	Claus		
+swsh	111	League Staff ♂	Harvey		
+swsh	112	League Staff ♀	Aya		
+swsh	113	League Staff ♀	Rachael		
+swsh	114	Cameraman	North		
+swsh	115	Cameraman	Selmer		
+swsh	116	Reporter	Sayen		
+swsh	117	Reporter	Narra		
+swsh	118	Model	Trinn		
+swsh	119	Model	Nebula		
+swsh	120	Café Master	Heaton		
+swsh	121	Café Master	Rister		
+swsh	122	Backpacker	Crawly		
+swsh	123	Office Worker ♀	Lila		
+swsh	124	Musician	Desmond		
+swsh	125	Musician	Civaro		
+swsh	126	Dancer	Rondo		
+swsh	127	Dancer	Haily		
+swsh	128	Police Officer	Blau		
+swsh	129	Police Officer	Sheriff		
+swsh	130	Beauty	Ghia		
+swsh	131	Beauty	Rita		
+swsh	132	Youngster	Nasser		
+swsh	133	Youngster	Bartholomew		
+swsh	134	Lass	Laramie		
+swsh	135	Lass	Mindy		
+swsh	136	Postman	Townsend		
+swsh	137	Postman	Walker		
+swsh	138	Doctor ♂	Fingal		
+swsh	139	Doctor ♂	Niel		
+swsh	140	Doctor ♀	Angie		
+swsh	141	Doctor ♀	Gracia		
+swsh	142	Cabbie	Nav		
+swsh	143	Cabbie	Tosh		
+swsh	144	Pokémon Breeder ♀	Rei		
+swsh	145	Pokémon Breeder ♀	Greta		
+swsh	146	Pokémon Breeder ♂	Chad		
+swsh	147	Pokémon Breeder ♂	Reese		
+swsh	148	Gentleman	Wilde		
+swsh	149	Gentleman	Rich		
+swsh	150	Madame	Navin		
+swsh	151	Madame	Tansy		
+swsh	152	Artist	Anselm		
+swsh	153	Artist	Hardy		
+swsh	154	Black Belt	Ulster		
+swsh	155	Black Belt	Wotson		
+swsh	156	Black Belt	Goodwin		
+swsh	157	Fisher	Adrienne		
+swsh	158	Fisher	Chelsea		
+swsh	159	Hiker	Torren		
+swsh	160	Hiker	Gram		
+swsh	161	Hiker	Nat		
+swsh	162	Backpacker	Ulva		
+swsh	163	Backpacker	Polly		
+swsh	164	League Staff ♂	Lazlo		
+swsh	165	League Staff ♀	Allegra		
+swsh	166	Youngster	Ander		
+swsh	167	Lass	Hestia		
+swsh	168	Poké Kid ♂	Alan		
+swsh	169	Poké Kid ♀	Eva		
+swsh	170	Police Officer	Cooper		
+swsh	171	Beauty	Becka		

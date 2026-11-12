@@ -1,0 +1,951 @@
+jeu	n° de fiche	n° national	forme	nom	objet	attaque1	attaque2	attaque3	attaque4	nature	EV PV	Atq	Déf	ASp	DSp	Vit
+dp	1	1	0	Bulbasaur	Bright Powder	Razor Leaf	Take Down	Sleep Powder	Sweet Scent	Adamant	255	255	-	-	-	-
+dp	2	4	0	Charmander	Scope Lens	Fire Fang	Metal Claw	Smokescreen	Scary Face	Adamant	255	255	-	-	-	-
+dp	3	7	0	Squirtle	Focus Band	Aqua Jet	Bite	Withdraw	Protect	Adamant	255	255	-	-	-	-
+dp	4	152	0	Chikorita	Bright Powder	Secret Power	Bullet Seed	Growl	Light Screen	Adamant	255	255	-	-	-	-
+dp	5	155	0	Cyndaquil	Focus Sash	Flame Wheel	Swift	Quick Attack	Smokescreen	Docile	255	-	-	255	-	-
+dp	6	158	0	Totodile	Scope Lens	Slash	Water Pulse	Screech	Scary Face	Bashful	255	-	-	255	-	-
+dp	7	252	0	Treecko	Big Root	Mega Drain	Aerial Ace	Flash	Double Team	Quirky	255	-	-	255	-	-
+dp	8	255	0	Torchic	Shuca Berry	Fire Spin	Quick Attack	Sand Attack	Double Team	Lonely	255	-	-	255	-	-
+dp	9	258	0	Mudkip	Rindo Berry	Whirlpool	Endeavor	Mud Sport	Mud-Slap	Docile	255	-	-	255	-	-
+dp	10	387	0	Turtwig	Occa Berry	Grass Knot	Bite	Curse	Withdraw	Adamant	255	255	-	-	-	-
+dp	11	390	0	Chimchar	Passho Berry	Ember	Fury Swipes	Nasty Plot	Fake Out	Hardy	-	255	-	255	-	-
+dp	12	393	0	Piplup	Wacan Berry	Bubble Beam	Peck	Growl	Mist	Modest	255	-	-	255	-	-
+dp	13	401	0	Kricketot	Sticky Barb	Bide	Growl	-	-	Impish	170	-	170	-	170	-
+dp	14	440	0	Happiny	Lucky Punch	Sweet Kiss	Pound	Refresh	Charm	Adamant	255	-	255	-	-	-
+dp	15	412	0	Burmy	Choice Scarf	Tackle	Protect	-	-	Adamant	255	255	-	-	-	-
+dp	16	292	0	Shedinja	Lax Incense	Shadow Sneak	Confuse Ray	X-Scissor	Sand Attack	Brave	-	255	-	-	-	255
+dp	17	396	0	Starly	Sharp Beak	Wing Attack	Quick Attack	Growl	Endeavor	Adamant	-	255	-	-	-	255
+dp	18	415	0	Combee	Quick Claw	Sweet Scent	Gust	-	-	Modest	-	-	-	255	-	255
+dp	19	399	0	Bidoof	Focus Band	Headbutt	Pluck	Growl	Yawn	Adamant	-	255	-	-	-	255
+dp	20	403	0	Shinx	King’s Rock	Spark	Bite	Roar	Leer	Hardy	-	255	-	-	-	255
+dp	21	420	0	Cherubi	Occa Berry	Magical Leaf	Leech Seed	Helping Hand	Take Down	Modest	-	-	-	255	-	255
+dp	22	406	0	Budew	Big Root	Mega Drain	Stun Spore	Growth	Worry Seed	Timid	-	-	-	255	-	255
+dp	23	433	0	Chingling	Grip Claw	Wrap	Confusion	Uproar	Growl	Docile	-	255	-	255	-	-
+dp	24	447	0	Riolu	Expert Belt	Force Palm	Counter	Foresight	Screech	Adamant	-	-	-	255	-	255
+dp	25	438	0	Bonsly	Passho Berry	Fake Tears	Rock Throw	Copycat	Low Kick	Careful	255	255	-	-	-	-
+dp	26	353	0	Shuppet	Rawst Berry	Will-O-Wisp	Shadow Sneak	Grudge	Knock Off	Adamant	255	255	-	-	-	-
+dp	27	355	0	Duskull	Spell Tag	Shadow Sneak	Will-O-Wisp	Disable	Confuse Ray	Quirky	255	-	-	-	-	255
+dp	28	37	0	Vulpix	Focus Sash	Will-O-Wisp	Confuse Ray	Fire Spin	Quick Attack	Modest	255	-	-	255	-	-
+dp	29	25	0	Pikachu	Light Ball	Thunder Punch	Thunder Wave	Double Team	Quick Attack	Docile	-	255	-	-	-	255
+dp	30	27	0	Sandshrew	Soft Sand	Dig	Rock Tomb	Sandstorm	Sand Attack	Adamant	255	255	-	-	-	-
+dp	31	74	0	Geodude	Focus Band	Magnitude	Rock Blast	Strength	Protect	Brave	255	255	-	-	-	-
+dp	32	147	0	Dratini	Persim Berry	Outrage	Thunder Wave	Supersonic	Water Pulse	Docile	255	-	-	255	-	-
+dp	33	209	0	Snubbull	Scope Lens	Bite	Charm	Swagger	Scary Face	Brave	255	255	-	-	-	-
+dp	34	223	0	Remoraid	Petaya Berry	Bubble Beam	Aurora Beam	Psybeam	Protect	Quirky	-	-	-	255	-	255
+dp	35	246	0	Larvitar	Persim Berry	Thrash	Rock Slide	Dig	Dragon Dance	Naughty	255	255	-	-	-	-
+dp	36	343	0	Baltoy	Twisted Spoon	Psybeam	Ancient Power	Light Screen	Mud-Slap	Naughty	-	255	-	255	-	-
+dp	37	361	0	Snorunt	King’s Rock	Icy Wind	Headbutt	Leer	Bite	Brave	255	255	-	-	-	-
+dp	38	371	0	Bagon	Liechi Berry	Dragon Breath	Headbutt	Brick Break	Scary Face	Naughty	255	255	-	-	-	-
+dp	39	436	0	Bronzor	Sitrus Berry	Confusion	Hypnosis	Confuse Ray	Gyro Ball	Hardy	-	255	-	255	-	-
+dp	40	443	0	Gible	Soft Sand	Dragon Rage	Dig	Sand Tomb	Sand Attack	Brave	255	255	-	-	-	-
+dp	41	453	0	Croagunk	Black Sludge	Poison Jab	Mud-Slap	Taunt	Swagger	Adamant	255	255	-	-	-	-
+dp	42	48	0	Venonat	Sitrus Berry	Psybeam	Supersonic	Stun Spore	Skill Swap	Relaxed	255	-	-	255	-	-
+dp	43	66	0	Machop	Scope Lens	Seismic Toss	Revenge	Rock Tomb	Scary Face	Adamant	255	255	-	-	-	-
+dp	44	238	0	Smoochum	Bright Powder	Sweet Kiss	Sing	Confusion	Fake Out	Docile	255	-	-	255	-	-
+dp	45	318	0	Carvanha	Shell Bell	Bite	Screech	Scary Face	Swagger	Quiet	255	-	-	255	-	-
+dp	46	322	0	Numel	Lax Incense	Ember	Magnitude	Rock Tomb	Sandstorm	Hardy	255	255	-	-	-	-
+dp	47	341	0	Corphish	Mystic Water	Crabhammer	Water Pulse	Vise Grip	Protect	Brave	255	-	-	255	-	-
+dp	48	84	0	Doduo	Liechi Berry	Fury Attack	Uproar	Quick Attack	Feint Attack	Lonely	255	-	-	-	-	255
+dp	49	333	0	Swablu	Mental Herb	Take Down	Dream Eater	Sing	Attract	Lonely	-	255	-	255	-	-
+dp	50	431	0	Glameow	Quick Claw	Fake Out	Fury Swipes	Captivate	Attract	Hardy	255	255	-	-	-	-
+dp	51	439	0	Mime Jr.	Lax Incense	Copycat	Confusion	Barrier	Light Screen	Bold	255	-	255	-	-	-
+dp	52	79	0	Slowpoke	Sitrus Berry	Confusion	Disable	Water Pulse	Yawn	Brave	255	-	-	255	-	-
+dp	53	43	0	Oddish	Pecha Berry	Acid	Stun Spore	Sweet Scent	Moonlight	Relaxed	255	255	-	-	-	-
+dp	54	54	0	Psyduck	Persim Berry	Confusion	Fury Swipes	Aerial Ace	Disable	Hasty	-	255	-	255	-	-
+dp	55	104	0	Cubone	Soft Sand	Bone Club	Headbutt	Brick Break	Aerial Ace	Adamant	255	255	-	-	-	-
+dp	56	118	0	Goldeen	Petaya Berry	Waterfall	Fury Attack	Agility	Psybeam	Docile	255	-	-	255	-	-
+dp	57	177	0	Natu	Twisted Spoon	Night Shade	Future Sight	Ominous Wind	Flash	Relaxed	255	-	-	255	-	-
+dp	58	35	0	Clefairy	Lax Incense	Follow Me	Return	Encore	Sing	Lonely	255	255	-	-	-	-
+dp	59	81	0	Magnemite	Rawst Berry	Shock Wave	Supersonic	Metal Sound	Reflect	Gentle	-	-	-	255	-	255
+dp	60	86	0	Seel	Aspear Berry	Aurora Beam	Dive	Encore	Fake Out	Hardy	255	-	-	255	-	-
+dp	61	88	0	Grimer	Black Sludge	Sludge	Rock Tomb	Acid Armor	Minimize	Adamant	170	-	170	-	170	-
+dp	62	98	0	Krabby	Focus Sash	Crabhammer	Mud Shot	Flail	Knock Off	Adamant	255	255	-	-	-	-
+dp	63	102	0	Exeggcute	Persim Berry	Confusion	Ancient Power	Leech Seed	Light Screen	Naughty	255	-	-	255	-	-
+dp	64	133	0	Eevee	Salac Berry	Charm	Attract	Flail	Endure	Docile	255	-	-	-	-	255
+dp	65	422	0	Shellos	Lax Incense	Water Pulse	Mud-Slap	Harden	Rain Dance	Relaxed	170	-	170	-	170	-
+dp	66	96	0	Drowzee	Sitrus Berry	Confusion	Headbutt	Disable	Barrier	Quirky	255	255	-	-	-	-
+dp	67	434	0	Stunky	Poison Barb	Poison Gas	Fury Swipes	Screech	Smokescreen	Hardy	-	-	-	-	-	-
+dp	68	100	0	Voltorb	Lax Incense	Spark	Screech	Rollout	Light Screen	Docile	255	-	-	255	-	-
+dp	69	170	0	Chinchou	Lax Incense	Spark	Bubble Beam	Confuse Ray	Take Down	Hardy	-	255	-	255	-	-
+dp	70	216	0	Teddiursa	Chesto Berry	Secret Power	Fake Tears	Feint Attack	Rest	Relaxed	255	255	-	-	-	-
+dp	71	225	0	Delibird	Never-Melt Ice	Present	Ice Ball	Aerial Ace	Hail	Docile	255	-	-	255	-	-
+dp	72	228	0	Houndour	Charcoal	Crunch	Ember	Roar	Protect	Docile	255	-	-	255	-	-
+dp	73	231	0	Phanpy	Lax Incense	Rollout	Defense Curl	Rock Tomb	Sandstorm	Naughty	255	255	-	-	-	-
+dp	74	304	0	Aron	Metal Coat	Metal Claw	Aerial Ace	Metal Sound	Roar	Docile	255	255	-	-	-	-
+dp	75	325	0	Spoink	Sitrus Berry	Psywave	Bounce	Magic Coat	Confuse Ray	Relaxed	255	-	-	255	-	-
+dp	76	370	0	Luvdisc	Quick Claw	Sweet Kiss	Attract	Water Pulse	Rain Dance	Relaxed	255	-	-	255	-	-
+dp	77	418	0	Buizel	Wacan Berry	Aqua Jet	Quick Attack	Pursuit	Growl	Jolly	-	255	-	-	-	255
+dp	78	449	0	Hippopotas	Passho Berry	Bite	Sand Attack	Sand Tomb	Yawn	Brave	255	255	-	-	-	-
+dp	79	451	0	Skorupi	Payapa Berry	Poison Sting	Bite	Scary Face	Toxic Spikes	Impish	255	-	-	-	255	-
+dp	80	456	0	Finneon	Wave Incense	Water Pulse	Silver Wind	Attract	Aqua Ring	Modest	-	-	-	255	-	255
+dp	81	459	0	Snover	Icy Rock	Razor Leaf	Icy Wind	Grass Whistle	Hail	Relaxed	255	-	255	-	-	-
+dp	82	72	0	Tentacool	Pecha Berry	Bubble Beam	Acid	Barrier	Wrap	Hardy	255	255	-	-	-	-
+dp	83	331	0	Cacnea	Sitrus Berry	Needle Arm	Feint Attack	Cotton Spore	Sand Attack	Quirky	255	255	-	-	-	-
+dp	84	109	0	Koffing	Poison Barb	Sludge	Smokescreen	Torment	Haze	Adamant	255	255	-	-	-	-
+dp	85	120	0	Staryu	Shell Bell	Bubble Beam	Minimize	Swift	Light Screen	Modest	255	-	-	255	-	-
+dp	86	188	0	Skiploom	Big Root	Mega Drain	Confusion	Cotton Spore	Synthesis	Modest	255	-	-	255	-	-
+dp	87	271	0	Lombre	Yache Berry	Water Pulse	Fake Out	Brick Break	Absorb	Quirky	255	255	-	-	-	-
+dp	88	274	0	Nuzleaf	Sitrus Berry	Extrasensory	Fake Out	Razor Wind	Feint Attack	Hardy	-	255	-	255	-	-
+dp	89	329	0	Vibrava	Cheri Berry	Dragon Breath	Dig	Screech	Rock Tomb	Quirky	255	255	-	-	-	-
+dp	90	397	0	Staravia	Charti Berry	Endeavor	Aerial Ace	Whirlwind	Quick Attack	Adamant	-	255	-	-	-	255
+dp	91	111	0	Rhyhorn	Focus Band	Rock Blast	Dig	Scary Face	Roar	Adamant	170	170	170	-	-	-
+dp	92	366	0	Clamperl	Deep Sea Scale	Toxic	Protect	Iron Defense	Double Team	Modest	170	-	170	-	170	-
+dp	93	458	0	Mantyke	Bright Powder	Bubble Beam	Agility	Aqua Ring	Confuse Ray	Bold	255	-	255	-	-	-
+dp	94	425	0	Drifloon	Grip Claw	Ominous Wind	Constrict	Gust	Astonish	Quirky	-	-	255	-	255	-
+dp	95	17	0	Pidgeotto	White Herb	Aerial Ace	Quick Attack	Feather Dance	Sand Attack	Adamant	255	255	-	-	-	-
+dp	96	58	0	Growlithe	Shuca Berry	Flame Wheel	Bite	Roar	Agility	Adamant	255	255	-	-	-	-
+dp	97	408	0	Cranidos	King’s Rock	Headbutt	Pursuit	Scary Face	Leer	Adamant	255	255	-	-	-	-
+dp	98	410	0	Shieldon	Focus Sash	Take Down	Protect	Iron Defense	Metal Sound	Sassy	255	-	-	-	255	-
+dp	99	427	0	Buneary	Black Belt	Jump Kick	Quick Attack	Charm	Splash	Adamant	-	255	-	-	-	255
+dp	100	83	0	Farfetch’d	Leek	Slash	Knock Off	Swords Dance	Agility	Relaxed	170	-	170	-	170	-
+dp	101	138	0	Omanyte	Sitrus Berry	Mud Shot	Water Gun	Ancient Power	Tickle	Quirky	255	-	-	255	-	-
+dp	102	140	0	Kabuto	Sitrus Berry	Mega Drain	Ancient Power	Sand Attack	Protect	Hardy	-	255	-	255	-	-
+dp	103	345	0	Lileep	Lax Incense	Ancient Power	Acid	Ingrain	Confuse Ray	Docile	255	255	-	-	-	-
+dp	104	347	0	Anorith	Scope Lens	Metal Claw	Fury Cutter	Ancient Power	Water Gun	Adamant	255	255	-	-	-	-
+dp	105	190	0	Aipom	Silk Scarf	Fury Swipes	Sand Attack	Baton Pass	Agility	Relaxed	255	255	-	-	-	-
+dp	106	239	0	Elekid	Cheri Berry	Thunder Punch	Quick Attack	Swift	Light Screen	Naive	255	255	-	-	-	-
+dp	107	294	0	Loudred	Focus Band	Stomp	Howl	Astonish	Supersonic	Relaxed	255	255	-	-	-	-
+dp	108	327	0	Spinda	Silk Scarf	Dizzy Punch	Teeter Dance	Psybeam	Feint Attack	Relaxed	255	255	-	-	-	-
+dp	109	404	0	Luxio	Magnet	Spark	Bite	Roar	Swagger	Adamant	-	255	-	-	-	255
+dp	110	30	0	Nidorina	Focus Band	Double Kick	Bite	Aerial Ace	Flatter	Adamant	255	255	-	-	-	-
+dp	111	33	0	Nidorino	Focus Band	Double Kick	Water Pulse	Toxic Spikes	Flatter	Quirky	255	255	-	-	-	-
+dp	112	180	0	Flaaffy	Shuca Berry	Shock Wave	Thunder Wave	Cotton Spore	Light Screen	Mild	255	-	-	255	-	-
+dp	113	240	0	Magby	Lax Incense	Fire Punch	Smokescreen	Confuse Ray	Smog	Adamant	255	255	-	-	-	-
+dp	114	299	0	Nosepass	Hard Stone	Rock Slide	Shock Wave	Thunder Wave	Sandstorm	Sassy	255	-	-	-	255	-
+dp	115	222	0	Corsola	Focus Sash	Bubble Beam	Mirror Coat	Attract	Ancient Power	Impish	170	-	170	-	170	-
+dp	116	301	0	Delcatty	Sitrus Berry	Secret Power	Feint Attack	Double Team	Heal Bell	Lonely	255	255	-	-	-	-
+dp	117	302	0	Sableye	Black Glasses	Feint Attack	Confuse Ray	Knock Off	Fake Out	Lonely	255	255	-	-	-	-
+dp	118	303	0	Mawile	Bright Powder	Crunch	Fake Tears	Iron Defense	Baton Pass	Adamant	255	255	-	-	-	-
+dp	119	402	0	Kricketune	Metronome	Fury Cutter	Leech Life	Sing	Growl	Adamant	-	255	-	-	-	255
+dp	120	12	0	Butterfree	Pecha Berry	Silver Wind	Psybeam	Toxic	Whirlwind	Modest	255	-	-	255	-	-
+dp	121	15	0	Beedrill	Scope Lens	Twineedle	Pursuit	Endeavor	Agility	Naughty	-	255	-	-	-	255
+dp	122	61	0	Poliwhirl	Petaya Berry	Water Pulse	Double Slap	Hypnosis	Rain Dance	Quirky	255	-	-	255	-	-
+dp	123	95	0	Onix	Sitrus Berry	Rock Slide	Bind	Dragon Breath	Sandstorm	Adamant	170	-	170	-	170	-
+dp	124	108	0	Lickitung	Sitrus Berry	Slam	Brick Break	Lick	Screech	Adamant	255	255	-	-	-	-
+dp	125	267	0	Beautifly	Mental Herb	Silver Wind	Mega Drain	Attract	Whirlwind	Modest	255	-	-	-	-	255
+dp	126	269	0	Dustox	Silver Powder	Silver Wind	Toxic	Psybeam	Whirlwind	Modest	255	-	-	-	-	255
+dp	127	70	0	Weepinbell	Scope Lens	Razor Leaf	Acid	Wrap	Sweet Scent	Quiet	255	-	-	255	-	-
+dp	128	75	0	Graveler	Focus Band	Magnitude	Rock Throw	Defense Curl	Brick Break	Adamant	170	170	-	-	170	-
+dp	129	166	0	Ledian	Focus Band	Comet Punch	Baton Pass	Swords Dance	Agility	Bashful	-	255	-	-	-	255
+dp	130	168	0	Ariados	Occa Berry	Signal Beam	Spider Web	Night Shade	Toxic	Adamant	255	255	-	-	-	-
+dp	131	193	0	Yanma	Lax Incense	Signal Beam	Aerial Ace	Double Team	Detect	Relaxed	-	-	255	-	255	-
+dp	132	446	0	Munchlax	Sitrus Berry	Metronome	Recycle	Stockpile	Swallow	Relaxed	-	-	255	-	255	-
+dp	133	44	0	Gloom	Persim Berry	Petal Dance	Acid	Stun Spore	Moonlight	Modest	255	-	-	255	-	-
+dp	134	137	0	Porygon	Sitrus Berry	Psybeam	Signal Beam	Recycle	Agility	Relaxed	255	-	-	255	-	-
+dp	135	64	0	Kadabra	Twisted Spoon	Confusion	Role Play	Future Sight	Disable	Modest	255	-	255	-	-	-
+dp	136	313	0	Volbeat	Liechi Berry	Silver Wind	Confuse Ray	Quick Attack	Helping Hand	Quirky	-	255	-	-	-	255
+dp	137	314	0	Illumise	Liechi Berry	Silver Wind	Wish	Quick Attack	Helping Hand	Quirky	255	255	-	-	-	-
+dp	138	315	0	Roselia	Black Sludge	Magical Leaf	Toxic	Grass Whistle	Cotton Spore	Modest	255	-	255	-	-	-
+dp	139	320	0	Wailmer	Mystic Water	Whirlpool	Roar	Defense Curl	Rollout	Docile	-	-	255	-	255	-
+dp	140	47	0	Parasect	Sticky Barb	Slash	Psybeam	Stun Spore	Flash	Rash	-	-	255	-	255	-
+dp	141	67	0	Machoke	Focus Band	Low Kick	Rock Tomb	Foresight	Scary Face	Adamant	255	255	-	-	-	-
+dp	142	93	0	Haunter	Persim Berry	Shadow Punch	Confuse Ray	Spite	Grudge	Rash	255	255	-	-	-	-
+dp	143	176	0	Togetic	Lax Incense	Aerial Ace	Magical Leaf	Wish	Follow Me	Relaxed	255	-	255	-	-	-
+dp	144	198	0	Murkrow	Wacan Berry	Feint Attack	Fly	Torment	Taunt	Adamant	170	-	170	-	170	-
+dp	145	202	0	Wobbuffet	Focus Sash	Counter	Mirror Coat	Charm	Safeguard	Careful	170	-	170	-	170	-
+dp	146	311	0	Plusle	Petaya Berry	Spark	Fake Tears	Quick Attack	Helping Hand	Docile	255	-	255	-	-	-
+dp	147	312	0	Minun	Salac Berry	Spark	Charm	Encore	Helping Hand	Docile	255	-	255	-	-	-
+dp	148	417	0	Pachirisu	Shuca Berry	Discharge	Sweet Kiss	Quick Attack	Charm	Modest	-	-	-	255	-	255
+dp	149	77	0	Ponyta	Passho Berry	Fire Spin	Bounce	Take Down	Tail Whip	Adamant	255	255	-	-	-	-
+dp	150	184	0	Azumarill	Sitrus Berry	Bubble Beam	Facade	Dig	Protect	Docile	-	-	255	-	255	-
+dp	151	2	0	Ivysaur	Persim Berry	Petal Dance	Growth	Sweet Scent	Take Down	Gentle	255	-	-	255	-	-
+dp	152	5	0	Charmeleon	Scope Lens	Slash	Fire Spin	Swords Dance	Aerial Ace	Naughty	255	255	-	-	-	-
+dp	153	8	0	Wartortle	Focus Band	Aqua Tail	Bite	Rapid Spin	Yawn	Adamant	255	255	-	-	-	-
+dp	154	153	0	Bayleef	Bright Powder	Razor Leaf	Toxic	Safeguard	Light Screen	Docile	255	-	-	255	-	-
+dp	155	156	0	Quilava	Focus Band	Flame Wheel	Fury Swipes	Swift	Smokescreen	Adamant	255	255	-	-	-	-
+dp	156	159	0	Croconaw	Scope Lens	Slash	Water Pulse	Bite	Scary Face	Docile	-	255	-	255	-	-
+dp	157	253	0	Grovyle	Bright Powder	Fury Cutter	Endeavor	Brick Break	Double Team	Relaxed	255	255	-	-	-	-
+dp	158	256	0	Combusken	Scope Lens	Ember	Double Kick	Quick Attack	Sand Attack	Docile	-	255	-	255	-	-
+dp	159	259	0	Marshtomp	Focus Band	Mud Shot	Water Gun	Rock Tomb	Mud-Slap	Hardy	-	255	-	255	-	-
+dp	160	388	0	Grotle	Big Root	Mega Drain	Bite	Leech Seed	Synthesis	Hardy	-	-	-	-	-	-
+dp	161	391	0	Monferno	Coba Berry	Mach Punch	Feint	Torment	U-turn	Hardy	-	255	-	-	-	255
+dp	162	394	0	Prinplup	Wacan Berry	Whirlpool	Metal Claw	Peck	Double Team	Bashful	170	-	170	-	170	-
+dp	163	185	0	Sudowoodo	Hard Stone	Rock Slide	Feint Attack	Sandstorm	Block	Hardy	255	-	-	-	255	-
+dp	164	219	0	Magcargo	Lax Incense	Rock Slide	Ember	Acid Armor	Sandstorm	Gentle	255	-	-	-	255	-
+dp	165	247	0	Pupitar	Soft Sand	Dig	Bite	Scary Face	Sandstorm	Adamant	255	255	-	-	-	-
+dp	166	364	0	Sealeo	Icy Rock	Ice Ball	Hail	Snore	Rest	Relaxed	170	-	170	-	170	-
+dp	167	400	0	Bibarel	Power Herb	Take Down	Dig	Water Pulse	Yawn	Quirky	-	255	-	255	-	-
+dp	168	444	0	Gabite	Yache Berry	Dragon Rage	Take Down	Sand Attack	Roar	Hardy	-	255	-	255	-	-
+dp	169	441	0	Chatot	Yache Berry	Chatter	Torment	Sing	U-turn	Bashful	-	-	-	255	-	255
+dp	170	20	0	Raticate	Silk Scarf	Endeavor	Pursuit	Scary Face	Quick Attack	Naive	170	170	-	-	-	170
+dp	171	284	0	Masquerain	Cheri Berry	Silver Wind	Aerial Ace	Ominous Wind	Stun Spore	Relaxed	-	255	255	-	-	-
+dp	172	162	0	Furret	Liechi Berry	Slam	Protect	Helping Hand	Follow Me	Serious	-	-	255	-	255	-
+dp	173	206	0	Dunsparce	Lax Incense	Headbutt	Glare	Defense Curl	Rollout	Docile	255	255	-	-	-	-
+dp	174	421	0	Cherrim	Miracle Seed	Petal Dance	Worry Seed	Leech Seed	Sunny Day	Hardy	-	-	255	-	255	-
+dp	175	148	0	Dragonair	Cheri Berry	Dragon Breath	Leer	Wrap	Safeguard	Docile	255	-	-	-	255	-
+dp	176	262	0	Mightyena	Mental Herb	Bite	Poison Fang	Taunt	Roar	Timid	-	255	-	255	-	-
+dp	177	264	0	Linoone	White Herb	Secret Power	Sand Attack	Covet	Tickle	Adamant	255	255	-	-	-	-
+dp	178	351	0	Castform	Persim Berry	Ember	Water Pulse	Shock Wave	Weather Ball	Hasty	255	-	-	255	-	-
+dp	179	372	0	Shelgon	Cheri Berry	Headbutt	Dragon Breath	Protect	Scary Face	Hardy	170	170	-	-	170	-
+dp	180	375	0	Metang	Focus Band	Metal Claw	Confusion	Pursuit	Scary Face	Hardy	-	255	-	-	255	-
+dp	181	413	0	Wormadam	Coba Berry	Razor Leaf	Psybeam	Protect	Captivate	Modest	-	-	255	255	-	-
+dp	182	414	0	Mothim	Coba Berry	Psybeam	Gust	Poison Powder	Camouflage	Modest	-	-	-	255	-	255
+dp	183	40	0	Wigglytuff	Silk Scarf	Sing	Disable	Wish	Secret Power	Relaxed	-	-	255	-	255	-
+dp	184	192	0	Sunflora	Persim Berry	Petal Dance	Ingrain	Leech Seed	Light Screen	Quirky	255	-	255	-	-	-
+dp	185	358	0	Chimecho	Twisted Spoon	Psywave	Take Down	Heal Bell	Safeguard	Sassy	255	-	-	255	-	-
+dp	186	207	0	Gligar	Scope Lens	Metal Claw	Dig	Aerial Ace	Quick Attack	Hasty	255	-	-	-	255	-
+dp	187	211	0	Qwilfish	Cheri Berry	Bubble Beam	Pin Missile	Spikes	Minimize	Impish	-	-	-	255	255	-
+dp	188	215	0	Sneasel	Persim Berry	Feint Attack	Fake Out	Icy Wind	Quick Attack	Relaxed	170	-	170	-	170	-
+dp	189	277	0	Swellow	King’s Rock	Fly	Endeavor	Facade	Quick Attack	Adamant	255	-	-	-	255	-
+dp	190	279	0	Pelipper	Sitrus Berry	Water Pulse	Aerial Ace	Stockpile	Swallow	Quiet	255	-	-	-	255	-
+dp	191	305	0	Lairon	Metal Coat	Metal Claw	Rock Tomb	Iron Defense	Protect	Sassy	255	-	-	-	255	-
+dp	192	114	0	Tangela	Lax Incense	Mega Drain	Slam	Toxic	Bind	Hardy	255	-	-	-	255	-
+dp	193	200	0	Misdreavus	Focus Band	Pain Split	Shadow Ball	Confuse Ray	Thunder Wave	Impish	255	-	255	-	-	-
+dp	194	24	0	Arbok	Persim Berry	Poison Fang	Dig	Bite	Glare	Adamant	255	255	-	-	-	-
+dp	195	53	0	Persian	Silk Scarf	Fake Out	Slash	Torment	Swagger	Quirky	170	-	170	-	170	-
+dp	196	117	0	Seadra	Mystic Water	Aurora Beam	Smokescreen	Water Gun	Rain Dance	Sassy	255	-	-	255	-	-
+dp	197	288	0	Vigoroth	Focus Band	Slash	Counter	Encore	Uproar	Lonely	255	255	-	-	-	-
+dp	198	337	0	Lunatone	Sitrus Berry	Confusion	Cosmic Power	Light Screen	Sandstorm	Quiet	255	-	255	-	-	-
+dp	199	338	0	Solrock	Sitrus Berry	Confusion	Fire Spin	Light Screen	Sandstorm	Quiet	255	-	-	-	255	-
+dp	200	352	0	Kecleon	Focus Band	Secret Power	Psybeam	Magic Coat	Shadow Sneak	Naive	170	170	170	-	-	-
+dp	201	479	0	Rotom	Cheri Berry	Thunder Shock	Astonish	Thunder Wave	Confuse Ray	Modest	-	-	-	255	-	255
+dp	202	22	0	Fearow	Sharp Beak	Drill Peck	Tri Attack	Facade	Roost	Adamant	-	255	-	-	-	255
+dp	203	164	0	Noctowl	Persim Berry	Confusion	Aerial Ace	Feint Attack	Reflect	Relaxed	255	-	255	-	-	-
+dp	204	28	0	Sandslash	Sitrus Berry	Crush Claw	Rock Slide	Swift	Sandstorm	Adamant	255	-	-	-	255	-
+dp	205	49	0	Venomoth	Persim Berry	Silver Wind	Psybeam	Sleep Powder	Skill Swap	Quirky	255	-	-	-	-	255
+dp	206	113	0	Chansey	Sitrus Berry	Metronome	Refresh	Defense Curl	Minimize	Relaxed	-	-	255	-	255	-
+dp	207	119	0	Seaking	Sitrus Berry	Water Pulse	Psybeam	Poison Jab	Agility	Docile	255	-	-	-	255	-
+dp	208	189	0	Jumpluff	Lax Incense	Aerial Ace	Swagger	Psych Up	Synthesis	Docile	255	-	-	-	-	255
+dp	209	221	0	Piloswine	Soft Sand	Ice Fang	Ancient Power	Hail	Light Screen	Quirky	255	255	-	-	-	-
+dp	210	432	0	Purugly	Silk Scarf	Slash	Feint Attack	Attract	Fake Out	Hardy	-	255	-	-	-	255
+dp	211	455	0	Carnivine	Rose Incense	Vine Whip	Bite	Sweet Scent	Ingrain	Sassy	170	-	170	-	170	-
+dp	212	42	0	Golbat	Scope Lens	Air Cutter	Confuse Ray	Toxic	Steel Wing	Relaxed	255	255	-	-	-	-
+dp	213	57	0	Primeape	Scope Lens	Karate Chop	Counter	Swagger	Screech	Quirky	170	-	170	-	170	-
+dp	214	106	0	Hitmonlee	Black Belt	Rolling Kick	Brick Break	Focus Energy	Facade	Adamant	255	-	255	-	-	-
+dp	215	107	0	Hitmonchan	King’s Rock	Mach Punch	Sky Uppercut	Detect	Counter	Adamant	255	-	255	-	-	-
+dp	216	203	0	Girafarig	Petaya Berry	Psybeam	Stomp	Wish	Skill Swap	Quiet	255	-	-	255	-	-
+dp	217	237	0	Hitmontop	Liechi Berry	Triple Kick	Dig	Mach Punch	Quick Attack	Hardy	255	255	-	-	-	-
+dp	218	354	0	Banette	Rawst Berry	Night Shade	Will-O-Wisp	Spite	Knock Off	Sassy	170	-	170	-	170	-
+dp	219	356	0	Dusclops	Leftovers	Will-O-Wisp	Shadow Sneak	Pain Split	Confuse Ray	Impish	170	-	170	-	170	-
+dp	220	291	0	Ninjask	Petaya Berry	Baton Pass	Swords Dance	Endure	Dig	Mild	170	-	170	-	170	-
+dp	221	335	0	Zangoose	Persim Berry	Slash	Double Kick	Roar	Quick Attack	Hardy	255	255	-	-	-	-
+dp	222	336	0	Seviper	Scope Lens	Poison Tail	Bite	Glare	Screech	Hardy	255	255	-	-	-	-
+dp	223	85	0	Dodrio	Chesto Berry	Drill Peck	Tri Attack	Sleep Talk	Rest	Adamant	-	255	-	-	-	255
+dp	224	319	0	Sharpedo	Scope Lens	Slash	Bite	Water Pulse	Scary Face	Adamant	-	255	-	-	255	-
+dp	225	323	0	Camerupt	Focus Band	Magnitude	Protect	Sandstorm	Rock Slide	Quirky	255	255	-	-	-	-
+dp	226	357	0	Tropius	Sitrus Berry	Magical Leaf	Whirlwind	Aerial Ace	Steel Wing	Hardy	255	255	-	-	-	-
+dp	227	457	0	Lumineon	Rindo Berry	Water Gun	Gust	Captivate	U-turn	Modest	-	-	-	255	-	255
+dp	228	82	0	Magneton	Cheri Berry	Shock Wave	Sonic Boom	Thunder Wave	Supersonic	Lonely	-	-	-	255	-	255
+dp	229	226	0	Mantine	Mystic Water	Bubble Beam	Aerial Ace	Rain Dance	Psybeam	Docile	255	-	-	-	255	-
+dp	230	234	0	Stantler	Twisted Spoon	Extrasensory	Confuse Ray	Stomp	Sand Attack	Gentle	255	-	-	255	-	-
+dp	231	317	0	Swalot	Lax Incense	Stockpile	Swallow	Spit Up	Sludge	Quirky	-	-	255	-	255	-
+dp	232	342	0	Crawdaunt	Persim Berry	Bubble Beam	Vise Grip	Knock Off	Protect	Adamant	170	-	170	-	170	-
+dp	233	18	0	Pidgeot	Sharp Beak	Aerial Ace	Feather Dance	Sand Attack	Feint Attack	Hardy	255	255	-	-	-	-
+dp	234	178	0	Xatu	Sharp Beak	Drill Peck	Night Shade	Wish	Future Sight	Hardy	170	170	-	170	-	-
+dp	235	324	0	Torkoal	Sitrus Berry	Ember	Fire Spin	Smokescreen	Amnesia	Relaxed	255	-	-	-	255	-
+dp	236	326	0	Grumpig	Petaya Berry	Psybeam	Confuse Ray	Future Sight	Magic Coat	Relaxed	255	-	-	255	-	-
+dp	237	36	0	Clefable	Leftovers	Metronome	Double Team	Reflect	Follow Me	Brave	-	-	255	-	255	-
+dp	238	99	0	Kingler	Scope Lens	Crabhammer	Metal Claw	Mud Shot	Protect	Hardy	255	-	-	-	255	-
+dp	239	332	0	Cacturne	Scope Lens	Needle Arm	Feint Attack	Acid	Revenge	Hasty	255	-	-	-	-	255
+dp	240	182	0	Bellossom	Persim Berry	Petal Dance	Safeguard	Sunny Day	Synthesis	Quiet	255	-	-	255	-	-
+dp	241	224	0	Octillery	Shell Bell	Octazooka	Aurora Beam	Psybeam	Rock Blast	Hardy	-	255	-	255	-	-
+dp	242	367	0	Huntail	Persim Berry	Whirlpool	Scary Face	Screech	Bite	Quiet	255	255	-	-	-	-
+dp	243	368	0	Gorebyss	Persim Berry	Whirlpool	Amnesia	Captivate	Confusion	Brave	255	-	-	255	-	-
+dp	244	369	0	Relicanth	Liechi Berry	Ancient Power	Water Pulse	Harden	Amnesia	Sassy	170	-	-	170	170	-
+dp	245	125	0	Electabuzz	Cheri Berry	Thunderbolt	Thunder Wave	Brick Break	Light Screen	Relaxed	170	-	170	170	-	-
+dp	246	126	0	Magmar	Rawst Berry	Flamethrower	Smokescreen	Brick Break	Barrier	Relaxed	170	-	170	170	-	-
+dp	247	139	0	Omastar	Shell Bell	Bubble Beam	Spike Cannon	Tickle	Ancient Power	Quirky	255	-	-	255	-	-
+dp	248	141	0	Kabutops	Scope Lens	Slash	Dig	Night Slash	Metal Sound	Adamant	255	255	-	-	-	-
+dp	249	123	0	Scyther	Liechi Berry	Fury Cutter	Aerial Ace	Light Screen	Double Team	Relaxed	255	255	-	-	-	-
+dp	250	91	0	Cloyster	Never-Melt Ice	Aurora Beam	Spike Cannon	Supersonic	Protect	Sassy	255	-	-	-	255	-
+dp	251	2	0	Ivysaur	Bright Powder	Giga Drain	Sludge Bomb	Sleep Powder	Leech Seed	Modest	255	-	-	255	-	-
+dp	252	5	0	Charmeleon	Scope Lens	Flamethrower	Slash	Ancient Power	Dragon Rage	Hardy	-	255	-	-	-	255
+dp	253	8	0	Wartortle	Shell Bell	Surf	Ice Beam	Rapid Spin	Protect	Docile	255	-	-	255	-	-
+dp	254	153	0	Bayleef	Chesto Berry	Giga Drain	Body Slam	Grass Whistle	Rest	Docile	170	-	170	-	170	-
+dp	255	156	0	Quilava	Bright Powder	Flamethrower	Crush Claw	Quick Attack	Smokescreen	Docile	-	255	-	255	-	-
+dp	256	159	0	Croconaw	Focus Band	Crunch	Aerial Ace	Rock Slide	Dig	Adamant	255	255	-	-	-	-
+dp	257	253	0	Grovyle	Lum Berry	Giga Drain	Crush Claw	Screech	Rock Tomb	Docile	-	255	-	-	-	255
+dp	258	256	0	Combusken	Scope Lens	Flamethrower	Sky Uppercut	Slash	Sand Attack	Docile	-	170	-	170	-	170
+dp	259	259	0	Marshtomp	Focus Band	Muddy Water	Earthquake	Mud-Slap	Protect	Adamant	-	255	-	255	-	-
+dp	260	388	0	Grotle	Occa Berry	Giga Drain	Crunch	Flash	Synthesis	Quiet	255	-	-	255	-	-
+dp	261	391	0	Monferno	Muscle Band	Close Combat	Fire Spin	Aerial Ace	Rock Slide	Adamant	-	255	-	-	-	255
+dp	262	394	0	Prinplup	Quick Claw	Surf	Drill Peck	Metal Claw	Hail	Bashful	-	255	-	255	-	-
+dp	263	185	0	Sudowoodo	Focus Band	Double-Edge	Earthquake	Low Kick	Self-Destruct	Adamant	255	255	-	-	-	-
+dp	264	219	0	Magcargo	Quick Claw	Overheat	Earthquake	Rock Slide	Body Slam	Quiet	-	255	-	255	-	-
+dp	265	247	0	Pupitar	Chople Berry	Earthquake	Rock Slide	Crunch	Scary Face	Adamant	255	255	-	-	-	-
+dp	266	364	0	Sealeo	Sitrus Berry	Ice Beam	Surf	Body Slam	Hail	Quiet	255	-	-	255	-	-
+dp	267	400	0	Bibarel	Shell Bell	Hyper Fang	Super Fang	Superpower	Yawn	Adamant	-	255	-	-	-	255
+dp	268	444	0	Gabite	Muscle Band	Dragon Claw	Slash	Earthquake	Sand Tomb	Hardy	-	255	-	-	-	255
+dp	269	441	0	Chatot	Silk Scarf	Chatter	Hyper Voice	Sing	Feather Dance	Modest	-	-	-	255	-	255
+dp	270	20	0	Raticate	Focus Band	Super Fang	Hyper Fang	Shadow Ball	Scary Face	Bashful	-	170	-	170	-	170
+dp	271	284	0	Masquerain	Lax Incense	Hydro Pump	Ice Beam	Energy Ball	Stun Spore	Quiet	-	-	-	255	-	255
+dp	272	162	0	Furret	Choice Band	Trick	Frustration	Shadow Ball	Follow Me	Adamant	-	255	-	-	-	255
+dp	273	206	0	Dunsparce	Quick Claw	Ice Beam	Rock Tomb	Bite	Shadow Ball	Quiet	-	-	255	-	255	-
+dp	274	421	0	Cherrim	Power Herb	Solar Beam	Sunny Day	Helping Hand	Lucky Chant	Modest	255	-	-	255	-	-
+dp	275	148	0	Dragonair	Chesto Berry	Return	Rest	Thunder Wave	Dragon Dance	Adamant	255	-	-	-	255	-
+dp	276	262	0	Mightyena	Chople Berry	Crunch	Shadow Ball	Sucker Punch	Assurance	Quirky	-	-	255	255	-	-
+dp	277	264	0	Linoone	Choice Band	Trick	Frustration	Thunder Wave	Sand Attack	Jolly	-	255	-	-	-	255
+dp	278	351	0	Castform	Wise Glasses	Thunderbolt	Flamethrower	Ice Beam	Water Pulse	Modest	255	-	-	255	-	-
+dp	279	372	0	Shelgon	Focus Band	Frustration	Dragon Dance	Crunch	Scary Face	Adamant	170	-	170	-	170	-
+dp	280	375	0	Metang	Shuca Berry	Meteor Mash	Psychic	Bullet Punch	Scary Face	Quirky	255	-	-	255	-	-
+dp	281	413	0	Wormadam	Coba Berry	Giga Drain	Psychic	Attract	Captivate	Modest	-	-	255	255	-	-
+dp	282	414	0	Mothim	Coba Berry	Bug Buzz	Psychic	Air Slash	Poison Powder	Quirky	-	170	-	170	-	170
+dp	283	40	0	Wigglytuff	Sitrus Berry	Fake Tears	Sing	Dream Eater	Brick Break	Docile	-	-	255	-	255	-
+dp	284	192	0	Sunflora	Leftovers	Giga Drain	Grass Whistle	Growth	Double Team	Quiet	255	-	255	-	-	-
+dp	285	358	0	Chimecho	Twisted Spoon	Psychic	Hypnosis	Dream Eater	Heal Bell	Quiet	170	-	170	-	170	-
+dp	286	207	0	Gligar	Quick Claw	Earthquake	Aerial Ace	Guillotine	Screech	Adamant	255	-	-	-	255	-
+dp	287	211	0	Qwilfish	Focus Band	Revenge	Sludge Bomb	Shadow Ball	Destiny Bond	Adamant	255	-	-	-	255	-
+dp	288	215	0	Sneasel	King’s Rock	Crush Claw	Brick Break	Aerial Ace	Screech	Jolly	170	-	170	-	-	170
+dp	289	277	0	Swellow	King’s Rock	Facade	Aerial Ace	Pursuit	Double Team	Adamant	255	-	-	-	255	-
+dp	290	279	0	Pelipper	Shell Bell	Surf	Blizzard	Aerial Ace	Protect	Quiet	255	-	-	-	255	-
+dp	291	305	0	Lairon	Sitrus Berry	Earthquake	Iron Tail	Roar	Protect	Sassy	255	-	-	-	255	-
+dp	292	114	0	Tangela	Chesto Berry	Giga Drain	Stun Spore	Rest	Amnesia	Calm	255	-	-	-	255	-
+dp	293	200	0	Misdreavus	Leftovers	Psychic	Attract	Thunder Wave	Confuse Ray	Bold	-	-	255	255	-	-
+dp	294	24	0	Arbok	Lum Berry	Sludge Bomb	Earthquake	Iron Tail	Glare	Adamant	255	-	255	-	-	-
+dp	295	53	0	Persian	Silk Scarf	Frustration	Shadow Ball	Roar	Fake Out	Quirky	170	-	170	-	170	-
+dp	296	117	0	Seadra	Shell Bell	Hydro Pump	Frustration	Dragon Breath	Dragon Dance	Docile	255	-	-	-	255	-
+dp	297	288	0	Vigoroth	Salac Berry	Crush Claw	Reversal	Endure	Shadow Ball	Adamant	-	255	-	-	255	-
+dp	298	337	0	Lunatone	Lax Incense	Psychic	Ice Beam	Cosmic Power	Calm Mind	Quiet	255	-	255	-	-	-
+dp	299	338	0	Solrock	White Herb	Earthquake	Rock Slide	Cosmic Power	Overheat	Hardy	255	-	-	-	255	-
+dp	300	352	0	Kecleon	Choice Band	Trick	Brick Break	Shadow Ball	Skill Swap	Docile	255	-	255	-	-	-
+dp	301	479	0	Rotom	Magnet	Discharge	Ominous Wind	Thunder Wave	Double Team	Modest	-	-	-	255	-	255
+dp	302	22	0	Fearow	Focus Band	Drill Peck	Tri Attack	Attract	Pursuit	Adamant	-	255	-	-	-	255
+dp	303	164	0	Noctowl	Persim Berry	Psychic	Feint Attack	Aerial Ace	Reflect	Quiet	-	-	255	255	-	-
+dp	304	28	0	Sandslash	Quick Claw	Earthquake	Rock Slide	Crush Claw	Sandstorm	Adamant	255	-	-	-	255	-
+dp	305	49	0	Venomoth	Lum Berry	Signal Beam	Psychic	Sludge Bomb	Giga Drain	Docile	255	-	-	-	-	255
+dp	306	113	0	Chansey	Lucky Punch	Sing	Egg Bomb	Soft-Boiled	Focus Punch	Impish	255	-	255	-	-	-
+dp	307	119	0	Seaking	Quick Claw	Megahorn	Poison Jab	Horn Drill	Aqua Ring	Hardy	255	255	-	-	-	-
+dp	308	189	0	Jumpluff	Big Root	Giga Drain	Sleep Powder	Synthesis	U-turn	Modest	255	-	-	255	-	-
+dp	309	221	0	Piloswine	Muscle Band	Ice Fang	Earthquake	Ancient Power	Stone Edge	Adamant	255	255	-	-	-	-
+dp	310	432	0	Purugly	Black Glasses	Payback	Shadow Claw	Attract	Fake Out	Hardy	255	255	-	-	-	-
+dp	311	455	0	Carnivine	Occa Berry	Power Whip	Wring Out	Crunch	Flash	Hardy	170	-	170	-	170	-
+dp	312	42	0	Golbat	Black Sludge	Poison Fang	Air Slash	Confuse Ray	Roost	Adamant	-	255	-	-	-	255
+dp	313	57	0	Primeape	Expert Belt	Cross Chop	Earthquake	Stone Edge	Aerial Ace	Adamant	-	255	-	-	-	255
+dp	314	106	0	Hitmonlee	Focus Sash	Close Combat	Blaze Kick	Earthquake	Stone Edge	Adamant	-	255	-	-	-	255
+dp	315	107	0	Hitmonchan	King’s Rock	Close Combat	Mach Punch	Detect	Counter	Adamant	255	-	255	-	-	-
+dp	316	203	0	Girafarig	Lum Berry	Psychic	Crunch	Baton Pass	Agility	Modest	-	-	255	-	255	-
+dp	317	237	0	Hitmontop	Focus Band	Gyro Ball	Rolling Kick	Rock Slide	Counter	Adamant	255	-	255	-	-	-
+dp	318	354	0	Banette	Lax Incense	Shadow Ball	Frustration	Screech	Will-O-Wisp	Adamant	-	-	255	-	255	-
+dp	319	356	0	Dusclops	Leftovers	Toxic	Confuse Ray	Double Team	Protect	Impish	170	-	170	-	170	-
+dp	320	291	0	Ninjask	Focus Band	Slash	Shadow Ball	Swords Dance	Baton Pass	Quirky	170	-	170	-	170	-
+dp	321	335	0	Zangoose	Scope Lens	Crush Claw	Shadow Ball	Brick Break	Aerial Ace	Adamant	-	255	-	-	-	255
+dp	322	336	0	Seviper	Quick Claw	Sludge Bomb	Earthquake	Crunch	Giga Drain	Quirky	170	-	170	-	170	-
+dp	323	85	0	Dodrio	King’s Rock	Drill Peck	Tri Attack	Feint Attack	Protect	Adamant	-	255	-	-	-	255
+dp	324	319	0	Sharpedo	Scope Lens	Double-Edge	Crunch	Earthquake	Surf	Quirky	-	170	-	170	-	170
+dp	325	323	0	Camerupt	Lax Incense	Earthquake	Eruption	Body Slam	Growl	Quirky	-	255	-	255	-	-
+dp	326	357	0	Tropius	Focus Band	Solar Beam	Sunny Day	Synthesis	Body Slam	Quiet	-	255	-	255	-	-
+dp	327	457	0	Lumineon	Shell Bell	Surf	Silver Wind	Attract	Aqua Ring	Modest	-	-	-	255	-	255
+dp	328	82	0	Magneton	Lum Berry	Thunder	Rain Dance	Thunder Wave	Metal Sound	Hardy	255	-	-	-	255	-
+dp	329	226	0	Mantine	Shell Bell	Surf	Ice Beam	Rain Dance	Confuse Ray	Modest	255	-	255	-	-	-
+dp	330	234	0	Stantler	Lax Incense	Frustration	Shadow Ball	Thunder Wave	Confuse Ray	Adamant	-	255	-	-	-	255
+dp	331	317	0	Swalot	Leftovers	Sludge Bomb	Shadow Ball	Body Slam	Yawn	Adamant	255	255	-	-	-	-
+dp	332	342	0	Crawdaunt	Quick Claw	Guillotine	Frustration	Ancient Power	Aerial Ace	Adamant	255	-	-	-	255	-
+dp	333	18	0	Pidgeot	Scope Lens	Secret Power	Aerial Ace	Steel Wing	U-turn	Adamant	-	255	-	-	-	255
+dp	334	178	0	Xatu	Leftovers	Fly	Toxic	Confuse Ray	Attract	Impish	170	-	170	-	170	-
+dp	335	324	0	Torkoal	White Herb	Overheat	Body Slam	Smokescreen	Protect	Sassy	255	-	-	-	255	-
+dp	336	326	0	Grumpig	Petaya Berry	Psychic	Confuse Ray	Future Sight	Magic Coat	Relaxed	255	-	-	255	-	-
+dp	337	36	0	Clefable	Focus Band	Meteor Mash	Cosmic Power	Double Team	Follow Me	Adamant	-	255	255	-	-	-
+dp	338	99	0	Kingler	Salac Berry	Guillotine	Rock Tomb	Flail	Endure	Adamant	255	-	-	-	255	-
+dp	339	332	0	Cacturne	Persim Berry	Payback	Teeter Dance	Feint Attack	Sandstorm	Hardy	-	-	255	-	255	-
+dp	340	182	0	Bellossom	Bright Powder	Solar Beam	Attract	Sunny Day	Synthesis	Modest	-	-	255	255	-	-
+dp	341	224	0	Octillery	Lax Incense	Octazooka	Fire Blast	Gunk Shot	Thunder Wave	Quirky	170	-	170	-	170	-
+dp	342	367	0	Huntail	Shell Bell	Surf	Rain Dance	Crunch	Body Slam	Quiet	255	-	-	-	255	-
+dp	343	368	0	Gorebyss	Shell Bell	Surf	Rain Dance	Psychic	Body Slam	Quiet	255	-	-	-	255	-
+dp	344	369	0	Relicanth	Chesto Berry	Earthquake	Rock Slide	Amnesia	Rest	Sassy	255	-	-	-	255	-
+dp	345	125	0	Electabuzz	Leftovers	Thunder	Rain Dance	Attract	Focus Punch	Quirky	-	170	-	170	-	170
+dp	346	126	0	Magmar	Quick Claw	Fire Blast	Smokescreen	Thunder Punch	Confuse Ray	Modest	-	-	-	255	-	255
+dp	347	139	0	Omastar	Sitrus Berry	Hydro Pump	Rain Dance	Ice Beam	Protect	Modest	255	-	-	-	255	-
+dp	348	141	0	Kabutops	Salac Berry	Slash	Rock Slide	Flail	Endure	Adamant	-	255	-	-	255	-
+dp	349	123	0	Scyther	Bright Powder	Silver Wind	Aerial Ace	Swords Dance	Double Team	Adamant	-	255	-	-	-	255
+dp	350	91	0	Cloyster	Leftovers	Whirlpool	Toxic	Double Team	Protect	Careful	255	-	-	-	255	-
+dp	351	3	0	Venusaur	Power Herb	Skull Bash	Worry Seed	Earthquake	Return	Brave	-	255	-	-	255	-
+dp	352	6	0	Charizard	Charti Berry	Flamethrower	Sunny Day	Focus Blast	Ancient Power	Modest	-	-	-	255	-	255
+dp	353	9	0	Blastoise	Iron Ball	Double Team	Focus Punch	Aqua Jet	Gyro Ball	Brave	255	255	-	-	-	-
+dp	354	154	0	Meganium	Leftovers	Giga Drain	Leech Seed	Toxic	Substitute	Calm	170	-	170	-	170	-
+dp	355	157	0	Typhlosion	Wide Lens	Will-O-Wisp	Focus Blast	Double Team	Fire Blast	Hardy	-	-	-	255	-	255
+dp	356	160	0	Feraligatr	King’s Rock	Scary Face	Waterfall	Rock Slide	Ice Fang	Careful	170	-	170	-	170	-
+dp	357	254	0	Sceptile	Leftovers	Leech Seed	Double Team	Toxic	Giga Drain	Bold	170	-	170	-	170	-
+dp	358	257	0	Blaziken	Shell Bell	Aerial Ace	Blaze Kick	Will-O-Wisp	Bulk Up	Docile	127	127	127	-	-	127
+dp	359	260	0	Swampert	Quick Claw	Ancient Power	Muddy Water	Avalanche	Focus Blast	Sassy	-	170	170	170	-	-
+dp	360	389	0	Torterra	Heat Rock	Sunny Day	Synthesis	Solar Beam	Stone Edge	Serious	127	127	127	127	-	-
+dp	361	392	0	Infernape	Coba Berry	Fake Out	Mach Punch	U-turn	Overheat	Quirky	127	127	-	127	-	127
+dp	362	395	0	Empoleon	Chesto Berry	Aqua Ring	Double Team	Whirlpool	Rest	Calm	170	-	170	-	170	-
+dp	363	51	0	Dugtrio	Grip Claw	Sand Tomb	Toxic	Rock Slide	Dig	Jolly	-	255	-	-	-	255
+dp	364	105	0	Marowak	Grip Claw	Sandstorm	Toxic	Bone Rush	Protect	Jolly	-	255	-	-	-	255
+dp	365	308	0	Medicham	Focus Band	Force Palm	Thunder Punch	Rock Slide	Reversal	Jolly	-	255	-	-	-	255
+dp	366	195	0	Quagsire	Leftovers	Body Slam	Rock Slide	Ice Beam	Brick Break	Brave	-	255	-	255	-	-
+dp	367	210	0	Granbull	Razor Claw	Thunder Wave	Bite	Rock Slide	Giga Impact	Brave	255	255	-	-	-	-
+dp	368	124	0	Jynx	Bright Powder	Mean Look	Perish Song	Protect	Lovely Kiss	Bold	170	-	170	-	170	-
+dp	369	122	0	Mr. Mime	Colbur Berry	Double Slap	Meditate	Copycat	Mimic	Hardy	-	-	255	-	255	-
+dp	370	171	0	Lanturn	Rindo Berry	Water Gun	Spark	Attract	Double Team	Bold	170	-	-	170	170	-
+dp	371	286	0	Breloom	Toxic Orb	Protect	Spore	Leech Seed	Double Team	Calm	170	-	170	-	170	-
+dp	372	205	0	Forretress	Occa Berry	Gyro Ball	Counter	Spikes	Mirror Shot	Careful	170	-	170	-	170	-
+dp	373	227	0	Skarmory	Occa Berry	Spikes	Roar	Drill Peck	Double Team	Careful	255	-	-	-	255	-
+dp	374	359	0	Absol	White Herb	Slash	Pursuit	Double Team	Taunt	Calm	-	-	255	-	255	-
+dp	375	340	0	Whiscash	Leftovers	Mud-Slap	Water Pulse	Tickle	Sandstorm	Relaxed	170	-	170	-	170	-
+dp	376	297	0	Hariyama	Bright Powder	Sand Attack	Focus Punch	Rock Tomb	Fake Out	Adamant	255	255	-	-	-	-
+dp	377	416	0	Vespiquen	Razor Claw	Attack Order	Slash	Defend Order	Heal Order	Adamant	255	255	-	-	-	-
+dp	378	26	0	Raichu	Wide Lens	Thunderbolt	Quick Attack	Slam	Iron Tail	Docile	-	255	-	255	-	-
+dp	379	87	0	Dewgong	Razor Fang	Aqua Jet	Ice Shard	Fake Out	Protect	Adamant	-	255	255	-	-	-
+dp	380	310	0	Manectric	Magnet	Spark	Ice Fang	Bite	Howl	Jolly	-	255	-	-	-	255
+dp	381	398	0	Staraptor	King’s Rock	Return	Aerial Ace	Double Team	Roost	Adamant	-	255	-	-	-	255
+dp	382	423	0	Gastrodon	Focus Sash	Mirror Coat	Recover	Waterfall	Earthquake	Careful	255	-	-	-	255	-
+dp	383	435	0	Skuntank	Bright Powder	Swagger	Punishment	Double Team	Poison Gas	Jolly	-	-	255	-	-	255
+dp	384	45	0	Vileplume	Big Root	Poison Powder	Sleep Powder	Stun Spore	Giga Drain	Lax	-	-	255	-	255	-
+dp	385	71	0	Victreebel	Wide Lens	Grass Knot	Wrap	Sleep Powder	Gastro Acid	Jolly	-	-	255	-	-	255
+dp	386	101	0	Electrode	Sitrus Berry	Toxic	Protect	Double Team	Light Screen	Hasty	255	-	-	-	-	255
+dp	387	272	0	Ludicolo	Muscle Band	Waterfall	Razor Leaf	Drain Punch	Swords Dance	Adamant	255	255	-	-	-	-
+dp	388	275	0	Shiftry	Leftovers	Double Team	Leech Seed	Swagger	Synthesis	Bold	-	-	255	-	255	-
+dp	389	295	0	Exploud	Focus Band	Sunny Day	Fire Blast	Solar Beam	Focus Blast	Modest	-	-	170	170	170	-
+dp	390	362	0	Glalie	Iron Ball	Avalanche	Payback	Gyro Ball	Ice Shard	Brave	-	170	170	-	170	-
+dp	391	428	0	Lopunny	Bright Powder	Thunder Wave	Attract	Sweet Kiss	Focus Punch	Careful	255	255	-	-	-	-
+dp	392	478	0	Froslass	Focus Band	Swagger	Psych Up	Ice Fang	Crunch	Adamant	-	255	-	-	-	255
+dp	393	424	0	Ambipom	Bright Powder	Double Team	Baton Pass	Agility	Double Hit	Impish	170	-	170	-	170	-
+dp	394	97	0	Hypno	Leftovers	Thunder Punch	Zen Headbutt	Headbutt	Drain Punch	Relaxed	170	-	170	-	170	-
+dp	395	76	0	Golem	Liechi Berry	Endure	Earthquake	Flail	Rock Tomb	Jolly	-	255	-	-	-	255
+dp	396	112	0	Rhydon	Wise Glasses	Ice Beam	Thunderbolt	Dragon Pulse	Surf	Quiet	-	-	-	255	255	-
+dp	397	80	0	Slowbro	Shell Bell	Thunder Wave	Focus Blast	Avalanche	Surf	Docile	170	170	-	170	-	-
+dp	398	110	0	Weezing	Leftovers	Will-O-Wisp	Double Team	Sludge Bomb	Substitute	Calm	255	-	-	-	255	-
+dp	399	115	0	Kangaskhan	Pecha Berry	Comet Punch	Focus Punch	Mega Punch	Drain Punch	Rash	-	-	-	-	255	255
+dp	400	128	0	Tauros	Lum Berry	Thrash	Zen Headbutt	Earthquake	Giga Impact	Naive	170	-	-	-	170	170
+dp	401	65	0	Alakazam	Iron Ball	Psycho Cut	Disable	Recover	Trick Room	Modest	170	-	170	170	-	-
+dp	402	199	0	Slowking	Wise Glasses	Confusion	Water Pulse	Trick Room	Ice Beam	Bold	170	-	-	170	170	-
+dp	403	241	0	Miltank	Muscle Band	Toxic	Stealth Rock	Protect	Gyro Ball	Bashful	-	-	170	170	-	170
+dp	404	334	0	Altaria	Petaya Berry	Take Down	Pluck	Perish Song	Protect	Careful	170	-	170	170	-	-
+dp	405	454	0	Toxicroak	Black Glasses	Pursuit	Feint Attack	Sucker Punch	Flatter	Modest	-	-	-	255	-	255
+dp	406	460	0	Abomasnow	Scope Lens	Ice Beam	Earthquake	Brick Break	Giga Drain	Mild	255	-	-	255	-	-
+dp	407	31	0	Nidoqueen	Salac Berry	Endure	Brick Break	Aerial Ace	Shadow Claw	Naughty	-	255	-	-	-	255
+dp	408	34	0	Nidoking	Bright Powder	Substitute	Focus Punch	Water Pulse	Horn Drill	Brave	255	255	-	-	-	-
+dp	409	346	0	Cradily	Focus Band	Stockpile	Spit Up	Swallow	Swagger	Careful	255	-	-	-	255	-
+dp	410	348	0	Armaldo	Wide Lens	Toxic	Slash	X-Scissor	Iron Tail	Careful	-	255	-	-	255	-
+dp	411	411	0	Bastiodon	Focus Sash	Metal Burst	Taunt	Swagger	Stone Edge	Hardy	255	-	-	-	255	-
+dp	412	419	0	Floatzel	Destiny Knot	Swift	Quick Attack	Agility	Water Pulse	Bashful	255	-	-	-	-	255
+dp	413	429	0	Mismagius	Colbur Berry	Psywave	Confuse Ray	Perish Song	Mean Look	Lax	-	255	-	255	-	-
+dp	414	426	0	Drifblim	Lum Berry	Hypnosis	Dream Eater	Rest	Charge Beam	Modest	255	-	-	255	-	-
+dp	415	55	0	Golduck	Pecha Berry	Water Sport	Disable	Surf	Brick Break	Jolly	-	170	-	-	170	170
+dp	416	62	0	Poliwrath	Rindo Berry	Surf	Ice Beam	Focus Blast	Mud Bomb	Modest	255	-	-	255	-	-
+dp	417	78	0	Rapidash	Chesto Berry	Sunny Day	Fire Blast	Solar Beam	Rest	Modest	-	-	-	255	-	255
+dp	418	89	0	Muk	Black Sludge	Stockpile	Minimize	Toxic	Focus Punch	Impish	170	-	170	-	170	-
+dp	419	94	0	Gengar	Scope Lens	Shadow Ball	Psychic	Energy Ball	Skill Swap	Modest	-	-	-	255	-	255
+dp	420	181	0	Ampharos	Toxic Orb	Thunder Wave	Facade	Fling	Rest	Mild	-	-	255	-	-	255
+dp	421	186	0	Politoed	Quick Claw	Perish Song	Bounce	Focus Punch	Hypnosis	Impish	255	-	255	-	-	-
+dp	422	127	0	Pinsir	Toxic Orb	Facade	Feint	Earthquake	Swords Dance	Jolly	-	170	-	-	170	170
+dp	423	212	0	Scizor	Shell Bell	Cut	Fury Cutter	Night Slash	Slash	Lonely	170	170	170	-	-	-
+dp	424	214	0	Heracross	Focus Band	Focus Punch	Stone Edge	Swagger	Attract	Relaxed	170	-	170	-	170	-
+dp	425	217	0	Ursaring	Liechi Berry	Hammer Arm	Avalanche	Counter	Payback	Careful	170	-	170	-	170	-
+dp	426	229	0	Houndoom	Focus Sash	Counter	Roar	Crunch	Thunder Fang	Jolly	255	-	-	-	-	255
+dp	427	232	0	Donphan	Lum Berry	Double Team	Rock Polish	Earthquake	Last Resort	Adamant	-	255	-	-	255	-
+dp	428	321	0	Wailord	Wacan Berry	Defense Curl	Rollout	Waterfall	Avalanche	Adamant	170	170	-	-	170	-
+dp	429	344	0	Claydol	Hard Stone	Rock Polish	Earthquake	Rock Slide	Psychic	Hardy	255	-	-	-	-	255
+dp	430	409	0	Rampardos	Persim Berry	Thrash	Headbutt	Zen Headbutt	Head Smash	Adamant	255	255	-	-	-	-
+dp	431	437	0	Bronzong	Twisted Spoon	Trick Room	Dream Eater	Flash Cannon	Hypnosis	Quiet	255	-	-	255	-	-
+dp	432	452	0	Drapion	Rawst Berry	Acupressure	Toxic Spikes	Crunch	Cross Poison	Adamant	-	255	-	-	255	-
+dp	433	405	0	Luxray	Shuca Berry	Charge	Charge Beam	Thunderbolt	Flash	Quiet	-	-	-	170	170	170
+dp	434	38	0	Ninetales	Rawst Berry	Captivate	Disable	Will-O-Wisp	Flamethrower	Timid	-	-	255	-	-	255
+dp	435	68	0	Machamp	Focus Sash	Counter	Revenge	Payback	Earthquake	Adamant	255	255	-	-	-	-
+dp	436	213	0	Shuckle	Chesto Berry	Withdraw	Protect	Swagger	Rest	Calm	-	-	255	-	-	-
+dp	437	407	0	Roserade	Big Root	Leech Seed	Ingrain	Giga Drain	Substitute	Serious	-	255	-	255	-	-
+dp	438	430	0	Honchkrow	Expert Belt	Night Slash	Dark Pulse	Shadow Ball	Payback	Rash	170	-	170	-	-	170
+dp	439	208	0	Steelix	Occa Berry	Thunder Fang	Fire Fang	Ice Fang	Crunch	Bold	-	-	-	255	-	-
+dp	440	461	0	Weavile	Razor Claw	Night Slash	Metal Claw	Slash	Shadow Claw	Brave	255	255	-	-	-	-
+dp	441	472	0	Gliscor	Smooth Rock	Sandstorm	Double Team	Toxic	Dig	Impish	255	-	-	-	255	-
+dp	442	73	0	Tentacruel	Leftovers	Acupressure	Rest	Sleep Talk	Surf	Calm	170	-	170	-	-	170
+dp	443	142	0	Aerodactyl	Leftovers	Swagger	Attract	Rock Slide	Roost	Careful	-	-	170	-	170	170
+dp	444	233	0	Porygon2	Leftovers	Magnet Rise	Conversion	Recover	Charge Beam	Calm	-	-	255	-	255	-
+dp	445	463	0	Lickilicky	Chesto Berry	Belly Drum	Rest	Return	Earthquake	Careful	-	-	255	-	255	-
+dp	446	469	0	Yanmega	Charti Berry	Aerial Ace	Bug Bite	Night Slash	U-turn	Adamant	-	255	-	-	255	-
+dp	447	282	0	Gardevoir	Lum Berry	Psychic	Shadow Ball	Thunder Wave	Confuse Ray	Timid	-	-	-	255	-	255
+dp	448	475	0	Gallade	King’s Rock	Psycho Cut	Poison Jab	Thunder Wave	Confuse Ray	Jolly	-	255	-	-	-	255
+dp	449	103	0	Exeggutor	Leftovers	Curse	Leech Seed	Double Team	Substitute	Calm	255	-	-	-	255	-
+dp	450	121	0	Starmie	Wide Lens	Hydro Pump	Thunder	Blizzard	Light Screen	Quiet	170	-	170	-	170	-
+dp	451	330	0	Flygon	Soft Sand	Sand Attack	Sand Tomb	Sandstorm	Dig	Sassy	-	-	255	255	-	-
+dp	452	134	0	Vaporeon	Leftovers	Aqua Ring	Tail Whip	Acid Armor	Last Resort	Brave	170	170	-	-	-	170
+dp	453	135	0	Jolteon	Leftovers	Thunder Wave	Tail Whip	Sand Attack	Last Resort	Naughty	170	170	-	-	170	-
+dp	454	136	0	Flareon	Leftovers	Will-O-Wisp	Tail Whip	Sand Attack	Last Resort	Lonely	170	170	-	-	-	170
+dp	455	196	0	Espeon	Leftovers	Morning Sun	Tail Whip	Sand Attack	Last Resort	Adamant	170	170	-	-	170	-
+dp	456	197	0	Umbreon	Leftovers	Moonlight	Screech	Double Team	Last Resort	Lonely	170	170	-	-	170	-
+dp	457	470	0	Leafeon	Leftovers	Grass Whistle	Tail Whip	Sand Attack	Last Resort	Naughty	170	170	-	-	-	170
+dp	458	471	0	Glaceon	Leftovers	Mirror Coat	Tail Whip	Sand Attack	Last Resort	Brave	170	170	-	-	170	-
+dp	459	448	0	Lucario	Bright Powder	Dark Pulse	Dragon Pulse	Aura Sphere	Force Palm	Careful	-	170	170	-	-	170
+dp	460	450	0	Hippowdon	Passho Berry	Yawn	Stealth Rock	Roar	Ice Fang	Careful	255	-	-	-	255	-
+dp	461	476	0	Probopass	Rock Incense	Rock Polish	Stealth Rock	Lock-On	Stone Edge	Bashful	255	255	-	-	-	-
+dp	462	477	0	Dusknoir	Ganlon Berry	Curse	Pain Split	Substitute	Protect	Impish	-	-	255	-	255	-
+dp	463	306	0	Aggron	Chople Berry	Rock Polish	Iron Head	Headbutt	Dragon Rush	Jolly	-	255	-	-	-	255
+dp	464	365	0	Walrein	Quick Claw	Curse	Avalanche	Waterfall	Body Slam	Adamant	-	255	-	-	255	-
+dp	465	473	0	Mamoswine	Icy Rock	Hail	Blizzard	Mud Shot	Ancient Power	Modest	-	-	255	-	255	-
+dp	466	131	0	Lapras	Lum Berry	Dragon Dance	Body Slam	Waterfall	Confuse Ray	Adamant	255	255	-	-	-	-
+dp	467	169	0	Crobat	King’s Rock	Bite	Zen Headbutt	Cross Poison	U-turn	Jolly	-	255	-	-	-	255
+dp	468	462	0	Magnezone	Quick Claw	Swagger	Psych Up	Charge Beam	Magnet Bomb	Impish	-	255	255	-	-	-
+dp	469	464	0	Rhyperior	Expert Belt	Rock Wrecker	Ice Beam	Thunderbolt	Flamethrower	Quiet	-	255	-	255	-	-
+dp	470	465	0	Tangrowth	Big Root	Leech Seed	Double Team	Toxic	Giga Drain	Calm	-	-	-	255	255	-
+dp	471	474	0	Porygon-Z	Sitrus Berry	Tri Attack	Shadow Ball	Recycle	Conversion 2	Bold	255	-	255	-	-	-
+dp	472	130	0	Gyarados	Quick Claw	Avalanche	Payback	Endure	Flail	Sassy	170	-	170	-	170	-
+dp	473	143	0	Snorlax	Zoom Lens	Rollout	Defense Curl	Curse	Yawn	Adamant	170	170	170	-	-	-
+dp	474	230	0	Kingdra	Razor Claw	Waterfall	Focus Energy	Dragon Dance	Yawn	Jolly	-	-	255	-	-	255
+dp	475	242	0	Blissey	Leftovers	Counter	Toxic	Soft-Boiled	Double Team	Bold	255	-	255	-	-	-
+dp	476	350	0	Milotic	Salac Berry	Hydro Pump	Dragon Pulse	Recover	Hypnosis	Timid	-	-	255	-	-	255
+dp	477	466	0	Electivire	Cheri Berry	Thunder Punch	Cross Chop	Thunder Wave	Screech	Impish	255	-	255	-	-	-
+dp	478	467	0	Magmortar	White Herb	Overheat	Focus Punch	Confuse Ray	Smokescreen	Brave	-	255	255	-	-	-
+dp	479	468	0	Togekiss	Wide Lens	Extreme Speed	Aerial Ace	Steel Wing	Roost	Adamant	-	255	255	-	-	-
+dp	480	59	0	Arcanine	Lum Berry	Flamethrower	Dragon Pulse	Will-O-Wisp	Extreme Speed	Modest	-	-	-	255	-	255
+dp	481	149	0	Dragonite	Wide Lens	Dragon Rush	Aqua Tail	Iron Tail	Stone Edge	Adamant	255	255	-	-	-	-
+dp	482	248	0	Tyranitar	Expert Belt	Dark Pulse	Ice Beam	Flamethrower	Ancient Power	Modest	255	-	-	255	-	-
+dp	483	373	0	Salamence	Cheri Berry	Fly	Aerial Ace	Steel Wing	Roost	Adamant	255	255	-	-	-	-
+dp	484	376	0	Metagross	Occa Berry	Magnet Rise	Rock Polish	Zen Headbutt	Meteor Mash	Adamant	170	170	-	-	-	170
+dp	485	445	0	Garchomp	Persim Berry	Outrage	Swords Dance	Stealth Rock	Earthquake	Jolly	-	255	-	-	-	255
+dp	486	289	0	Slaking	Sitrus Berry	Counter	Encore	Captivate	Slack Off	Careful	255	-	-	-	255	-
+dp	487	3	0	Venusaur	Big Root	Leech Seed	Ingrain	Giga Drain	Sleep Powder	Bold	170	-	170	-	170	-
+dp	488	6	0	Charizard	Scope Lens	Flare Blitz	Aerial Ace	Crunch	Dragon Claw	Adamant	-	255	-	-	-	255
+dp	489	9	0	Blastoise	Power Herb	Skull Bash	Earthquake	Waterfall	Aqua Jet	Adamant	-	255	-	-	-	255
+dp	490	154	0	Meganium	Occa Berry	Solar Beam	Sunny Day	Synthesis	Ancient Power	Modest	-	-	-	255	-	255
+dp	491	157	0	Typhlosion	Salac Berry	Blast Burn	Earthquake	Endure	Reversal	Docile	-	255	-	255	-	-
+dp	492	160	0	Feraligatr	Wise Glasses	Hydro Pump	Ice Beam	Dragon Pulse	Ancient Power	Modest	-	-	-	255	-	255
+dp	493	254	0	Sceptile	Bright Powder	Energy Ball	Dragon Pulse	Focus Blast	Agility	Timid	-	-	-	255	-	255
+dp	494	257	0	Blaziken	Salac Berry	Endure	Reversal	Sand Attack	Double Team	Jolly	-	255	-	-	-	255
+dp	495	260	0	Swampert	Lum Berry	Earthquake	Waterfall	Hammer Arm	Curse	Adamant	170	170	-	-	170	-
+dp	496	389	0	Torterra	White Herb	Leaf Storm	Worry Seed	Earthquake	Bite	Quiet	170	170	-	170	-	-
+dp	497	392	0	Infernape	Muscle Band	Blaze Kick	Shadow Claw	Brick Break	Bulk Up	Adamant	-	255	-	-	-	255
+dp	498	395	0	Empoleon	Wacan Berry	Drill Peck	Brick Break	Aqua Jet	Ice Beam	Docile	170	170	-	170	-	-
+dp	499	51	0	Dugtrio	Bright Powder	Swagger	Attract	Sand Attack	Sucker Punch	Careful	170	170	-	-	-	170
+dp	500	105	0	Marowak	Thick Club	Earthquake	Double-Edge	Aerial Ace	Brick Break	Jolly	-	255	-	-	-	255
+dp	501	308	0	Medicham	Salac Berry	Endure	Reversal	Psycho Cut	Thunder Punch	Jolly	-	255	-	-	-	255
+dp	502	195	0	Quagsire	Focus Sash	Counter	Focus Punch	Yawn	Ice Beam	Brave	255	-	-	-	255	-
+dp	503	210	0	Granbull	Muscle Band	Fire Fang	Frustration	Brick Break	Thunder Fang	Jolly	-	255	-	-	-	255
+dp	504	124	0	Jynx	Odd Incense	Lovely Kiss	Dream Eater	Wake-Up Slap	Energy Ball	Naive	255	-	-	-	-	255
+dp	505	122	0	Mr. Mime	Light Clay	Psybeam	Reflect	Light Screen	Role Play	Calm	170	170	-	170	-	-
+dp	506	171	0	Lanturn	Expert Belt	Thunderbolt	Charge	Take Down	Surf	Careful	-	170	-	-	170	170
+dp	507	286	0	Breloom	Big Root	Sky Uppercut	Focus Punch	Drain Punch	Swords Dance	Gentle	-	170	-	-	170	170
+dp	508	205	0	Forretress	Sitrus Berry	Payback	Toxic Spikes	Stealth Rock	Spikes	Lonely	-	-	-	255	255	-
+dp	509	227	0	Skarmory	Occa Berry	Swift	Metal Sound	Double Team	Sand Attack	Jolly	170	-	170	-	-	170
+dp	510	359	0	Absol	Focus Sash	Swagger	Punishment	Sucker Punch	Taunt	Adamant	255	255	-	-	-	-
+dp	511	340	0	Whiscash	Chesto Berry	Fissure	Amnesia	Spark	Rest	Sassy	255	-	255	-	-	-
+dp	512	297	0	Hariyama	Quick Claw	Belly Drum	Brick Break	Earthquake	Stone Edge	Impish	-	-	255	-	255	-
+dp	513	416	0	Vespiquen	Leftovers	Double Team	Defend Order	Heal Order	Toxic	Careful	170	-	170	-	170	-
+dp	514	26	0	Raichu	Focus Band	Thunder Punch	Feint	Brick Break	Double Team	Jolly	-	255	-	-	-	255
+dp	515	87	0	Dewgong	Chesto Berry	Encore	Disable	Rest	Ice Beam	Calm	-	-	255	-	255	-
+dp	516	310	0	Manectric	Shuca Berry	Thunderbolt	Crunch	Roar	Thunder Wave	Hardy	-	170	-	170	-	170
+dp	517	398	0	Staraptor	Razor Claw	Brave Bird	Roost	Endure	Endeavor	Adamant	-	255	-	-	-	255
+dp	518	423	0	Gastrodon	Bright Powder	Mud Bomb	Surf	Ice Beam	Yawn	Sassy	-	-	170	170	170	-
+dp	519	435	0	Skuntank	Leftovers	Dark Pulse	Flamethrower	Toxic	Double Team	Timid	-	-	255	-	-	255
+dp	520	45	0	Vileplume	Black Sludge	Toxic	Grass Knot	Double Team	Attract	Bold	170	-	170	-	170	-
+dp	521	71	0	Victreebel	Scope Lens	Razor Leaf	Leaf Storm	Swords Dance	Stun Spore	Jolly	-	-	255	-	-	255
+dp	522	101	0	Electrode	Shuca Berry	Magnet Rise	Charge Beam	Hyper Beam	Thunder Wave	Timid	-	-	-	255	-	255
+dp	523	272	0	Ludicolo	Leftovers	Leech Seed	Double Team	Toxic	Substitute	Impish	-	-	255	-	255	-
+dp	524	275	0	Shiftry	Quick Claw	Explosion	Fake Out	X-Scissor	Feint Attack	Adamant	-	170	170	-	170	-
+dp	525	295	0	Exploud	Leftovers	Rest	Sleep Talk	Return	Double Team	Impish	-	-	255	-	255	-
+dp	526	362	0	Glalie	Leftovers	Double Team	Sheer Cold	Rest	Sleep Talk	Calm	-	-	255	-	255	-
+dp	527	428	0	Lopunny	Focus Band	Return	Charm	Encore	Captivate	Jolly	255	-	-	-	-	255
+dp	528	478	0	Froslass	Wise Glasses	Ominous Wind	Blizzard	Attract	Captivate	Quirky	-	-	-	255	-	255
+dp	529	424	0	Ambipom	Wise Glasses	Shadow Ball	Thunderbolt	Swift	Nasty Plot	Modest	-	-	-	170	170	170
+dp	530	97	0	Hypno	Focus Band	Psychic	Focus Blast	Thunder Wave	Calm Mind	Modest	170	-	170	170	-	-
+dp	531	76	0	Golem	Focus Band	Sandstorm	Defense Curl	Rock Blast	Gyro Ball	Brave	170	-	170	-	170	-
+dp	532	112	0	Rhydon	Smooth Rock	Rock Blast	Fire Fang	Sandstorm	Avalanche	Brave	170	170	-	-	170	-
+dp	533	80	0	Slowbro	Lum Berry	Yawn	Zen Headbutt	Earthquake	Brick Break	Adamant	255	255	-	-	-	-
+dp	534	110	0	Weezing	Bright Powder	Sludge	Screech	Will-O-Wisp	Swagger	Careful	255	-	-	-	255	-
+dp	535	115	0	Kangaskhan	Focus Sash	Endure	Reversal	Leer	Double Hit	Impish	255	255	-	-	-	-
+dp	536	128	0	Tauros	Leftovers	Take Down	Payback	Stone Edge	Substitute	Adamant	170	170	170	-	-	-
+dp	537	65	0	Alakazam	Colbur Berry	Psychic	Calm Mind	Shadow Ball	Future Sight	Quiet	-	-	170	170	170	-
+dp	538	199	0	Slowking	Wave Incense	Headbutt	Zen Headbutt	Brine	Flamethrower	Serious	-	-	170	170	-	170
+dp	539	241	0	Miltank	Silk Scarf	Body Slam	Giga Impact	Earthquake	Heal Bell	Mild	170	170	-	-	170	-
+dp	540	334	0	Altaria	White Herb	Draco Meteor	Hyper Beam	Ice Beam	Flamethrower	Modest	255	-	-	255	-	-
+dp	541	454	0	Toxicroak	Light Ball	Fling	Me First	Taunt	Sucker Punch	Docile	-	255	-	255	-	-
+dp	542	460	0	Abomasnow	Leftovers	Wood Hammer	Ingrain	Substitute	Avalanche	Adamant	255	255	-	-	-	-
+dp	543	31	0	Nidoqueen	Wide Lens	Earth Power	Sludge Bomb	Fire Blast	Blizzard	Modest	255	-	-	255	-	-
+dp	544	34	0	Nidoking	Wise Glasses	Earth Power	Dragon Pulse	Sludge Bomb	Sandstorm	Modest	-	-	-	255	-	255
+dp	545	346	0	Cradily	Quick Claw	Sandstorm	Ancient Power	Giga Drain	Hyper Beam	Modest	255	-	-	255	-	-
+dp	546	348	0	Armaldo	Focus Sash	Rock Polish	Rock Blast	Cross Poison	X-Scissor	Jolly	-	255	-	-	-	255
+dp	547	411	0	Bastiodon	Quick Claw	Sandstorm	Thunder	Blizzard	Fire Blast	Modest	255	-	-	255	-	-
+dp	548	419	0	Floatzel	Sitrus Berry	Crunch	Pursuit	Whirlpool	Razor Wind	Naughty	-	170	-	-	170	170
+dp	549	429	0	Mismagius	Leftovers	Shadow Ball	Dark Pulse	Charge Beam	Imprison	Timid	-	-	255	-	-	255
+dp	550	426	0	Drifblim	Apicot Berry	Natural Gift	Explosion	Memento	Destiny Bond	Adamant	-	170	-	-	170	170
+dp	551	55	0	Golduck	Wide Lens	Hydro Pump	Zen Headbutt	Shadow Claw	Brine	Hasty	170	170	-	-	-	170
+dp	552	62	0	Poliwrath	Quick Claw	Waterfall	Brick Break	Earthquake	Hypnosis	Adamant	255	255	-	-	-	-
+dp	553	78	0	Rapidash	Focus Band	Bounce	Megahorn	Horn Drill	Poison Jab	Adamant	-	255	-	-	-	255
+dp	554	89	0	Muk	Focus Sash	Gunk Shot	Brick Break	Mud Bomb	Rock Slide	Adamant	170	170	-	-	170	-
+dp	555	94	0	Gengar	Payapa Berry	Explosion	Thunder Punch	Poison Jab	Shadow Claw	Adamant	-	255	-	-	-	255
+dp	556	181	0	Ampharos	Light Clay	Reflect	Double Team	Focus Punch	Thunder Punch	Careful	-	255	-	-	255	-
+dp	557	186	0	Politoed	Bright Powder	Surf	Focus Blast	Mud Bomb	Payback	Bold	170	-	170	-	170	-
+dp	558	127	0	Pinsir	Bright Powder	Bulk Up	Earthquake	X-Scissor	Stone Edge	Careful	-	-	-	-	255	255
+dp	559	212	0	Scizor	Bright Powder	Swords Dance	Double Team	Steel Wing	Baton Pass	Careful	170	-	-	-	170	170
+dp	560	214	0	Heracross	Scope Lens	Close Combat	Aerial Ace	Night Slash	Bulk Up	Adamant	170	170	-	-	170	-
+dp	561	217	0	Ursaring	Chesto Berry	Facade	Aerial Ace	Bulk Up	Rest	Adamant	255	-	-	-	255	-
+dp	562	229	0	Houndoom	Passho Berry	Fire Fang	Thunder Fang	Crunch	Will-O-Wisp	Adamant	170	170	-	-	-	170
+dp	563	232	0	Donphan	Focus Band	Counter	Stealth Rock	Roar	Fire Fang	Careful	170	-	170	-	170	-
+dp	564	321	0	Wailord	Mystic Water	Water Spout	Brine	Whirlpool	Surf	Gentle	255	-	-	-	-	255
+dp	565	344	0	Claydol	Wise Glasses	Calm Mind	Psychic	Charge Beam	Ice Beam	Modest	255	-	-	255	-	-
+dp	566	409	0	Rampardos	Focus Sash	Rock Polish	Stone Edge	Earthquake	Giga Impact	Adamant	170	170	-	-	-	170
+dp	567	437	0	Bronzong	Occa Berry	Imprison	Psychic	Shadow Ball	Earthquake	Sassy	170	-	170	-	170	-
+dp	568	452	0	Drapion	Leftovers	Toxic Spikes	Double Team	Roar	Payback	Impish	255	-	255	-	-	-
+dp	569	405	0	Luxray	Muscle Band	Rain Dance	Thunder	Crunch	Iron Tail	Docile	-	170	-	170	-	170
+dp	570	38	0	Ninetales	White Herb	Nasty Plot	Overheat	Dark Pulse	Grudge	Bold	255	-	255	-	-	-
+dp	571	68	0	Machamp	Wide Lens	Rock Slide	Rock Smash	Rock Climb	Rock Tomb	Lax	170	170	170	-	-	-
+dp	572	213	0	Shuckle	Bright Powder	Power Trick	Double Team	Stone Edge	Earthquake	Impish	255	-	255	-	-	-
+dp	573	407	0	Roserade	Miracle Seed	Water Sport	Worry Seed	Grass Knot	Toxic	Careful	170	-	-	170	170	-
+dp	574	430	0	Honchkrow	Sharp Beak	Defog	Pluck	Aerial Ace	Roost	Bashful	-	-	-	170	170	170
+dp	575	208	0	Steelix	Passho Berry	Sandstorm	Rock Tomb	Stone Edge	Rock Slide	Impish	-	-	255	255	-	-
+dp	576	461	0	Weavile	Chople Berry	Night Slash	Ice Shard	X-Scissor	Poison Jab	Jolly	-	255	-	-	-	255
+dp	577	472	0	Gliscor	Yache Berry	Earthquake	Guillotine	Poison Jab	Thunder Fang	Jolly	-	255	-	-	-	255
+dp	578	73	0	Tentacruel	Black Sludge	Poison Sting	Toxic Spikes	Poison Jab	Toxic	Calm	255	-	255	-	-	-
+dp	579	142	0	Aerodactyl	Yache Berry	Giga Impact	Crunch	Rock Slide	Earthquake	Adamant	-	255	-	-	-	255
+dp	580	233	0	Porygon2	Wise Glasses	Conversion 2	Defense Curl	Recover	Tri Attack	Mild	-	-	-	255	255	-
+dp	581	463	0	Lickilicky	Expert Belt	Surf	Ice Beam	Thunderbolt	Shadow Ball	Modest	255	-	-	255	-	-
+dp	582	469	0	Yanmega	Liechi Berry	Endure	Reversal	Bug Bite	Return	Adamant	-	255	-	-	-	255
+dp	583	282	0	Gardevoir	Chesto Berry	Calm Mind	Psychic	Thunderbolt	Rest	Modest	-	-	255	255	-	-
+dp	584	475	0	Gallade	Kasib Berry	Psycho Cut	Brick Break	Leaf Blade	Destiny Bond	Jolly	-	255	-	-	-	255
+dp	585	103	0	Exeggutor	Miracle Seed	Leech Seed	Worry Seed	Bullet Seed	Egg Bomb	Jolly	-	-	-	-	255	255
+dp	586	121	0	Starmie	Damp Rock	Rain Dance	Hydro Pump	Thunder	Confuse Ray	Modest	255	-	-	255	-	-
+dp	587	330	0	Flygon	Heat Rock	Sunny Day	Solar Beam	Fire Blast	U-turn	Timid	-	-	-	255	-	255
+dp	588	134	0	Vaporeon	Rindo Berry	Surf	Aqua Ring	Acid Armor	Baton Pass	Relaxed	255	-	-	-	255	-
+dp	589	135	0	Jolteon	Razor Claw	Thunder Wave	Thunderbolt	Iron Tail	Flash	Naughty	-	170	-	170	-	170
+dp	590	136	0	Flareon	White Herb	Overheat	Giga Impact	Iron Tail	Quick Attack	Brave	-	255	-	255	-	-
+dp	591	196	0	Espeon	Bright Powder	Reflect	Shadow Ball	Future Sight	Morning Sun	Timid	-	-	-	255	-	255
+dp	592	197	0	Umbreon	Bright Powder	Toxic	Attract	Protect	Pursuit	Sassy	170	-	170	-	170	-
+dp	593	470	0	Leafeon	Shed Shell	Grass Knot	Aerial Ace	Energy Ball	Bite	Sassy	255	255	-	-	-	-
+dp	594	471	0	Glaceon	Focus Sash	Hyper Beam	Mirror Coat	Avalanche	Last Resort	Naughty	-	255	-	-	-	255
+dp	595	448	0	Lucario	Razor Fang	Me First	Agility	Force Palm	Flash Cannon	Hardy	170	170	-	170	-	-
+dp	596	450	0	Hippowdon	Leftovers	Earthquake	Ice Fang	Curse	Yawn	Careful	-	255	-	-	255	-
+dp	597	476	0	Probopass	King’s Rock	Rock Polish	Magnet Bomb	Stone Edge	Explosion	Jolly	255	-	-	-	-	255
+dp	598	477	0	Dusknoir	Bright Powder	Double Team	Rest	Sleep Talk	Payback	Sassy	255	-	255	-	-	-
+dp	599	306	0	Aggron	Shuca Berry	Stone Edge	Avalanche	Payback	Earthquake	Adamant	255	255	-	-	-	-
+dp	600	365	0	Walrein	Leftovers	Hail	Stockpile	Blizzard	Protect	Bold	-	-	255	-	255	-
+dp	601	473	0	Mamoswine	Leftovers	Substitute	Double Team	Avalanche	Earthquake	Sassy	170	-	170	-	170	-
+dp	602	131	0	Lapras	Leppa Berry	Sheer Cold	Sleep Talk	Rest	Double Team	Calm	170	-	170	-	170	-
+dp	603	169	0	Crobat	Sharp Beak	Air Cutter	Air Slash	Aerial Ace	U-turn	Adamant	-	255	-	255	-	-
+dp	604	462	0	Magnezone	Bright Powder	Magnet Rise	Rain Dance	Thunder	Flash Cannon	Bold	-	-	255	255	-	-
+dp	605	464	0	Rhyperior	Zoom Lens	Stone Edge	Megahorn	Dragon Rush	Avalanche	Sassy	-	255	-	-	255	-
+dp	606	465	0	Tangrowth	Expert Belt	Power Whip	Earthquake	Sludge Bomb	Focus Blast	Sassy	-	170	-	170	170	-
+dp	607	474	0	Porygon-Z	Bright Powder	Charge Beam	Ice Beam	Signal Beam	Conversion 2	Timid	-	-	-	255	-	255
+dp	608	130	0	Gyarados	Leftovers	Rest	Earthquake	Thrash	Giga Impact	Gentle	255	255	-	-	-	-
+dp	609	143	0	Snorlax	Leftovers	Focus Punch	Curse	Substitute	Yawn	Impish	255	-	255	-	-	-
+dp	610	230	0	Kingdra	Wide Lens	Hydro Pump	Ice Beam	Signal Beam	Rain Dance	Modest	-	-	170	170	-	170
+dp	611	242	0	Blissey	Chople Berry	Stealth Rock	Gravity	Healing Wish	Fire Blast	Bold	255	-	255	-	-	-
+dp	612	350	0	Milotic	Leftovers	Surf	Ice Beam	Aqua Ring	Haze	Bold	255	-	255	-	-	-
+dp	613	466	0	Electivire	Wide Lens	Thunder	Dynamic Punch	Rock Slide	Iron Tail	Relaxed	-	255	255	-	-	-
+dp	614	467	0	Magmortar	Sitrus Berry	Earthquake	Flamethrower	Smokescreen	Will-O-Wisp	Docile	-	-	255	-	255	-
+dp	615	468	0	Togekiss	Leftovers	Toxic	Double Team	Substitute	Air Slash	Bold	170	-	170	-	170	-
+dp	616	59	0	Arcanine	Salac Berry	Endure	Reversal	Fire Fang	Thunder Fang	Jolly	-	255	-	-	-	255
+dp	617	149	0	Dragonite	Persim Berry	Outrage	Earthquake	Thunder Punch	Brick Break	Jolly	-	255	-	-	-	255
+dp	618	248	0	Tyranitar	Quick Claw	Earthquake	Dragon Claw	Shadow Claw	Iron Head	Adamant	255	255	-	-	-	-
+dp	619	373	0	Salamence	King’s Rock	Dragon Dance	Fire Fang	Thunder Fang	Zen Headbutt	Jolly	-	255	-	-	-	255
+dp	620	376	0	Metagross	Wise Glasses	Psychic	Flash Cannon	Shadow Ball	Sludge Bomb	Modest	255	-	-	255	-	-
+dp	621	445	0	Garchomp	Razor Claw	Dragon Pulse	Flamethrower	Surf	Roar	Timid	-	-	-	255	-	255
+dp	622	289	0	Slaking	Wide Lens	Hyper Beam	Blizzard	Fire Blast	Thunderbolt	Timid	-	-	-	255	-	255
+dp	623	3	0	Venusaur	Quick Claw	Earthquake	Seed Bomb	Return	Curse	Adamant	-	255	-	-	255	-
+dp	624	6	0	Charizard	King’s Rock	Fire Fang	Air Slash	Dragon Rush	Dragon Dance	Adamant	-	255	-	-	-	255
+dp	625	9	0	Blastoise	Quick Claw	Hydro Pump	Ice Beam	Focus Blast	Rain Dance	Modest	255	-	-	255	-	-
+dp	626	154	0	Meganium	Light Clay	Wring Out	Leaf Storm	Light Screen	Reflect	Bold	255	-	-	255	-	-
+dp	627	157	0	Typhlosion	Shuca Berry	Flare Blitz	Earthquake	Shadow Claw	Aerial Ace	Adamant	-	255	-	-	-	255
+dp	628	160	0	Feraligatr	Wacan Berry	Waterfall	Earthquake	Ice Fang	Dragon Dance	Adamant	-	255	-	-	-	255
+dp	629	254	0	Sceptile	Occa Berry	Leaf Storm	Aerial Ace	Leaf Blade	Focus Blast	Serious	85	85	85	85	85	85
+dp	630	257	0	Blaziken	Passho Berry	Flamethrower	Focus Blast	Sand Attack	Night Slash	Modest	-	-	-	255	-	255
+dp	631	260	0	Swampert	Expert Belt	Surf	Mud Bomb	Ice Beam	Counter	Quiet	255	-	-	255	-	-
+dp	632	389	0	Torterra	Bright Powder	Frenzy Plant	Double Team	Hyper Beam	Leech Seed	Modest	-	-	-	255	255	-
+dp	633	392	0	Infernape	Wise Glasses	Flamethrower	Focus Blast	Calm Mind	Grass Knot	Modest	-	-	-	255	-	255
+dp	634	395	0	Empoleon	Chople Berry	Waterfall	Steel Wing	Avalanche	Earthquake	Brave	255	255	-	-	-	-
+dp	635	51	0	Dugtrio	Razor Claw	Fissure	Giga Impact	Aerial Ace	Night Slash	Jolly	-	255	-	-	-	255
+dp	636	105	0	Marowak	Thick Club	Giga Impact	Thrash	Earthquake	Double-Edge	Adamant	170	170	170	-	-	-
+dp	637	308	0	Medicham	Bright Powder	Attract	Focus Punch	Drain Punch	Ice Punch	Lonely	-	255	-	-	-	255
+dp	638	195	0	Quagsire	Quick Claw	Amnesia	Surf	Sludge Bomb	Mud Bomb	Modest	255	-	-	255	-	-
+dp	639	210	0	Granbull	Quick Claw	Ice Fang	Stone Edge	Crunch	Earthquake	Adamant	255	255	-	-	-	-
+dp	640	124	0	Jynx	Wise Glasses	Ice Beam	Psychic	Focus Blast	Shadow Ball	Modest	-	-	-	255	-	255
+dp	641	122	0	Mr. Mime	Metronome	Psychic	Safeguard	Calm Mind	Substitute	Quiet	-	-	170	170	-	170
+dp	642	171	0	Lanturn	Quick Claw	Charge	Charge Beam	Hydro Pump	Ice Beam	Modest	-	-	-	255	255	-
+dp	643	286	0	Breloom	Shell Bell	Spore	Mind Reader	Focus Blast	Energy Ball	Naughty	170	-	170	170	-	-
+dp	644	205	0	Forretress	Occa Berry	Double-Edge	Earthquake	Toxic	Double Team	Hasty	-	170	-	170	170	-
+dp	645	227	0	Skarmory	Life Orb	Air Cutter	Steel Wing	Roost	Pluck	Sassy	-	170	-	-	170	170
+dp	646	359	0	Absol	Scope Lens	Night Slash	Psycho Cut	Perish Song	Me First	Naughty	170	170	-	-	-	170
+dp	647	340	0	Whiscash	Zoom Lens	Hydro Pump	Blizzard	Mud Bomb	Future Sight	Modest	255	-	-	255	-	-
+dp	648	297	0	Hariyama	Salac Berry	Endure	Reversal	Earthquake	Rock Tomb	Jolly	-	255	-	-	-	255
+dp	649	416	0	Vespiquen	Wise Glasses	Silver Wind	Sludge Bomb	Power Gem	Heal Order	Modest	255	-	-	255	-	-
+dp	650	26	0	Raichu	Focus Sash	Nasty Plot	Focus Blast	Grass Knot	Thunder	Timid	-	-	-	255	-	255
+dp	651	87	0	Dewgong	Leftovers	Sheer Cold	Horn Drill	Rest	Sleep Talk	Calm	170	-	170	-	170	-
+dp	652	310	0	Manectric	Damp Rock	Rain Dance	Thunder	Thunder Wave	Hyper Beam	Modest	-	-	-	255	-	255
+dp	653	398	0	Staraptor	Muscle Band	Brave Bird	Return	U-turn	Feather Dance	Adamant	-	255	-	-	-	255
+dp	654	423	0	Gastrodon	Rindo Berry	Surf	Mud Bomb	Recover	Counter	Sassy	255	-	255	-	-	-
+dp	655	435	0	Skuntank	Shuca Berry	Night Slash	Poison Jab	Return	Flamethrower	Jolly	-	255	-	-	-	255
+dp	656	45	0	Vileplume	Quick Claw	Drain Punch	Sludge Bomb	Swords Dance	Tickle	Brave	-	255	255	-	-	-
+dp	657	71	0	Victreebel	Power Herb	Sludge Bomb	Energy Ball	Solar Beam	Synthesis	Timid	-	-	255	-	-	255
+dp	658	101	0	Electrode	Damp Rock	Magnet Rise	Thunder	Swift	Rain Dance	Timid	-	-	-	255	-	255
+dp	659	272	0	Ludicolo	Lum Berry	Hydro Pump	Ice Beam	Grass Knot	Focus Blast	Modest	255	-	-	255	-	-
+dp	660	275	0	Shiftry	Focus Band	Energy Ball	Dark Pulse	Focus Blast	Nasty Plot	Modest	-	-	170	170	170	-
+dp	661	295	0	Exploud	Quick Claw	Body Slam	Earthquake	Avalanche	Crunch	Careful	-	170	170	-	170	-
+dp	662	362	0	Glalie	Scope Lens	Ice Beam	Shadow Ball	Water Pulse	Safeguard	Modest	255	-	-	255	-	-
+dp	663	428	0	Lopunny	Focus Band	Mirror Coat	Return	Charm	Drain Punch	Careful	-	255	-	-	-	255
+dp	664	478	0	Froslass	Lax Incense	Hail	Blizzard	Shadow Ball	Psychic	Modest	255	-	-	255	-	-
+dp	665	424	0	Ambipom	Life Orb	Double Hit	Shadow Claw	Brick Break	Screech	Adamant	-	170	170	-	-	170
+dp	666	97	0	Hypno	Quick Claw	Zen Headbutt	Brick Break	Swagger	Psych Up	Adamant	255	255	-	-	-	-
+dp	667	76	0	Golem	Passho Berry	Substitute	Focus Punch	Earthquake	Secret Power	Adamant	170	170	-	-	170	-
+dp	668	112	0	Rhydon	Passho Berry	Earthquake	Hammer Arm	Shadow Claw	Stone Edge	Brave	255	255	-	-	-	-
+dp	669	80	0	Slowbro	Quick Claw	Calm Mind	Psychic	Shadow Ball	Flamethrower	Modest	255	-	-	255	-	-
+dp	670	110	0	Weezing	Quick Claw	Sludge Bomb	Fire Blast	Dark Pulse	Destiny Bond	Quiet	255	-	-	255	-	-
+dp	671	115	0	Kangaskhan	Salac Berry	Endure	Reversal	Crunch	Earthquake	Jolly	-	255	-	-	-	255
+dp	672	128	0	Tauros	Chesto Berry	Earthquake	Facade	Iron Tail	Rest	Jolly	-	255	-	-	-	255
+dp	673	65	0	Alakazam	Sitrus Berry	Psychic	Shadow Ball	Charge Beam	Energy Ball	Timid	-	-	-	255	-	255
+dp	674	199	0	Slowking	Bright Powder	Psychic	Surf	Nasty Plot	Swagger	Rash	170	-	170	170	-	-
+dp	675	241	0	Miltank	Salac Berry	Endure	Reversal	Return	Rock Slide	Jolly	-	255	-	-	-	255
+dp	676	334	0	Altaria	Dragon Fang	Dragon Dance	Dragon Pulse	Dragon Breath	Dragon Claw	Mild	170	170	170	-	-	-
+dp	677	454	0	Toxicroak	Scope Lens	Poison Jab	X-Scissor	Giga Impact	Focus Blast	Lonely	255	255	-	-	-	-
+dp	678	460	0	Abomasnow	Zoom Lens	Grass Whistle	Sheer Cold	Focus Blast	Water Pulse	Quiet	255	-	-	255	-	-
+dp	679	31	0	Nidoqueen	Bright Powder	Stone Edge	Avalanche	Iron Tail	Aerial Ace	Brave	170	170	-	-	-	170
+dp	680	34	0	Nidoking	Expert Belt	Earth Power	Sludge Bomb	Ice Beam	Shadow Ball	Modest	255	-	-	255	-	-
+dp	681	346	0	Cradily	Lum Berry	Mirror Coat	Energy Ball	Stone Edge	Ingrain	Relaxed	170	-	170	-	170	-
+dp	682	348	0	Armaldo	Focus Band	Sandstorm	Brick Break	Aerial Ace	Giga Impact	Brave	-	255	255	-	-	-
+dp	683	411	0	Bastiodon	Muscle Band	Iron Head	Iron Tail	Metal Burst	Stone Edge	Lonely	170	170	170	-	-	-
+dp	684	419	0	Floatzel	Bright Powder	Waterfall	Ice Fang	Crunch	Rain Dance	Jolly	255	255	-	-	-	-
+dp	685	429	0	Mismagius	Spell Tag	Shadow Ball	Payback	Energy Ball	Psychic	Relaxed	170	-	170	-	170	-
+dp	686	426	0	Drifblim	Wise Glasses	Hypnosis	Dream Eater	Charge Beam	Shadow Ball	Modest	-	-	170	170	170	-
+dp	687	55	0	Golduck	Muscle Band	Swagger	Psych Up	Waterfall	Cross Chop	Adamant	-	255	255	-	-	-
+dp	688	62	0	Poliwrath	King’s Rock	Focus Punch	Strength	Giga Impact	Earthquake	Timid	170	170	170	-	-	-
+dp	689	78	0	Rapidash	Focus Band	Fury Attack	Megahorn	Horn Drill	Poison Jab	Adamant	-	255	-	-	-	255
+dp	690	89	0	Muk	Quick Claw	Gunk Shot	Fling	Explosion	Shadow Punch	Adamant	255	255	-	-	-	-
+dp	691	94	0	Gengar	Bright Powder	Hypnosis	Dream Eater	Shadow Ball	Focus Blast	Timid	-	-	-	255	-	255
+dp	692	181	0	Ampharos	Chesto Berry	Thunder Wave	Charge Beam	Signal Beam	Rest	Bold	170	-	170	-	170	-
+dp	693	186	0	Politoed	Salac Berry	Belly Drum	Waterfall	Earthquake	Rest	Careful	170	-	170	-	170	-
+dp	694	127	0	Pinsir	Salac Berry	Endure	Flail	X-Scissor	Superpower	Adamant	-	255	-	-	-	255
+dp	695	212	0	Scizor	Occa Berry	X-Scissor	Iron Head	Aerial Ace	Night Slash	Adamant	255	255	-	-	-	-
+dp	696	214	0	Heracross	Coba Berry	Megahorn	Stone Edge	Facade	Shadow Claw	Adamant	-	255	-	-	-	255
+dp	697	217	0	Ursaring	Toxic Orb	Facade	Protect	Earthquake	Crunch	Jolly	170	170	-	-	-	170
+dp	698	229	0	Houndoom	White Herb	Sunny Day	Overheat	Solar Beam	Dark Pulse	Timid	-	-	-	255	-	255
+dp	699	232	0	Donphan	Bright Powder	Earthquake	Stone Edge	Thunder Fang	Ice Shard	Adamant	-	255	-	-	255	-
+dp	700	321	0	Wailord	Leftovers	Curse	Earthquake	Waterfall	Double Team	Adamant	170	170	-	-	170	-
+dp	701	344	0	Claydol	Quick Claw	Explosion	Earthquake	Stone Edge	Gyro Ball	Brave	255	255	-	-	-	-
+dp	702	409	0	Rampardos	Salac Berry	Endure	Stone Edge	Earthquake	Giga Impact	Jolly	-	255	-	-	-	255
+dp	703	437	0	Bronzong	Macho Brace	Trick Room	Gyro Ball	Earthquake	Explosion	Brave	255	255	-	-	-	-
+dp	704	452	0	Drapion	King’s Rock	Poison Fang	Fire Fang	Thunder Fang	Ice Fang	Jolly	-	255	-	-	-	255
+dp	705	405	0	Luxray	Shuca Berry	Attract	Swagger	Thunder Wave	Ice Fang	Impish	170	-	170	-	170	-
+dp	706	38	0	Ninetales	Grip Claw	Fire Spin	Hypnosis	Fire Blast	Dream Eater	Bold	-	-	255	255	-	-
+dp	707	68	0	Machamp	Chesto Berry	Brick Break	Earthquake	Thunder Punch	Rest	Adamant	255	255	-	-	-	-
+dp	708	213	0	Shuckle	Leftovers	Double Team	Substitute	Toxic	Sandstorm	Bold	170	-	170	-	170	-
+dp	709	407	0	Roserade	Coba Berry	Sleep Powder	Sludge Bomb	Shadow Ball	Giga Drain	Modest	-	-	255	255	-	-
+dp	710	430	0	Honchkrow	Quick Claw	Sucker Punch	Drill Peck	Frustration	Roost	Adamant	-	255	-	-	255	-
+dp	711	208	0	Steelix	Metal Coat	Flash Cannon	Gyro Ball	Iron Tail	Stealth Rock	Relaxed	170	-	170	170	-	-
+dp	712	461	0	Weavile	Choice Band	Night Slash	Ice Shard	Aerial Ace	Brick Break	Jolly	-	255	-	-	-	255
+dp	713	472	0	Gliscor	Focus Sash	Counter	Guillotine	U-turn	Payback	Jolly	255	-	-	-	-	255
+dp	714	73	0	Tentacruel	Focus Sash	Mirror Coat	Surf	Sludge Bomb	Giga Drain	Modest	255	-	-	255	-	-
+dp	715	142	0	Aerodactyl	King’s Rock	Rock Slide	Iron Head	Ice Fang	Thunder Fang	Jolly	-	255	-	-	-	255
+dp	716	233	0	Porygon2	Quick Claw	Tri Attack	Ice Beam	Signal Beam	Shadow Ball	Modest	255	-	-	255	-	-
+dp	717	463	0	Lickilicky	Lum Berry	Curse	Rest	Return	Gyro Ball	Brave	255	255	-	-	-	-
+dp	718	469	0	Yanmega	Quick Claw	Bug Buzz	Air Slash	Ancient Power	Shadow Ball	Modest	-	-	-	255	255	-
+dp	719	282	0	Gardevoir	Bright Powder	Psychic	Thunderbolt	Energy Ball	Focus Blast	Modest	-	-	255	255	-	-
+dp	720	475	0	Gallade	Iron Ball	Trick Room	Close Combat	Aerial Ace	Stone Edge	Brave	-	255	255	-	-	-
+dp	721	103	0	Exeggutor	Expert Belt	Sunny Day	Solar Beam	Psychic	Sludge Bomb	Modest	170	-	-	170	-	170
+dp	722	121	0	Starmie	Expert Belt	Psychic	Thunderbolt	Ice Beam	Surf	Timid	-	-	-	255	-	255
+dp	723	330	0	Flygon	Scope Lens	Dragon Pulse	Flamethrower	Silver Wind	Giga Drain	Timid	-	-	-	255	-	255
+dp	724	134	0	Vaporeon	Damp Rock	Rain Dance	Hydro Pump	Shadow Ball	Yawn	Quiet	-	-	255	255	-	-
+dp	725	135	0	Jolteon	Bright Powder	Thunderbolt	Shadow Ball	Captivate	Yawn	Timid	-	-	-	255	-	255
+dp	726	136	0	Flareon	Charcoal	Fire Fang	Return	Bite	Will-O-Wisp	Adamant	255	255	-	-	-	-
+dp	727	196	0	Espeon	Razor Claw	Calm Mind	Psychic	Shadow Ball	Hyper Beam	Modest	-	-	-	255	-	255
+dp	728	197	0	Umbreon	Scope Lens	Confuse Ray	Assurance	Last Resort	Shadow Ball	Relaxed	255	255	-	-	-	-
+dp	729	470	0	Leafeon	Wide Lens	Grass Whistle	Giga Impact	Iron Tail	Leaf Blade	Adamant	-	255	-	-	-	255
+dp	730	471	0	Glaceon	Bright Powder	Yawn	Water Pulse	Ice Beam	Shadow Ball	Calm	-	-	-	255	255	-
+dp	731	448	0	Lucario	Salac Berry	Endure	Reversal	Earthquake	Stone Edge	Adamant	-	255	-	-	-	255
+dp	732	450	0	Hippowdon	Sitrus Berry	Sand Tomb	Yawn	Ice Fang	Fissure	Careful	255	-	-	-	255	-
+dp	733	476	0	Probopass	Hard Stone	Thunder Wave	Rock Tomb	Rock Slide	Rollout	Adamant	255	255	-	-	-	-
+dp	734	477	0	Dusknoir	Spell Tag	Trick Room	Shadow Punch	Earthquake	Ice Punch	Brave	255	255	-	-	-	-
+dp	735	306	0	Aggron	Quick Claw	Iron Tail	Stone Edge	Earthquake	Sandstorm	Adamant	-	255	-	-	255	-
+dp	736	365	0	Walrein	Bright Powder	Sheer Cold	Fissure	Rest	Sleep Talk	Bold	-	-	255	-	255	-
+dp	737	473	0	Mamoswine	Bright Powder	Hail	Earthquake	Fissure	Ice Fang	Careful	-	-	255	-	255	-
+dp	738	131	0	Lapras	Chople Berry	Surf	Thunderbolt	Ice Beam	Psychic	Modest	-	-	-	255	255	-
+dp	739	169	0	Crobat	Lum Berry	Hypnosis	Roost	Sludge Bomb	Dark Pulse	Timid	255	-	-	-	-	255
+dp	740	462	0	Magnezone	Shuca Berry	Magnet Rise	Charge Beam	Flash Cannon	Thunder Wave	Modest	-	-	255	255	-	-
+dp	741	464	0	Rhyperior	Choice Scarf	Earthquake	Megahorn	Rock Wrecker	Horn Drill	Adamant	-	255	-	-	-	255
+dp	742	465	0	Tangrowth	Focus Sash	Sunny Day	Solar Beam	Wring Out	Sludge Bomb	Modest	-	-	-	255	-	255
+dp	743	474	0	Porygon-Z	Leftovers	Charge Beam	Tri Attack	Magnet Rise	Conversion	Timid	-	-	-	255	-	255
+dp	744	130	0	Gyarados	King’s Rock	Waterfall	Ice Fang	Bite	Dragon Dance	Jolly	-	-	170	-	170	170
+dp	745	143	0	Snorlax	Iron Ball	Last Resort	Fling	Recycle	Yawn	Adamant	170	170	170	-	-	-
+dp	746	230	0	Kingdra	Haban Berry	Dragon Pulse	Hydro Pump	Ice Beam	Dragon Dance	Timid	-	-	-	255	-	255
+dp	747	242	0	Blissey	Bright Powder	Counter	Hyper Beam	Shadow Ball	Snatch	Bold	255	-	255	-	-	-
+dp	748	350	0	Milotic	Wide Lens	Hydro Pump	Ice Beam	Mirror Coat	Recover	Bold	255	-	255	-	-	-
+dp	749	466	0	Electivire	Wise Glasses	Thunderbolt	Psychic	Focus Blast	Barrier	Modest	-	-	255	255	-	-
+dp	750	467	0	Magmortar	Passho Berry	Flare Blitz	Thunder Punch	Earthquake	Brick Break	Adamant	-	255	255	-	-	-
+dp	751	468	0	Togekiss	Scope Lens	Water Pulse	Flamethrower	Silver Wind	Ancient Power	Modest	255	-	-	255	-	-
+dp	752	59	0	Arcanine	White Herb	Overheat	Thunder Fang	Crunch	Iron Tail	Adamant	170	170	-	-	-	170
+dp	753	149	0	Dragonite	White Herb	Draco Meteor	Thunder	Hyper Beam	Safeguard	Modest	255	-	-	255	-	-
+dp	754	248	0	Tyranitar	Choice Scarf	Crunch	Stone Edge	Earthquake	Aerial Ace	Adamant	-	255	-	-	-	255
+dp	755	373	0	Salamence	Petaya Berry	Dragon Pulse	Hydro Pump	Flamethrower	Substitute	Timid	-	-	-	255	-	255
+dp	756	376	0	Metagross	Quick Claw	Meteor Mash	Earthquake	Zen Headbutt	Hammer Arm	Adamant	255	255	-	-	-	-
+dp	757	445	0	Garchomp	White Herb	Draco Meteor	Earthquake	Crunch	Poison Jab	Brave	170	170	-	170	-	-
+dp	758	289	0	Slaking	Expert Belt	Return	Hammer Arm	Shadow Claw	Earthquake	Jolly	-	255	-	-	-	255
+dp	759	3	0	Venusaur	Quick Claw	Frenzy Plant	Sludge Bomb	Hyper Beam	Synthesis	Calm	255	-	-	255	-	-
+dp	760	6	0	Charizard	Bright Powder	Blast Burn	Air Slash	Dragon Pulse	Ancient Power	Timid	-	-	-	255	-	255
+dp	761	9	0	Blastoise	Quick Claw	Hydro Cannon	Ice Beam	Hyper Beam	Focus Blast	Modest	255	-	-	255	-	-
+dp	762	154	0	Meganium	Quick Claw	Frenzy Plant	Ancient Power	Hyper Beam	Light Screen	Calm	255	-	-	255	-	-
+dp	763	157	0	Typhlosion	White Herb	Overheat	Eruption	Focus Blast	Sunny Day	Timid	-	-	-	255	-	255
+dp	764	160	0	Feraligatr	Quick Claw	Hydro Cannon	Ice Beam	Focus Blast	Ancient Power	Modest	255	-	-	255	-	-
+dp	765	254	0	Sceptile	Scope Lens	Leaf Blade	X-Scissor	Dragon Claw	Crunch	Jolly	-	255	-	-	-	255
+dp	766	257	0	Blaziken	Leftovers	Brave Bird	Flare Blitz	Brick Break	Stone Edge	Adamant	-	255	-	-	-	255
+dp	767	260	0	Swampert	Rindo Berry	Earthquake	Waterfall	Stone Edge	Mirror Coat	Brave	255	255	-	-	-	-
+dp	768	389	0	Torterra	Quick Claw	Earthquake	Stone Edge	Wood Hammer	Curse	Adamant	255	255	-	-	-	-
+dp	769	392	0	Infernape	King’s Rock	Flare Blitz	Close Combat	Earthquake	Thunder Punch	Jolly	-	255	-	-	-	255
+dp	770	395	0	Empoleon	Zoom Lens	Hydro Cannon	Blizzard	Hyper Beam	Grass Knot	Quiet	170	-	-	170	-	170
+dp	771	51	0	Dugtrio	Muscle Band	Earthquake	Stone Edge	Slash	Shadow Claw	Adamant	-	255	-	-	-	255
+dp	772	105	0	Marowak	Thick Club	Earthquake	Stone Edge	Iron Head	Fling	Careful	170	170	-	-	170	-
+dp	773	308	0	Medicham	Wise Glasses	Calm Mind	Focus Blast	Psychic	Shadow Ball	Modest	-	-	-	255	-	255
+dp	774	195	0	Quagsire	Muscle Band	Earthquake	Curse	Stone Edge	Waterfall	Adamant	255	255	-	-	-	-
+dp	775	210	0	Granbull	Quick Claw	Return	Close Combat	Earthquake	Stone Edge	Adamant	255	255	-	-	-	-
+dp	776	124	0	Jynx	Leftovers	Mean Look	Lovely Kiss	Perish Song	Drain Punch	Hardy	170	-	170	-	170	-
+dp	777	122	0	Mr. Mime	Leftovers	Psychic	Charge Beam	Shadow Ball	Focus Blast	Calm	255	-	-	-	255	-
+dp	778	171	0	Lanturn	Leftovers	Surf	Thunderbolt	Ice Beam	Confuse Ray	Modest	255	-	-	255	-	-
+dp	779	286	0	Breloom	Focus Sash	Spore	Focus Punch	Seed Bomb	Counter	Adamant	255	255	-	-	-	-
+dp	780	205	0	Forretress	Quick Claw	Explosion	Double-Edge	Rock Slide	Earthquake	Relaxed	-	170	-	170	-	170
+dp	781	227	0	Skarmory	Metal Coat	Night Slash	Air Slash	X-Scissor	Flash Cannon	Lonely	170	170	-	-	-	170
+dp	782	359	0	Absol	Choice Scarf	Night Slash	Shadow Claw	Slash	Zen Headbutt	Jolly	-	255	-	-	-	255
+dp	783	340	0	Whiscash	Muscle Band	Earthquake	Aqua Tail	Zen Headbutt	Stone Edge	Adamant	255	255	-	-	-	-
+dp	784	297	0	Hariyama	Scope Lens	Focus Energy	Cross Chop	Poison Jab	Stone Edge	Adamant	255	255	-	-	-	-
+dp	785	416	0	Vespiquen	Sharp Beak	Power Gem	X-Scissor	Aerial Ace	U-turn	Hasty	-	255	-	-	-	255
+dp	786	26	0	Raichu	Shell Bell	Volt Tackle	Iron Tail	Brick Break	Light Screen	Jolly	-	170	-	-	170	170
+dp	787	87	0	Dewgong	Chesto Berry	Surf	Ice Beam	Signal Beam	Rest	Modest	255	-	-	255	-	-
+dp	788	310	0	Manectric	Bright Powder	Thunderbolt	Flamethrower	Thunder Wave	Captivate	Timid	-	-	-	255	-	255
+dp	789	398	0	Staraptor	Choice Band	Brave Bird	Close Combat	Frustration	Steel Wing	Jolly	-	255	-	-	-	255
+dp	790	423	0	Gastrodon	Quick Claw	Earthquake	Waterfall	Stone Edge	Curse	Sassy	255	-	-	-	255	-
+dp	791	435	0	Skuntank	Muscle Band	Explosion	Night Slash	Crunch	Poison Jab	Jolly	-	255	-	-	-	255
+dp	792	45	0	Vileplume	Power Herb	Sludge Bomb	Energy Ball	Solar Beam	Synthesis	Modest	-	-	255	255	-	-
+dp	793	71	0	Victreebel	Focus Sash	Solar Beam	Sludge Bomb	Wring Out	Sunny Day	Timid	-	-	-	255	-	255
+dp	794	101	0	Electrode	Focus Sash	Magnet Rise	Gyro Ball	Screech	Explosion	Adamant	-	255	255	-	-	-
+dp	795	272	0	Ludicolo	Damp Rock	Surf	Ice Beam	Giga Drain	Rain Dance	Modest	-	-	255	255	-	-
+dp	796	275	0	Shiftry	Bright Powder	Sunny Day	Explosion	Solar Beam	Dark Pulse	Hasty	255	-	-	255	-	-
+dp	797	295	0	Exploud	White Herb	Hyper Voice	Overheat	Surf	Ice Beam	Modest	-	-	170	170	170	-
+dp	798	362	0	Glalie	Quick Claw	Hail	Blizzard	Dark Pulse	Explosion	Modest	255	-	-	255	-	-
+dp	799	428	0	Lopunny	Scope Lens	Charge Beam	Ice Beam	Shadow Ball	Grass Knot	Timid	-	-	-	255	-	255
+dp	800	478	0	Froslass	Expert Belt	Ice Beam	Shadow Ball	Thunderbolt	Destiny Bond	Timid	-	-	-	255	-	255
+dp	801	424	0	Ambipom	Metronome	Last Resort	Fake Out	Protect	Agility	Jolly	-	255	-	-	-	255
+dp	802	97	0	Hypno	Iron Ball	Trick Room	Psychic	Shadow Ball	Hypnosis	Quiet	255	-	-	255	-	-
+dp	803	76	0	Golem	Quick Claw	Explosion	Earthquake	Stone Edge	Brick Break	Adamant	255	255	-	-	-	-
+dp	804	112	0	Rhydon	Quick Claw	Earthquake	Megahorn	Stone Edge	Horn Drill	Adamant	255	255	-	-	-	-
+dp	805	80	0	Slowbro	Leftovers	Trick Room	Surf	Psychic	Ice Beam	Quiet	255	-	-	255	-	-
+dp	806	110	0	Weezing	Payapa Berry	Explosion	Payback	Double Hit	Gyro Ball	Brave	-	255	-	-	255	-
+dp	807	115	0	Kangaskhan	Wide Lens	Dizzy Punch	Giga Impact	Crunch	Outrage	Naughty	170	170	170	-	-	-
+dp	808	128	0	Tauros	Choice Band	Return	Stone Edge	Earthquake	Zen Headbutt	Jolly	-	255	-	-	-	255
+dp	809	65	0	Alakazam	Bright Powder	Psychic	Shadow Ball	Energy Ball	Focus Blast	Timid	-	-	-	255	-	255
+dp	810	199	0	Slowking	Leftovers	Calm Mind	Psychic	Surf	Ice Beam	Modest	255	-	-	255	-	-
+dp	811	241	0	Miltank	Quick Claw	Curse	Milk Drink	Return	Earthquake	Careful	255	-	-	-	255	-
+dp	812	334	0	Altaria	Chesto Berry	Dragon Dance	Dragon Claw	Earthquake	Rest	Jolly	255	-	-	-	255	-
+dp	813	454	0	Toxicroak	Muscle Band	Earthquake	Brick Break	X-Scissor	Stone Edge	Adamant	-	255	-	-	-	255
+dp	814	460	0	Abomasnow	Wise Glasses	Blizzard	Shadow Ball	Energy Ball	Hyper Beam	Modest	255	-	-	255	-	-
+dp	815	31	0	Nidoqueen	Scope Lens	Earthquake	Shadow Claw	Crunch	Superpower	Adamant	-	255	-	-	-	255
+dp	816	34	0	Nidoking	Muscle Band	Shadow Claw	Avalanche	Earthquake	Megahorn	Adamant	-	255	-	-	-	255
+dp	817	346	0	Cradily	Leftovers	Stockpile	Toxic	Ingrain	Double Team	Careful	170	-	170	-	170	-
+dp	818	348	0	Armaldo	Quick Claw	Swords Dance	Stone Edge	X-Scissor	Earthquake	Adamant	-	255	-	-	255	-
+dp	819	411	0	Bastiodon	Shuca Berry	Iron Tail	Stone Edge	Earthquake	Giga Impact	Adamant	255	255	-	-	-	-
+dp	820	419	0	Floatzel	Wave Incense	Ice Fang	Aqua Jet	Rain Dance	Dig	Quiet	170	-	170	-	-	170
+dp	821	429	0	Mismagius	Focus Sash	Shadow Ball	Thunderbolt	Energy Ball	Destiny Bond	Hasty	-	-	-	255	-	255
+dp	822	426	0	Drifblim	Liechi Berry	Explosion	Endure	Return	Hypnosis	Jolly	-	255	-	-	-	255
+dp	823	55	0	Golduck	Wacan Berry	Hydro Pump	Psychic	Ice Beam	Calm Mind	Modest	-	-	255	255	-	-
+dp	824	62	0	Poliwrath	Black Belt	Brick Break	Surf	Focus Blast	Bulk Up	Gentle	170	-	170	170	-	-
+dp	825	78	0	Rapidash	Passho Berry	Flare Blitz	Megahorn	Hypnosis	Sunny Day	Jolly	-	255	-	-	-	255
+dp	826	89	0	Muk	Zoom Lens	Curse	Gunk Shot	Payback	Shadow Sneak	Brave	255	255	-	-	-	-
+dp	827	94	0	Gengar	Life Orb	Shadow Ball	Sludge Bomb	Thunderbolt	Destiny Bond	Modest	-	-	-	255	-	255
+dp	828	181	0	Ampharos	Zoom Lens	Thunder	Focus Blast	Charge Beam	Power Gem	Quiet	255	-	-	255	-	-
+dp	829	186	0	Politoed	Wacan Berry	Hydro Pump	Hypnosis	Ice Beam	Payback	Timid	-	-	-	255	255	-
+dp	830	127	0	Pinsir	Choice Scarf	X-Scissor	Earthquake	Close Combat	Guillotine	Adamant	255	255	-	-	-	-
+dp	831	212	0	Scizor	Salac Berry	Endure	Reversal	X-Scissor	Iron Head	Jolly	-	255	-	-	-	255
+dp	832	214	0	Heracross	Salac Berry	Endure	Reversal	Megahorn	Earthquake	Jolly	-	255	-	-	-	255
+dp	833	217	0	Ursaring	Quick Claw	Return	Earthquake	Hammer Arm	Counter	Brave	255	255	-	-	-	-
+dp	834	229	0	Houndoom	Shuca Berry	Flamethrower	Dark Pulse	Sludge Bomb	Attract	Timid	-	-	-	255	-	255
+dp	835	232	0	Donphan	Quick Claw	Fissure	Earthquake	Poison Jab	Gyro Ball	Brave	255	-	-	-	255	-
+dp	836	321	0	Wailord	Quick Claw	Hydro Pump	Ice Beam	Fissure	Captivate	Modest	255	-	-	255	-	-
+dp	837	344	0	Claydol	Macho Brace	Trick Room	Gyro Ball	Earthquake	Explosion	Brave	255	255	-	-	-	-
+dp	838	409	0	Rampardos	Choice Scarf	Head Smash	Earthquake	Giga Impact	Iron Tail	Jolly	-	255	-	-	-	255
+dp	839	437	0	Bronzong	Chesto Berry	Psychic	Shadow Ball	Rest	Calm Mind	Modest	255	-	255	-	-	-
+dp	840	452	0	Drapion	Scope Lens	Night Slash	Cross Poison	Earthquake	Aerial Ace	Adamant	-	255	-	-	-	255
+dp	841	405	0	Luxray	Muscle Band	Thunder Fang	Attract	Crunch	Ice Fang	Jolly	-	255	-	-	-	255
+dp	842	38	0	Ninetales	Shuca Berry	Calm Mind	Flamethrower	Energy Ball	Extrasensory	Timid	-	-	-	255	-	255
+dp	843	68	0	Machamp	Choice Scarf	Dynamic Punch	Rock Slide	Earthquake	Ice Punch	Adamant	-	255	-	-	-	255
+dp	844	213	0	Shuckle	Razor Fang	Power Trick	Earthquake	Stone Edge	Gyro Ball	Sassy	255	-	255	-	-	-
+dp	845	407	0	Roserade	Rose Incense	Sludge Bomb	Shadow Ball	Energy Ball	Hyper Beam	Modest	-	-	-	170	170	170
+dp	846	430	0	Honchkrow	Scope Lens	Sucker Punch	Dark Pulse	Drill Peck	Night Slash	Docile	-	170	-	170	-	170
+dp	847	208	0	Steelix	Quick Claw	Gyro Ball	Explosion	Screech	Stone Edge	Brave	255	255	-	-	-	-
+dp	848	461	0	Weavile	Focus Sash	Night Slash	Ice Punch	Aerial Ace	Brick Break	Jolly	-	255	-	-	-	255
+dp	849	472	0	Gliscor	Quick Claw	Earthquake	Stone Edge	X-Scissor	Aerial Ace	Adamant	-	255	-	-	255	-
+dp	850	73	0	Tentacruel	Scope Lens	Hydro Pump	Wring Out	Sludge Bomb	Ice Beam	Timid	-	-	-	255	-	255
+dp	851	142	0	Aerodactyl	Choice Band	Earthquake	Iron Head	Stone Edge	Dragon Claw	Jolly	-	255	-	-	-	255
+dp	852	233	0	Porygon2	Macho Brace	Trick Room	Tri Attack	Ice Beam	Recover	Quiet	255	-	-	255	-	-
+dp	853	463	0	Lickilicky	Quick Claw	Body Slam	Power Whip	Earthquake	Explosion	Adamant	255	255	-	-	-	-
+dp	854	469	0	Yanmega	Bright Powder	Sunny Day	Solar Beam	Psychic	Bug Buzz	Timid	-	-	-	255	255	-
+dp	855	282	0	Gardevoir	Choice Specs	Psychic	Shadow Ball	Thunderbolt	Hyper Beam	Modest	-	-	255	255	-	-
+dp	856	475	0	Gallade	Scope Lens	Leaf Blade	Psycho Cut	Night Slash	X-Scissor	Adamant	-	255	255	-	-	-
+dp	857	103	0	Exeggutor	Focus Sash	Sunny Day	Explosion	Egg Bomb	Wood Hammer	Adamant	-	255	-	-	-	255
+dp	858	121	0	Starmie	Lum Berry	Hydro Pump	Psychic	Thunderbolt	Power Gem	Timid	-	-	-	255	-	255
+dp	859	330	0	Flygon	Yache Berry	Earthquake	Dragon Claw	Crunch	Stone Edge	Jolly	-	255	-	-	-	255
+dp	860	134	0	Vaporeon	Leftovers	Surf	Ice Beam	Shadow Ball	Acid Armor	Modest	255	-	-	255	-	-
+dp	861	135	0	Jolteon	Razor Fang	Charge Beam	Hyper Beam	Shadow Ball	Thunder Wave	Modest	-	-	-	255	-	255
+dp	862	136	0	Flareon	Quick Claw	Fire Fang	Bite	Return	Curse	Adamant	255	255	-	-	-	-
+dp	863	196	0	Espeon	Lum Berry	Psychic	Shadow Ball	Swift	Charm	Timid	-	-	-	255	-	255
+dp	864	197	0	Umbreon	Leftovers	Swagger	Mean Look	Screech	Moonlight	Impish	-	-	255	-	255	-
+dp	865	470	0	Leafeon	Quick Claw	Curse	Leaf Blade	X-Scissor	Last Resort	Brave	255	255	-	-	-	-
+dp	866	471	0	Glaceon	Wise Glasses	Hail	Blizzard	Shadow Ball	Mirror Coat	Modest	-	-	-	255	255	-
+dp	867	448	0	Lucario	Scope Lens	Aura Sphere	Flash Cannon	Psychic	Dragon Pulse	Modest	-	-	-	255	-	255
+dp	868	450	0	Hippowdon	Quick Claw	Earthquake	Stone Edge	Thunder Fang	Crunch	Adamant	-	255	-	-	255	-
+dp	869	476	0	Probopass	Chople Berry	Magnet Rise	Flash Cannon	Discharge	Stealth Rock	Modest	255	-	-	255	-	-
+dp	870	477	0	Dusknoir	Muscle Band	Earthquake	Thunder Punch	Shadow Punch	Fire Punch	Adamant	255	255	-	-	-	-
+dp	871	306	0	Aggron	Quick Claw	Stone Edge	Iron Head	Shadow Claw	Earthquake	Brave	255	255	-	-	-	-
+dp	872	365	0	Walrein	Leftovers	Surf	Ice Beam	Signal Beam	Encore	Modest	-	-	255	255	-	-
+dp	873	473	0	Mamoswine	Salac Berry	Earthquake	Endure	Ice Fang	Stone Edge	Adamant	-	255	-	-	-	255
+dp	874	131	0	Lapras	Wacan Berry	Rain Dance	Dragon Pulse	Thunder	Hydro Pump	Modest	255	-	-	255	-	-
+dp	875	169	0	Crobat	Payapa Berry	Brave Bird	Cross Poison	X-Scissor	Confuse Ray	Adamant	-	255	-	-	-	255
+dp	876	462	0	Magnezone	Silk Scarf	Thunderbolt	Tri Attack	Flash Cannon	Explosion	Quiet	255	-	-	255	-	-
+dp	877	464	0	Rhyperior	Quick Claw	Stone Edge	Megahorn	Earthquake	Hammer Arm	Careful	-	255	-	-	255	-
+dp	878	465	0	Tangrowth	Quick Claw	Power Whip	Earthquake	Payback	Sleep Powder	Careful	-	255	-	-	255	-
+dp	879	474	0	Porygon-Z	Expert Belt	Tri Attack	Shadow Ball	Thunderbolt	Recover	Modest	255	-	-	255	-	-
+dp	880	130	0	Gyarados	Chesto Berry	Waterfall	Earthquake	Rest	Dragon Dance	Adamant	-	255	-	-	-	255
+dp	881	143	0	Snorlax	Chesto Berry	Return	Rock Slide	Curse	Rest	Adamant	255	-	255	-	-	-
+dp	882	230	0	Kingdra	Lum Berry	Surf	Dragon Pulse	Ice Beam	Rain Dance	Modest	255	-	-	255	-	-
+dp	883	242	0	Blissey	Sitrus Berry	Counter	Ice Beam	Thunderbolt	Double Team	Bold	255	-	255	-	-	-
+dp	884	350	0	Milotic	Lum Berry	Surf	Ice Beam	Dragon Pulse	Recover	Modest	255	-	-	255	-	-
+dp	885	466	0	Electivire	Shuca Berry	Thunder Punch	Fire Punch	Ice Punch	Earthquake	Jolly	-	255	-	-	-	255
+dp	886	467	0	Magmortar	Shuca Berry	Fire Blast	Psychic	Focus Blast	Confuse Ray	Modest	-	-	255	255	-	-
+dp	887	468	0	Togekiss	Expert Belt	Air Slash	Aura Sphere	Psychic	Shadow Ball	Modest	255	-	-	255	-	-
+dp	888	59	0	Arcanine	Focus Band	Flare Blitz	Crunch	Thunder Fang	Extreme Speed	Jolly	-	255	-	-	-	255
+dp	889	149	0	Dragonite	Bright Powder	Dragon Claw	Aerial Ace	Waterfall	Dragon Dance	Jolly	-	255	-	-	-	255
+dp	890	248	0	Tyranitar	Chople Berry	Stone Edge	Crunch	Thunder Fang	Dragon Dance	Jolly	-	255	-	-	-	255
+dp	891	373	0	Salamence	Yache Berry	Dragon Claw	Earthquake	Aerial Ace	Dragon Dance	Jolly	-	255	-	-	-	255
+dp	892	376	0	Metagross	Quick Claw	Explosion	Meteor Mash	Earthquake	Zen Headbutt	Adamant	255	255	-	-	-	-
+dp	893	445	0	Garchomp	Focus Sash	Earthquake	Dragon Claw	Fire Fang	Crunch	Jolly	-	255	-	-	-	255
+dp	894	289	0	Slaking	Choice Band	Giga Impact	Earthquake	Shadow Claw	Aerial Ace	Adamant	255	255	-	-	-	-
+dp	895	144	0	Articuno	Icy Rock	Swagger	Hail	Roost	Blizzard	Calm	255	-	255	-	-	-
+dp	896	145	0	Zapdos	Bright Powder	Double Team	Roost	Discharge	Pluck	Timid	255	-	-	-	-	255
+dp	897	146	0	Moltres	Heat Rock	Sunny Day	Flamethrower	Solar Beam	Endure	Hasty	-	-	255	-	-	255
+dp	898	243	0	Raikou	Magnet	Rain Dance	Thunder	Calm Mind	Iron Tail	Quiet	255	-	-	255	-	-
+dp	899	244	0	Entei	Wise Glasses	Lava Plume	Fire Spin	Flamethrower	Overheat	Sassy	170	-	170	170	-	-
+dp	900	245	0	Suicune	Icy Rock	Hail	Aurora Beam	Ice Beam	Blizzard	Modest	-	-	255	255	-	-
+dp	901	377	0	Regirock	Passho Berry	Superpower	Ancient Power	Secret Power	Strength	Adamant	255	-	-	-	255	-
+dp	902	378	0	Regice	Shell Bell	Ice Beam	Thunderbolt	Hyper Beam	Flash Cannon	Modest	255	-	-	255	-	-
+dp	903	379	0	Registeel	Chesto Berry	Curse	Rest	Flash Cannon	Metal Claw	Relaxed	170	-	170	-	170	-
+dp	904	380	0	Latias	Colbur Berry	Psychic	Energy Ball	Grass Knot	Recover	Timid	-	-	-	255	-	255
+dp	905	381	0	Latios	Lum Berry	Dragon Dance	Recover	Dragon Claw	Shadow Claw	Adamant	255	255	-	-	-	-
+dp	906	485	0	Heatran	Focus Sash	Fire Fang	Earthquake	Stone Edge	Crunch	Adamant	170	170	-	-	170	-
+dp	907	488	0	Cresselia	Focus Band	Lunar Dance	Safeguard	Future Sight	Psychic	Bold	170	-	170	-	170	-
+dp	908	486	0	Regigigas	Lum Berry	Substitute	Double Team	Thunder Wave	Return	Careful	170	170	170	-	-	-
+dp	909	144	0	Articuno	Chesto Berry	Agility	Ice Beam	Water Pulse	Rest	Modest	-	-	255	255	-	-
+dp	910	145	0	Zapdos	Focus Band	Detect	Toxic	Drill Peck	Thunderbolt	Docile	170	-	170	-	170	-
+dp	911	146	0	Moltres	King’s Rock	Air Slash	Agility	Heat Wave	Pluck	Mild	170	-	-	-	170	170
+dp	912	243	0	Raikou	Lax Incense	Crunch	Thunder Fang	Leer	Double Team	Naughty	-	255	-	-	-	255
+dp	913	244	0	Entei	Heat Rock	Sunny Day	Flamethrower	Solar Beam	Extrasensory	Modest	255	-	-	255	-	-
+dp	914	245	0	Suicune	Wacan Berry	Tailwind	Extrasensory	Calm Mind	Hydro Pump	Impish	255	-	-	255	-	-
+dp	915	377	0	Regirock	Leftovers	Stone Edge	Earthquake	Brick Break	Sandstorm	Careful	-	255	-	-	255	-
+dp	916	378	0	Regice	Ganlon Berry	Focus Blast	Natural Gift	Giga Impact	Rock Polish	Serious	-	-	-	170	170	170
+dp	917	379	0	Registeel	Occa Berry	Iron Defense	Toxic	Substitute	Earthquake	Adamant	255	255	-	-	-	-
+dp	918	380	0	Latias	Lum Berry	Calm Mind	Dragon Pulse	Psychic	Roost	Modest	255	-	255	-	-	-
+dp	919	381	0	Latios	Expert Belt	Psychic	Dragon Pulse	Ice Beam	Shadow Ball	Timid	-	-	-	255	-	255
+dp	920	485	0	Heatran	Shuca Berry	Flamethrower	Earth Power	Dragon Pulse	Ancient Power	Modest	255	-	-	255	-	-
+dp	921	488	0	Cresselia	Lum Berry	Double Team	Moonlight	Toxic	Psychic	Bold	170	-	170	-	170	-
+dp	922	486	0	Regigigas	Bright Powder	Swagger	Psych Up	Crush Grip	Aerial Ace	Jolly	-	255	-	-	-	255
+dp	923	144	0	Articuno	Bright Powder	Tailwind	Ice Beam	Water Pulse	Double Team	Modest	170	-	-	170	-	170
+dp	924	145	0	Zapdos	King’s Rock	Drill Peck	U-turn	Steel Wing	Ancient Power	Jolly	-	255	-	-	-	255
+dp	925	146	0	Moltres	Bright Powder	Overheat	Sky Attack	Fire Blast	U-turn	Modest	-	170	-	170	170	-
+dp	926	243	0	Raikou	Wise Glasses	Discharge	Spark	Thunderbolt	Charge Beam	Rash	170	-	-	170	-	170
+dp	927	244	0	Entei	Leftovers	Fire Blast	Extrasensory	Shadow Ball	Calm Mind	Timid	-	-	-	255	-	255
+dp	928	245	0	Suicune	Never-Melt Ice	Ice Fang	Bite	Mist	Leer	Careful	-	-	255	-	255	-
+dp	929	377	0	Regirock	Smooth Rock	Sandstorm	Stone Edge	Earthquake	Iron Defense	Naughty	-	170	-	-	170	170
+dp	930	378	0	Regice	Chesto Berry	Ice Beam	Flash Cannon	Ancient Power	Rest	Bold	255	-	-	255	-	-
+dp	931	379	0	Registeel	Damp Rock	Rain Dance	Thunder	Stealth Rock	Protect	Jolly	-	-	255	255	-	-
+dp	932	380	0	Latias	Bright Powder	Psychic	Dragon Pulse	Thunderbolt	Surf	Timid	-	-	-	255	-	255
+dp	933	381	0	Latios	Haban Berry	Luster Purge	Water Pulse	Dragon Breath	Recover	Modest	-	-	255	255	-	-
+dp	934	485	0	Heatran	Quick Claw	Explosion	Fire Fang	Crunch	Iron Head	Adamant	255	255	-	-	-	-
+dp	935	488	0	Cresselia	Wise Glasses	Psychic	Ice Beam	Shadow Ball	Energy Ball	Modest	255	-	-	255	-	-
+dp	936	486	0	Regigigas	Shell Bell	Thunderbolt	Focus Blast	Earthquake	Drain Punch	Quiet	170	170	-	170	-	-
+dp	937	144	0	Articuno	Wacan Berry	Sheer Cold	Ice Beam	Aerial Ace	Roar	Calm	255	-	255	-	-	-
+dp	938	145	0	Zapdos	Sharp Beak	Rain Dance	Thunder	Charge Beam	Drill Peck	Timid	-	-	-	255	-	255
+dp	939	146	0	Moltres	Bright Powder	Flamethrower	Air Slash	Will-O-Wisp	Double Team	Timid	-	-	-	255	-	255
+dp	940	243	0	Raikou	Shuca Berry	Thunderbolt	Extrasensory	Shadow Ball	Calm Mind	Timid	-	-	-	255	-	255
+dp	941	244	0	Entei	Passho Berry	Fire Fang	Iron Tail	Bite	Double Team	Jolly	-	255	-	-	-	255
+dp	942	245	0	Suicune	Chesto Berry	Calm Mind	Rest	Surf	Ice Beam	Bold	255	-	255	-	-	-
+dp	943	377	0	Regirock	Quick Claw	Explosion	Stone Edge	Earthquake	Brick Break	Careful	-	255	-	-	255	-
+dp	944	378	0	Regice	Leftovers	Ice Beam	Thunderbolt	Protect	Toxic	Bold	-	-	255	255	-	-
+dp	945	379	0	Registeel	Quick Claw	Explosion	Double Team	Swagger	Substitute	Sassy	170	-	170	-	170	-
+dp	946	380	0	Latias	Leftovers	Mist Ball	Draco Meteor	Calm Mind	Safeguard	Bold	255	-	255	-	-	-
+dp	947	381	0	Latios	White Herb	Draco Meteor	Psychic	Thunder	Hyper Beam	Modest	255	-	-	255	-	-
+dp	948	485	0	Heatran	Bright Powder	Explosion	Magma Storm	Dark Pulse	Flash Cannon	Quiet	170	170	-	170	-	-
+dp	949	488	0	Cresselia	Leftovers	Calm Mind	Moonlight	Psychic	Shadow Ball	Bold	255	-	255	-	-	-
+dp	950	486	0	Regigigas	Chople Berry	Crush Grip	Ice Punch	Stone Edge	Brick Break	Adamant	255	255	-	-	-	-

@@ -29,6 +29,7 @@ function mvgOptions() {
 function genOfMvg(mvg) { const g = Object.values(S.core.games).find((x) => x.mvg === mvg); return g ? g.gen : 9; }
 async function useGame(mvg) {
   if (!S.movesChanges) S.movesChanges = (await readJSON('moves-changes.json')) || [];
+  if (!S.core._stpast) S.core._stpast = (await readJSON('stats-past.json')) || {};
   if (S.core._movesVg !== mvg) { S.core._moves = Battle.movesForGame(S.moves.moves, S.movesChanges, mvg, S.core.vgOrder); S.core._movesVg = mvg; }
   return genOfMvg(mvg);
 }
@@ -119,14 +120,16 @@ function monEditor(mon, mvg, redraw, opts) {
   g.append(field('Niveau', num(mon.lvl, 1, 100, (v) => { mon.lvl = v; redraw(); })));
   g.append(field('Nature', sel(mon.nature, Object.entries(Battle.NATURES).sort((a, b) => a[1][0].localeCompare(b[1][0], 'fr')).map(([k, n]) => [k, n[0] + (n[1] !== n[2] ? ` (+${Battle.STAT_SHORT[n[1]]} −${Battle.STAT_SHORT[n[2]]})` : ' (neutre)')]), (v) => { mon.nature = v; redraw(); })));
   g.append(field('Talent', sel(mon.ab, pk.ab.map(([id, hidden]) => [id, ((S.core.abilities[id] || {}).fr || '?') + (hidden ? ' (caché)' : '')]), (v) => { mon.ab = +v; redraw(); })));
-  g.append(field('Objet', sel(mon.item, Battle.ITEMS, (v) => { mon.item = v; redraw(); })));
+  g.append(field('Objet', sel(mon.item, Battle.ITEMS, (v) => { mon.item = v; mon.itemName = ''; redraw(); })));
   if (mvg >= 25) g.append(field('Téracristal', sel(mon.tera, Object.entries(Battle.TYPE_FR).map(([t, n]) => [t, n]), (v) => { mon.tera = +v; redraw(); })));
   box.append(g);
+  if (mon.itemName && !mon.item) box.append(h('div', { class: 'muted', style: 'font-size:11px;margin:-4px 0 6px' }, 'Objet tenu : ' + mon.itemName + ' (sans effet sur les dégâts dans ce calcul)'));
   // attaques
   const pool = learnable(mon.pk, mvg).sort((a, b) => S.moves.moves[a][0].localeCompare(S.moves.moves[b][0], 'fr'));
   const mv = h('div', { class: 'tm-moves' });
   for (let i = 0; i < 4; i++) {
-    mv.append(sel(mon.moves[i] || 0, [[0, '— attaque ' + (i + 1) + ' —'], ...pool.map((m) => [m, moveLabel(m)])], (v) => { mon.moves[i] = +v; redraw(); }));
+    const cur = mon.moves[i] || 0; // attaque venue d'une sauvegarde ou d'un lieu de combat : on la garde même si elle n'est pas dans la liste du jeu
+    mv.append(sel(cur, [[0, '— attaque ' + (i + 1) + ' —'], ...(cur && !pool.includes(cur) && S.moves.moves[cur] ? [cur] : []).concat(pool).map((m) => [m, moveLabel(m)])], (v) => { mon.moves[i] = +v; redraw(); }));
   }
   if (!pool.length) mv.append(h('div', { class: 'muted' }, 'Pas de liste d\'attaques pour ce Pokémon dans ce jeu.'));
   box.append(mv);
@@ -138,20 +141,22 @@ function statTable(mon, redraw) {
   const pk = S.core.pokemon[mon.pk];
   const b = Battle.build(S.core, mon, genOfMvg(S.core._movesVg || 25));
   const nat = Battle.NATURES[mon.nature] || Battle.NATURES.hardy;
+  const oldGen = genOfMvg(S.core._movesVg || 25) <= 2; // Gen 1-2 : pas de limite de 510 (Stat Exp), 255 par stat
   const t = h('table', { class: 't tm-stats' }, h('tr', null, h('th', null, ''), h('th', null, 'Base'), h('th', null, 'IV'), h('th', null, 'EV'), h('th', null, 'Stat')));
   for (let i = 0; i < 6; i++) {
     const cls = nat[1] !== nat[2] && i === nat[1] ? 'up' : nat[1] !== nat[2] && i === nat[2] ? 'down' : '';
-    t.append(h('tr', null, h('td', { class: cls }, Battle.STAT_SHORT[i] + (cls === 'up' ? ' +' : cls === 'down' ? ' −' : '')), h('td', null, pk.st[i]),
+    t.append(h('tr', null, h('td', { class: cls }, Battle.STAT_SHORT[i] + (cls === 'up' ? ' +' : cls === 'down' ? ' −' : '')), h('td', null, b.base[i]),
       h('td', null, num(mon.iv[i], 0, 31, (v) => { mon.iv[i] = v; redraw(); })),
-      h('td', null, num(mon.ev[i], 0, 252, (v) => { mon.ev[i] = v; redraw(); }, { step: 4 })),
+      h('td', null, num(mon.ev[i], 0, oldGen ? 255 : 252, (v) => { mon.ev[i] = v; redraw(); }, oldGen ? {} : { step: 4 })),
       h('td', { class: 'tm-final ' + cls }, b.stats[i])));
   }
   const total = mon.ev.reduce((a, x) => a + (+x || 0), 0);
-  const foot = h('div', { class: 'tm-evtotal' + (total > 510 ? ' over' : '') }, `EV : ${total} / 510` + (total > 510 ? ' — trop d\'EV, le jeu en autorise 510 au total' : ''));
+  const fixedNote = (mon.fixed || []).length === 6 ? h('div', { class: 'muted', style: 'font-size:11px' }, (mon.lvl === 50 ? 'Stats données par Bulbapedia (niveau 50) : IV et EV ne changent rien.' : 'Stats de Bulbapedia valables au niveau 50 seulement : ici, calcul avec les IV et EV saisis.')) : '';
+  const foot = oldGen ? h('div', { class: 'tm-evtotal' }, 'EV = racine carrée de la Stat Exp (255 au maximum par stat)') : h('div', { class: 'tm-evtotal' + (total > 510 ? ' over' : '') }, `EV : ${total} / 510` + (total > 510 ? ' — trop d\'EV, le jeu en autorise 510 au total' : ''));
   const quick = h('div', { class: 'tm-quick' },
     h('button', { onclick: () => { mon.iv = [31, 31, 31, 31, 31, 31]; redraw(); } }, 'IV 31 partout'),
     h('button', { onclick: () => { mon.ev = [0, 0, 0, 0, 0, 0]; redraw(); } }, 'EV à 0'));
-  return h('div', null, t, foot, quick);
+  return h('div', null, t, fixedNote, foot, quick);
 }
 
 // ------------------------------------------------------------------ onglet Équipes
@@ -170,7 +175,7 @@ async function renderTeams(content) {
   if (st.teams.length > 1) bar.append(h('button', { class: 'tm-btn danger', onclick: () => { if (!confirm('Supprimer l\'équipe « ' + team.name + ' » ?')) return; st.teams = st.teams.filter((t) => t !== team); st.cur = st.teams[0].id; redraw(); } }, 'Supprimer'));
   bar.append(field('Jeu', sel(team.mvg, mvgOptions(), async (v) => { team.mvg = +v; await ensureMvg(team.mvg); redraw(); })));
   content.append(bar);
-  content.append(h('div', { class: 'muted', style: 'font-size:12px;margin-bottom:10px' }, 'Le jeu choisi sert pour la liste des attaques et leur puissance, précision et type à l\'époque de ce jeu.' + (gen <= 2 ? ' Attention : en 1re et 2e génération, les stats utilisent un autre système (DV et « Stat Exp ») ; ici elles sont calculées avec la formule récente, elles peuvent différer un peu.' : '')));
+  content.append(h('div', { class: 'muted', style: 'font-size:12px;margin-bottom:10px' }, 'Le jeu choisi sert pour la liste des attaques et leur puissance, précision et type à l\'époque de ce jeu.' + (gen <= 2 ? ' En 1re et 2e génération, les stats utilisent les DV (0 à 15) et la « Stat Exp » : saisis IV = 2 × DV et EV = racine carrée de la Stat Exp (fait automatiquement pour un Pokémon pris dans une sauvegarde). En 1re génération, la stat Spécial unique n\'est pas reproduite.' : '')));
   const grid = h('div', { class: 'tm-team' });
   team.mons.forEach((mon, i) => {
     if (!mon) {
@@ -182,6 +187,188 @@ async function renderTeams(content) {
     } else grid.append(monEditor(mon, team.mvg, redraw, { onRemove: () => { team.mons[i] = null; redraw(); } }));
   });
   content.append(grid);
+  content.append(boxPanel(st, team, redraw));
+}
+
+// ------------------------------------------------------------------ Pokémon des boîtes d'une sauvegarde (onglet Équipes)
+const NATURE_KEYS = ['hardy', 'lonely', 'brave', 'adamant', 'naughty', 'bold', 'docile', 'relaxed', 'impish', 'lax', 'timid', 'hasty', 'serious', 'jolly',
+  'naive', 'modest', 'mild', 'quiet', 'bashful', 'rash', 'calm', 'gentle', 'sassy', 'careful', 'quirky'];
+// objets qui changent les dégâts (Battle.ITEMS) ; objets de type et Plaques -> type
+const ITEM_BATTLE = new Set(['choice-band', 'choice-specs', 'choice-scarf', 'life-orb', 'expert-belt', 'muscle-band', 'wise-glasses', 'assault-vest', 'eviolite']);
+const ITEM_TYPE = { 'silk-scarf': 1, 'black-belt': 2, 'sharp-beak': 3, 'poison-barb': 4, 'soft-sand': 5, 'hard-stone': 6, 'silver-powder': 7, 'spell-tag': 8, 'metal-coat': 9,
+  charcoal: 10, 'mystic-water': 11, 'miracle-seed': 12, magnet: 13, 'twisted-spoon': 14, 'never-melt-ice': 15, 'dragon-fang': 16, 'black-glasses': 17, 'fairy-feather': 18,
+  'fist-plate': 2, 'sky-plate': 3, 'toxic-plate': 4, 'earth-plate': 5, 'stone-plate': 6, 'insect-plate': 7, 'spooky-plate': 8, 'iron-plate': 9, 'flame-plate': 10,
+  'splash-plate': 11, 'meadow-plate': 12, 'zap-plate': 13, 'mind-plate': 14, 'icicle-plate': 15, 'draco-plate': 16, 'dread-plate': 17, 'pixie-plate': 18 };
+function levelFromExp(sid, exp) {
+  const sv = S.saveMaps, tbl = sv && sv.exp && sv.exp[sv.growth[sid]];
+  if (!tbl || exp == null) return 50;
+  let l = 1;
+  while (l < 100 && tbl[l] <= exp) l++;
+  return l;
+}
+// Pokémon lu dans la sauvegarde -> fiche d'équipe
+function monFromSave(m, gen) {
+  const mon = newMon(m.sid);
+  const d = m.d;
+  if (!d) return mon;
+  const pk = S.core.pokemon[mon.pk];
+  mon.lvl = d.lvl || levelFromExp(m.sid, d.exp);
+  mon.nature = NATURE_KEYS[d.nature] || 'hardy';
+  if (pk && pk.ab) {
+    if (d.ab && pk.ab.some((a) => a[0] === d.ab)) mon.ab = d.ab;
+    else if (d.abSlot != null) { const a = pk.ab.filter((x) => !x[1])[d.abSlot] || pk.ab[0]; if (a) mon.ab = a[0]; }
+  }
+  const iid = d.item && S.saveMaps.items[gen] ? S.saveMaps.items[gen][d.item] : 0;
+  const info = iid ? S.saveMaps.itemInfo[iid] : null;
+  if (info) { mon.item = ITEM_BATTLE.has(info[0]) ? info[0] : ITEM_TYPE[info[0]] ? 'type-' + ITEM_TYPE[info[0]] : ''; mon.itemName = info[1]; }
+  mon.moves = d.moves.map((x) => (S.moves.moves[x] ? x : 0));
+  mon.iv = d.iv.slice();
+  mon.ev = d.ev.slice();
+  mon.shiny = !!m.shiny;
+  return mon;
+}
+async function loadBox(st, team) {
+  const f = await window.api.openGameSave();
+  if (!f) return false;
+  if (f.tooBig) { toast('Fichier trop gros : c\'est sûrement la ROM, choisis le fichier de sauvegarde.'); return false; }
+  S.saveMaps = S.saveMaps && S.saveMaps.exp ? S.saveMaps : await readJSON('save-species.json');
+  const r = window.SaveReader.readSave(new Uint8Array(f.data), S.saveMaps);
+  if (!r) { toast('Sauvegarde non reconnue (mêmes jeux que l\'import du Pokédex).'); return false; }
+  const g = S.core.games[r.guess];
+  st.box = { label: r.label, file: f.name, mvg: g ? g.mvg : null, mons: r.mons.filter((m) => S.core.species[m.sid]).map((m) => ({ where: m.where, mon: monFromSave(m, r.gen) })) };
+  if (g && MVG_FILES.includes(g.mvg) && !team.mons.some(Boolean)) team.mvg = g.mvg; // équipe vide : on passe sur le jeu de la sauvegarde
+  return true;
+}
+function boxPanel(st, team, redraw) {
+  const box = h('div', { class: 'box tm-box' });
+  const head = h('h4', null, 'Mes boîtes (sauvegarde)');
+  const load = h('button', { class: 'tm-btn', onclick: async () => { if (await loadBox(st, team)) redraw(); } }, st.box ? 'Charger une autre sauvegarde…' : 'Charger une sauvegarde…');
+  box.append(head, h('div', { class: 'tool-ctrl' }, load, st.box ? h('button', { class: 'tm-btn', onclick: () => { st.box = null; redraw(); } }, 'Oublier') : ''));
+  if (!st.box) { box.append(h('div', { class: 'muted', style: 'font-size:12px' }, 'Charge ta sauvegarde (mêmes fichiers que l\'import du Pokédex) puis clique sur un Pokémon de l\'équipe ou des boîtes pour l\'ajouter, avec son niveau, sa nature, son talent, son objet, ses attaques, ses IV et ses EV.')); return box; }
+  const free = team.mons.indexOf(null);
+  const q = h('input', { placeholder: 'Filtrer (nom)…', value: S.boxFilter || '', oninput: (e) => { S.boxFilter = e.target.value; draw(); } });
+  box.append(h('div', { class: 'muted', style: 'font-size:12px;margin-bottom:6px' }, `${st.box.label} — ${st.box.file} · ${st.box.mons.length} Pokémon` + (free < 0 ? ' · équipe pleine : retire un Pokémon pour en ajouter un.' : '')), q);
+  const list = h('div', { class: 'tm-boxlist' });
+  box.append(list);
+  const draw = () => {
+    list.innerHTML = '';
+    const n = norm(S.boxFilter || '').trim();
+    let where = null, row = null;
+    for (const x of st.box.mons) {
+      const sp = S.core.species[x.mon.sp];
+      if (n && !norm(sp.fr).includes(n) && !norm(sp.en).includes(n)) continue;
+      if (x.where !== where) { where = x.where; list.append(h('div', { class: 'tm-boxwhere' }, where)); row = h('div', { class: 'tm-boxrow' }); list.append(row); }
+      const m = x.mon;
+      row.append(h('button', { class: 'tm-boxmon', disabled: free < 0, title: [moveNames(m), m.itemName ? '@ ' + m.itemName : ''].filter(Boolean).join(' · '),
+        onclick: () => { const i = team.mons.indexOf(null); if (i < 0) return; team.mons[i] = JSON.parse(JSON.stringify(m)); toast(sp.fr + ' ajouté à ' + team.name); redraw(); } },
+        img((S.defForm[m.sp] || {}).spr, !!m.shiny, false, ''), h('span', null, sp.fr), h('small', null, 'niv. ' + m.lvl)));
+    }
+    if (!list.children.length) list.append(h('div', { class: 'muted' }, 'Aucun Pokémon.'));
+  };
+  draw();
+  return box;
+}
+const moveNames = (m) => m.moves.filter(Boolean).map((x) => (S.moves.moves[x] || ['?'])[0]).join(', ');
+
+// ------------------------------------------------------------------ lieux de combat (Tour de Combat, Zone, Métro, Château, Arbre…)
+// data/facilities.json (tools/import_facilities.py, d'après Bulbapedia)
+async function facData() {
+  if (!S.facilities) S.facilities = (await readJSON('facilities.json')) || { facilities: [] };
+  return S.facilities.facilities;
+}
+// Arbre de Combat : certaines fiches n'existent que dans Soleil/Lune ou que dans Ultra-Soleil/Ultra-Lune
+const setInGame = (s, mvg) => !s.only || (mvg !== 17 && mvg !== 18) || (s.only === 'sm' ? mvg === 17 : mvg === 18);
+function facSetTrainers(f) {
+  if (f._byset) return f._byset;
+  f._byset = {};
+  for (const t of f.trainers) for (const i of t.pool) (f._byset[i] = f._byset[i] || []).push(t);
+  return f._byset;
+}
+function monFromSet(f, i, lvl, iv) {
+  const s = f.sets[i];
+  const m = newMon(s.sp);
+  Object.assign(m, { lvl, nature: s.nature, ev: s.ev.slice(), iv: Array(6).fill(iv == null ? 31 : iv), moves: s.moves.slice(), item: s.item, itemName: s.itemName, src: { fac: f.id, set: i } });
+  if (s.ab) m.ab = s.ab;
+  if (s.stats) m.fixed = s.stats.slice();
+  return m;
+}
+const trainerLabel = (t) => `${t.n != null ? '#' + t.n + ' ' : ''}${t.cls} ${t.name}${t.team ? ' — ' + t.team : ''}${t.lvl !== 50 ? ' (niv. ' + t.lvl + ')' : ''}${t.iv != null ? ' · IV ' + t.iv : ''}`;
+// une fiche : sprite, objet, attaques, nature, EV (ou stats), dresseurs qui l'utilisent
+function setRow(f, i, mvg, onPick, showUsers) {
+  const s = f.sets[i];
+  const sp = S.core.species[s.sp];
+  const mvs = s.moves.filter(Boolean).map((m) => ((S.core._moves || S.moves.moves)[m] || ['?'])[0]).join(', ');
+  const nat = Battle.NATURES[s.nature] ? Battle.NATURES[s.nature][0] : s.nature;
+  const evTxt = s.stats ? 'stats : ' + s.stats.join(' / ') : 'EV : ' + s.ev.map((v, k) => (v ? v + ' ' + Battle.STAT_SHORT[k] : '')).filter(Boolean).join(', ');
+  const users = showUsers ? (facSetTrainers(f)[i] || []) : [];
+  const nums = users.map((t) => t.n).filter((n) => n != null);
+  const ivs = [...new Set(users.map((t) => t.iv).filter((v) => v != null))].sort((a, b) => a - b);
+  const who = users.length ? `${users.length} dresseur${users.length > 1 ? 's' : ''}` + (nums.length ? ` (n° ${Math.min(...nums)} à ${Math.max(...nums)})` : '') + (ivs.length ? ` · IV ${ivs.join(', ')}` : '') : '';
+  return h('button', { class: 'fac-set', onclick: onPick },
+    img((S.defForm[s.sp] || {}).spr, false, false, ''),
+    h('div', null, h('b', null, sp ? sp.fr : '?'), s.itemName ? h('span', { class: 'muted' }, ' @ ' + s.itemName) : '',
+      h('div', null, mvs || '—'), h('div', { class: 'muted' }, (s.stats ? (s.ab && S.core.abilities[s.ab] ? 'Talent ' + S.core.abilities[s.ab].fr + ' · ' : '') : nat + ' · ') + evTxt),
+      who ? h('div', { class: 'muted' }, who) : ''));
+}
+async function facilityPicker(C, mvg, redraw, team) {
+  const all = await facData();
+  // tous les lieux, ceux du jeu de l'équipe en premier
+  const list = all.filter((f) => f.mvg.includes(mvg)).concat(all.filter((f) => !f.mvg.includes(mvg)));
+  if (!list.length) return null;
+  const box = h('div', { class: 'fac-box' });
+  if (!list.some((f) => f.id === C.fac)) C.fac = '';
+  const bar = h('div', { class: 'tm-grid' });
+  const lieu = h('select', { onchange: (e) => { C.fac = e.target.value; C.facTrainer = null; C.facQuery = ''; redraw(); } }, h('option', { value: '', selected: !C.fac }, '— aucun (Pokémon au choix) —'));
+  const grp = (label, fs) => { if (fs.length) lieu.append(h('optgroup', { label }, ...fs.map((f) => h('option', { value: f.id, selected: f.id === C.fac }, f.name)))); };
+  grp('Jeu de l\'équipe', list.filter((f) => f.mvg.includes(mvg)));
+  grp('Autres jeux', list.filter((f) => !f.mvg.includes(mvg)));
+  bar.append(field('Lieu de combat', lieu));
+  box.append(bar);
+  const f = list.find((x) => x.id === C.fac);
+  if (!f) return box;
+  if (!f.mvg.includes(mvg) && team) {
+    // lieu d'un autre jeu : les calculs suivent le jeu de l'équipe -> on propose de basculer
+    const names = mvgOptions().filter(([v]) => f.mvg.includes(v));
+    box.append(h('div', { class: 'tm-verdict warn', style: 'margin:6px 0;padding:8px' },
+      `Ton équipe « ${team.name} » est réglée sur un autre jeu : les dégâts sont calculés avec les règles de ce jeu-là. `,
+      ...names.map(([v, n]) => h('button', { class: 'tm-btn', style: 'margin-left:6px', onclick: async () => { team.mvg = v; await ensureMvg(v); redraw(); } }, 'Passer l\'équipe sur ' + n))));
+  }
+  C.facMode = C.facMode || 'pk';
+  bar.append(field('Chercher par', sel(C.facMode, [['pk', 'Pokémon'], ['trainer', 'dresseur (nom anglais)']], (v) => { C.facMode = v; redraw(); })));
+  const hasLvlModes = f.trainers.some((t) => t.lvl !== 50);
+  if (!hasLvlModes && !f.sets.some((s) => s.stats)) bar.append(field('Niveau', sel(C.facLvl || 50, [[50, '50'], [100, '100 (Ouvert)']], (v) => { C.facLvl = +v; redraw(); })));
+  const lvl = hasLvlModes || f.sets.some((s) => s.stats) ? 50 : (C.facLvl || 50);
+  const pick = (i, t) => {
+    const users = facSetTrainers(f)[i] || [];
+    const l = t ? t.lvl : hasLvlModes && users.length ? users[0].lvl : lvl; // Rubis / Saphir : fiches du mode niveau 50 ou 100
+    C.opp = monFromSet(f, i, l, t && t.iv != null ? t.iv : C.facIv);
+    if (t) C.opp.src.trainer = trainerLabel(t);
+    redraw();
+  };
+  const results = h('div', { class: 'fac-list' });
+  if (C.facMode === 'trainer') {
+    const tl = f.trainers.filter((t) => t.pool.some((i) => setInGame(f.sets[i], mvg)));
+    const idx = C.facTrainer != null && tl[C.facTrainer] ? C.facTrainer : null;
+    bar.append(field('Dresseur', sel(idx == null ? '' : idx, [['', '— choisir —'], ...tl.map((t, k) => [k, trainerLabel(t)])], (v) => { C.facTrainer = v === '' ? null : +v; redraw(); })));
+    if (idx != null) for (const i of tl[idx].pool) if (setInGame(f.sets[i], mvg)) results.append(setRow(f, i, mvg, () => pick(i, tl[idx]), false));
+  } else {
+    const present = [...new Set(f.sets.filter((s) => setInGame(s, mvg)).map((s) => s.sp))].sort((a, b) => S.core.species[a].fr.localeCompare(S.core.species[b].fr, 'fr'));
+    // liste déroulante classique (la liste de suggestions d'un champ texte ne défile pas dans Electron)
+    const curSid = findSpecies(C.facQuery || '');
+    bar.append(field('Pokémon', sel(present.includes(curSid) ? curSid : '', [['', `— choisir (${present.length} Pokémon) —`], ...present.map((sid) => [sid, S.core.species[sid].fr])],
+      (v) => { C.facQuery = v ? S.core.species[v].fr : ''; redraw(); })));
+    const ivs = [...new Set(f.trainers.map((t) => t.iv).filter((v) => v != null))].sort((a, b) => a - b);
+    bar.append(field('IV des Pokémon', sel(C.facIv ?? 31, [[31, '31'], ...ivs.filter((v) => v !== 31).map((v) => [v, String(v)])], (v) => { C.facIv = +v; redraw(); })));
+    const sid = findSpecies(C.facQuery || '');
+    if (sid) {
+      const idxs = f.sets.map((s, i) => i).filter((i) => f.sets[i].sp === sid && setInGame(f.sets[i], mvg));
+      if (!idxs.length) results.append(h('div', { class: 'muted' }, 'Ce Pokémon n\'apparaît pas dans ce lieu.'));
+      idxs.forEach((i) => results.append(setRow(f, i, mvg, () => pick(i, null), true)));
+    }
+  }
+  box.append(results);
+  box.append(h('div', { class: 'muted', style: 'font-size:11px' }, 'Source : listes des dresseurs de Bulbapedia (noms des dresseurs en anglais). Clique sur une fiche pour la prendre comme adversaire. Les IV dépendent du n° du dresseur' + (f.trainers.some((t) => t.iv != null) ? ' (indiqués pour chaque dresseur)' : ' ; Bulbapedia ne les donne pas pour ce lieu : 31 par défaut') + '. ' + (f.sets.some((s) => s.stats) ? 'Ici, Bulbapedia donne le talent et les stats au niveau 50 (pas la nature ni les EV).' : 'Le talent est tiré au hasard parmi ceux du Pokémon.')));
+  return box;
 }
 
 // ------------------------------------------------------------------ onglet Combat
@@ -279,8 +466,12 @@ async function renderCalc(content) {
   const setOpp = () => { const sid = findSpecies(inp.value); if (!sid) { toast('Pokémon introuvable : ' + inp.value); return; } C.opp = newMon(sid); C.opp.lvl = A0.lvl; redraw(); };
   inp.addEventListener('keydown', (e) => { if (e.key === 'Enter') setOpp(); });
   inp.addEventListener('change', () => { if (findSpecies(inp.value) && (!C.opp || findSpecies(inp.value) !== C.opp.sp)) setOpp(); });
+  const fac = await facilityPicker(C, mvg, redraw, team);
+  if (fac) right.append(fac);
   right.append(h('div', { class: 'tm-oppsearch' }, inp, h('button', { class: 'tm-btn', onclick: setOpp }, 'Choisir')));
   if (C.opp) {
+    if (C.opp.src || C.opp.itemName) right.append(h('div', { class: 'muted', style: 'font-size:12px;margin-bottom:6px' },
+      [C.opp.src && C.opp.src.trainer ? 'Dresseur : ' + C.opp.src.trainer : C.opp.src ? 'Fiche du lieu de combat' : '', C.opp.itemName && C.opp.item ? 'Objet tenu : ' + C.opp.itemName : ''].filter(Boolean).join(' · ')));
     right.append(monEditor(C.opp, mvg, redraw));
     right.append(stateRow(C.opp, mvg, redraw));
     if (!C.opp.moves.some(Boolean)) right.append(field('Attaques adverses inconnues : le calcul prend', sel(C.oppPool || 'level', [['level', 'celles qu\'il apprend par niveau, jusqu\'à son niveau'], ['all', 'le pire cas : toutes celles qu\'il peut apprendre (CT, œufs…)']], (v) => { C.oppPool = v; redraw(); })));

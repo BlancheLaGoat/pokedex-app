@@ -83,6 +83,17 @@
     return keys.length ? pk.tpast[keys[0]].slice() : pk.types.slice();
   }
 
+  // stats de base à l'époque du jeu (data/stats-past.json, chargé dans core._stpast) ; 1re génération : Spécial pour ASp et DSp
+  function statsInGen(core, pk, gen) {
+    const st = pk.st.slice();
+    const past = gen && core._stpast && core._stpast[pk.id];
+    if (!past) return st;
+    const best = {};
+    for (const [last, i, v] of past) if (last >= gen && (!best[i] || last < best[i][0])) best[i] = [last, v];
+    for (const [i, [, v]] of Object.entries(best)) { if (+i === 6) { st[3] = v; st[4] = v; } else st[+i] = v; }
+    return st;
+  }
+
   // objets gérés par le calcul
   const TYPE_FR = { 1: 'Normal', 2: 'Combat', 3: 'Vol', 4: 'Poison', 5: 'Sol', 6: 'Roche', 7: 'Insecte', 8: 'Spectre', 9: 'Acier', 10: 'Feu', 11: 'Eau', 12: 'Plante', 13: 'Électrik', 14: 'Psy', 15: 'Glace', 16: 'Dragon', 17: 'Ténèbres', 18: 'Fée' };
   const ITEMS = [
@@ -131,11 +142,13 @@
     const lvl = Math.max(1, Math.min(100, +mon.lvl || 50));
     const iv = (mon.iv || []).length === 6 ? mon.iv : [31, 31, 31, 31, 31, 31];
     const ev = (mon.ev || []).length === 6 ? mon.ev : [0, 0, 0, 0, 0, 0];
-    const stats = pk.st.map((b, i) => calcStat(b, i, +iv[i] || 0, +ev[i] || 0, lvl, mon.nature));
+    // stats données telles quelles (Tour de Combat de Diamant Étincelant / Perle Scintillante : Bulbapedia donne les stats au niveau 50)
+    const base = statsInGen(core, pk, gen);
+    const stats = (mon.fixed || []).length === 6 && lvl === 50 ? mon.fixed.map(Number) : base.map((b, i) => calcStat(b, i, +iv[i] || 0, +ev[i] || 0, lvl, mon.nature));
     const sp = core.species[pk.sp];
     if (!core._finalStage) { core._finalStage = new Set(); const hasChild = new Set(Object.values(core.species).map((s) => s.from).filter(Boolean)); for (const id of Object.keys(core.species)) if (!hasChild.has(+id)) core._finalStage.add(+id); }
     return {
-      mon, pk, sp, lvl, stats, ab: (!gen || gen >= 3) && mon.ab && core.abilities[mon.ab] ? core.abilities[mon.ab].en : '', item: mon.item || '', types: typesInGen(pk, gen), gen: gen || 9,
+      mon, pk, sp, lvl, stats, base, ab: (!gen || gen >= 3) && mon.ab && core.abilities[mon.ab] ? core.abilities[mon.ab].en : '', item: mon.item || '', types: typesInGen(pk, gen), gen: gen || 9,
       tera: +mon.tera || 0, teraOn: !!mon.teraOn && +mon.tera > 0 && (!gen || gen >= 9), boosts: mon.boosts || [0, 0, 0, 0, 0, 0],
       hpPct: mon.hpPct == null || mon.hpPct === '' ? 100 : Math.max(0, Math.min(100, +mon.hpPct)), burned: !!mon.burned, notFinal: !core._finalStage.has(pk.sp),
       name: sp ? sp.fr : pk.ident,
@@ -199,7 +212,7 @@
     if (A.ab === 'Transistor' && type === 13) pow = Math.floor(pow * 1.3);
     if (A.ab === "Dragon's Maw" && type === 16) pow = Math.floor(pow * 1.5);
     if (PINCH[A.ab] === type && A.hpPct <= 33.4) { pow = Math.floor(pow * 1.5); reasons.push('talent de type activé (PV bas)'); }
-    if (A.item === 'type-' + type) { pow = Math.floor(pow * 1.2); reasons.push('objet de type'); }
+    if (A.item === 'type-' + type) { pow = Math.floor(pow * (gen <= 3 ? 1.1 : 1.2)); reasons.push('objet de type'); } // × 1,1 avant la 4e génération
     if (A.item === 'muscle-band' && cat === 2) pow = Math.floor(pow * 1.1);
     if (A.item === 'wise-glasses' && cat === 3) pow = Math.floor(pow * 1.1);
     out.power = pow;
@@ -392,5 +405,5 @@
     return { res, ranking, verdict };
   }
 
-  window.Battle = { movesForGame, typesInGen, STAT_FR, STAT_SHORT, NATURES, ITEMS, TYPE_FR, natureMult, effectiveness, calcStat, statRange, build, speed, damage, hitsToKO, rankMoves, duel, advise };
+  window.Battle = { movesForGame, typesInGen, statsInGen, STAT_FR, STAT_SHORT, NATURES, ITEMS, TYPE_FR, natureMult, effectiveness, calcStat, statRange, build, speed, damage, hitsToKO, rankMoves, duel, advise };
 })();
