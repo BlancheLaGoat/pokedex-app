@@ -1,0 +1,951 @@
+jeu	n° de fiche dans le jeu	Pokémon	objet	attaque1	attaque2	attaque3	attaque4
+ptgs	1	Bulbasaur	BrightPowder	Magical Leaf	Toxic	Leech Seed	Sweet Scent
+ptgs	2	Charmander	Scope Lens	Fire Fang	Metal Claw	SmokeScreen	Scary Face
+ptgs	3	Squirtle	Sea Incense	Aqua Jet	Bite	Withdraw	Protect
+ptgs	4	Chikorita	Lax Incense	Bullet Seed	Secret Power	Growl	Light Screen
+ptgs	5	Cyndaquil	Quick Claw	Flame Wheel	Double Kick	Swift	SmokeScreen
+ptgs	6	Totodile	Razor Claw	Dive	Slash	Screech	Scary Face
+ptgs	7	Treecko	Miracle Seed	Mega Drain	Swift	Flash	Double Team
+ptgs	8	Torchic	Charcoal	Ember	Mirror Move	Mud-Slap	Double Team
+ptgs	9	Mudkip	Mystic Water	Water Pulse	Icy Wind	Mud-Slap	Growl
+ptgs	10	Turtwig	Occa Berry	Razor Leaf	Bite	Tickle	Withdraw
+ptgs	11	Chimchar	Passho Berry	Flame Wheel	Facade	Leer	Fake Out
+ptgs	12	Piplup	Rindo Berry	BubbleBeam	Aerial Ace	Growl	Supersonic
+ptgs	13	Kricketot	Liechi Berry	Bug Bite	Bide	Mud-Slap	Growl
+ptgs	14	Happiny	Sitrus Berry	Present	Sweet Kiss	Copycat	Charm
+ptgs	15	Burmy	Sitrus Berry	Bug Bite	Tackle	Snore	Protect
+ptgs	16	Shedinja	Lax Incense	Shadow Sneak	Fury Cutter	Confuse Ray	Sand-Attack
+ptgs	17	Starly	Sharp Beak	Wing Attack	Quick Attack	Endeavor	Growl
+ptgs	18	Combee	SilverPowder	Bug Bite	Gust	Ominous Wind	Sweet Scent
+ptgs	19	Bidoof	Silk Scarf	Headbutt	Pluck	Growl	Yawn
+ptgs	20	Shinx	King's Rock	Thunder Fang	Bite	Howl	Leer
+ptgs	21	Cherubi	Rose Incense	Magical Leaf	Toxic	Leech Seed	Helping Hand
+ptgs	22	Budew	Big Root	Mega Drain	Toxic	Growth	Worry Seed
+ptgs	23	Chingling	Twisted Spoon	Confusion	Swift	Disable	Growl
+ptgs	24	Riolu	Expert Belt	Brick Break	Bullet Punch	Foresight	Counter
+ptgs	25	Bonsly	Rock Incense	Rock Slide	Low Kick	Copycat	Sandstorm
+ptgs	26	Shuppet	Spell Tag	Shadow Sneak	Knock Off	Will-O-Wisp	Grudge
+ptgs	27	Duskull	Spell Tag	Shadow Sneak	Pain Split	Will-O-Wisp	Confuse Ray
+ptgs	28	Vulpix	BrightPowder	Ember	Swift	Will-O-Wisp	Confuse Ray
+ptgs	29	Pikachu	Sitrus Berry	ThunderShock	Swift	Thunder Wave	Double Team
+ptgs	30	Sandshrew	Soft Sand	Dig	Rock Tomb	Sandstorm	Sand-Attack
+ptgs	31	Geodude	Focus Band	Magnitude	Rock Blast	Strength	Protect
+ptgs	32	Dratini	Cheri Berry	Twister	Water Pulse	Thunder Wave	Supersonic
+ptgs	33	Snubbull	Razor Claw	Headbutt	Bite	Swagger	Scary Face
+ptgs	34	Remoraid	Petaya Berry	BubbleBeam	Aurora Beam	Mud-Slap	Supersonic
+ptgs	35	Larvitar	Liechi Berry	Rock Slide	Dig	Bite	Scary Face
+ptgs	36	Baltoy	Twisted Spoon	Psybeam	Mud-Slap	AncientPower	Light Screen
+ptgs	37	Snorunt	King's Rock	Ice Fang	Headbutt	Bite	Protect
+ptgs	38	Bagon	Dragon Fang	DragonBreath	Headbutt	Brick Break	Scary Face
+ptgs	39	Bronzor	Odd Incense	Confusion	Gyro Ball	AncientPower	Imprison
+ptgs	40	Gible	Soft Sand	Dragon Rage	Sand Tomb	Metal Claw	Sandstorm
+ptgs	41	Croagunk	Black Sludge	Poison Jab	Wake-Up Slap	Taunt	Swagger
+ptgs	42	Venonat	SilverPowder	Bug Bite	PoisonPowder	Psybeam	Supersonic
+ptgs	43	Machop	Scope Lens	Karate Chop	Rock Tomb	Foresight	Scary Face
+ptgs	44	Smoochum	BrightPowder	Confusion	Icy Wind	Fake Out	Sweet Kiss
+ptgs	45	Carvanha	Cheri Berry	Aqua Jet	Bite	Scary Face	Swagger
+ptgs	46	Numel	Lax Incense	Magnitude	Ember	Rock Tomb	Sandstorm
+ptgs	47	Corphish	Pecha Berry	BubbleBeam	ViceGrip	Knock Off	Swagger
+ptgs	48	Doduo	Liechi Berry	Aerial Ace	Quick Attack	Faint Attack	Acupressure
+ptgs	49	Swablu	Mental Herb	Air Cutter	Swift	Mirror Move	Attract
+ptgs	50	Glameow	Razor Claw	Fury Swipes	Fake Out	Faint Attack	Attract
+ptgs	51	Mime Jr.	Lax Incense	Copycat	Confusion	Barrier	Light Screen
+ptgs	52	Slowpoke	Cheri Berry	Water Pulse	Confusion	Disable	Yawn
+ptgs	53	Oddish	Rose Incense	Mega Drain	Acid	Sweet Scent	Moonlight
+ptgs	54	Psyduck	Chesto Berry	Water Gun	Confusion	Water Sport	Disable
+ptgs	55	Cubone	Soft Sand	Bone Club	Headbutt	Brick Break	Leer
+ptgs	56	Goldeen	Petaya Berry	Water Pulse	Psybeam	Supersonic	Rain Dance
+ptgs	57	Natu	Twisted Spoon	Night Shade	Air Cutter	Ominous Wind	Future Sight
+ptgs	58	Clefairy	BrightPowder	Wake-Up Slap	Follow Me	Encore	Sing
+ptgs	59	Magnemite	Rawst Berry	Shock Wave	Mirror Shot	Metal Sound	Reflect
+ptgs	60	Seel	Aspear Berry	Aqua Jet	Ice Shard	Fake Out	Encore
+ptgs	61	Grimer	Black Sludge	Toxic	Shadow Sneak	Acid Armor	Minimize
+ptgs	62	Krabby	Pecha Berry	BubbleBeam	ViceGrip	Leer	Protect
+ptgs	63	Exeggcute	Odd Incense	Confusion	Grass Knot	Leech Seed	Light Screen
+ptgs	64	Eevee	Salac Berry	Take Down	Bite	Flail	Endure
+ptgs	65	Shellos	Lax Incense	Water Pulse	Mud-Slap	Icy Wind	Harden
+ptgs	66	Drowzee	Rawst Berry	Psybeam	Assist	Disable	Barrier
+ptgs	67	Stunky	BlackGlasses	Pursuit	Toxic	Slash	SmokeScreen
+ptgs	68	Voltorb	Petaya Berry	Shock Wave	Swift	Thunder Wave	Light Screen
+ptgs	69	Chinchou	Magnet	Shock Wave	BubbleBeam	Icy Wind	Thunder Wave
+ptgs	70	Teddiursa	Chesto Berry	Secret Power	Faint Attack	Attract	Rest
+ptgs	71	Delibird	NeverMeltIce	Present	Ice Ball	Aerial Ace	Hail
+ptgs	72	Houndour	Charcoal	Fire Fang	Bite	Roar	Will-O-Wisp
+ptgs	73	Phanpy	Metronome	Rollout	Rock Tomb	Defense Curl	Sandstorm
+ptgs	74	Aron	Metal Coat	Metal Claw	Rock Tomb	Iron Defense	Protect
+ptgs	75	Spoink	Sitrus Berry	Psywave	Swift	Magic Coat	Confuse Ray
+ptgs	76	Luvdisc	Damp Rock	Water Pulse	Attract	Sweet Kiss	Rain Dance
+ptgs	77	Buizel	Wave Incense	Aqua Jet	Quick Attack	Pursuit	Growl
+ptgs	78	Hippopotas	Chesto Berry	Dig	Rock Tomb	Sand Tomb	Yawn
+ptgs	79	Skorupi	Poison Barb	Poison Fang	Bug Bite	Bite	Toxic Spikes
+ptgs	80	Finneon	Wave Incense	Water Pulse	Silver Wind	Attract	Aqua Ring
+ptgs	81	Snover	NeverMeltIce	Ice Punch	Razor Leaf	GrassWhistle	Ingrain
+ptgs	82	Tentacool	Cheri Berry	BubbleBeam	Acid	Supersonic	Barrier
+ptgs	83	Cacnea	Aspear Berry	Needle Arm	Faint Attack	Cotton Spore	GrassWhistle
+ptgs	84	Koffing	Poison Barb	Sludge	Psybeam	SmokeScreen	Spite
+ptgs	85	Staryu	Cheri Berry	BubbleBeam	Twister	Swift	Light Screen
+ptgs	86	Skiploom	Big Root	Mega Drain	Aerial Ace	Confusion	Cotton Spore
+ptgs	87	Lombre	Damp Rock	Water Pulse	Mega Drain	Fake Out	Rain Dance
+ptgs	88	Nuzleaf	Aspear Berry	Razor Leaf	Faint Attack	Swagger	Harden
+ptgs	89	Vibrava	Aspear Berry	DragonBreath	Mud-Slap	Ominous Wind	Supersonic
+ptgs	90	Staravia	Sharp Beak	Endeavor	Wing Attack	Quick Attack	Whirlwind
+ptgs	91	Rhyhorn	Persim Berry	Dig	Rock Blast	Scary Face	Tail Whip
+ptgs	92	Clamperl	DeepSeaScale	Whirlpool	Toxic	Iron Defense	Protect
+ptgs	93	Mantyke	Mystic Water	BubbleBeam	Aerial Ace	Icy Wind	Agility
+ptgs	94	Drifloon	Petaya Berry	Ominous Wind	Air Cutter	Icy Wind	Will-O-Wisp
+ptgs	95	Pidgeotto	Rawst Berry	Wing Attack	Quick Attack	FeatherDance	Mirror Move
+ptgs	96	Growlithe	Charcoal	Fire Fang	Bite	Roar	Agility
+ptgs	97	Cranidos	Rock Incense	Rock Tomb	Pursuit	Scary Face	Leer
+ptgs	98	Shieldon	Focus Band	Iron Head	Rock Tomb	Swagger	Iron Defense
+ptgs	99	Buneary	Black Belt	Dizzy Punch	Drain Punch	Quick Attack	Foresight
+ptgs	100	Farfetch'd	Stick	Slash	Air Cutter	Knock Off	Swords Dance
+ptgs	101	Omanyte	Pecha Berry	AncientPower	Water Gun	Mud Shot	Protect
+ptgs	102	Kabuto	Liechi Berry	Aqua Jet	Rock Tomb	Knock Off	Metal Sound
+ptgs	103	Lileep	Lax Incense	AncientPower	Grass Knot	Ingrain	Confuse Ray
+ptgs	104	Anorith	Metronome	Fury Cutter	Rock Blast	Metal Claw	Protect
+ptgs	105	Aipom	Silk Scarf	Double Hit	U-turn	Thunder Wave	Fake Out
+ptgs	106	Elekid	Cheri Berry	ThunderPunch	Karate Chop	Quick Attack	Light Screen
+ptgs	107	Loudred	Persim Berry	Stomp	Bite	Howl	Supersonic
+ptgs	108	Spinda	Silk Scarf	Dizzy Punch	Drain Punch	Faint Attack	Teeter Dance
+ptgs	109	Dunsparce	Razor Claw	Headbutt	Bite	Spite	Glare
+ptgs	110	Nidorina	Poison Barb	Poison Fang	Double Kick	Bite	Flatter
+ptgs	111	Nidorino	Focus Band	Toxic	Double Kick	Facade	Flatter
+ptgs	112	Flaaffy	Light Clay	Shock Wave	Swift	Thunder Wave	Light Screen
+ptgs	113	Magby	Pecha Berry	Fire Punch	Mach Punch	Leer	SmokeScreen
+ptgs	114	Nosepass	Hard Stone	AncientPower	Shock Wave	Thunder Wave	Sandstorm
+ptgs	115	Corsola	Focus Band	BubbleBeam	AncientPower	Mirror Coat	Barrier
+ptgs	116	Delcatty	Sitrus Berry	Secret Power	Faint Attack	Fake Out	Foresight
+ptgs	117	Sableye	BlackGlasses	Faint Attack	Shadow Sneak	Fake Out	Detect
+ptgs	118	Mawile	BrightPowder	Iron Head	Bite	Tickle	Iron Defense
+ptgs	119	Kricketune	Metronome	Fury Cutter	Rock Smash	Knock Off	Focus Energy
+ptgs	120	Butterfree	Pecha Berry	Silver Wind	Air Cutter	Psybeam	Tailwind
+ptgs	121	Beedrill	Scope Lens	Twineedle	Toxic	Assurance	Agility
+ptgs	122	Poliwhirl	Liechi Berry	BubbleBeam	DoubleSlap	Mist	Rain Dance
+ptgs	123	Onix	Hard Stone	Rock Slide	Dig	Screech	Sandstorm
+ptgs	124	Lickitung	Chesto Berry	Secret Power	Rock Tomb	Lick	Screech
+ptgs	125	Beautifly	SilverPowder	Silver Wind	Air Cutter	Mega Drain	Attract
+ptgs	126	Dustox	SilverPowder	Silver Wind	Toxic	Psybeam	Whirlwind
+ptgs	127	Weepinbell	Scope Lens	Razor Leaf	Acid	Wrap	Sweet Scent
+ptgs	128	Graveler	Focus Band	Magnitude	Rock Tomb	Stealth Rock	Defense Curl
+ptgs	129	Ledian	Razor Claw	Silver Wind	Air Cutter	Agility	Baton Pass
+ptgs	130	Ariados	SilverPowder	Bug Bite	Toxic	Shadow Sneak	Spider Web
+ptgs	131	Yanma	Lax Incense	Silver Wind	Air Cutter	Double Team	Detect
+ptgs	132	Munchlax	Sitrus Berry	Metronome	Recycle	Stockpile	Swallow
+ptgs	133	Gloom	Miracle Seed	Mega Drain	Acid	Stun Spore	Moonlight
+ptgs	134	Porygon	Persim Berry	Swift	Psybeam	Icy Wind	Recycle
+ptgs	135	Castform	Persim Berry	Weather Ball	Sunny Day	Rain Dance	Hail
+ptgs	136	Volbeat	Liechi Berry	U-turn	Quick Attack	Confuse Ray	Helping Hand
+ptgs	137	Illumise	Petaya Berry	Silver Wind	Swift	Wish	Helping Hand
+ptgs	138	Roselia	Black Sludge	Mega Drain	Toxic	GrassWhistle	Cotton Spore
+ptgs	139	Wailmer	Sea Incense	Water Pulse	Icy Wind	Roar	Mist
+ptgs	140	Parasect	Aspear Berry	Bug Bite	Grass Knot	Scratch	Stun Spore
+ptgs	141	Chatot	Persim Berry	Chatter	Swift	Sing	Mirror Move
+ptgs	142	Haunter	Persim Berry	Night Shade	Toxic	Confuse Ray	Grudge
+ptgs	143	Togetic	Chesto Berry	Air Cutter	Swift	Magical Leaf	Wish
+ptgs	144	Murkrow	BlackGlasses	Faint Attack	Wing Attack	Torment	Taunt
+ptgs	145	Wobbuffet	Focus Band	Counter	Mirror Coat	Charm	Splash
+ptgs	146	Plusle	Petaya Berry	Shock Wave	Swift	Fake Tears	Helping Hand
+ptgs	147	Minun	Salac Berry	Shock Wave	Swift	Encore	Helping Hand
+ptgs	148	Pachirisu	Magnet	Spark	Quick Attack	Bite	Sweet Kiss
+ptgs	149	Ponyta	Chesto Berry	Flame Wheel	Stomp	Will-O-Wisp	Tail Whip
+ptgs	150	Azumarill	Pecha Berry	BubbleBeam	Rollout	Defense Curl	Tail Whip
+ptgs	151	Ivysaur	Salac Berry	Razor Leaf	PoisonPowder	Take Down	Leech Seed
+ptgs	152	Charmeleon	Razor Claw	Fire Fang	Slash	SmokeScreen	Scary Face
+ptgs	153	Wartortle	Focus Band	Aqua Jet	Bite	Rapid Spin	Yawn
+ptgs	154	Bayleef	Sitrus Berry	Magical Leaf	AncientPower	Safeguard	Light Screen
+ptgs	155	Quilava	Chesto Berry	Flame Wheel	Double Kick	Quick Attack	SmokeScreen
+ptgs	156	Croconaw	Scope Lens	Water Pulse	Slash	Bite	Scary Face
+ptgs	157	Grovyle	Coba Berry	Magical Leaf	Swift	Mud-Slap	Detect
+ptgs	158	Combusken	Liechi Berry	Fire Punch	Double Kick	Quick Attack	Sand-Attack
+ptgs	159	Marshtomp	Focus Band	Mud Shot	Water Pulse	AncientPower	Growl
+ptgs	160	Grotle	Big Root	Razor Leaf	Bite	Leech Seed	Synthesis
+ptgs	161	Monferno	Coba Berry	Mach Punch	Flame Wheel	Fury Swipes	Taunt
+ptgs	162	Prinplup	Wacan Berry	BubbleBeam	Metal Claw	Peck	Double Team
+ptgs	163	Sudowoodo	Hard Stone	Rock Slide	Faint Attack	Sandstorm	Block
+ptgs	164	Magcargo	Lax Incense	Lava Plume	AncientPower	Acid Armor	Sandstorm
+ptgs	165	Pupitar	Hard Stone	Rock Tomb	Dig	Scary Face	Sandstorm
+ptgs	166	Sealeo	Icy Rock	Aurora Beam	Water Pulse	Encore	Hail
+ptgs	167	Bibarel	Chople Berry	Headbutt	Water Pulse	Quick Attack	Growl
+ptgs	168	Gabite	Yache Berry	Dragon Rage	Sand Tomb	Slash	Sand-Attack
+ptgs	169	Machoke	Focus Band	Karate Chop	Rock Tomb	Foresight	Scary Face
+ptgs	170	Raticate	Silk Scarf	Endeavor	Pursuit	Quick Attack	Scary Face
+ptgs	171	Masquerain	SilverPowder	Silver Wind	Air Cutter	Sweet Scent	Scary Face
+ptgs	172	Furret	Liechi Berry	Slash	Sucker Punch	Helping Hand	Assist
+ptgs	173	Luxio	Magnet	Thunder Fang	Bite	Flash	Swagger
+ptgs	174	Cherrim	Persim Berry	Magical Leaf	Leech Seed	GrassWhistle	Synthesis
+ptgs	175	Dragonair	Cheri Berry	DragonBreath	Water Pulse	Thunder Wave	Safeguard
+ptgs	176	Mightyena	Razor Fang	Bite	Poison Fang	Howl	Roar
+ptgs	177	Linoone	Lansat Berry	Slash	Shadow Claw	Covet	Tickle
+ptgs	178	Kadabra	Twisted Spoon	Confusion	Role Play	Disable	Future Sight
+ptgs	179	Shelgon	Aspear Berry	DragonBreath	Headbutt	Protect	Scary Face
+ptgs	180	Metang	Chesto Berry	Metal Claw	Confusion	Magnet Rise	Scary Face
+ptgs	181	Wormadam	Coba Berry	Razor Leaf	Bug Bite	Protect	Captivate
+ptgs	182	Mothim	Petaya Berry	Silver Wind	Air Cutter	PoisonPowder	Captivate
+ptgs	183	Wigglytuff	Silk Scarf	Secret Power	Grass Knot	Wish	Sing
+ptgs	184	Sunflora	Persim Berry	Mega Drain	Ingrain	Leech Seed	Light Screen
+ptgs	185	Chimecho	Pecha Berry	Psywave	Icy Wind	Heal Bell	Safeguard
+ptgs	186	Gligar	Razor Claw	Aerial Ace	Sand Tomb	Metal Claw	Swords Dance
+ptgs	187	Qwilfish	Cheri Berry	BubbleBeam	Toxic	Pin Missile	Harden
+ptgs	188	Sneasel	Persim Berry	Faint Attack	Ice Shard	Leer	Taunt
+ptgs	189	Swellow	King's Rock	Pluck	Quick Attack	Focus Energy	Growl
+ptgs	190	Pelipper	Chesto Berry	Water Pulse	Air Cutter	Stockpile	Swallow
+ptgs	191	Lairon	Metal Coat	Metal Claw	Rock Tomb	Iron Defense	Protect
+ptgs	192	Tangela	Pecha Berry	Mega Drain	AncientPower	Toxic	Bind
+ptgs	193	Misdreavus	Cheri Berry	Ominous Wind	Pain Split	Confuse Ray	Thunder Wave
+ptgs	194	Arbok	Persim Berry	Poison Fang	Bite	Gastro Acid	Glare
+ptgs	195	Persian	Silk Scarf	Slash	U-turn	Captivate	Swagger
+ptgs	196	Seadra	Razor Claw	BubbleBeam	Aurora Beam	SmokeScreen	Rain Dance
+ptgs	197	Vigoroth	Focus Band	Slash	Pursuit	Encore	Counter
+ptgs	198	Lunatone	Sitrus Berry	AncientPower	Confusion	Cosmic Power	Reflect
+ptgs	199	Solrock	Sitrus Berry	Psywave	Rock Tomb	Cosmic Power	Light Screen
+ptgs	200	Kecleon	Lansat Berry	Slash	Shadow Sneak	Tail Whip	Magic Coat
+ptgs	201	Rotom	Cheri Berry	ThunderShock	Astonish	Thunder Wave	Confuse Ray
+ptgs	202	Fearow	Sharp Beak	Pluck	Facade	Growl	Leer
+ptgs	203	Noctowl	Persim Berry	Secret Power	Aerial Ace	Supersonic	Reflect
+ptgs	204	Sandslash	Sitrus Berry	Dig	Rock Tomb	Defense Curl	Sandstorm
+ptgs	205	Venomoth	Black Sludge	Silver Wind	Psybeam	Sleep Powder	Attract
+ptgs	206	Chansey	Sitrus Berry	Metronome	Refresh	Defense Curl	Minimize
+ptgs	207	Seaking	Pecha Berry	Water Pulse	Psybeam	Supersonic	Rain Dance
+ptgs	208	Jumpluff	Pecha Berry	Aerial Ace	Bullet Seed	Cotton Spore	Tail Whip
+ptgs	209	Piloswine	NeverMeltIce	Icy Wind	Mud Bomb	Mist	Hail
+ptgs	210	Purugly	Silk Scarf	Slash	Faint Attack	Attract	Growl
+ptgs	211	Carnivine	Miracle Seed	Razor Leaf	Bite	Sweet Scent	Ingrain
+ptgs	212	Golbat	Payapa Berry	Aerial Ace	Toxic	Steel Wing	Confuse Ray
+ptgs	213	Primeape	Scope Lens	Karate Chop	Fury Swipes	Foresight	Focus Energy
+ptgs	214	Hitmonlee	Black Belt	Rolling Kick	Facade	Foresight	Focus Energy
+ptgs	215	Hitmonchan	King's Rock	Mach Punch	Bullet Punch	Mind Reader	Counter
+ptgs	216	Girafarig	Petaya Berry	Psybeam	Swift	Baton Pass	Agility
+ptgs	217	Hitmontop	Liechi Berry	Triple Kick	Mach Punch	Detect	Focus Energy
+ptgs	218	Banette	Rawst Berry	Shadow Sneak	Knock Off	Will-O-Wisp	Spite
+ptgs	219	Dusclops	Rawst Berry	Shadow Sneak	Pain Split	Will-O-Wisp	Confuse Ray
+ptgs	220	Ninjask	Chesto Berry	Bug Bite	Aerial Ace	Sand-Attack	Baton Pass
+ptgs	221	Zangoose	Persim Berry	Scratch	Pursuit	Detect	Leer
+ptgs	222	Seviper	Scope Lens	Poison Tail	Lick	Knock Off	Glare
+ptgs	223	Dodrio	Aspear Berry	Pluck	Fury Attack	Growl	Acupressure
+ptgs	224	Sharpedo	Cheri Berry	Water Pulse	Bite	Scary Face	Focus Energy
+ptgs	225	Camerupt	Focus Band	Magnitude	Will-O-Wisp	Rock Tomb	Amnesia
+ptgs	226	Tropius	Lansat Berry	Razor Leaf	Aerial Ace	Leech Seed	Captivate
+ptgs	227	Lumineon	Wacan Berry	Water Gun	U-turn	Captivate	Attract
+ptgs	228	Magneton	Petaya Berry	Shock Wave	Magnet Bomb	Thunder Wave	Supersonic
+ptgs	229	Mantine	Mystic Water	BubbleBeam	Wing Attack	Agility	Supersonic
+ptgs	230	Stantler	Liechi Berry	Stomp	Bite	Imprison	Confuse Ray
+ptgs	231	Swalot	Lax Incense	Sludge	Stockpile	Swallow	Spit Up
+ptgs	232	Crawdaunt	Persim Berry	BubbleBeam	Dark Pulse	Harden	Taunt
+ptgs	233	Pidgeot	Cheri Berry	Wing Attack	Facade	Tailwind	Sand-Attack
+ptgs	234	Xatu	Sharp Beak	Zen Headbutt	Pluck	Tailwind	Future Sight
+ptgs	235	Torkoal	Petaya Berry	Ember	Mud-Slap	Smog	Amnesia
+ptgs	236	Grumpig	Petaya Berry	Psybeam	Grass Knot	Future Sight	Confuse Ray
+ptgs	237	Clefable	Chesto Berry	Metronome	Double Team	Reflect	Follow Me
+ptgs	238	Kingler	Wacan Berry	BubbleBeam	ViceGrip	Harden	Mud Sport
+ptgs	239	Cacturne	Chople Berry	Bullet Seed	Faint Attack	Spikes	Ingrain
+ptgs	240	Bellossom	Petaya Berry	Magical Leaf	Acid	Tickle	Stun Spore
+ptgs	241	Octillery	Wacan Berry	Octazooka	Icy Wind	Thunder Wave	Focus Energy
+ptgs	242	Huntail	Mystic Water	Water Pulse	Bite	Screech	Rain Dance
+ptgs	243	Gorebyss	Wave Incense	Water Pulse	Confusion	Rain Dance	Aqua Ring
+ptgs	244	Relicanth	Wave Incense	Water Pulse	Rock Tomb	Mud Sport	Harden
+ptgs	245	Electabuzz	Lansat Berry	Shock Wave	Swift	Thunder Wave	Light Screen
+ptgs	246	Magmar	Lansat Berry	Fire Punch	Mach Punch	SmokeScreen	Will-O-Wisp
+ptgs	247	Omastar	Metronome	Water Gun	Rollout	Withdraw	Spikes
+ptgs	248	Kabutops	Sea Incense	Aqua Jet	Rock Tomb	Harden	Metal Sound
+ptgs	249	Scyther	Metronome	Fury Cutter	Wing Attack	Light Screen	Leer
+ptgs	250	Cloyster	NeverMeltIce	Aurora Beam	Water Pulse	Spikes	Supersonic
+ptgs	251	Ivysaur	Big Root	Giga Drain	Sludge Bomb	Sleep Powder	Leech Seed
+ptgs	252	Charmeleon	Razor Claw	Flamethrower	Shadow Claw	Aerial Ace	SmokeScreen
+ptgs	253	Wartortle	Shell Bell	Surf	Ice Beam	Brick Break	Fake Out
+ptgs	254	Bayleef	Chesto Berry	Giga Drain	Body Slam	GrassWhistle	Rest
+ptgs	255	Quilava	Focus Band	Flamethrower	Crush Claw	Quick Attack	SmokeScreen
+ptgs	256	Croconaw	Focus Band	Aqua Tail	Crunch	Rock Slide	Scary Face
+ptgs	257	Grovyle	Coba Berry	Leaf Blade	Rock Slide	Crunch	Screech
+ptgs	258	Combusken	Scope Lens	Flamethrower	Sky Uppercut	Slash	Sand-Attack
+ptgs	259	Marshtomp	Persim Berry	Muddy Water	Earthquake	AncientPower	Protect
+ptgs	260	Grotle	Occa Berry	Seed Bomb	Crunch	Curse	Synthesis
+ptgs	261	Monferno	Scope Lens	Blaze Kick	Brick Break	Rock Slide	Torment
+ptgs	262	Prinplup	Focus Band	Surf	Drill Peck	Metal Claw	Rain Dance
+ptgs	263	Sudowoodo	Life Orb	Stone Edge	Earthquake	Mimic	Selfdestruct
+ptgs	264	Magcargo	Quick Claw	Overheat	Rock Slide	Earthquake	Body Slam
+ptgs	265	Pupitar	Soft Sand	Earthquake	Rock Slide	Crunch	Scary Face
+ptgs	266	Sealeo	Chesto Berry	Ice Beam	Surf	Signal Beam	Hail
+ptgs	267	Bibarel	Shell Bell	Hyper Fang	Super Fang	Pluck	Attract
+ptgs	268	Gabite	Muscle Band	Dragon Claw	Earthquake	Slash	Sandstorm
+ptgs	269	Machoke	Scope Lens	Cross Chop	Facade	Rock Slide	Counter
+ptgs	270	Raticate	Chople Berry	Super Fang	Hyper Fang	Shadow Ball	Scary Face
+ptgs	271	Masquerain	Petaya Berry	Bug Buzz	Air Slash	Shadow Ball	Stun Spore
+ptgs	272	Furret	Choice Band	Frustration	Shadow Claw	Trick	Assist
+ptgs	273	Luxio	Petaya Berry	Thunderbolt	Signal Beam	Swift	Thunder Wave
+ptgs	274	Cherrim	Power Herb	SolarBeam	Leech Seed	Sunny Day	Synthesis
+ptgs	275	Dragonair	Haban Berry	Dragon Pulse	Aqua Tail	Slam	Dragon Dance
+ptgs	276	Mightyena	Chople Berry	Crunch	Take Down	Sucker Punch	Howl
+ptgs	277	Linoone	Choice Scarf	Frustration	Shadow Claw	Dig	Switcheroo
+ptgs	278	Kadabra	Cheri Berry	Psychic	Shadow Ball	Shock Wave	Reflect
+ptgs	279	Shelgon	Focus Band	Dragon Claw	Crunch	Dragon Dance	Scary Face
+ptgs	280	Metang	Shuca Berry	Meteor Mash	Zen Headbutt	Bullet Punch	Scary Face
+ptgs	281	Wormadam	Coba Berry	Giga Drain	Signal Beam	Psychic	Attract
+ptgs	282	Mothim	Coba Berry	Bug Buzz	Air Slash	Psychic	PoisonPowder
+ptgs	283	Wigglytuff	Sitrus Berry	Hyper Voice	Shadow Ball	Sing	Dream Eater
+ptgs	284	Sunflora	Sitrus Berry	Giga Drain	Sludge Bomb	GrassWhistle	Double Team
+ptgs	285	Chimecho	Twisted Spoon	Psychic	Shadow Ball	Hypnosis	Dream Eater
+ptgs	286	Gligar	Quick Claw	Earthquake	Aerial Ace	Aqua Tail	Sandstorm
+ptgs	287	Qwilfish	Focus Band	Aqua Tail	Poison Jab	Revenge	Destiny Bond
+ptgs	288	Sneasel	King's Rock	Ice Punch	Faint Attack	Crush Claw	Spite
+ptgs	289	Swellow	Toxic Orb	Facade	Aerial Ace	Growl	U-turn
+ptgs	290	Pelipper	Shell Bell	Surf	Air Cutter	Ice Beam	Tailwind
+ptgs	291	Lairon	Sitrus Berry	Iron Head	Rock Slide	Earthquake	Roar
+ptgs	292	Tangela	Pecha Berry	Giga Drain	Sludge Bomb	Wring Out	Ingrain
+ptgs	293	Misdreavus	Kasib Berry	Shadow Ball	Psychic	Thunder Wave	Confuse Ray
+ptgs	294	Arbok	Payapa Berry	Sludge Bomb	Mud Bomb	Crunch	Glare
+ptgs	295	Persian	Razor Claw	Slash	Shadow Claw	Bite	Fake Out
+ptgs	296	Seadra	Shell Bell	Surf	Ice Beam	Twister	SmokeScreen
+ptgs	297	Vigoroth	Salac Berry	Crush Claw	Shadow Claw	Reversal	Endure
+ptgs	298	Lunatone	Passho Berry	Psychic	AncientPower	Shadow Ball	Cosmic Power
+ptgs	299	Solrock	Passho Berry	Zen Headbutt	Rock Slide	Will-O-Wisp	Cosmic Power
+ptgs	300	Kecleon	Choice Scarf	Frustration	Shadow Claw	Aerial Ace	Trick
+ptgs	301	Rotom	Magnet	Discharge	Ominous Wind	Thunder Wave	Double Team
+ptgs	302	Fearow	Cheri Berry	Drill Peck	Frustration	Faint Attack	U-turn
+ptgs	303	Noctowl	Persim Berry	Air Slash	Swift	Psychic	Reflect
+ptgs	304	Sandslash	Quick Claw	Earthquake	Rock Slide	Crush Claw	Sandstorm
+ptgs	305	Venomoth	SilverPowder	Bug Buzz	Sludge Bomb	Psychic	Supersonic
+ptgs	306	Chansey	Lucky Punch	Egg Bomb	Focus Punch	Sing	Softboiled
+ptgs	307	Seaking	Quick Claw	Aqua Tail	Poison Jab	Facade	Aqua Ring
+ptgs	308	Jumpluff	Sitrus Berry	Seed Bomb	Bounce	Sleep Powder	Synthesis
+ptgs	309	Piloswine	Muscle Band	Ice Fang	Earthquake	Stone Edge	Curse
+ptgs	310	Purugly	Liechi Berry	Body Slam	Shadow Claw	Attract	Fake Out
+ptgs	311	Carnivine	Occa Berry	Seed Bomb	Wring Out	Crunch	Ingrain
+ptgs	312	Golbat	Black Sludge	Poison Fang	Aerial Ace	Zen Headbutt	Confuse Ray
+ptgs	313	Primeape	Expert Belt	Cross Chop	Earthquake	Rock Slide	Swagger
+ptgs	314	Hitmonlee	Salac Berry	Hi Jump Kick	Blaze Kick	Mega Kick	Endure
+ptgs	315	Hitmonchan	King's Rock	Sky Uppercut	Mega Punch	Bullet Punch	Counter
+ptgs	316	Girafarig	Razor Claw	Zen Headbutt	Double Hit	Crunch	Thunder Wave
+ptgs	317	Hitmontop	Muscle Band	Triple Kick	Bullet Punch	Aerial Ace	Counter
+ptgs	318	Banette	Colbur Berry	Shadow Claw	Faint Attack	Will-O-Wisp	Trick Room
+ptgs	319	Dusclops	Colbur Berry	Shadow Punch	Payback	Brick Break	Confuse Ray
+ptgs	320	Ninjask	Razor Fang	X-Scissor	Aerial Ace	Night Slash	Baton Pass
+ptgs	321	Zangoose	Razor Claw	Crush Claw	Shadow Claw	Aerial Ace	Taunt
+ptgs	322	Seviper	Black Sludge	Sludge Bomb	Crunch	Aqua Tail	Swagger
+ptgs	323	Dodrio	King's Rock	Drill Peck	Frustration	Faint Attack	Acupressure
+ptgs	324	Sharpedo	Wacan Berry	Crunch	Waterfall	Ice Fang	Swagger
+ptgs	325	Camerupt	Quick Claw	Earth Power	Eruption	AncientPower	Sandstorm
+ptgs	326	Tropius	Occa Berry	Giga Drain	Air Slash	Synthesis	Sunny Day
+ptgs	327	Lumineon	Shell Bell	Surf	Silver Wind	Attract	Aqua Ring
+ptgs	328	Magneton	Shuca Berry	Thunderbolt	Mirror Shot	Thunder Wave	Magnet Rise
+ptgs	329	Mantine	Shell Bell	Surf	Air Cutter	Ice Beam	Confuse Ray
+ptgs	330	Stantler	Chople Berry	Frustration	Zen Headbutt	Thunder Wave	Confuse Ray
+ptgs	331	Swalot	Black Sludge	Sludge Bomb	Shadow Ball	Giga Drain	Yawn
+ptgs	332	Crawdaunt	Quick Claw	Crabhammer	Crunch	X-Scissor	Swords Dance
+ptgs	333	Pidgeot	Razor Claw	Return	Aerial Ace	Steel Wing	U-turn
+ptgs	334	Xatu	Colbur Berry	Psychic	Air Cutter	Ominous Wind	Confuse Ray
+ptgs	335	Torkoal	Quick Claw	Heat Wave	SolarBeam	Earth Power	Sunny Day
+ptgs	336	Grumpig	Colbur Berry	Psychic	Power Gem	Charge Beam	Mirror Coat
+ptgs	337	Clefable	Focus Band	Return	Meteor Mash	Zen Headbutt	Sing
+ptgs	338	Kingler	Salac Berry	Crabhammer	Guillotine	Flail	Endure
+ptgs	339	Cacturne	Shell Bell	Giga Drain	Dark Pulse	Acid	Cotton Spore
+ptgs	340	Bellossom	BrightPowder	SolarBeam	Sludge Bomb	Sunny Day	Synthesis
+ptgs	341	Octillery	Life Orb	Octazooka	Flamethrower	Psychic	Thunder Wave
+ptgs	342	Huntail	Shell Bell	Aqua Tail	Crunch	Ice Fang	Rain Dance
+ptgs	343	Gorebyss	Shell Bell	Surf	Psychic	Ice Beam	Rain Dance
+ptgs	344	Relicanth	Chesto Berry	Aqua Tail	Rock Slide	Rest	Yawn
+ptgs	345	Electabuzz	BrightPowder	Thunderbolt	Psychic	Focus Blast	Thunder Wave
+ptgs	346	Magmar	Lax Incense	Flamethrower	Psychic	Focus Blast	Confuse Ray
+ptgs	347	Omastar	Sitrus Berry	Surf	Stone Edge	Ice Beam	Toxic Spikes
+ptgs	348	Kabutops	Razor Claw	Waterfall	Rock Slide	Slash	Swords Dance
+ptgs	349	Scyther	BrightPowder	X-Scissor	Aerial Ace	Night Slash	Swords Dance
+ptgs	350	Cloyster	Leftovers	Avalanche	Dive	Toxic	Protect
+ptgs	351	Venusaur	White Herb	Leaf Storm	Sludge Bomb	Amnesia	Sleep Powder
+ptgs	352	Charizard	Petaya Berry	Flamethrower	Air Slash	SmokeScreen	Scary Face
+ptgs	353	Blastoise	Mystic Water	Hydro Pump	Signal Beam	Icy Wind	Mirror Coat
+ptgs	354	Meganium	Heat Rock	SolarBeam	AncientPower	Synthesis	Sunny Day
+ptgs	355	Typhlosion	Scope Lens	Fire Punch	ThunderPunch	Shadow Claw	Quick Attack
+ptgs	356	Feraligatr	King's Rock	Waterfall	Ice Fang	Rock Slide	Scary Face
+ptgs	357	Sceptile	Liechi Berry	Leaf Blade	Crunch	Quick Attack	Screech
+ptgs	358	Blaziken	Salac Berry	Blaze Kick	Reversal	Aerial Ace	Endure
+ptgs	359	Swampert	Shell Bell	Waterfall	Earthquake	Ice Punch	Protect
+ptgs	360	Torterra	Yache Berry	Earthquake	Grass Knot	Rock Slide	Curse
+ptgs	361	Infernape	Coba Berry	Close Combat	Fire Punch	U-turn	Fake Out
+ptgs	362	Empoleon	Razor Claw	Waterfall	Metal Claw	Brick Break	Knock Off
+ptgs	363	Dugtrio	Grip Claw	Earthquake	Rock Slide	Astonish	Sand Tomb
+ptgs	364	Marowak	Razor Claw	Bone Rush	Brick Break	Iron Tail	Sandstorm
+ptgs	365	Medicham	Salac Berry	Zen Headbutt	Reversal	Endure	Fake Out
+ptgs	366	Quagsire	Rindo Berry	Earthquake	Aqua Tail	Brick Break	Counter
+ptgs	367	Granbull	Razor Claw	Return	Rock Slide	Crunch	Thunder Wave
+ptgs	368	Jynx	Chesto Berry	Psychic	Ice Beam	Lovely Kiss	Fake Tears
+ptgs	369	Mr. Mime	Cheri Berry	Psychic	Signal Beam	Copycat	Mimic
+ptgs	370	Lanturn	Rindo Berry	Surf	Discharge	Thunder Wave	Aqua Ring
+ptgs	371	Breloom	Focus Sash	Seed Bomb	Sky Uppercut	Rock Slide	Counter
+ptgs	372	Forretress	Occa Berry	Gyro Ball	Bug Bite	Revenge	Counter
+ptgs	373	Skarmory	Occa Berry	Drill Peck	Steel Wing	Spikes	Roar
+ptgs	374	Absol	Chople Berry	Sucker Punch	Facade	Double Team	Taunt
+ptgs	375	Whiscash	Shell Bell	Surf	Earth Power	Icy Wind	Amnesia
+ptgs	376	Hariyama	Persim Berry	Arm Thrust	Earthquake	Facade	Fake Out
+ptgs	377	Vespiquen	Scope Lens	Silver Wind	Air Cutter	Ominous Wind	Swagger
+ptgs	378	Raichu	Wide Lens	ThunderPunch	Iron Tail	Slam	Quick Attack
+ptgs	379	Dewgong	Razor Fang	Waterfall	Avalanche	Headbutt	Fake Out
+ptgs	380	Manectric	Shuca Berry	Thunder Fang	Crunch	Roar	Thunder Wave
+ptgs	381	Staraptor	King's Rock	Return	Aerial Ace	Double Team	Roost
+ptgs	382	Gastrodon	Focus Sash	Waterfall	Earthquake	Recover	Mirror Coat
+ptgs	383	Skuntank	Razor Claw	Sucker Punch	Poison Jab	Slash	Screech
+ptgs	384	Vileplume	Big Root	Giga Drain	Sludge Bomb	Sleep Powder	Ingrain
+ptgs	385	Victreebel	Payapa Berry	Leaf Storm	Sludge Bomb	Sleep Powder	Gastro Acid
+ptgs	386	Electrode	Chesto Berry	Thunderbolt	Swift	Thunder Wave	Light Screen
+ptgs	387	Ludicolo	Muscle Band	Waterfall	Razor Leaf	Drain Punch	Swords Dance
+ptgs	388	Shiftry	Persim Berry	Seed Bomb	Faint Attack	X-Scissor	Fake Out
+ptgs	389	Exploud	Chople Berry	Hyper Voice	Extrasensory	Water Pulse	Torment
+ptgs	390	Glalie	Iron Ball	Avalanche	Payback	Gyro Ball	Ice Shard
+ptgs	391	Lopunny	Focus Band	Return	Drain Punch	Charm	Mirror Coat
+ptgs	392	Froslass	Cheri Berry	Ice Beam	Ominous Wind	Confuse Ray	Attract
+ptgs	393	Ambipom	Muscle Band	Double Hit	Shadow Claw	Brick Break	Knock Off
+ptgs	394	Hypno	Iron Ball	Psycho Cut	Fling	Hypnosis	Trick Room
+ptgs	395	Golem	Focus Band	Earthquake	Rock Slide	Sucker Punch	Sandstorm
+ptgs	396	Rhydon	Passho Berry	Earthquake	Rock Slide	Crunch	Scary Face
+ptgs	397	Slowbro	Chesto Berry	Psychic	Surf	Calm Mind	Yawn
+ptgs	398	Weezing	Payapa Berry	Sludge Bomb	Dark Pulse	Shock Wave	Grudge
+ptgs	399	Kangaskhan	Salac Berry	Double-Edge	Crunch	Reversal	Endure
+ptgs	400	Tauros	Persim Berry	Thrash	Zen Headbutt	Pursuit	Scary Face
+ptgs	401	Alakazam	BrightPowder	Psychic	Shadow Ball	Calm Mind	Future Sight
+ptgs	402	Slowking	Shell Bell	Psychic	Brine	Yawn	Trick Room
+ptgs	403	Miltank	Cheri Berry	Return	Iron Head	Thunder Wave	Milk Drink
+ptgs	404	Altaria	Chesto Berry	Dragon Claw	Aerial Ace	Dragon Dance	Rest
+ptgs	405	Toxicroak	Black Sludge	Poison Jab	Brick Break	X-Scissor	Knock Off
+ptgs	406	Abomasnow	Lum Berry	Giga Drain	Ice Beam	Water Pulse	GrassWhistle
+ptgs	407	Nidoqueen	Payapa Berry	Earthquake	Poison Fang	Aerial Ace	Charm
+ptgs	408	Nidoking	Focus Band	Earthquake	Poison Jab	Double Kick	Counter
+ptgs	409	Cradily	Razor Claw	AncientPower	Energy Ball	Confuse Ray	Sandstorm
+ptgs	410	Armaldo	Razor Claw	X-Scissor	Rock Slide	Earthquake	Iron Defense
+ptgs	411	Bastiodon	Focus Band	Iron Head	Stone Edge	Swagger	Taunt
+ptgs	412	Floatzel	Sitrus Berry	Waterfall	Ice Punch	Quick Attack	Rain Dance
+ptgs	413	Mismagius	Kasib Berry	Shadow Ball	Power Gem	Magical Leaf	Memento
+ptgs	414	Drifblim	Salac Berry	Ominous Wind	Air Cutter	Baton Pass	Endure
+ptgs	415	Golduck	Rindo Berry	Surf	Psychic	Confuse Ray	Calm Mind
+ptgs	416	Poliwrath	Rindo Berry	Surf	Vacuum Wave	Psychic	Double Team
+ptgs	417	Rapidash	Chesto Berry	Fire Blast	SolarBeam	Sunny Day	Rest
+ptgs	418	Muk	Black Sludge	Poison Jab	Shadow Sneak	Minimize	Acid Armor
+ptgs	419	Gengar	Payapa Berry	Shadow Ball	Sludge Bomb	Spite	Confuse Ray
+ptgs	420	Ampharos	Shuca Berry	Thunderbolt	Power Gem	Light Screen	Thunder Wave
+ptgs	421	Politoed	Lax Incense	Surf	Hyper Voice	Mud Bomb	Swagger
+ptgs	422	Pinsir	Coba Berry	X-Scissor	Earthquake	Rock Slide	Swords Dance
+ptgs	423	Scizor	BrightPowder	X-Scissor	Bullet Punch	Swords Dance	Baton Pass
+ptgs	424	Heracross	Focus Band	Megahorn	Focus Punch	Swagger	Attract
+ptgs	425	Ursaring	Focus Sash	Slash	Payback	Avalanche	Counter
+ptgs	426	Houndoom	Focus Sash	Fire Fang	Crunch	Roar	Counter
+ptgs	427	Donphan	Razor Claw	Earthquake	Rock Slide	Poison Jab	Sandstorm
+ptgs	428	Wailord	Sitrus Berry	Surf	Ice Beam	Attract	Double Team
+ptgs	429	Claydol	Kasib Berry	Earthquake	Zen Headbutt	Grass Knot	Trick Room
+ptgs	430	Rampardos	Toxic Orb	Rock Slide	Facade	Crunch	Screech
+ptgs	431	Bronzong	King's Rock	Extrasensory	Iron Head	Rock Slide	Trick Room
+ptgs	432	Drapion	Lum Berry	Poison Jab	Crunch	Aqua Tail	Acupressure
+ptgs	433	Luxray	Razor Claw	Thunder Fang	Crunch	Howl	Charge
+ptgs	434	Ninetales	BrightPowder	Fire Blast	SolarBeam	Attract	Sunny Day
+ptgs	435	Machamp	Scope Lens	Cross Chop	Earthquake	Bullet Punch	Foresight
+ptgs	436	Shuckle	Lax Incense	Stone Edge	Bug Bite	Swagger	Power Trick
+ptgs	437	Roserade	Coba Berry	Sludge Bomb	Magical Leaf	Stun Spore	Mud-Slap
+ptgs	438	Honchkrow	Wacan Berry	Night Slash	Aerial Ace	Torment	Taunt
+ptgs	439	Steelix	Passho Berry	Earthquake	Iron Head	Crunch	Sandstorm
+ptgs	440	Weavile	Chople Berry	Night Slash	Ice Punch	Screech	Fake Out
+ptgs	441	Gliscor	Yache Berry	Earthquake	Aerial Ace	Swords Dance	Baton Pass
+ptgs	442	Tentacruel	Wacan Berry	Surf	Sludge Bomb	Icy Wind	Barrier
+ptgs	443	Aerodactyl	King's Rock	Rock Slide	Aerial Ace	Torment	Taunt
+ptgs	444	Porygon2	Cheri Berry	Tri Attack	Charge Beam	Thunder Wave	Recycle
+ptgs	445	Lickilicky	Chesto Berry	Return	Earthquake	Belly Drum	Rest
+ptgs	446	Yanmega	Coba Berry	Signal Beam	Air Cutter	Detect	Double Team
+ptgs	447	Gardevoir	Lum Berry	Psychic	Shadow Ball	Thunder Wave	Confuse Ray
+ptgs	448	Gallade	Kasib Berry	Zen Headbutt	Brick Break	Thunder Wave	Confuse Ray
+ptgs	449	Exeggutor	BrightPowder	SolarBeam	Psychic	Synthesis	Sunny Day
+ptgs	450	Starmie	Lum Berry	Surf	Psychic	Confuse Ray	Thunder Wave
+ptgs	451	Flygon	Yache Berry	Earthquake	Dragon Claw	Roost	Sandstorm
+ptgs	452	Vaporeon	BrightPowder	Surf	Ice Beam	Acid Armor	Baton Pass
+ptgs	453	Jolteon	Focus Sash	Thunderbolt	Thunder Wave	Agility	Baton Pass
+ptgs	454	Flareon	Quick Claw	Fire Fang	Superpower	Curse	Baton Pass
+ptgs	455	Espeon	Lum Berry	Psychic	Reflect	Calm Mind	Baton Pass
+ptgs	456	Umbreon	Leftovers	Payback	Confuse Ray	Curse	Baton Pass
+ptgs	457	Leafeon	Scope Lens	Leaf Blade	Aerial Ace	Double Team	Baton Pass
+ptgs	458	Glaceon	Lax Incense	Ice Beam	Water Pulse	Double Team	Baton Pass
+ptgs	459	Lucario	BrightPowder	Aura Sphere	Flash Cannon	Water Pulse	Roar
+ptgs	460	Hippowdon	Persim Berry	Earthquake	Crunch	Slack Off	Curse
+ptgs	461	Probopass	Cheri Berry	AncientPower	Magnet Bomb	Thunder Wave	Protect
+ptgs	462	Dusknoir	Iron Ball	Shadow Punch	Fling	Will-O-Wisp	Trick Room
+ptgs	463	Aggron	Quick Claw	Iron Head	Rock Slide	Sandstorm	Screech
+ptgs	464	Walrein	Chople Berry	Ice Fang	Aqua Tail	Swagger	Encore
+ptgs	465	Mamoswine	Icy Rock	Earthquake	Ice Fang	Peck	Hail
+ptgs	466	Lapras	Leftovers	Aqua Tail	Avalanche	Ice Shard	Curse
+ptgs	467	Crobat	Payapa Berry	Cross Poison	Aerial Ace	Roost	Hypnosis
+ptgs	468	Magnezone	Light Clay	Thunderbolt	Mirror Shot	Light Screen	Reflect
+ptgs	469	Rhyperior	Focus Band	Rock Wrecker	Earthquake	Crunch	Roar
+ptgs	470	Tangrowth	Coba Berry	Energy Ball	Sludge Bomb	Focus Blast	Sleep Powder
+ptgs	471	Porygon-Z	Sitrus Berry	Tri Attack	Shadow Ball	Recycle	Conversion 2
+ptgs	472	Gyarados	Razor Fang	Aqua Tail	Ice Fang	Bite	Rain Dance
+ptgs	473	Snorlax	Leftovers	Return	Rock Slide	Curse	Yawn
+ptgs	474	Kingdra	Razor Fang	Surf	Dragon Pulse	SmokeScreen	Rain Dance
+ptgs	475	Blissey	Chople Berry	Hyper Beam	Shadow Ball	Water Pulse	Sing
+ptgs	476	Milotic	Shell Bell	Surf	Ice Beam	Attract	Hypnosis
+ptgs	477	Electivire	Scope Lens	ThunderPunch	Cross Chop	Thunder Wave	Screech
+ptgs	478	Magmortar	Heat Rock	Fire Blast	Focus Blast	Will-O-Wisp	Sunny Day
+ptgs	479	Togekiss	Power Herb	Sky Attack	ExtremeSpeed	Drain Punch	Roost
+ptgs	480	Arcanine	Lum Berry	Fire Fang	ExtremeSpeed	Crunch	Will-O-Wisp
+ptgs	481	Dragonite	Lum Berry	Dragon Claw	Aerial Ace	Thunder Wave	Dragon Dance
+ptgs	482	Tyranitar	Focus Band	Rock Slide	Payback	Avalanche	Curse
+ptgs	483	Salamence	Cheri Berry	Dragon Claw	Aerial Ace	Aqua Tail	Scary Face
+ptgs	484	Metagross	BrightPowder	Zen Headbutt	Bullet Punch	Facade	Light Screen
+ptgs	485	Garchomp	BrightPowder	Dragon Claw	Earthquake	Double Team	Sandstorm
+ptgs	486	Slaking	Lax Incense	Facade	Shadow Claw	Slack Off	Yawn
+ptgs	487	Venusaur	Big Root	Giga Drain	Ingrain	Leech Seed	Sleep Powder
+ptgs	488	Charizard	White Herb	Overheat	SolarBeam	Will-O-Wisp	Sunny Day
+ptgs	489	Blastoise	Shell Bell	Waterfall	Focus Punch	Double Team	Aqua Ring
+ptgs	490	Meganium	Big Root	Giga Drain	Leech Seed	Toxic	Substitute
+ptgs	491	Typhlosion	Salac Berry	Blast Burn	Earthquake	Reversal	Endure
+ptgs	492	Feraligatr	White Herb	Aqua Tail	Superpower	Dragon Claw	Shadow Claw
+ptgs	493	Sceptile	Leftovers	Giga Drain	Leech Seed	Toxic	Double Team
+ptgs	494	Blaziken	BrightPowder	Blast Burn	Focus Blast	SolarBeam	Sunny Day
+ptgs	495	Swampert	Lum Berry	Aqua Tail	Earthquake	Hammer Arm	Curse
+ptgs	496	Torterra	Leftovers	Giga Drain	Leech Seed	Synthesis	Amnesia
+ptgs	497	Infernape	Muscle Band	Blaze Kick	Shadow Claw	ThunderPunch	Gunk Shot
+ptgs	498	Empoleon	Razor Claw	Drill Peck	Aqua Jet	Shadow Claw	Rock Slide
+ptgs	499	Dugtrio	Lax Incense	Earth Power	Sludge Bomb	Tri Attack	Sandstorm
+ptgs	500	Marowak	Thick Club	Bone Rush	Fire Punch	ThunderPunch	Rock Slide
+ptgs	501	Medicham	Cheri Berry	Drain Punch	Poison Jab	Detect	Recover
+ptgs	502	Quagsire	Leftovers	Dive	Yawn	Curse	Amnesia
+ptgs	503	Granbull	Quick Claw	Facade	Fire Fang	Thunder Fang	Ice Fang
+ptgs	504	Jynx	Lax Incense	Dream Eater	Lovely Kiss	Perish Song	Mean Look
+ptgs	505	Mr. Mime	Light Clay	Dream Eater	Hypnosis	Light Screen	Reflect
+ptgs	506	Lanturn	Lum Berry	Dive	Confuse Ray	Thunder Wave	Attract
+ptgs	507	Breloom	Big Root	Drain Punch	Giga Drain	Synthesis	Leech Seed
+ptgs	508	Forretress	Sitrus Berry	Payback	Stealth Rock	Toxic Spikes	Spikes
+ptgs	509	Skarmory	Leftovers	Fly	Toxic	Double Team	Roost
+ptgs	510	Absol	Quick Claw	Punishment	Swagger	Attract	Thunder Wave
+ptgs	511	Whiscash	Persim Berry	Aqua Tail	Earthquake	Rock Slide	Thrash
+ptgs	512	Hariyama	Iron Ball	Revenge	Payback	Fling	Fake Out
+ptgs	513	Vespiquen	Persim Berry	X-Scissor	Toxic	Heal Order	Destiny Bond
+ptgs	514	Raichu	Focus Band	ThunderPunch	Focus Punch	Sweet Kiss	Thunder Wave
+ptgs	515	Dewgong	Wacan Berry	Ice Beam	Signal Beam	Encore	Disable
+ptgs	516	Manectric	Damp Rock	Thunder	Hyper Beam	Thunder Wave	Rain Dance
+ptgs	517	Staraptor	King's Rock	Endeavor	Aerial Ace	Endure	Quick Attack
+ptgs	518	Gastrodon	Zoom Lens	Muddy Water	Mud Bomb	Recover	Yawn
+ptgs	519	Skuntank	Chesto Berry	Crunch	Toxic	Swagger	Double Team
+ptgs	520	Vileplume	Black Sludge	Toxic	Grass Knot	Double Team	Attract
+ptgs	521	Victreebel	Black Sludge	Seed Bomb	Spit Up	Swallow	Stockpile
+ptgs	522	Electrode	BrightPowder	Charge Beam	Thunder Wave	Flash	Swagger
+ptgs	523	Ludicolo	Leftovers	Leech Seed	Toxic	Double Team	Rain Dance
+ptgs	524	Shiftry	Leftovers	Giga Drain	Leech Seed	Double Team	Synthesis
+ptgs	525	Exploud	Life Orb	Facade	Fire Punch	ThunderPunch	Ice Punch
+ptgs	526	Glalie	Lum Berry	Ice Fang	Crunch	Earthquake	Explosion
+ptgs	527	Lopunny	BrightPowder	Focus Punch	Sweet Kiss	Attract	Thunder Wave
+ptgs	528	Froslass	Focus Band	Ice Punch	Sucker Punch	Swagger	Psych Up
+ptgs	529	Ambipom	Metronome	Last Resort	Thunder Wave	Protect	Fake Out
+ptgs	530	Hypno	Persim Berry	Dream Eater	Nightmare	Drain Punch	Hypnosis
+ptgs	531	Golem	White Herb	Earthquake	Superpower	Fire Punch	ThunderPunch
+ptgs	532	Rhydon	Focus Sash	Earthquake	Fire Punch	ThunderPunch	Ice Punch
+ptgs	533	Slowbro	Expert Belt	Zen Headbutt	Aqua Tail	Earthquake	Avalanche
+ptgs	534	Weezing	Sitrus Berry	Double Hit	Payback	Toxic	Swagger
+ptgs	535	Kangaskhan	Razor Claw	Dizzy Punch	Fire Punch	ThunderPunch	Ice Punch
+ptgs	536	Tauros	Life Orb	Facade	Earthquake	Rock Slide	Payback
+ptgs	537	Alakazam	Colbur Berry	Psychic	Focus Blast	Charge Beam	Recover
+ptgs	538	Slowking	Quick Claw	Zen Headbutt	Aqua Tail	Earthquake	Curse
+ptgs	539	Miltank	Salac Berry	Facade	Zen Headbutt	Reversal	Endure
+ptgs	540	Altaria	Shell Bell	Dragon Pulse	Ominous Wind	Sing	Perish Song
+ptgs	541	Toxicroak	Wide Lens	DynamicPunch	Poison Jab	ThunderPunch	Ice Punch
+ptgs	542	Abomasnow	Big Root	Giga Drain	Sheer Cold	Ingrain	Leech Seed
+ptgs	543	Nidoqueen	Scope Lens	Poison Jab	Fire Punch	ThunderPunch	Ice Punch
+ptgs	544	Nidoking	BrightPowder	Focus Punch	Dragon Pulse	Horn Drill	Substitute
+ptgs	545	Cradily	Leftovers	Toxic	Stockpile	Double Team	Ingrain
+ptgs	546	Armaldo	Scope Lens	Crush Claw	Aqua Tail	Aerial Ace	Swagger
+ptgs	547	Bastiodon	Persim Berry	AncientPower	Flamethrower	Thunderbolt	Ice Beam
+ptgs	548	Floatzel	Chesto Berry	Waterfall	Focus Punch	Double Team	Attract
+ptgs	549	Mismagius	Lum Berry	Shadow Ball	Confuse Ray	Perish Song	Mean Look
+ptgs	550	Drifblim	Black Sludge	Payback	Facade	Will-O-Wisp	Trick
+ptgs	551	Golduck	Shell Bell	Waterfall	Mud Bomb	Shadow Claw	Aerial Ace
+ptgs	552	Poliwrath	Lax Incense	Waterfall	DynamicPunch	Poison Jab	Bulk Up
+ptgs	553	Rapidash	White Herb	Overheat	SolarBeam	Swift	Sunny Day
+ptgs	554	Muk	Expert Belt	Poison Jab	Fire Punch	ThunderPunch	Ice Punch
+ptgs	555	Gengar	Life Orb	Shadow Ball	Dream Eater	Hypnosis	Substitute
+ptgs	556	Ampharos	Cheri Berry	ThunderPunch	Fire Punch	Focus Punch	Thunder Wave
+ptgs	557	Politoed	Chesto Berry	Dive	Brick Break	Hypnosis	Perish Song
+ptgs	558	Pinsir	Salac Berry	X-Scissor	Revenge	Flail	Endure
+ptgs	559	Scizor	Sitrus Berry	Metal Claw	Night Slash	Iron Defense	Roost
+ptgs	560	Heracross	Scope Lens	Close Combat	Aerial Ace	Night Slash	Bulk Up
+ptgs	561	Ursaring	Life Orb	Hammer Arm	Fire Punch	ThunderPunch	Ice Punch
+ptgs	562	Houndoom	Focus Sash	Fire Fang	Thunder Fang	Reversal	Endure
+ptgs	563	Donphan	White Herb	Earthquake	Superpower	Gunk Shot	Counter
+ptgs	564	Wailord	Chesto Berry	Whirlpool	Toxic	Amnesia	Rest
+ptgs	565	Claydol	Rindo Berry	Earth Power	AncientPower	Signal Beam	Shadow Ball
+ptgs	566	Rampardos	Iron Ball	Stone Edge	Payback	Avalanche	Fling
+ptgs	567	Bronzong	Lum Berry	Dream Eater	Hypnosis	Signal Beam	Trick Room
+ptgs	568	Drapion	Iron Ball	Payback	Poison Jab	Fling	Knock Off
+ptgs	569	Luxray	Wise Glasses	Thunderbolt	Signal Beam	Thunder Wave	Magnet Rise
+ptgs	570	Ninetales	White Herb	Overheat	Dark Pulse	Nasty Plot	Confuse Ray
+ptgs	571	Machamp	Focus Sash	Revenge	Earthquake	Payback	Counter
+ptgs	572	Shuckle	Grip Claw	Wrap	Swagger	Attract	Toxic
+ptgs	573	Roserade	Big Root	Giga Drain	Leech Seed	Ingrain	Synthesis
+ptgs	574	Honchkrow	White Herb	Superpower	Pluck	Confuse Ray	Thunder Wave
+ptgs	575	Steelix	Shuca Berry	Earthquake	Fire Fang	Thunder Fang	Ice Fang
+ptgs	576	Weavile	BrightPowder	Night Slash	Attract	Double Team	Hail
+ptgs	577	Gliscor	Razor Fang	Earthquake	Fire Fang	Thunder Fang	Ice Fang
+ptgs	578	Tentacruel	Black Sludge	Toxic	Giga Drain	Attract	Confuse Ray
+ptgs	579	Aerodactyl	Razor Fang	Bite	Fire Fang	Thunder Fang	Ice Fang
+ptgs	580	Porygon2	Iron Ball	Tri Attack	Thunderbolt	Recover	Trick Room
+ptgs	581	Lickilicky	Expert Belt	Surf	Ice Beam	Thunderbolt	Shadow Ball
+ptgs	582	Yanmega	Muscle Band	Aerial Ace	U-turn	Night Slash	Steel Wing
+ptgs	583	Gardevoir	Chesto Berry	Psychic	Thunderbolt	Calm Mind	Rest
+ptgs	584	Gallade	BrightPowder	Drain Punch	Fire Punch	ThunderPunch	Ice Punch
+ptgs	585	Exeggutor	Lum Berry	Dream Eater	Hypnosis	Leech Seed	Ingrain
+ptgs	586	Starmie	Wide Lens	Hydro Pump	Blizzard	Thunder	Recover
+ptgs	587	Flygon	Razor Fang	Fissure	Fire Punch	ThunderPunch	Aerial Ace
+ptgs	588	Vaporeon	Damp Rock	Hydro Pump	Ice Beam	Acid Armor	Rain Dance
+ptgs	589	Jolteon	Razor Claw	Discharge	Double Kick	Dig	Thunder Wave
+ptgs	590	Flareon	Salac Berry	Fire Fang	Flail	Endure	Sand-Attack
+ptgs	591	Espeon	BrightPowder	Psychic	Swift	Charm	Attract
+ptgs	592	Umbreon	Leftovers	Toxic	Mean Look	Double Team	Confuse Ray
+ptgs	593	Leafeon	BrightPowder	Leaf Blade	Last Resort	Curse	GrassWhistle
+ptgs	594	Glaceon	Leftovers	Ice Beam	Double Team	Yawn	Hail
+ptgs	595	Lucario	Scope Lens	Cross Chop	Stone Edge	ThunderPunch	Ice Punch
+ptgs	596	Hippowdon	Sitrus Berry	Earthquake	Swagger	Sand Tomb	Yawn
+ptgs	597	Probopass	Chople Berry	Iron Head	Fire Punch	ThunderPunch	Ice Punch
+ptgs	598	Dusknoir	Leftovers	Curse	Pain Split	Confuse Ray	Attract
+ptgs	599	Aggron	Quick Claw	Metal Claw	Fire Punch	ThunderPunch	Ice Punch
+ptgs	600	Walrein	Life Orb	Avalanche	Earthquake	Crunch	Curse
+ptgs	601	Mamoswine	Sitrus Berry	Avalanche	Earthquake	Iron Head	Curse
+ptgs	602	Lapras	Quick Claw	Sheer Cold	Perish Song	Sing	Confuse Ray
+ptgs	603	Crobat	Razor Fang	Air Slash	Zen Headbutt	Bite	Twister
+ptgs	604	Magnezone	Lum Berry	Iron Head	Explosion	Swagger	Psych Up
+ptgs	605	Rhyperior	Expert Belt	Fire Punch	ThunderPunch	Ice Punch	Aqua Tail
+ptgs	606	Tangrowth	Big Root	Giga Drain	Leech Seed	Toxic	Double Team
+ptgs	607	Porygon-Z	Choice Scarf	Tri Attack	Thunder Wave	Recover	Trick
+ptgs	608	Gyarados	Lum Berry	Waterfall	Ice Fang	Iron Head	Dragon Dance
+ptgs	609	Snorlax	Chesto Berry	Fire Punch	ThunderPunch	Ice Punch	Rest
+ptgs	610	Kingdra	Shell Bell	Brine	Ice Beam	Twister	Yawn
+ptgs	611	Blissey	Chesto Berry	Toxic	Double Team	Softboiled	Counter
+ptgs	612	Milotic	Leftovers	Toxic	Confuse Ray	Double Team	Aqua Ring
+ptgs	613	Electivire	Wide Lens	Thunder	DynamicPunch	Rock Slide	Iron Tail
+ptgs	614	Magmortar	Shuca Berry	Fire Punch	Focus Punch	Confuse Ray	SmokeScreen
+ptgs	615	Togekiss	Scope Lens	Air Slash	Ominous Wind	Silver Wind	AncientPower
+ptgs	616	Arcanine	Salac Berry	Flare Blitz	Thunder Fang	Reversal	Endure
+ptgs	617	Dragonite	Razor Claw	Dragon Rush	Fire Punch	ThunderPunch	Ice Punch
+ptgs	618	Tyranitar	Choice Scarf	Fire Punch	ThunderPunch	Ice Punch	Aerial Ace
+ptgs	619	Salamence	Razor Fang	Dragon Claw	Fire Fang	Thunder Fang	Dragon Dance
+ptgs	620	Metagross	Wise Glasses	Psychic	Flash Cannon	Shadow Ball	Sludge Bomb
+ptgs	621	Garchomp	White Herb	Draco Meteor	Earth Power	Flamethrower	Surf
+ptgs	622	Slaking	Lum Berry	Crush Claw	Fire Punch	ThunderPunch	Ice Punch
+ptgs	623	Venusaur	Black Sludge	Seed Bomb	Earthquake	Outrage	Curse
+ptgs	624	Charizard	Scope Lens	Flare Blitz	Earthquake	Crunch	Dragon Claw
+ptgs	625	Blastoise	Life Orb	Aqua Tail	Earthquake	Avalanche	Zen Headbutt
+ptgs	626	Meganium	Light Clay	Leaf Storm	Wring Out	Light Screen	Reflect
+ptgs	627	Typhlosion	Shuca Berry	Flare Blitz	Earthquake	Shadow Claw	Aerial Ace
+ptgs	628	Feraligatr	Wise Glasses	Hydro Cannon	Ice Beam	Focus Blast	AncientPower
+ptgs	629	Sceptile	Scope Lens	Leaf Blade	X-Scissor	Night Slash	Aerial Ace
+ptgs	630	Blaziken	Passho Berry	Blaze Kick	Earthquake	Shadow Claw	Stone Edge
+ptgs	631	Swampert	Expert Belt	Muddy Water	Earth Power	Ice Beam	Counter
+ptgs	632	Torterra	Lax Incense	Frenzy Plant	Earth Power	Hyper Beam	Leech Seed
+ptgs	633	Infernape	BrightPowder	Flamethrower	Focus Blast	SolarBeam	Sunny Day
+ptgs	634	Empoleon	Quick Claw	Surf	Earthquake	Blizzard	Signal Beam
+ptgs	635	Dugtrio	Razor Claw	Fissure	Giga Impact	Aerial Ace	Night Slash
+ptgs	636	Marowak	Thick Club	Earthquake	Giga Impact	Outrage	Fire Punch
+ptgs	637	Medicham	Wise Glasses	Psychic	Focus Blast	Shadow Ball	Calm Mind
+ptgs	638	Quagsire	Quick Claw	Surf	Earth Power	Focus Blast	Sludge Bomb
+ptgs	639	Granbull	Muscle Band	Fire Punch	ThunderPunch	Ice Punch	Payback
+ptgs	640	Jynx	Expert Belt	Blizzard	Energy Ball	Signal Beam	Wring Out
+ptgs	641	Mr. Mime	Kasib Berry	Psychic	Thunderbolt	Energy Ball	Hyper Beam
+ptgs	642	Lanturn	Sitrus Berry	Hydro Pump	Thunder	Blizzard	Rain Dance
+ptgs	643	Breloom	Toxic Orb	DynamicPunch	ThunderPunch	Stone Edge	Facade
+ptgs	644	Forretress	Leftovers	Dig	Swagger	Toxic	Double Team
+ptgs	645	Skarmory	Razor Claw	Drill Peck	Slash	Payback	Night Slash
+ptgs	646	Absol	Razor Claw	Night Slash	Psycho Cut	X-Scissor	Aerial Ace
+ptgs	647	Whiscash	Zoom Lens	Hydro Pump	Earth Power	Blizzard	Fissure
+ptgs	648	Hariyama	Life Orb	DynamicPunch	Fire Punch	ThunderPunch	Ice Punch
+ptgs	649	Vespiquen	Muscle Band	X-Scissor	Aerial Ace	Pursuit	U-turn
+ptgs	650	Raichu	Petaya Berry	Thunderbolt	Focus Blast	Signal Beam	Nasty Plot
+ptgs	651	Dewgong	Salac Berry	Sheer Cold	Horn Drill	Rest	Sleep Talk
+ptgs	652	Manectric	Quick Claw	Thunder Fang	Fire Fang	Ice Fang	Bite
+ptgs	653	Staraptor	Muscle Band	Brave Bird	Return	Steel Wing	Pursuit
+ptgs	654	Gastrodon	Shell Bell	Waterfall	Earthquake	Stone Edge	Fissure
+ptgs	655	Skuntank	Shuca Berry	Sludge Bomb	Dark Pulse	Flamethrower	Shadow Ball
+ptgs	656	Vileplume	Lum Berry	Seed Bomb	Drain Punch	Frustration	Swords Dance
+ptgs	657	Victreebel	Power Herb	Sludge Bomb	SolarBeam	Hyper Beam	Synthesis
+ptgs	658	Electrode	Damp Rock	Thunder	Hyper Beam	Magnet Rise	Rain Dance
+ptgs	659	Ludicolo	Wide Lens	Hydro Pump	Grass Knot	Blizzard	Focus Blast
+ptgs	660	Shiftry	White Herb	Leaf Storm	Dark Pulse	Focus Blast	Shadow Ball
+ptgs	661	Exploud	Life Orb	Facade	Earthquake	Avalanche	Crunch
+ptgs	662	Glalie	Scope Lens	Ice Beam	Shadow Ball	Signal Beam	Water Pulse
+ptgs	663	Lopunny	Wise Glasses	Charge Beam	Ice Beam	Shadow Ball	Focus Blast
+ptgs	664	Froslass	Expert Belt	Ice Beam	Thunderbolt	Signal Beam	Destiny Bond
+ptgs	665	Ambipom	Life Orb	Double Hit	Gunk Shot	Seed Bomb	Aerial Ace
+ptgs	666	Hypno	Sitrus Berry	Zen Headbutt	Fire Punch	ThunderPunch	Ice Punch
+ptgs	667	Golem	Iron Ball	Gyro Ball	Earthquake	Hammer Arm	Fling
+ptgs	668	Rhydon	Persim Berry	Outrage	Hammer Arm	Shadow Claw	Avalanche
+ptgs	669	Slowbro	Choice Specs	Psychic	Flamethrower	Shadow Ball	Signal Beam
+ptgs	670	Weezing	Lax Incense	Sludge Bomb	Thunderbolt	Dark Pulse	Explosion
+ptgs	671	Kangaskhan	Life Orb	Double Hit	Hammer Arm	Shadow Claw	Rock Slide
+ptgs	672	Tauros	Lum Berry	Giga Impact	Earthquake	Outrage	Iron Tail
+ptgs	673	Alakazam	Wise Glasses	Psychic	Charge Beam	Signal Beam	Grass Knot
+ptgs	674	Slowking	Lum Berry	Psychic	Shadow Ball	Signal Beam	Focus Blast
+ptgs	675	Miltank	Scope Lens	Dizzy Punch	Fire Punch	ThunderPunch	Ice Punch
+ptgs	676	Altaria	BrightPowder	Dragon Rush	Sky Attack	Earthquake	Dragon Dance
+ptgs	677	Toxicroak	Wise Glasses	Sludge Bomb	Focus Blast	Shadow Ball	Dark Pulse
+ptgs	678	Abomasnow	Occa Berry	Energy Ball	Blizzard	Shadow Ball	Focus Blast
+ptgs	679	Nidoqueen	Black Sludge	Sludge Bomb	Earth Power	Flamethrower	Ice Beam
+ptgs	680	Nidoking	Expert Belt	Earth Power	Sludge Bomb	Ice Beam	Shadow Ball
+ptgs	681	Cradily	Big Root	Giga Drain	Sludge Bomb	Recover	Ingrain
+ptgs	682	Armaldo	Choice Band	Stone Edge	Superpower	Earthquake	Giga Impact
+ptgs	683	Bastiodon	Leftovers	Iron Head	Fissure	Double Team	Iron Defense
+ptgs	684	Floatzel	Wave Incense	Surf	Ice Beam	Focus Blast	Rain Dance
+ptgs	685	Mismagius	Wise Glasses	Shadow Ball	Energy Ball	Icy Wind	Destiny Bond
+ptgs	686	Drifblim	Wise Glasses	Psychic	Thunderbolt	Icy Wind	Destiny Bond
+ptgs	687	Golduck	Scope Lens	Aqua Tail	Cross Chop	Ice Punch	Zen Headbutt
+ptgs	688	Poliwrath	Wide Lens	Hydro Pump	Focus Blast	Blizzard	Mud Bomb
+ptgs	689	Rapidash	BrightPowder	Flare Blitz	Poison Jab	Iron Tail	Horn Drill
+ptgs	690	Muk	Zoom Lens	Gunk Shot	Payback	Shadow Sneak	Curse
+ptgs	691	Gengar	Scope Lens	Psychic	Energy Ball	Focus Blast	Confuse Ray
+ptgs	692	Ampharos	Chesto Berry	Charge Beam	Hyper Beam	Thunder Wave	Rest
+ptgs	693	Politoed	Chesto Berry	Waterfall	Earthquake	Belly Drum	Rest
+ptgs	694	Pinsir	Lax Incense	X-Scissor	Superpower	Stone Edge	Giga Impact
+ptgs	695	Scizor	Salac Berry	X-Scissor	Quick Attack	Reversal	Endure
+ptgs	696	Heracross	Coba Berry	Megahorn	Stone Edge	Facade	Shadow Claw
+ptgs	697	Ursaring	Toxic Orb	Facade	Superpower	Crunch	Protect
+ptgs	698	Houndoom	Passho Berry	Flamethrower	Shadow Ball	Sludge Bomb	Will-O-Wisp
+ptgs	699	Donphan	Lax Incense	Earthquake	Gyro Ball	Fire Fang	Thunder Fang
+ptgs	700	Wailord	Leftovers	Waterfall	Avalanche	Earthquake	Curse
+ptgs	701	Claydol	Wise Glasses	Earth Power	Psychic	Charge Beam	Ice Beam
+ptgs	702	Rampardos	Life Orb	Head Smash	Zen Headbutt	Fire Punch	ThunderPunch
+ptgs	703	Bronzong	Leftovers	Psychic	Shadow Ball	Charge Beam	Signal Beam
+ptgs	704	Drapion	Scope Lens	Cross Poison	Fire Fang	Thunder Fang	Ice Fang
+ptgs	705	Luxray	White Herb	Thunder Fang	Ice Fang	Superpower	Thunder Wave
+ptgs	706	Ninetales	Wide Lens	Heat Wave	Ominous Wind	Dream Eater	Hypnosis
+ptgs	707	Machamp	Quick Claw	DynamicPunch	Earthquake	Stone Edge	Ice Punch
+ptgs	708	Shuckle	Lax Incense	Gyro Ball	Substitute	Double Team	Power Trick
+ptgs	709	Roserade	White Herb	Leaf Storm	Sludge Bomb	Hyper Beam	GrassWhistle
+ptgs	710	Honchkrow	Life Orb	Dark Pulse	Air Cutter	Psychic	Shadow Ball
+ptgs	711	Steelix	Iron Ball	Gyro Ball	Payback	Swagger	Curse
+ptgs	712	Weavile	Focus Sash	Night Slash	X-Scissor	Metal Claw	Counter
+ptgs	713	Gliscor	Focus Sash	Guillotine	Earthquake	U-turn	Counter
+ptgs	714	Tentacruel	Focus Sash	Surf	Sludge Bomb	Giga Drain	Mirror Coat
+ptgs	715	Aerodactyl	Yache Berry	Giga Impact	Earthquake	Rock Slide	Crunch
+ptgs	716	Porygon2	Wise Glasses	Tri Attack	Thunderbolt	Psychic	Ice Beam
+ptgs	717	Lickilicky	Lum Berry	Return	Gyro Ball	Curse	Rest
+ptgs	718	Yanmega	Lum Berry	Silver Wind	AncientPower	Ominous Wind	Giga Drain
+ptgs	719	Gardevoir	BrightPowder	Psychic	Charge Beam	Energy Ball	Focus Blast
+ptgs	720	Gallade	Scope Lens	Psycho Cut	Stone Edge	Aerial Ace	X-Scissor
+ptgs	721	Exeggutor	Focus Sash	Wood Hammer	Zen Headbutt	Trick Room	Explosion
+ptgs	722	Starmie	Wise Glasses	Surf	Psychic	Power Gem	Signal Beam
+ptgs	723	Flygon	White Herb	Draco Meteor	Earth Power	Flamethrower	Giga Drain
+ptgs	724	Vaporeon	Leftovers	Muddy Water	Blizzard	Aqua Ring	Yawn
+ptgs	725	Jolteon	Lax Incense	Thunder	Shadow Ball	Rain Dance	Yawn
+ptgs	726	Flareon	White Herb	Overheat	Shadow Ball	Mud-Slap	Will-O-Wisp
+ptgs	727	Espeon	Lum Berry	Psychic	Shadow Ball	Hyper Beam	Grass Knot
+ptgs	728	Umbreon	Lax Incense	Faint Attack	Swagger	Psych Up	Screech
+ptgs	729	Leafeon	Heat Rock	Leaf Blade	X-Scissor	Synthesis	Sunny Day
+ptgs	730	Glaceon	Focus Sash	Blizzard	Hyper Beam	Hail	Mirror Coat
+ptgs	731	Lucario	Muscle Band	Close Combat	Earthquake	Blaze Kick	Shadow Claw
+ptgs	732	Hippowdon	White Herb	Superpower	Fire Fang	Ice Fang	Fissure
+ptgs	733	Probopass	Scope Lens	Stone Edge	Iron Head	Earthquake	Explosion
+ptgs	734	Dusknoir	Scope Lens	Shadow Punch	Fire Punch	ThunderPunch	Ice Punch
+ptgs	735	Aggron	Muscle Band	Iron Tail	Dragon Rush	Avalanche	Aerial Ace
+ptgs	736	Walrein	Lax Incense	Sheer Cold	Fissure	Rest	Sleep Talk
+ptgs	737	Mamoswine	Lax Incense	Earthquake	Superpower	Fissure	Hail
+ptgs	738	Lapras	Lum Berry	Waterfall	Outrage	Zen Headbutt	Dragon Dance
+ptgs	739	Crobat	King's Rock	Air Slash	Sludge Bomb	Heat Wave	Dark Pulse
+ptgs	740	Magnezone	Chesto Berry	Charge Beam	Flash Cannon	Magnet Rise	Thunder Wave
+ptgs	741	Rhyperior	Focus Sash	Horn Drill	Avalanche	Payback	Counter
+ptgs	742	Tangrowth	Heat Rock	SolarBeam	Wring Out	Synthesis	Sunny Day
+ptgs	743	Porygon-Z	Wise Glasses	Psychic	Ice Beam	Signal Beam	Charge Beam
+ptgs	744	Gyarados	Persim Berry	Outrage	Waterfall	Stone Edge	Giga Impact
+ptgs	745	Snorlax	White Herb	Outrage	Superpower	Gunk Shot	Seed Bomb
+ptgs	746	Kingdra	Lum Berry	Waterfall	Outrage	Iron Head	Dragon Dance
+ptgs	747	Blissey	BrightPowder	Flamethrower	Thunderbolt	Ice Beam	Calm Mind
+ptgs	748	Milotic	Wide Lens	Hydro Pump	Blizzard	Mirror Coat	Recover
+ptgs	749	Electivire	Wise Glasses	Thunderbolt	Psychic	Focus Blast	Signal Beam
+ptgs	750	Magmortar	Passho Berry	Flare Blitz	ThunderPunch	Earthquake	Brick Break
+ptgs	751	Togekiss	Wise Glasses	Air Slash	Heat Wave	Signal Beam	Magical Leaf
+ptgs	752	Arcanine	White Herb	Overheat	SolarBeam	Dragon Pulse	Sunny Day
+ptgs	753	Dragonite	Expert Belt	Draco Meteor	Flamethrower	Thunderbolt	Surf
+ptgs	754	Tyranitar	White Herb	Superpower	Dragon Claw	Shadow Claw	Aqua Tail
+ptgs	755	Salamence	Wise Glasses	Draco Meteor	Hydro Pump	Flamethrower	Ominous Wind
+ptgs	756	Metagross	Occa Berry	Hammer Arm	ThunderPunch	Ice Punch	Aerial Ace
+ptgs	757	Garchomp	Focus Sash	Dragon Rush	Stone Edge	Aqua Tail	Aerial Ace
+ptgs	758	Slaking	Life Orb	Return	Night Slash	Gunk Shot	Aerial Ace
+ptgs	759	Venusaur	Wise Glasses	Frenzy Plant	Sludge Bomb	Hyper Beam	Synthesis
+ptgs	760	Charizard	BrightPowder	Blast Burn	Air Slash	Focus Blast	AncientPower
+ptgs	761	Blastoise	Shell Bell	Hydro Cannon	Ice Beam	Hyper Beam	Focus Blast
+ptgs	762	Meganium	Lax Incense	Frenzy Plant	AncientPower	Hyper Beam	Light Screen
+ptgs	763	Typhlosion	White Herb	Overheat	SolarBeam	Focus Blast	Sunny Day
+ptgs	764	Feraligatr	Lum Berry	Waterfall	Earthquake	Ice Fang	Dragon Dance
+ptgs	765	Sceptile	Occa Berry	Leaf Storm	Dragon Pulse	Focus Blast	Hyper Beam
+ptgs	766	Blaziken	White Herb	Flare Blitz	Superpower	ThunderPunch	Night Slash
+ptgs	767	Swampert	Rindo Berry	Earthquake	Aqua Tail	Avalanche	Mirror Coat
+ptgs	768	Torterra	Quick Claw	Wood Hammer	Earthquake	Stone Edge	Crunch
+ptgs	769	Infernape	King's Rock	Flare Blitz	Close Combat	Earthquake	ThunderPunch
+ptgs	770	Empoleon	Quick Claw	Hydro Cannon	Flash Cannon	Drill Peck	Earthquake
+ptgs	771	Dugtrio	Muscle Band	Earthquake	Stone Edge	Slash	Shadow Claw
+ptgs	772	Marowak	Thick Club	Earthquake	Stone Edge	Iron Head	ThunderPunch
+ptgs	773	Medicham	Scope Lens	Psycho Cut	Fire Punch	ThunderPunch	Ice Punch
+ptgs	774	Quagsire	Muscle Band	Earthquake	Waterfall	Stone Edge	Ice Punch
+ptgs	775	Granbull	Life Orb	Giga Impact	Close Combat	Earthquake	Stone Edge
+ptgs	776	Jynx	Choice Specs	Ice Beam	Psychic	Focus Blast	Shadow Ball
+ptgs	777	Mr. Mime	Choice Specs	Psychic	Charge Beam	Shadow Ball	Focus Blast
+ptgs	778	Lanturn	Expert Belt	Surf	Thunderbolt	Ice Beam	Signal Beam
+ptgs	779	Breloom	Shell Bell	Focus Punch	Seed Bomb	Giga Impact	Spore
+ptgs	780	Forretress	Lax Incense	Explosion	Double-Edge	Earthquake	Rock Slide
+ptgs	781	Skarmory	Life Orb	Brave Bird	Steel Wing	X-Scissor	Rock Slide
+ptgs	782	Absol	Choice Band	Night Slash	Superpower	Giga Impact	Zen Headbutt
+ptgs	783	Whiscash	Muscle Band	Earthquake	Aqua Tail	Zen Headbutt	Stone Edge
+ptgs	784	Hariyama	Scope Lens	Cross Chop	Earthquake	Stone Edge	Poison Jab
+ptgs	785	Vespiquen	Shell Bell	Attack Order	Defend Order	Heal Order	Confuse Ray
+ptgs	786	Raichu	BrightPowder	Volt Tackle	Return	Brick Break	Thunder Wave
+ptgs	787	Dewgong	Chesto Berry	Surf	Ice Beam	Signal Beam	Rest
+ptgs	788	Manectric	BrightPowder	Thunderbolt	Flamethrower	Signal Beam	Swift
+ptgs	789	Staraptor	Choice Band	Brave Bird	Giga Impact	Close Combat	U-turn
+ptgs	790	Gastrodon	Wise Glasses	Surf	Earth Power	Ice Beam	Sludge Bomb
+ptgs	791	Skuntank	Muscle Band	Poison Jab	Night Slash	Crunch	Explosion
+ptgs	792	Vileplume	Wise Glasses	Sludge Bomb	Energy Ball	Hyper Beam	Synthesis
+ptgs	793	Victreebel	Focus Band	SolarBeam	Sludge Bomb	Wring Out	Sunny Day
+ptgs	794	Electrode	Focus Sash	Thunderbolt	Signal Beam	Explosion	Mirror Coat
+ptgs	795	Ludicolo	Lum Berry	Surf	Giga Drain	Ice Beam	Rain Dance
+ptgs	796	Shiftry	Cheri Berry	Seed Bomb	Sucker Punch	Aerial Ace	Explosion
+ptgs	797	Exploud	White Herb	Hyper Voice	Overheat	Surf	Ice Beam
+ptgs	798	Glalie	Lax Incense	Blizzard	Dark Pulse	Sheer Cold	Hail
+ptgs	799	Lopunny	Muscle Band	Dizzy Punch	Fire Punch	ThunderPunch	Ice Punch
+ptgs	800	Froslass	Lax Incense	Blizzard	Shadow Ball	Psychic	Hail
+ptgs	801	Ambipom	Life Orb	Double Hit	Fire Punch	ThunderPunch	Ice Punch
+ptgs	802	Hypno	Choice Specs	Psychic	Shadow Ball	Signal Beam	Focus Blast
+ptgs	803	Golem	Quick Claw	Earthquake	Stone Edge	Gyro Ball	Explosion
+ptgs	804	Rhydon	Quick Claw	Earthquake	Stone Edge	Megahorn	Horn Drill
+ptgs	805	Slowbro	Leftovers	Psychic	Surf	Ice Beam	Trick Room
+ptgs	806	Weezing	Quick Claw	Sludge Bomb	Flamethrower	Shadow Ball	Destiny Bond
+ptgs	807	Kangaskhan	Muscle Band	Giga Impact	Earthquake	Crunch	Outrage
+ptgs	808	Tauros	Choice Band	Return	Earthquake	Stone Edge	Zen Headbutt
+ptgs	809	Alakazam	Expert Belt	Psychic	Shadow Ball	Energy Ball	Focus Blast
+ptgs	810	Slowking	Wise Glasses	Psychic	Surf	Ice Beam	Flamethrower
+ptgs	811	Miltank	Muscle Band	Giga Impact	Earthquake	Rock Slide	Zen Headbutt
+ptgs	812	Altaria	White Herb	Draco Meteor	Air Cutter	Flamethrower	Ice Beam
+ptgs	813	Toxicroak	Razor Claw	Gunk Shot	Cross Chop	Earthquake	Stone Edge
+ptgs	814	Abomasnow	Shell Bell	Wood Hammer	Avalanche	Earthquake	Rock Slide
+ptgs	815	Nidoqueen	Razor Claw	Earthquake	Poison Jab	Superpower	Crunch
+ptgs	816	Nidoking	Muscle Band	Earthquake	Poison Jab	Megahorn	Outrage
+ptgs	817	Cradily	Leftovers	Stone Edge	Seed Bomb	Earthquake	Mirror Coat
+ptgs	818	Armaldo	Life Orb	Stone Edge	X-Scissor	Earthquake	Cross Poison
+ptgs	819	Bastiodon	Focus Sash	Metal Burst	Stone Edge	Avalanche	Curse
+ptgs	820	Floatzel	Razor Fang	Aqua Tail	Ice Fang	Crunch	Brick Break
+ptgs	821	Mismagius	Focus Sash	Shadow Ball	Psychic	Thunderbolt	Destiny Bond
+ptgs	822	Drifblim	Lax Incense	Shadow Ball	Air Cutter	Silver Wind	Explosion
+ptgs	823	Golduck	Wacan Berry	Hydro Pump	Psychic	Ice Beam	Signal Beam
+ptgs	824	Poliwrath	Expert Belt	Waterfall	Focus Punch	Earthquake	Hypnosis
+ptgs	825	Rapidash	Chesto Berry	Flare Blitz	Megahorn	Double-Edge	Hypnosis
+ptgs	826	Muk	Quick Claw	Gunk Shot	Shadow Sneak	Brick Break	Explosion
+ptgs	827	Gengar	Lum Berry	Shadow Ball	Sludge Bomb	Thunderbolt	Destiny Bond
+ptgs	828	Ampharos	Zoom Lens	Thunder	Focus Blast	Signal Beam	Power Gem
+ptgs	829	Politoed	Wacan Berry	Hydro Pump	Ice Beam	Psychic	Hypnosis
+ptgs	830	Pinsir	Scope Lens	X-Scissor	Earthquake	Close Combat	Guillotine
+ptgs	831	Scizor	Occa Berry	X-Scissor	Iron Head	Aerial Ace	Night Slash
+ptgs	832	Heracross	Salac Berry	Megahorn	Earthquake	Reversal	Endure
+ptgs	833	Ursaring	Quick Claw	Return	Cross Chop	Earthquake	Aerial Ace
+ptgs	834	Houndoom	White Herb	Overheat	Dark Pulse	SolarBeam	Sunny Day
+ptgs	835	Donphan	Quick Claw	Earthquake	Stone Edge	Seed Bomb	Fissure
+ptgs	836	Wailord	Quick Claw	Hydro Pump	Blizzard	Hyper Beam	Fissure
+ptgs	837	Claydol	Lax Incense	Earthquake	Zen Headbutt	Rock Slide	Explosion
+ptgs	838	Rampardos	Choice Scarf	Head Smash	Earthquake	Giga Impact	Superpower
+ptgs	839	Bronzong	Quick Claw	Zen Headbutt	Iron Head	Earthquake	Explosion
+ptgs	840	Drapion	Razor Claw	Cross Poison	Night Slash	Earthquake	Aerial Ace
+ptgs	841	Luxray	Muscle Band	Thunder Fang	Ice Fang	Crunch	Thunder Wave
+ptgs	842	Ninetales	Passho Berry	Flamethrower	Extrasensory	Energy Ball	Calm Mind
+ptgs	843	Machamp	Quick Claw	Cross Chop	Earthquake	ThunderPunch	Fire Punch
+ptgs	844	Shuckle	Leftovers	Toxic	Substitute	Double Team	Sandstorm
+ptgs	845	Roserade	White Herb	Leaf Storm	Sludge Bomb	Shadow Ball	Weather Ball
+ptgs	846	Honchkrow	Scope Lens	Night Slash	Drill Peck	Sucker Punch	Steel Wing
+ptgs	847	Steelix	Quick Claw	Gyro Ball	Earthquake	Stone Edge	Explosion
+ptgs	848	Weavile	Razor Claw	Night Slash	Ice Punch	Aerial Ace	Brick Break
+ptgs	849	Gliscor	Expert Belt	Earthquake	Aerial Ace	X-Scissor	Stone Edge
+ptgs	850	Tentacruel	Scope Lens	Hydro Pump	Sludge Bomb	Ice Beam	Wring Out
+ptgs	851	Aerodactyl	Choice Band	Stone Edge	Aerial Ace	Earthquake	Dragon Claw
+ptgs	852	Porygon2	Lum Berry	Tri Attack	Signal Beam	Shadow Ball	Ice Beam
+ptgs	853	Lickilicky	Lax Incense	Body Slam	Power Whip	Earthquake	Explosion
+ptgs	854	Yanmega	Wise Glasses	Bug Buzz	Air Slash	Psychic	Shadow Ball
+ptgs	855	Gardevoir	Wise Glasses	Psychic	Thunderbolt	Shadow Ball	Destiny Bond
+ptgs	856	Gallade	Scope Lens	Psycho Cut	Close Combat	Leaf Blade	Night Slash
+ptgs	857	Exeggutor	Expert Belt	Leaf Storm	Psychic	Sludge Bomb	AncientPower
+ptgs	858	Starmie	Expert Belt	Surf	Psychic	Thunderbolt	Ice Beam
+ptgs	859	Flygon	Lum Berry	Earthquake	Outrage	Crunch	Stone Edge
+ptgs	860	Vaporeon	Expert Belt	Surf	Ice Beam	Shadow Ball	Signal Beam
+ptgs	861	Jolteon	Razor Fang	Thunderbolt	Hyper Beam	Shadow Ball	Signal Beam
+ptgs	862	Flareon	White Herb	Fire Fang	Giga Impact	Superpower	Bite
+ptgs	863	Espeon	Wise Glasses	Psychic	Shadow Ball	Signal Beam	Morning Sun
+ptgs	864	Umbreon	BrightPowder	Payback	Trump Card	Curse	Moonlight
+ptgs	865	Leafeon	Quick Claw	Leaf Blade	X-Scissor	Aerial Ace	Bite
+ptgs	866	Glaceon	Wise Glasses	Ice Beam	Shadow Ball	Signal Beam	Water Pulse
+ptgs	867	Lucario	Expert Belt	Aura Sphere	Psychic	Shadow Ball	Dragon Pulse
+ptgs	868	Hippowdon	Quick Claw	Earthquake	Stone Edge	Crunch	Thunder Fang
+ptgs	869	Probopass	Life Orb	Flash Cannon	Power Gem	Earth Power	Thunderbolt
+ptgs	870	Dusknoir	Muscle Band	Shadow Punch	Earthquake	Brick Break	Rock Slide
+ptgs	871	Aggron	Focus Sash	Metal Burst	Stone Edge	Earthquake	Shadow Claw
+ptgs	872	Walrein	Leftovers	Surf	Ice Beam	Signal Beam	Hail
+ptgs	873	Mamoswine	Life Orb	Earthquake	Ice Fang	Stone Edge	Double-Edge
+ptgs	874	Lapras	BrightPowder	Surf	Ice Beam	Psychic	Thunderbolt
+ptgs	875	Crobat	Razor Claw	Cross Poison	Brave Bird	X-Scissor	Zen Headbutt
+ptgs	876	Magnezone	BrightPowder	Thunderbolt	Flash Cannon	Tri Attack	Signal Beam
+ptgs	877	Rhyperior	Choice Band	Rock Wrecker	Earthquake	Hammer Arm	Megahorn
+ptgs	878	Tangrowth	Lax Incense	Power Whip	Earthquake	Aerial Ace	Brick Break
+ptgs	879	Porygon-Z	Expert Belt	Tri Attack	Shadow Ball	Thunderbolt	Recover
+ptgs	880	Gyarados	Chesto Berry	Waterfall	Earthquake	Rest	Dragon Dance
+ptgs	881	Snorlax	Life Orb	Double-Edge	Earthquake	Zen Headbutt	Crunch
+ptgs	882	Kingdra	Wide Lens	Hydro Pump	Draco Meteor	Blizzard	Signal Beam
+ptgs	883	Blissey	Leftovers	Dream Eater	Sing	Softboiled	Counter
+ptgs	884	Milotic	Lum Berry	Surf	Ice Beam	Dragon Pulse	Recover
+ptgs	885	Electivire	Shuca Berry	ThunderPunch	Fire Punch	Ice Punch	Earthquake
+ptgs	886	Magmortar	White Herb	Overheat	Psychic	Focus Blast	Confuse Ray
+ptgs	887	Togekiss	Expert Belt	Hyper Beam	Air Slash	Aura Sphere	Psychic
+ptgs	888	Arcanine	Focus Band	Flare Blitz	ExtremeSpeed	Crunch	Thunder Fang
+ptgs	889	Dragonite	Choice Band	Outrage	Giga Impact	Earthquake	Superpower
+ptgs	890	Tyranitar	Chople Berry	Stone Edge	Crunch	Earthquake	Dragon Dance
+ptgs	891	Salamence	Lum Berry	Outrage	Crunch	Earthquake	Zen Headbutt
+ptgs	892	Metagross	Quick Claw	Meteor Mash	Zen Headbutt	Earthquake	Explosion
+ptgs	893	Garchomp	Persim Berry	Outrage	Earthquake	Crunch	Fire Fang
+ptgs	894	Slaking	Muscle Band	Giga Impact	Earthquake	Hammer Arm	Shadow Claw
+ptgs	895	Articuno	Icy Rock	Blizzard	Fly	Roost	Hail
+ptgs	896	Zapdos	Yache Berry	Thunder	Drill Peck	Thunder Wave	Rain Dance
+ptgs	897	Moltres	Passho Berry	Flamethrower	Air Slash	AncientPower	Roost
+ptgs	898	Raikou	Lum Berry	Thunderbolt	Shadow Ball	Thunder Wave	Light Screen
+ptgs	899	Entei	Shuca Berry	Fire Fang	Return	Roar	Reflect
+ptgs	900	Suicune	Focus Sash	Surf	Icy Wind	Ominous Wind	Mirror Coat
+ptgs	901	Regirock	Leftovers	Rock Slide	Earthquake	Brick Break	Sandstorm
+ptgs	902	Regice	Lum Berry	Ice Beam	Signal Beam	Charge Beam	Amnesia
+ptgs	903	Registeel	Lum Berry	Flash Cannon	Thunderbolt	Thunder Wave	Amnesia
+ptgs	904	Latias	Lum Berry	Psychic	Dragon Pulse	Attract	Calm Mind
+ptgs	905	Latios	Focus Band	Psychic	Dragon Pulse	Thunder Wave	Calm Mind
+ptgs	906	Heatran	Shuca Berry	Heat Wave	Flash Cannon	AncientPower	Scary Face
+ptgs	907	Cresselia	Heat Rock	Psychic	SolarBeam	Moonlight	Sunny Day
+ptgs	908	Regigigas	Lax Incense	Return	Aerial Ace	Thunder Wave	Confuse Ray
+ptgs	909	Articuno	Wacan Berry	Avalanche	Aerial Ace	Facade	Reflect
+ptgs	910	Zapdos	Focus Band	Thunderbolt	AncientPower	Ominous Wind	Light Screen
+ptgs	911	Moltres	Heat Rock	Fire Blast	SolarBeam	Hyper Beam	Sunny Day
+ptgs	912	Raikou	King's Rock	Thunder Fang	Crunch	Iron Head	Return
+ptgs	913	Entei	King's Rock	Fire Fang	Bite	Iron Head	Stone Edge
+ptgs	914	Suicune	King's Rock	Waterfall	Ice Fang	Iron Head	Bite
+ptgs	915	Regirock	Razor Claw	Fire Punch	ThunderPunch	Ice Punch	Drain Punch
+ptgs	916	Regice	Leftovers	Avalanche	Hammer Arm	Double Team	Curse
+ptgs	917	Registeel	Leftovers	Iron Head	Toxic	Double Team	Iron Defense
+ptgs	918	Latias	Expert Belt	Dragon Claw	Zen Headbutt	Earthquake	Aerial Ace
+ptgs	919	Latios	Lum Berry	Dragon Claw	Shadow Claw	Earthquake	Dragon Dance
+ptgs	920	Heatran	Quick Claw	Iron Head	Earthquake	Stone Edge	Crunch
+ptgs	921	Cresselia	Lum Berry	Psychic	Toxic	Double Team	Moonlight
+ptgs	922	Regigigas	Leftovers	Facade	Zen Headbutt	Double Team	Substitute
+ptgs	923	Articuno	Wise Glasses	Ice Beam	Signal Beam	Ominous Wind	Water Pulse
+ptgs	924	Zapdos	King's Rock	Drill Peck	Twister	Steel Wing	U-turn
+ptgs	925	Moltres	Power Herb	Sky Attack	Return	Steel Wing	U-turn
+ptgs	926	Raikou	Wise Glasses	Thunder	Extrasensory	Signal Beam	Rain Dance
+ptgs	927	Entei	Shuca Berry	Fire Blast	SolarBeam	Hyper Beam	Sunny Day
+ptgs	928	Suicune	Lum Berry	Hydro Pump	Blizzard	Shadow Ball	Hail
+ptgs	929	Regirock	Chesto Berry	Stone Edge	Hammer Arm	Rest	Curse
+ptgs	930	Regice	Chesto Berry	Ice Beam	Flash Cannon	AncientPower	Rest
+ptgs	931	Registeel	Razor Claw	Shadow Claw	Aerial Ace	ThunderPunch	Ice Punch
+ptgs	932	Latias	BrightPowder	Psychic	Ice Beam	Energy Ball	Shadow Ball
+ptgs	933	Latios	BrightPowder	Psychic	Thunderbolt	Ice Beam	Energy Ball
+ptgs	934	Heatran	BrightPowder	Flamethrower	Earth Power	Dragon Pulse	Dark Pulse
+ptgs	935	Cresselia	Wise Glasses	Psychic	Shadow Ball	Energy Ball	Charge Beam
+ptgs	936	Regigigas	Wise Glasses	Earth Power	Focus Blast	Thunderbolt	AncientPower
+ptgs	937	Articuno	Charti Berry	Ice Beam	Air Cutter	AncientPower	Sheer Cold
+ptgs	938	Zapdos	BrightPowder	Thunderbolt	Air Cutter	Heat Wave	Signal Beam
+ptgs	939	Moltres	White Herb	Overheat	Air Slash	AncientPower	Ominous Wind
+ptgs	940	Raikou	Shuca Berry	Thunderbolt	Extrasensory	Shadow Ball	Calm Mind
+ptgs	941	Entei	Shuca Berry	Overheat	Extrasensory	Shadow Ball	Calm Mind
+ptgs	942	Suicune	Wacan Berry	Surf	Ice Beam	Extrasensory	Calm Mind
+ptgs	943	Regirock	Quick Claw	Stone Edge	Earthquake	Hammer Arm	Explosion
+ptgs	944	Regice	Shell Bell	Ice Beam	Thunderbolt	Hyper Beam	Focus Blast
+ptgs	945	Registeel	Shell Bell	Iron Head	Hammer Arm	Earthquake	Curse
+ptgs	946	Latias	White Herb	Mist Ball	Draco Meteor	Thunderbolt	Surf
+ptgs	947	Latios	White Herb	Luster Purge	Draco Meteor	Hyper Beam	Surf
+ptgs	948	Heatran	Focus Sash	Magma Storm	Flash Cannon	Earth Power	Explosion
+ptgs	949	Cresselia	Leftovers	Psychic	Ice Beam	Signal Beam	Moonlight
+ptgs	950	Regigigas	BrightPowder	Crush Grip	Earthquake	Stone Edge	Drain Punch

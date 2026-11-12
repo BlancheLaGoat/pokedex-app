@@ -131,6 +131,7 @@ def emerald_from_sheet(sets, trainers):
             sets.append(s)
         if entry.isdigit():
             by_inst[(key(name), inst)] = have[k]
+            sets[have[k]].setdefault('no', []).append(int(entry))  # n° de fiche dans le jeu (Usine de Combat)
         elif '†' not in entry:  # Noland : équipe tirée au hasard comme les autres dresseurs (simple exemple dans le tableur)
             brains.setdefault(entry, (int(iv) if iv else None, []))[1].append(have[k])
     pools = {}
@@ -201,6 +202,45 @@ def gen4_brains(sets, trainers):
                      'ev': gen4_ev([0 if x in ('-', '') else int(x) for x in evs])})
     for (who, place, sym), pool in groups.items():
         trainers.append({'cls': 'Meneur', 'name': f'{who} — {place} (symbole {sym})', 'pool': pool, 'lvl': 50})
+
+
+# Usine de Combat : quelles fiches (n° dans le jeu) et quels IV selon la série.
+# Émeraude : pret/pokeemerald, src/battle_factory.c (sInitialRentalMonRanges, sFixedIVTable ; n° de fiche = monId + 1).
+# Platine / HGSS : pret/pokeplatinum, src/overlay104/battle_factory_helpers.c (sLevel50Pools, sOpenLevelPlayerPools,
+# sOpenLevelOpponentPools).
+FACTORY = {
+    'e': {
+        'name': 'Usine de Combat (Émeraude)',
+        'lv50': [[111, 200], [163, 267], [268, 372], [373, 468], [469, 564], [565, 660], [661, 756], [373, 850]],
+        'open': [[373, 468], [469, 564], [565, 660], [661, 756], [373, 882], [373, 882], [373, 882], [373, 882]],
+        'iv': [3, 6, 9, 12, 15, 21, 31, 31],          # Pokémon loués et dresseurs 1 à 6
+        'ivLast': [6, 9, 12, 15, 18, 31, 31, 31],     # 7e dresseur de la série
+        'brain': {'name': 'Noland', 'silver': [3, 15], 'gold': [6, 31]},  # [série, IV] : 21e et 42e combat
+    },
+    'ptgs': {
+        'name': 'Usine de Combat (Platine / HeartGold / SoulSilver)',
+        'lv50': [[1, 150, 0], [151, 250, 4], [251, 350, 8], [351, 486, 12], [487, 622, 16], [623, 758, 20], [759, 894, 24], [351, 950, 31]],
+        'openPlayer': [[351, 486, 0], [487, 622, 4], [623, 758, 8], [759, 894, 12], [623, 950, 16], [623, 950, 20], [623, 950, 24], [351, 950, 31]],
+        'openOpp': [[351, 486, 0], [487, 622, 4], [623, 758, 8], [759, 894, 12], [351, 950, 16], [351, 950, 20], [351, 950, 24], [351, 950, 31]],
+        'brain': {'name': 'Thorton', 'lv50': [[351, 486, 12], [351, 486, 31]], 'open': [[759, 950, 12], [759, 950, 31]]},
+    },
+}
+
+
+def platinum_set_ids(sets):
+    """Platine / HGSS : n° de chaque fiche dans le jeu (ordre des données extraites du jeu par RainingChain/pokemoncompletion,
+    copié dans platinum-frontier-set-ids.tsv), retrouvé par Pokémon + objet + attaques."""
+    sig = lambda sp, it, mv: (sp, it, tuple(sorted(m for m in mv if m)))
+    have = {}
+    for i, st in enumerate(sets):
+        have.setdefault(sig(st['sp'], st['itemName'], st['moves']), []).append(i)
+    for r in read('platinum-frontier-set-ids.tsv'):
+        sid = species.get(key(r[2]))
+        k = sig(sid, item_of(r[3])[1], [move_of(x) for x in r[4:8]])
+        for i in have.get(k, []):
+            sets[i].setdefault('no', []).append(int(r[1]))
+        if k not in have:
+            miss('fiche Platine', r[1] + ' ' + r[2])
 
 
 out = []
@@ -297,8 +337,12 @@ for fid, (label, mvgs, gen, ivrules) in FACILITIES.items():
     if fid == 'ptgs':
         for st in sets:
             st['ev'] = gen4_ev(st['ev'])
+        platinum_set_ids(sets)
         gen4_brains(sets, trainers)
-    out.append({'id': fid, 'name': label, 'mvg': mvgs, 'gen': gen, 'sets': sets, 'trainers': trainers})
+    fac = {'id': fid, 'name': label, 'mvg': mvgs, 'gen': gen, 'sets': sets, 'trainers': trainers}
+    if fid in FACTORY:
+        fac['factory'] = FACTORY[fid]
+    out.append(fac)
     print(f'{fid:7} {len(sets):5} fiches, {len(trainers):4} dresseurs ({sum(1 for t in trainers if "iv" in t)} avec IV)')
 
 with open(os.path.join(ROOT, 'data', 'facilities.json'), 'w', encoding='utf-8') as f:

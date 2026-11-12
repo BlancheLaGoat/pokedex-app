@@ -316,15 +316,18 @@ async function facilityPicker(C, mvg, redraw, team) {
   const list = all.filter((f) => f.mvg.includes(mvg)).concat(all.filter((f) => !f.mvg.includes(mvg)));
   if (!list.length) return null;
   const box = h('div', { class: 'fac-box' });
-  if (!list.some((f) => f.id === C.fac)) C.fac = '';
+  const isFactory = /^factory:/.test(C.fac || '');
+  if (!isFactory && !list.some((f) => f.id === C.fac)) C.fac = '';
   const bar = h('div', { class: 'tm-grid' });
   const lieu = h('select', { onchange: (e) => { C.fac = e.target.value; C.facTrainer = null; C.facQuery = ''; redraw(); } }, h('option', { value: '', selected: !C.fac }, '— aucun (Pokémon au choix) —'));
   const grp = (label, fs) => { if (fs.length) lieu.append(h('optgroup', { label }, ...fs.map((f) => h('option', { value: f.id, selected: f.id === C.fac }, f.name)))); };
   grp('Jeu de l\'équipe', list.filter((f) => f.mvg.includes(mvg)));
   grp('Autres jeux', list.filter((f) => !f.mvg.includes(mvg)));
+  const fac = all.filter((f) => f.factory);
+  if (fac.length) lieu.append(h('optgroup', { label: 'Usine de Combat (Pokémon de location)' }, ...fac.map((f) => h('option', { value: 'factory:' + f.id, selected: C.fac === 'factory:' + f.id }, f.factory.name))));
   bar.append(field('Lieu de combat', lieu));
   box.append(bar);
-  const f = list.find((x) => x.id === C.fac);
+  const f = isFactory ? all.find((x) => 'factory:' + x.id === C.fac) : list.find((x) => x.id === C.fac);
   if (!f) return box;
   if (!f.mvg.includes(mvg) && team) {
     // lieu d'un autre jeu : les calculs suivent le jeu de l'équipe -> on propose de basculer
@@ -333,6 +336,7 @@ async function facilityPicker(C, mvg, redraw, team) {
       `Ton équipe « ${team.name} » est réglée sur un autre jeu : les dégâts sont calculés avec les règles de ce jeu-là. `,
       ...names.map(([v, n]) => h('button', { class: 'tm-btn', style: 'margin-left:6px', onclick: async () => { team.mvg = v; await ensureMvg(v); redraw(); } }, 'Passer l\'équipe sur ' + n))));
   }
+  if (isFactory) { factoryPicker(box, bar, f, C, mvg, redraw, team); return box; }
   C.facMode = C.facMode || 'pk';
   bar.append(field('Chercher par', sel(C.facMode, [['pk', 'Pokémon'], ['trainer', 'dresseur (nom anglais)']], (v) => { C.facMode = v; redraw(); })));
   const hasLvlModes = f.trainers.some((t) => t.lvl !== 50);
@@ -369,6 +373,77 @@ async function facilityPicker(C, mvg, redraw, team) {
   box.append(results);
   box.append(h('div', { class: 'muted', style: 'font-size:11px' }, 'Source : listes des dresseurs de Bulbapedia (noms des dresseurs en anglais). Clique sur une fiche pour la prendre comme adversaire. Les IV dépendent du n° du dresseur' + (f.trainers.some((t) => t.iv != null) ? ' (indiqués pour chaque dresseur)' : ' ; Bulbapedia ne les donne pas pour ce lieu : 31 par défaut') + '. ' + (f.sets.some((s) => s.stats) ? 'Ici, Bulbapedia donne le talent et les stats au niveau 50 (pas la nature ni les EV).' : 'Le talent est tiré au hasard parmi ceux du Pokémon.')));
   return box;
+}
+
+// ------------------------------------------------------------------ Usine de Combat (Pokémon de location)
+// Règles du jeu dans data/facilities.json (factory) : fiches possibles et IV selon le niveau, la série et le rôle.
+const FACTORY_ROLES = [['rent', 'mes Pokémon loués'], ['rentUp', 'mes Pokémon loués plus forts (après des échanges)'], ['opp', 'adversaires (combats 1 à 6)'], ['opp7', '7e adversaire de la série'], ['brain1', 'Meneur — symbole Argent'], ['brain2', 'Meneur — symbole Or']];
+function factoryPools(F, open, r, role) {
+  const R = Math.min(r, 7), up = Math.min(r + 1, 7);
+  if (F.lv50 && F.lv50[0].length === 2) { // Émeraude : plages + table d'IV
+    const rg = open ? F.open : F.lv50;
+    const one = (k, iv) => [{ min: rg[k][0], max: rg[k][1], iv }];
+    if (role === 'rent') return one(R, F.iv[R]);
+    if (role === 'rentUp') return one(up, F.iv[up]);
+    if (role === 'opp') return one(R, F.iv[R]);
+    if (role === 'opp7') return one(R, F.ivLast[R]);
+    const [round, iv] = role === 'brain1' ? F.brain.silver : F.brain.gold;
+    return one(round - 1, iv);
+  }
+  const pl = open ? (role === 'rent' || role === 'rentUp' ? F.openPlayer : F.openOpp) : F.lv50; // Platine / HGSS : réserves avec leurs IV
+  const one = (k) => ({ min: pl[k][0], max: pl[k][1], iv: pl[k][2] });
+  if (role === 'rent') return [one(R)];
+  if (role === 'rentUp') return [one(up)];
+  if (role === 'opp') return R > 0 ? [one(R - 1), one(R)] : [one(0)]; // dresseurs de la série ou de la série précédente
+  if (role === 'opp7') return [one(up)];
+  const b = (open ? F.brain.open : F.brain.lv50)[role === 'brain1' ? 0 : 1];
+  return [{ min: b[0], max: b[1], iv: b[2] }];
+}
+function factoryPicker(box, bar, f, C, mvg, redraw, team) {
+  const F = f.factory;
+  const open = C.fLvl === 100;
+  const r = C.fRound || 0;
+  const role = C.fRole || 'opp';
+  const brain = F.brain.name;
+  bar.append(field('Niveau', sel(open ? 100 : 50, [[50, '50'], [100, 'Ouvert (100)']], (v) => { C.fLvl = +v; redraw(); })));
+  bar.append(field('Série', sel(r, [...Array(8).keys()].map((k) => [k, k < 7 ? `${k + 1} (combats ${k * 7 + 1} à ${k * 7 + 7})` : '8 et plus (combats 50+)']), (v) => { C.fRound = +v; redraw(); })));
+  bar.append(field('Pokémon de', sel(role, FACTORY_ROLES.map(([k, l]) => [k, l.replace('Meneur', 'Meneur ' + brain)]), (v) => { C.fRole = v; redraw(); })));
+  const pools = factoryPools(F, open, r, role);
+  const lvl = open ? 100 : 50;
+  // fiches possibles (Zarbi n'est jamais utilisé)
+  const cand = [];
+  f.sets.forEach((s, i) => {
+    if (!s.no || s.sp === 201) return;
+    // la réserve de la série en cours en premier (adversaires : celle de la série précédente reste possible)
+    const ivs = [...pools].reverse().filter((p) => s.no.some((n) => n >= p.min && n <= p.max)).map((p) => p.iv);
+    if (ivs.length) cand.push([i, ivs[0], [...new Set(ivs)]]);
+  });
+  const present = [...new Set(cand.map(([i]) => f.sets[i].sp))].sort((a, b) => S.core.species[a].fr.localeCompare(S.core.species[b].fr, 'fr'));
+  const curSid = findSpecies(C.facQuery || '');
+  bar.append(field('Pokémon', sel(present.includes(curSid) ? curSid : '', [['', `— choisir (${present.length} Pokémon) —`], ...present.map((sid) => [sid, S.core.species[sid].fr])],
+    (v) => { C.facQuery = v ? S.core.species[v].fr : ''; redraw(); })));
+  const rentMode = role === 'rent' || role === 'rentUp';
+  const results = h('div', { class: 'fac-list' });
+  if (curSid && present.includes(curSid)) {
+    for (const [i, iv, allIv] of cand.filter(([i]) => f.sets[i].sp === curSid)) {
+      const row = setRow(f, i, mvg, () => {
+        const m = monFromSet(f, i, lvl, iv);
+        m.src.trainer = role.startsWith('brain') ? `${F.name}, ${brain} (symbole ${role === 'brain1' ? 'Argent' : 'Or'})` : `${F.name}, série ${r < 7 ? r + 1 : '8+'}`;
+        if (rentMode) {
+          const k = team.mons.indexOf(null);
+          if (k < 0) { toast('Équipe pleine : retire un Pokémon dans l\'onglet Équipes'); return; }
+          team.mons[k] = m; toast(S.core.species[m.sp].fr + ' ajouté à ' + team.name); redraw();
+        } else { C.opp = m; redraw(); }
+      }, false);
+      row.querySelector('div').append(h('div', { class: 'muted' }, `IV ${iv}` + (allIv.length > 1 ? ` (ou ${allIv.slice(1).join(', ')} chez un dresseur de la série précédente)` : '') + ` · niveau ${lvl}` + (rentMode ? ' · clic = ajouter à mon équipe' : ' · clic = adversaire')));
+      results.append(row);
+    }
+  }
+  box.append(results);
+  const ivNote = F.ivLast
+    ? 'IV des adversaires : à cause d\'un bug du jeu, ils suivent ta série à la Tour de Combat et non à l\'Usine ; ceux affichés supposent la même série. Noland : IV 15 (symbole Argent) et 31 (symbole Or).'
+    : 'IV : les mêmes pour tes Pokémon loués et pour les adversaires de la même réserve. Thorton : IV 12 (21e combat) et 31 (49e combat).';
+  box.append(h('div', { class: 'muted', style: 'font-size:11px' }, `Fiches et IV d'après le code du jeu (décompilations pret/${F.ivLast ? 'pokeemerald' : 'pokeplatinum'}). Les Pokémon « plus forts » (après assez d'échanges) et le 7e adversaire viennent de la série suivante. ${ivNote} Le talent est tiré au hasard.`));
 }
 
 // ------------------------------------------------------------------ onglet Combat
