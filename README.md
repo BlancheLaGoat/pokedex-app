@@ -39,6 +39,9 @@ Les sprites sont chargés depuis le dépôt PokeAPI sur GitHub (connexion néces
 - **Balls assorties** : jusqu'à 3 Balls légales choisies par couleur/thème pour chaque Pokémon, forme et shiny (feuille « Legal Matching Pokéballs 2.1 » de u/OracleLink, importée par `tools/import_matching_balls.py`).
 - **Codes couleur** (bouton « Couleurs ») : contour doré = légendaire / fabuleux, marron = fossile, violet = obtenable une seule fois dans le jeu, couleur officielle de la version = exclusivité de cette version (ex. rouge pour Rouge, bleu pour Bleu), pointillés = échange nécessaire (couleur de la version qui l'a, ou orange pour une évolution par échange). Exclusivités vérifiées sur la page « Version-exclusive Pokémon » de Bulbapedia (`tools/import_exclusives.py`), couleurs des versions d'après ses modèles `{{<version> color}}`.
 - **Clic sur la case** = capturé, **clic droit** = shiny, **bouton ⋯** en haut à droite = fiche du Pokémon.
+- **Stats** (onglet Stats de la fiche) : stats de base et valeurs au niveau 50 et 100 (Min −, Min, Max, Max +).
+- **Équipes** (Outils → Équipes) : plusieurs équipes de 6, avec pour chaque Pokémon forme, niveau, nature, talent, objet, Téracristal, 4 attaques (liste du jeu choisi), IV, EV et stats calculées.
+- **Combat** (Outils → Combat) : choisis ton équipe, ton Pokémon au combat et un adversaire (niveau, nature, IV, EV, attaques). L'appli calcule les dégâts de chaque attaque (formule de calc.pokemonshowdown.com, adaptée à la génération du jeu de l'équipe : puissance, précision et type des attaques à l'époque, anciens types des Pokémon, ancienne table des types, physique/spécial selon le type avant la 4e génération, coup critique ×2 avant la 6e), indique la meilleure et pourquoi, puis conseille d'attaquer ou de changer de Pokémon : chaque membre de l'équipe a ses chances de gagner le duel (4 000 duels simulés), et l'appli donne l'ordre conseillé. Moteur dans `src/battle.js`, écrans dans `src/teams.js`.
 - **Carte interactive** (onglet Carte de la fiche) : vraie carte du jeu pour chaque région (Johto : carte du PokéMatos de HGSS ; chargée depuis Bulbagarden Archives, connexion internet nécessaire ; seul Extra Illumis reste en schéma), clic sur un lieu = Pokémon de ce lieu zone par zone, capturés grisés. Positions sur les vraies cartes dans `tools/maps_img.py` (la plupart calculées depuis les cartes « <Région> <lieu> Map.png » de Bulbagarden, où le lieu est surligné), schémas dans `tools/maps_data.py`. Cartes Paldea, Septentria et Terra-Dôme incluses. Cartes Hisui, Illumis et Extra Illumis incluses ; Diamant Étincelant/Perle Scintillante utilise la carte de Sinnoh et Rubis Oméga/Saphir Alpha celle de Hoenn (pas de lieux de capture dans PokéAPI).
 - **Fiche** : taux de capture, répartition des sexes, groupes Œuf, chaîne d'évolution avec conditions, talents de la génération du jeu (talent caché + comment l'obtenir), attaques du jeu (niveau, CT/CS/DT, œuf, tuteur), Balls utilisables et Ball enregistrée par jeu.
 
@@ -46,13 +49,14 @@ Les sprites sont chargés depuis le dépôt PokeAPI sur GitHub (connexion néces
 
 - **Import d'une sauvegarde de jeu** (bouton en bas à gauche) : coche les Pokémon de l'équipe et des boîtes PC (shiny compris). Gen 1 à 7, Let's Go, Diamant Étincelant / Perle Scintillante. Pour la 3DS, exporter le fichier « main » avec Checkpoint ou JKSM ; pour la Switch, la sauvegarde exportée (JKSV…). La ROM ne sert à rien : il faut le fichier de sauvegarde.
 
-- **Outils** : arbres à Coup d'Boule d'Or / Argent / Cristal (carte avec les arbres rares selon l'ID dresseur) et arbres à Miel de Diamant / Perle / Platine (arbres à Goinfrex, chances, minuteur).
+- **Outils** : Équipes et Combat (voir plus haut), arbres à Coup d'Boule d'Or / Argent / Cristal (carte avec les arbres rares selon l'ID dresseur) et arbres à Miel de Diamant / Perle / Platine (arbres à Goinfrex, chances, minuteur).
 
 - **Défi du Prof. Chen** (onglet dans chaque jeu) : les Pokémon à attraper avant chaque badge, d'après les listes de Mewlax (r/ProfessorOak), avec avancement par partie. Import : `tools/import_oak.py`.
 
 ## Données
 
 - `data/core.json`, `data/enc/`, `data/moves/` : générés depuis [PokeAPI](https://github.com/PokeAPI/pokeapi) (qui agrège Bulbapedia / Serebii / Veekun) par `tools/build_data.py`.
+- `data/moves-changes.json` : anciennes valeurs des attaques (puissance, précision, type, PP) par génération, depuis `move_changelog.csv` de PokeAPI (`tools/import_move_changes.py`).
 - `data/curated/` : données saisies à la main (étapes de la Gen 1, échanges PNJ, choix exclusifs, notes, Balls par jeu, talents cachés).
 
 **Écarlate / Violet** (+ Masque Turquoise et Disque Indigo) : lieux, biomes, niveaux, moments de la journée et Pokémon fixes importés des tables de capture de Bulbapedia (`data/curated/sv/bulbapedia-catch.tsv`, script `tools/import_sv.py`, à relancer après `build_data.py`). Étapes conseillées, légendaires et choix dans `data/curated/sv.json`. Le « poids » est la fréquence relative d'apparition ; les raids Téracristal ne sont pas comptés.
@@ -77,6 +81,7 @@ python tools/import_extra.py
 python tools/import_exclusives.py
 python tools/import_livingdex.py
 python tools/maps_data.py
+python tools/import_move_changes.py
 ```
 
 ## Journal

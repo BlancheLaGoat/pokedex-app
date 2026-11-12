@@ -1078,13 +1078,13 @@ function renderDrawer() {
   body.append(ctx);
 
   const tabs = h('div', { class: 'd-tabs' });
-  const T = [['obt', 'Obtention'], ['map', 'Carte'], ['evo', 'Évolution'], ['ab', 'Talents'], ['mv', 'Attaques'], ['forms', 'Formes'], ['balls', 'Balls'], ['track', 'Suivi']];
+  const T = [['obt', 'Obtention'], ['map', 'Carte'], ['evo', 'Évolution'], ['ab', 'Talents'], ['stats', 'Stats'], ['mv', 'Attaques'], ['forms', 'Formes'], ['balls', 'Balls'], ['track', 'Suivi']];
   for (const [k, l] of T) tabs.append(h('button', { class: 'd-tab' + (S.drawer.tab === k ? ' active' : ''), onclick: () => { S.drawer.tab = k; renderDrawer(); } }, l));
   body.append(tabs);
   const pane = h('div', { class: 'd-body' });
   body.append(pane);
   $('drawer').classList.toggle('wide', S.drawer.tab === 'map');
-  const fn = { map: paneMap, obt: paneObtention, evo: paneEvolution, ab: paneAbilities, mv: paneMoves, forms: paneForms, balls: paneBalls, track: paneTrack }[S.drawer.tab];
+  const fn = { map: paneMap, obt: paneObtention, evo: paneEvolution, ab: paneAbilities, stats: paneStats, mv: paneMoves, forms: paneForms, balls: paneBalls, track: paneTrack }[S.drawer.tab];
   fn(pane, sid);
 }
 
@@ -1640,24 +1640,32 @@ const HONEY_RATES = { // % par arbre : [normal, Goinfrex] — Diamant / Perle pu
   pt: [[265, 14, 4], [415, 32, 22], [412, 22, 32], [420, 11, 16], [190, 10, 12.5], [214, 1, 3.5], [446, 0, 1], [null, 10, 9]],
 };
 
-function toolSettings() { return S.save.settings.tools || (S.save.settings.tools = { tool: 'headbutt', hbVersion: 6, hbMap: 0, hbZoom: 2, honeyVersion: 'pt', honey: {} }); }
+function toolSettings() { return S.save.settings.tools || (S.save.settings.tools = { tool: 'team', hbVersion: 6, hbMap: 0, hbZoom: 2, honeyVersion: 'pt', honey: {} }); }
 
 function renderTools() {
   const T = toolSettings();
   $('banner').classList.add('hidden');
   $('title').textContent = 'Outils';
-  $('subtitle').textContent = 'Calculateurs pour trouver plus vite certains Pokémon.';
+  $('subtitle').textContent = 'Calculateurs pour trouver plus vite certains Pokémon, équipes et calcul de combat.';
   $('progress').innerHTML = '';
   for (const id of ['toolbar', 'chips', 'legend']) $(id).classList.add('hidden');
   const tabs = $('tabs');
   tabs.innerHTML = '';
   const t = (key, label) => tabs.append(h('button', { class: 'tab' + (T.tool === key ? ' active' : ''), onclick: () => { T.tool = key; persist(); renderTools(); } }, label));
+  t('team', 'Équipes');
+  t('calc', 'Combat');
   t('headbutt', "Arbres à Coup d'Boule (Or / Argent / Cristal)");
   t('honey', 'Arbres à Miel (Diamant / Perle / Platine)');
   const content = $('content');
   content.innerHTML = '';
   clearInterval(S.honeyTimer);
-  if (T.tool === 'honey') renderHoney(content, T); else renderHeadbutt(content, T);
+  const keepY = content.scrollTop;
+  if (T.tool === 'honey') renderHoney(content, T);
+  else if (T.tool === 'team' || T.tool === 'calc') {
+    // rendu asynchrone (chargement des attaques apprises) ; on garde la position de défilement
+    const box = h('div');
+    (T.tool === 'team' ? renderTeams : renderCalc)(box).then(() => { if ($('content') === content && toolSettings().tool === T.tool) { content.innerHTML = ''; content.append(box); content.scrollTop = keepY; } });
+  } else renderHeadbutt(content, T);
 }
 
 function tidInput(T, key, label) {
